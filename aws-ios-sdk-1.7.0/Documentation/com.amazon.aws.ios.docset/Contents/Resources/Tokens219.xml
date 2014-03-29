@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBWriteRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBWriteRequest</TokenIdentifier>
+			<Abstract type="html">Write Request</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>
+			
+			<NodeRef refid="219"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBWriteRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBWriteRequest/setPutRequest:</TokenIdentifier>
+			<Abstract type="html">Represents a request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBPutRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBWriteRequest/putRequest</TokenIdentifier>
+			<Abstract type="html">Represents a request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBPutRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBWriteRequest/setDeleteRequest:</TokenIdentifier>
+			<Abstract type="html">Represents a request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBDeleteRequest *deleteRequest</Declaration>
+			
+			
+			<Anchor>//api/name/deleteRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBWriteRequest/deleteRequest</TokenIdentifier>
+			<Abstract type="html">Represents a request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBDeleteRequest *deleteRequest</Declaration>
+			
+			
+			<Anchor>//api/name/deleteRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBWriteRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBWriteRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchEnableAlarmActionsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchEnableAlarmActionsResponse</TokenIdentifier>
+			<Abstract type="html">Enable Alarm Actions</Abstract>
+			<DeclaredIn>CloudWatchEnableAlarmActionsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="140"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

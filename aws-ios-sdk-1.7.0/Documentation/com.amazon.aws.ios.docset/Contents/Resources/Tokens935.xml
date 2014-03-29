@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SimpleDBRequest.h</DeclaredIn>
+			
+			<NodeRef refid="935"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

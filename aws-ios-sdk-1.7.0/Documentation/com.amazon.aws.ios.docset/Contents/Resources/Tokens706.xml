@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3UploadPartRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3UploadPartRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the uploadPart operation.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>
+			
+			<NodeRef refid="706"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setPartNumber:</TokenIdentifier>
+			<Abstract type="html">Identifies which part this is.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/partNumber</TokenIdentifier>
+			<Abstract type="html">Identifies which part this is.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html">The base64-encoded 128-bit MD5 digest of the part data.
+This header can be used as a message integrity check to verify
+that the part data is the same data that was originally sent.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html">The base64-encoded 128-bit MD5 digest of the part data.
+This header can be used as a message integrity check to verify
+that the part data is the same data that was originally sent.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setGenerateMD5:</TokenIdentifier>
+			<Abstract type="html">If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL generateMD5</Declaration>
+			
+			
+			<Anchor>//api/name/generateMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/generateMD5</TokenIdentifier>
+			<Abstract type="html">If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL generateMD5</Declaration>
+			
+			
+			<Anchor>//api/name/generateMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload that this part is for.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload that this part is for.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setData:</TokenIdentifier>
+			<Abstract type="html">The data for the part.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/data</TokenIdentifier>
+			<Abstract type="html">The data for the part.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/setStream:</TokenIdentifier>
+			<Abstract type="html">The stream from which to read the data for the part.
+&lt;b&gt;To use the stream you must explicitly set the content length.&lt;b/&gt;
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt; or &lt;code&gt;stream&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadPartRequest/stream</TokenIdentifier>
+			<Abstract type="html">The stream from which to read the data for the part.
+&lt;b&gt;To use the stream you must explicitly set the content length.&lt;b/&gt;
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt; or &lt;code&gt;stream&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadPartRequest/initWithMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Initializes the instance with the bucket, key, and uploadId from an S3MultipartUpload instance returned in an S3MultipartUploadResponse.</Abstract>
+			<DeclaredIn>S3UploadPartRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMultipartUpload:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

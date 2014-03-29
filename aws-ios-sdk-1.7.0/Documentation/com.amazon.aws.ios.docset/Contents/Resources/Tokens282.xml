@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteKeyPairRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteKeyPairRequest</TokenIdentifier>
+			<Abstract type="html">Delete Key Pair Request</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>
+			
+			<NodeRef refid="282"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteKeyPairRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DeleteKeyPairRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteKeyPairRequest/setKeyName:</TokenIdentifier>
+			<Abstract type="html">The name of the Amazon EC2 key pair to delete.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DeleteKeyPairRequest/keyName</TokenIdentifier>
+			<Abstract type="html">The name of the Amazon EC2 key pair to delete.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteKeyPairRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteKeyPairRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteKeyPairRequest/initWithKeyName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteKeyPairRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithKeyName:(NSString *)theKeyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theKeyName</Name>
+					<Abstract type="html">The name of the Amazon EC2 key pair to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithKeyName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteKeyPairRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

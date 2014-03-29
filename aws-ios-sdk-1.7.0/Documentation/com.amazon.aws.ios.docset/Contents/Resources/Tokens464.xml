@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ReservedInstancesListing.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ReservedInstancesListing</TokenIdentifier>
+			<Abstract type="html">Reserved Instances Listing</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>
+			
+			<NodeRef refid="464"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setReservedInstancesListingId:</TokenIdentifier>
+			<Abstract type="html">The value of the ReservedInstancesListingId property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesListingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/reservedInstancesListingId</TokenIdentifier>
+			<Abstract type="html">The value of the ReservedInstancesListingId property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesListingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setReservedInstancesId:</TokenIdentifier>
+			<Abstract type="html">The value of the ReservedInstancesId property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">The value of the ReservedInstancesId property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setCreateDate:</TokenIdentifier>
+			<Abstract type="html">The value of the CreateDate property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createDate</Declaration>
+			
+			
+			<Anchor>//api/name/createDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/createDate</TokenIdentifier>
+			<Abstract type="html">The value of the CreateDate property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createDate</Declaration>
+			
+			
+			<Anchor>//api/name/createDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setUpdateDate:</TokenIdentifier>
+			<Abstract type="html">The value of the UpdateDate property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateDate</Declaration>
+			
+			
+			<Anchor>//api/name/updateDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/updateDate</TokenIdentifier>
+			<Abstract type="html">The value of the UpdateDate property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateDate</Declaration>
+			
+			
+			<Anchor>//api/name/updateDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;active, pending, cancelled, closed</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/status</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;active, pending, cancelled, closed</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">The value of the StatusMessage property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/statusMessage</TokenIdentifier>
+			<Abstract type="html">The value of the StatusMessage property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setInstanceCounts:</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceCounts property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceCounts</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCounts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/instanceCounts</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceCounts property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceCounts</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCounts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setPriceSchedules:</TokenIdentifier>
+			<Abstract type="html">The value of the PriceSchedules property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *priceSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/priceSchedules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/priceSchedules</TokenIdentifier>
+			<Abstract type="html">The value of the PriceSchedules property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *priceSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/priceSchedules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setTags:</TokenIdentifier>
+			<Abstract type="html">The value of the Tags property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/tags</TokenIdentifier>
+			<Abstract type="html">The value of the Tags property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/setClientToken:</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesListing/clientToken</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/addInstanceCount:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instanceCounts.
+This function will alloc and init instanceCounts if not already done.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstanceCount:(EC2InstanceCount *)instanceCountObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstanceCount:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/addPriceSchedule:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to priceSchedules.
+This function will alloc and init priceSchedules if not already done.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPriceSchedule:(EC2PriceSchedule *)priceScheduleObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPriceSchedule:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesListing/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesListing.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ModifyInstanceAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyInstanceAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Modify Instance Attribute Request</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="426"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being modified. &lt;p&gt; Available attribute
+names: &lt;code&gt;instanceType&lt;/code&gt;, &lt;code&gt;kernel&lt;/code&gt;,
+&lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;,
+&lt;code&gt;disableApiTermination&lt;/code&gt;,
+&lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt;,
+&lt;code&gt;rootDevice&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instanceType, kernel, ramdisk, userData, disableApiTermination, instanceInitiatedShutdownBehavior, rootDeviceName, blockDeviceMapping, productCodes, sourceDestCheck, groupSet, ebsOptimized</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being modified. &lt;p&gt; Available attribute
+names: &lt;code&gt;instanceType&lt;/code&gt;, &lt;code&gt;kernel&lt;/code&gt;,
+&lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;,
+&lt;code&gt;disableApiTermination&lt;/code&gt;,
+&lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt;,
+&lt;code&gt;rootDevice&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instanceType, kernel, ramdisk, userData, disableApiTermination, instanceInitiatedShutdownBehavior, rootDeviceName, blockDeviceMapping, productCodes, sourceDestCheck, groupSet, ebsOptimized</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setValue:</TokenIdentifier>
+			<Abstract type="html">The new value of the instance attribute being modified. &lt;p&gt; Only valid
+when &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;,
+&lt;code&gt;disableApiTermination&lt;/code&gt; or
+&lt;code&gt;instanceInitiateShutdownBehavior&lt;/code&gt; is specified as the
+attribute being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">The new value of the instance attribute being modified. &lt;p&gt; Only valid
+when &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;,
+&lt;code&gt;disableApiTermination&lt;/code&gt; or
+&lt;code&gt;instanceInitiateShutdownBehavior&lt;/code&gt; is specified as the
+attribute being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">The new block device mappings for the instance whose attributes are
+being modified. &lt;p&gt; Only valid when blockDeviceMapping is specified as
+the attribute being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">The new block device mappings for the instance whose attributes are
+being modified. &lt;p&gt; Only valid when blockDeviceMapping is specified as
+the attribute being modified.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setDisableApiTermination:</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setKernel:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernel</Declaration>
+			
+			
+			<Anchor>//api/name/kernel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/kernel</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernel</Declaration>
+			
+			
+			<Anchor>//api/name/kernel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setRamdisk:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdisk</Declaration>
+			
+			
+			<Anchor>//api/name/ramdisk</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/ramdisk</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdisk</Declaration>
+			
+			
+			<Anchor>//api/name/ramdisk</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setUserData:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/userData</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setInstanceInitiatedShutdownBehavior:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setGroups:</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/groups</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyInstanceAttributeRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">Boolean value</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ModifyInstanceAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/initWithInstanceId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ModifyInstanceAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithInstanceId:(NSString *)theInstanceId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the instance whose attribute is being
+modified.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the attribute being modified. &lt;p&gt;
+Available attribute names: &lt;code&gt;instanceType&lt;/code&gt;,
+&lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;,
+&lt;code&gt;disableApiTermination&lt;/code&gt;,
+&lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt;,
+&lt;code&gt;rootDevice&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithInstanceId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2InstanceBlockDeviceMappingSpecification *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/addGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groups.
+This function will alloc and init groups if not already done.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroup:(NSString *)groupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyInstanceAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

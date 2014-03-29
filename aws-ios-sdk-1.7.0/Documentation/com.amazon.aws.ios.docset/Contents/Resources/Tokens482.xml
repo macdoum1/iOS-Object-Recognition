@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2SpotDatafeedSubscription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2SpotDatafeedSubscription</TokenIdentifier>
+			<Abstract type="html">Spot Datafeed Subscription</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>
+			
+			<NodeRef refid="482"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">Specifies the AWS account ID of the account.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotDatafeedSubscription/ownerId</TokenIdentifier>
+			<Abstract type="html">Specifies the AWS account ID of the account.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/setBucket:</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon S3 bucket where the Spot Instance data feed is
+located.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotDatafeedSubscription/bucket</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon S3 bucket where the Spot Instance data feed is
+located.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/setPrefix:</TokenIdentifier>
+			<Abstract type="html">Contains the prefix that is prepended to data feed files.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotDatafeedSubscription/prefix</TokenIdentifier>
+			<Abstract type="html">Contains the prefix that is prepended to data feed files.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/setState:</TokenIdentifier>
+			<Abstract type="html">Specifies the state of the Spot Instance request.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Active, Inactive</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotDatafeedSubscription/state</TokenIdentifier>
+			<Abstract type="html">Specifies the state of the Spot Instance request.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Active, Inactive</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/setFault:</TokenIdentifier>
+			<Abstract type="html">Specifies a fault code for the Spot Instance request, if present.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStateFault *fault</Declaration>
+			
+			
+			<Anchor>//api/name/fault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotDatafeedSubscription/fault</TokenIdentifier>
+			<Abstract type="html">Specifies a fault code for the Spot Instance request, if present.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStateFault *fault</Declaration>
+			
+			
+			<Anchor>//api/name/fault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotDatafeedSubscription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2SpotDatafeedSubscription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

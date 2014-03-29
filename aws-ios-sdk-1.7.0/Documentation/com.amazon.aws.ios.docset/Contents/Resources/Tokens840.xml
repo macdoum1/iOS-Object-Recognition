@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSDeleteQueueRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteQueueRequest</TokenIdentifier>
+			<Abstract type="html">Delete Queue Request</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>
+			
+			<NodeRef refid="840"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteQueueRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteQueueRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteQueueRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteQueueRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteQueueRequest/initWithQueueUrl:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteQueueRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteQueueRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSDeleteQueueRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

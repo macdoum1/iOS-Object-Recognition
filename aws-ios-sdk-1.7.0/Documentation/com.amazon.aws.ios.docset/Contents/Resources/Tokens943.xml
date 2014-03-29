@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+WithBase64.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(WithBase64)</TokenIdentifier>
+			<Abstract type="html">This category Adds Base64 encoding to the NSData class.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>
+			
+			<NodeRef refid="943"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSData(WithBase64)/base64EncodedString</TokenIdentifier>
+			<Abstract type="html">Return a base64 encoded representation of the data.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)base64EncodedString</Declaration>
+			
+			<ReturnValue><Abstract type="html">base64 encoded representation of the data.</Abstract></ReturnValue>
+			<Anchor>//api/name/base64EncodedString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSData(WithBase64)/dataWithBase64EncodedString:</TokenIdentifier>
+			<Abstract type="html">Decode a base-64 encoded string into a new NSData object.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)dataWithBase64EncodedString:(NSString *)encodedString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>encodedString</Name>
+					<Abstract type="html">an base-64 encoded string</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSData with the data represented by the encoded string.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataWithBase64EncodedString:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

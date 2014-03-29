@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Owner.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Owner</TokenIdentifier>
+			<Abstract type="html">Represents an Owner of an Amazon S3 Bucket.</Abstract>
+			<DeclaredIn>S3Owner.h</DeclaredIn>
+			
+			<NodeRef refid="678"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Owner/setID:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the owner ID</Abstract>
+			<DeclaredIn>S3Owner.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ID</Declaration>
+			
+			
+			<Anchor>//api/name/ID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Owner/ID</TokenIdentifier>
+			<Abstract type="html">Gets and sets the owner ID</Abstract>
+			<DeclaredIn>S3Owner.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ID</Declaration>
+			
+			
+			<Anchor>//api/name/ID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Owner/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the owner display name</Abstract>
+			<DeclaredIn>S3Owner.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Owner/displayName</TokenIdentifier>
+			<Abstract type="html">Gets and sets the owner display name</Abstract>
+			<DeclaredIn>S3Owner.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

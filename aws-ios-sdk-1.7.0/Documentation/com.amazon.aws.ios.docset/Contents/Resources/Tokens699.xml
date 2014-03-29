@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketVersioningConfigurationRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketVersioningConfigurationRequest</TokenIdentifier>
+			<Abstract type="html">Sets the versioning configuration for the specified bucket.</Abstract>
+			<DeclaredIn>S3SetBucketVersioningConfigurationRequest.h</DeclaredIn>
+			
+			<NodeRef refid="699"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

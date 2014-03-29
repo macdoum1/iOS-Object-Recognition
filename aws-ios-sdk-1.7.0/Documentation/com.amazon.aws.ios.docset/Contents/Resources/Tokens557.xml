@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingInstanceState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingInstanceState</TokenIdentifier>
+			<Abstract type="html">Instance State</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>
+			
+			<NodeRef refid="557"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">Provides an EC2 instance ID.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingInstanceState/instanceId</TokenIdentifier>
+			<Abstract type="html">Provides an EC2 instance ID.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/setState:</TokenIdentifier>
+			<Abstract type="html">Specifies the current status of the instance.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingInstanceState/state</TokenIdentifier>
+			<Abstract type="html">Specifies the current status of the instance.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/setReasonCode:</TokenIdentifier>
+			<Abstract type="html">Provides information about the cause of &lt;i&gt;OutOfService&lt;/i&gt; instances.
+Specifically, it indicates whether the cause is Elastic Load Balancing
+or the instance behind the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reasonCode</Declaration>
+			
+			
+			<Anchor>//api/name/reasonCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingInstanceState/reasonCode</TokenIdentifier>
+			<Abstract type="html">Provides information about the cause of &lt;i&gt;OutOfService&lt;/i&gt; instances.
+Specifically, it indicates whether the cause is Elastic Load Balancing
+or the instance behind the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reasonCode</Declaration>
+			
+			
+			<Anchor>//api/name/reasonCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">Provides a description of the instance.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingInstanceState/descriptionValue</TokenIdentifier>
+			<Abstract type="html">Provides a description of the instance.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new InstanceState object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingInstanceState/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingInstanceState.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2BundleTaskError.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2BundleTaskError</TokenIdentifier>
+			<Abstract type="html">Bundle Task Error</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>
+			
+			<NodeRef refid="239"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTaskError/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTaskError/setCode:</TokenIdentifier>
+			<Abstract type="html">Error code.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTaskError/code</TokenIdentifier>
+			<Abstract type="html">Error code.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTaskError/setMessage:</TokenIdentifier>
+			<Abstract type="html">Error message.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTaskError/message</TokenIdentifier>
+			<Abstract type="html">Error message.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTaskError/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2BundleTaskError.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonClientException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonClientException</TokenIdentifier>
+			<Abstract type="html">Generic excpetion type for AWS client errors
+Client exceptions are thrown for conditions which occur in the client and its
+configuration. These are conditions which need to be corrected in
+the client. Service exceptions are indicated by throwing AWSServiceException.</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonClientException/setMessage:</TokenIdentifier>
+			<Abstract type="html">Description of the exception</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonClientException/message</TokenIdentifier>
+			<Abstract type="html">Description of the exception</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonClientException/setError:</TokenIdentifier>
+			<Abstract type="html">The error that caused the exception.</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonClientException/error</TokenIdentifier>
+			<Abstract type="html">The error that caused the exception.</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonClientException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonClientException/exceptionWithMessage:</TokenIdentifier>
+			<Abstract type="html">Return an exception with the given message</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>+ (id)exceptionWithMessage:(NSString *)theMessage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theMessage</Name>
+					<Abstract type="html">The user-friendly message</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/exceptionWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonClientException/exceptionWithMessage:andError:</TokenIdentifier>
+			<Abstract type="html">Return an exception with the given message and error.</Abstract>
+			<DeclaredIn>AmazonClientException.h</DeclaredIn>			
+			
+			<Declaration>+ (id)exceptionWithMessage:(NSString *)theMessage andError:(NSError *)theError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theMessage</Name>
+					<Abstract type="html">The user-friendly message</Abstract>
+				</Parameter><Parameter>
+					<Name>theError</Name>
+					<Abstract type="html">The error</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/exceptionWithMessage:andError:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DeletedObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DeletedObject</TokenIdentifier>
+			<Abstract type="html">A successfully deleted object.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>
+			
+			<NodeRef refid="166"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeletedObject/setKey:</TokenIdentifier>
+			<Abstract type="html">Returns the key that was successfully deleted.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeletedObject/key</TokenIdentifier>
+			<Abstract type="html">Returns the key that was successfully deleted.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeletedObject/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Returns the version deleted, or null for unversioned objects.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeletedObject/versionId</TokenIdentifier>
+			<Abstract type="html">Returns the version deleted, or null for unversioned objects.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeletedObject/setDeleteMarker:</TokenIdentifier>
+			<Abstract type="html">Returns whether the object deleted was a delete marker.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL deleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeletedObject/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Returns whether the object deleted was a delete marker.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL deleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeletedObject/setDeleteMarkerVersionId:</TokenIdentifier>
+			<Abstract type="html">Returns the versionId for the delete marker that was created when
+doing a non-versioned delete in a versioned bucket.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deleteMarkerVersionId</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarkerVersionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeletedObject/deleteMarkerVersionId</TokenIdentifier>
+			<Abstract type="html">Returns the versionId for the delete marker that was created when
+doing a non-versioned delete in a versioned bucket.</Abstract>
+			<DeclaredIn>DeletedObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deleteMarkerVersionId</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarkerVersionId</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

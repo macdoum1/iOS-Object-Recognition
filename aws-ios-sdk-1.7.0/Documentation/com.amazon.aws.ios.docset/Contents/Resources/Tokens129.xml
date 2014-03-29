@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchDescribeAlarmHistoryRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmHistoryRequest</TokenIdentifier>
+			<Abstract type="html">Describe Alarm History Request</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>
+			
+			<NodeRef refid="129"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setAlarmName:</TokenIdentifier>
+			<Abstract type="html">The name of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/alarmName</TokenIdentifier>
+			<Abstract type="html">The name of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setHistoryItemType:</TokenIdentifier>
+			<Abstract type="html">The type of alarm histories to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ConfigurationUpdate, StateUpdate, Action</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyItemType</Declaration>
+			
+			
+			<Anchor>//api/name/historyItemType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/historyItemType</TokenIdentifier>
+			<Abstract type="html">The type of alarm histories to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ConfigurationUpdate, StateUpdate, Action</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyItemType</Declaration>
+			
+			
+			<Anchor>//api/name/historyItemType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setStartDate:</TokenIdentifier>
+			<Abstract type="html">The starting date to retrieve alarm history.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/startDate</TokenIdentifier>
+			<Abstract type="html">The starting date to retrieve alarm history.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setEndDate:</TokenIdentifier>
+			<Abstract type="html">The ending date to retrieve alarm history.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/endDate</TokenIdentifier>
+			<Abstract type="html">The ending date to retrieve alarm history.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">The maximum number of alarm history records to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/maxRecords</TokenIdentifier>
+			<Abstract type="html">The maximum number of alarm history records to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The token returned by a previous call to indicate that there is more
+data available.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">The token returned by a previous call to indicate that there is more
+data available.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

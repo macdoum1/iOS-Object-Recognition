@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSAddPermissionRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSAddPermissionRequest</TokenIdentifier>
+			<Abstract type="html">Add Permission Request</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>
+			
+			<NodeRef refid="757"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic whose access control policy you wish to modify.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSAddPermissionRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic whose access control policy you wish to modify.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/setLabel:</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the new policy statement.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSAddPermissionRequest/label</TokenIdentifier>
+			<Abstract type="html">A unique identifier for the new policy statement.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/setAWSAccountIds:</TokenIdentifier>
+			<Abstract type="html">The AWS account IDs of the users (principals) who will be given access
+to the specified actions. The users must have AWS accounts, but do not
+need to be signed up for this service. &lt;!--For information about
+locating the AWS account identification, see &lt;a
+eService/latest/SQSDeveloperGuide/index.html?AWSCredentials.html&quot;&gt;Your
+AWS Identifiers&lt;/aulink&gt; in the &amp;amp;service; Developer Guide.--&gt;</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *aWSAccountIds</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccountIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSAddPermissionRequest/aWSAccountIds</TokenIdentifier>
+			<Abstract type="html">The AWS account IDs of the users (principals) who will be given access
+to the specified actions. The users must have AWS accounts, but do not
+need to be signed up for this service. &lt;!--For information about
+locating the AWS account identification, see &lt;a
+eService/latest/SQSDeveloperGuide/index.html?AWSCredentials.html&quot;&gt;Your
+AWS Identifiers&lt;/aulink&gt; in the &amp;amp;service; Developer Guide.--&gt;</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *aWSAccountIds</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccountIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/setActionNames:</TokenIdentifier>
+			<Abstract type="html">The action you want to allow for the specified principal(s). &lt;p&gt;Valid
+values: any Amazon SNS action name.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actionNames</Declaration>
+			
+			
+			<Anchor>//api/name/actionNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSAddPermissionRequest/actionNames</TokenIdentifier>
+			<Abstract type="html">The action you want to allow for the specified principal(s). &lt;p&gt;Valid
+values: any Amazon SNS action name.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actionNames</Declaration>
+			
+			
+			<Anchor>//api/name/actionNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new AddPermissionRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/initWithTopicArn:andLabel:andAWSAccountIds:andActionNames:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AddPermissionRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andLabel:(NSString *)theLabel andAWSAccountIds:(NSMutableArray *)theAWSAccountIds andActionNames:(NSMutableArray *)theActionNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic whose access control policy
+you wish to modify.</Abstract>
+				</Parameter><Parameter>
+					<Name>theLabel</Name>
+					<Abstract type="html">A unique identifier for the new policy statement.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAWSAccountIds</Name>
+					<Abstract type="html">The AWS account IDs of the users (principals)
+who will be given access to the specified actions. The users must have
+AWS accounts, but do not need to be signed up for this service.
+&lt;!--For information about locating the AWS account identification, see
+&lt;a
+eService/latest/SQSDeveloperGuide/index.html?AWSCredentials.html&quot;&gt;Your
+AWS Identifiers&lt;/aulink&gt; in the &amp;amp;service; Developer Guide.--&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theActionNames</Name>
+					<Abstract type="html">The action you want to allow for the specified
+principal(s). &lt;p&gt;Valid values: any Amazon SNS action name.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andLabel:andAWSAccountIds:andActionNames:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/addAWSAccountId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to aWSAccountIds.
+This function will alloc and init aWSAccountIds if not already done.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAWSAccountId:(NSString *)aWSAccountIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAWSAccountId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/addActionName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to actionNames.
+This function will alloc and init actionNames if not already done.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addActionName:(NSString *)actionNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addActionName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSAddPermissionRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

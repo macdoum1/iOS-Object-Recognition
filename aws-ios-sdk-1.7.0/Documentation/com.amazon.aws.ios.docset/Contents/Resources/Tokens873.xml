@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSSetQueueAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSetQueueAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Set Queue Attributes</Abstract>
+			<DeclaredIn>SQSSetQueueAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="873"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

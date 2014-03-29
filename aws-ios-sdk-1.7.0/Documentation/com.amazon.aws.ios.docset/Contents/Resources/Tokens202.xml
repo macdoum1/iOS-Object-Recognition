@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBProvisionedThroughputExceededException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBProvisionedThroughputExceededException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The request rate is too high, or the request is too large, for the
+available throughput to accommodate. The AWS SDKs automatically retry
+requests that receive this exception; therefore, your request will
+eventually succeed, unless the request is too large or your retry
+queue is too large to finish. Reduce the frequency of requests by
+using the strategies listed in &lt;a
+m/amazondynamodb/latest/developerguide/ErrorHandling.html#APIRetries&quot;&gt;
+Error Retries and Exponential Backoff &lt;/a&gt; in the Amazon DynamoDB
+Developer Guide.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputExceededException.h</DeclaredIn>
+			
+			<NodeRef refid="202"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputExceededException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputExceededException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputExceededException/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputExceededException.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

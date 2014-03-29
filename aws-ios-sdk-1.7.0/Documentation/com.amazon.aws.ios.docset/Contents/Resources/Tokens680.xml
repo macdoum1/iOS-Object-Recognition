@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Permission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Permission</TokenIdentifier>
+			<Abstract type="html">An enumeration of all ACL permissions. For more information, refer:</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>
+			
+			<NodeRef refid="680"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/readPermission</TokenIdentifier>
+			<Abstract type="html">Read Permission.
+When applied to a bucket, grants permission to list the bucket.
+When applied to an object, this grants permission to read the
+object data and/or metadata.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)readPermission</Declaration>
+			
+			
+			<Anchor>//api/name/readPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/writePermission</TokenIdentifier>
+			<Abstract type="html">Write permission.
+When applied to a bucket, grants permission to create, overwrite,
+and delete any object in the bucket. This permission is not
+supported for objects.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)writePermission</Declaration>
+			
+			
+			<Anchor>//api/name/writePermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/fullControlPermission</TokenIdentifier>
+			<Abstract type="html">The union of the other permissions.
+Provides readPermission, writePermission, readAcpPermission, and writeAcpPermission.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)fullControlPermission</Declaration>
+			
+			
+			<Anchor>//api/name/fullControlPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/readAcpPermission</TokenIdentifier>
+			<Abstract type="html">Grants permission to read the ACL for the applicable bucket or object.
+The owner of a bucket or object always has this permission implicitly.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)readAcpPermission</Declaration>
+			
+			
+			<Anchor>//api/name/readAcpPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/writeAcpPermission</TokenIdentifier>
+			<Abstract type="html">Gives permission to overwrite the Access Control Policy for the applicable bucket or object.
+The owner of a bucket or object always has this permission implicitly.
+Granting this permission is equivalent to granting FullControl because
+the grant recipient can make any changes to the ACP.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)writeAcpPermission</Declaration>
+			
+			
+			<Anchor>//api/name/writeAcpPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Permission/permissionWithString:</TokenIdentifier>
+			<Abstract type="html">Get the permission by the string supplied.</Abstract>
+			<DeclaredIn>S3Permission.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Permission *)permissionWithString:(NSString *)code</Declaration>
+			
+			
+			<Anchor>//api/name/permissionWithString:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

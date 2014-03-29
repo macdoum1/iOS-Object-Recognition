@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBDeleteDomainResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBDeleteDomainResponse</TokenIdentifier>
+			<Abstract type="html">Delete Domain</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainResponse.h</DeclaredIn>
+			
+			<NodeRef refid="909"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

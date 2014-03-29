@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ResetSnapshotAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ResetSnapshotAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Reset Snapshot Attribute Request</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="472"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetSnapshotAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">The ID of the snapshot whose attribute is being reset.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetSnapshotAttributeRequest/snapshotId</TokenIdentifier>
+			<Abstract type="html">The ID of the snapshot whose attribute is being reset.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being reset. &lt;p&gt; Available attribute names:
+&lt;code&gt;createVolumePermission&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;productCodes, createVolumePermission</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetSnapshotAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being reset. &lt;p&gt; Available attribute names:
+&lt;code&gt;createVolumePermission&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;productCodes, createVolumePermission</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ResetSnapshotAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/initWithSnapshotId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ResetSnapshotAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSnapshotId:(NSString *)theSnapshotId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theSnapshotId</Name>
+					<Abstract type="html">The ID of the snapshot whose attribute is being
+reset.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the attribute being reset. &lt;p&gt;
+Available attribute names: &lt;code&gt;createVolumePermission&lt;/code&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSnapshotId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetSnapshotAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

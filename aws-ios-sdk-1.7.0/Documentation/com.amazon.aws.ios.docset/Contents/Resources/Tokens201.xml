@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBProvisionedThroughputDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBProvisionedThroughputDescription</TokenIdentifier>
+			<Abstract type="html">Provisioned Throughput Description</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>
+			
+			<NodeRef refid="201"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/setLastIncreaseDateTime:</TokenIdentifier>
+			<Abstract type="html">The date and time of the last provisioned throughput increase for this
+table.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastIncreaseDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastIncreaseDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProvisionedThroughputDescription/lastIncreaseDateTime</TokenIdentifier>
+			<Abstract type="html">The date and time of the last provisioned throughput increase for this
+table.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastIncreaseDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastIncreaseDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/setLastDecreaseDateTime:</TokenIdentifier>
+			<Abstract type="html">The date and time of the last provisioned throughput decrease for this
+table.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastDecreaseDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastDecreaseDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProvisionedThroughputDescription/lastDecreaseDateTime</TokenIdentifier>
+			<Abstract type="html">The date and time of the last provisioned throughput decrease for this
+table.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastDecreaseDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastDecreaseDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/setNumberOfDecreasesToday:</TokenIdentifier>
+			<Abstract type="html">The number of provisioned throughput decreases for this table during
+this UTC calendar day. For current maximums on provisioned throughput
+decreases, see &lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfDecreasesToday</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDecreasesToday</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProvisionedThroughputDescription/numberOfDecreasesToday</TokenIdentifier>
+			<Abstract type="html">The number of provisioned throughput decreases for this table during
+this UTC calendar day. For current maximums on provisioned throughput
+decreases, see &lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfDecreasesToday</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDecreasesToday</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/setReadCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">The maximum number of strongly consistent reads consumed per second
+before Amazon DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.
+Eventually consistent reads require less effort than strongly
+consistent reads, so a setting of 50 &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per
+second provides 100 eventually consistent &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per
+second.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *readCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/readCapacityUnits</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProvisionedThroughputDescription/readCapacityUnits</TokenIdentifier>
+			<Abstract type="html">The maximum number of strongly consistent reads consumed per second
+before Amazon DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.
+Eventually consistent reads require less effort than strongly
+consistent reads, so a setting of 50 &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per
+second provides 100 eventually consistent &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per
+second.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *readCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/readCapacityUnits</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/setWriteCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">The maximum number of writes consumed per second before Amazon
+DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *writeCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProvisionedThroughputDescription/writeCapacityUnits</TokenIdentifier>
+			<Abstract type="html">The maximum number of writes consumed per second before Amazon
+DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *writeCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProvisionedThroughputDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBProvisionedThroughputDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

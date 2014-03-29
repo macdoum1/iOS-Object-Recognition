@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDescribeLoadBalancersRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancersRequest</TokenIdentifier>
+			<Abstract type="html">Describe Load Balancers Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>
+			
+			<NodeRef refid="544"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/setLoadBalancerNames:</TokenIdentifier>
+			<Abstract type="html">A list of names associated with the LoadBalancers at creation time.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *loadBalancerNames</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDescribeLoadBalancersRequest/loadBalancerNames</TokenIdentifier>
+			<Abstract type="html">A list of names associated with the LoadBalancers at creation time.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *loadBalancerNames</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/setMarker:</TokenIdentifier>
+			<Abstract type="html">An optional parameter reserved for future use.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDescribeLoadBalancersRequest/marker</TokenIdentifier>
+			<Abstract type="html">An optional parameter reserved for future use.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DescribeLoadBalancersRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/initWithLoadBalancerNames:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DescribeLoadBalancersRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLoadBalancerNames:(NSMutableArray *)theLoadBalancerNames</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theLoadBalancerNames</Name>
+					<Abstract type="html">A list of names associated with the
+LoadBalancers at creation time.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLoadBalancerNames:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/addLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to loadBalancerNames.
+This function will alloc and init loadBalancerNames if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLoadBalancerName:(NSString *)loadBalancerNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLoadBalancerName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancersRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancersRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

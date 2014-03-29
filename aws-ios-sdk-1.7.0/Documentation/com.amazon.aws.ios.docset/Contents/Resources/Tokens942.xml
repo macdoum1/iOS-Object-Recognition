@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+CRC32.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(CRC32)</TokenIdentifier>
+			<Abstract type="html">This category adds CRC32 calculation to the NSData class.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>
+			
+			<NodeRef refid="942"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSData(CRC32)/crc32</TokenIdentifier>
+			<Abstract type="html">Calculate the CRC32 value for the NSData object.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (uint32_t)crc32</Declaration>
+			
+			<ReturnValue><Abstract type="html">value of CRC32 calculation for this NSData object.</Abstract></ReturnValue>
+			<Anchor>//api/name/crc32</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

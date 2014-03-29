@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SQSRequest.h</DeclaredIn>
+			
+			<NodeRef refid="864"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

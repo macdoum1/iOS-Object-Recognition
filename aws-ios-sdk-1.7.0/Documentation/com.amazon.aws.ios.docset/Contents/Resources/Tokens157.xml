@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchPutMetricDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricDataRequest</TokenIdentifier>
+			<Abstract type="html">Put Metric Data Request</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>
+			
+			<NodeRef refid="157"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchPutMetricDataRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchPutMetricDataRequest/setNamespace:</TokenIdentifier>
+			<Abstract type="html">The namespace for the metric data. &lt;note&gt; You cannot specify a
+namespace that begins with &quot;AWS/&quot;. Namespaces that begin with &quot;AWS/&quot;
+are reserved for other Amazon Web Services products that send metrics
+to Amazon CloudWatch. &lt;/note&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchPutMetricDataRequest/namespace</TokenIdentifier>
+			<Abstract type="html">The namespace for the metric data. &lt;note&gt; You cannot specify a
+namespace that begins with &quot;AWS/&quot;. Namespaces that begin with &quot;AWS/&quot;
+are reserved for other Amazon Web Services products that send metrics
+to Amazon CloudWatch. &lt;/note&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchPutMetricDataRequest/setMetricDatas:</TokenIdentifier>
+			<Abstract type="html">A list of data describing the metric.</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metricDatas</Declaration>
+			
+			
+			<Anchor>//api/name/metricDatas</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchPutMetricDataRequest/metricDatas</TokenIdentifier>
+			<Abstract type="html">A list of data describing the metric.</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metricDatas</Declaration>
+			
+			
+			<Anchor>//api/name/metricDatas</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchPutMetricDataRequest/addMetricData:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to metricDatas.
+This function will alloc and init metricDatas if not already done.</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addMetricData:(CloudWatchMetricDatum *)metricDataObject</Declaration>
+			
+			
+			<Anchor>//api/name/addMetricData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchPutMetricDataRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchPutMetricDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSRemovePermissionResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSRemovePermissionResponse</TokenIdentifier>
+			<Abstract type="html">Remove Permission</Abstract>
+			<DeclaredIn>SNSRemovePermissionResponse.h</DeclaredIn>
+			
+			<NodeRef refid="802"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

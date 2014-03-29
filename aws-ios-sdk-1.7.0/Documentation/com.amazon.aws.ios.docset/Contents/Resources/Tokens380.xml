@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2GetPasswordDataResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2GetPasswordDataResponse</TokenIdentifier>
+			<Abstract type="html">Get Password Data Response</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>
+			
+			<NodeRef refid="380"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose Windows administrator password was
+requested.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2GetPasswordDataResponse/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose Windows administrator password was
+requested.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time the data was last updated.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2GetPasswordDataResponse/timestamp</TokenIdentifier>
+			<Abstract type="html">The time the data was last updated.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/setPasswordData:</TokenIdentifier>
+			<Abstract type="html">The Windows administrator password of the specified instance.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *passwordData</Declaration>
+			
+			
+			<Anchor>//api/name/passwordData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2GetPasswordDataResponse/passwordData</TokenIdentifier>
+			<Abstract type="html">The Windows administrator password of the specified instance.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *passwordData</Declaration>
+			
+			
+			<Anchor>//api/name/passwordData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

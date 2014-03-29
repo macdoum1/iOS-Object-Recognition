@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketPolicyResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketPolicyResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the setBucketPolicy operation.</Abstract>
+			<DeclaredIn>S3SetBucketPolicyResponse.h</DeclaredIn>
+			
+			<NodeRef refid="696"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

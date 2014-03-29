@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingTagDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingTagDescription</TokenIdentifier>
+			<Abstract type="html">Tag Description</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>
+			
+			<NodeRef refid="119"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/setResourceId:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingTagDescription/resourceId</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/setResourceType:</TokenIdentifier>
+			<Abstract type="html">The kind of resource to which the tag is applied. Currently, Auto
+Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingTagDescription/resourceType</TokenIdentifier>
+			<Abstract type="html">The kind of resource to which the tag is applied. Currently, Auto
+Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/setKey:</TokenIdentifier>
+			<Abstract type="html">The key of the tag.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 128&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingTagDescription/key</TokenIdentifier>
+			<Abstract type="html">The key of the tag.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 128&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of the tag.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 256&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingTagDescription/value</TokenIdentifier>
+			<Abstract type="html">The value of the tag.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 256&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/setPropagateAtLaunch:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the new tag will be applied to instances launched
+after the tag is created. The same behavior applies to updates: If you
+change a tag, the changed tag will be applied to all instances
+launched after you made the change.</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL propagateAtLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/propagateAtLaunch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingTagDescription/propagateAtLaunch</TokenIdentifier>
+			<Abstract type="html">Specifies whether the new tag will be applied to instances launched
+after the tag is created. The same behavior applies to updates: If you
+change a tag, the changed tag will be applied to all instances
+launched after you made the change.</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL propagateAtLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/propagateAtLaunch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingTagDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingTagDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

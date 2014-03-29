@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchDatapoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDatapoint</TokenIdentifier>
+			<Abstract type="html">Datapoint</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>
+			
+			<NodeRef refid="126"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time stamp used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/timestamp</TokenIdentifier>
+			<Abstract type="html">The time stamp used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setSampleCount:</TokenIdentifier>
+			<Abstract type="html">The number of metric values that contributed to the aggregate value of
+this datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/sampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/sampleCount</TokenIdentifier>
+			<Abstract type="html">The number of metric values that contributed to the aggregate value of
+this datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/sampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setAverage:</TokenIdentifier>
+			<Abstract type="html">The average of metric values that correspond to the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *average</Declaration>
+			
+			
+			<Anchor>//api/name/average</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/average</TokenIdentifier>
+			<Abstract type="html">The average of metric values that correspond to the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *average</Declaration>
+			
+			
+			<Anchor>//api/name/average</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setSum:</TokenIdentifier>
+			<Abstract type="html">The sum of metric values used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sum</Declaration>
+			
+			
+			<Anchor>//api/name/sum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/sum</TokenIdentifier>
+			<Abstract type="html">The sum of metric values used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sum</Declaration>
+			
+			
+			<Anchor>//api/name/sum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setMinimum:</TokenIdentifier>
+			<Abstract type="html">The minimum metric value used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minimum</Declaration>
+			
+			
+			<Anchor>//api/name/minimum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/minimum</TokenIdentifier>
+			<Abstract type="html">The minimum metric value used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minimum</Declaration>
+			
+			
+			<Anchor>//api/name/minimum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setMaximum:</TokenIdentifier>
+			<Abstract type="html">The maximum of the metric value used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maximum</Declaration>
+			
+			
+			<Anchor>//api/name/maximum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/maximum</TokenIdentifier>
+			<Abstract type="html">The maximum of the metric value used for the datapoint.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maximum</Declaration>
+			
+			
+			<Anchor>//api/name/maximum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/setUnit:</TokenIdentifier>
+			<Abstract type="html">The standard unit used for the datapoint.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDatapoint/unit</TokenIdentifier>
+			<Abstract type="html">The standard unit used for the datapoint.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDatapoint/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchDatapoint.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

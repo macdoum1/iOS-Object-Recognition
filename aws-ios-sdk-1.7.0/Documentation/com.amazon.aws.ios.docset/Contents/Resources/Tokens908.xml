@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBDeleteDomainRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBDeleteDomainRequest</TokenIdentifier>
+			<Abstract type="html">Delete Domain Request</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>
+			
+			<NodeRef refid="908"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeleteDomainRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain to delete.</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDeleteDomainRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain to delete.</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeleteDomainRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteDomainRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeleteDomainRequest/initWithDomainName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteDomainRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDeleteDomainRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBDeleteDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

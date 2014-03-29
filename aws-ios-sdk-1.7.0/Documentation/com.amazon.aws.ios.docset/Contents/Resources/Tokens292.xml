@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteTagsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteTagsRequest</TokenIdentifier>
+			<Abstract type="html">Delete Tags Request</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="292"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DeleteTagsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/setResources:</TokenIdentifier>
+			<Abstract type="html">A list of one or more resource IDs. This could be the ID of an AMI, an
+instance, an EBS volume, or snapshot, etc.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DeleteTagsRequest/resources</TokenIdentifier>
+			<Abstract type="html">A list of one or more resource IDs. This could be the ID of an AMI, an
+instance, an EBS volume, or snapshot, etc.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/setTags:</TokenIdentifier>
+			<Abstract type="html">The tags to delete from the specified resources. Each tag item
+consists of a key-value pair. &lt;p&gt; If a tag is specified without a
+value, the tag and all of its values are deleted.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DeleteTagsRequest/tags</TokenIdentifier>
+			<Abstract type="html">The tags to delete from the specified resources. Each tag item
+consists of a key-value pair. &lt;p&gt; If a tag is specified without a
+value, the tag and all of its values are deleted.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteTagsRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/initWithResources:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteTagsRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithResources:(NSMutableArray *)theResources</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theResources</Name>
+					<Abstract type="html">A list of one or more resource IDs. This could be
+the ID of an AMI, an instance, an EBS volume, or snapshot, etc.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithResources:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/addResource:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to resources.
+This function will alloc and init resources if not already done.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addResource:(NSString *)resourceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addResource:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DeleteTagsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DeleteTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonEC2Client.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonEC2Client</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/rebootInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The RebootInstances operation requests a reboot of one or more instances. This operation is asynchronous; it only
+queues a request to reboot the specified instance(s). The operation will succeed if the instances are valid and belong
+to the user. Requests to reboot terminated instances are ignored.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RebootInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RebootInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2RebootInstancesResponse *)rebootInstances:(EC2RebootInstancesRequest *)rebootInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rebootInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the RebootInstances service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rebootInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeReservedInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeReservedInstances operation describes Reserved Instances that were purchased for use with your account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeReservedInstancesResponse *)describeReservedInstances:(EC2DescribeReservedInstancesRequest *)describeReservedInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeReservedInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeReservedInstances
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeReservedInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReservedInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeAvailabilityZones:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeAvailabilityZones operation describes availability zones that are currently available to the account and
+their states.
+&lt;/p&gt;
+&lt;p&gt;
+Availability zones are not the same across accounts. The availability zone us-east-1a for account A is not necessarily
+the same as us-east-1a for account B. Zone assignments are mapped independently for each account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAvailabilityZonesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAvailabilityZonesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeAvailabilityZonesResponse *)describeAvailabilityZones:(EC2DescribeAvailabilityZonesRequest *)describeAvailabilityZonesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAvailabilityZonesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAvailabilityZones
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAvailabilityZones service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAvailabilityZones:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/detachVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Detach a previously attached volume from a running instance.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DetachVolumeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DetachVolumeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DetachVolumeResponse *)detachVolume:(EC2DetachVolumeRequest *)detachVolumeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>detachVolumeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DetachVolume service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DetachVolume service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachVolume:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteKeyPair:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeleteKeyPair operation deletes a key pair.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteKeyPairRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteKeyPairResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteKeyPairResponse *)deleteKeyPair:(EC2DeleteKeyPairRequest *)deleteKeyPairRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteKeyPairRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteKeyPair service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteKeyPair:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/unmonitorInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Disables monitoring for a running instance.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2UnmonitorInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2UnmonitorInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2UnmonitorInstancesResponse *)unmonitorInstances:(EC2UnmonitorInstancesRequest *)unmonitorInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unmonitorInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the UnmonitorInstances service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the UnmonitorInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/unmonitorInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createImage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates an Amazon EBS-backed AMI from a &quot;running&quot; or &quot;stopped&quot; instance. AMIs that use an Amazon EBS root device boot
+faster than AMIs that use instance stores. They can be up to 1 TiB in size, use storage that persists on instance
+failure, and can be stopped and started.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateImageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateImageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateImageResponse *)createImage:(EC2CreateImageRequest *)createImageRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createImageRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateImage service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateImage service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteSecurityGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeleteSecurityGroup operation deletes a security group.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; If you attempt to delete a security group that contains instances, a fault is returned. If you attempt to
+delete a security group that is referenced by another security group, a fault is returned. For example, if security
+group B has a rule that allows access from security group A, security group A cannot be deleted until the allow rule is
+removed.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSecurityGroupRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSecurityGroupResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteSecurityGroupResponse *)deleteSecurityGroup:(EC2DeleteSecurityGroupRequest *)deleteSecurityGroupRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteSecurityGroupRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteSecurityGroup service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteSecurityGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createInstanceExportTask:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the CreateInstanceExportTask
+service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateInstanceExportTaskRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateInstanceExportTaskResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateInstanceExportTaskResponse *)createInstanceExportTask:(EC2CreateInstanceExportTaskRequest *)createInstanceExportTaskRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createInstanceExportTaskRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateInstanceExportTask
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateInstanceExportTask service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createInstanceExportTask:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/getPasswordData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Retrieves the encrypted administrator password for the instances running Windows.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; The Windows password is only generated the first time an AMI is launched. It is not generated for rebundled
+AMIs or after the password is changed on an instance. The password is encrypted using the key pair that you provided.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2GetPasswordDataRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2GetPasswordDataResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2GetPasswordDataResponse *)getPasswordData:(EC2GetPasswordDataRequest *)getPasswordDataRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getPasswordDataRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetPasswordData service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetPasswordData service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPasswordData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/stopInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Stops an instance that uses an Amazon EBS volume as its root device. Instances that use Amazon EBS volumes as their
+root devices can be quickly stopped and started. When an instance is stopped, the compute resources are released and you
+are not billed for hourly instance usage. However, your root partition Amazon EBS volume remains, continues to persist
+your data, and you are charged for Amazon EBS volume usage. You can restart your instance at any time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Before stopping an instance, make sure it is in a state from which it can be restarted. Stopping an
+instance does not preserve data stored in RAM. Performing this operation on an instance that uses an instance store as
+its root device returns an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2StopInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2StopInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2StopInstancesResponse *)stopInstances:(EC2StopInstancesRequest *)stopInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stopInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the StopInstances service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the StopInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/stopInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/importKeyPair:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Imports the public key from an RSA key pair created with a third-party tool. This operation differs from CreateKeyPair
+as the private key is never transferred between the caller and AWS servers.
+&lt;/p&gt;
+&lt;p&gt;
+RSA key pairs are easily created on Microsoft Windows and Linux OS systems using the ssh-keygen command line tool
+provided with the standard OpenSSH installation. Standard library support for RSA key pair creation is also available
+for Java, Ruby, Python, and many other programming languages.
+&lt;/p&gt;
+&lt;p&gt;
+The following formats are supported:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportKeyPairRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportKeyPairResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ImportKeyPairResponse *)importKeyPair:(EC2ImportKeyPairRequest *)importKeyPairRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>importKeyPairRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ImportKeyPair service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ImportKeyPair service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/importKeyPair:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createSecurityGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The CreateSecurityGroup operation creates a new security group.
+&lt;/p&gt;
+&lt;p&gt;
+Every instance is launched in a security group. If no security group is specified during launch, the instances are
+launched in the default security group. Instances within the same security group have unrestricted network access to
+each other. Instances will reject network access attempts from other instances in a different security group. As the
+owner of instances you can grant or revoke specific permissions using the AuthorizeSecurityGroupIngress and
+RevokeSecurityGroupIngress operations.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSecurityGroupRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSecurityGroupResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateSecurityGroupResponse *)createSecurityGroup:(EC2CreateSecurityGroupRequest *)createSecurityGroupRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createSecurityGroupRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateSecurityGroup service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateSecurityGroup service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createSecurityGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSpotPriceHistory:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the Spot Price history.
+&lt;/p&gt;
+&lt;p&gt;
+Spot Instances are instances that Amazon EC2 starts on your behalf when the maximum price that you specify exceeds the
+current Spot Price. Amazon EC2 periodically sets the Spot Price based on available Spot Instance capacity and current
+spot instance requests.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotPriceHistoryRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotPriceHistoryResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSpotPriceHistoryResponse *)describeSpotPriceHistory:(EC2DescribeSpotPriceHistoryRequest *)describeSpotPriceHistoryRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSpotPriceHistoryRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeSpotPriceHistory
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSpotPriceHistory service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSpotPriceHistory:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeRegions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeRegions operation describes regions zones that are currently available to the account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeRegionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeRegionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeRegionsResponse *)describeRegions:(EC2DescribeRegionsRequest *)describeRegionsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeRegionsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeRegions service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeRegions service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeRegions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createReservedInstancesListing:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the
+CreateReservedInstancesListing service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateReservedInstancesListingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateReservedInstancesListingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateReservedInstancesListingResponse *)createReservedInstancesListing:(EC2CreateReservedInstancesListingRequest *)createReservedInstancesListingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createReservedInstancesListingRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CreateReservedInstancesListing service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateReservedInstancesListing service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createReservedInstancesListing:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/resetSnapshotAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Resets permission settings for the specified snapshot.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetSnapshotAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetSnapshotAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ResetSnapshotAttributeResponse *)resetSnapshotAttribute:(EC2ResetSnapshotAttributeRequest *)resetSnapshotAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resetSnapshotAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ResetSnapshotAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resetSnapshotAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/importVolume:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the ImportVolume service method on
+AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportVolumeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportVolumeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ImportVolumeResponse *)importVolume:(EC2ImportVolumeRequest *)importVolumeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>importVolumeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ImportVolume service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ImportVolume service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/importVolume:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeSecurityGroups operation returns information about security groups that you own.
+&lt;/p&gt;
+&lt;p&gt;
+If you specify security group names, information about those security group is returned. Otherwise, information for all
+security group is returned. If you specify a group that does not exist, a fault is returned.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSecurityGroupsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSecurityGroupsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSecurityGroupsResponse *)describeSecurityGroups:(EC2DescribeSecurityGroupsRequest *)describeSecurityGroupsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSecurityGroupsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeSecurityGroups
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSecurityGroups service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSecurityGroups:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deregisterImage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeregisterImage operation deregisters an AMI. Once deregistered, instances of the AMI can no longer be launched.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeregisterImageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeregisterImageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeregisterImageResponse *)deregisterImage:(EC2DeregisterImageRequest *)deregisterImageRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deregisterImageRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeregisterImage service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deregisterImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSpotDatafeedSubscription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the data feed for Spot Instances.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotDatafeedSubscriptionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotDatafeedSubscriptionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSpotDatafeedSubscriptionResponse *)describeSpotDatafeedSubscription:(EC2DescribeSpotDatafeedSubscriptionRequest *)describeSpotDatafeedSubscriptionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSpotDatafeedSubscriptionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeSpotDatafeedSubscription service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSpotDatafeedSubscription service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSpotDatafeedSubscription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes tags from the specified Amazon EC2 resources.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteTagsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteTagsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteTagsResponse *)deleteTags:(EC2DeleteTagsRequest *)deleteTagsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteTagsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteTags service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteTags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeAccountAttributes:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the DescribeAccountAttributes
+service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAccountAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAccountAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeAccountAttributesResponse *)describeAccountAttributes:(EC2DescribeAccountAttributesRequest *)describeAccountAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAccountAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAccountAttributes
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAccountAttributes service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAccountAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/enableVolumeIO:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Enable IO on the volume after an event has occured.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2EnableVolumeIORequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2EnableVolumeIOResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2EnableVolumeIOResponse *)enableVolumeIO:(EC2EnableVolumeIORequest *)enableVolumeIORequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enableVolumeIORequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the EnableVolumeIO service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enableVolumeIO:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/attachVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Attach a previously created volume to a running instance.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AttachVolumeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AttachVolumeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2AttachVolumeResponse *)attachVolume:(EC2AttachVolumeRequest *)attachVolumeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attachVolumeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AttachVolume service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AttachVolume service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachVolume:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeLicenses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Provides details of a user&apos;s registered licenses. Zero or more IDs may be specified on the call. When one or more
+license IDs are specified, only data for the specified IDs are returned.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeLicensesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeLicensesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeLicensesResponse *)describeLicenses:(EC2DescribeLicensesRequest *)describeLicensesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeLicensesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeLicenses service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeLicenses service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLicenses:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeVolumeStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the status of a volume.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumeStatusRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumeStatusResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeVolumeStatusResponse *)describeVolumeStatus:(EC2DescribeVolumeStatusRequest *)describeVolumeStatusRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeVolumeStatusRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeVolumeStatus service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeVolumeStatus service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeVolumeStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/activateLicense:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Activates a specific number of licenses for a 90-day period. Activations can be done against a specific license ID.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ActivateLicenseRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ActivateLicenseResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ActivateLicenseResponse *)activateLicense:(EC2ActivateLicenseRequest *)activateLicenseRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>activateLicenseRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ActivateLicense service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/activateLicense:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/resetImageAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ResetImageAttribute operation resets an attribute of an AMI to its default value.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; The productCodes attribute cannot be reset.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetImageAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetImageAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ResetImageAttributeResponse *)resetImageAttribute:(EC2ResetImageAttributeRequest *)resetImageAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resetImageAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ResetImageAttribute service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resetImageAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createSnapshot:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Create a snapshot of the volume identified by volume ID. A volume does not have to be detached at the time the snapshot
+is taken.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Snapshot creation requires that the system is in a consistent state. For instance, this means that if
+taking a snapshot of a database, the tables must be read-only locked to ensure that the snapshot will not contain a
+corrupted version of the database. Therefore, be careful when using this API to ensure that the system remains in the
+consistent state until the create snapshot status has returned.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSnapshotRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSnapshotResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateSnapshotResponse *)createSnapshot:(EC2CreateSnapshotRequest *)createSnapshotRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createSnapshotRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateSnapshot service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateSnapshot service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createSnapshot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes a previously created volume. Once successfully deleted, a new volume can be created with the same name.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteVolumeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteVolumeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteVolumeResponse *)deleteVolume:(EC2DeleteVolumeRequest *)deleteVolumeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteVolumeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteVolume service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteVolume:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/modifyReservedInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ModifyReservedInstances operation modifies the Availability Zone, instance count, instance type, or network
+platform (EC2-Classic or EC2-VPC) of your Reserved Instances.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyReservedInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyReservedInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ModifyReservedInstancesResponse *)modifyReservedInstances:(EC2ModifyReservedInstancesRequest *)modifyReservedInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modifyReservedInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ModifyReservedInstances
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ModifyReservedInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/modifyReservedInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeVpcs:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Gives you information about your VPCs. You can filter the results to return information only about VPCs that match
+criteria you specify.
+&lt;/p&gt;
+&lt;p&gt;
+For example, you could ask to get information about a particular VPC or VPCs (or all your VPCs) only if the VPC&apos;s state
+is available. You can specify multiple filters (e.g., the VPC uses one of several sets of DHCP options, and the VPC&apos;s
+state is available). The result includes information for a particular VPC only if the VPC matches all your filters.
+&lt;/p&gt;
+&lt;p&gt;
+If there&apos;s no match, no special message is returned; the response is simply empty. The following table shows the
+available filters.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVpcsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVpcsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeVpcsResponse *)describeVpcs:(EC2DescribeVpcsRequest *)describeVpcsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeVpcsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeVpcs service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeVpcs service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeVpcs:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/cancelConversionTask:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the CancelConversionTask service
+method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelConversionTaskRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelConversionTaskResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CancelConversionTaskResponse *)cancelConversionTask:(EC2CancelConversionTaskRequest *)cancelConversionTaskRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cancelConversionTaskRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CancelConversionTask service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelConversionTask:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/associateAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The AssociateAddress operation associates an elastic IP address with an instance.
+&lt;/p&gt;
+&lt;p&gt;
+If the IP address is currently assigned to another instance, the IP address is assigned to the new instance. This is an
+idempotent operation. If you enter it more than once, Amazon EC2 does not return an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AssociateAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AssociateAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2AssociateAddressResponse *)associateAddress:(EC2AssociateAddressRequest *)associateAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>associateAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AssociateAddress service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AssociateAddress service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/associateAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deactivateLicense:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deactivates a specific number of licenses. Deactivations can be done against a specific license ID after they have
+persisted for at least a 90-day period.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeactivateLicenseRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeactivateLicenseResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeactivateLicenseResponse *)deactivateLicense:(EC2DeactivateLicenseRequest *)deactivateLicenseRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deactivateLicenseRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeactivateLicense service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deactivateLicense:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeExportTasks:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the DescribeExportTasks service
+method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeExportTasksRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeExportTasksResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeExportTasksResponse *)describeExportTasks:(EC2DescribeExportTasksRequest *)describeExportTasksRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeExportTasksRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeExportTasks service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeExportTasks service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeExportTasks:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeVolumes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the status of the indicated volume or, in lieu of any specified, all volumes belonging to the caller. Volumes
+that have been deleted are not described.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeVolumesResponse *)describeVolumes:(EC2DescribeVolumesRequest *)describeVolumesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeVolumesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeVolumes service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeVolumes service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeVolumes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeReservedInstancesListings:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the
+DescribeReservedInstancesListings service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesListingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesListingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeReservedInstancesListingsResponse *)describeReservedInstancesListings:(EC2DescribeReservedInstancesListingsRequest *)describeReservedInstancesListingsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeReservedInstancesListingsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeReservedInstancesListings service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeReservedInstancesListings service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReservedInstancesListings:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/reportInstanceStatus:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the ReportInstanceStatus service
+method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ReportInstanceStatusRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ReportInstanceStatusResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ReportInstanceStatusResponse *)reportInstanceStatus:(EC2ReportInstanceStatusRequest *)reportInstanceStatusRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>reportInstanceStatusRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ReportInstanceStatus service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reportInstanceStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/monitorInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Enables monitoring for a running instance.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2MonitorInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2MonitorInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2MonitorInstancesResponse *)monitorInstances:(EC2MonitorInstancesRequest *)monitorInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>monitorInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the MonitorInstances service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the MonitorInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/monitorInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeBundleTasks:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeBundleTasks operation describes in-progress and recent bundle tasks. Complete and failed tasks are removed
+from the list a short time after completion. If no bundle ids are given, all bundle tasks are returned.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeBundleTasksRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeBundleTasksResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeBundleTasksResponse *)describeBundleTasks:(EC2DescribeBundleTasksRequest *)describeBundleTasksRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeBundleTasksRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeBundleTasks service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeBundleTasks service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeBundleTasks:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/importInstance:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the ImportInstance service method on
+AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportInstanceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ImportInstanceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ImportInstanceResponse *)importInstance:(EC2ImportInstanceRequest *)importInstanceRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>importInstanceRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ImportInstance service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ImportInstance service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/importInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/revokeSecurityGroupIngress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The RevokeSecurityGroupIngress operation revokes permissions from a security group. The permissions used to revoke must
+be specified using the same values used to grant the permissions.
+&lt;/p&gt;
+&lt;p&gt;
+Permissions are specified by IP protocol (TCP, UDP, or ICMP), the source of the request (by IP range or an Amazon EC2
+user-group pair), the source and destination port ranges (for TCP and UDP), and the ICMP codes and types (for ICMP).
+&lt;/p&gt;
+&lt;p&gt;
+Permission changes are quickly propagated to instances within the security group. However, depending on the number of
+instances in the group, a small delay might occur.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RevokeSecurityGroupIngressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RevokeSecurityGroupIngressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2RevokeSecurityGroupIngressResponse *)revokeSecurityGroupIngress:(EC2RevokeSecurityGroupIngressRequest *)revokeSecurityGroupIngressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>revokeSecurityGroupIngressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+RevokeSecurityGroupIngress service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/revokeSecurityGroupIngress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/getConsoleOutput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The GetConsoleOutput operation retrieves console output for the specified instance.
+&lt;/p&gt;
+&lt;p&gt;
+Instance console output is buffered and posted shortly after instance boot, reboot, and termination. Amazon EC2
+preserves the most recent 64 KB output which will be available for at least one hour after the most recent post.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2GetConsoleOutputRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2GetConsoleOutputResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2GetConsoleOutputResponse *)getConsoleOutput:(EC2GetConsoleOutputRequest *)getConsoleOutputRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getConsoleOutputRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetConsoleOutput service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetConsoleOutput service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/getConsoleOutput:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/modifyImageAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ModifyImageAttribute operation modifies an attribute of an AMI.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyImageAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyImageAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ModifyImageAttributeResponse *)modifyImageAttribute:(EC2ModifyImageAttributeRequest *)modifyImageAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modifyImageAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ModifyImageAttribute service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/modifyImageAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createSpotDatafeedSubscription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates the data feed for Spot Instances, enabling you to view Spot Instance usage logs. You can create one data feed
+per account.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSpotDatafeedSubscriptionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSpotDatafeedSubscriptionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateSpotDatafeedSubscriptionResponse *)createSpotDatafeedSubscription:(EC2CreateSpotDatafeedSubscriptionRequest *)createSpotDatafeedSubscriptionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createSpotDatafeedSubscriptionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CreateSpotDatafeedSubscription service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateSpotDatafeedSubscription service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createSpotDatafeedSubscription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeConversionTasks:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the DescribeConversionTasks
+service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeConversionTasksRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeConversionTasksResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeConversionTasksResponse *)describeConversionTasks:(EC2DescribeConversionTasksRequest *)describeConversionTasksRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeConversionTasksRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeConversionTasks
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeConversionTasks service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeConversionTasks:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeInstanceAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns information about an attribute of an instance. Only one attribute can be specified per call.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeInstanceAttributeResponse *)describeInstanceAttribute:(EC2DescribeInstanceAttributeRequest *)describeInstanceAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeInstanceAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeInstanceAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeInstanceAttribute service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeInstanceAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describePlacementGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns information about one or more PlacementGroup instances in a user&apos;s account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribePlacementGroupsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribePlacementGroupsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribePlacementGroupsResponse *)describePlacementGroups:(EC2DescribePlacementGroupsRequest *)describePlacementGroupsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describePlacementGroupsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribePlacementGroups
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribePlacementGroups service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describePlacementGroups:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSubnets:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Gives you information about your subnets. You can filter the results to return information only about subnets that
+match criteria you specify.
+&lt;/p&gt;
+&lt;p&gt;
+For example, you could ask to get information about a particular subnet (or all) only if the subnet&apos;s state is
+available. You can specify multiple filters (e.g., the subnet is in a particular VPC, and the subnet&apos;s state is
+available).
+&lt;/p&gt;
+&lt;p&gt;
+The result includes information for a particular subnet only if the subnet matches all your filters. If there&apos;s no
+match, no special message is returned; the response is simply empty. The following table shows the available filters.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSubnetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSubnetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSubnetsResponse *)describeSubnets:(EC2DescribeSubnetsRequest *)describeSubnetsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSubnetsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeSubnets service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSubnets service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSubnets:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/runInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The RunInstances operation launches a specified number of instances.
+&lt;/p&gt;
+&lt;p&gt;
+If Amazon EC2 cannot launch the minimum number AMIs you request, no instances launch. If there is insufficient capacity
+to launch the maximum number of AMIs you request, Amazon EC2 launches as many as possible to satisfy the requested
+maximum values.
+&lt;/p&gt;
+&lt;p&gt;
+Every instance is launched in a security group. If you do not specify a security group at launch, the instances start
+in your default security group. For more information on creating security groups, see CreateSecurityGroup.
+&lt;/p&gt;
+&lt;p&gt;
+An optional instance type can be specified. For information about instance types, see Instance Types.
+&lt;/p&gt;
+&lt;p&gt;
+You can provide an optional key pair ID for each image in the launch request (for more information, see CreateKeyPair).
+All instances that are created from images that use this key pair will have access to the associated public key at boot.
+You can use this key to provide secure access to an instance of an image on a per-instance basis. Amazon EC2 public
+images use this feature to provide secure access without passwords.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt; Launching public images without a key pair ID will leave them inaccessible. The public key material is
+made available to the instance at boot time by placing it in the openssh_id.pub file on a logical device that is exposed
+to the instance as /dev/sda2 (the ephemeral store). The format of this file is suitable for use as an entry within
+~/.ssh/authorized_keys (the OpenSSH format). This can be done at boot (e.g., as part of rc.local) allowing for secure
+access without passwords. Optional user data can be provided in the launch request. All instances that collectively
+comprise the launch request have access to this data For more information, see Instance Metadata.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; If any of the AMIs have a product code attached for which the user has not subscribed, the RunInstances
+call will fail.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt; We strongly recommend using the 2.6.18 Xen stock kernel with the c1.medium and c1.xlarge instances.
+Although the default Amazon EC2 kernels will work, the new kernels provide greater stability and performance for these
+instance types. For more information about kernels, see Kernels, RAM Disks, and Block Device Mappings.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RunInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RunInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2RunInstancesResponse *)runInstances:(EC2RunInstancesRequest *)runInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>runInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the RunInstances service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the RunInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/runInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeInstances operation returns information about instances that you own.
+&lt;/p&gt;
+&lt;p&gt;
+If you specify one or more instance IDs, Amazon EC2 returns information for those instances. If you do not specify
+instance IDs, Amazon EC2 returns information for all relevant instances. If you specify an invalid instance ID, a fault
+is returned. If you specify an instance that you do not own, it will not be included in the returned results.
+&lt;/p&gt;
+&lt;p&gt;
+Recently terminated instances might appear in the returned results. This interval is usually less than one hour.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeInstancesResponse *)describeInstances:(EC2DescribeInstancesRequest *)describeInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeInstances service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/modifyVolumeAttribute:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the ModifyVolumeAttribute service
+method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyVolumeAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyVolumeAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ModifyVolumeAttributeResponse *)modifyVolumeAttribute:(EC2ModifyVolumeAttributeRequest *)modifyVolumeAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modifyVolumeAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ModifyVolumeAttribute service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/modifyVolumeAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeImages:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeImages operation returns information about AMIs, AKIs, and ARIs available to the user. Information returned
+includes image type, product codes, architecture, and kernel and RAM disk IDs. Images available to the user include
+public images available for any user to launch, private images owned by the user making the request, and private images
+owned by other users for which the user has explicit launch permissions.
+&lt;/p&gt;
+&lt;p&gt;
+Launch permissions fall into three categories:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImagesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImagesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeImagesResponse *)describeImages:(EC2DescribeImagesRequest *)describeImagesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeImagesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeImages service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeImages service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeImages:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/startInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Starts an instance that uses an Amazon EBS volume as its root device. Instances that use Amazon EBS volumes as their
+root devices can be quickly stopped and started. When an instance is stopped, the compute resources are released and you
+are not billed for hourly instance usage. However, your root partition Amazon EBS volume remains, continues to persist
+your data, and you are charged for Amazon EBS volume usage. You can restart your instance at any time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Performing this operation on an instance that uses an instance store as its root device returns an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2StartInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2StartInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2StartInstancesResponse *)startInstances:(EC2StartInstancesRequest *)startInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>startInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the StartInstances service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the StartInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/startInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/cancelReservedInstancesListing:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the
+CancelReservedInstancesListing service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelReservedInstancesListingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelReservedInstancesListingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CancelReservedInstancesListingResponse *)cancelReservedInstancesListing:(EC2CancelReservedInstancesListingRequest *)cancelReservedInstancesListingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cancelReservedInstancesListingRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CancelReservedInstancesListing service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CancelReservedInstancesListing service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelReservedInstancesListing:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/modifyInstanceAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Modifies an attribute of an instance.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyInstanceAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyInstanceAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ModifyInstanceAttributeResponse *)modifyInstanceAttribute:(EC2ModifyInstanceAttributeRequest *)modifyInstanceAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modifyInstanceAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ModifyInstanceAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/modifyInstanceAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/authorizeSecurityGroupIngress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The AuthorizeSecurityGroupIngress operation adds permissions to a security group.
+&lt;/p&gt;
+&lt;p&gt;
+Permissions are specified by the IP protocol (TCP, UDP or ICMP), the source of the request (by IP range or an Amazon
+EC2 user-group pair), the source and destination port ranges (for TCP and UDP), and the ICMP codes and types (for ICMP).
+When authorizing ICMP, -1 can be used as a wildcard in the type and code fields.
+&lt;/p&gt;
+&lt;p&gt;
+Permission changes are propagated to instances within the security group as quickly as possible. However, depending on
+the number of instances, a small delay might occur.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AuthorizeSecurityGroupIngressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AuthorizeSecurityGroupIngressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2AuthorizeSecurityGroupIngressResponse *)authorizeSecurityGroupIngress:(EC2AuthorizeSecurityGroupIngressRequest *)authorizeSecurityGroupIngressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>authorizeSecurityGroupIngressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+AuthorizeSecurityGroupIngress service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authorizeSecurityGroupIngress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSpotInstanceRequests:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes Spot Instance requests. Spot Instances are instances that Amazon EC2 starts on your behalf when the maximum
+price that you specify exceeds the current Spot Price. Amazon EC2 periodically sets the Spot Price based on available
+Spot Instance capacity and current spot instance requests. For conceptual information about Spot Instances, refer to the
+&lt;a href=&quot;http://docs.amazonwebservices.com/AWSEC2/2010-08-31/DeveloperGuide/&quot;&gt; Amazon Elastic Compute Cloud Developer
+Guide &lt;/a&gt; or &lt;a href=&quot;http://docs.amazonwebservices.com/AWSEC2/2010-08-31/UserGuide/&quot;&gt; Amazon Elastic Compute Cloud
+User Guide &lt;/a&gt; .
+&lt;/p&gt;
+&lt;p&gt;
+You can filter the results to return information only about Spot Instance requests that match criteria you specify. For
+example, you could get information about requests where the Spot Price you specified is a certain value (you can&apos;t use
+greater than or less than comparison, but you can use * and ? wildcards). You can specify multiple values for a filter.
+A Spot Instance request must match at least one of the specified values for it to be included in the results.
+&lt;/p&gt;
+&lt;p&gt;
+You can specify multiple filters (e.g., the Spot Price is equal to a particular value, and the instance type is
+m1.small ). The result includes information for a particular request only if it matches all your filters. If there&apos;s no
+match, no special message is returned; the response is simply empty.
+&lt;/p&gt;
+&lt;p&gt;
+You can use wildcards with the filter values: an asterisk matches zero or more characters, and ? matches exactly one
+character. You can escape special characters using a backslash before the character. For example, a value of
+\amazon\?\\ searches for the literal string amazon?\ .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotInstanceRequestsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotInstanceRequestsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSpotInstanceRequestsResponse *)describeSpotInstanceRequests:(EC2DescribeSpotInstanceRequestsRequest *)describeSpotInstanceRequestsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSpotInstanceRequestsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeSpotInstanceRequests service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSpotInstanceRequests service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSpotInstanceRequests:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/cancelExportTask:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the CancelExportTask service method on
+AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelExportTaskRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelExportTaskResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CancelExportTaskResponse *)cancelExportTask:(EC2CancelExportTaskRequest *)cancelExportTaskRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cancelExportTaskRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CancelExportTask service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelExportTask:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/doCopyImage:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the CopyImage service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CopyImageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CopyImageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CopyImageResponse *)doCopyImage:(EC2CopyImageRequest *)copyImageRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>copyImageRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CopyImage service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CopyImage service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/doCopyImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/requestSpotInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates a Spot Instance request.
+&lt;/p&gt;
+&lt;p&gt;
+Spot Instances are instances that Amazon EC2 starts on your behalf when the maximum price that you specify exceeds the
+current Spot Price. Amazon EC2 periodically sets the Spot Price based on available Spot Instance capacity and current
+spot instance requests.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RequestSpotInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RequestSpotInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2RequestSpotInstancesResponse *)requestSpotInstances:(EC2RequestSpotInstancesRequest *)requestSpotInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requestSpotInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the RequestSpotInstances service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the RequestSpotInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestSpotInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Adds or overwrites tags for the specified resources. Each resource can have a maximum of 10 tags. Each tag consists of
+a key-value pair. Tag keys must be unique per resource.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateTagsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateTagsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateTagsResponse *)createTags:(EC2CreateTagsRequest *)createTagsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createTagsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateTags service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createTags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeVolumeAttribute:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the DescribeVolumeAttribute
+service method on AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumeAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumeAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeVolumeAttributeResponse *)describeVolumeAttribute:(EC2DescribeVolumeAttributeRequest *)describeVolumeAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeVolumeAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeVolumeAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeVolumeAttribute service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeVolumeAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the tags for the specified resources.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeTagsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeTagsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeTagsResponse *)describeTags:(EC2DescribeTagsRequest *)describeTagsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeTagsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeTags service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeTags service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeTags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/cancelBundleTask:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+CancelBundleTask operation cancels a pending or in-progress bundling task. This is an asynchronous call and it make
+take a while for the task to be canceled. If a task is canceled while it is storing items, there may be parts of the
+incomplete AMI stored in S3. It is up to the caller to clean up these parts from S3.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelBundleTaskRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelBundleTaskResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CancelBundleTaskResponse *)cancelBundleTask:(EC2CancelBundleTaskRequest *)cancelBundleTaskRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cancelBundleTaskRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CancelBundleTask service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CancelBundleTask service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelBundleTask:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/cancelSpotInstanceRequests:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Cancels one or more Spot Instance requests.
+&lt;/p&gt;
+&lt;p&gt;
+Spot Instances are instances that Amazon EC2 starts on your behalf when the maximum price that you specify exceeds the
+current Spot Price. Amazon EC2 periodically sets the Spot Price based on available Spot Instance capacity and current
+spot instance requests.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelSpotInstanceRequestsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CancelSpotInstanceRequestsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CancelSpotInstanceRequestsResponse *)cancelSpotInstanceRequests:(EC2CancelSpotInstanceRequestsRequest *)cancelSpotInstanceRequestsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cancelSpotInstanceRequestsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CancelSpotInstanceRequests service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CancelSpotInstanceRequests service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelSpotInstanceRequests:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/purchaseReservedInstancesOffering:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The PurchaseReservedInstancesOffering operation purchases a Reserved Instance for use with your account. With Amazon
+EC2 Reserved Instances, you purchase the right to launch Amazon EC2 instances for a period of time (without getting
+insufficient capacity errors) and pay a lower usage rate for the actual time used.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2PurchaseReservedInstancesOfferingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2PurchaseReservedInstancesOfferingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2PurchaseReservedInstancesOfferingResponse *)purchaseReservedInstancesOffering:(EC2PurchaseReservedInstancesOfferingRequest *)purchaseReservedInstancesOfferingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>purchaseReservedInstancesOfferingRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+PurchaseReservedInstancesOffering service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the PurchaseReservedInstancesOffering service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/purchaseReservedInstancesOffering:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/modifySnapshotAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Adds or remove permission settings for the specified snapshot.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifySnapshotAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ModifySnapshotAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ModifySnapshotAttributeResponse *)modifySnapshotAttribute:(EC2ModifySnapshotAttributeRequest *)modifySnapshotAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>modifySnapshotAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ModifySnapshotAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/modifySnapshotAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeReservedInstancesModifications:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeReservedInstancesModifications operation describes modifications made to Reserved Instances in your
+account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesModificationsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesModificationsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeReservedInstancesModificationsResponse *)describeReservedInstancesModifications:(EC2DescribeReservedInstancesModificationsRequest *)describeReservedInstancesModificationsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeReservedInstancesModificationsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeReservedInstancesModifications service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeReservedInstancesModifications service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReservedInstancesModifications:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/terminateInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The TerminateInstances operation shuts down one or more instances. This operation is idempotent; if you terminate an
+instance more than once, each call will succeed.
+&lt;/p&gt;
+&lt;p&gt;
+Terminated instances will remain visible after termination (approximately one hour).
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2TerminateInstancesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2TerminateInstancesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2TerminateInstancesResponse *)terminateInstances:(EC2TerminateInstancesRequest *)terminateInstancesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>terminateInstancesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the TerminateInstances service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the TerminateInstances service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/terminateInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteSpotDatafeedSubscription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes the data feed for Spot Instances.
+&lt;/p&gt;
+&lt;p&gt;
+For conceptual information about Spot Instances, refer to the Amazon Elastic Compute Cloud Developer Guide or Amazon
+Elastic Compute Cloud User Guide .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSpotDatafeedSubscriptionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSpotDatafeedSubscriptionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteSpotDatafeedSubscriptionResponse *)deleteSpotDatafeedSubscription:(EC2DeleteSpotDatafeedSubscriptionRequest *)deleteSpotDatafeedSubscriptionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteSpotDatafeedSubscriptionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DeleteSpotDatafeedSubscription service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteSpotDatafeedSubscription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSnapshotAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns information about an attribute of a snapshot. Only one attribute can be specified per call.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSnapshotAttributeResponse *)describeSnapshotAttribute:(EC2DescribeSnapshotAttributeRequest *)describeSnapshotAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSnapshotAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeSnapshotAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSnapshotAttribute service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSnapshotAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeAddresses operation lists elastic IP addresses assigned to your account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAddressesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAddressesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeAddressesResponse *)describeAddresses:(EC2DescribeAddressesRequest *)describeAddressesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAddressesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAddresses service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAddresses service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAddresses:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeImageAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeImageAttribute operation returns information about an attribute of an AMI. Only one attribute can be
+specified per call.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImageAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImageAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeImageAttributeResponse *)describeImageAttribute:(EC2DescribeImageAttributeRequest *)describeImageAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeImageAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeImageAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeImageAttribute service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeImageAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeKeyPairs:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeKeyPairs operation returns information about key pairs available to you. If you specify key pairs,
+information about those key pairs is returned. Otherwise, information for all registered key pairs is returned.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeKeyPairsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeKeyPairsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeKeyPairsResponse *)describeKeyPairs:(EC2DescribeKeyPairsRequest *)describeKeyPairsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeKeyPairsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeKeyPairs service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeKeyPairs service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeKeyPairs:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/confirmProductInstance:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ConfirmProductInstance operation returns true if the specified product code is attached to the specified instance.
+The operation returns false if the product code is not attached to the instance.
+&lt;/p&gt;
+&lt;p&gt;
+The ConfirmProductInstance operation can only be executed by the owner of the AMI. This feature is useful when an AMI
+owner is providing support and wants to verify whether a user&apos;s instance is eligible.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ConfirmProductInstanceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ConfirmProductInstanceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ConfirmProductInstanceResponse *)confirmProductInstance:(EC2ConfirmProductInstanceRequest *)confirmProductInstanceRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>confirmProductInstanceRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ConfirmProductInstance
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ConfirmProductInstance service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/confirmProductInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Initializes an empty volume of a given size.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateVolumeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateVolumeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateVolumeResponse *)createVolume:(EC2CreateVolumeRequest *)createVolumeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createVolumeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateVolume service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateVolume service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createVolume:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeInstanceStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Describes the status of an Amazon Elastic Compute Cloud (Amazon EC2) instance. Instance status provides information
+about two types of scheduled events for an instance that may require your attention:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceStatusRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceStatusResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeInstanceStatusResponse *)describeInstanceStatus:(EC2DescribeInstanceStatusRequest *)describeInstanceStatusRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeInstanceStatusRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeInstanceStatus
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeInstanceStatus service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeInstanceStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeReservedInstancesOfferings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DescribeReservedInstancesOfferings operation describes Reserved Instance offerings that are available for purchase.
+With Amazon EC2 Reserved Instances, you purchase the right to launch Amazon EC2 instances for a period of time (without
+getting insufficient capacity errors) and pay a lower usage rate for the actual time used.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesOfferingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesOfferingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeReservedInstancesOfferingsResponse *)describeReservedInstancesOfferings:(EC2DescribeReservedInstancesOfferingsRequest *)describeReservedInstancesOfferingsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeReservedInstancesOfferingsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeReservedInstancesOfferings service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeReservedInstancesOfferings service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReservedInstancesOfferings:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deleteSnapshot:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes the snapshot identified by snapshotId .</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSnapshotRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSnapshotResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeleteSnapshotResponse *)deleteSnapshot:(EC2DeleteSnapshotRequest *)deleteSnapshotRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteSnapshotRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteSnapshot service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteSnapshot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/disassociateAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DisassociateAddress operation disassociates the specified elastic IP address from the instance to which it is
+assigned. This is an idempotent operation. If you enter it more than once, Amazon EC2 does not return an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DisassociateAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DisassociateAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DisassociateAddressResponse *)disassociateAddress:(EC2DisassociateAddressRequest *)disassociateAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>disassociateAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DisassociateAddress service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/disassociateAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createPlacementGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates a PlacementGroup into which multiple Amazon EC2 instances can be launched. Users must give the group a name
+unique within the scope of the user account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreatePlacementGroupRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreatePlacementGroupResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreatePlacementGroupResponse *)createPlacementGroup:(EC2CreatePlacementGroupRequest *)createPlacementGroupRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createPlacementGroupRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreatePlacementGroup service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createPlacementGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/bundleInstance:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The BundleInstance operation request that an instance is bundled the next time it boots. The bundling process creates a
+new image from a running instance and stores the AMI data in S3. Once bundled, the image must be registered in the
+normal way using the RegisterImage API.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2BundleInstanceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2BundleInstanceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2BundleInstanceResponse *)bundleInstance:(EC2BundleInstanceRequest *)bundleInstanceRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bundleInstanceRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the BundleInstance service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the BundleInstance service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/bundleInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/deletePlacementGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes a PlacementGroup from a user&apos;s account. Terminate all Amazon EC2 instances in the placement group before
+deletion.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeletePlacementGroupRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DeletePlacementGroupResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DeletePlacementGroupResponse *)deletePlacementGroup:(EC2DeletePlacementGroupRequest *)deletePlacementGroupRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deletePlacementGroupRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeletePlacementGroup service
+method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deletePlacementGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/doCopySnapshot:</TokenIdentifier>
+			<Abstract type="html">Container for the necessary parameters to execute the CopySnapshot service method on
+AmazonEC2.</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CopySnapshotRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CopySnapshotResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CopySnapshotResponse *)doCopySnapshot:(EC2CopySnapshotRequest *)copySnapshotRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>copySnapshotRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CopySnapshot service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CopySnapshot service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/doCopySnapshot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/allocateAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The AllocateAddress operation acquires an elastic IP address for use with your account.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AllocateAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2AllocateAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2AllocateAddressResponse *)allocateAddress:(EC2AllocateAddressRequest *)allocateAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>allocateAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AllocateAddress service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AllocateAddress service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/allocateAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/releaseAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ReleaseAddress operation releases an elastic IP address associated with your account.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Releasing an IP address automatically disassociates it from any instance with which it is associated. For
+more information, see DisassociateAddress.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt; After releasing an elastic IP address, it is released to the IP address pool and might no longer be
+available to your account. Make sure to update your DNS records and any servers or devices that communicate with the
+address. If you run this operation on an elastic IP address that is already released, the address might be assigned to
+another account which will cause Amazon EC2 to return an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ReleaseAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ReleaseAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ReleaseAddressResponse *)releaseAddress:(EC2ReleaseAddressRequest *)releaseAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>releaseAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ReleaseAddress service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/releaseAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/resetInstanceAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Resets an attribute of an instance to its default value.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetInstanceAttributeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2ResetInstanceAttributeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2ResetInstanceAttributeResponse *)resetInstanceAttribute:(EC2ResetInstanceAttributeRequest *)resetInstanceAttributeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resetInstanceAttributeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ResetInstanceAttribute
+service method on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resetInstanceAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/createKeyPair:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The CreateKeyPair operation creates a new 2048 bit RSA key pair and returns a unique ID that can be used to reference
+this key pair when launching new instances. For more information, see RunInstances.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateKeyPairRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2CreateKeyPairResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2CreateKeyPairResponse *)createKeyPair:(EC2CreateKeyPairRequest *)createKeyPairRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createKeyPairRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateKeyPair service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateKeyPair service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/createKeyPair:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/describeSnapshots:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns information about the Amazon EBS snapshots available to you. Snapshots available to you include public
+snapshots available for any AWS account to launch, private snapshots you own, and private snapshots owned by another AWS
+account but for which you&apos;ve been given explicit create volume permissions.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2DescribeSnapshotsResponse *)describeSnapshots:(EC2DescribeSnapshotsRequest *)describeSnapshotsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeSnapshotsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeSnapshots service method
+on AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeSnapshots service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeSnapshots:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonEC2Client/registerImage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The RegisterImage operation registers an AMI with Amazon EC2. Images must be registered before they can be launched.
+For more information, see RunInstances.
+&lt;/p&gt;
+&lt;p&gt;
+Each AMI is associated with an unique ID which is provided by the Amazon EC2 service through the RegisterImage
+operation. During registration, Amazon EC2 retrieves the specified image manifest from Amazon S3 and verifies that the
+image is owned by the user registering the image.
+&lt;/p&gt;
+&lt;p&gt;
+The image manifest is retrieved once and stored within the Amazon EC2. Any modifications to an image in Amazon S3
+invalidates this registration. If you make changes to an image, deregister the previous image and register the new
+image. For more information, see DeregisterImage.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonEC2Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RegisterImageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/EC2RegisterImageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (EC2RegisterImageResponse *)registerImage:(EC2RegisterImageRequest *)registerImageRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>registerImageRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the RegisterImage service method on
+AmazonEC2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the RegisterImage service method, as returned by AmazonEC2.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerImage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

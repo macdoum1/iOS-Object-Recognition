@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2RebootInstancesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2RebootInstancesResponse</TokenIdentifier>
+			<Abstract type="html">Reboot Instances</Abstract>
+			<DeclaredIn>EC2RebootInstancesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="447"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,797 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DynamoDBAttributeValueUpdate Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">DynamoDBAttributeValueUpdate Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/action">&nbsp;&nbsp;&nbsp;&nbsp;action</option>
+	
+	<option value="//api/name/value">&nbsp;&nbsp;&nbsp;&nbsp;value</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithValue:andAction:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithValue:andAction:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/action">action</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/value">value</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithValue:andAction:">initWithValue:andAction:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="DynamoDBAttributeValueUpdate Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">DynamoDBAttributeValueUpdate Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">DynamoDBAttributeValueUpdate.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Attribute Value Update</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/value">&nbsp;&nbsp;value</a></code>
+		<span class="tooltip"><p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/action">&nbsp;&nbsp;action</a></code>
+		<span class="tooltip"><p>Specifies how to perform the update. Valid values are
+<code>PUT</code>, <code>DELETE</code>, and <code>ADD</code>. The
+behavior depends on whether the specified primary key already exists
+in the table. <p> <b>If an item with the specified <i>Key</i> is found
+in the table:</b> <ul> <li> <p><code>PUT</code> &ndash; Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. </li> <li> <p><code>DELETE</code> &ndash; If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&rsquo;s data
+type. <p>If a <i>set</i> of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set <code>[a,b,c]</code> and the <i>DELETE</i> action specified
+<code>[a,c]</code>, then the final attribute value would be
+<code>[b]</code>. Specifying an empty set is an error. </li> <li></p>
+
+<p><p><code>ADD</code> &ndash; If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of <code>ADD</code> depends on the data
+type of the attribute: <ul> <li> <p>If the existing attribute is a
+number, and if <i>Value</i> is also a number, then the <i>Value</i> is
+mathematically added to the existing attribute. If <i>Value</i> is a
+negative number, then it is subtracted from the existing attribute.
+<note> <p> If you use <code>ADD</code> to increment or decrement a
+number value for an item that doesn&rsquo;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. <p>In addition, if you use
+<code>ADD</code> to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses <code>0</code> as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named <i>itemcount</i>, but you decide to <code>ADD</code>
+the number <code>3</code> to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+<i>itemcount</i> attribute, set its initial value to <code>0</code>,
+and finally add <code>3</code> to it. The result will be a new
+<i>itemcount</i> attribute in the item, with a value of
+<code>3</code>. </note> </li> <li> <p>If the existing data type is a
+set, and if the <i>Value</i> is also a set, then the <i>Value</i> is
+added to the existing set. (This is a <i>set</i> operation, not
+mathematical addition.) For example, if the attribute value was the
+set <code>[1,2]</code>, and the <code>ADD</code> action specified
+<code>[3]</code>, then the final attribute value would be
+<code>[1,2,3]</code>. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. <p>Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+<i>Value</i> must also be a set of strings. The same holds true for
+number sets and binary sets. </li> </ul> <p>This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use <code>ADD</code> for any other data types. </li> </ul> <p>
+<b>If no item with the specified <i>Key</i> is found:</b> <ul> <li>
+<p><code>PUT</code> &ndash; Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. </li> <li>
+<p><code>DELETE</code> &ndash; Nothing happens; there is no attribute to
+delete. </li> <li> <p><code>ADD</code> &ndash; Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. </li> </ul>
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ADD, PUT, DELETE</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new AttributeValueUpdate object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithValue:andAction:">&ndash;&nbsp;initWithValue:andAction:</a></code>
+		<span class="tooltip"><p>Constructs a new AttributeValueUpdate object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/action" title="action"></a>
+	<h3 class="subsubtitle method-title">action</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies how to perform the update. Valid values are
+<code>PUT</code>, <code>DELETE</code>, and <code>ADD</code>. The
+behavior depends on whether the specified primary key already exists
+in the table. <p> <b>If an item with the specified <i>Key</i> is found
+in the table:</b> <ul> <li> <p><code>PUT</code> &ndash; Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. </li> <li> <p><code>DELETE</code> &ndash; If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&rsquo;s data
+type. <p>If a <i>set</i> of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set <code>[a,b,c]</code> and the <i>DELETE</i> action specified
+<code>[a,c]</code>, then the final attribute value would be
+<code>[b]</code>. Specifying an empty set is an error. </li> <li></p>
+
+<p><p><code>ADD</code> &ndash; If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of <code>ADD</code> depends on the data
+type of the attribute: <ul> <li> <p>If the existing attribute is a
+number, and if <i>Value</i> is also a number, then the <i>Value</i> is
+mathematically added to the existing attribute. If <i>Value</i> is a
+negative number, then it is subtracted from the existing attribute.
+<note> <p> If you use <code>ADD</code> to increment or decrement a
+number value for an item that doesn&rsquo;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. <p>In addition, if you use
+<code>ADD</code> to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses <code>0</code> as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named <i>itemcount</i>, but you decide to <code>ADD</code>
+the number <code>3</code> to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+<i>itemcount</i> attribute, set its initial value to <code>0</code>,
+and finally add <code>3</code> to it. The result will be a new
+<i>itemcount</i> attribute in the item, with a value of
+<code>3</code>. </note> </li> <li> <p>If the existing data type is a
+set, and if the <i>Value</i> is also a set, then the <i>Value</i> is
+added to the existing set. (This is a <i>set</i> operation, not
+mathematical addition.) For example, if the attribute value was the
+set <code>[1,2]</code>, and the <code>ADD</code> action specified
+<code>[3]</code>, then the final attribute value would be
+<code>[1,2,3]</code>. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. <p>Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+<i>Value</i> must also be a set of strings. The same holds true for
+number sets and binary sets. </li> </ul> <p>This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use <code>ADD</code> for any other data types. </li> </ul> <p>
+<b>If no item with the specified <i>Key</i> is found:</b> <ul> <li>
+<p><code>PUT</code> &ndash; Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. </li> <li>
+<p><code>DELETE</code> &ndash; Nothing happens; there is no attribute to
+delete. </li> <li> <p><code>ADD</code> &ndash; Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. </li> </ul>
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ADD, PUT, DELETE</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *action</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies how to perform the update. Valid values are
+<code>PUT</code>, <code>DELETE</code>, and <code>ADD</code>. The
+behavior depends on whether the specified primary key already exists
+in the table. <p> <b>If an item with the specified <i>Key</i> is found
+in the table:</b> <ul> <li> <p><code>PUT</code> &ndash; Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. </li> <li> <p><code>DELETE</code> &ndash; If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&rsquo;s data
+type. <p>If a <i>set</i> of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set <code>[a,b,c]</code> and the <i>DELETE</i> action specified
+<code>[a,c]</code>, then the final attribute value would be
+<code>[b]</code>. Specifying an empty set is an error. </li> <li></p>
+
+<p><p><code>ADD</code> &ndash; If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of <code>ADD</code> depends on the data
+type of the attribute: <ul> <li> <p>If the existing attribute is a
+number, and if <i>Value</i> is also a number, then the <i>Value</i> is
+mathematically added to the existing attribute. If <i>Value</i> is a
+negative number, then it is subtracted from the existing attribute.
+<note> <p> If you use <code>ADD</code> to increment or decrement a
+number value for an item that doesn&rsquo;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. <p>In addition, if you use
+<code>ADD</code> to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses <code>0</code> as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named <i>itemcount</i>, but you decide to <code>ADD</code>
+the number <code>3</code> to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+<i>itemcount</i> attribute, set its initial value to <code>0</code>,
+and finally add <code>3</code> to it. The result will be a new
+<i>itemcount</i> attribute in the item, with a value of
+<code>3</code>. </note> </li> <li> <p>If the existing data type is a
+set, and if the <i>Value</i> is also a set, then the <i>Value</i> is
+added to the existing set. (This is a <i>set</i> operation, not
+mathematical addition.) For example, if the attribute value was the
+set <code>[1,2]</code>, and the <code>ADD</code> action specified
+<code>[3]</code>, then the final attribute value would be
+<code>[1,2,3]</code>. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. <p>Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+<i>Value</i> must also be a set of strings. The same holds true for
+number sets and binary sets. </li> </ul> <p>This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use <code>ADD</code> for any other data types. </li> </ul> <p>
+<b>If no item with the specified <i>Key</i> is found:</b> <ul> <li>
+<p><code>PUT</code> &ndash; Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. </li> <li>
+<p><code>DELETE</code> &ndash; Nothing happens; there is no attribute to
+delete. </li> <li> <p><code>ADD</code> &ndash; Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. </li> </ul>
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ADD, PUT, DELETE</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBAttributeValueUpdate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="subsubtitle method-title">value</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) DynamoDBAttributeValue *value</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBAttributeValueUpdate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBAttributeValueUpdate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new AttributeValueUpdate object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new AttributeValueUpdate object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBAttributeValueUpdate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithValue:andAction:" title="initWithValue:andAction:"></a>
+	<h3 class="subsubtitle method-title">initWithValue:andAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new AttributeValueUpdate object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithValue:(DynamoDBAttributeValue *)<em>theValue</em> andAction:(NSString *)<em>theAction</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>Represents the data for an attribute. You can set one,
+and only one, of the elements.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theAction</em></dt>
+			<dd><p>Specifies how to perform the update. Valid values are
+<code>PUT</code>, <code>DELETE</code>, and <code>ADD</code>. The
+behavior depends on whether the specified primary key already exists
+in the table. <p> <b>If an item with the specified <i>Key</i> is found
+in the table:</b> <ul> <li> <p><code>PUT</code> &ndash; Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. </li> <li> <p><code>DELETE</code> &ndash; If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&rsquo;s data
+type. <p>If a <i>set</i> of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set <code>[a,b,c]</code> and the <i>DELETE</i> action specified
+<code>[a,c]</code>, then the final attribute value would be
+<code>[b]</code>. Specifying an empty set is an error. </li> <li></p>
+
+<p><p><code>ADD</code> &ndash; If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of <code>ADD</code> depends on the data
+type of the attribute: <ul> <li> <p>If the existing attribute is a
+number, and if <i>Value</i> is also a number, then the <i>Value</i> is
+mathematically added to the existing attribute. If <i>Value</i> is a
+negative number, then it is subtracted from the existing attribute.
+<note> <p> If you use <code>ADD</code> to increment or decrement a
+number value for an item that doesn&rsquo;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. <p>In addition, if you use
+<code>ADD</code> to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses <code>0</code> as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named <i>itemcount</i>, but you decide to <code>ADD</code>
+the number <code>3</code> to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+<i>itemcount</i> attribute, set its initial value to <code>0</code>,
+and finally add <code>3</code> to it. The result will be a new
+<i>itemcount</i> attribute in the item, with a value of
+<code>3</code>. </note> </li> <li> <p>If the existing data type is a
+set, and if the <i>Value</i> is also a set, then the <i>Value</i> is
+added to the existing set. (This is a <i>set</i> operation, not
+mathematical addition.) For example, if the attribute value was the
+set <code>[1,2]</code>, and the <code>ADD</code> action specified
+<code>[3]</code>, then the final attribute value would be
+<code>[1,2,3]</code>. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. <p>Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+<i>Value</i> must also be a set of strings. The same holds true for
+number sets and binary sets. </li> </ul> <p>This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use <code>ADD</code> for any other data types. </li> </ul> <p>
+<b>If no item with the specified <i>Key</i> is found:</b> <ul> <li>
+<p><code>PUT</code> &ndash; Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. </li> <li>
+<p><code>DELETE</code> &ndash; Nothing happens; there is no attribute to
+delete. </li> <li> <p><code>ADD</code> &ndash; Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. </li> </ul></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new AttributeValueUpdate object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBAttributeValueUpdate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

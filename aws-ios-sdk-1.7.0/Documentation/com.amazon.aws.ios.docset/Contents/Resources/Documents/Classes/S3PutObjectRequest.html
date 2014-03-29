@@ -1,0 +1,980 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>S3PutObjectRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">S3PutObjectRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/cacheControl">&nbsp;&nbsp;&nbsp;&nbsp;cacheControl</option>
+	
+	<option value="//api/name/contentDisposition">&nbsp;&nbsp;&nbsp;&nbsp;contentDisposition</option>
+	
+	<option value="//api/name/contentEncoding">&nbsp;&nbsp;&nbsp;&nbsp;contentEncoding</option>
+	
+	<option value="//api/name/contentMD5">&nbsp;&nbsp;&nbsp;&nbsp;contentMD5</option>
+	
+	<option value="//api/name/data">&nbsp;&nbsp;&nbsp;&nbsp;data</option>
+	
+	<option value="//api/name/expect">&nbsp;&nbsp;&nbsp;&nbsp;expect</option>
+	
+	<option value="//api/name/expires">&nbsp;&nbsp;&nbsp;&nbsp;expires</option>
+	
+	<option value="//api/name/filename">&nbsp;&nbsp;&nbsp;&nbsp;filename</option>
+	
+	<option value="//api/name/generateMD5">&nbsp;&nbsp;&nbsp;&nbsp;generateMD5</option>
+	
+	<option value="//api/name/redirectLocation">&nbsp;&nbsp;&nbsp;&nbsp;redirectLocation</option>
+	
+	<option value="//api/name/stream">&nbsp;&nbsp;&nbsp;&nbsp;stream</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initWithKey:inBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithKey:inBucket:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cacheControl">cacheControl</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentDisposition">contentDisposition</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentEncoding">contentEncoding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentMD5">contentMD5</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/data">data</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expect">expect</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expires">expires</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filename">filename</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/generateMD5">generateMD5</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/redirectLocation">redirectLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stream">stream</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithKey:inBucket:">initWithKey:inBucket:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="S3PutObjectRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">S3PutObjectRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/S3AbstractPutRequest.html">S3AbstractPutRequest</a> : <a href="../Classes/S3Request.html">S3Request</a> : <a href="../Classes/AmazonServiceRequest.html">AmazonServiceRequest</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">S3PutObjectRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Contains the parameters used for the putObject operation.</p>
+
+<p>Required parameters: bucket, key.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cacheControl">&nbsp;&nbsp;cacheControl</a></code>
+		<span class="tooltip"><p>Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentDisposition">&nbsp;&nbsp;contentDisposition</a></code>
+		<span class="tooltip"><p>Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentEncoding">&nbsp;&nbsp;contentEncoding</a></code>
+		<span class="tooltip"><p>Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+<code>Content-Type</code> header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentMD5">&nbsp;&nbsp;contentMD5</a></code>
+		<span class="tooltip"><p>The base64 encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864.
+This header can be used as a message integrity check to verify that the data is the same \
+data that was originally sent.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/generateMD5">&nbsp;&nbsp;generateMD5</a></code>
+		<span class="tooltip"><p>If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expect">&nbsp;&nbsp;expect</a></code>
+		<span class="tooltip"><p>When your application uses 100-continue, it does not send the request body until it receives an acknowledgement.
+If the message is rejected based on the headers, the body of the message is not sent.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/data">&nbsp;&nbsp;data</a></code>
+		<span class="tooltip"><p>The that represents the object to be uploaded</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+</span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stream">&nbsp;&nbsp;stream</a></code>
+		<span class="tooltip"><p>The stream from which to read the object to be uploaded.
+To use the stream you must explicitly set the content length.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+</span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expires">&nbsp;&nbsp;expires</a></code>
+		<span class="tooltip"><p>Number of milliseconds before expiration.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filename">&nbsp;&nbsp;filename</a></code>
+		<span class="tooltip"><p>Path of file in the filesystem to be uploaded.
+The <code>contentLength</code> and <code>contentType</code> will be inferred.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+
+<p>@throws AmazonClientException If the file does not exist or is not readable.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/redirectLocation">&nbsp;&nbsp;redirectLocation</a></code>
+		<span class="tooltip"><p>The redirect location.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithKey:inBucket:">&ndash;&nbsp;initWithKey:inBucket:</a></code>
+		<span class="tooltip"><p>Initializes the request with the key and bucket name</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cacheControl" title="cacheControl"></a>
+	<h3 class="subsubtitle method-title">cacheControl</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *cacheControl</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentDisposition" title="contentDisposition"></a>
+	<h3 class="subsubtitle method-title">contentDisposition</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *contentDisposition</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentEncoding" title="contentEncoding"></a>
+	<h3 class="subsubtitle method-title">contentEncoding</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+<code>Content-Type</code> header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *contentEncoding</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+<code>Content-Type</code> header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentMD5" title="contentMD5"></a>
+	<h3 class="subsubtitle method-title">contentMD5</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The base64 encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864.
+This header can be used as a message integrity check to verify that the data is the same \
+data that was originally sent.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *contentMD5</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The base64 encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864.
+This header can be used as a message integrity check to verify that the data is the same \
+data that was originally sent.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/data" title="data"></a>
+	<h3 class="subsubtitle method-title">data</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The that represents the object to be uploaded</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSData *data</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The that represents the object to be uploaded</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expect" title="expect"></a>
+	<h3 class="subsubtitle method-title">expect</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When your application uses 100-continue, it does not send the request body until it receives an acknowledgement.
+If the message is rejected based on the headers, the body of the message is not sent.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *expect</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>When your application uses 100-continue, it does not send the request body until it receives an acknowledgement.
+If the message is rejected based on the headers, the body of the message is not sent.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expires" title="expires"></a>
+	<h3 class="subsubtitle method-title">expires</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Number of milliseconds before expiration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) int32_t expires</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Number of milliseconds before expiration.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filename" title="filename"></a>
+	<h3 class="subsubtitle method-title">filename</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Path of file in the filesystem to be uploaded.
+The <code>contentLength</code> and <code>contentType</code> will be inferred.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+
+<p>@throws AmazonClientException If the file does not exist or is not readable.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *filename</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Path of file in the filesystem to be uploaded.
+The <code>contentLength</code> and <code>contentType</code> will be inferred.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+
+<p>@throws AmazonClientException If the file does not exist or is not readable.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/generateMD5" title="generateMD5"></a>
+	<h3 class="subsubtitle method-title">generateMD5</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL generateMD5</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</p>
+
+<p>MD5 Generation only works on files and data, generation is not attempted for streams.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/redirectLocation" title="redirectLocation"></a>
+	<h3 class="subsubtitle method-title">redirectLocation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The redirect location.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *redirectLocation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The redirect location.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stream" title="stream"></a>
+	<h3 class="subsubtitle method-title">stream</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The stream from which to read the object to be uploaded.
+To use the stream you must explicitly set the content length.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSInputStream *stream</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The stream from which to read the object to be uploaded.
+To use the stream you must explicitly set the content length.</p>
+
+<p>
+Use one of <code>data</code>, <code>stream</code>, <code>filename</code>.
+</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithKey:inBucket:" title="initWithKey:inBucket:"></a>
+	<h3 class="subsubtitle method-title">initWithKey:inBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the request with the key and bucket name</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithKey:(NSString *)<em>aKey</em> inBucket:(NSString *)<em>aBucket</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initializes the request with the key and bucket name</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3PutObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

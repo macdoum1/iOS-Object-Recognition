@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2RunInstancesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2RunInstancesRequest</TokenIdentifier>
+			<Abstract type="html">Run Instances Request</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="477"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">Unique ID of a machine image, returned by a call to DescribeImages.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/imageId</TokenIdentifier>
+			<Abstract type="html">Unique ID of a machine image, returned by a call to DescribeImages.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setMinCount:</TokenIdentifier>
+			<Abstract type="html">Minimum number of instances to launch. If the value is more than
+Amazon EC2 can launch, no instances are launched at all.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minCount</Declaration>
+			
+			
+			<Anchor>//api/name/minCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/minCount</TokenIdentifier>
+			<Abstract type="html">Minimum number of instances to launch. If the value is more than
+Amazon EC2 can launch, no instances are launched at all.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minCount</Declaration>
+			
+			
+			<Anchor>//api/name/minCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setMaxCount:</TokenIdentifier>
+			<Abstract type="html">Maximum number of instances to launch. If the value is more than
+Amazon EC2 can launch, the largest possible number above minCount will
+be launched instead. &lt;p&gt; Between 1 and the maximum number allowed for
+your account (default: 20).</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/maxCount</TokenIdentifier>
+			<Abstract type="html">Maximum number of instances to launch. If the value is more than
+Amazon EC2 can launch, the largest possible number above minCount will
+be launched instead. &lt;p&gt; Between 1 and the maximum number allowed for
+your account (default: 20).</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setKeyName:</TokenIdentifier>
+			<Abstract type="html">The name of the key pair.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/keyName</TokenIdentifier>
+			<Abstract type="html">The name of the key pair.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">The names of the security groups into which the instances will be
+launched.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/securityGroups</TokenIdentifier>
+			<Abstract type="html">The names of the security groups into which the instances will be
+launched.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setSecurityGroupIds:</TokenIdentifier>
+			<Abstract type="html">The value of the SecurityGroupIds property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroupIds</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/securityGroupIds</TokenIdentifier>
+			<Abstract type="html">The value of the SecurityGroupIds property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroupIds</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setUserData:</TokenIdentifier>
+			<Abstract type="html">Specifies additional information to make available to the instance(s).
+This parameter must be passed as a Base64-encoded string.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/userData</TokenIdentifier>
+			<Abstract type="html">Specifies additional information to make available to the instance(s).
+This parameter must be passed as a Base64-encoded string.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">Specifies the instance type for the launched instances.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">Specifies the instance type for the launched instances.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setPlacement:</TokenIdentifier>
+			<Abstract type="html">Specifies the placement constraints (Availability Zones) for launching
+the instances.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/placement</TokenIdentifier>
+			<Abstract type="html">Specifies the placement constraints (Availability Zones) for launching
+the instances.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setKernelId:</TokenIdentifier>
+			<Abstract type="html">The ID of the kernel with which to launch the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">The ID of the kernel with which to launch the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">The ID of the RAM disk with which to launch the instance. Some kernels
+require additional drivers at launch. Check the kernel requirements
+for information on whether you need to specify a RAM disk. To find
+kernel requirements, go to the Resource Center and search for the
+kernel ID.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">The ID of the RAM disk with which to launch the instance. Some kernels
+require additional drivers at launch. Check the kernel requirements
+for information on whether you need to specify a RAM disk. To find
+kernel requirements, go to the Resource Center and search for the
+kernel ID.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">Specifies how block devices are exposed to the instance. Each mapping
+is made up of a virtualName and a deviceName.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">Specifies how block devices are exposed to the instance. Each mapping
+is made up of a virtualName and a deviceName.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setMonitoring:</TokenIdentifier>
+			<Abstract type="html">Enables monitoring for the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/monitoring</TokenIdentifier>
+			<Abstract type="html">Enables monitoring for the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">Specifies the subnet ID within which to launch the instance(s) for
+Amazon Virtual Private Cloud.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">Specifies the subnet ID within which to launch the instance(s) for
+Amazon Virtual Private Cloud.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setDisableApiTermination:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the instance can be terminated using the APIs. You
+must modify this attribute before you can terminate any &quot;locked&quot;
+instances from the APIs.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">Specifies whether the instance can be terminated using the APIs. You
+must modify this attribute before you can terminate any &quot;locked&quot;
+instances from the APIs.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setInstanceInitiatedShutdownBehavior:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the instance&apos;s Amazon EBS volumes are stopped or
+terminated when the instance is shut down.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;stop, terminate</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">Specifies whether the instance&apos;s Amazon EBS volumes are stopped or
+terminated when the instance is shut down.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;stop, terminate</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setLicense:</TokenIdentifier>
+			<Abstract type="html">Specifies active licenses in use and attached to an Amazon EC2
+instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceLicenseSpecification *license</Declaration>
+			
+			
+			<Anchor>//api/name/license</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/license</TokenIdentifier>
+			<Abstract type="html">Specifies active licenses in use and attached to an Amazon EC2
+instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceLicenseSpecification *license</Declaration>
+			
+			
+			<Anchor>//api/name/license</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">If you&apos;re using Amazon Virtual Private Cloud, you can optionally use
+this parameter to assign the instance a specific available IP address
+from the subnet.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">If you&apos;re using Amazon Virtual Private Cloud, you can optionally use
+this parameter to assign the instance a specific available IP address
+from the subnet.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">Unique, case-sensitive identifier you provide to ensure idempotency of
+the request. For more information, go to How to Ensure Idempotency in
+the Amazon Elastic Compute Cloud User Guide.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">Unique, case-sensitive identifier you provide to ensure idempotency of
+the request. For more information, go to How to Ensure Idempotency in
+the Amazon Elastic Compute Cloud User Guide.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setAdditionalInfo:</TokenIdentifier>
+			<Abstract type="html">Do not use. Reserved for internal use.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/additionalInfo</TokenIdentifier>
+			<Abstract type="html">Do not use. Reserved for internal use.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setNetworkInterfaces:</TokenIdentifier>
+			<Abstract type="html">List of network interfaces associated with the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">List of network interfaces associated with the instance.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setIamInstanceProfile:</TokenIdentifier>
+			<Abstract type="html">The value of the IamInstanceProfile property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">The value of the IamInstanceProfile property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">The value of the EbsOptimized property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RunInstancesRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">The value of the EbsOptimized property for this object.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new RunInstancesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/initWithImageId:andMinCount:andMaxCount:</TokenIdentifier>
+			<Abstract type="html">Constructs a new RunInstancesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImageId:(NSString *)theImageId andMinCount:(NSNumber *)theMinCount andMaxCount:(NSNumber *)theMaxCount</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theImageId</Name>
+					<Abstract type="html">Unique ID of a machine image, returned by a call to
+DescribeImages.</Abstract>
+				</Parameter><Parameter>
+					<Name>theMinCount</Name>
+					<Abstract type="html">Minimum number of instances to launch. If the value
+is more than Amazon EC2 can launch, no instances are launched at all.</Abstract>
+				</Parameter><Parameter>
+					<Name>theMaxCount</Name>
+					<Abstract type="html">Maximum number of instances to launch. If the value
+is more than Amazon EC2 can launch, the largest possible number above
+minCount will be launched instead. &lt;p&gt; Between 1 and the maximum
+number allowed for your account (default: 20).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImageId:andMinCount:andMaxCount:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/addSecurityGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to securityGroups.
+This function will alloc and init securityGroups if not already done.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSecurityGroup:(NSString *)securityGroupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSecurityGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/addSecurityGroupId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to securityGroupIds.
+This function will alloc and init securityGroupIds if not already done.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSecurityGroupId:(NSString *)securityGroupIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSecurityGroupId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/addNetworkInterface:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to networkInterfaces.
+This function will alloc and init networkInterfaces if not already done.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addNetworkInterface:(EC2InstanceNetworkInterfaceSpecification *)networkInterfaceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addNetworkInterface:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RunInstancesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2RunInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

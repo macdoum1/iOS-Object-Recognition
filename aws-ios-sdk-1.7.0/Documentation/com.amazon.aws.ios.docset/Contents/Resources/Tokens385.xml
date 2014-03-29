@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ImageAttribute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ImageAttribute</TokenIdentifier>
+			<Abstract type="html">Image Attribute</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>
+			
+			<NodeRef refid="385"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setImageId:</TokenIdentifier>
+			<Abstract type="html">The ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/imageId</TokenIdentifier>
+			<Abstract type="html">The ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setLaunchPermissions:</TokenIdentifier>
+			<Abstract type="html">Launch permissions for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *launchPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermissions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/launchPermissions</TokenIdentifier>
+			<Abstract type="html">Launch permissions for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *launchPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermissions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">Product codes for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/productCodes</TokenIdentifier>
+			<Abstract type="html">Product codes for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setKernelId:</TokenIdentifier>
+			<Abstract type="html">Kernel ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/kernelId</TokenIdentifier>
+			<Abstract type="html">Kernel ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">Ramdisk ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/ramdiskId</TokenIdentifier>
+			<Abstract type="html">Ramdisk ID of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">User-created description of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/descriptionValue</TokenIdentifier>
+			<Abstract type="html">User-created description of the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">Block device mappings for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">Block device mappings for the associated AMI.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/addLaunchPermission:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to launchPermissions.
+This function will alloc and init launchPermissions if not already done.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLaunchPermission:(EC2LaunchPermission *)launchPermissionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLaunchPermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/addProductCode:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (void)addProductCode:(EC2ProductCode *)productCodeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addProductCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImageAttribute/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ImageAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

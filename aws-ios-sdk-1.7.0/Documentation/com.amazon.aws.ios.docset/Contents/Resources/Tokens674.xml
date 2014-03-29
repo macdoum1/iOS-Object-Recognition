@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListVersionsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsResult</TokenIdentifier>
+			<Abstract type="html">Contains the results of listing the versions in an Amazon S3 bucket,
+including a list of S3VersionSummary objects describing each version,
+information describing if this is a complete or partial listing, and the
+original request parameters.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>
+			
+			<NodeRef refid="674"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setVersionSummaries:</TokenIdentifier>
+			<Abstract type="html">A list of summary information describing the versions stored in the bucket</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *versionSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/versionSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/versionSummaries</TokenIdentifier>
+			<Abstract type="html">A list of summary information describing the versions stored in the bucket</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *versionSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/versionSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the Amazon S3 bucket containing the listed versions</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/name</TokenIdentifier>
+			<Abstract type="html">The name of the Amazon S3 bucket containing the listed versions</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setPrefix:</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/prefix</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setKeyMarker:</TokenIdentifier>
+			<Abstract type="html">The key marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/keyMarker</TokenIdentifier>
+			<Abstract type="html">The key marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setNextKeyMarker:</TokenIdentifier>
+			<Abstract type="html">When the number of responses exceeds the value of MaxKeys, NextKeyMarker specifies
+the first key not returned that satisfies the search criteria. Use this value for
+the key-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextKeyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextKeyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/nextKeyMarker</TokenIdentifier>
+			<Abstract type="html">When the number of responses exceeds the value of MaxKeys, NextKeyMarker specifies
+the first key not returned that satisfies the search criteria. Use this value for
+the key-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextKeyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextKeyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setVersionIdMarker:</TokenIdentifier>
+			<Abstract type="html">The version id marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/versionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/versionIdMarker</TokenIdentifier>
+			<Abstract type="html">The version id marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/versionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setNextVersionIdMarker:</TokenIdentifier>
+			<Abstract type="html">When the number of responses exceeds the value of MaxKeys, NextVersionIdMarker
+specifies the first object version not returned that satisfies the search criteria.
+Use this value for the version-id-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextVersionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextVersionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/nextVersionIdMarker</TokenIdentifier>
+			<Abstract type="html">When the number of responses exceeds the value of MaxKeys, NextVersionIdMarker
+specifies the first object version not returned that satisfies the search criteria.
+Use this value for the version-id-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextVersionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextVersionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/maxKeys</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/delimiter</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setIsTruncated:</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/isTruncated</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsResult/setCommonPrefixes:</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsResult/commonPrefixes</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListVersionsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

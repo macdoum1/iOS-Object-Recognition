@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingDescribeLaunchConfigurationsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingDescribeLaunchConfigurationsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Launch Configurations Request</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/setLaunchConfigurationNames:</TokenIdentifier>
+			<Abstract type="html">A list of launch configuration names.</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *launchConfigurationNames</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeLaunchConfigurationsRequest/launchConfigurationNames</TokenIdentifier>
+			<Abstract type="html">A list of launch configuration names.</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *launchConfigurationNames</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeLaunchConfigurationsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">The maximum number of launch configurations. The default is 100.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 50&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeLaunchConfigurationsRequest/maxRecords</TokenIdentifier>
+			<Abstract type="html">The maximum number of launch configurations. The default is 100.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 50&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/addLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to launchConfigurationNames.
+This function will alloc and init launchConfigurationNames if not already done.</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLaunchConfigurationName:(NSString *)launchConfigurationNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLaunchConfigurationName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeLaunchConfigurationsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingDescribeLaunchConfigurationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

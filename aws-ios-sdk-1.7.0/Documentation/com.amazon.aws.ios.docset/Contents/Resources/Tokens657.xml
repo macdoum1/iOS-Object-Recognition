@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3InitiateMultipartUploadRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3InitiateMultipartUploadRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the initiateMultipartUpload operation.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>
+			
+			<NodeRef refid="657"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3InitiateMultipartUploadRequest/setCacheControl:</TokenIdentifier>
+			<Abstract type="html">Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cacheControl</Declaration>
+			
+			
+			<Anchor>//api/name/cacheControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3InitiateMultipartUploadRequest/cacheControl</TokenIdentifier>
+			<Abstract type="html">Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cacheControl</Declaration>
+			
+			
+			<Anchor>//api/name/cacheControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3InitiateMultipartUploadRequest/setContentDisposition:</TokenIdentifier>
+			<Abstract type="html">Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/contentDisposition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3InitiateMultipartUploadRequest/contentDisposition</TokenIdentifier>
+			<Abstract type="html">Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/contentDisposition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3InitiateMultipartUploadRequest/setContentEncoding:</TokenIdentifier>
+			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+&lt;code&gt;Content-Type&lt;/code&gt; header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/contentEncoding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3InitiateMultipartUploadRequest/contentEncoding</TokenIdentifier>
+			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+&lt;code&gt;Content-Type&lt;/code&gt; header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/contentEncoding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3InitiateMultipartUploadRequest/setExpires:</TokenIdentifier>
+			<Abstract type="html">Number of milliseconds before expiration.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int32_t expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3InitiateMultipartUploadRequest/expires</TokenIdentifier>
+			<Abstract type="html">Number of milliseconds before expiration.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int32_t expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

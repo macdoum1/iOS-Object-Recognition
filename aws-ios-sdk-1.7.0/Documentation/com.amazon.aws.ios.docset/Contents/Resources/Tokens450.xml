@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2RegisterImageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2RegisterImageRequest</TokenIdentifier>
+			<Abstract type="html">Register Image Request</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>
+			
+			<NodeRef refid="450"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setImageLocation:</TokenIdentifier>
+			<Abstract type="html">The full path to your AMI manifest in Amazon S3 storage.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/imageLocation</TokenIdentifier>
+			<Abstract type="html">The full path to your AMI manifest in Amazon S3 storage.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">The name to give the new Amazon Machine Image. &lt;p&gt; Constraints: 3-128
+alphanumeric characters, parenthesis (&lt;code&gt;()&lt;/code&gt;), commas
+(&lt;code&gt;,&lt;/code&gt;), slashes (&lt;code&gt;/&lt;/code&gt;), dashes (&lt;code&gt;-&lt;/code&gt;),
+or underscores(&lt;code&gt;_&lt;/code&gt;)</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/name</TokenIdentifier>
+			<Abstract type="html">The name to give the new Amazon Machine Image. &lt;p&gt; Constraints: 3-128
+alphanumeric characters, parenthesis (&lt;code&gt;()&lt;/code&gt;), commas
+(&lt;code&gt;,&lt;/code&gt;), slashes (&lt;code&gt;/&lt;/code&gt;), dashes (&lt;code&gt;-&lt;/code&gt;),
+or underscores(&lt;code&gt;_&lt;/code&gt;)</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The description describing the new AMI.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The description describing the new AMI.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setArchitecture:</TokenIdentifier>
+			<Abstract type="html">The architecture of the image. &lt;p&gt; Valid Values: &lt;code&gt;i386&lt;/code&gt;,
+&lt;code&gt;x86_64&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/architecture</TokenIdentifier>
+			<Abstract type="html">The architecture of the image. &lt;p&gt; Valid Values: &lt;code&gt;i386&lt;/code&gt;,
+&lt;code&gt;x86_64&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setKernelId:</TokenIdentifier>
+			<Abstract type="html">The optional ID of a specific kernel to register with the new AMI.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">The optional ID of a specific kernel to register with the new AMI.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">The optional ID of a specific ramdisk to register with the new AMI.
+&lt;p&gt; Some kernels require additional drivers at launch. Check the
+kernel requirements for information on whether you need to specify a
+RAM disk.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">The optional ID of a specific ramdisk to register with the new AMI.
+&lt;p&gt; Some kernels require additional drivers at launch. Check the
+kernel requirements for information on whether you need to specify a
+RAM disk.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">The block device mappings for the new AMI, which specify how different
+block devices (ex: EBS volumes and ephemeral drives) will be exposed
+on instances launched from the new image.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">The block device mappings for the new AMI, which specify how different
+block devices (ex: EBS volumes and ephemeral drives) will be exposed
+on instances launched from the new image.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new RegisterImageRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/initWithImageLocation:</TokenIdentifier>
+			<Abstract type="html">Constructs a new RegisterImageRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImageLocation:(NSString *)theImageLocation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theImageLocation</Name>
+					<Abstract type="html">The full path to your AMI manifest in Amazon
+S3 storage.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImageLocation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RegisterImageRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2RegisterImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

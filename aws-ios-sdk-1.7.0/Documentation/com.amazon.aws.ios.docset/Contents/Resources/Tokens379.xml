@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2GetPasswordDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2GetPasswordDataRequest</TokenIdentifier>
+			<Abstract type="html">Get Password Data Request</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>
+			
+			<NodeRef refid="379"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance for which you want the Windows administrator
+password.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2GetPasswordDataRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance for which you want the Windows administrator
+password.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetPasswordDataRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataRequest/initWithInstanceId:</TokenIdentifier>
+			<Abstract type="html">Constructs a new GetPasswordDataRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithInstanceId:(NSString *)theInstanceId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the instance for which you want the
+Windows administrator password.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithInstanceId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2GetPasswordDataRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2GetPasswordDataRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

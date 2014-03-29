@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2LicenseCapacity.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2LicenseCapacity</TokenIdentifier>
+			<Abstract type="html">License Capacity</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>
+			
+			<NodeRef refid="423"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/setCapacity:</TokenIdentifier>
+			<Abstract type="html">The number of licenses available.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LicenseCapacity/capacity</TokenIdentifier>
+			<Abstract type="html">The number of licenses available.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/setInstanceCapacity:</TokenIdentifier>
+			<Abstract type="html">The number of Amazon EC2 instances that can be supported with the
+license&apos;s capacity.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instanceCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LicenseCapacity/instanceCapacity</TokenIdentifier>
+			<Abstract type="html">The number of Amazon EC2 instances that can be supported with the
+license&apos;s capacity.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instanceCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/setState:</TokenIdentifier>
+			<Abstract type="html">The state of this license capacity, indicating whether the license is
+actively being used or not.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LicenseCapacity/state</TokenIdentifier>
+			<Abstract type="html">The state of this license capacity, indicating whether the license is
+actively being used or not.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/setEarliestAllowedDeactivationTime:</TokenIdentifier>
+			<Abstract type="html">The earliest allowed time at which a license can be deactivated. Some
+licenses have time restrictions on when they can be activated and
+reactivated.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *earliestAllowedDeactivationTime</Declaration>
+			
+			
+			<Anchor>//api/name/earliestAllowedDeactivationTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LicenseCapacity/earliestAllowedDeactivationTime</TokenIdentifier>
+			<Abstract type="html">The earliest allowed time at which a license can be deactivated. Some
+licenses have time restrictions on when they can be activated and
+reactivated.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *earliestAllowedDeactivationTime</Declaration>
+			
+			
+			<Anchor>//api/name/earliestAllowedDeactivationTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LicenseCapacity/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2LicenseCapacity.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

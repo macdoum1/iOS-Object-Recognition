@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeBundleTasksRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeBundleTasksRequest</TokenIdentifier>
+			<Abstract type="html">Describe Bundle Tasks Request</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>
+			
+			<NodeRef refid="304"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeBundleTasksRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/setBundleIds:</TokenIdentifier>
+			<Abstract type="html">The list of bundle task IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *bundleIds</Declaration>
+			
+			
+			<Anchor>//api/name/bundleIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeBundleTasksRequest/bundleIds</TokenIdentifier>
+			<Abstract type="html">The list of bundle task IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *bundleIds</Declaration>
+			
+			
+			<Anchor>//api/name/bundleIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for BundleTasks. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeBundleTasksRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for BundleTasks. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/addBundleId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to bundleIds.
+This function will alloc and init bundleIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBundleId:(NSString *)bundleIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBundleId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeBundleTasksRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeBundleTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

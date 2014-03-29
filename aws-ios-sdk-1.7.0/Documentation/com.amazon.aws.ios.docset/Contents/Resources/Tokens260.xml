@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreateInstanceExportTaskRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreateInstanceExportTaskRequest</TokenIdentifier>
+			<Abstract type="html">Create Instance Export Task Request</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>
+			
+			<NodeRef refid="260"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateInstanceExportTaskRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceId property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateInstanceExportTaskRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceId property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/setTargetEnvironment:</TokenIdentifier>
+			<Abstract type="html">The value of the TargetEnvironment property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;citrix, vmware, microsoft</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *targetEnvironment</Declaration>
+			
+			
+			<Anchor>//api/name/targetEnvironment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateInstanceExportTaskRequest/targetEnvironment</TokenIdentifier>
+			<Abstract type="html">The value of the TargetEnvironment property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;citrix, vmware, microsoft</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *targetEnvironment</Declaration>
+			
+			
+			<Anchor>//api/name/targetEnvironment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/setExportToS3Task:</TokenIdentifier>
+			<Abstract type="html">The value of the ExportToS3Task property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2ExportToS3TaskSpecification *exportToS3Task</Declaration>
+			
+			
+			<Anchor>//api/name/exportToS3Task</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateInstanceExportTaskRequest/exportToS3Task</TokenIdentifier>
+			<Abstract type="html">The value of the ExportToS3Task property for this object.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2ExportToS3TaskSpecification *exportToS3Task</Declaration>
+			
+			
+			<Anchor>//api/name/exportToS3Task</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateInstanceExportTaskRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CreateInstanceExportTaskRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

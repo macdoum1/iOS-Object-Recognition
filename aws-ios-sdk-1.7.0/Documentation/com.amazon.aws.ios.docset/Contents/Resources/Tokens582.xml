@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse</TokenIdentifier>
+			<Abstract type="html">Set Load Balancer Listener S S L Certificate</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse.h</DeclaredIn>
+			
+			<NodeRef refid="582"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

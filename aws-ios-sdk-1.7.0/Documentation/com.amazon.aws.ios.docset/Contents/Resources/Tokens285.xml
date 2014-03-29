@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeletePlacementGroupResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeletePlacementGroupResponse</TokenIdentifier>
+			<Abstract type="html">Delete Placement Group</Abstract>
+			<DeclaredIn>EC2DeletePlacementGroupResponse.h</DeclaredIn>
+			
+			<NodeRef refid="285"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

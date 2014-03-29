@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchMetric.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchMetric</TokenIdentifier>
+			<Abstract type="html">Metric</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>
+			
+			<NodeRef refid="151"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/setNamespace:</TokenIdentifier>
+			<Abstract type="html">The namespace of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetric/namespace</TokenIdentifier>
+			<Abstract type="html">The namespace of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/setMetricName:</TokenIdentifier>
+			<Abstract type="html">The name of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetric/metricName</TokenIdentifier>
+			<Abstract type="html">The name of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/setDimensions:</TokenIdentifier>
+			<Abstract type="html">A list of dimensions associated with the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetric/dimensions</TokenIdentifier>
+			<Abstract type="html">A list of dimensions associated with the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/addDimension:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDimension:(CloudWatchDimension *)dimensionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addDimension:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetric/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchMetric.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

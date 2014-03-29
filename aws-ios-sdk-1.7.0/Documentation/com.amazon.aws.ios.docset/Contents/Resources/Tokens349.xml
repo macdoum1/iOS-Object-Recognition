@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeSubnetsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSubnetsResponse</TokenIdentifier>
+			<Abstract type="html">Describe Subnets Response</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="349"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSubnetsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSubnetsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSubnetsResponse/setSubnets:</TokenIdentifier>
+			<Abstract type="html">Contains a set of one or more &lt;a&gt;Subnet&lt;/a&gt; instances.</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSubnetsResponse/subnets</TokenIdentifier>
+			<Abstract type="html">Contains a set of one or more &lt;a&gt;Subnet&lt;/a&gt; instances.</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSubnetsResponse/subnetsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the subnets array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2Subnet *)subnetsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/subnetsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSubnetsResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

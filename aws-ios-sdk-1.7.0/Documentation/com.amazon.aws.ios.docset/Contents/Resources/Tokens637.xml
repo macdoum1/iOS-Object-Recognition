@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetACLResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetACLResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the getACL operation.</Abstract>
+			<DeclaredIn>S3GetACLResponse.h</DeclaredIn>
+			
+			<NodeRef refid="637"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetACLResponse/setAcl:</TokenIdentifier>
+			<Abstract type="html">Gets the access control list</Abstract>
+			<DeclaredIn>S3GetACLResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) S3AccessControlList *acl</Declaration>
+			
+			
+			<Anchor>//api/name/acl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetACLResponse/acl</TokenIdentifier>
+			<Abstract type="html">Gets the access control list</Abstract>
+			<DeclaredIn>S3GetACLResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) S3AccessControlList *acl</Declaration>
+			
+			
+			<Anchor>//api/name/acl</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

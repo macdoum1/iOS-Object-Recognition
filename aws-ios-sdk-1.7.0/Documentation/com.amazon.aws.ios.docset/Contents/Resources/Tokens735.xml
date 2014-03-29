@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESRawMessage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESRawMessage</TokenIdentifier>
+			<Abstract type="html">Raw Message</Abstract>
+			<DeclaredIn>SESRawMessage.h</DeclaredIn>
+			
+			<NodeRef refid="735"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESRawMessage/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESRawMessage.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESRawMessage/setData:</TokenIdentifier>
+			<Abstract type="html">The raw data of the message. The client must ensure that the message
+format complies with Internet email standards regarding email header
+fields, MIME types, MIME encoding, and base64 encoding (if necessary).
+&lt;p&gt;For more information, go to the&lt;a
+f=&quot;http://docs.amazonwebservices.com/ses/latest/DeveloperGuide&quot;&gt;Amazon
+SES Developer Guide&lt;/a&gt;.</Abstract>
+			<DeclaredIn>SESRawMessage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESRawMessage/data</TokenIdentifier>
+			<Abstract type="html">The raw data of the message. The client must ensure that the message
+format complies with Internet email standards regarding email header
+fields, MIME types, MIME encoding, and base64 encoding (if necessary).
+&lt;p&gt;For more information, go to the&lt;a
+f=&quot;http://docs.amazonwebservices.com/ses/latest/DeveloperGuide&quot;&gt;Amazon
+SES Developer Guide&lt;/a&gt;.</Abstract>
+			<DeclaredIn>SESRawMessage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESRawMessage/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESRawMessage.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

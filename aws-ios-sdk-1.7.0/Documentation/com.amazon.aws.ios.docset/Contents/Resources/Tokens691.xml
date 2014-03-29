@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketCrossOriginRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketCrossOriginRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the setBucketCrossOrigin operation.</Abstract>
+			<DeclaredIn>S3SetBucketCrossOriginRequest.h</DeclaredIn>
+			
+			<NodeRef refid="691"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3SetBucketCrossOriginRequest/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The new CORS configuration for the specified bucket.</Abstract>
+			<DeclaredIn>S3SetBucketCrossOriginRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketCrossOriginConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3SetBucketCrossOriginRequest/configuration</TokenIdentifier>
+			<Abstract type="html">The new CORS configuration for the specified bucket.</Abstract>
+			<DeclaredIn>S3SetBucketCrossOriginRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketCrossOriginConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

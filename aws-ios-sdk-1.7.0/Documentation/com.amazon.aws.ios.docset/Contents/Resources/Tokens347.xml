@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeSpotPriceHistoryResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSpotPriceHistoryResponse</TokenIdentifier>
+			<Abstract type="html">Describe Spot Price History Response</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>
+			
+			<NodeRef refid="347"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/setSpotPriceHistory:</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPriceHistory property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *spotPriceHistory</Declaration>
+			
+			
+			<Anchor>//api/name/spotPriceHistory</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSpotPriceHistoryResponse/spotPriceHistory</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPriceHistory property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *spotPriceHistory</Declaration>
+			
+			
+			<Anchor>//api/name/spotPriceHistory</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The string marking the next set of results returned. Displays empty if
+there are no more results to be returned.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSpotPriceHistoryResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">The string marking the next set of results returned. Displays empty if
+there are no more results to be returned.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/spotPriceHistoryObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the spotPriceHistory array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2SpotPrice *)spotPriceHistoryObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/spotPriceHistoryObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSpotPriceHistoryResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeSpotPriceHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

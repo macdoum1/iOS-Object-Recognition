@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketVersioningConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketVersioningConfiguration</TokenIdentifier>
+			<Abstract type="html">Represents the versioning configuration for a bucket.
+A bucket&apos;s versioning configuration can be in one of three possible states:
+Off, Enabled, Suspended</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>
+			
+			<NodeRef refid="604"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketVersioningConfiguration/setStatus:</TokenIdentifier>
+			<Abstract type="html">The current status of versioning</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketVersioningConfiguration/status</TokenIdentifier>
+			<Abstract type="html">The current status of versioning</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketVersioningConfiguration/setIsMfaDeleteEnabled:</TokenIdentifier>
+			<Abstract type="html">Indicates if the optional Multi-Factor Authentication Delete control is
+enabled for this bucket versioning configuration.</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isMfaDeleteEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isMfaDeleteEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketVersioningConfiguration/isMfaDeleteEnabled</TokenIdentifier>
+			<Abstract type="html">Indicates if the optional Multi-Factor Authentication Delete control is
+enabled for this bucket versioning configuration.</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isMfaDeleteEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isMfaDeleteEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketVersioningConfiguration/initWithStatus:</TokenIdentifier>
+			<Abstract type="html">Initialize the object with a status</Abstract>
+			<DeclaredIn>S3BucketVersioningConfiguration.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStatus:(NSString *)status</Declaration>
+			
+			
+			<Anchor>//api/name/initWithStatus:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3MultipartUpload.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3MultipartUpload</TokenIdentifier>
+			<Abstract type="html">The result of an initiateMultipartUpload request. The uploadId is used in all subsequent
+interactions for this multipart upload.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>
+			
+			<NodeRef refid="676"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setKey:</TokenIdentifier>
+			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/key</TokenIdentifier>
+			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setBucket:</TokenIdentifier>
+			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/bucket</TokenIdentifier>
+			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setUploadId:</TokenIdentifier>
+			<Abstract type="html">ID for the initiated multipart upload.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/uploadId</TokenIdentifier>
+			<Abstract type="html">ID for the initiated multipart upload.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The class of storage (STANDARD or REDUCED_REDUDANCY) that will be used to store the object when the multipart upload is complete.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage (STANDARD or REDUCED_REDUDANCY) that will be used to store the object when the multipart upload is complete.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setInitiator:</TokenIdentifier>
+			<Abstract type="html">Who initiated the multipart upload.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *initiator</Declaration>
+			
+			
+			<Anchor>//api/name/initiator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/initiator</TokenIdentifier>
+			<Abstract type="html">Who initiated the multipart upload.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *initiator</Declaration>
+			
+			
+			<Anchor>//api/name/initiator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setOwner:</TokenIdentifier>
+			<Abstract type="html">Container element that identifies the object owner, after the object is created.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/owner</TokenIdentifier>
+			<Abstract type="html">Container element that identifies the object owner, after the object is created.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3MultipartUpload/setInitiated:</TokenIdentifier>
+			<Abstract type="html">Date and time at which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *initiated</Declaration>
+			
+			
+			<Anchor>//api/name/initiated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3MultipartUpload/initiated</TokenIdentifier>
+			<Abstract type="html">Date and time at which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3MultipartUpload.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *initiated</Declaration>
+			
+			
+			<Anchor>//api/name/initiated</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

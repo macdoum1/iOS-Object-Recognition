@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBPutItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBPutItemRequest</TokenIdentifier>
+			<Abstract type="html">Put Item Request</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="203"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table to contain the item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table to contain the item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setItem:</TokenIdentifier>
+			<Abstract type="html">A map of attribute name/value pairs, one for each attribute. Only the
+primary key attributes are required; you can optionally provide other
+attribute name-value pairs for the item. &lt;p&gt;If you specify any
+attributes that are part of an index key, then the data types for
+those attributes must match those of the schema in the table&apos;s
+attribute definition. &lt;p&gt;For more information about primary keys, see
+&lt;a
+modb/latest/developerguide/DataModel.html#DataModelPrimaryKey&quot;&gt;Primary
+Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each element in the
+&lt;i&gt;Item&lt;/i&gt; map is an &lt;i&gt;AttributeValue&lt;/i&gt; object.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/item</TokenIdentifier>
+			<Abstract type="html">A map of attribute name/value pairs, one for each attribute. Only the
+primary key attributes are required; you can optionally provide other
+attribute name-value pairs for the item. &lt;p&gt;If you specify any
+attributes that are part of an index key, then the data types for
+those attributes must match those of the schema in the table&apos;s
+attribute definition. &lt;p&gt;For more information about primary keys, see
+&lt;a
+modb/latest/developerguide/DataModel.html#DataModelPrimaryKey&quot;&gt;Primary
+Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each element in the
+&lt;i&gt;Item&lt;/i&gt; map is an &lt;i&gt;AttributeValue&lt;/i&gt; object.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setExpected:</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;PutItem&lt;/i&gt; operation. All the conditions must be met for the
+operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/expected</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;PutItem&lt;/i&gt; operation. All the conditions must be met for the
+operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setReturnValues:</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared before they were updated with the &lt;i&gt;PutItem&lt;/i&gt; request. For
+&lt;i&gt;PutItem&lt;/i&gt;, the valid values are: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; -
+If &lt;i&gt;ReturnValues&lt;/i&gt; is not specified, or if its value is
+&lt;code&gt;NONE&lt;/code&gt;, then nothing is returned. (This is the default for
+&lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; - If
+&lt;i&gt;PutItem&lt;/i&gt; overwrote an attribute name-value pair, then the
+content of the old item is returned. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/returnValues</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared before they were updated with the &lt;i&gt;PutItem&lt;/i&gt; request. For
+&lt;i&gt;PutItem&lt;/i&gt;, the valid values are: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; -
+If &lt;i&gt;ReturnValues&lt;/i&gt; is not specified, or if its value is
+&lt;code&gt;NONE&lt;/code&gt;, then nothing is returned. (This is the default for
+&lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; - If
+&lt;i&gt;PutItem&lt;/i&gt; overwrote an attribute name-value pair, then the
+content of the old item is returned. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setReturnItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBPutItemRequest/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new PutItemRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/initWithTableName:andItem:</TokenIdentifier>
+			<Abstract type="html">Constructs a new PutItemRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andItem:(NSMutableDictionary *)theItem</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table to contain the item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItem</Name>
+					<Abstract type="html">A map of attribute name/value pairs, one for each
+attribute. Only the primary key attributes are required; you can
+optionally provide other attribute name-value pairs for the item.
+&lt;p&gt;If you specify any attributes that are part of an index key, then
+the data types for those attributes must match those of the schema in
+the table&apos;s attribute definition. &lt;p&gt;For more information about
+primary keys, see &lt;a
+modb/latest/developerguide/DataModel.html#DataModelPrimaryKey&quot;&gt;Primary
+Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each element in the
+&lt;i&gt;Item&lt;/i&gt; map is an &lt;i&gt;AttributeValue&lt;/i&gt; object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andItem:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setItemValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary item for the specified key.
+This function will alloc and init item if not already done.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setItemValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setItemValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/setExpectedValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary expected for the specified key.
+This function will alloc and init expected if not already done.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setExpectedValue:(DynamoDBExpectedAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setExpectedValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBPutItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBPutItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3AbortMultipartUploadResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3AbortMultipartUploadResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from an abortMultipartUpload operation.</Abstract>
+			<DeclaredIn>S3AbortMultipartUploadResponse.h</DeclaredIn>
+			
+			<NodeRef refid="592"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

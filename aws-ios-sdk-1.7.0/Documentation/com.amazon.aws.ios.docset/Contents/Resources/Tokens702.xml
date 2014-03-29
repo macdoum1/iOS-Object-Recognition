@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketWebsiteConfigurationResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketWebsiteConfigurationResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the setBucketWebsiteConfigurationResponse operation.</Abstract>
+			<DeclaredIn>S3SetBucketWebsiteConfigurationResponse.h</DeclaredIn>
+			
+			<NodeRef refid="702"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

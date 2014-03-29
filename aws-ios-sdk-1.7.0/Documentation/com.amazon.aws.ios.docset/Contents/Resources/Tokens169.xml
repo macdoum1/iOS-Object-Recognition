@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBAttributeValueUpdate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBAttributeValueUpdate</TokenIdentifier>
+			<Abstract type="html">Attribute Value Update</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>
+			
+			<NodeRef refid="169"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValueUpdate/setValue:</TokenIdentifier>
+			<Abstract type="html">Represents the data for an attribute. You can set one, and only one,
+of the elements.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBAttributeValue *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValueUpdate/value</TokenIdentifier>
+			<Abstract type="html">Represents the data for an attribute. You can set one, and only one,
+of the elements.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBAttributeValue *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValueUpdate/setAction:</TokenIdentifier>
+			<Abstract type="html">Specifies how to perform the update. Valid values are
+&lt;code&gt;PUT&lt;/code&gt;, &lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The
+behavior depends on whether the specified primary key already exists
+in the table. &lt;p&gt; &lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found
+in the table:&lt;/b&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&apos;s data
+type. &lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ADD, PUT, DELETE</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *action</Declaration>
+			
+			
+			<Anchor>//api/name/action</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValueUpdate/action</TokenIdentifier>
+			<Abstract type="html">Specifies how to perform the update. Valid values are
+&lt;code&gt;PUT&lt;/code&gt;, &lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The
+behavior depends on whether the specified primary key already exists
+in the table. &lt;p&gt; &lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found
+in the table:&lt;/b&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&apos;s data
+type. &lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ADD, PUT, DELETE</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *action</Declaration>
+			
+			
+			<Anchor>//api/name/action</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValueUpdate/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new AttributeValueUpdate object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValueUpdate/initWithValue:andAction:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValueUpdate object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithValue:(DynamoDBAttributeValue *)theValue andAction:(NSString *)theAction</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theValue</Name>
+					<Abstract type="html">Represents the data for an attribute. You can set one,
+and only one, of the elements.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAction</Name>
+					<Abstract type="html">Specifies how to perform the update. Valid values are
+&lt;code&gt;PUT&lt;/code&gt;, &lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The
+behavior depends on whether the specified primary key already exists
+in the table. &lt;p&gt; &lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found
+in the table:&lt;/b&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified
+attribute to the item. If the attribute already exists, it is replaced
+by the new value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is
+specified, the attribute and its value are removed from the item. The
+data type of the specified value must match the existing value&apos;s data
+type. &lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithValue:andAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValueUpdate/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValueUpdate.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

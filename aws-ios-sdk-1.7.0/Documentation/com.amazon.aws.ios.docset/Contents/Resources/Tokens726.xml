@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESIdentityDkimAttributes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESIdentityDkimAttributes</TokenIdentifier>
+			<Abstract type="html">Identity Dkim Attributes</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>
+			
+			<NodeRef refid="726"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">True if DKIM signing is enabled for email sent from the identity;
+false otherwise.</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dkimEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/dkimEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimEnabled</TokenIdentifier>
+			<Abstract type="html">True if DKIM signing is enabled for email sent from the identity;
+false otherwise.</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dkimEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/dkimEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimVerificationStatus:</TokenIdentifier>
+			<Abstract type="html">Describes whether Amazon SES has successfully verified the DKIM DNS
+records (tokens) published in the domain name&apos;s DNS. (This only
+applies to domain identities, not email address identities.)
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *dkimVerificationStatus</Declaration>
+			
+			
+			<Anchor>//api/name/dkimVerificationStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimVerificationStatus</TokenIdentifier>
+			<Abstract type="html">Describes whether Amazon SES has successfully verified the DKIM DNS
+records (tokens) published in the domain name&apos;s DNS. (This only
+applies to domain identities, not email address identities.)
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Pending, Success, Failed, TemporaryFailure</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *dkimVerificationStatus</Declaration>
+			
+			
+			<Anchor>//api/name/dkimVerificationStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/setDkimTokens:</TokenIdentifier>
+			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
+name&apos;s DNS for DKIM verification to complete, and which must remain
+published in order for DKIM signing to succeed. The tokens are
+&lt;code&gt;CNAME&lt;/code&gt; DNS records that point to DKIM public keys hosted
+by Amazon SES. (This only applies to domain entities, not email
+address identities.)</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			
+			
+			<Anchor>//api/name/dkimTokens</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESIdentityDkimAttributes/dkimTokens</TokenIdentifier>
+			<Abstract type="html">A set of DNS records (tokens) that must be published in the domain
+name&apos;s DNS for DKIM verification to complete, and which must remain
+published in order for DKIM signing to succeed. The tokens are
+&lt;code&gt;CNAME&lt;/code&gt; DNS records that point to DKIM public keys hosted
+by Amazon SES. (This only applies to domain entities, not email
+address identities.)</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dkimTokens</Declaration>
+			
+			
+			<Anchor>//api/name/dkimTokens</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/addDkimToken:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to dkimTokens.
+This function will alloc and init dkimTokens if not already done.</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDkimToken:(NSString *)dkimTokenObject</Declaration>
+			
+			
+			<Anchor>//api/name/addDkimToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESIdentityDkimAttributes/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESIdentityDkimAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

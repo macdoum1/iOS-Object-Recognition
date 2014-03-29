@@ -1,0 +1,2052 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonSimpleDBClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonSimpleDBClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/batchDeleteAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- batchDeleteAttributes:</option>
+	
+	<option value="//api/name/batchPutAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- batchPutAttributes:</option>
+	
+	<option value="//api/name/createDomain:">&nbsp;&nbsp;&nbsp;&nbsp;- createDomain:</option>
+	
+	<option value="//api/name/deleteAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAttributes:</option>
+	
+	<option value="//api/name/deleteDomain:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteDomain:</option>
+	
+	<option value="//api/name/domainMetadata:">&nbsp;&nbsp;&nbsp;&nbsp;- domainMetadata:</option>
+	
+	<option value="//api/name/getAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getAttributes:</option>
+	
+	<option value="//api/name/listDomains:">&nbsp;&nbsp;&nbsp;&nbsp;- listDomains:</option>
+	
+	<option value="//api/name/putAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- putAttributes:</option>
+	
+	<option value="//api/name/select:">&nbsp;&nbsp;&nbsp;&nbsp;- select:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/batchDeleteAttributes:">batchDeleteAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/batchPutAttributes:">batchPutAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createDomain:">createDomain:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAttributes:">deleteAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteDomain:">deleteDomain:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/domainMetadata:">domainMetadata:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getAttributes:">getAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listDomains:">listDomains:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putAttributes:">putAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/select:">select:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonSimpleDBClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonSimpleDBClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonSimpleDBClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonSimpleDB.</p>
+
+<p>Amazon SimpleDB <p>
+Amazon SimpleDB is a web service providing the core database functions of data indexing and querying in the cloud. By offloading the time and effort associated with building and operating a web-scale
+database, SimpleDB provides developers the freedom to focus on application development.
+</p></p>
+
+<p>
+A traditional, clustered relational database requires a sizable upfront capital outlay, is complex to design, and often requires extensive and repetitive database administration. Amazon SimpleDB is
+dramatically simpler, requiring no schema, automatically indexing your data and providing a simple API for storage and access. This approach eliminates the administrative burden of data modeling,
+index maintenance, and performance tuning. Developers gain access to this functionality within Amazon's proven computing environment, are able to scale instantly, and pay only for what they use.
+</p>
+
+
+<p>
+Visit <a href="http://aws.amazon.com/simpledb/"> http://aws.amazon.com/simpledb/ </a> for more information.
+</p>
+
+
+<p></summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/select:">&ndash;&nbsp;select:</a></code>
+		<span class="tooltip"><p>
+The Select operation returns a set of attributes for ItemNames that match the select expression. Select is similar to
+the standard SQL SELECT statement.
+</p>
+
+
+<p>
+The total size of the response cannot exceed 1 MB in total size. Amazon SimpleDB automatically adjusts the number of
+items returned per page to enforce this limit. For example, if the client asks to retrieve 2500 items, but each
+individual item is 10 kB in size, the system returns 100 items and an appropriate NextToken so the client can access the
+next page of results.
+</p>
+
+
+<p>
+For information on how to construct select expressions, see Using Select to Create Amazon SimpleDB Queries in the
+Developer Guide.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putAttributes:">&ndash;&nbsp;putAttributes:</a></code>
+		<span class="tooltip"><p>
+The PutAttributes operation creates or replaces attributes in an item. The client may specify new attributes using a
+combination of the Attribute.X.Name and Attribute.X.Value parameters. The client specifies the first attribute by the
+parameters Attribute.0.Name and Attribute.0.Value ,
+the second attribute by the parameters Attribute.1.Name and Attribute.1.Value , and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified in an item by their name/value combination. For example, a single item can have the
+attributes { "first_name", "first_value" } and { "first_name", second_value" } . However, it cannot have two attribute
+instances where both the Attribute.X.Name and Attribute.X.Value are the same.
+</p>
+
+
+<p><p>
+Optionally, the requestor can supply the Replace parameter for each individual attribute. Setting this value to true
+causes the new attribute value to replace the existing attribute value(s). For example, if an item has the attributes {
+&lsquo;a&rsquo;, &lsquo;1&rsquo; } ,</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/batchDeleteAttributes:">&ndash;&nbsp;batchDeleteAttributes:</a></code>
+		<span class="tooltip"><p>
+Performs multiple DeleteAttributes operations in a single call, which reduces round trips and latencies. This enables
+Amazon SimpleDB to optimize requests, which generally yields better throughput.
+</p>
+
+
+<p>
+<b>NOTE:</b> If you specify BatchDeleteAttributes without attributes or values, all the attributes for the item are
+deleted. BatchDeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute
+doesn't result in an error. The BatchDeleteAttributes operation succeeds or fails in its entirety. There are no partial
+deletes. You can execute multiple BatchDeleteAttributes operations and other operations in parallel. However, large
+numbers of concurrent BatchDeleteAttributes calls can result in Service Unavailable (503) responses. This operation is
+vulnerable to exceeding the maximum URL size when making a REST request using the HTTP GET method. This operation does
+not support conditions using Expected.X.Name, Expected.X.Value, or Expected.X.Exists.
+</p>
+
+
+<p><p>
+The following limitations are enforced for this operation:
+<ul>
+<li>1 MB request size</li>
+<li>25 item limit per BatchDeleteAttributes operation</li></p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteDomain:">&ndash;&nbsp;deleteDomain:</a></code>
+		<span class="tooltip"><p>
+The DeleteDomain operation deletes a domain. Any items (and their attributes) in the domain are deleted as well. The
+DeleteDomain operation might take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> Running DeleteDomain on a domain that does not exist or running the function multiple times using the same
+domain name will not result in an error response.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createDomain:">&ndash;&nbsp;createDomain:</a></code>
+		<span class="tooltip"><p>
+The CreateDomain operation creates a new domain. The domain name should be unique among the domains associated with the
+Access Key ID provided in the request. The CreateDomain operation may take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> CreateDomain is an idempotent operation; running it multiple times using the same domain name will not
+result in an error response.
+</p>
+
+
+<p>
+The client can create up to 100 domains per account.
+</p>
+
+
+<p>
+If the client requires additional domains, go to <a href="http://aws.amazon.com/contact-us/simpledb-limit-request/">
+http://aws.amazon.com/contact-us/simpledb-limit-request/ </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteAttributes:">&ndash;&nbsp;deleteAttributes:</a></code>
+		<span class="tooltip"><p>
+Deletes one or more attributes associated with an item. If all attributes of the item are deleted, the item is deleted.
+</p>
+
+
+<p>
+<b>NOTE:</b> If DeleteAttributes is called without being passed any attributes or values specified, all the attributes
+for the item are deleted.
+</p>
+
+
+<p>
+DeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute does not result in
+an error response.
+</p>
+
+
+<p>
+Because Amazon SimpleDB makes multiple copies of item data and uses an eventual consistency update model, performing a
+GetAttributes or Select operation (read) immediately after a DeleteAttributes or PutAttributes operation (write) might
+not return updated item data.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listDomains:">&ndash;&nbsp;listDomains:</a></code>
+		<span class="tooltip"><p>
+The ListDomains operation lists all domains associated with the Access Key ID. It returns domain names up to the limit
+set by MaxNumberOfDomains. A NextToken is returned if there are more than MaxNumberOfDomains domains. Calling
+ListDomains successive times with the NextToken provided by the operation returns up to MaxNumberOfDomains more domain
+names with each successive operation call.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getAttributes:">&ndash;&nbsp;getAttributes:</a></code>
+		<span class="tooltip"><p>
+Returns all of the attributes associated with the specified item. Optionally, the attributes returned can be limited to
+one or more attributes by specifying an attribute name parameter.
+</p>
+
+
+<p>
+If the item does not exist on the replica that was accessed for this operation, an empty set is returned. The system
+does not return an error as it cannot guarantee the item does not exist on other replicas.
+</p>
+
+
+<p>
+<b>NOTE:</b> If GetAttributes is called without being passed any attribute names, all the attributes for the item are
+returned.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/batchPutAttributes:">&ndash;&nbsp;batchPutAttributes:</a></code>
+		<span class="tooltip"><p>
+The BatchPutAttributes operation creates or replaces attributes within one or more items. By using this operation, the
+client can perform multiple PutAttribute operation with a single call. This helps yield savings in round trips and
+latencies, enabling Amazon SimpleDB to optimize requests and generally produce better throughput.
+</p>
+
+
+<p>
+The client may specify the item name with the Item.X.ItemName parameter. The client may specify new attributes using a
+combination of the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value parameters. The client may specify the first
+attribute for the first item using the parameters Item.0.Attribute.0.Name and Item.0.Attribute.0.Value ,
+and for the second attribute for the first item by the parameters Item.0.Attribute.1.Name and Item.0.Attribute.1.Value
+,
+and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified within an item by their name/value combination. For example, a single item can have
+the attributes { "first_name", "first_value" } and { "first_name", "second_value" } .
+However, it cannot have two attribute instances where both the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value
+are the same.
+</p>
+
+
+<p>
+Optionally, the requester can supply the Replace parameter for each individual value. Setting this value to true will
+cause the new attribute values to replace the existing attribute values. For example, if an item I has the attributes {
+'a', '1' }, { 'b', '2'} and { 'b', '3' } and the requester does a BatchPutAttributes of {'I', 'b', '4' } with the
+Replace parameter set to true, the final attributes of the item will be { 'a', '1' } and { 'b', '4' } ,
+replacing the previous values of the 'b' attribute with the new value.
+</p>
+
+
+<p>
+<b>NOTE:</b> You cannot specify an empty string as an item or as an attribute name. The BatchPutAttributes operation
+succeeds or fails in its entirety. There are no partial puts.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> This operation is vulnerable to exceeding the maximum URL size when making a REST request using the
+HTTP GET method. This operation does not support conditions using Expected.X.Name, Expected.X.Value, or
+Expected.X.Exists.
+</p>
+
+
+<p>
+You can execute multiple BatchPutAttributes operations and other operations in parallel. However, large numbers of
+concurrent BatchPutAttributes calls can result in Service Unavailable (503) responses.
+</p>
+
+
+<p><p>
+The following limitations are enforced for this operation:
+<ul>
+<li>256 attribute name-value pairs per item</li>
+<li>1 MB request size</li>
+<li>1 billion attributes per domain</li>
+<li>10 GB of total user data storage per domain</li>
+<li>25 item limit per BatchPutAttributes operation</li></p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/domainMetadata:">&ndash;&nbsp;domainMetadata:</a></code>
+		<span class="tooltip"><p>
+Returns information about the domain, including when the domain was created, the number of items and attributes in the
+domain, and the size of the attribute names and values.
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/batchDeleteAttributes:" title="batchDeleteAttributes:"></a>
+	<h3 class="subsubtitle method-title">batchDeleteAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Performs multiple DeleteAttributes operations in a single call, which reduces round trips and latencies. This enables
+Amazon SimpleDB to optimize requests, which generally yields better throughput.
+</p>
+
+
+<p>
+<b>NOTE:</b> If you specify BatchDeleteAttributes without attributes or values, all the attributes for the item are
+deleted. BatchDeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute
+doesn't result in an error. The BatchDeleteAttributes operation succeeds or fails in its entirety. There are no partial
+deletes. You can execute multiple BatchDeleteAttributes operations and other operations in parallel. However, large
+numbers of concurrent BatchDeleteAttributes calls can result in Service Unavailable (503) responses. This operation is
+vulnerable to exceeding the maximum URL size when making a REST request using the HTTP GET method. This operation does
+not support conditions using Expected.X.Name, Expected.X.Value, or Expected.X.Exists.
+</p>
+
+
+<p><p>
+The following limitations are enforced for this operation:
+<ul>
+<li>1 MB request size</li>
+<li>25 item limit per BatchDeleteAttributes operation</li></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBBatchDeleteAttributesResponse *)batchDeleteAttributes:(SimpleDBBatchDeleteAttributesRequest *)<em>batchDeleteAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>batchDeleteAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the BatchDeleteAttributes service
+method on AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Performs multiple DeleteAttributes operations in a single call, which reduces round trips and latencies. This enables
+Amazon SimpleDB to optimize requests, which generally yields better throughput.
+</p>
+
+
+<p>
+<b>NOTE:</b> If you specify BatchDeleteAttributes without attributes or values, all the attributes for the item are
+deleted. BatchDeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute
+doesn't result in an error. The BatchDeleteAttributes operation succeeds or fails in its entirety. There are no partial
+deletes. You can execute multiple BatchDeleteAttributes operations and other operations in parallel. However, large
+numbers of concurrent BatchDeleteAttributes calls can result in Service Unavailable (503) responses. This operation is
+vulnerable to exceeding the maximum URL size when making a REST request using the HTTP GET method. This operation does
+not support conditions using Expected.X.Name, Expected.X.Value, or Expected.X.Exists.
+</p>
+
+
+<p>
+The following limitations are enforced for this operation:
+<ul>
+<li>1 MB request size</li>
+<li>25 item limit per BatchDeleteAttributes operation</li>
+
+</ul>
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBBatchDeleteAttributesRequest.html">SimpleDBBatchDeleteAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBBatchDeleteAttributesResponse.html">SimpleDBBatchDeleteAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/batchPutAttributes:" title="batchPutAttributes:"></a>
+	<h3 class="subsubtitle method-title">batchPutAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The BatchPutAttributes operation creates or replaces attributes within one or more items. By using this operation, the
+client can perform multiple PutAttribute operation with a single call. This helps yield savings in round trips and
+latencies, enabling Amazon SimpleDB to optimize requests and generally produce better throughput.
+</p>
+
+
+<p>
+The client may specify the item name with the Item.X.ItemName parameter. The client may specify new attributes using a
+combination of the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value parameters. The client may specify the first
+attribute for the first item using the parameters Item.0.Attribute.0.Name and Item.0.Attribute.0.Value ,
+and for the second attribute for the first item by the parameters Item.0.Attribute.1.Name and Item.0.Attribute.1.Value
+,
+and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified within an item by their name/value combination. For example, a single item can have
+the attributes { "first_name", "first_value" } and { "first_name", "second_value" } .
+However, it cannot have two attribute instances where both the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value
+are the same.
+</p>
+
+
+<p>
+Optionally, the requester can supply the Replace parameter for each individual value. Setting this value to true will
+cause the new attribute values to replace the existing attribute values. For example, if an item I has the attributes {
+'a', '1' }, { 'b', '2'} and { 'b', '3' } and the requester does a BatchPutAttributes of {'I', 'b', '4' } with the
+Replace parameter set to true, the final attributes of the item will be { 'a', '1' } and { 'b', '4' } ,
+replacing the previous values of the 'b' attribute with the new value.
+</p>
+
+
+<p>
+<b>NOTE:</b> You cannot specify an empty string as an item or as an attribute name. The BatchPutAttributes operation
+succeeds or fails in its entirety. There are no partial puts.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> This operation is vulnerable to exceeding the maximum URL size when making a REST request using the
+HTTP GET method. This operation does not support conditions using Expected.X.Name, Expected.X.Value, or
+Expected.X.Exists.
+</p>
+
+
+<p>
+You can execute multiple BatchPutAttributes operations and other operations in parallel. However, large numbers of
+concurrent BatchPutAttributes calls can result in Service Unavailable (503) responses.
+</p>
+
+
+<p><p>
+The following limitations are enforced for this operation:
+<ul>
+<li>256 attribute name-value pairs per item</li>
+<li>1 MB request size</li>
+<li>1 billion attributes per domain</li>
+<li>10 GB of total user data storage per domain</li>
+<li>25 item limit per BatchPutAttributes operation</li></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBBatchPutAttributesResponse *)batchPutAttributes:(SimpleDBBatchPutAttributesRequest *)<em>batchPutAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>batchPutAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the BatchPutAttributes service method
+on AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The BatchPutAttributes operation creates or replaces attributes within one or more items. By using this operation, the
+client can perform multiple PutAttribute operation with a single call. This helps yield savings in round trips and
+latencies, enabling Amazon SimpleDB to optimize requests and generally produce better throughput.
+</p>
+
+
+<p>
+The client may specify the item name with the Item.X.ItemName parameter. The client may specify new attributes using a
+combination of the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value parameters. The client may specify the first
+attribute for the first item using the parameters Item.0.Attribute.0.Name and Item.0.Attribute.0.Value ,
+and for the second attribute for the first item by the parameters Item.0.Attribute.1.Name and Item.0.Attribute.1.Value
+,
+and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified within an item by their name/value combination. For example, a single item can have
+the attributes { "first_name", "first_value" } and { "first_name", "second_value" } .
+However, it cannot have two attribute instances where both the Item.X.Attribute.Y.Name and Item.X.Attribute.Y.Value
+are the same.
+</p>
+
+
+<p>
+Optionally, the requester can supply the Replace parameter for each individual value. Setting this value to true will
+cause the new attribute values to replace the existing attribute values. For example, if an item I has the attributes {
+'a', '1' }, { 'b', '2'} and { 'b', '3' } and the requester does a BatchPutAttributes of {'I', 'b', '4' } with the
+Replace parameter set to true, the final attributes of the item will be { 'a', '1' } and { 'b', '4' } ,
+replacing the previous values of the 'b' attribute with the new value.
+</p>
+
+
+<p>
+<b>NOTE:</b> You cannot specify an empty string as an item or as an attribute name. The BatchPutAttributes operation
+succeeds or fails in its entirety. There are no partial puts.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> This operation is vulnerable to exceeding the maximum URL size when making a REST request using the
+HTTP GET method. This operation does not support conditions using Expected.X.Name, Expected.X.Value, or
+Expected.X.Exists.
+</p>
+
+
+<p>
+You can execute multiple BatchPutAttributes operations and other operations in parallel. However, large numbers of
+concurrent BatchPutAttributes calls can result in Service Unavailable (503) responses.
+</p>
+
+
+<p>
+The following limitations are enforced for this operation:
+<ul>
+<li>256 attribute name-value pairs per item</li>
+<li>1 MB request size</li>
+<li>1 billion attributes per domain</li>
+<li>10 GB of total user data storage per domain</li>
+<li>25 item limit per BatchPutAttributes operation</li>
+
+</ul>
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBDuplicateItemNameException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBDuplicateItemNameException.html">SimpleDBDuplicateItemNameException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberDomainBytesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberDomainBytesExceededException.html">SimpleDBNumberDomainBytesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberSubmittedItemsExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberSubmittedItemsExceededException.html">SimpleDBNumberSubmittedItemsExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberSubmittedAttributesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberSubmittedAttributesExceededException.html">SimpleDBNumberSubmittedAttributesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberDomainAttributesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberDomainAttributesExceededException.html">SimpleDBNumberDomainAttributesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberItemAttributesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberItemAttributesExceededException.html">SimpleDBNumberItemAttributesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBBatchPutAttributesRequest.html">SimpleDBBatchPutAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBBatchPutAttributesResponse.html">SimpleDBBatchPutAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createDomain:" title="createDomain:"></a>
+	<h3 class="subsubtitle method-title">createDomain:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The CreateDomain operation creates a new domain. The domain name should be unique among the domains associated with the
+Access Key ID provided in the request. The CreateDomain operation may take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> CreateDomain is an idempotent operation; running it multiple times using the same domain name will not
+result in an error response.
+</p>
+
+
+<p>
+The client can create up to 100 domains per account.
+</p>
+
+
+<p>
+If the client requires additional domains, go to <a href="http://aws.amazon.com/contact-us/simpledb-limit-request/">
+http://aws.amazon.com/contact-us/simpledb-limit-request/ </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBCreateDomainResponse *)createDomain:(SimpleDBCreateDomainRequest *)<em>createDomainRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createDomainRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateDomain service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The CreateDomain operation creates a new domain. The domain name should be unique among the domains associated with the
+Access Key ID provided in the request. The CreateDomain operation may take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> CreateDomain is an idempotent operation; running it multiple times using the same domain name will not
+result in an error response.
+</p>
+
+
+<p>
+The client can create up to 100 domains per account.
+</p>
+
+
+<p>
+If the client requires additional domains, go to <a href="http://aws.amazon.com/contact-us/simpledb-limit-request/">
+http://aws.amazon.com/contact-us/simpledb-limit-request/ </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberDomainsExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberDomainsExceededException.html">SimpleDBNumberDomainsExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBCreateDomainRequest.html">SimpleDBCreateDomainRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBCreateDomainResponse.html">SimpleDBCreateDomainResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteAttributes:" title="deleteAttributes:"></a>
+	<h3 class="subsubtitle method-title">deleteAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes one or more attributes associated with an item. If all attributes of the item are deleted, the item is deleted.
+</p>
+
+
+<p>
+<b>NOTE:</b> If DeleteAttributes is called without being passed any attributes or values specified, all the attributes
+for the item are deleted.
+</p>
+
+
+<p>
+DeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute does not result in
+an error response.
+</p>
+
+
+<p>
+Because Amazon SimpleDB makes multiple copies of item data and uses an eventual consistency update model, performing a
+GetAttributes or Select operation (read) immediately after a DeleteAttributes or PutAttributes operation (write) might
+not return updated item data.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBDeleteAttributesResponse *)deleteAttributes:(SimpleDBDeleteAttributesRequest *)<em>deleteAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteAttributes service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes one or more attributes associated with an item. If all attributes of the item are deleted, the item is deleted.
+</p>
+
+
+<p>
+<b>NOTE:</b> If DeleteAttributes is called without being passed any attributes or values specified, all the attributes
+for the item are deleted.
+</p>
+
+
+<p>
+DeleteAttributes is an idempotent operation; running it multiple times on the same item or attribute does not result in
+an error response.
+</p>
+
+
+<p>
+Because Amazon SimpleDB makes multiple copies of item data and uses an eventual consistency update model, performing a
+GetAttributes or Select operation (read) immediately after a DeleteAttributes or PutAttributes operation (write) might
+not return updated item data.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBAttributeDoesNotExistException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBAttributeDoesNotExistException.html">SimpleDBAttributeDoesNotExistException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBDeleteAttributesRequest.html">SimpleDBDeleteAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBDeleteAttributesResponse.html">SimpleDBDeleteAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteDomain:" title="deleteDomain:"></a>
+	<h3 class="subsubtitle method-title">deleteDomain:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The DeleteDomain operation deletes a domain. Any items (and their attributes) in the domain are deleted as well. The
+DeleteDomain operation might take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> Running DeleteDomain on a domain that does not exist or running the function multiple times using the same
+domain name will not result in an error response.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBDeleteDomainResponse *)deleteDomain:(SimpleDBDeleteDomainRequest *)<em>deleteDomainRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteDomainRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteDomain service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The DeleteDomain operation deletes a domain. Any items (and their attributes) in the domain are deleted as well. The
+DeleteDomain operation might take 10 or more seconds to complete.
+</p>
+
+
+<p>
+<b>NOTE:</b> Running DeleteDomain on a domain that does not exist or running the function multiple times using the same
+domain name will not result in an error response.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBDeleteDomainRequest.html">SimpleDBDeleteDomainRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBDeleteDomainResponse.html">SimpleDBDeleteDomainResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/domainMetadata:" title="domainMetadata:"></a>
+	<h3 class="subsubtitle method-title">domainMetadata:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns information about the domain, including when the domain was created, the number of items and attributes in the
+domain, and the size of the attribute names and values.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBDomainMetadataResponse *)domainMetadata:(SimpleDBDomainMetadataRequest *)<em>domainMetadataRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>domainMetadataRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DomainMetadata service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DomainMetadata service method, as returned by AmazonSimpleDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns information about the domain, including when the domain was created, the number of items and attributes in the
+domain, and the size of the attribute names and values.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBDomainMetadataRequest.html">SimpleDBDomainMetadataRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBDomainMetadataResponse.html">SimpleDBDomainMetadataResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getAttributes:" title="getAttributes:"></a>
+	<h3 class="subsubtitle method-title">getAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns all of the attributes associated with the specified item. Optionally, the attributes returned can be limited to
+one or more attributes by specifying an attribute name parameter.
+</p>
+
+
+<p>
+If the item does not exist on the replica that was accessed for this operation, an empty set is returned. The system
+does not return an error as it cannot guarantee the item does not exist on other replicas.
+</p>
+
+
+<p>
+<b>NOTE:</b> If GetAttributes is called without being passed any attribute names, all the attributes for the item are
+returned.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBGetAttributesResponse *)getAttributes:(SimpleDBGetAttributesRequest *)<em>getAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetAttributes service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetAttributes service method, as returned by AmazonSimpleDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns all of the attributes associated with the specified item. Optionally, the attributes returned can be limited to
+one or more attributes by specifying an attribute name parameter.
+</p>
+
+
+<p>
+If the item does not exist on the replica that was accessed for this operation, an empty set is returned. The system
+does not return an error as it cannot guarantee the item does not exist on other replicas.
+</p>
+
+
+<p>
+<b>NOTE:</b> If GetAttributes is called without being passed any attribute names, all the attributes for the item are
+returned.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBGetAttributesRequest.html">SimpleDBGetAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBGetAttributesResponse.html">SimpleDBGetAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listDomains:" title="listDomains:"></a>
+	<h3 class="subsubtitle method-title">listDomains:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListDomains operation lists all domains associated with the Access Key ID. It returns domain names up to the limit
+set by MaxNumberOfDomains. A NextToken is returned if there are more than MaxNumberOfDomains domains. Calling
+ListDomains successive times with the NextToken provided by the operation returns up to MaxNumberOfDomains more domain
+names with each successive operation call.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBListDomainsResponse *)listDomains:(SimpleDBListDomainsRequest *)<em>listDomainsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listDomainsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListDomains service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListDomains service method, as returned by AmazonSimpleDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListDomains operation lists all domains associated with the Access Key ID. It returns domain names up to the limit
+set by MaxNumberOfDomains. A NextToken is returned if there are more than MaxNumberOfDomains domains. Calling
+ListDomains successive times with the NextToken provided by the operation returns up to MaxNumberOfDomains more domain
+names with each successive operation call.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidNextTokenException.html">SimpleDBInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBListDomainsRequest.html">SimpleDBListDomainsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBListDomainsResponse.html">SimpleDBListDomainsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putAttributes:" title="putAttributes:"></a>
+	<h3 class="subsubtitle method-title">putAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The PutAttributes operation creates or replaces attributes in an item. The client may specify new attributes using a
+combination of the Attribute.X.Name and Attribute.X.Value parameters. The client specifies the first attribute by the
+parameters Attribute.0.Name and Attribute.0.Value ,
+the second attribute by the parameters Attribute.1.Name and Attribute.1.Value , and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified in an item by their name/value combination. For example, a single item can have the
+attributes { "first_name", "first_value" } and { "first_name", second_value" } . However, it cannot have two attribute
+instances where both the Attribute.X.Name and Attribute.X.Value are the same.
+</p>
+
+
+<p><p>
+Optionally, the requestor can supply the Replace parameter for each individual attribute. Setting this value to true
+causes the new attribute value to replace the existing attribute value(s). For example, if an item has the attributes {
+&lsquo;a&rsquo;, &lsquo;1&rsquo; } ,</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBPutAttributesResponse *)putAttributes:(SimpleDBPutAttributesRequest *)<em>putAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the PutAttributes service method on
+AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The PutAttributes operation creates or replaces attributes in an item. The client may specify new attributes using a
+combination of the Attribute.X.Name and Attribute.X.Value parameters. The client specifies the first attribute by the
+parameters Attribute.0.Name and Attribute.0.Value ,
+the second attribute by the parameters Attribute.1.Name and Attribute.1.Value , and so on.
+</p>
+
+
+<p>
+Attributes are uniquely identified in an item by their name/value combination. For example, a single item can have the
+attributes { "first_name", "first_value" } and { "first_name", second_value" } . However, it cannot have two attribute
+instances where both the Attribute.X.Name and Attribute.X.Value are the same.
+</p>
+
+
+<p>
+Optionally, the requestor can supply the Replace parameter for each individual attribute. Setting this value to true
+causes the new attribute value to replace the existing attribute value(s). For example, if an item has the attributes {
+'a', '1' } ,
+
+{ 'b', '2'} and { 'b', '3' } and the requestor calls PutAttributes using the attributes { 'b', '4' }
+with the Replace parameter set to true, the final attributes of the item are changed to { 'a', '1' } and { 'b', '4' } ,
+which replaces the previous values of the 'b' attribute with the new value.
+</p>
+
+
+<p>
+<b>NOTE:</b> Using PutAttributes to replace attribute values that do not exist will not result in an error response.
+</p>
+
+
+<p>
+You cannot specify an empty string as an attribute name.
+</p>
+
+
+<p>
+Because Amazon SimpleDB makes multiple copies of client data and uses an eventual consistency update model, an
+immediate GetAttributes or Select operation (read) immediately after a PutAttributes or DeleteAttributes operation
+(write) might not return the updated data.
+</p>
+
+
+<p>
+The following limitations are enforced for this operation:
+<ul>
+<li>256 total attribute name-value pairs per item</li>
+<li>One billion attributes per domain</li>
+<li>10 GB of total user data storage per domain</li>
+
+</ul>
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberDomainBytesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberDomainBytesExceededException.html">SimpleDBNumberDomainBytesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberDomainAttributesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberDomainAttributesExceededException.html">SimpleDBNumberDomainAttributesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNumberItemAttributesExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNumberItemAttributesExceededException.html">SimpleDBNumberItemAttributesExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBAttributeDoesNotExistException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBAttributeDoesNotExistException.html">SimpleDBAttributeDoesNotExistException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBPutAttributesRequest.html">SimpleDBPutAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBPutAttributesResponse.html">SimpleDBPutAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/select:" title="select:"></a>
+	<h3 class="subsubtitle method-title">select:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The Select operation returns a set of attributes for ItemNames that match the select expression. Select is similar to
+the standard SQL SELECT statement.
+</p>
+
+
+<p>
+The total size of the response cannot exceed 1 MB in total size. Amazon SimpleDB automatically adjusts the number of
+items returned per page to enforce this limit. For example, if the client asks to retrieve 2500 items, but each
+individual item is 10 kB in size, the system returns 100 items and an appropriate NextToken so the client can access the
+next page of results.
+</p>
+
+
+<p>
+For information on how to construct select expressions, see Using Select to Create Amazon SimpleDB Queries in the
+Developer Guide.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SimpleDBSelectResponse *)select:(SimpleDBSelectRequest *)<em>selectRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>selectRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Select service method on AmazonSimpleDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the Select service method, as returned by AmazonSimpleDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The Select operation returns a set of attributes for ItemNames that match the select expression. Select is similar to
+the standard SQL SELECT statement.
+</p>
+
+
+<p>
+The total size of the response cannot exceed 1 MB in total size. Amazon SimpleDB automatically adjusts the number of
+items returned per page to enforce this limit. For example, if the client asks to retrieve 2500 items, but each
+individual item is 10 kB in size, the system returns 100 items and an appropriate NextToken so the client can access the
+next page of results.
+</p>
+
+
+<p>
+For information on how to construct select expressions, see Using Select to Create Amazon SimpleDB Queries in the
+Developer Guide.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidParameterValueException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidParameterValueException.html">SimpleDBInvalidParameterValueException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidQueryExpressionException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidQueryExpressionException.html">SimpleDBInvalidQueryExpressionException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBRequestTimeoutException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBRequestTimeoutException.html">SimpleDBRequestTimeoutException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidNumberPredicatesException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidNumberPredicatesException.html">SimpleDBInvalidNumberPredicatesException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBNoSuchDomainException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBNoSuchDomainException.html">SimpleDBNoSuchDomainException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidNextTokenException.html">SimpleDBInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBTooManyRequestedAttributesException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBTooManyRequestedAttributesException.html">SimpleDBTooManyRequestedAttributesException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBMissingParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBMissingParameterException.html">SimpleDBMissingParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SimpleDBInvalidNumberValueTestsException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SimpleDBInvalidNumberValueTestsException.html">SimpleDBInvalidNumberValueTestsException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSimpleDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SimpleDBSelectRequest.html">SimpleDBSelectRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SimpleDBSelectResponse.html">SimpleDBSelectResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSimpleDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

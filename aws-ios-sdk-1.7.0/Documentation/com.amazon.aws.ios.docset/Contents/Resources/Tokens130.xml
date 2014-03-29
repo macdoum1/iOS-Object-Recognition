@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchDescribeAlarmHistoryResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmHistoryResponse</TokenIdentifier>
+			<Abstract type="html">Describe Alarm History Result</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>
+			
+			<NodeRef refid="130"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/setAlarmHistoryItems:</TokenIdentifier>
+			<Abstract type="html">A list of alarm histories in JSON format.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmHistoryItems</Declaration>
+			
+			
+			<Anchor>//api/name/alarmHistoryItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryResponse/alarmHistoryItems</TokenIdentifier>
+			<Abstract type="html">A list of alarm histories in JSON format.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmHistoryItems</Declaration>
+			
+			
+			<Anchor>//api/name/alarmHistoryItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmHistoryResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/alarmHistoryItemsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the alarmHistoryItems array for the specified index</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (CloudWatchAlarmHistoryItem *)alarmHistoryItemsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/alarmHistoryItemsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmHistoryResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmHistoryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

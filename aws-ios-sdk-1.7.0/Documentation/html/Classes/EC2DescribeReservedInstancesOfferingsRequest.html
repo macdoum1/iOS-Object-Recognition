@@ -1,0 +1,1293 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EC2DescribeReservedInstancesOfferingsRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EC2DescribeReservedInstancesOfferingsRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/availabilityZone">&nbsp;&nbsp;&nbsp;&nbsp;availabilityZone</option>
+	
+	<option value="//api/name/dryRun">&nbsp;&nbsp;&nbsp;&nbsp;dryRun</option>
+	
+	<option value="//api/name/filters">&nbsp;&nbsp;&nbsp;&nbsp;filters</option>
+	
+	<option value="//api/name/includeMarketplace">&nbsp;&nbsp;&nbsp;&nbsp;includeMarketplace</option>
+	
+	<option value="//api/name/instanceTenancy">&nbsp;&nbsp;&nbsp;&nbsp;instanceTenancy</option>
+	
+	<option value="//api/name/instanceType">&nbsp;&nbsp;&nbsp;&nbsp;instanceType</option>
+	
+	<option value="//api/name/maxDuration">&nbsp;&nbsp;&nbsp;&nbsp;maxDuration</option>
+	
+	<option value="//api/name/maxInstanceCount">&nbsp;&nbsp;&nbsp;&nbsp;maxInstanceCount</option>
+	
+	<option value="//api/name/maxResults">&nbsp;&nbsp;&nbsp;&nbsp;maxResults</option>
+	
+	<option value="//api/name/minDuration">&nbsp;&nbsp;&nbsp;&nbsp;minDuration</option>
+	
+	<option value="//api/name/nextToken">&nbsp;&nbsp;&nbsp;&nbsp;nextToken</option>
+	
+	<option value="//api/name/offeringType">&nbsp;&nbsp;&nbsp;&nbsp;offeringType</option>
+	
+	<option value="//api/name/productDescription">&nbsp;&nbsp;&nbsp;&nbsp;productDescription</option>
+	
+	<option value="//api/name/reservedInstancesOfferingIds">&nbsp;&nbsp;&nbsp;&nbsp;reservedInstancesOfferingIds</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addFilter:">&nbsp;&nbsp;&nbsp;&nbsp;- addFilter:</option>
+	
+	<option value="//api/name/addReservedInstancesOfferingId:">&nbsp;&nbsp;&nbsp;&nbsp;- addReservedInstancesOfferingId:</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/availabilityZone">availabilityZone</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dryRun">dryRun</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filters">filters</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/includeMarketplace">includeMarketplace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/instanceTenancy">instanceTenancy</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/instanceType">instanceType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxDuration">maxDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxInstanceCount">maxInstanceCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxResults">maxResults</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minDuration">minDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nextToken">nextToken</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offeringType">offeringType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productDescription">productDescription</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reservedInstancesOfferingIds">reservedInstancesOfferingIds</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addFilter:">addFilter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addReservedInstancesOfferingId:">addReservedInstancesOfferingId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EC2DescribeReservedInstancesOfferingsRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EC2DescribeReservedInstancesOfferingsRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonServiceRequestConfig.html">AmazonServiceRequestConfig</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EC2DescribeReservedInstancesOfferingsRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Describe Reserved Instances Offerings Request</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dryRun">&nbsp;&nbsp;dryRun</a></code>
+		<span class="tooltip"><p>The value of the DryRun property for this object.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reservedInstancesOfferingIds">&nbsp;&nbsp;reservedInstancesOfferingIds</a></code>
+		<span class="tooltip"><p>An optional list of the unique IDs of the Reserved Instance offerings
+to describe.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/instanceType">&nbsp;&nbsp;instanceType</a></code>
+		<span class="tooltip"><p>The instance type on which the Reserved Instance can be used.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/availabilityZone">&nbsp;&nbsp;availabilityZone</a></code>
+		<span class="tooltip"><p>The Availability Zone in which the Reserved Instance can be used.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productDescription">&nbsp;&nbsp;productDescription</a></code>
+		<span class="tooltip"><p>The Reserved Instance product description.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filters">&nbsp;&nbsp;filters</a></code>
+		<span class="tooltip"><p>A list of filters used to match properties for
+ReservedInstancesOfferings. For a complete reference to the available
+filter keys for this operation, see the <a
+"http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/">Amazon
+EC2 API reference</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/instanceTenancy">&nbsp;&nbsp;instanceTenancy</a></code>
+		<span class="tooltip"><p>The tenancy of the Reserved Instance offering. A Reserved Instance
+with tenancy of dedicated will run on single-tenant hardware and can
+only be launched within a VPC.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>default, dedicated</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offeringType">&nbsp;&nbsp;offeringType</a></code>
+		<span class="tooltip"><p>The Reserved Instance offering type.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Heavy Utilization, Medium Utilization, Light Utilization</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/nextToken">&nbsp;&nbsp;nextToken</a></code>
+		<span class="tooltip"><p>The value of the NextToken property for this object.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxResults">&nbsp;&nbsp;maxResults</a></code>
+		<span class="tooltip"><p>The value of the MaxResults property for this object.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/includeMarketplace">&nbsp;&nbsp;includeMarketplace</a></code>
+		<span class="tooltip"><p>Include Marketplace offerings in the response.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minDuration">&nbsp;&nbsp;minDuration</a></code>
+		<span class="tooltip"><p>Minimum duration (in seconds) to filter when searching for offerings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxDuration">&nbsp;&nbsp;maxDuration</a></code>
+		<span class="tooltip"><p>Maximum duration (in seconds) to filter when searching for offerings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxInstanceCount">&nbsp;&nbsp;maxInstanceCount</a></code>
+		<span class="tooltip"><p>The value of the MaxInstanceCount property for this object.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addReservedInstancesOfferingId:">&ndash;&nbsp;addReservedInstancesOfferingId:</a></code>
+		<span class="tooltip"><p>Adds a single object to reservedInstancesOfferingIds.
+This function will alloc and init reservedInstancesOfferingIds if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addFilter:">&ndash;&nbsp;addFilter:</a></code>
+		<span class="tooltip"><p>Adds a single object to filters.
+This function will alloc and init filters if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/availabilityZone" title="availabilityZone"></a>
+	<h3 class="subsubtitle method-title">availabilityZone</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The Availability Zone in which the Reserved Instance can be used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *availabilityZone</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The Availability Zone in which the Reserved Instance can be used.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dryRun" title="dryRun"></a>
+	<h3 class="subsubtitle method-title">dryRun</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the DryRun property for this object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL dryRun</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the DryRun property for this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filters" title="filters"></a>
+	<h3 class="subsubtitle method-title">filters</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A list of filters used to match properties for
+ReservedInstancesOfferings. For a complete reference to the available
+filter keys for this operation, see the <a
+"http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/">Amazon
+EC2 API reference</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *filters</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A list of filters used to match properties for
+ReservedInstancesOfferings. For a complete reference to the available
+filter keys for this operation, see the <a
+"http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/">Amazon
+EC2 API reference</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/includeMarketplace" title="includeMarketplace"></a>
+	<h3 class="subsubtitle method-title">includeMarketplace</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Include Marketplace offerings in the response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL includeMarketplace</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Include Marketplace offerings in the response.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/instanceTenancy" title="instanceTenancy"></a>
+	<h3 class="subsubtitle method-title">instanceTenancy</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The tenancy of the Reserved Instance offering. A Reserved Instance
+with tenancy of dedicated will run on single-tenant hardware and can
+only be launched within a VPC.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>default, dedicated</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *instanceTenancy</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The tenancy of the Reserved Instance offering. A Reserved Instance
+with tenancy of dedicated will run on single-tenant hardware and can
+only be launched within a VPC.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>default, dedicated</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/instanceType" title="instanceType"></a>
+	<h3 class="subsubtitle method-title">instanceType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The instance type on which the Reserved Instance can be used.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *instanceType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The instance type on which the Reserved Instance can be used.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxDuration" title="maxDuration"></a>
+	<h3 class="subsubtitle method-title">maxDuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Maximum duration (in seconds) to filter when searching for offerings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *maxDuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Maximum duration (in seconds) to filter when searching for offerings.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxInstanceCount" title="maxInstanceCount"></a>
+	<h3 class="subsubtitle method-title">maxInstanceCount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the MaxInstanceCount property for this object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *maxInstanceCount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the MaxInstanceCount property for this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxResults" title="maxResults"></a>
+	<h3 class="subsubtitle method-title">maxResults</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the MaxResults property for this object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *maxResults</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the MaxResults property for this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minDuration" title="minDuration"></a>
+	<h3 class="subsubtitle method-title">minDuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Minimum duration (in seconds) to filter when searching for offerings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *minDuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Minimum duration (in seconds) to filter when searching for offerings.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/nextToken" title="nextToken"></a>
+	<h3 class="subsubtitle method-title">nextToken</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the NextToken property for this object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *nextToken</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the NextToken property for this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offeringType" title="offeringType"></a>
+	<h3 class="subsubtitle method-title">offeringType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The Reserved Instance offering type.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Heavy Utilization, Medium Utilization, Light Utilization</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *offeringType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The Reserved Instance offering type.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Heavy Utilization, Medium Utilization, Light Utilization</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productDescription" title="productDescription"></a>
+	<h3 class="subsubtitle method-title">productDescription</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The Reserved Instance product description.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *productDescription</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The Reserved Instance product description.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reservedInstancesOfferingIds" title="reservedInstancesOfferingIds"></a>
+	<h3 class="subsubtitle method-title">reservedInstancesOfferingIds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An optional list of the unique IDs of the Reserved Instance offerings
+to describe.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *reservedInstancesOfferingIds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An optional list of the unique IDs of the Reserved Instance offerings
+to describe.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addFilter:" title="addFilter:"></a>
+	<h3 class="subsubtitle method-title">addFilter:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to filters.
+This function will alloc and init filters if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addFilter:(EC2Filter *)<em>filterObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to filters.
+This function will alloc and init filters if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addReservedInstancesOfferingId:" title="addReservedInstancesOfferingId:"></a>
+	<h3 class="subsubtitle method-title">addReservedInstancesOfferingId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to reservedInstancesOfferingIds.
+This function will alloc and init reservedInstancesOfferingIds if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addReservedInstancesOfferingId:(NSString *)<em>reservedInstancesOfferingIdObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to reservedInstancesOfferingIds.
+This function will alloc and init reservedInstancesOfferingIds if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2DescribeReservedInstancesOfferingsRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

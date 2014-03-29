@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse</TokenIdentifier>
+			<Abstract type="html">Describe Load Balancer Policy Types Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="543"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/setPolicyTypeDescriptions:</TokenIdentifier>
+			<Abstract type="html">List of policy type description structures of the specified policy
+type. If no policy type names are specified, returns the description
+of all the policy types defined by Elastic Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyTypeDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeDescriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/policyTypeDescriptions</TokenIdentifier>
+			<Abstract type="html">List of policy type description structures of the specified policy
+type. If no policy type names are specified, returns the description
+of all the policy types defined by Elastic Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyTypeDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeDescriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/policyTypeDescriptionsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the policyTypeDescriptions array for the specified index</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (ElasticLoadBalancingPolicyTypeDescription *)policyTypeDescriptionsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeDescriptionsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

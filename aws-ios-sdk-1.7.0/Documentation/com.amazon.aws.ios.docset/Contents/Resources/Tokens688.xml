@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3RestoreObjectResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3RestoreObjectResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a request to restore object from Amazon Glacier.</Abstract>
+			<DeclaredIn>S3RestoreObjectResponse.h</DeclaredIn>
+			
+			<NodeRef refid="688"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketNameUtilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketNameUtilities</TokenIdentifier>
+			<Abstract type="html">Utilities for validating bucket names</Abstract>
+			<DeclaredIn>S3BucketNameUtilities.h</DeclaredIn>
+			
+			<NodeRef refid="600"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3BucketNameUtilities/validateBucketName:</TokenIdentifier>
+			<Abstract type="html">Validate that the supplied bucket name conforms to Amazon S3 bucket name
+constraints.</Abstract>
+			<DeclaredIn>S3BucketNameUtilities.h</DeclaredIn>			
+			
+			<Declaration>+ (AmazonClientException *)validateBucketName:(NSString *)theBucketName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theBucketName</Name>
+					<Abstract type="html">The name of the bucket.
+@throws AWSClientException If the bucket name violates the bucket name constraints.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/validateBucketName:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

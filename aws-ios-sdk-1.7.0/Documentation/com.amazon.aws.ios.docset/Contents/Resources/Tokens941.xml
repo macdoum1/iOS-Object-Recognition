@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBUpdateCondition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBUpdateCondition</TokenIdentifier>
+			<Abstract type="html">Update Condition</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>
+			
+			<NodeRef refid="941"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute involved in the condition.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBUpdateCondition/name</TokenIdentifier>
+			<Abstract type="html">The name of the attribute involved in the condition.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of an attribute. This value can only be specified when the
+&lt;code&gt;Exists&lt;/code&gt; parameter is equal to &lt;code&gt;true&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBUpdateCondition/value</TokenIdentifier>
+			<Abstract type="html">The value of an attribute. This value can only be specified when the
+&lt;code&gt;Exists&lt;/code&gt; parameter is equal to &lt;code&gt;true&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/setExists:</TokenIdentifier>
+			<Abstract type="html">A value specifying whether or not the specified attribute must exist
+with the specified value in order for the update condition to be
+satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute must exist for
+the update condition to be satisfied. Specify &lt;code&gt;false&lt;/code&gt; if
+the attribute should not exist in order for the update condition to be
+satisfied.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBUpdateCondition/exists</TokenIdentifier>
+			<Abstract type="html">A value specifying whether or not the specified attribute must exist
+with the specified value in order for the update condition to be
+satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute must exist for
+the update condition to be satisfied. Specify &lt;code&gt;false&lt;/code&gt; if
+the attribute should not exist in order for the update condition to be
+satisfied.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new UpdateCondition object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/initWithName:andValue:andExists:</TokenIdentifier>
+			<Abstract type="html">Constructs a new UpdateCondition object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)theName andValue:(NSString *)theValue andExists:(BOOL)theExists</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the attribute involved in the condition.</Abstract>
+				</Parameter><Parameter>
+					<Name>theValue</Name>
+					<Abstract type="html">The value of an attribute. This value can only be
+specified when the &lt;code&gt;Exists&lt;/code&gt; parameter is equal to
+&lt;code&gt;true&lt;/code&gt;.</Abstract>
+				</Parameter><Parameter>
+					<Name>theExists</Name>
+					<Abstract type="html">A value specifying whether or not the specified
+attribute must exist with the specified value in order for the update
+condition to be satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute
+must exist for the update condition to be satisfied. Specify
+&lt;code&gt;false&lt;/code&gt; if the attribute should not exist in order for the
+update condition to be satisfied.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:andValue:andExists:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBUpdateCondition/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBUpdateCondition.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

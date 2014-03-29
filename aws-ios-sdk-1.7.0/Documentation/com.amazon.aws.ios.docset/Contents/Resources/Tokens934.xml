@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBReplaceableItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBReplaceableItem</TokenIdentifier>
+			<Abstract type="html">Replaceable Item</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>
+			
+			<NodeRef refid="934"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableItem/name</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/setAttributes:</TokenIdentifier>
+			<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableItem/attributes</TokenIdentifier>
+			<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ReplaceableItem object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/initWithName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReplaceableItem object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)theName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the replaceable item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/initWithName:andAttributes:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReplaceableItem object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)theName andAttributes:(NSMutableArray *)theAttributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the replaceable item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributes</Name>
+					<Abstract type="html">The list of attributes for a replaceable item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:andAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/addAttribute:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributes.
+This function will alloc and init attributes if not already done.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttribute:(SimpleDBReplaceableAttribute *)attributeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableItem/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableItem.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

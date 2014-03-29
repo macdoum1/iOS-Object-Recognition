@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ResetSnapshotAttributeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ResetSnapshotAttributeResponse</TokenIdentifier>
+			<Abstract type="html">Reset Snapshot Attribute</Abstract>
+			<DeclaredIn>EC2ResetSnapshotAttributeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="473"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

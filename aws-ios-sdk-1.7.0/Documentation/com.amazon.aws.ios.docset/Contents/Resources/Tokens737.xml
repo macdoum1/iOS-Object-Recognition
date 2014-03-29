@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SESResponse.h</DeclaredIn>
+			
+			<NodeRef refid="737"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeConversionTasksResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeConversionTasksResponse</TokenIdentifier>
+			<Abstract type="html">Describe Conversion Tasks Response</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>
+			
+			<NodeRef refid="307"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksResponse/setConversionTasks:</TokenIdentifier>
+			<Abstract type="html">The value of the ConversionTasks property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *conversionTasks</Declaration>
+			
+			
+			<Anchor>//api/name/conversionTasks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeConversionTasksResponse/conversionTasks</TokenIdentifier>
+			<Abstract type="html">The value of the ConversionTasks property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *conversionTasks</Declaration>
+			
+			
+			<Anchor>//api/name/conversionTasks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksResponse/conversionTasksObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the conversionTasks array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2ConversionTask *)conversionTasksObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/conversionTasksObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

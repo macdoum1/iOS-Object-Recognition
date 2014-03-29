@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DiskImageDetail.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DiskImageDetail</TokenIdentifier>
+			<Abstract type="html">Disk Image Detail</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>
+			
+			<NodeRef refid="366"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDetail/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDetail/setFormat:</TokenIdentifier>
+			<Abstract type="html">The value of the Format property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;VMDK, RAW, VHD</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDetail/format</TokenIdentifier>
+			<Abstract type="html">The value of the Format property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;VMDK, RAW, VHD</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDetail/setBytes:</TokenIdentifier>
+			<Abstract type="html">The value of the Bytes property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *bytes</Declaration>
+			
+			
+			<Anchor>//api/name/bytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDetail/bytes</TokenIdentifier>
+			<Abstract type="html">The value of the Bytes property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *bytes</Declaration>
+			
+			
+			<Anchor>//api/name/bytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDetail/setImportManifestUrl:</TokenIdentifier>
+			<Abstract type="html">The value of the ImportManifestUrl property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDetail/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">The value of the ImportManifestUrl property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDetail/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DiskImageDetail.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

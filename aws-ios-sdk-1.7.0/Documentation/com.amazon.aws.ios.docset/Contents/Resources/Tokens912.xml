@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBDuplicateItemNameException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBDuplicateItemNameException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The item name was specified more than once.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SimpleDBDuplicateItemNameException.h</DeclaredIn>
+			
+			<NodeRef refid="912"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDuplicateItemNameException/setBoxUsage:</TokenIdentifier>
+			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
+			<DeclaredIn>SimpleDBDuplicateItemNameException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
+			
+			
+			<Anchor>//api/name/boxUsage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDuplicateItemNameException/boxUsage</TokenIdentifier>
+			<Abstract type="html">The value of the BoxUsage property for this object.</Abstract>
+			<DeclaredIn>SimpleDBDuplicateItemNameException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *boxUsage</Declaration>
+			
+			
+			<Anchor>//api/name/boxUsage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDuplicateItemNameException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SimpleDBDuplicateItemNameException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDuplicateItemNameException/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBDuplicateItemNameException.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

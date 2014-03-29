@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeAddressesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAddressesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Addresses Request</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="300"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAddressesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/setPublicIps:</TokenIdentifier>
+			<Abstract type="html">The optional list of Elastic IP addresses to describe.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *publicIps</Declaration>
+			
+			
+			<Anchor>//api/name/publicIps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAddressesRequest/publicIps</TokenIdentifier>
+			<Abstract type="html">The optional list of Elastic IP addresses to describe.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *publicIps</Declaration>
+			
+			
+			<Anchor>//api/name/publicIps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Addresses. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAddressesRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Addresses. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/setAllocationIds:</TokenIdentifier>
+			<Abstract type="html">The value of the AllocationIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *allocationIds</Declaration>
+			
+			
+			<Anchor>//api/name/allocationIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAddressesRequest/allocationIds</TokenIdentifier>
+			<Abstract type="html">The value of the AllocationIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *allocationIds</Declaration>
+			
+			
+			<Anchor>//api/name/allocationIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/addPublicIp:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to publicIps.
+This function will alloc and init publicIps if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPublicIp:(NSString *)publicIpObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPublicIp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/addAllocationId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to allocationIds.
+This function will alloc and init allocationIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAllocationId:(NSString *)allocationIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAllocationId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAddressesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeAddressesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

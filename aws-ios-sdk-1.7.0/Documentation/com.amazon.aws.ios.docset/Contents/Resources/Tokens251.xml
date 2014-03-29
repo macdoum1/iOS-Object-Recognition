@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ConfirmProductInstanceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ConfirmProductInstanceRequest</TokenIdentifier>
+			<Abstract type="html">Confirm Product Instance Request</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>
+			
+			<NodeRef refid="251"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ConfirmProductInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/setProductCode:</TokenIdentifier>
+			<Abstract type="html">The product code to confirm.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productCode</Declaration>
+			
+			
+			<Anchor>//api/name/productCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ConfirmProductInstanceRequest/productCode</TokenIdentifier>
+			<Abstract type="html">The product code to confirm.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productCode</Declaration>
+			
+			
+			<Anchor>//api/name/productCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance to confirm.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ConfirmProductInstanceRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance to confirm.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ConfirmProductInstanceRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/initWithProductCode:andInstanceId:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ConfirmProductInstanceRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithProductCode:(NSString *)theProductCode andInstanceId:(NSString *)theInstanceId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theProductCode</Name>
+					<Abstract type="html">The product code to confirm.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the instance to confirm.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithProductCode:andInstanceId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ConfirmProductInstanceRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ConfirmProductInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeImageAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImageAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Describe Image Attribute Request</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="310"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">The ID of the AMI whose attribute is to be described.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">The ID of the AMI whose attribute is to be described.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute to describe. &lt;p&gt; Available attribute names:
+&lt;code&gt;productCodes&lt;/code&gt;, &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;,
+&lt;code&gt;launchPermisson&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;description, kernel, ramdisk, launchPermission, productCodes, blockDeviceMapping</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the attribute to describe. &lt;p&gt; Available attribute names:
+&lt;code&gt;productCodes&lt;/code&gt;, &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;,
+&lt;code&gt;launchPermisson&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;description, kernel, ramdisk, launchPermission, productCodes, blockDeviceMapping</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DescribeImageAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/initWithImageId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DescribeImageAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImageId:(NSString *)theImageId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theImageId</Name>
+					<Abstract type="html">The ID of the AMI whose attribute is to be
+described.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the attribute to describe. &lt;p&gt;
+Available attribute names: &lt;code&gt;productCodes&lt;/code&gt;,
+&lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;,
+&lt;code&gt;launchPermisson&lt;/code&gt;, &lt;code&gt;blockDeviceMapping&lt;/code&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImageId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImageAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

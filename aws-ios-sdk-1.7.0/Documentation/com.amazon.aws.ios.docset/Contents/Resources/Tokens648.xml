@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetBucketWebsiteConfigurationRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketWebsiteConfigurationRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the getBucketWebsiteConfiguration operation.</Abstract>
+			<DeclaredIn>S3GetBucketWebsiteConfigurationRequest.h</DeclaredIn>
+			
+			<NodeRef refid="648"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

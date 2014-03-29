@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeSecurityGroupsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSecurityGroupsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Security Groups Request</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="336"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSecurityGroupsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/setGroupNames:</TokenIdentifier>
+			<Abstract type="html">An optional list of group names that specify the Amazon EC2 security
+groups to describe.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupNames</Declaration>
+			
+			
+			<Anchor>//api/name/groupNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSecurityGroupsRequest/groupNames</TokenIdentifier>
+			<Abstract type="html">An optional list of group names that specify the Amazon EC2 security
+groups to describe.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupNames</Declaration>
+			
+			
+			<Anchor>//api/name/groupNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/setGroupIds:</TokenIdentifier>
+			<Abstract type="html">The value of the GroupIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupIds</Declaration>
+			
+			
+			<Anchor>//api/name/groupIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSecurityGroupsRequest/groupIds</TokenIdentifier>
+			<Abstract type="html">The value of the GroupIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupIds</Declaration>
+			
+			
+			<Anchor>//api/name/groupIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for SecurityGroups. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSecurityGroupsRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for SecurityGroups. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/addGroupName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groupNames.
+This function will alloc and init groupNames if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroupName:(NSString *)groupNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/addGroupId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groupIds.
+This function will alloc and init groupIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroupId:(NSString *)groupIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSecurityGroupsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeSecurityGroupsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

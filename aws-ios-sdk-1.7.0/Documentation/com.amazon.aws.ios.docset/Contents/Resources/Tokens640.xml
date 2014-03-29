@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetBucketLifecycleConfigurationRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketLifecycleConfigurationRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the getBucketLifecycleConfiguration operation.</Abstract>
+			<DeclaredIn>S3GetBucketLifecycleConfigurationRequest.h</DeclaredIn>
+			
+			<NodeRef refid="640"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

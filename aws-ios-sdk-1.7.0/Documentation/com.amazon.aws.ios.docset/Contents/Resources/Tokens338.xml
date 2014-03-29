@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeSnapshotAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Describe Snapshot Attribute Request</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="338"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">The ID of the EBS snapshot whose attribute is being described.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotAttributeRequest/snapshotId</TokenIdentifier>
+			<Abstract type="html">The ID of the EBS snapshot whose attribute is being described.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the EBS attribute to describe. &lt;p&gt; Available attribute
+names: createVolumePermission
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;productCodes, createVolumePermission</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the EBS attribute to describe. &lt;p&gt; Available attribute
+names: createVolumePermission
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;productCodes, createVolumePermission</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DescribeSnapshotAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/initWithSnapshotId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DescribeSnapshotAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSnapshotId:(NSString *)theSnapshotId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theSnapshotId</Name>
+					<Abstract type="html">The ID of the EBS snapshot whose attribute is
+being described.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the EBS attribute to describe. &lt;p&gt;
+Available attribute names: createVolumePermission</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSnapshotId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

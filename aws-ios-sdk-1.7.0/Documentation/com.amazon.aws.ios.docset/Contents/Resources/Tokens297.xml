@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeregisterImageResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeregisterImageResponse</TokenIdentifier>
+			<Abstract type="html">Deregister Image</Abstract>
+			<DeclaredIn>EC2DeregisterImageResponse.h</DeclaredIn>
+			
+			<NodeRef refid="297"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

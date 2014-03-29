@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonWebServiceClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonWebServiceClient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonWebServiceClient.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWebServiceClient/initWithAccessKey:withSecretKey:</TokenIdentifier>
+			<Abstract type="html">Inits the client with the access key and the secret key.</Abstract>
+			<DeclaredIn>AmazonWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKey:(NSString *)accessKey withSecretKey:(NSString *)secretKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">The AWS Access Key</Abstract>
+				</Parameter><Parameter>
+					<Name>secretKey</Name>
+					<Abstract type="html">The AWS Secret Key
+
+See our blog to learn more about Managing Credentials in Mobile Applications.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKey:withSecretKey:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

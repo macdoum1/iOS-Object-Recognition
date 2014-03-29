@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBPutAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBPutAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Put Attributes Request</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="931"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBPutAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/setItemName:</TokenIdentifier>
+			<Abstract type="html">The name of the item.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *itemName</Declaration>
+			
+			
+			<Anchor>//api/name/itemName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBPutAttributesRequest/itemName</TokenIdentifier>
+			<Abstract type="html">The name of the item.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *itemName</Declaration>
+			
+			
+			<Anchor>//api/name/itemName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/setAttributes:</TokenIdentifier>
+			<Abstract type="html">The list of attributes.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBPutAttributesRequest/attributes</TokenIdentifier>
+			<Abstract type="html">The list of attributes.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/setExpected:</TokenIdentifier>
+			<Abstract type="html">The update condition which, if specified, determines whether the
+specified attributes will be updated or not. The update condition must
+be satisfied in order for this request to be processed and the
+attributes to be updated.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SimpleDBUpdateCondition *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBPutAttributesRequest/expected</TokenIdentifier>
+			<Abstract type="html">The update condition which, if specified, determines whether the
+specified attributes will be updated or not. The update condition must
+be satisfied in order for this request to be processed and the
+attributes to be updated.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SimpleDBUpdateCondition *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new PutAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/initWithDomainName:andItemName:andAttributes:</TokenIdentifier>
+			<Abstract type="html">Constructs a new PutAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName andItemName:(NSString *)theItemName andAttributes:(NSMutableArray *)theAttributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain in which to perform the
+operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItemName</Name>
+					<Abstract type="html">The name of the item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributes</Name>
+					<Abstract type="html">The list of attributes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:andItemName:andAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/initWithDomainName:andItemName:andAttributes:andExpected:</TokenIdentifier>
+			<Abstract type="html">Constructs a new PutAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName andItemName:(NSString *)theItemName andAttributes:(NSMutableArray *)theAttributes andExpected:(SimpleDBUpdateCondition *)theExpected</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain in which to perform the
+operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItemName</Name>
+					<Abstract type="html">The name of the item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributes</Name>
+					<Abstract type="html">The list of attributes.</Abstract>
+				</Parameter><Parameter>
+					<Name>theExpected</Name>
+					<Abstract type="html">The update condition which, if specified,
+determines whether the specified attributes will be updated or not.
+The update condition must be satisfied in order for this request to be
+processed and the attributes to be updated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:andItemName:andAttributes:andExpected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/addAttribute:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributes.
+This function will alloc and init attributes if not already done.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttribute:(SimpleDBReplaceableAttribute *)attributeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBPutAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

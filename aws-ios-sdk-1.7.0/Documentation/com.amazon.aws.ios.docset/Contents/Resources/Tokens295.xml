@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteVolumeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteVolumeResponse</TokenIdentifier>
+			<Abstract type="html">Delete Volume</Abstract>
+			<DeclaredIn>EC2DeleteVolumeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="295"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

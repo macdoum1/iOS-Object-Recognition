@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSDeleteTopicRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteTopicRequest</TokenIdentifier>
+			<Abstract type="html">Delete Topic Request</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>
+			
+			<NodeRef refid="772"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSDeleteTopicRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic you want to delete. &lt;examples&gt; &lt;queryrequest&gt;
+http://sns.us-east-1.amazonaws.com/
+?TopicArn=arn%3Aaws%3Asns%3Aus-east-1%3A123456789012%3AMy-Topic
+&amp;amp;Action=DeleteTopic &amp;amp;SignatureVersion=2 &amp;amp;SignatureMethod=HmacSHA256
+&amp;amp;Timestamp=2010-03-31T12%3A00%3A00.000Z &amp;amp;AWSAccessKeyId=(AWS Access
+Key ID)
+&amp;amp;Signature=DjHBa%2BbYCKQAzctOPnLP7MbHnrHT3%2FK3kFEZjwcf9%2FU%3D
+&lt;/queryrequest&gt; &lt;queryresponse&gt; &lt;DeleteTopicResponse
+xmlns=&quot;http://sns.amazonaws.com/doc/2010-03-31/&quot;&gt; &lt;ResponseMetadata&gt;
+&lt;RequestId&gt;fba800b9-3765-11df-8cf3-c58c53254dfb&lt;/RequestId&gt;
+&lt;/ResponseMetadata&gt; &lt;/DeleteTopicResponse&gt; &lt;/queryresponse&gt;
+&lt;/examples&gt;</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSDeleteTopicRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic you want to delete. &lt;examples&gt; &lt;queryrequest&gt;
+http://sns.us-east-1.amazonaws.com/
+?TopicArn=arn%3Aaws%3Asns%3Aus-east-1%3A123456789012%3AMy-Topic
+&amp;amp;Action=DeleteTopic &amp;amp;SignatureVersion=2 &amp;amp;SignatureMethod=HmacSHA256
+&amp;amp;Timestamp=2010-03-31T12%3A00%3A00.000Z &amp;amp;AWSAccessKeyId=(AWS Access
+Key ID)
+&amp;amp;Signature=DjHBa%2BbYCKQAzctOPnLP7MbHnrHT3%2FK3kFEZjwcf9%2FU%3D
+&lt;/queryrequest&gt; &lt;queryresponse&gt; &lt;DeleteTopicResponse
+xmlns=&quot;http://sns.amazonaws.com/doc/2010-03-31/&quot;&gt; &lt;ResponseMetadata&gt;
+&lt;RequestId&gt;fba800b9-3765-11df-8cf3-c58c53254dfb&lt;/RequestId&gt;
+&lt;/ResponseMetadata&gt; &lt;/DeleteTopicResponse&gt; &lt;/queryresponse&gt;
+&lt;/examples&gt;</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSDeleteTopicRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteTopicRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSDeleteTopicRequest/initWithTopicArn:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteTopicRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic you want to delete. &lt;examples&gt;
+&lt;queryrequest&gt; http://sns.us-east-1.amazonaws.com/
+?TopicArn=arn%3Aaws%3Asns%3Aus-east-1%3A123456789012%3AMy-Topic
+&amp;amp;Action=DeleteTopic &amp;amp;SignatureVersion=2 &amp;amp;SignatureMethod=HmacSHA256
+&amp;amp;Timestamp=2010-03-31T12%3A00%3A00.000Z &amp;amp;AWSAccessKeyId=(AWS Access
+Key ID)
+&amp;amp;Signature=DjHBa%2BbYCKQAzctOPnLP7MbHnrHT3%2FK3kFEZjwcf9%2FU%3D
+&lt;/queryrequest&gt; &lt;queryresponse&gt; &lt;DeleteTopicResponse
+xmlns=&quot;http://sns.amazonaws.com/doc/2010-03-31/&quot;&gt; &lt;ResponseMetadata&gt;
+&lt;RequestId&gt;fba800b9-3765-11df-8cf3-c58c53254dfb&lt;/RequestId&gt;
+&lt;/ResponseMetadata&gt; &lt;/DeleteTopicResponse&gt; &lt;/queryresponse&gt;
+&lt;/examples&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSDeleteTopicRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSDeleteTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

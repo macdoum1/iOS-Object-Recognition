@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSDeleteTopicResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteTopicResponse</TokenIdentifier>
+			<Abstract type="html">Delete Topic</Abstract>
+			<DeclaredIn>SNSDeleteTopicResponse.h</DeclaredIn>
+			
+			<NodeRef refid="773"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

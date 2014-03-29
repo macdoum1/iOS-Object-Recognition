@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListVersionsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a list versions operation.</Abstract>
+			<DeclaredIn>S3ListVersionsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="673"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

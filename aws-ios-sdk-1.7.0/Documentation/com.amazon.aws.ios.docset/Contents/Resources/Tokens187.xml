@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBGetItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBGetItemRequest</TokenIdentifier>
+			<Abstract type="html">Get Item Request</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="187"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the requested item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the requested item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects,
+representing the primary key of the item to retrieve.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemRequest/key</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects,
+representing the primary key of the item to retrieve.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemRequest/attributesToGet</TokenIdentifier>
+			<Abstract type="html">The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setConsistentRead:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;true&lt;/code&gt;, then the operation uses strongly
+consistent reads; otherwise, eventually consistent reads are used.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemRequest/consistentRead</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;true&lt;/code&gt;, then the operation uses strongly
+consistent reads; otherwise, eventually consistent reads are used.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetItemRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/initWithTableName:andKey:</TokenIdentifier>
+			<Abstract type="html">Constructs a new GetItemRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andKey:(NSMutableDictionary *)theKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table containing the requested
+item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt;
+objects, representing the primary key of the item to retrieve.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/setKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary key for the specified key.
+This function will alloc and init key if not already done.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/addAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributesToGet:(NSString *)attributesToGetObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributesToGet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeReservedInstancesModificationsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesModificationsResponse</TokenIdentifier>
+			<Abstract type="html">Describe Reserved Instances Modifications Response</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="331"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/setReservedInstancesModifications:</TokenIdentifier>
+			<Abstract type="html">The list of Reserved Instances modification requests.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesModifications</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModifications</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesModificationsResponse/reservedInstancesModifications</TokenIdentifier>
+			<Abstract type="html">The list of Reserved Instances modification requests.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesModifications</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModifications</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesModificationsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">The string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/reservedInstancesModificationsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the reservedInstancesModifications array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2ReservedInstancesModification *)reservedInstancesModificationsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

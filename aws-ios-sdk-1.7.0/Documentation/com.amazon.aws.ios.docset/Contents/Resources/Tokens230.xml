@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2AttachVolumeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2AttachVolumeResponse</TokenIdentifier>
+			<Abstract type="html">Attach Volume Response</Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="230"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeResponse/setAttachment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeAttachment *attachment</Declaration>
+			
+			
+			<Anchor>//api/name/attachment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AttachVolumeResponse/attachment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeAttachment *attachment</Declaration>
+			
+			
+			<Anchor>//api/name/attachment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2AttachVolumeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CopyPartResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CopyPartResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a uploadPart operation.</Abstract>
+			<DeclaredIn>S3CopyPartResponse.h</DeclaredIn>
+			
+			<NodeRef refid="614"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

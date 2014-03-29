@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDeleteLoadBalancerListenersResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerListenersResponse</TokenIdentifier>
+			<Abstract type="html">Delete Load Balancer Listeners</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeleteLoadBalancerListenersResponse.h</DeclaredIn>
+			
+			<NodeRef refid="531"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

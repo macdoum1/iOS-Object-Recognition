@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBBatchDeleteAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBBatchDeleteAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Batch Delete Attributes Request</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="899"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/setItems:</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new BatchDeleteAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/initWithDomainName:andItems:</TokenIdentifier>
+			<Abstract type="html">Constructs a new BatchDeleteAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName andItems:(NSMutableArray *)theItems</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain in which the attributes
+are being deleted.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItems</Name>
+					<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:andItems:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/addItem:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to items.
+This function will alloc and init items if not already done.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addItem:(SimpleDBDeletableItem *)itemObject</Declaration>
+			
+			
+			<Anchor>//api/name/addItem:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBBatchDeleteAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

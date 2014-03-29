@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteObjectResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a deleteObject operation.</Abstract>
+			<DeclaredIn>S3DeleteObjectResponse.h</DeclaredIn>
+			
+			<NodeRef refid="631"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

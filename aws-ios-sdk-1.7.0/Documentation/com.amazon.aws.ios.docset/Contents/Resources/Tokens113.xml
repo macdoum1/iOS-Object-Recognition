@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingSetInstanceHealthRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingSetInstanceHealthRequest</TokenIdentifier>
+			<Abstract type="html">Set Instance Health Request</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>
+			
+			<NodeRef refid="113"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetInstanceHealthRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetInstanceHealthRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The identifier of the Amazon EC2 instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 16&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetInstanceHealthRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The identifier of the Amazon EC2 instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 16&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetInstanceHealthRequest/setHealthStatus:</TokenIdentifier>
+			<Abstract type="html">The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you
+want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt;
+if you want the instance to be out of service. Auto Scaling will
+terminate and replace the unhealthy instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetInstanceHealthRequest/healthStatus</TokenIdentifier>
+			<Abstract type="html">The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you
+want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt;
+if you want the instance to be out of service. Auto Scaling will
+terminate and replace the unhealthy instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetInstanceHealthRequest/setShouldRespectGracePeriod:</TokenIdentifier>
+			<Abstract type="html">If the Auto Scaling group of the specified instance has a
+&lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by
+default, this call will respect the grace period. Set this to
+&lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace
+period associated with the group. &lt;p&gt;For more information, see the
+&lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the
+&lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action.</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL shouldRespectGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetInstanceHealthRequest/shouldRespectGracePeriod</TokenIdentifier>
+			<Abstract type="html">If the Auto Scaling group of the specified instance has a
+&lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by
+default, this call will respect the grace period. Set this to
+&lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace
+period associated with the group. &lt;p&gt;For more information, see the
+&lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the
+&lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action.</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL shouldRespectGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetInstanceHealthRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingSetInstanceHealthRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

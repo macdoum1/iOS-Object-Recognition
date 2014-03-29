@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ReservedInstancesModification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ReservedInstancesModification</TokenIdentifier>
+			<Abstract type="html">Reserved Instances Modification</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>
+			
+			<NodeRef refid="465"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setReservedInstancesModificationId:</TokenIdentifier>
+			<Abstract type="html">The unique ID for the submitted modification request.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesModificationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/reservedInstancesModificationId</TokenIdentifier>
+			<Abstract type="html">The unique ID for the submitted modification request.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesModificationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setReservedInstancesIds:</TokenIdentifier>
+			<Abstract type="html">The IDs of the Reserved Instances submitted for modification.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/reservedInstancesIds</TokenIdentifier>
+			<Abstract type="html">The IDs of the Reserved Instances submitted for modification.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setModificationResults:</TokenIdentifier>
+			<Abstract type="html">The resulting information about the modified Reserved Instances.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *modificationResults</Declaration>
+			
+			
+			<Anchor>//api/name/modificationResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/modificationResults</TokenIdentifier>
+			<Abstract type="html">The resulting information about the modified Reserved Instances.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *modificationResults</Declaration>
+			
+			
+			<Anchor>//api/name/modificationResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setCreateDate:</TokenIdentifier>
+			<Abstract type="html">The time the modification request was created.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createDate</Declaration>
+			
+			
+			<Anchor>//api/name/createDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/createDate</TokenIdentifier>
+			<Abstract type="html">The time the modification request was created.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createDate</Declaration>
+			
+			
+			<Anchor>//api/name/createDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setUpdateDate:</TokenIdentifier>
+			<Abstract type="html">The time the modification request was last updated.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateDate</Declaration>
+			
+			
+			<Anchor>//api/name/updateDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/updateDate</TokenIdentifier>
+			<Abstract type="html">The time the modification request was last updated.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateDate</Declaration>
+			
+			
+			<Anchor>//api/name/updateDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setEffectiveDate:</TokenIdentifier>
+			<Abstract type="html">The time the modification becomes effective.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *effectiveDate</Declaration>
+			
+			
+			<Anchor>//api/name/effectiveDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/effectiveDate</TokenIdentifier>
+			<Abstract type="html">The time the modification becomes effective.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *effectiveDate</Declaration>
+			
+			
+			<Anchor>//api/name/effectiveDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setStatus:</TokenIdentifier>
+			<Abstract type="html">The status of the modification request, which can be any of the
+following values: processing, fulfilled, failed.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/status</TokenIdentifier>
+			<Abstract type="html">The status of the modification request, which can be any of the
+following values: processing, fulfilled, failed.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">The reason for the status.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/statusMessage</TokenIdentifier>
+			<Abstract type="html">The reason for the status.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/setClientToken:</TokenIdentifier>
+			<Abstract type="html">The idempotency token for the modification request.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ReservedInstancesModification/clientToken</TokenIdentifier>
+			<Abstract type="html">The idempotency token for the modification request.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/addReservedInstancesId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to reservedInstancesIds.
+This function will alloc and init reservedInstancesIds if not already done.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>- (void)addReservedInstancesId:(EC2ReservedInstancesId *)reservedInstancesIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addReservedInstancesId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/addModificationResult:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to modificationResults.
+This function will alloc and init modificationResults if not already done.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>- (void)addModificationResult:(EC2ReservedInstancesModificationResult *)modificationResultObject</Declaration>
+			
+			
+			<Anchor>//api/name/addModificationResult:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ReservedInstancesModification/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ReservedInstancesModification.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

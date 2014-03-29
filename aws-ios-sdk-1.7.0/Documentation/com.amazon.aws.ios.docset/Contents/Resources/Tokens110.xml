@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingScheduledUpdateGroupAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingScheduledUpdateGroupAction</TokenIdentifier>
+			<Abstract type="html">Scheduled Update Group Action</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group to be updated.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group to be updated.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setScheduledActionName:</TokenIdentifier>
+			<Abstract type="html">The name of this scheduled action.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *scheduledActionName</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/scheduledActionName</TokenIdentifier>
+			<Abstract type="html">The name of this scheduled action.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *scheduledActionName</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setScheduledActionARN:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of this scheduled action.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *scheduledActionARN</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionARN</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/scheduledActionARN</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of this scheduled action.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *scheduledActionARN</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionARN</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setTime:</TokenIdentifier>
+			<Abstract type="html">&lt;code&gt;Time&lt;/code&gt; is deprecated. &lt;p&gt;The time that the action is
+scheduled to begin. &lt;code&gt;Time&lt;/code&gt; is an alias for
+&lt;code&gt;StartTime&lt;/code&gt;.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/time</TokenIdentifier>
+			<Abstract type="html">&lt;code&gt;Time&lt;/code&gt; is deprecated. &lt;p&gt;The time that the action is
+scheduled to begin. &lt;code&gt;Time&lt;/code&gt; is an alias for
+&lt;code&gt;StartTime&lt;/code&gt;.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setStartTime:</TokenIdentifier>
+			<Abstract type="html">The time that the action is scheduled to begin. This value can be up
+to one month in the future. &lt;p&gt;When &lt;code&gt;StartTime&lt;/code&gt; and
+&lt;code&gt;EndTime&lt;/code&gt; are specified with &lt;code&gt;Recurrence&lt;/code&gt;, they
+form the boundaries of when the recurring action will start and stop.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/startTime</TokenIdentifier>
+			<Abstract type="html">The time that the action is scheduled to begin. This value can be up
+to one month in the future. &lt;p&gt;When &lt;code&gt;StartTime&lt;/code&gt; and
+&lt;code&gt;EndTime&lt;/code&gt; are specified with &lt;code&gt;Recurrence&lt;/code&gt;, they
+form the boundaries of when the recurring action will start and stop.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setEndTime:</TokenIdentifier>
+			<Abstract type="html">The time that the action is scheduled to end. This value can be up to
+one month in the future.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/endTime</TokenIdentifier>
+			<Abstract type="html">The time that the action is scheduled to end. This value can be up to
+one month in the future.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setRecurrence:</TokenIdentifier>
+			<Abstract type="html">The regular schedule that an action occurs.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *recurrence</Declaration>
+			
+			
+			<Anchor>//api/name/recurrence</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/recurrence</TokenIdentifier>
+			<Abstract type="html">The regular schedule that an action occurs.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *recurrence</Declaration>
+			
+			
+			<Anchor>//api/name/recurrence</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setMinSize:</TokenIdentifier>
+			<Abstract type="html">The minimum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/minSize</TokenIdentifier>
+			<Abstract type="html">The minimum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">The maximum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/maxSize</TokenIdentifier>
+			<Abstract type="html">The maximum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">The number of instances you prefer to maintain in your Auto Scaling
+group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScheduledUpdateGroupAction/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">The number of instances you prefer to maintain in your Auto Scaling
+group.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScheduledUpdateGroupAction/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingScheduledUpdateGroupAction.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

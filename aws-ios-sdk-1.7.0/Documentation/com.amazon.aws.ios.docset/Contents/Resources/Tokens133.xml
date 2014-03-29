@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchDescribeAlarmsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Alarms Request</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="133"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setAlarmNames:</TokenIdentifier>
+			<Abstract type="html">A list of alarm names to retrieve information for.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmNames</Declaration>
+			
+			
+			<Anchor>//api/name/alarmNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/alarmNames</TokenIdentifier>
+			<Abstract type="html">A list of alarm names to retrieve information for.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmNames</Declaration>
+			
+			
+			<Anchor>//api/name/alarmNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setAlarmNamePrefix:</TokenIdentifier>
+			<Abstract type="html">The alarm name prefix. &lt;code&gt;AlarmNames&lt;/code&gt; cannot be specified if
+this parameter is specified.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmNamePrefix</Declaration>
+			
+			
+			<Anchor>//api/name/alarmNamePrefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/alarmNamePrefix</TokenIdentifier>
+			<Abstract type="html">The alarm name prefix. &lt;code&gt;AlarmNames&lt;/code&gt; cannot be specified if
+this parameter is specified.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmNamePrefix</Declaration>
+			
+			
+			<Anchor>//api/name/alarmNamePrefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setStateValue:</TokenIdentifier>
+			<Abstract type="html">The state value to be used in matching alarms.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;OK, ALARM, INSUFFICIENT_DATA</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/stateValue</TokenIdentifier>
+			<Abstract type="html">The state value to be used in matching alarms.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;OK, ALARM, INSUFFICIENT_DATA</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setActionPrefix:</TokenIdentifier>
+			<Abstract type="html">The action name prefix.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1024&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *actionPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/actionPrefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/actionPrefix</TokenIdentifier>
+			<Abstract type="html">The action name prefix.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1024&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *actionPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/actionPrefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">The maximum number of alarm descriptions to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/maxRecords</TokenIdentifier>
+			<Abstract type="html">The maximum number of alarm descriptions to retrieve.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The token returned by a previous call to indicate that there is more
+data available.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchDescribeAlarmsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">The token returned by a previous call to indicate that there is more
+data available.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/addAlarmName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to alarmNames.
+This function will alloc and init alarmNames if not already done.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAlarmName:(NSString *)alarmNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAlarmName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchDescribeAlarmsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchDescribeAlarmsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

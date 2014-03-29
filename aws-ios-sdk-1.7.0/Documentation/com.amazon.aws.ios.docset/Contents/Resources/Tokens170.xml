@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBBatchGetItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBBatchGetItemRequest</TokenIdentifier>
+			<Abstract type="html">Batch Get Item Request</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="170"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchGetItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchGetItemRequest/setRequestItems:</TokenIdentifier>
+			<Abstract type="html">A map of one or more table names and, for each table, the
+corresponding primary keys for the items to retrieve. Each table name
+can be invoked only once. &lt;p&gt;Each element in the map consists of the
+following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key
+attribute values that define specific items in the table. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved
+from the table or index. By default, all attributes are returned. If a
+specified attribute is not found, it does not appear in the result.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly
+consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an
+eventually consistent read is used. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBBatchGetItemRequest/requestItems</TokenIdentifier>
+			<Abstract type="html">A map of one or more table names and, for each table, the
+corresponding primary keys for the items to retrieve. Each table name
+can be invoked only once. &lt;p&gt;Each element in the map consists of the
+following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key
+attribute values that define specific items in the table. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved
+from the table or index. By default, all attributes are returned. If a
+specified attribute is not found, it does not appear in the result.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly
+consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an
+eventually consistent read is used. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchGetItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBBatchGetItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchGetItemRequest/setRequestItemsValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary requestItems for the specified key.
+This function will alloc and init requestItems if not already done.</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setRequestItemsValue:(DynamoDBKeysAndAttributes *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setRequestItemsValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchGetItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBBatchGetItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

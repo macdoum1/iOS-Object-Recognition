@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AutoScalingResponse.h</DeclaredIn>
+			
+			<NodeRef refid="105"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

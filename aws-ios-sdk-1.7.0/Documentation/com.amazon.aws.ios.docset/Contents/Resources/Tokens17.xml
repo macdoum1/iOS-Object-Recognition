@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonSTSCredentialsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonSTSCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">An implementation of AmazonCredentialsProvider which makes calls to AWS
+Secure Token Service (STS) to get temporary credentials.</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonCredentialsProvider</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSTSCredentialsProvider/setSessionLength:</TokenIdentifier>
+			<Abstract type="html">The duration of the credentials generated for STS in seconds
+Defaults to 3600 (1 hour)</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sessionLength</Declaration>
+			
+			
+			<Anchor>//api/name/sessionLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonSTSCredentialsProvider/sessionLength</TokenIdentifier>
+			<Abstract type="html">The duration of the credentials generated for STS in seconds
+Defaults to 3600 (1 hour)</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sessionLength</Declaration>
+			
+			
+			<Anchor>//api/name/sessionLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSTSCredentialsProvider/initWithAccessKey:withSecretKey:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with the access key and the secret key.</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKey:(NSString *)accessKey withSecretKey:(NSString *)secretKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">The AWS Access Key</Abstract>
+				</Parameter><Parameter>
+					<Name>secretKey</Name>
+					<Abstract type="html">The AWS Secret Key</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKey:withSecretKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSTSCredentialsProvider/initWithCredentials:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with a pre-allocated AmazonCredentials object</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCredentials:(AmazonCredentials *)theCredentials</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stsCredentials</Name>
+					<Abstract type="html">Credentials to use to communicate with STS</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithCredentials:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSTSCredentialsProvider/initWithClient:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with a pre-allocated/configured AmazonSecurityTokenServiceClient object</Abstract>
+			<DeclaredIn>AmazonSTSCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithClient:(AmazonSecurityTokenServiceClient *)theClient</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stsCredentials</Name>
+					<Abstract type="html">A pre-allocated/configured STS client</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithClient:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

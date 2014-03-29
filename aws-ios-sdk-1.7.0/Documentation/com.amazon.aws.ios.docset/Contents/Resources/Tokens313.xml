@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeImagesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImagesResponse</TokenIdentifier>
+			<Abstract type="html">Describe Images Response</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="313"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesResponse/setImages:</TokenIdentifier>
+			<Abstract type="html">The list of the described AMIs.</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *images</Declaration>
+			
+			
+			<Anchor>//api/name/images</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesResponse/images</TokenIdentifier>
+			<Abstract type="html">The list of the described AMIs.</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *images</Declaration>
+			
+			
+			<Anchor>//api/name/images</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesResponse/imagesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the images array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2Image *)imagesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/imagesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeImagesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

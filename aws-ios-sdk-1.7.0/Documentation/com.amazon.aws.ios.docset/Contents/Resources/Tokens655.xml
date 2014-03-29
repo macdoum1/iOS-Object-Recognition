@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Grant.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Grant</TokenIdentifier>
+			<Abstract type="html">Represents a grant for an bucket/object ACL. A grant contains
+an S3Grantee and a S3Permission for that S3Grantee.
+&lt;p&gt;
+For more information on Grants/ACLs refer:</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>
+			
+			<NodeRef refid="655"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grant/setGrantee:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the grantee for the grant</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Grantee *grantee</Declaration>
+			
+			
+			<Anchor>//api/name/grantee</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Grant/grantee</TokenIdentifier>
+			<Abstract type="html">Gets and sets the grantee for the grant</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Grantee *grantee</Declaration>
+			
+			
+			<Anchor>//api/name/grantee</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grant/setPermission:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the permission for the grant</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Permission *permission</Declaration>
+			
+			
+			<Anchor>//api/name/permission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Grant/permission</TokenIdentifier>
+			<Abstract type="html">Gets and sets the permission for the grant</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Permission *permission</Declaration>
+			
+			
+			<Anchor>//api/name/permission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grant/initWithGrantee:withPermission:</TokenIdentifier>
+			<Abstract type="html">Initializes the object with the specified grantee and permission.</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithGrantee:(S3Grantee *)theGrantee withPermission:(S3Permission *)thePermission</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theGrantee</Name>
+					<Abstract type="html">The grantee for the grant.</Abstract>
+				</Parameter><Parameter>
+					<Name>thePermission</Name>
+					<Abstract type="html">The permission to grant the grantee.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized object representing the grant.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithGrantee:withPermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grant/grantWithGrantee:withPermission:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized instance with the specified grantee and permission</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>+ (id)grantWithGrantee:(S3Grantee *)theGrantee withPermission:(S3Permission *)thePermission</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theGrantee</Name>
+					<Abstract type="html">The grantee for the grant.</Abstract>
+				</Parameter><Parameter>
+					<Name>thePermission</Name>
+					<Abstract type="html">The permission to grant the grantee.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized object representing the grant.</Abstract></ReturnValue>
+			<Anchor>//api/name/grantWithGrantee:withPermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grant/toXml</TokenIdentifier>
+			<Abstract type="html">Returns the XML represenation of the grant.</Abstract>
+			<DeclaredIn>S3Grant.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)toXml</Declaration>
+			
+			
+			<Anchor>//api/name/toXml</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

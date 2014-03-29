@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESSetIdentityDkimEnabledRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityDkimEnabledRequest</TokenIdentifier>
+			<Abstract type="html">Set Identity Dkim Enabled Request</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>
+			
+			<NodeRef refid="743"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityDkimEnabledRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityDkimEnabledRequest/setIdentity:</TokenIdentifier>
+			<Abstract type="html">The identity for which DKIM signing should be enabled or disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityDkimEnabledRequest/identity</TokenIdentifier>
+			<Abstract type="html">The identity for which DKIM signing should be enabled or disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityDkimEnabledRequest/setDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">Sets whether DKIM signing is enabled for an identity. Set to
+&lt;code&gt;true&lt;/code&gt; to enable DKIM signing for this identity;
+&lt;code&gt;false&lt;/code&gt; to disable it.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dkimEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/dkimEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityDkimEnabledRequest/dkimEnabled</TokenIdentifier>
+			<Abstract type="html">Sets whether DKIM signing is enabled for an identity. Set to
+&lt;code&gt;true&lt;/code&gt; to enable DKIM signing for this identity;
+&lt;code&gt;false&lt;/code&gt; to disable it.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dkimEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/dkimEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityDkimEnabledRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESSetIdentityDkimEnabledRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

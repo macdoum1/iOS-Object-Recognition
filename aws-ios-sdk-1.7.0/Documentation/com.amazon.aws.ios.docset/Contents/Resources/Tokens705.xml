@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3UploadInputStream.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3UploadInputStream</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>
+			
+			<NodeRef refid="705"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadInputStream/setStream:</TokenIdentifier>
+			<Abstract type="html">The stream of data to upload.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadInputStream/stream</TokenIdentifier>
+			<Abstract type="html">The stream of data to upload.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadInputStream/setPacketSize:</TokenIdentifier>
+			<Abstract type="html">The number of K blocks to upload in each packet.
+This number should be between 1 and 32.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) int32_t packetSize</Declaration>
+			
+			
+			<Anchor>//api/name/packetSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadInputStream/packetSize</TokenIdentifier>
+			<Abstract type="html">The number of K blocks to upload in each packet.
+This number should be between 1 and 32.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) int32_t packetSize</Declaration>
+			
+			
+			<Anchor>//api/name/packetSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3UploadInputStream/setDelay:</TokenIdentifier>
+			<Abstract type="html">Delay (in seconds) between packet uploads.
+Recommend using a delay between 0.00 and 0.25.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) double delay</Declaration>
+			
+			
+			<Anchor>//api/name/delay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3UploadInputStream/delay</TokenIdentifier>
+			<Abstract type="html">Delay (in seconds) between packet uploads.
+Recommend using a delay between 0.00 and 0.25.</Abstract>
+			<DeclaredIn>S3UploadInputStream.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) double delay</Declaration>
+			
+			
+			<Anchor>//api/name/delay</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchMetricDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchMetricDatum</TokenIdentifier>
+			<Abstract type="html">Metric Datum</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>
+			
+			<NodeRef refid="153"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setMetricName:</TokenIdentifier>
+			<Abstract type="html">The name of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/metricName</TokenIdentifier>
+			<Abstract type="html">The name of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setDimensions:</TokenIdentifier>
+			<Abstract type="html">A list of dimensions associated with the metric. Note, when using the
+Dimensions value in a query, you need to append .member.N to it (e.g.,
+Dimensions.member.N).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/dimensions</TokenIdentifier>
+			<Abstract type="html">A list of dimensions associated with the metric. Note, when using the
+Dimensions value in a query, you need to append .member.N to it (e.g.,
+Dimensions.member.N).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time stamp used for the metric. If not specified, the default
+value is set to the time the metric data was received.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/timestamp</TokenIdentifier>
+			<Abstract type="html">The time stamp used for the metric. If not specified, the default
+value is set to the time the metric data was received.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setValue:</TokenIdentifier>
+			<Abstract type="html">The value for the metric. &lt;important&gt;Although the &lt;code&gt;Value&lt;/code&gt;
+parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon
+CloudWatch rejects values that are either too small or too large.
+Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base
+10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g.,
+NaN, +Infinity, -Infinity) are not supported. &lt;/important&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/value</TokenIdentifier>
+			<Abstract type="html">The value for the metric. &lt;important&gt;Although the &lt;code&gt;Value&lt;/code&gt;
+parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon
+CloudWatch rejects values that are either too small or too large.
+Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base
+10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g.,
+NaN, +Infinity, -Infinity) are not supported. &lt;/important&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setStatisticValues:</TokenIdentifier>
+			<Abstract type="html">A set of statistical values describing the metric.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) CloudWatchStatisticSet *statisticValues</Declaration>
+			
+			
+			<Anchor>//api/name/statisticValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/statisticValues</TokenIdentifier>
+			<Abstract type="html">A set of statistical values describing the metric.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) CloudWatchStatisticSet *statisticValues</Declaration>
+			
+			
+			<Anchor>//api/name/statisticValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/setUnit:</TokenIdentifier>
+			<Abstract type="html">The unit of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricDatum/unit</TokenIdentifier>
+			<Abstract type="html">The unit of the metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/addDimension:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDimension:(CloudWatchDimension *)dimensionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addDimension:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricDatum/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchMetricDatum.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

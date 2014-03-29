@@ -1,0 +1,2 @@
+/Users/Mike/Documents/Xcode/S3ImageUpload/ObjRecServer/CMakeFiles/AddObj.dir
+/Users/Mike/Documents/Xcode/S3ImageUpload/ObjRecServer/CMakeFiles/ObjRec.dir

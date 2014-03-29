@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteObjectsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectsResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a deleteObject operation.</Abstract>
+			<DeclaredIn>S3DeleteObjectsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="633"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsResponse/setDeletedObjects:</TokenIdentifier>
+			<Abstract type="html">The list of DeletedObjects represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *deletedObjects</Declaration>
+			
+			
+			<Anchor>//api/name/deletedObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsResponse/deletedObjects</TokenIdentifier>
+			<Abstract type="html">The list of DeletedObjects represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *deletedObjects</Declaration>
+			
+			
+			<Anchor>//api/name/deletedObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsResponse/setDeleteErrors:</TokenIdentifier>
+			<Abstract type="html">The list of DeleteErrors represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *deleteErrors</Declaration>
+			
+			
+			<Anchor>//api/name/deleteErrors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsResponse/deleteErrors</TokenIdentifier>
+			<Abstract type="html">The list of DeleteErrors represented by the XML</Abstract>
+			<DeclaredIn>S3DeleteObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *deleteErrors</Declaration>
+			
+			
+			<Anchor>//api/name/deleteErrors</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

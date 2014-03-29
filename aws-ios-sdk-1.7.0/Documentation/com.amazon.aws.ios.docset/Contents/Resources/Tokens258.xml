@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreateImageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreateImageRequest</TokenIdentifier>
+			<Abstract type="html">Create Image Request</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>
+			
+			<NodeRef refid="258"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance from which to create the new image.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance from which to create the new image.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">The name for the new AMI being created.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/name</TokenIdentifier>
+			<Abstract type="html">The name for the new AMI being created.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The description for the new AMI being created.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The description for the new AMI being created.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setNoReboot:</TokenIdentifier>
+			<Abstract type="html">By default this property is set to &lt;code&gt;false&lt;/code&gt;, which means
+Amazon EC2 attempts to cleanly shut down the instance before image
+creation and reboots the instance afterwards. When set to true, Amazon
+EC2 will not shut down the instance before creating the image. When
+this option is used, file system integrity on the created image cannot
+be guaranteed.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL noReboot</Declaration>
+			
+			
+			<Anchor>//api/name/noReboot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/noReboot</TokenIdentifier>
+			<Abstract type="html">By default this property is set to &lt;code&gt;false&lt;/code&gt;, which means
+Amazon EC2 attempts to cleanly shut down the instance before image
+creation and reboots the instance afterwards. When set to true, Amazon
+EC2 will not shut down the instance before creating the image. When
+this option is used, file system integrity on the created image cannot
+be guaranteed.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL noReboot</Declaration>
+			
+			
+			<Anchor>//api/name/noReboot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">The value of the BlockDeviceMappings property for this object.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">The value of the BlockDeviceMappings property for this object.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateImageRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/initWithInstanceId:andName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateImageRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithInstanceId:(NSString *)theInstanceId andName:(NSString *)theName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the instance from which to create the
+new image.</Abstract>
+				</Parameter><Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name for the new AMI being created.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithInstanceId:andName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateImageRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CreateImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

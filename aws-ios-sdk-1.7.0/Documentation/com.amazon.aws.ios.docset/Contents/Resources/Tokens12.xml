@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonS3Client.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonS3Client</TokenIdentifier>
+			<Abstract type="html">AmazonS3Client is an implementation of AmazonS3.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listBuckets</TokenIdentifier>
+			<Abstract type="html">Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)listBuckets</Declaration>
+			
+			<ReturnValue><Abstract type="html">An NSArray of S3Bucket objects.</Abstract></ReturnValue>
+			<Anchor>//api/name/listBuckets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listBuckets:</TokenIdentifier>
+			<Abstract type="html">Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListBucketsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListBucketsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3ListBucketsResponse *)listBuckets:(S3ListBucketsRequest *)listBucketsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listBucketsRequest</Name>
+					<Abstract type="html">An S3ListBucketsRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3ListBucketsResponse from S3. The &lt;code&gt;buckets&lt;/code&gt; property of the
+S3ListBucketsResult has the list of buckets.</Abstract></ReturnValue>
+			<Anchor>//api/name/listBuckets:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/createBucket:</TokenIdentifier>
+			<Abstract type="html">Creates a bucket using the the specified request object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CreateBucketResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CreateBucketRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3CreateBucketResponse *)createBucket:(S3CreateBucketRequest *)createBucketRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createBucketRequest</Name>
+					<Abstract type="html">An S3CreateBucketRequest that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3CreateBucketResponse from S3</Abstract></ReturnValue>
+			<Anchor>//api/name/createBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/createBucketWithName:</TokenIdentifier>
+			<Abstract type="html">Creates a bucket using the the specified bucket name.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CreateBucketResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3CreateBucketResponse *)createBucketWithName:(NSString *)bucketName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name for the bucket to be created.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3CreateBucketResponse from S3</Abstract></ReturnValue>
+			<Anchor>//api/name/createBucketWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucket:</TokenIdentifier>
+			<Abstract type="html">Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketResponse *)deleteBucket:(S3DeleteBucketRequest *)deleteBucketRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteBucketRequest</Name>
+					<Abstract type="html">An S3DeleteBucketRequest that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3DeleteBucketResponse from S3</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketWithName:</TokenIdentifier>
+			<Abstract type="html">Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketResponse *)deleteBucketWithName:(NSString *)bucketName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket to be deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3DeleteBucketResponse from S3</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteBucketWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketLocation:</TokenIdentifier>
+			<Abstract type="html">Takes in a bucket&apos;s name and lists the location of the bucket.
+This information can be used to determine the bucket&apos;s geographical location.
+To determine the location of a bucket, you must be the bucket owner</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3Region</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3Region *)getBucketLocation:(NSString *)bucketName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The S3Region object that represents the region.</Abstract></ReturnValue>
+			<Anchor>//api/name/getBucketLocation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getObjectMetadata:</TokenIdentifier>
+			<Abstract type="html">Retrieve metadata from an object without returning the object itself.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectMetadataResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectMetadataRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetObjectMetadataResponse *)getObjectMetadata:(S3GetObjectMetadataRequest *)getObjectMetadataRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getObjectMetadataRequest</Name>
+					<Abstract type="html">The S3DeleteBucketRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3GetObjectMetadataResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/getObjectMetadata:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/putObject:</TokenIdentifier>
+			<Abstract type="html">Upload an object to S3.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3PutObjectResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3PutObjectRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3PutObjectResponse *)putObject:(S3PutObjectRequest *)putObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>putObjectRequest</Name>
+					<Abstract type="html">The S3PutObjectRequest that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3PutObjectResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/putObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getObject:</TokenIdentifier>
+			<Abstract type="html">Fetch the most recent version of an S3 object
+from the specified S3 bucket. You must have READ access to the object.
+If READ access is granted to an anonymous user, an object can be retrieved
+without an authorization header. Providing a version-id for the object will
+fetch the specific version from S3 instead of the most recent one.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetObjectResponse *)getObject:(S3GetObjectRequest *)getObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getObjectRequest</Name>
+					<Abstract type="html">The S3GetObjectRequest that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3GetObjectResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/getObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteObject:</TokenIdentifier>
+			<Abstract type="html">Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteObjectResponse *)deleteObject:(S3DeleteObjectRequest *)deleteObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteObjectRequest</Name>
+					<Abstract type="html">The S3DeleteObjectRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3DeleteObjectResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteObjects:</TokenIdentifier>
+			<Abstract type="html">Removes the specified objects from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.
+Check S3DeleteObjectsResponse.deleteErrors to see if there were any errors after calling this method.
+- When there was no error, deleteErrors will be an empty NSArray.
+- When there were any errors, deleteErrors contains a list of DeleteError objects.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteObjectsResponse *)deleteObjects:(S3DeleteObjectsRequest *)deleteObjectsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteObjectsRequest</Name>
+					<Abstract type="html">The S3DeleteObjectsRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3DeleteObjectsResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteObjects:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteObjectWithKey:withBucket:</TokenIdentifier>
+			<Abstract type="html">Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteObjectResponse *)deleteObjectWithKey:(NSString *)theKey withBucket:(NSString *)theBucket</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">The key of the object to be deleted.</Abstract>
+				</Parameter><Parameter>
+					<Name>theBucket</Name>
+					<Abstract type="html">The bucket containing the object to be deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3DeleteObjectResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteObjectWithKey:withBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listObjects:</TokenIdentifier>
+			<Abstract type="html">List the objects in a bucket.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3ListObjectsResponse *)listObjects:(S3ListObjectsRequest *)listObjectsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listObjectsRequest</Name>
+					<Abstract type="html">The S3ListObjectsRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3ListObjectsResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/listObjects:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listObjectsInBucket:</TokenIdentifier>
+			<Abstract type="html">List the objects in a bucket.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)listObjectsInBucket:(NSString *)bucketName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSArray of S3ObjectSummary objects.</Abstract></ReturnValue>
+			<Anchor>//api/name/listObjectsInBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/objectCopy:</TokenIdentifier>
+			<Abstract type="html">Create a copy of an object that is already stored in Amazon S3.
+When copying an object, you can preserve all metadata (default) or specify new metadata.
+However, the ACL is not preserved and is set to private for the user making the request.
+To override the default ACL setting, specify a new ACL when generating a copy request.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CopyObjectResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CopyObjectRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3CopyObjectResponse *)objectCopy:(S3CopyObjectRequest *)copyObjectRequest</Declaration>
+			
+			
+			<Anchor>//api/name/objectCopy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getACL:</TokenIdentifier>
+			<Abstract type="html">Gets the access control list for a given bucket or object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetACLResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetACLRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetACLResponse *)getACL:(S3GetACLRequest *)getACLRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getACLRequest</Name>
+					<Abstract type="html">The S3GetACLRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3GetACLResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/getACL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setACL:</TokenIdentifier>
+			<Abstract type="html">Sets the S3AccessControlList for a given bucket or object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetACLResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetACLRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetACLResponse *)setACL:(S3SetACLRequest *)setACLRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setACLRequest</Name>
+					<Abstract type="html">The S3SetACLRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3SetACLResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/setACL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketPolicy:</TokenIdentifier>
+			<Abstract type="html">Gets the policy for the specified bucket. Only the owner of the
+bucket can retrieve the policy. If no policy has been set for the bucket,
+then an empty result object with a &lt;code&gt;null&lt;/code&gt; policy text field will be
+returned.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketPolicyResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketPolicyResponse *)getBucketPolicy:(S3GetBucketPolicyRequest *)getPolicyRequest</Declaration>
+			
+			
+			<Anchor>//api/name/getBucketPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketPolicy:</TokenIdentifier>
+			<Abstract type="html">Sets the policy associated with the specified bucket. Only the owner of
+the bucket can set a bucket policy. If a policy already exists for the
+specified bucket, the new policy replaces the existing policy.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketPolicyResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketPolicyResponse *)setBucketPolicy:(S3SetBucketPolicyRequest *)setPolicyRequest</Declaration>
+			
+			
+			<Anchor>//api/name/setBucketPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketPolicy:</TokenIdentifier>
+			<Abstract type="html">Deletes the policy associated with the specified bucket. Only the owner
+of the bucket can delete the bucket policy.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketPolicyResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketPolicyResponse *)deleteBucketPolicy:(S3DeleteBucketPolicyRequest *)deletePolicyRequest</Declaration>
+			
+			
+			<Anchor>//api/name/deleteBucketPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketVersioningConfiguration:</TokenIdentifier>
+			<Abstract type="html">Returns the versioning configuration for the specified bucket.
+A bucket&apos;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketVersioningConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketVersioningConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketVersioningConfigurationResponse *)getBucketVersioningConfiguration:(S3GetBucketVersioningConfigurationRequest *)getBucketVersioningConfigurationRequest</Declaration>
+			
+			
+			<Anchor>//api/name/getBucketVersioningConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketVersioningConfiguration:</TokenIdentifier>
+			<Abstract type="html">Sets the versioning configuration for the specified bucket.
+A bucket&apos;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketVersioningConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketVersioningConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketVersioningConfigurationResponse *)setBucketVersioningConfiguration:(S3SetBucketVersioningConfigurationRequest *)setBucketVersioningConfigurationRequest</Declaration>
+			
+			
+			<Anchor>//api/name/setBucketVersioningConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketWebsiteConfiguration:</TokenIdentifier>
+			<Abstract type="html">Sets the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.
+&lt;p&gt;
+For more information on how to host a website on Amazon S3, see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html.
+&lt;p&gt;
+This operation requires the &lt;code&gt;S3:PutBucketWebsite&lt;/code&gt; permission.
+By default, only the bucket owner can configure the website attached to a
+bucket. However, bucket owners can allow other users to set the website
+configuration by writing a bucket policy granting them the
+&lt;code&gt;S3:PutBucketWebsite&lt;/code&gt; permission.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketWebsiteConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketWebsiteConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketWebsiteConfigurationResponse *)setBucketWebsiteConfiguration:(S3SetBucketWebsiteConfigurationRequest *)setBucketWebsiteConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket whose website configuration is being
+set.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The configuration describing how the specified bucket will
+serve web requests (i.e. default index page, error page).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBucketWebsiteConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketWebsiteConfiguration:</TokenIdentifier>
+			<Abstract type="html">Returns the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.
+&lt;p&gt;
+For more information on how to host a website on Amazon S3, see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html.
+&lt;p&gt;
+This operation requires the &lt;code&gt;S3:GetBucketWebsite&lt;/code&gt; permission.
+By default, only the bucket owner can read the bucket website
+configuration. However, bucket owners can allow other users to read the
+website configuration by writing a bucket policy granting them the
+&lt;code&gt;S3:GetBucketWebsite&lt;/code&gt; permission.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketWebsiteConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketWebsiteConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketWebsiteConfigurationResponse *)getBucketWebsiteConfiguration:(S3GetBucketWebsiteConfigurationRequest *)getBucketWebsiteConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket whose website configuration is being
+retrieved.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bucket website configuration for the specified bucket,
+otherwise null if there is no website configuration set for the
+specified bucket.</Abstract></ReturnValue>
+			<Anchor>//api/name/getBucketWebsiteConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketWebsiteConfiguration:</TokenIdentifier>
+			<Abstract type="html">This operation removes the website configuration for a bucket. Calling
+this operation on a bucket with no website configuration does &lt;b&gt;not&lt;/b&gt;
+throw an exception. Calling this operation a bucket that does not exist
+&lt;b&gt;will&lt;/b&gt; throw an exception.
+&lt;p&gt;
+For more information on how to host a website on Amazon S3, see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html.
+&lt;p&gt;
+This operation requires the &lt;code&gt;S3:DeleteBucketWebsite&lt;/code&gt;
+permission. By default, only the bucket owner can delete the website
+configuration attached to a bucket. However, bucket owners can grant
+other users permission to delete the website configuration by writing a
+bucket policy granting them the &lt;code&gt;S3:DeleteBucketWebsite&lt;/code&gt;
+permission.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketWebsiteConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketWebsiteConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketWebsiteConfigurationResponse *)deleteBucketWebsiteConfiguration:(S3DeleteBucketWebsiteConfigurationRequest *)deleteBucketWebsiteConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucketName</Name>
+					<Abstract type="html">The name of the bucket whose website configuration is being
+deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteBucketWebsiteConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketLifecycleConfiguration:</TokenIdentifier>
+			<Abstract type="html">Sets the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&apos;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).
+&lt;p&gt;
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketLifecycleConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketLifecycleConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketLifecycleConfigurationResponse *)setBucketLifecycleConfiguration:(S3SetBucketLifecycleConfigurationRequest *)setBucketLifecycleConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setBucketLifecycleConfigurationRequest</Name>
+					<Abstract type="html">The request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBucketLifecycleConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketLifecycleConfiguration:</TokenIdentifier>
+			<Abstract type="html">Returns the the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&apos;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).
+&lt;p&gt;
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketLifecycleConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketLifecycleConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketLifecycleConfigurationResponse *)getBucketLifecycleConfiguration:(S3GetBucketLifecycleConfigurationRequest *)getBucketLifecycleConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getBucketLifecycleConfigurationRequest</Name>
+					<Abstract type="html">The request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bucket lifecycle configuration for the specified bucket,
+otherwise null if there is no Lifecycle configuration set for the
+specified bucket.</Abstract></ReturnValue>
+			<Anchor>//api/name/getBucketLifecycleConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketLifecycleConfiguration:</TokenIdentifier>
+			<Abstract type="html">This operation removes the lifecycle configuration for a bucket. Calling
+this operation on a bucket with no lifecycle configuration does &lt;b&gt;not&lt;/b&gt;
+throw an exception. Calling this operation on a bucket that does not exist
+&lt;b&gt;will&lt;/b&gt; throw an exception.
+&lt;p&gt;
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketLifecycleConfigurationResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketLifecycleConfigurationRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketLifecycleConfigurationResponse *)deleteBucketLifecycleConfiguration:(S3DeleteBucketLifecycleConfigurationRequest *)deleteBucketLifecycleConfigurationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteBucketLifecycleConfigurationRequest</Name>
+					<Abstract type="html">The request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteBucketLifecycleConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketTagging:</TokenIdentifier>
+			<Abstract type="html">Sets the tagging configuration for the specified bucket.  A tagging configuration contains a TagSet.
+&lt;p&gt;
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketTaggingResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketTaggingRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketTaggingResponse *)setBucketTagging:(S3SetBucketTaggingRequest *)setBucketTaggingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setBucketTaggingRequest</Name>
+					<Abstract type="html">request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBucketTagging:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketTagging:</TokenIdentifier>
+			<Abstract type="html">Gets the tagging configuration for the specified bucket, or null if no
+configuration has been established.
+&lt;p&gt;
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketTaggingResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketTaggingRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketTaggingResponse *)getBucketTagging:(S3GetBucketTaggingRequest *)getBucketTaggingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getBucketTaggingRequest</Name>
+					<Abstract type="html">The request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bucket lifecycle configuration for the specified bucket,
+otherwise null if there is no Lifecycle configuration set for the
+specified bucket.</Abstract></ReturnValue>
+			<Anchor>//api/name/getBucketTagging:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketTagging:</TokenIdentifier>
+			<Abstract type="html">Deletes the tagging configuration for the specified bucket
+&lt;p&gt;
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketTaggingResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketTaggingRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketTaggingResponse *)deleteBucketTagging:(S3DeleteBucketTaggingRequest *)deleteBucketTaggingRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteBucketTaggingRequest</Name>
+					<Abstract type="html">The request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteBucketTagging:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/setBucketCrossOrigin:</TokenIdentifier>
+			<Abstract type="html">Sets the CORS configuration for the specified bucket, or null if no
+configuration has been established. CORS config is comprised of a set of rules.
+&lt;p&gt;
+For more informaiton on how to using Bucket CORS see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketCrossOriginResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketCrossOriginRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3SetBucketCrossOriginResponse *)setBucketCrossOrigin:(S3SetBucketCrossOriginRequest *)setBucketCrossOriginRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setBucketCrossOriginRequest</Name>
+					<Abstract type="html">request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBucketCrossOrigin:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getBucketCrossOrigin:</TokenIdentifier>
+			<Abstract type="html">Gets the CrossOrigin configuration for the specified bucket, or null if no
+configuration has been established.
+&lt;p&gt;
+For more informaiton on how to using Bucket CORS see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketCrossOriginResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketCrossOriginRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3GetBucketCrossOriginResponse *)getBucketCrossOrigin:(S3GetBucketCrossOriginRequest *)getBucketCrossOriginRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getBucketCrossOriginRequest</Name>
+					<Abstract type="html">request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A response which will contain the CORS config for bucket.</Abstract></ReturnValue>
+			<Anchor>//api/name/getBucketCrossOrigin:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteBucketCrossOrigin:</TokenIdentifier>
+			<Abstract type="html">Deletes the CrossOrigin configuration for the specified bucket
+&lt;p&gt;
+For more informaiton on how to using Bucket CORS see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketCrossOriginResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketCrossOriginRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteBucketCrossOriginResponse *)deleteBucketCrossOrigin:(S3DeleteBucketCrossOriginRequest *)deleteBucketCrossOriginRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteBucketCrossOriginRequest</Name>
+					<Abstract type="html">the request to process</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteBucketCrossOrigin:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/deleteVersion:</TokenIdentifier>
+			<Abstract type="html">Deletes a specific version of an object in the specified bucket. Once
+deleted, there is no method to restore or undelete an object version.
+This is the only way to permanently delete object versions that are
+protected by versioning.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteVersionResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3DeleteVersionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3DeleteVersionResponse *)deleteVersion:(S3DeleteVersionRequest *)deleteVersionRequest</Declaration>
+			
+			
+			<Anchor>//api/name/deleteVersion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listVersions:</TokenIdentifier>
+			<Abstract type="html">Returns a list of summary information about the versions in the specified bucket.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3ListVersionsResponse *)listVersions:(S3ListVersionsRequest *)lisVersionsRequest</Declaration>
+			
+			
+			<Anchor>//api/name/listVersions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/initiateMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Initiates a multipart upload and returns an InitiateMultipartUploadResponse.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3InitiateMultipartUploadResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3InitiateMultipartUploadRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3InitiateMultipartUploadResponse *)initiateMultipartUpload:(S3InitiateMultipartUploadRequest *)initiateMultipartUploadRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>initiateMultipartUploadRequest</Name>
+					<Abstract type="html">The S3InitiateMultipartUploadRequest that defines the paramaters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initiateMultipartUpload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/initiateMultipartUploadWithKey:withBucket:</TokenIdentifier>
+			<Abstract type="html">Initiates a multipart upload and returns an MultipartUpload instance
+which contains an upload ID. This upload ID associates all the
+parts in the specific upload. You specify this upload ID in each of
+your subsequent Upload Part requests. You also include
+this upload ID in the final request to either complete, or abort
+the multipart upload request.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3MultipartUpload</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3MultipartUpload *)initiateMultipartUploadWithKey:(NSString *)theKey withBucket:(NSString *)theBucket</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">The key the the completed object will have</Abstract>
+				</Parameter><Parameter>
+					<Name>theBucket</Name>
+					<Abstract type="html">The bucket where the completed object will reside.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3MultipartUpload object which contains the uploadId for the upload.</Abstract></ReturnValue>
+			<Anchor>//api/name/initiateMultipartUploadWithKey:withBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/abortMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Aborts a multipart upload.
+After a multipart upload is aborted, no additional parts can be uploaded using that upload ID.
+The storage consumed by any previously uploaded parts will be freed.
+However, if any part uploads are currently in progress, those part uploads might or might not succeed.
+As a result, it might be necessary to abort a given multipart upload multiple times in order to completely
+free all storage consumed by all parts.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3AbortMultipartUploadResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3AbortMultipartUploadRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3AbortMultipartUploadResponse *)abortMultipartUpload:(S3AbortMultipartUploadRequest *)abortMultipartUploadRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abortMultipartUploadRequest</Name>
+					<Abstract type="html">The S3AbortMultipartUploadRequest which defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3AbortMultipartUploadResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/abortMultipartUpload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listMultipartUploads:</TokenIdentifier>
+			<Abstract type="html">This operation lists in-progress multipart uploads.
+An in-progress
+multipart upload is a multipart upload that has been initiated,
+using the InitiateMultipartUpload request, but has not yet been
+completed or aborted.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListMultipartUploadsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListMultipartUploadsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3ListMultipartUploadsResponse *)listMultipartUploads:(S3ListMultipartUploadsRequest *)listMultipartUploadsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listMultipartUploadsRequest</Name>
+					<Abstract type="html">The ListMultipartUploadsRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a ListMultipartUploadsResponse from S3.&lt;/returns&gt;</Abstract></ReturnValue>
+			<Anchor>//api/name/listMultipartUploads:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/uploadPart:</TokenIdentifier>
+			<Abstract type="html">Uploads a part in a multipart upload.
+You must initiate a multipart upload before you can upload any part.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3UploadPartResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3UploadPartRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3UploadPartResponse *)uploadPart:(S3UploadPartRequest *)uploadPartRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>uploadPartRequest</Name>
+					<Abstract type="html">The S3UploadPartRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3UploadPartResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/uploadPart:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/listParts:</TokenIdentifier>
+			<Abstract type="html">Lists the parts that have been uploaded for a particular multipart upload.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListPartsResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3ListPartsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3ListPartsResponse *)listParts:(S3ListPartsRequest *)listPartsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listPartsRequest</Name>
+					<Abstract type="html">The S3ListPartsRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3ListPartsResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/listParts:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/partCopy:</TokenIdentifier>
+			<Abstract type="html">S3CopyPartResponse</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CopyPartResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CopyPartRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3CopyPartResponse *)partCopy:(S3CopyPartRequest *)copyPartRequest</Declaration>
+			
+			
+			<Anchor>//api/name/partCopy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/completeMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Completes a multipart upload by assembling previously uploaded parts.
+You first upload all parts using the uploadPart method.
+After successfully uploading all relevant parts of an upload,
+you call this operation to complete the upload. Upon receiving
+this request, Amazon S3 concatenates all the parts in ascending
+order by part number to create a new object. In the
+completeMultipartUpload request, you must provide the
+parts list. For each part in the list, you provide the
+part number and the ETag header value, returned after that
+part was uploaded.
+Processing of a completeMultipartUpload request may take
+several minutes to complete.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadResponse</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3CompleteMultipartUploadResponse *)completeMultipartUpload:(S3CompleteMultipartUploadRequest *)completeMultipartUploadRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completeMultipartUploadRequest</Name>
+					<Abstract type="html">The CompleteMultipartUploadRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An S3CompleteMultipartUploadResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/completeMultipartUpload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/restoreObject:</TokenIdentifier>
+			<Abstract type="html">Request temporary restoration of an object which was transitioned
+to Amazon Glacier from Amazon S3 via life cycle configuration.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3RestoreObjectRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3RestoreObjectResponse *)restoreObject:(S3RestoreObjectRequest *)restoreObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>restoreObjectRequest</Name>
+					<Abstract type="html">The RestoreObjectRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An RestoreObjectResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/restoreObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getPreSignedURL:</TokenIdentifier>
+			<Abstract type="html">Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetPreSignedURLRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSURL *)getPreSignedURL:(S3GetPreSignedURLRequest *)preSignedURLRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>preSignedURLRequest</Name>
+					<Abstract type="html">The S3GetPreSignedURLRequest that defines the parameters of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An signed NSURL for the resource.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPreSignedURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/getPreSignedURL:error:</TokenIdentifier>
+			<Abstract type="html">Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3GetPreSignedURLRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSURL *)getPreSignedURL:(S3GetPreSignedURLRequest *)preSignedURLRequest error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>preSignedURLRequest</Name>
+					<Abstract type="html">The S3GetPreSignedURLRequest that defines the parameters of the operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">A reference to an NSError object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An signed NSURL for the resource.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPreSignedURL:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonS3Client/constructResponseFromRequest:</TokenIdentifier>
+			<Abstract type="html">Constructs an empty response object of the appropriate type to match the given request
+object.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Response *)constructResponseFromRequest:(S3Request *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An instance of a subclass of S3Request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the appropriate subclass of S3Response, or
+an instance of S3Response if there is no response class to
+match the instance passed in.</Abstract></ReturnValue>
+			<Anchor>//api/name/constructResponseFromRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonS3Client/invoke:</TokenIdentifier>
+			<Abstract type="html">Utility method that sends the raw S3 Request to be processed.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>- (S3Response *)invoke:(S3Request *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A request describing the parameters of an S3 request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/invoke:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonS3Client/apiVersion</TokenIdentifier>
+			<Abstract type="html">Return the version of the S3 API</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)apiVersion</Declaration>
+			
+			
+			<Anchor>//api/name/apiVersion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonS3Client/initializeResponseObjects</TokenIdentifier>
+			<Abstract type="html">Ensure that all response classes have been loaded by the runtime.</Abstract>
+			<DeclaredIn>AmazonS3Client.h</DeclaredIn>			
+			
+			<Declaration>+ (void)initializeResponseObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initializeResponseObjects</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

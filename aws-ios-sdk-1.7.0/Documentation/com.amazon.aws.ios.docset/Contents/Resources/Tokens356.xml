@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeVolumesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeVolumesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Volumes Request</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="356"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeVolumesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/setVolumeIds:</TokenIdentifier>
+			<Abstract type="html">The optional list of EBS volumes to describe.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeVolumesRequest/volumeIds</TokenIdentifier>
+			<Abstract type="html">The optional list of EBS volumes to describe.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Volumes. For a complete
+reference to the available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeVolumesRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Volumes. For a complete
+reference to the available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DescribeVolumesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/initWithVolumeIds:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DescribeVolumesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithVolumeIds:(NSMutableArray *)theVolumeIds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theVolumeIds</Name>
+					<Abstract type="html">The optional list of EBS volumes to describe.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithVolumeIds:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/addVolumeId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to volumeIds.
+This function will alloc and init volumeIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addVolumeId:(NSString *)volumeIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addVolumeId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeVolumesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeVolumesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

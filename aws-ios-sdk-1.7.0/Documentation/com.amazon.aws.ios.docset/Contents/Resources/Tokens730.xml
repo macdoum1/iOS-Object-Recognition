@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESListIdentitiesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESListIdentitiesResponse</TokenIdentifier>
+			<Abstract type="html">List Identities Result</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="730"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/setIdentities:</TokenIdentifier>
+			<Abstract type="html">A list of identities.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESListIdentitiesResponse/identities</TokenIdentifier>
+			<Abstract type="html">A list of identities.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *identities</Declaration>
+			
+			
+			<Anchor>//api/name/identities</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The token used for pagination.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESListIdentitiesResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">The token used for pagination.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/identitiesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the identities array for the specified index</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)identitiesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/identitiesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESListIdentitiesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESListIdentitiesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

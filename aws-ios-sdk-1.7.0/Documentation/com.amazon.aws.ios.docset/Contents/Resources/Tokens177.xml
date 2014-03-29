@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBCreateTableRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBCreateTableRequest</TokenIdentifier>
+			<Abstract type="html">Create Table Request</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>
+			
+			<NodeRef refid="177"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/setAttributeDefinitions:</TokenIdentifier>
+			<Abstract type="html">An array of attributes that describe the key schema for the table and
+indexes.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeDefinitions</Declaration>
+			
+			
+			<Anchor>//api/name/attributeDefinitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCreateTableRequest/attributeDefinitions</TokenIdentifier>
+			<Abstract type="html">An array of attributes that describe the key schema for the table and
+indexes.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeDefinitions</Declaration>
+			
+			
+			<Anchor>//api/name/attributeDefinitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table to create.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCreateTableRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table to create.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">Specifies the attributes that make up the primary key for the table.
+The attributes in &lt;i&gt;KeySchema&lt;/i&gt; must also be defined in the
+&lt;i&gt;AttributeDefinitions&lt;/i&gt; array. For more information, see &lt;a
+s.amazon.com/amazondynamodb/latest/developerguide/DataModel.html&quot;&gt;Data
+Model&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each
+&lt;i&gt;KeySchemaElement&lt;/i&gt; in the array is composed of: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of this key attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - Determines whether the key attribute is
+&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For a primary
+key that consists of a hash attribute, you must specify exactly one
+element with a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;. &lt;p&gt;For a primary
+key that consists of hash and range attributes, you must specify
+exactly two elements, in this order: The first element must have a
+&lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;, and the second element must have
+a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;RANGE&lt;/code&gt;. &lt;p&gt;For more information, see
+&lt;a
+e/WorkingWithDDTables.html#WorkingWithDDTables.primary.key&quot;&gt;Specifying
+the Primary Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCreateTableRequest/keySchema</TokenIdentifier>
+			<Abstract type="html">Specifies the attributes that make up the primary key for the table.
+The attributes in &lt;i&gt;KeySchema&lt;/i&gt; must also be defined in the
+&lt;i&gt;AttributeDefinitions&lt;/i&gt; array. For more information, see &lt;a
+s.amazon.com/amazondynamodb/latest/developerguide/DataModel.html&quot;&gt;Data
+Model&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each
+&lt;i&gt;KeySchemaElement&lt;/i&gt; in the array is composed of: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of this key attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - Determines whether the key attribute is
+&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For a primary
+key that consists of a hash attribute, you must specify exactly one
+element with a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;. &lt;p&gt;For a primary
+key that consists of hash and range attributes, you must specify
+exactly two elements, in this order: The first element must have a
+&lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;, and the second element must have
+a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;RANGE&lt;/code&gt;. &lt;p&gt;For more information, see
+&lt;a
+e/WorkingWithDDTables.html#WorkingWithDDTables.primary.key&quot;&gt;Specifying
+the Primary Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/setLocalSecondaryIndexes:</TokenIdentifier>
+			<Abstract type="html">One or more secondary indexes (the maximum is five) to be created on
+the table. Each index is scoped to a given hash key value. There is a
+10 gigabyte size limit per hash key; otherwise, the size of a local
+secondary index is unconstrained. &lt;p&gt;Each secondary index in the array
+includes the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexName&lt;/i&gt; - The name of
+the secondary index. Must be unique only for this table. &lt;p&gt; &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;i&gt;KeySchema&lt;/i&gt; - Specifies the key schema for the index. The
+key schema must begin with the same hash key attribute as the table.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Projection&lt;/i&gt; - Specifies attributes that are copied
+(projected) from the table into the index. These are in addition to
+the primary key attributes and index key attributes, which are
+automatically projected. Each attribute specification is composed of:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ProjectionType&lt;/i&gt; - One of the following: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys are
+projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; - Only
+the specified table attributes are projected into the index. The list
+of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected into
+the index. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;NonKeyAttributes&lt;/i&gt; - A list
+of one or more non-key attribute names that are projected into the
+index. The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *localSecondaryIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/localSecondaryIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCreateTableRequest/localSecondaryIndexes</TokenIdentifier>
+			<Abstract type="html">One or more secondary indexes (the maximum is five) to be created on
+the table. Each index is scoped to a given hash key value. There is a
+10 gigabyte size limit per hash key; otherwise, the size of a local
+secondary index is unconstrained. &lt;p&gt;Each secondary index in the array
+includes the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexName&lt;/i&gt; - The name of
+the secondary index. Must be unique only for this table. &lt;p&gt; &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;i&gt;KeySchema&lt;/i&gt; - Specifies the key schema for the index. The
+key schema must begin with the same hash key attribute as the table.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Projection&lt;/i&gt; - Specifies attributes that are copied
+(projected) from the table into the index. These are in addition to
+the primary key attributes and index key attributes, which are
+automatically projected. Each attribute specification is composed of:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ProjectionType&lt;/i&gt; - One of the following: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys are
+projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; - Only
+the specified table attributes are projected into the index. The list
+of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected into
+the index. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;NonKeyAttributes&lt;/i&gt; - A list
+of one or more non-key attribute names that are projected into the
+index. The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *localSecondaryIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/localSecondaryIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">The provisioned throughput settings for the specified table. The
+settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.
+&lt;p&gt;For current minimum and maximum provisioned throughput values, see
+&lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCreateTableRequest/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">The provisioned throughput settings for the specified table. The
+settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.
+&lt;p&gt;For current minimum and maximum provisioned throughput values, see
+&lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateTableRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/initWithTableName:andKeySchema:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateTableRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andKeySchema:(NSMutableArray *)theKeySchema</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table to create.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKeySchema</Name>
+					<Abstract type="html">Specifies the attributes that make up the primary
+key for the table. The attributes in &lt;i&gt;KeySchema&lt;/i&gt; must also be
+defined in the &lt;i&gt;AttributeDefinitions&lt;/i&gt; array. For more
+information, see &lt;a
+s.amazon.com/amazondynamodb/latest/developerguide/DataModel.html&quot;&gt;Data
+Model&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each
+&lt;i&gt;KeySchemaElement&lt;/i&gt; in the array is composed of: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of this key attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - Determines whether the key attribute is
+&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For a primary
+key that consists of a hash attribute, you must specify exactly one
+element with a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;. &lt;p&gt;For a primary
+key that consists of hash and range attributes, you must specify
+exactly two elements, in this order: The first element must have a
+&lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;, and the second element must have
+a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;RANGE&lt;/code&gt;. &lt;p&gt;For more information, see
+&lt;a
+e/WorkingWithDDTables.html#WorkingWithDDTables.primary.key&quot;&gt;Specifying
+the Primary Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andKeySchema:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/initWithTableName:andKeySchema:andProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateTableRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andKeySchema:(NSMutableArray *)theKeySchema andProvisionedThroughput:(DynamoDBProvisionedThroughput *)theProvisionedThroughput</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table to create.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKeySchema</Name>
+					<Abstract type="html">Specifies the attributes that make up the primary
+key for the table. The attributes in &lt;i&gt;KeySchema&lt;/i&gt; must also be
+defined in the &lt;i&gt;AttributeDefinitions&lt;/i&gt; array. For more
+information, see &lt;a
+s.amazon.com/amazondynamodb/latest/developerguide/DataModel.html&quot;&gt;Data
+Model&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;Each
+&lt;i&gt;KeySchemaElement&lt;/i&gt; in the array is composed of: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of this key attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - Determines whether the key attribute is
+&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For a primary
+key that consists of a hash attribute, you must specify exactly one
+element with a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;. &lt;p&gt;For a primary
+key that consists of hash and range attributes, you must specify
+exactly two elements, in this order: The first element must have a
+&lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;HASH&lt;/code&gt;, and the second element must have
+a &lt;i&gt;KeyType&lt;/i&gt; of &lt;code&gt;RANGE&lt;/code&gt;. &lt;p&gt;For more information, see
+&lt;a
+e/WorkingWithDDTables.html#WorkingWithDDTables.primary.key&quot;&gt;Specifying
+the Primary Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+				</Parameter><Parameter>
+					<Name>theProvisionedThroughput</Name>
+					<Abstract type="html">The provisioned throughput settings
+for the specified table. The settings can be modified using the
+&lt;i&gt;UpdateTable&lt;/i&gt; operation. &lt;p&gt;For current minimum and maximum
+provisioned throughput values, see &lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andKeySchema:andProvisionedThroughput:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/addAttributeDefinition:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeDefinitions.
+This function will alloc and init attributeDefinitions if not already done.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeDefinition:(DynamoDBAttributeDefinition *)attributeDefinitionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeDefinition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/addKeySchema:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to keySchema.
+This function will alloc and init keySchema if not already done.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addKeySchema:(DynamoDBKeySchemaElement *)keySchemaObject</Declaration>
+			
+			
+			<Anchor>//api/name/addKeySchema:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/addLocalSecondaryIndexe:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to localSecondaryIndexes.
+This function will alloc and init localSecondaryIndexes if not already done.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLocalSecondaryIndexe:(DynamoDBLocalSecondaryIndex *)localSecondaryIndexeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLocalSecondaryIndexe:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCreateTableRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBCreateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

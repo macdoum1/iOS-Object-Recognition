@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceAssumeRoleRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleRequest</TokenIdentifier>
+			<Abstract type="html">Assume Role Request</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>
+			
+			<NodeRef refid="875"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/setRoleArn:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the role that the caller is
+assuming.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;20 - 2048&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleRequest/roleArn</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the role that the caller is
+assuming.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;20 - 2048&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/setRoleSessionName:</TokenIdentifier>
+			<Abstract type="html">An identifier for the assumed role session. The session name is
+included as part of the &lt;code&gt;AssumedRoleUser&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *roleSessionName</Declaration>
+			
+			
+			<Anchor>//api/name/roleSessionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleRequest/roleSessionName</TokenIdentifier>
+			<Abstract type="html">An identifier for the assumed role session. The session name is
+included as part of the &lt;code&gt;AssumedRoleUser&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *roleSessionName</Declaration>
+			
+			
+			<Anchor>//api/name/roleSessionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">A supplemental policy that is associated with the temporary security
+credentials from the &lt;code&gt;AssumeRole&lt;/code&gt; call. The resulting
+permissions of the temporary security credentials are an intersection
+of this policy and the access policy that is associated with the role.
+Use this policy to further restrict the permissions of the temporary
+security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2048&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0009\u000A\u000D\u0020-\u00FF]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleRequest/policy</TokenIdentifier>
+			<Abstract type="html">A supplemental policy that is associated with the temporary security
+credentials from the &lt;code&gt;AssumeRole&lt;/code&gt; call. The resulting
+permissions of the temporary security credentials are an intersection
+of this policy and the access policy that is associated with the role.
+Use this policy to further restrict the permissions of the temporary
+security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2048&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0009\u000A\u000D\u0020-\u00FF]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, of the role session. The value can range
+from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default,
+the value is set to 3600 seconds.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 3600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, of the role session. The value can range
+from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default,
+the value is set to 3600 seconds.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 3600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/setExternalId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier that is used by third parties to assume a role in
+their customers&apos; accounts. For each role that the third party can
+assume, they should instruct their customers to create a role with the
+external ID that the third party generated. Each time the third party
+assumes the role, they must pass the customer&apos;s external ID. The
+external ID is useful in order to help third parties bind a role to
+the customer who created it. For more information about the external
+ID, see &lt;a
+ocs.aws.amazon.com/STS/latest/UsingSTS/sts-delegating-externalid.html&quot;
+target=&quot;_blank&quot;&gt;About the External ID&lt;/a&gt; in &lt;i&gt;Using Temporary
+Security Credentials&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 96&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@:-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *externalId</Declaration>
+			
+			
+			<Anchor>//api/name/externalId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleRequest/externalId</TokenIdentifier>
+			<Abstract type="html">A unique identifier that is used by third parties to assume a role in
+their customers&apos; accounts. For each role that the third party can
+assume, they should instruct their customers to create a role with the
+external ID that the third party generated. Each time the third party
+assumes the role, they must pass the customer&apos;s external ID. The
+external ID is useful in order to help third parties bind a role to
+the customer who created it. For more information about the external
+ID, see &lt;a
+ocs.aws.amazon.com/STS/latest/UsingSTS/sts-delegating-externalid.html&quot;
+target=&quot;_blank&quot;&gt;About the External ID&lt;/a&gt; in &lt;i&gt;Using Temporary
+Security Credentials&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 96&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@:-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *externalId</Declaration>
+			
+			
+			<Anchor>//api/name/externalId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

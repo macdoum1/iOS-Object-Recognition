@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3TransferManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3TransferManager</TokenIdentifier>
+			<Abstract type="html">S3TransferManager is an easy-to-use, high level component that is designed to efficiently upload many large files to Amazon S3.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>
+			
+			<NodeRef refid="703"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/setMinimumUploadPartSize:</TokenIdentifier>
+			<Abstract type="html">The minimum part size for upload parts.  Must be at least 5MB.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) uint32_t minimumUploadPartSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumUploadPartSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferManager/minimumUploadPartSize</TokenIdentifier>
+			<Abstract type="html">The minimum part size for upload parts.  Must be at least 5MB.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) uint32_t minimumUploadPartSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumUploadPartSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/setMultipartUploadThreshold:</TokenIdentifier>
+			<Abstract type="html">The size threshold in bytes for when to use multipart uploads.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) uint32_t multipartUploadThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/multipartUploadThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferManager/multipartUploadThreshold</TokenIdentifier>
+			<Abstract type="html">The size threshold in bytes for when to use multipart uploads.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) uint32_t multipartUploadThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/multipartUploadThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/setNoSyncMethodsOnMainThread:</TokenIdentifier>
+			<Abstract type="html">Controls if the synchronous upload methods can be invoked on the main thread.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL noSyncMethodsOnMainThread</Declaration>
+			
+			
+			<Anchor>//api/name/noSyncMethodsOnMainThread</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferManager/noSyncMethodsOnMainThread</TokenIdentifier>
+			<Abstract type="html">Controls if the synchronous upload methods can be invoked on the main thread.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL noSyncMethodsOnMainThread</Declaration>
+			
+			
+			<Anchor>//api/name/noSyncMethodsOnMainThread</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/setOperationQueue:</TokenIdentifier>
+			<Abstract type="html">The static NSOperationQueue used internally.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSOperationQueue *operationQueue</Declaration>
+			
+			
+			<Anchor>//api/name/operationQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferManager/operationQueue</TokenIdentifier>
+			<Abstract type="html">The static NSOperationQueue used internally.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSOperationQueue *operationQueue</Declaration>
+			
+			
+			<Anchor>//api/name/operationQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/upload:</TokenIdentifier>
+			<Abstract type="html">Asynchronously uploads data to Amazon S3 using either put object request or multipart uploads. Set the delegate property of S3PutObjectRequest in order to overwrite the delegate for callbacks.
+Pause and resume will only work if you specify a filePath on the request.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3PutObjectRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)upload:(S3PutObjectRequest *)putObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>putObjectRequest</Name>
+					<Abstract type="html">A S3PutObjectRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/upload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/uploadData:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Asynchronously uploads data to Amazon S3 using either put object request or multipart uploads.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)uploadData:(NSData *)data bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">A NSData object to upload.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/uploadData:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/uploadFile:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Asynchronously uploads data to Amazon S3 using either put object request or multipart uploads.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)uploadFile:(NSString *)filename bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">A filepath to a file to upload.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/uploadFile:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/uploadStream:contentLength:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Asynchronously uploads data to Amazon S3 using either put object request or multipart uploads.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)uploadStream:(NSInputStream *)stream contentLength:(long)contentLength bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stream</Name>
+					<Abstract type="html">An NSInputStream object.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentLength</Name>
+					<Abstract type="html">content length of the stream.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/uploadStream:contentLength:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyUpload:</TokenIdentifier>
+			<Abstract type="html">Synchronously uploads data to Amazon S3 using either put object request or multipart uploads.
+Pause and resume will only work if you specify a filename on the putObjectRequest.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/S3PutObjectRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyUpload:(S3PutObjectRequest *)putObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>putObjectRequest</Name>
+					<Abstract type="html">A S3PutObjectRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyUpload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyUploadData:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Synchronously uploads data to Amazon S3 using either put object request or multipart uploads.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyUploadData:(NSData *)data bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">A NSData object to upload.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyUploadData:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyUploadFile:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Synchronously uploads data to Amazon S3 using either put object request or multipart uploads.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyUploadFile:(NSString *)filename bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">A filepath to a file to upload.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyUploadFile:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyUploadStream:contentLength:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Synchronously uploads data to Amazon S3 using either put object request or multipart uploads.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyUploadStream:(NSInputStream *)stream contentLength:(int64_t)contentLength bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stream</Name>
+					<Abstract type="html">An NSInputStream object.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyUploadStream:contentLength:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/download:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads data from Amazon S3 using get object request
+Pause and resume will only work if you specify a targetFilePath on the getObjectRequest.
+If targetFilePath is specified, if a local file incomplete already exists, it is resumed.
+If the local file size matches the remote file size and the md5sum matches, didFailWithError is called.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)download:(S3GetObjectRequest *)getObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getObjectRequest</Name>
+					<Abstract type="html">A S3GetObjectRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/download:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/downloadFile:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads data from Amazon S3 to a local file.  If a local file incomplete already exists, it is resumed.
+If the local file size matches the remote file size and the md5sum matches, didFailWithError is called.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)downloadFile:(NSString *)targetFilePath bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>targetFilePath</Name>
+					<Abstract type="html">A filepath for the local file to download to.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadFile:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/downloadStream:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Asynchronously downloads data from Amazon S3 to an output stream.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (S3TransferOperation *)downloadStream:(NSOutputStream *)outputStream bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>outputStream</Name>
+					<Abstract type="html">An NSOutputStream object.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">S3TransferOperation</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadStream:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyDownload:</TokenIdentifier>
+			<Abstract type="html">Synchronously downloads data from Amazon S3 using get object request</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (AmazonServiceResponse *)synchronouslyDownload:(S3GetObjectRequest *)getObjectRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getObjectRequest</Name>
+					<Abstract type="html">A S3GetObjectRequest object that defines the parameters of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">AmazonServiceResponse
+@throws NSException</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyDownload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyDownloadFile:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Synchronously downloads data from Amazon S3 to a local file.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyDownloadFile:(NSString *)targetFilePath bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>targetFilePath</Name>
+					<Abstract type="html">A filepath for the local file to download to.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyDownloadFile:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/synchronouslyDownloadStream:bucket:key:</TokenIdentifier>
+			<Abstract type="html">Synchronously downloads data from Amazon S3 to an output stream.
+Pause and resume will not work with this method.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AmazonServiceResponse *)synchronouslyDownloadStream:(NSOutputStream *)outputStream bucket:(NSString *)bucket key:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>outputStream</Name>
+					<Abstract type="html">An NSOutputStream object.</Abstract>
+				</Parameter><Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An AmazonServiceResponse from S3.</Abstract></ReturnValue>
+			<Anchor>//api/name/synchronouslyDownloadStream:bucket:key:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/cancelAllTransfers</TokenIdentifier>
+			<Abstract type="html">Cancel all outstanding operations</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancelAllTransfers</Declaration>
+			
+			
+			<Anchor>//api/name/cancelAllTransfers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/pauseAllTransfers</TokenIdentifier>
+			<Abstract type="html">Pause all transfers.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)pauseAllTransfers</Declaration>
+			
+			
+			<Anchor>//api/name/pauseAllTransfers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/resume:requestDelegate:</TokenIdentifier>
+			<Abstract type="html">Resume a specific operation. Uploads &lt; 5 MB will be restarted from the beginning. Uploads &gt;= 5MB will be resumed
+* at the last 5 MB part that was successfully uploaded.  Downloads will be resumed.
+* @param operation Operation to resume
+* @param requestDelegate A object that adopts AmazonServiceRequestDelegate protocol. The delegates are not persisted when transfers are paused. Providing this is useful if you&apos;re tracking the progress.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (S3TransferOperation *)resume:(S3TransferOperation *)operation requestDelegate:(id&lt;AmazonServiceRequestDelegate&gt;)requestDelegate</Declaration>
+			
+			<ReturnValue><Abstract type="html">if the transfer is resumed, the S3TransferOperation of the resumed transfer. Otherwise the operation passed in.</Abstract></ReturnValue>
+			<Anchor>//api/name/resume:requestDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/resumeAllTransfers:</TokenIdentifier>
+			<Abstract type="html">Resume all paused transfers. Uploads &lt; 5 MB will be restarted from the beginning. Uploads &gt;= 5MB will be resumed at the last 5 MB part that was successfully uploaded. Downloads will be resumed.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)resumeAllTransfers:(id&lt;AmazonServiceRequestDelegate&gt;)requestDelegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requestDelegate</Name>
+					<Abstract type="html">A object that adopts AmazonServiceRequestDelegate protocol. The delegates are not persisted when transfers are paused. Providing this is useful if you&apos;re tracking the progress.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">All of the transfers that were resumed</Abstract></ReturnValue>
+			<Anchor>//api/name/resumeAllTransfers:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/cleanupTempFiles</TokenIdentifier>
+			<Abstract type="html">Clean up the temp files used for resuming</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cleanupTempFiles</Declaration>
+			
+			
+			<Anchor>//api/name/cleanupTempFiles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/abortMultipartUploads:initiatedBefore:</TokenIdentifier>
+			<Abstract type="html">Asynchronously aborts pending multipart uploads initiated before a specified date for a specified bucket.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)abortMultipartUploads:(NSString *)bucket initiatedBefore:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">Pending mutipart uploads initiated before this date will be aborted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abortMultipartUploads:initiatedBefore:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferManager/abortMultipartUploads:forKey:</TokenIdentifier>
+			<Abstract type="html">Asynchronously aborts pending multipart uploads for a specified bucket and key.</Abstract>
+			<DeclaredIn>S3TransferManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonServiceRequestDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)abortMultipartUploads:(NSString *)bucket forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bucket</Name>
+					<Abstract type="html">A bucket name.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key name.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abortMultipartUploads:forKey:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

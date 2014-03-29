@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBQueryResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBQueryResponse</TokenIdentifier>
+			<Abstract type="html">Query Result</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>
+			
+			<NodeRef refid="207"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/setItems:</TokenIdentifier>
+			<Abstract type="html">An array of item attributes that match the query criteria. Each
+element in this array consists of an attribute name and the value for
+that attribute.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBQueryResponse/items</TokenIdentifier>
+			<Abstract type="html">An array of item attributes that match the query criteria. Each
+element in this array consists of an attribute name and the value for
+that attribute.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/setCount:</TokenIdentifier>
+			<Abstract type="html">The number of items in the response.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBQueryResponse/count</TokenIdentifier>
+			<Abstract type="html">The number of items in the response.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/setLastEvaluatedKey:</TokenIdentifier>
+			<Abstract type="html">The primary key of the item where the operation stopped, inclusive of
+the previous result set. Use this value to start a new operation,
+excluding this value in the new request. &lt;p&gt;&lt;i&gt;LastEvaluatedKey&lt;/i&gt; is
+null when the entire result set is complete (in other words, when the
+operation processed the &quot;last page&quot; of results).</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *lastEvaluatedKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBQueryResponse/lastEvaluatedKey</TokenIdentifier>
+			<Abstract type="html">The primary key of the item where the operation stopped, inclusive of
+the previous result set. Use this value to start a new operation,
+excluding this value in the new request. &lt;p&gt;&lt;i&gt;LastEvaluatedKey&lt;/i&gt; is
+null when the entire result set is complete (in other words, when the
+operation processed the &quot;last page&quot; of results).</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *lastEvaluatedKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">The table name that consumed provisioned throughput, and the number of
+capacity units consumed by it. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only
+returned if it was asked for in the request. For more information, see
+&lt;a
+odb/latest/developerguide/ProvisionedThroughputIntro.html&quot;&gt;Provisioned
+Throughput&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBQueryResponse/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">The table name that consumed provisioned throughput, and the number of
+capacity units consumed by it. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only
+returned if it was asked for in the request. For more information, see
+&lt;a
+odb/latest/developerguide/ProvisionedThroughputIntro.html&quot;&gt;Provisioned
+Throughput&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/itemsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the items array for the specified index</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)itemsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/itemsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/lastEvaluatedKeyValueForKey:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the lastEvaluatedKey dictionary for the specified key.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (DynamoDBAttributeValue *)lastEvaluatedKeyValueForKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedKeyValueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBQueryResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBQueryResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

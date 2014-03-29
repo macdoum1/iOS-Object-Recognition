@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBItemCollectionMetrics.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">Item Collection Metrics</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>
+			
+			<NodeRef refid="190"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/setItemCollectionKey:</TokenIdentifier>
+			<Abstract type="html">The hash key value of the item collection. This is the same as the
+hash key of the item.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *itemCollectionKey</Declaration>
+			
+			
+			<Anchor>//api/name/itemCollectionKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBItemCollectionMetrics/itemCollectionKey</TokenIdentifier>
+			<Abstract type="html">The hash key value of the item collection. This is the same as the
+hash key of the item.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *itemCollectionKey</Declaration>
+			
+			
+			<Anchor>//api/name/itemCollectionKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/setSizeEstimateRangeGB:</TokenIdentifier>
+			<Abstract type="html">An estimate of item collection size, measured in gigabytes. This is a
+two-element array containing a lower bound and an upper bound for the
+estimate. The estimate includes the size of all the items in the
+table, plus the size of all attributes projected into all of the
+secondary indexes on that table. Use this estimate to measure whether
+a secondary index is approaching its size limit. &lt;p&gt;The estimate is
+subject to change over time; therefore, do not rely on the precision
+or accuracy of the estimate.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sizeEstimateRangeGB</Declaration>
+			
+			
+			<Anchor>//api/name/sizeEstimateRangeGB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBItemCollectionMetrics/sizeEstimateRangeGB</TokenIdentifier>
+			<Abstract type="html">An estimate of item collection size, measured in gigabytes. This is a
+two-element array containing a lower bound and an upper bound for the
+estimate. The estimate includes the size of all the items in the
+table, plus the size of all attributes projected into all of the
+secondary indexes on that table. Use this estimate to measure whether
+a secondary index is approaching its size limit. &lt;p&gt;The estimate is
+subject to change over time; therefore, do not rely on the precision
+or accuracy of the estimate.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sizeEstimateRangeGB</Declaration>
+			
+			
+			<Anchor>//api/name/sizeEstimateRangeGB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/setItemCollectionKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary itemCollectionKey for the specified key.
+This function will alloc and init itemCollectionKey if not already done.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>- (void)setItemCollectionKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setItemCollectionKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/addSizeEstimateRangeGB:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to sizeEstimateRangeGB.
+This function will alloc and init sizeEstimateRangeGB if not already done.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSizeEstimateRangeGB:(NSNumber *)sizeEstimateRangeGBObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSizeEstimateRangeGB:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBItemCollectionMetrics/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBItemCollectionMetrics.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

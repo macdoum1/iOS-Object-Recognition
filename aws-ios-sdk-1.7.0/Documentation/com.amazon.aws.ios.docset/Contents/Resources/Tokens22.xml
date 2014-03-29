@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonServiceResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceResponse</TokenIdentifier>
+			<Abstract type="html">This variable is used as a key to add to userInfo, which is a NSDictionary
+property of NSException/NSError. When an async call fails due to Clock skew
+exception, the user can implement the delegate methods such as didFailWithError
+and didFailWithException. In those methods they can check userInfo to see if
+contains a key called &quot;AWSClockSkewError&quot;. If it is there then it should have
+a boolean value representing if it is clock skew error and the device clock skew
+has been adjusted. The client can now retry and the subsequent request should not
+fail due to clock skew.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setBody:</TokenIdentifier>
+			<Abstract type="html">The body of the html response.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSData *body</Declaration>
+			
+			
+			<Anchor>//api/name/body</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/body</TokenIdentifier>
+			<Abstract type="html">The body of the html response.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSData *body</Declaration>
+			
+			
+			<Anchor>//api/name/body</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setResponseHeader:</TokenIdentifier>
+			<Abstract type="html">The header of the html response.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDictionary *responseHeader</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeader</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/responseHeader</TokenIdentifier>
+			<Abstract type="html">The header of the html response.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDictionary *responseHeader</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeader</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setHttpStatusCode:</TokenIdentifier>
+			<Abstract type="html">The HTTP status code of the response from the service.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t httpStatusCode</Declaration>
+			
+			
+			<Anchor>//api/name/httpStatusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/httpStatusCode</TokenIdentifier>
+			<Abstract type="html">The HTTP status code of the response from the service.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t httpStatusCode</Declaration>
+			
+			
+			<Anchor>//api/name/httpStatusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setIsFinishedLoading:</TokenIdentifier>
+			<Abstract type="html">Whether the response is finished loading.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFinishedLoading</Declaration>
+			
+			
+			<Anchor>//api/name/isFinishedLoading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/isFinishedLoading</TokenIdentifier>
+			<Abstract type="html">Whether the response is finished loading.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFinishedLoading</Declaration>
+			
+			
+			<Anchor>//api/name/isFinishedLoading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setDidTimeout:</TokenIdentifier>
+			<Abstract type="html">Whether the original request was timed out.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/didTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/didTimeout</TokenIdentifier>
+			<Abstract type="html">Whether the original request was timed out.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL didTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/didTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setIsAsyncCall:</TokenIdentifier>
+			<Abstract type="html">Check if it is async call, this is necessary for checking if we need to set clock skew</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isAsyncCall</Declaration>
+			
+			
+			<Anchor>//api/name/isAsyncCall</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/isAsyncCall</TokenIdentifier>
+			<Abstract type="html">Check if it is async call, this is necessary for checking if we need to set clock skew</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isAsyncCall</Declaration>
+			
+			
+			<Anchor>//api/name/isAsyncCall</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setHasClockSkewError:</TokenIdentifier>
+			<Abstract type="html">Check if the response has the clock skew error</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL hasClockSkewError</Declaration>
+			
+			
+			<Anchor>//api/name/hasClockSkewError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/hasClockSkewError</TokenIdentifier>
+			<Abstract type="html">Check if the response has the clock skew error</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL hasClockSkewError</Declaration>
+			
+			
+			<Anchor>//api/name/hasClockSkewError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setError:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, and the SDK is configured not to throw exceptions,
+this will return the error object generated from the exception object.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/error</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, and the SDK is configured not to throw exceptions,
+this will return the error object generated from the exception object.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSException *exception</Declaration>
+			
+			
+			<Anchor>//api/name/exception</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/exception</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSException *exception</Declaration>
+			
+			
+			<Anchor>//api/name/exception</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setRequest:</TokenIdentifier>
+			<Abstract type="html">The request for which this is the response</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonServiceRequest *request</Declaration>
+			
+			
+			<Anchor>//api/name/request</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/request</TokenIdentifier>
+			<Abstract type="html">The request for which this is the response</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonServiceRequest *request</Declaration>
+			
+			
+			<Anchor>//api/name/request</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/setRequestId:</TokenIdentifier>
+			<Abstract type="html">The requestId assigned by the service</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceResponse/requestId</TokenIdentifier>
+			<Abstract type="html">The requestId assigned by the service</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/processBody</TokenIdentifier>
+			<Abstract type="html">Once the body has been received, perform additional processing, such as parse as XML.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)processBody</Declaration>
+			
+			
+			<Anchor>//api/name/processBody</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/connection:didReceiveResponse:</TokenIdentifier>
+			<Abstract type="html">delegate method for NSURLConnection</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response</Declaration>
+			
+			
+			<Anchor>//api/name/connection:didReceiveResponse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/connection:didReceiveData:</TokenIdentifier>
+			<Abstract type="html">delegate method for NSURLConnection</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/connection:didReceiveData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/connectionDidFinishLoading:</TokenIdentifier>
+			<Abstract type="html">delegate method for NSURLConnection</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)connectionDidFinishLoading:(NSURLConnection *)connection</Declaration>
+			
+			
+			<Anchor>//api/name/connectionDidFinishLoading:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/isClockSkewError:</TokenIdentifier>
+			<Abstract type="html">Check if the AmazonServiceException is a clock skew exception.</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isClockSkewError:(AmazonServiceException *)serviceException</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">An AmazonServiceException</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a bool that says whether the exception is a clock skew exception.</Abstract></ReturnValue>
+			<Anchor>//api/name/isClockSkewError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/getSkewTimeUsingResponse</TokenIdentifier>
+			<Abstract type="html">Get the difference between the request time and the response time</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSTimeInterval)getSkewTimeUsingResponse</Declaration>
+			
+			<ReturnValue><Abstract type="html">time interval which can be used to set the time skew</Abstract></ReturnValue>
+			<Anchor>//api/name/getSkewTimeUsingResponse</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceResponse/getDateFromResponse</TokenIdentifier>
+			<Abstract type="html">return date from the response header</Abstract>
+			<DeclaredIn>AmazonServiceResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)getDateFromResponse</Declaration>
+			
+			
+			<Anchor>//api/name/getDateFromResponse</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

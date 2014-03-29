@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeSnapshotsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeSnapshotsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Snapshots Request</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="340"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/setSnapshotIds:</TokenIdentifier>
+			<Abstract type="html">The optional list of EBS snapshot IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *snapshotIds</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotsRequest/snapshotIds</TokenIdentifier>
+			<Abstract type="html">The optional list of EBS snapshot IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *snapshotIds</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/setOwnerIds:</TokenIdentifier>
+			<Abstract type="html">An optional list of owners by which to scope the described EBS
+snapshots. Valid values are: &lt;ul&gt; &lt;li&gt; &lt;code&gt;self&lt;/code&gt; : Snapshots
+owned by you &lt;/li&gt; &lt;li&gt; &lt;i&gt;AWS account ID&lt;/i&gt; : Snapshots owned by
+this account ID &lt;/li&gt; &lt;li&gt; &lt;code&gt;amazon&lt;/code&gt; : Snapshots owned by
+Amazon &lt;/li&gt; &lt;/ul&gt; &lt;p&gt; The values &lt;code&gt;self&lt;/code&gt; and
+&lt;code&gt;amazon&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ownerIds</Declaration>
+			
+			
+			<Anchor>//api/name/ownerIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotsRequest/ownerIds</TokenIdentifier>
+			<Abstract type="html">An optional list of owners by which to scope the described EBS
+snapshots. Valid values are: &lt;ul&gt; &lt;li&gt; &lt;code&gt;self&lt;/code&gt; : Snapshots
+owned by you &lt;/li&gt; &lt;li&gt; &lt;i&gt;AWS account ID&lt;/i&gt; : Snapshots owned by
+this account ID &lt;/li&gt; &lt;li&gt; &lt;code&gt;amazon&lt;/code&gt; : Snapshots owned by
+Amazon &lt;/li&gt; &lt;/ul&gt; &lt;p&gt; The values &lt;code&gt;self&lt;/code&gt; and
+&lt;code&gt;amazon&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ownerIds</Declaration>
+			
+			
+			<Anchor>//api/name/ownerIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/setRestorableByUserIds:</TokenIdentifier>
+			<Abstract type="html">An optional list of users. The described snapshots are scoped to only
+those snapshots from which these users can create volumes.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *restorableByUserIds</Declaration>
+			
+			
+			<Anchor>//api/name/restorableByUserIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotsRequest/restorableByUserIds</TokenIdentifier>
+			<Abstract type="html">An optional list of users. The described snapshots are scoped to only
+those snapshots from which these users can create volumes.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *restorableByUserIds</Declaration>
+			
+			
+			<Anchor>//api/name/restorableByUserIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Snapshots. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeSnapshotsRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Snapshots. For a
+complete reference to the available filter keys for this operation,
+see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/addSnapshotId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to snapshotIds.
+This function will alloc and init snapshotIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSnapshotId:(NSString *)snapshotIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSnapshotId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/addOwnerId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to ownerIds.
+This function will alloc and init ownerIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addOwnerId:(NSString *)ownerIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addOwnerId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/addRestorableByUserId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to restorableByUserIds.
+This function will alloc and init restorableByUserIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addRestorableByUserId:(NSString *)restorableByUserIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addRestorableByUserId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeSnapshotsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeSnapshotsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

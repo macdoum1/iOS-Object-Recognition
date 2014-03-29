@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESContent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESContent</TokenIdentifier>
+			<Abstract type="html">Content</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>
+			
+			<NodeRef refid="710"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESContent/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESContent/setData:</TokenIdentifier>
+			<Abstract type="html">The textual data of the content.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESContent/data</TokenIdentifier>
+			<Abstract type="html">The textual data of the content.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESContent/setCharset:</TokenIdentifier>
+			<Abstract type="html">The character set of the content.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *charset</Declaration>
+			
+			
+			<Anchor>//api/name/charset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESContent/charset</TokenIdentifier>
+			<Abstract type="html">The character set of the content.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *charset</Declaration>
+			
+			
+			<Anchor>//api/name/charset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESContent/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESContent.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

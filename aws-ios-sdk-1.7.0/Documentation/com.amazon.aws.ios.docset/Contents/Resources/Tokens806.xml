@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSSetEndpointAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSSetEndpointAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Set Endpoint Attributes</Abstract>
+			<DeclaredIn>SNSSetEndpointAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="806"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

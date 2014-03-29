@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeAccountAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeAccountAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Account Attributes Request</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="298"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAccountAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAccountAttributesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAccountAttributesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAccountAttributesRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">The value of the AttributeNames property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeAccountAttributesRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">The value of the AttributeNames property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAccountAttributesRequest/addAttributeName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeNames.
+This function will alloc and init attributeNames if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeName:(NSString *)attributeNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeAccountAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeAccountAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

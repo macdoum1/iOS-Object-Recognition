@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingBlockDeviceMapping.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingBlockDeviceMapping</TokenIdentifier>
+			<Abstract type="html">Block Device Mapping</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingBlockDeviceMapping/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingBlockDeviceMapping/setVirtualName:</TokenIdentifier>
+			<Abstract type="html">The virtual name associated with the device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingBlockDeviceMapping/virtualName</TokenIdentifier>
+			<Abstract type="html">The virtual name associated with the device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingBlockDeviceMapping/setDeviceName:</TokenIdentifier>
+			<Abstract type="html">The name of the device within Amazon EC2.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingBlockDeviceMapping/deviceName</TokenIdentifier>
+			<Abstract type="html">The name of the device within Amazon EC2.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingBlockDeviceMapping/setEbs:</TokenIdentifier>
+			<Abstract type="html">The Elastic Block Storage volume information.</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AutoScalingEbs *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingBlockDeviceMapping/ebs</TokenIdentifier>
+			<Abstract type="html">The Elastic Block Storage volume information.</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AutoScalingEbs *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingBlockDeviceMapping/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

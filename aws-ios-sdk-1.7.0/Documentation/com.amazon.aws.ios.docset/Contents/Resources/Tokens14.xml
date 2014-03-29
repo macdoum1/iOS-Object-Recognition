@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonSESClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonSESClient</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonSES.</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/deleteIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes the specified identity (email address or domain) from the list of verified identities.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESDeleteIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESDeleteIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESDeleteIdentityResponse *)deleteIdentity:(SESDeleteIdentityRequest *)deleteIdentityRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteIdentityRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteIdentity service method on
+AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DeleteIdentity service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteIdentity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/listVerifiedEmailAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a list containing all of the email addresses that have been verified.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain
+Verification. The ListIdentities action is now preferred.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESListVerifiedEmailAddressesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESListVerifiedEmailAddressesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESListVerifiedEmailAddressesResponse *)listVerifiedEmailAddresses:(SESListVerifiedEmailAddressesRequest *)listVerifiedEmailAddressesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listVerifiedEmailAddressesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+ListVerifiedEmailAddresses service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListVerifiedEmailAddresses service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/listVerifiedEmailAddresses:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/getSendStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns the user&apos;s sending statistics. The result is a list of data points, representing the last two weeks of sending
+activity.
+&lt;/p&gt;
+&lt;p&gt;
+Each data point in the list contains statistics for a 15-minute interval.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetSendStatisticsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetSendStatisticsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESGetSendStatisticsResponse *)getSendStatistics:(SESGetSendStatisticsRequest *)getSendStatisticsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getSendStatisticsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetSendStatistics service method
+on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetSendStatistics service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendStatistics:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/verifyEmailIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyEmailIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyEmailIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESVerifyEmailIdentityResponse *)verifyEmailIdentity:(SESVerifyEmailIdentityRequest *)verifyEmailIdentityRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>verifyEmailIdentityRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the VerifyEmailIdentity service
+method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the VerifyEmailIdentity service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyEmailIdentity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/getIdentityNotificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Given a list of verified identities (email addresses and/or domains), returns a structure describing identity
+notification attributes. For more information about feedback notification, see the  Amazon SES Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityNotificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESGetIdentityNotificationAttributesResponse *)getIdentityNotificationAttributes:(SESGetIdentityNotificationAttributesRequest *)getIdentityNotificationAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getIdentityNotificationAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+GetIdentityNotificationAttributes service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetIdentityNotificationAttributes service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityNotificationAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/verifyDomainDkim:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a set of DNS records, or &lt;i&gt;tokens&lt;/i&gt; , that must be published in the domain name&apos;s DNS to complete the DKIM
+verification process. These tokens are DNS CNAME records that point to DKIM public keys hosted by Amazon SES. To
+complete the DKIM verification process, these tokens must be published in the domain&apos;s DNS. The tokens must remain
+published in order for Easy DKIM signing to function correctly.
+&lt;/p&gt;
+&lt;p&gt;
+After the tokens are added to the domain&apos;s DNS, Amazon SES will be able to DKIM-sign email originating from that domain.
+To enable or disable Easy DKIM signing for a domain, use the SetIdentityDkimEnabled action.
+&lt;/p&gt;
+&lt;p&gt;
+For more information about Easy DKIM, go to the 
+Amazon SES Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESVerifyDomainDkimResponse *)verifyDomainDkim:(SESVerifyDomainDkimRequest *)verifyDomainDkimRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>verifyDomainDkimRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the VerifyDomainDkim service method on
+AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the VerifyDomainDkim service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainDkim:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/getIdentityDkimAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns the DNS records, or &lt;i&gt;tokens&lt;/i&gt; , that must be present in order for Easy DKIM to sign outgoing email messages.
+&lt;/p&gt;
+&lt;p&gt;
+This action takes a list of verified identities as input. It then returns the following information for each identity:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityDkimAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityDkimAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESGetIdentityDkimAttributesResponse *)getIdentityDkimAttributes:(SESGetIdentityDkimAttributesRequest *)getIdentityDkimAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getIdentityDkimAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetIdentityDkimAttributes
+service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetIdentityDkimAttributes service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityDkimAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/verifyEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The
+VerifyEmailIdentity action is now preferred.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyEmailAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyEmailAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESVerifyEmailAddressResponse *)verifyEmailAddress:(SESVerifyEmailAddressRequest *)verifyEmailAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>verifyEmailAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the VerifyEmailAddress service method
+on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyEmailAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/sendRawEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Sends an email message, with header and content specified by the client. The SendRawEmail action is useful for sending
+multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message
+cannot be sent.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+&lt;/p&gt;
+&lt;p&gt;
+The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.
+&lt;/p&gt;
+&lt;p&gt;
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+&lt;/p&gt;
+&lt;p&gt;
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your &lt;i&gt;sending
+quota&lt;/i&gt; - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the &quot;Managing Your Sending Activity&quot; section of the Amazon SES Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSendRawEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSendRawEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESSendRawEmailResponse *)sendRawEmail:(SESSendRawEmailRequest *)sendRawEmailRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sendRawEmailRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SendRawEmail service method on
+AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SendRawEmail service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendRawEmail:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/listIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a list containing all of the identities (email addresses and domains) for a specific AWS Account, regardless of
+verification status.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESListIdentitiesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESListIdentitiesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESListIdentitiesResponse *)listIdentities:(SESListIdentitiesRequest *)listIdentitiesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listIdentitiesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListIdentities service method on
+AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListIdentities service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentities:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/getIdentityVerificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities)
+the verification token for each identity.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityVerificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESGetIdentityVerificationAttributesResponse *)getIdentityVerificationAttributes:(SESGetIdentityVerificationAttributesRequest *)getIdentityVerificationAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getIdentityVerificationAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+GetIdentityVerificationAttributes service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetIdentityVerificationAttributes service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityVerificationAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/setIdentityDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Enables or disables Easy DKIM signing of email sent from an identity:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityDkimEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityDkimEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESSetIdentityDkimEnabledResponse *)setIdentityDkimEnabled:(SESSetIdentityDkimEnabledRequest *)setIdentityDkimEnabledRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setIdentityDkimEnabledRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SetIdentityDkimEnabled
+service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SetIdentityDkimEnabled service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityDkimEnabled:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/getSendQuota:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns the user&apos;s current sending limits.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetSendQuotaRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESGetSendQuotaResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESGetSendQuotaResponse *)getSendQuota:(SESGetSendQuotaRequest *)getSendQuotaRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getSendQuotaRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetSendQuota service method on
+AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetSendQuota service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendQuota:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/setIdentityFeedbackForwardingEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Given an identity (email address or domain), enables or disables whether Amazon SES forwards feedback notifications as
+email. Feedback forwarding may only be disabled when both complaint and bounce topics are set. For more information
+about feedback notification, see the  Amazon SES
+Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityFeedbackForwardingEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESSetIdentityFeedbackForwardingEnabledResponse *)setIdentityFeedbackForwardingEnabled:(SESSetIdentityFeedbackForwardingEnabledRequest *)setIdentityFeedbackForwardingEnabledRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setIdentityFeedbackForwardingEnabledRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetIdentityFeedbackForwardingEnabled service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SetIdentityFeedbackForwardingEnabled service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityFeedbackForwardingEnabled:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/verifyDomainIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Verifies a domain.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESVerifyDomainIdentityResponse *)verifyDomainIdentity:(SESVerifyDomainIdentityRequest *)verifyDomainIdentityRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>verifyDomainIdentityRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the VerifyDomainIdentity service
+method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the VerifyDomainIdentity service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainIdentity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/sendEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Composes an email message based on input data, and then immediately queues the message for sending.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+&lt;/p&gt;
+&lt;p&gt;
+The total size of the message cannot exceed 10 MB.
+&lt;/p&gt;
+&lt;p&gt;
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+&lt;/p&gt;
+&lt;p&gt;
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your &lt;i&gt;sending
+quota&lt;/i&gt; - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the &quot;Managing Your Sending Activity&quot; section of the Amazon SES Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSendEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSendEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESSendEmailResponse *)sendEmail:(SESSendEmailRequest *)sendEmailRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sendEmailRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SendEmail service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SendEmail service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendEmail:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/deleteVerifiedEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes the specified email address from the list of verified addresses.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain
+Verification. The DeleteIdentity action is now preferred.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESDeleteVerifiedEmailAddressRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESDeleteVerifiedEmailAddressResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESDeleteVerifiedEmailAddressResponse *)deleteVerifiedEmailAddress:(SESDeleteVerifiedEmailAddressRequest *)deleteVerifiedEmailAddressRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteVerifiedEmailAddressRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DeleteVerifiedEmailAddress service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteVerifiedEmailAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSESClient/setIdentityNotificationTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Given an identity (email address or domain), sets the Amazon SNS topic to which Amazon SES will publish bounce and
+complaint notifications for emails sent with that identity as the Source .
+Publishing to topics may only be disabled when feedback forwarding is enabled. For more information about
+feedback notification, see the  Amazon SES
+Developer Guide  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSESClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityNotificationTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityNotificationTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SESSetIdentityNotificationTopicResponse *)setIdentityNotificationTopic:(SESSetIdentityNotificationTopicRequest *)setIdentityNotificationTopicRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setIdentityNotificationTopicRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetIdentityNotificationTopic service method on AmazonSES.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SetIdentityNotificationTopic service method, as returned by AmazonSES.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityNotificationTopic:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

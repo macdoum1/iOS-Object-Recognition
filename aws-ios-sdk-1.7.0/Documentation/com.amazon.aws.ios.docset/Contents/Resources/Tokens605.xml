@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CORSRule.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CORSRule</TokenIdentifier>
+			<Abstract type="html">Container for rules of cross origin configuration.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>
+			
+			<NodeRef refid="605"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setRuleId:</TokenIdentifier>
+			<Abstract type="html">The Id of this rule.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
+			
+			
+			<Anchor>//api/name/ruleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/ruleId</TokenIdentifier>
+			<Abstract type="html">The Id of this rule.</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
+			
+			
+			<Anchor>//api/name/ruleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedMethods:</TokenIdentifier>
+			<Abstract type="html">The list of allowed methods (GET, PUT, DELETE, HEAD)</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedMethods</Declaration>
+			
+			
+			<Anchor>//api/name/allowedMethods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedMethods</TokenIdentifier>
+			<Abstract type="html">The list of allowed methods (GET, PUT, DELETE, HEAD)</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedMethods</Declaration>
+			
+			
+			<Anchor>//api/name/allowedMethods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedOrigins:</TokenIdentifier>
+			<Abstract type="html">The list of allowed origins</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedOrigins</Declaration>
+			
+			
+			<Anchor>//api/name/allowedOrigins</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedOrigins</TokenIdentifier>
+			<Abstract type="html">The list of allowed origins</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedOrigins</Declaration>
+			
+			
+			<Anchor>//api/name/allowedOrigins</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setMaxAgeSeconds:</TokenIdentifier>
+			<Abstract type="html">Maximum age for this rule</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxAgeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/maxAgeSeconds</TokenIdentifier>
+			<Abstract type="html">Maximum age for this rule</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxAgeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setExposeHeaders:</TokenIdentifier>
+			<Abstract type="html">The list of exposed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *exposeHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/exposeHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/exposeHeaders</TokenIdentifier>
+			<Abstract type="html">The list of exposed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *exposeHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/exposeHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CORSRule/setAllowedHeaders:</TokenIdentifier>
+			<Abstract type="html">The list of allowed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/allowedHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CORSRule/allowedHeaders</TokenIdentifier>
+			<Abstract type="html">The list of allowed headers</Abstract>
+			<DeclaredIn>S3CORSRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *allowedHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/allowedHeaders</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

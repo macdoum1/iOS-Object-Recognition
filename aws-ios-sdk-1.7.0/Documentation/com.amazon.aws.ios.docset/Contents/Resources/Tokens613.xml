@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CopyPartRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CopyPartRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the uploadPart operation.</Abstract>
+			<DeclaredIn>S3CopyPartRequest.h</DeclaredIn>
+			
+			<NodeRef refid="613"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyPartRequest/setPartNumber:</TokenIdentifier>
+			<Abstract type="html">Identifies which part this is.</Abstract>
+			<DeclaredIn>S3CopyPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyPartRequest/partNumber</TokenIdentifier>
+			<Abstract type="html">Identifies which part this is.</Abstract>
+			<DeclaredIn>S3CopyPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyPartRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload that this part is for.</Abstract>
+			<DeclaredIn>S3CopyPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyPartRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload that this part is for.</Abstract>
+			<DeclaredIn>S3CopyPartRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

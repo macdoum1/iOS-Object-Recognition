@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSSendMessageBatchResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSendMessageBatchResponse</TokenIdentifier>
+			<Abstract type="html">Send Message Batch Result</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>
+			
+			<NodeRef refid="868"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/setSuccessful:</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt;s.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchResponse/successful</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt;s.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/setFailed:</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt;s with the error detail about
+each message that could not be enqueued.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchResponse/failed</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt;s with the error detail about
+each message that could not be enqueued.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/successfulObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the successful array for the specified index</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SQSSendMessageBatchResponseEntry *)successfulObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/successfulObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/failedObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the failed array for the specified index</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SQSBatchResponseErrorEntry *)failedObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/failedObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

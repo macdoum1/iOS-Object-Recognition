@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteBucketRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketRequest</TokenIdentifier>
+			<Abstract type="html">Request Object for Deleting the specified buckets.</Abstract>
+			<DeclaredIn>S3DeleteBucketRequest.h</DeclaredIn>
+			
+			<NodeRef refid="624"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

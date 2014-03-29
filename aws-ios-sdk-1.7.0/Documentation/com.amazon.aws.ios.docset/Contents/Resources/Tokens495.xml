@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Tag.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Tag</TokenIdentifier>
+			<Abstract type="html">Tag</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>
+			
+			<NodeRef refid="495"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/setKey:</TokenIdentifier>
+			<Abstract type="html">The tag&apos;s key.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Tag/key</TokenIdentifier>
+			<Abstract type="html">The tag&apos;s key.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/setValue:</TokenIdentifier>
+			<Abstract type="html">The tag&apos;s value.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Tag/value</TokenIdentifier>
+			<Abstract type="html">The tag&apos;s value.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new Tag object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/initWithKey:andValue:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Tag object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithKey:(NSString *)theKey andValue:(NSString *)theValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">The tag&apos;s key.</Abstract>
+				</Parameter><Parameter>
+					<Name>theValue</Name>
+					<Abstract type="html">The tag&apos;s value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithKey:andValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/initWithKey:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Tag object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithKey:(NSString *)theKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">The tag&apos;s key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Tag/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Tag.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

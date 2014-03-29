@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Grantee.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Grantee</TokenIdentifier>
+			<Abstract type="html">Represents an Owner/User/Group that can be given permissions
+on a bucket or object.
+&lt;p&gt;
+Use Either ID and displayName (for CanonicalUsers), URI (for Groups), or emailAddress (for Amazon customer email addresses).</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>
+			
+			<NodeRef refid="656"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grantee/setURI:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the URI property for group grantees</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Grantee/URI</TokenIdentifier>
+			<Abstract type="html">Gets and sets the URI property for group grantees</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grantee/setEmailAddress:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the emailAddress property for user grantees</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *emailAddress</Declaration>
+			
+			
+			<Anchor>//api/name/emailAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Grantee/emailAddress</TokenIdentifier>
+			<Abstract type="html">Gets and sets the emailAddress property for user grantees</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *emailAddress</Declaration>
+			
+			
+			<Anchor>//api/name/emailAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grantee/granteeWithID:withDisplayName:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized S3Grantee object representing a CanonicalUser with the specified ID and displayName.</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>+ (id)granteeWithID:(NSString *)theID withDisplayName:(NSString *)theDisplayName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theID</Name>
+					<Abstract type="html">The ID of the user.</Abstract>
+				</Parameter><Parameter>
+					<Name>theDisplayName</Name>
+					<Abstract type="html">The display name of the user.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized S3Grantee object representing a CanonicalUser with the specified ID and displayName.</Abstract></ReturnValue>
+			<Anchor>//api/name/granteeWithID:withDisplayName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grantee/granteeWithURI:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized S3Grantee representing a group with the specified URI.</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>+ (id)granteeWithURI:(NSString *)theURI</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theURI</Name>
+					<Abstract type="html">The URI for the group.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized S3Grantee representing a group with the specified URI.</Abstract></ReturnValue>
+			<Anchor>//api/name/granteeWithURI:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grantee/granteeWithEmailAddress:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized S3Grantee representing a user with the specified email address.</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>+ (id)granteeWithEmailAddress:(NSString *)theEmailAddress</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theEmailAddress</Name>
+					<Abstract type="html">The email address of the user.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized S3Grantee representing a user with the specified email address.</Abstract></ReturnValue>
+			<Anchor>//api/name/granteeWithEmailAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grantee/allUsers</TokenIdentifier>
+			<Abstract type="html">Represents the group of all users</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>+ (id)allUsers</Declaration>
+			
+			
+			<Anchor>//api/name/allUsers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Grantee/authenticatedUsers</TokenIdentifier>
+			<Abstract type="html">Represents the group of authenticated users</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>+ (id)authenticatedUsers</Declaration>
+			
+			
+			<Anchor>//api/name/authenticatedUsers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Grantee/toXml</TokenIdentifier>
+			<Abstract type="html">Returns the XML representation of the grantee</Abstract>
+			<DeclaredIn>S3Grantee.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)toXml</Declaration>
+			
+			
+			<Anchor>//api/name/toXml</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

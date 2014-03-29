@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketPolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketPolicy</TokenIdentifier>
+			<Abstract type="html">Represents a Amazon S3 bucket policy.
+Bucket policies provide access control management at the bucket level for
+both the bucket resource and contained object resources. Only one policy may
+be specified per bucket.</Abstract>
+			<DeclaredIn>S3BucketPolicy.h</DeclaredIn>
+			
+			<NodeRef refid="601"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketPolicy/setPolicyText:</TokenIdentifier>
+			<Abstract type="html">The raw, policy JSON text, as returned by Amazon S3</Abstract>
+			<DeclaredIn>S3BucketPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyText</Declaration>
+			
+			
+			<Anchor>//api/name/policyText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketPolicy/policyText</TokenIdentifier>
+			<Abstract type="html">The raw, policy JSON text, as returned by Amazon S3</Abstract>
+			<DeclaredIn>S3BucketPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyText</Declaration>
+			
+			
+			<Anchor>//api/name/policyText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketPolicy/initWithPolicy:</TokenIdentifier>
+			<Abstract type="html">Initialize the object with a policy</Abstract>
+			<DeclaredIn>S3BucketPolicy.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPolicy:(NSString *)policyText</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPolicy:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

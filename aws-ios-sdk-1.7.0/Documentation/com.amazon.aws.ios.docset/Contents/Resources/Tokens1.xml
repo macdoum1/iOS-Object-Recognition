@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonAbstractWebServiceClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonAbstractWebServiceClient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setEndpoint:</TokenIdentifier>
+			<Abstract type="html">The service endpoint to which requests should be sent.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *endpoint</Declaration>
+			
+			
+			<Anchor>//api/name/endpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/endpoint</TokenIdentifier>
+			<Abstract type="html">The service endpoint to which requests should be sent.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *endpoint</Declaration>
+			
+			
+			<Anchor>//api/name/endpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setMaxRetries:</TokenIdentifier>
+			<Abstract type="html">The maximum number of retry attempts for failed retryable requests
+(ex: 5xx error responses from a service).</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger maxRetries</Declaration>
+			
+			
+			<Anchor>//api/name/maxRetries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/maxRetries</TokenIdentifier>
+			<Abstract type="html">The maximum number of retry attempts for failed retryable requests
+(ex: 5xx error responses from a service).</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger maxRetries</Declaration>
+			
+			
+			<Anchor>//api/name/maxRetries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setTimeout:</TokenIdentifier>
+			<Abstract type="html">The amount of time to wait (in seconds) for a request to complete.  This
+includes the time to establish connection and transfer data.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/timeout</TokenIdentifier>
+			<Abstract type="html">The amount of time to wait (in seconds) for a request to complete.  This
+includes the time to establish connection and transfer data.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setConnectionTimeout:</TokenIdentifier>
+			<Abstract type="html">The timeoutInterval to applied to the underlying NSURLConnection.  This
+value has a minimum effective value as defined by the operation and version
+of iOS.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval connectionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/connectionTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/connectionTimeout</TokenIdentifier>
+			<Abstract type="html">The timeoutInterval to applied to the underlying NSURLConnection.  This
+value has a minimum effective value as defined by the operation and version
+of iOS.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval connectionTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/connectionTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setDelay:</TokenIdentifier>
+			<Abstract type="html">The amount of time to pause between retries.  The pause time will grow exponentially
+for each retry on a single request.
+Default is 0.05 seconds.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval delay</Declaration>
+			
+			
+			<Anchor>//api/name/delay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/delay</TokenIdentifier>
+			<Abstract type="html">The amount of time to pause between retries.  The pause time will grow exponentially
+for each retry on a single request.
+Default is 0.05 seconds.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTimeInterval delay</Declaration>
+			
+			
+			<Anchor>//api/name/delay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/setUserAgent:</TokenIdentifier>
+			<Abstract type="html">The HTTP user agent header to send with all requests.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userAgent</Declaration>
+			
+			
+			<Anchor>//api/name/userAgent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonAbstractWebServiceClient/userAgent</TokenIdentifier>
+			<Abstract type="html">The HTTP user agent header to send with all requests.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userAgent</Declaration>
+			
+			
+			<Anchor>//api/name/userAgent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/initWithCredentials:</TokenIdentifier>
+			<Abstract type="html">Inits the client with the given credentials.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCredentials:(AmazonCredentials *)credentials</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCredentials:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/initWithCredentialsProvider:</TokenIdentifier>
+			<Abstract type="html">Inits the client with a credentials provider which will provide refreshable credentials</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCredentialsProvider:(id&lt;AmazonCredentialsProvider&gt;)provider</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCredentialsProvider:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonAbstractWebServiceClient/constructResponseFromRequest:</TokenIdentifier>
+			<Abstract type="html">Constructs an empty response object of the appropriate type to match the given request
+object.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>+ (AmazonServiceResponse *)constructResponseFromRequest:(AmazonServiceRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An instance of a subclass of AmazonServiceRequest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the appropriate subclass of AmazonServiceResponse, or
+an instance of AmazonServiceResponse if there is no response class to
+match the instance passed in.</Abstract></ReturnValue>
+			<Anchor>//api/name/constructResponseFromRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonAbstractWebServiceClient/invoke:rawRequest:unmarshallerDelegate:</TokenIdentifier>
+			<Abstract type="html">Utility method that sends the raw S3 Request to be processed.</Abstract>
+			<DeclaredIn>AmazonAbstractWebServiceClient.h</DeclaredIn>			
+			
+			<Declaration>- (AmazonServiceResponse *)invoke:(AmazonServiceRequest *)generatedRequest rawRequest:(AmazonServiceRequestConfig *)originalRequest unmarshallerDelegate:(Class)unmarshallerDelegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An AmazonServiceRequest describing the parameters of a request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the service.</Abstract></ReturnValue>
+			<Anchor>//api/name/invoke:rawRequest:unmarshallerDelegate:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESDeleteVerifiedEmailAddressResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESDeleteVerifiedEmailAddressResponse</TokenIdentifier>
+			<Abstract type="html">Delete Verified Email Address</Abstract>
+			<DeclaredIn>SESDeleteVerifiedEmailAddressResponse.h</DeclaredIn>
+			
+			<NodeRef refid="714"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

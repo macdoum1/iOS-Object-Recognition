@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceGetSessionTokenRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetSessionTokenRequest</TokenIdentifier>
+			<Abstract type="html">Get Session Token Request</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>
+			
+			<NodeRef refid="887"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetSessionTokenRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, that the credentials should remain valid.
+Acceptable durations for IAM user sessions range from 900 seconds (15
+minutes) to 129600 seconds (36 hours), with 43200 seconds (12 hours)
+as the default. Sessions for AWS account owners are restricted to a
+maximum of 3600 seconds (one hour). If the duration is longer than one
+hour, the session for AWS account owners defaults to one hour.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 129600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetSessionTokenRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, that the credentials should remain valid.
+Acceptable durations for IAM user sessions range from 900 seconds (15
+minutes) to 129600 seconds (36 hours), with 43200 seconds (12 hours)
+as the default. Sessions for AWS account owners are restricted to a
+maximum of 3600 seconds (one hour). If the duration is longer than one
+hour, the session for AWS account owners defaults to one hour.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 129600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetSessionTokenRequest/setSerialNumber:</TokenIdentifier>
+			<Abstract type="html">The identification number of the MFA device that is associated with
+the IAM user who is making the &lt;code&gt;GetSessionToken&lt;/code&gt; call.
+Specify this value if the IAM user has a policy that requires MFA
+authentication. The value is either the serial number for a hardware
+device (such as &lt;code&gt;GAHT12345678&lt;/code&gt;) or an Amazon Resource Name
+(ARN) for a virtual device (such as
+&lt;code&gt;arn:aws:iam::123456789012:mfa/user&lt;/code&gt;). You can find the
+device for an IAM user by going to the AWS Management Console and
+viewing the user&apos;s security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;9 - 256&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=/:,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetSessionTokenRequest/serialNumber</TokenIdentifier>
+			<Abstract type="html">The identification number of the MFA device that is associated with
+the IAM user who is making the &lt;code&gt;GetSessionToken&lt;/code&gt; call.
+Specify this value if the IAM user has a policy that requires MFA
+authentication. The value is either the serial number for a hardware
+device (such as &lt;code&gt;GAHT12345678&lt;/code&gt;) or an Amazon Resource Name
+(ARN) for a virtual device (such as
+&lt;code&gt;arn:aws:iam::123456789012:mfa/user&lt;/code&gt;). You can find the
+device for an IAM user by going to the AWS Management Console and
+viewing the user&apos;s security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;9 - 256&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=/:,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/serialNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetSessionTokenRequest/setTokenCode:</TokenIdentifier>
+			<Abstract type="html">The value provided by the MFA device, if MFA is required. If any
+policy requires the IAM user to submit an MFA code, specify this
+value. If MFA authentication is required, and the user does not
+provide a code when requesting a set of temporary security
+credentials, the user will receive an &quot;access denied&quot; response when
+requesting resources that require MFA authentication.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;6 - 6&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\d]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tokenCode</Declaration>
+			
+			
+			<Anchor>//api/name/tokenCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetSessionTokenRequest/tokenCode</TokenIdentifier>
+			<Abstract type="html">The value provided by the MFA device, if MFA is required. If any
+policy requires the IAM user to submit an MFA code, specify this
+value. If MFA authentication is required, and the user does not
+provide a code when requesting a set of temporary security
+credentials, the user will receive an &quot;access denied&quot; response when
+requesting resources that require MFA authentication.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;6 - 6&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\d]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tokenCode</Declaration>
+			
+			
+			<Anchor>//api/name/tokenCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetSessionTokenRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetSessionTokenRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetSessionTokenRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetSessionTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

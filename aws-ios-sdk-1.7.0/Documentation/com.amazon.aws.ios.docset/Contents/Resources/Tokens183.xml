@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBDeleteTableResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBDeleteTableResponse</TokenIdentifier>
+			<Abstract type="html">Delete Table Result</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>
+			
+			<NodeRef refid="183"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteTableResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteTableResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteTableResponse/setTableDescription:</TokenIdentifier>
+			<Abstract type="html">Contains the properties of a table.</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBTableDescription *tableDescription</Declaration>
+			
+			
+			<Anchor>//api/name/tableDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteTableResponse/tableDescription</TokenIdentifier>
+			<Abstract type="html">Contains the properties of a table.</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBTableDescription *tableDescription</Declaration>
+			
+			
+			<Anchor>//api/name/tableDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteTableResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBDeleteTableResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

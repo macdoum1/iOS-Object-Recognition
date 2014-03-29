@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2BundleTask.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2BundleTask</TokenIdentifier>
+			<Abstract type="html">Bundle Task</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>
+			
+			<NodeRef refid="238"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">Instance associated with this bundle task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/instanceId</TokenIdentifier>
+			<Abstract type="html">Instance associated with this bundle task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setBundleId:</TokenIdentifier>
+			<Abstract type="html">Unique identifier for this task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bundleId</Declaration>
+			
+			
+			<Anchor>//api/name/bundleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/bundleId</TokenIdentifier>
+			<Abstract type="html">Unique identifier for this task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bundleId</Declaration>
+			
+			
+			<Anchor>//api/name/bundleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setState:</TokenIdentifier>
+			<Abstract type="html">The state of this task.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, waiting-for-shutdown, bundling, storing, cancelling, complete, failed</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/state</TokenIdentifier>
+			<Abstract type="html">The state of this task.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, waiting-for-shutdown, bundling, storing, cancelling, complete, failed</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setStartTime:</TokenIdentifier>
+			<Abstract type="html">The time this task started.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/startTime</TokenIdentifier>
+			<Abstract type="html">The time this task started.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setUpdateTime:</TokenIdentifier>
+			<Abstract type="html">The time of the most recent update for the task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/updateTime</TokenIdentifier>
+			<Abstract type="html">The time of the most recent update for the task.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *updateTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setStorage:</TokenIdentifier>
+			<Abstract type="html">Amazon S3 storage locations.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Storage *storage</Declaration>
+			
+			
+			<Anchor>//api/name/storage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/storage</TokenIdentifier>
+			<Abstract type="html">Amazon S3 storage locations.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Storage *storage</Declaration>
+			
+			
+			<Anchor>//api/name/storage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setProgress:</TokenIdentifier>
+			<Abstract type="html">The level of task completion, in percent (e.g., 20%).</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/progress</TokenIdentifier>
+			<Abstract type="html">The level of task completion, in percent (e.g., 20%).</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/setBundleTaskError:</TokenIdentifier>
+			<Abstract type="html">If the task fails, a description of the error.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2BundleTaskError *bundleTaskError</Declaration>
+			
+			
+			<Anchor>//api/name/bundleTaskError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2BundleTask/bundleTaskError</TokenIdentifier>
+			<Abstract type="html">If the task fails, a description of the error.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2BundleTaskError *bundleTaskError</Declaration>
+			
+			
+			<Anchor>//api/name/bundleTaskError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2BundleTask/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2BundleTask.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

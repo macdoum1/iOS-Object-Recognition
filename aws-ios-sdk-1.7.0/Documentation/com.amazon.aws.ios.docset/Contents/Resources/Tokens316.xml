@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeInstanceStatusRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceStatusRequest</TokenIdentifier>
+			<Abstract type="html">Describe Instance Status Request</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>
+			
+			<NodeRef refid="316"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">The list of instance IDs. If not specified, all instances are
+described.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">The list of instance IDs. If not specified, all instances are
+described.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">The list of filters to limit returned results.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/filters</TokenIdentifier>
+			<Abstract type="html">The list of filters to limit returned results.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">The maximum number of paginated instance items per response.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">The maximum number of paginated instance items per response.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/setIncludeAllInstances:</TokenIdentifier>
+			<Abstract type="html">The value of the IncludeAllInstances property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL includeAllInstances</Declaration>
+			
+			
+			<Anchor>//api/name/includeAllInstances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceStatusRequest/includeAllInstances</TokenIdentifier>
+			<Abstract type="html">The value of the IncludeAllInstances property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL includeAllInstances</Declaration>
+			
+			
+			<Anchor>//api/name/includeAllInstances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/addInstanceId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instanceIds.
+This function will alloc and init instanceIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstanceId:(NSString *)instanceIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstanceId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceStatusRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceStatusRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

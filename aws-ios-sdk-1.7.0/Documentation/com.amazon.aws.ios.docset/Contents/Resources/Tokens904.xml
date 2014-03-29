@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBCreateDomainResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBCreateDomainResponse</TokenIdentifier>
+			<Abstract type="html">Create Domain</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainResponse.h</DeclaredIn>
+			
+			<NodeRef refid="904"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

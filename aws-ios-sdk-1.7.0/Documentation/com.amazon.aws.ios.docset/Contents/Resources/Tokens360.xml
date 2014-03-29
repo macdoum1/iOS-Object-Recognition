@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DetachVolumeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DetachVolumeRequest</TokenIdentifier>
+			<Abstract type="html">Detach Volume Request</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="360"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DetachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The ID of the volume to detach.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DetachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">The ID of the volume to detach.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance from which to detach the the specified volume.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DetachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance from which to detach the the specified volume.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/setDevice:</TokenIdentifier>
+			<Abstract type="html">The device name to which the volume is attached on the specified
+instance.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DetachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">The device name to which the volume is attached on the specified
+instance.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/setForce:</TokenIdentifier>
+			<Abstract type="html">Forces detachment if the previous detachment attempt did not occur
+cleanly (logging into an instance, unmounting the volume, and
+detaching normally). &lt;p&gt; This option can lead to data loss or a
+corrupted file system. Use this option only as a last resort to detach
+a volume from a failed instance. The instance will not have an
+opportunity to flush file system caches nor file system meta data. If
+you use this option, you must perform file system check and repair
+procedures.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL force</Declaration>
+			
+			
+			<Anchor>//api/name/force</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DetachVolumeRequest/force</TokenIdentifier>
+			<Abstract type="html">Forces detachment if the previous detachment attempt did not occur
+cleanly (logging into an instance, unmounting the volume, and
+detaching normally). &lt;p&gt; This option can lead to data loss or a
+corrupted file system. Use this option only as a last resort to detach
+a volume from a failed instance. The instance will not have an
+opportunity to flush file system caches nor file system meta data. If
+you use this option, you must perform file system check and repair
+procedures.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL force</Declaration>
+			
+			
+			<Anchor>//api/name/force</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DetachVolumeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/initWithVolumeId:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DetachVolumeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithVolumeId:(NSString *)theVolumeId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theVolumeId</Name>
+					<Abstract type="html">The ID of the volume to detach.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithVolumeId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DetachVolumeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DetachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

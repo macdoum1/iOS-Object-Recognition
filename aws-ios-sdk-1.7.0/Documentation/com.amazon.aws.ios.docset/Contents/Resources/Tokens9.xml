@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonElasticLoadBalancingClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonElasticLoadBalancingClient</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonElasticLoadBalancing.</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/describeLoadBalancerPolicyTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns meta-information on the specified LoadBalancer policies defined by the Elastic Load Balancing service. The
+policy types that are returned from this action can be used in a CreateLoadBalancerPolicy action to instantiate specific
+policy configurations that will be applied to an Elastic LoadBalancer.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse *)describeLoadBalancerPolicyTypes:(ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest *)describeLoadBalancerPolicyTypesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeLoadBalancerPolicyTypesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeLoadBalancerPolicyTypes service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeLoadBalancerPolicyTypes service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancerPolicyTypes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/configureHealthCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Enables the client to define an application healthcheck for the instances.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingConfigureHealthCheckRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingConfigureHealthCheckResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingConfigureHealthCheckResponse *)configureHealthCheck:(ElasticLoadBalancingConfigureHealthCheckRequest *)configureHealthCheckRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configureHealthCheckRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ConfigureHealthCheck service
+method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ConfigureHealthCheck service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/configureHealthCheck:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/detachLoadBalancerFromSubnets:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Removes subnets from the set of configured subnets in the VPC for the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+After a subnet is removed all of the EndPoints registered with the LoadBalancer that are in the removed subnet will go
+into the &lt;i&gt;OutOfService&lt;/i&gt; state. When a subnet is removed, the LoadBalancer will balance the traffic among the
+remaining routable subnets for the LoadBalancer.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse *)detachLoadBalancerFromSubnets:(ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest *)detachLoadBalancerFromSubnetsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>detachLoadBalancerFromSubnetsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DetachLoadBalancerFromSubnets service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DetachLoadBalancerFromSubnets service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachLoadBalancerFromSubnets:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/describeLoadBalancerPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns detailed descriptions of the policies. If you specify a LoadBalancer name, the operation returns either the
+descriptions of the specified policies, or descriptions of all the policies created for the LoadBalancer. If you don&apos;t
+specify a LoadBalancer name, the operation returns descriptions of the specified sample policies, or descriptions of all
+the sample policies. The names of the sample policies have the ELBSample- prefix.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDescribeLoadBalancerPoliciesResponse *)describeLoadBalancerPolicies:(ElasticLoadBalancingDescribeLoadBalancerPoliciesRequest *)describeLoadBalancerPoliciesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeLoadBalancerPoliciesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DescribeLoadBalancerPolicies service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeLoadBalancerPolicies service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancerPolicies:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/setLoadBalancerPoliciesOfListener:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Associates, updates, or disables a policy with a listener on the LoadBalancer. You can associate multiple policies with
+a listener.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerResponse *)setLoadBalancerPoliciesOfListener:(ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerRequest *)setLoadBalancerPoliciesOfListenerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setLoadBalancerPoliciesOfListenerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetLoadBalancerPoliciesOfListener service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SetLoadBalancerPoliciesOfListener service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoadBalancerPoliciesOfListener:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/disableAvailabilityZonesForLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Removes the specified EC2 Availability Zones from the set of configured Availability Zones for the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+There must be at least one Availability Zone registered with a LoadBalancer at all times. A client cannot remove all
+the Availability Zones from a LoadBalancer. Once an Availability Zone is removed, all the instances registered with the
+LoadBalancer that are in the removed Availability Zone go into the OutOfService state. Upon Availability Zone removal,
+the LoadBalancer attempts to equally balance the traffic among its remaining usable Availability Zones. Trying to remove
+an Availability Zone that was not associated with the LoadBalancer does nothing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerResponse *)disableAvailabilityZonesForLoadBalancer:(ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest *)disableAvailabilityZonesForLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>disableAvailabilityZonesForLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DisableAvailabilityZonesForLoadBalancer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DisableAvailabilityZonesForLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/disableAvailabilityZonesForLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/describeInstanceHealth:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns the current state of the instances of the specified LoadBalancer. If no instances are specified, the state of
+all the instances for the LoadBalancer is returned.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; The client must have created the specified input LoadBalancer in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeInstanceHealthRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeInstanceHealthResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDescribeInstanceHealthResponse *)describeInstanceHealth:(ElasticLoadBalancingDescribeInstanceHealthRequest *)describeInstanceHealthRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeInstanceHealthRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeInstanceHealth
+service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeInstanceHealth service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeInstanceHealth:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/deleteLoadBalancerPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes a policy from the LoadBalancer. The specified policy must not be enabled for any listeners.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDeleteLoadBalancerPolicyResponse *)deleteLoadBalancerPolicy:(ElasticLoadBalancingDeleteLoadBalancerPolicyRequest *)deleteLoadBalancerPolicyRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteLoadBalancerPolicyRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteLoadBalancerPolicy
+service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DeleteLoadBalancerPolicy service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteLoadBalancerPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/createLoadBalancerPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates a new policy that contains the necessary attributes depending on the policy type. Policies are settings that
+are saved for your Elastic LoadBalancer and that can be applied to the front-end listener, or the back-end application
+server, depending on your policy type.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingCreateLoadBalancerPolicyResponse *)createLoadBalancerPolicy:(ElasticLoadBalancingCreateLoadBalancerPolicyRequest *)createLoadBalancerPolicyRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createLoadBalancerPolicyRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateLoadBalancerPolicy
+service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateLoadBalancerPolicy service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLoadBalancerPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/enableAvailabilityZonesForLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Adds one or more EC2 Availability Zones to the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+The LoadBalancer evenly distributes requests across all its registered Availability Zones that contain instances. As a
+result, the client must ensure that its LoadBalancer is appropriately scaled for each registered Availability Zone.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; The new EC2 Availability Zones to be added must be in the same EC2 Region as the Availability Zones for
+which the LoadBalancer was created.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerResponse *)enableAvailabilityZonesForLoadBalancer:(ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerRequest *)enableAvailabilityZonesForLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enableAvailabilityZonesForLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+EnableAvailabilityZonesForLoadBalancer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the EnableAvailabilityZonesForLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/enableAvailabilityZonesForLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/createLoadBalancerListeners:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates one or more listeners on a LoadBalancer for the specified port. If a listener with the given port does not
+already exist, it will be created; otherwise, the properties of the new listener must match the properties of the
+existing listener.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerListenersRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerListenersResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingCreateLoadBalancerListenersResponse *)createLoadBalancerListeners:(ElasticLoadBalancingCreateLoadBalancerListenersRequest *)createLoadBalancerListenersRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createLoadBalancerListenersRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CreateLoadBalancerListeners service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createLoadBalancerListeners:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/createLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates a new LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+After the call has completed successfully, a new LoadBalancer is created; however, it will not be usable until at least
+one instance has been registered. When the LoadBalancer creation is completed, the client can check whether or not it is
+usable by using the DescribeInstanceHealth API. The LoadBalancer is usable as soon as any registered instance is
+&lt;i&gt;InService&lt;/i&gt; .</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingCreateLoadBalancerResponse *)createLoadBalancer:(ElasticLoadBalancingCreateLoadBalancerRequest *)createLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateLoadBalancer service method
+on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateLoadBalancer service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/deleteLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes the specified LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+If attempting to recreate the LoadBalancer, the client must reconfigure all the settings. The DNS name associated with
+a deleted LoadBalancer will no longer be usable. Once deleted, the name and associated DNS record of the LoadBalancer no
+longer exist and traffic sent to any of its IP addresses will no longer be delivered to client instances. The client
+will not receive the same DNS name even if a new LoadBalancer with same LoadBalancerName is created.
+&lt;/p&gt;
+&lt;p&gt;
+To successfully call this API, the client must provide the same account credentials as were used to create the
+LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; By design, if the LoadBalancer does not exist or has already been deleted, DeleteLoadBalancer still
+succeeds.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDeleteLoadBalancerResponse *)deleteLoadBalancer:(ElasticLoadBalancingDeleteLoadBalancerRequest *)deleteLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteLoadBalancer service method
+on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/setLoadBalancerPoliciesForBackendServer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Replaces the current set of policies associated with a port on which the back-end server is listening with a new set of
+policies. After the policies have been created using CreateLoadBalancerPolicy, they can be applied here as a list. At
+this time, only the back-end server authentication policy type can be applied to the back-end ports; this policy type is
+composed of multiple public key policies.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerResponse *)setLoadBalancerPoliciesForBackendServer:(ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest *)setLoadBalancerPoliciesForBackendServerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setLoadBalancerPoliciesForBackendServerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetLoadBalancerPoliciesForBackendServer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the SetLoadBalancerPoliciesForBackendServer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoadBalancerPoliciesForBackendServer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/deleteLoadBalancerListeners:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes listeners from the LoadBalancer for the specified port.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerListenersRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeleteLoadBalancerListenersResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDeleteLoadBalancerListenersResponse *)deleteLoadBalancerListeners:(ElasticLoadBalancingDeleteLoadBalancerListenersRequest *)deleteLoadBalancerListenersRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteLoadBalancerListenersRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DeleteLoadBalancerListeners service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteLoadBalancerListeners:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/deregisterInstancesFromLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deregisters instances from the LoadBalancer. Once the instance is deregistered, it will stop receiving traffic from the
+LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+In order to successfully call this API, the same account credentials as those used to create the LoadBalancer must be
+provided.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDeregisterInstancesFromLoadBalancerResponse *)deregisterInstancesFromLoadBalancer:(ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest *)deregisterInstancesFromLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deregisterInstancesFromLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DeregisterInstancesFromLoadBalancer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DeregisterInstancesFromLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/deregisterInstancesFromLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/setLoadBalancerListenerSSLCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Sets the certificate that terminates the specified listener&apos;s SSL connections. The specified certificate replaces any
+prior certificate that was used on the same LoadBalancer and port.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse *)setLoadBalancerListenerSSLCertificate:(ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateRequest *)setLoadBalancerListenerSSLCertificateRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setLoadBalancerListenerSSLCertificateRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetLoadBalancerListenerSSLCertificate service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLoadBalancerListenerSSLCertificate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/createLBCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Generates a stickiness policy with sticky session lifetimes controlled by the lifetime of the browser (user-agent) or a
+specified expiration period. This policy can be associated only with HTTP/HTTPS listeners.
+&lt;/p&gt;
+&lt;p&gt;
+When a LoadBalancer implements this policy, the LoadBalancer uses a special cookie to track the backend server instance
+for each request. When the LoadBalancer receives a request, it first checks to see if this cookie is present in the
+request. If so, the LoadBalancer sends the request to the application server specified in the cookie. If not, the
+LoadBalancer sends the request to a server that is chosen based on the existing load balancing algorithm.
+&lt;/p&gt;
+&lt;p&gt;
+A cookie is inserted into the response for binding subsequent requests from the same user to that server. The validity
+of the cookie is based on the cookie expiration time, which is specified in the policy configuration.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse *)createLBCookieStickinessPolicy:(ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest *)createLBCookieStickinessPolicyRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createLBCookieStickinessPolicyRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CreateLBCookieStickinessPolicy service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateLBCookieStickinessPolicy service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/createLBCookieStickinessPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/attachLoadBalancerToSubnets:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Adds one or more subnets to the set of configured subnets in the VPC for the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+The Loadbalancers evenly distribute requests across all of the registered subnets.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingAttachLoadBalancerToSubnetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse *)attachLoadBalancerToSubnets:(ElasticLoadBalancingAttachLoadBalancerToSubnetsRequest *)attachLoadBalancerToSubnetsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attachLoadBalancerToSubnetsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+AttachLoadBalancerToSubnets service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AttachLoadBalancerToSubnets service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachLoadBalancerToSubnets:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/createAppCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Generates a stickiness policy with sticky session lifetimes that follow that of an application-generated cookie. This
+policy can be associated only with HTTP/HTTPS listeners.
+&lt;/p&gt;
+&lt;p&gt;
+This policy is similar to the policy created by CreateLBCookieStickinessPolicy, except that the lifetime of the special
+Elastic Load Balancing cookie follows the lifetime of the application-generated cookie specified in the policy
+configuration. The LoadBalancer only inserts a new stickiness cookie when the application response includes a new
+application cookie.
+&lt;/p&gt;
+&lt;p&gt;
+If the application cookie is explicitly removed or expires, the session stops being sticky until a new application
+cookie is issued.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; An application client must receive and send two cookies: the application-generated cookie and the special
+Elastic Load Balancing cookie named AWSELB. This is the default behavior for many common web browsers.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateAppCookieStickinessPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateAppCookieStickinessPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingCreateAppCookieStickinessPolicyResponse *)createAppCookieStickinessPolicy:(ElasticLoadBalancingCreateAppCookieStickinessPolicyRequest *)createAppCookieStickinessPolicyRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createAppCookieStickinessPolicyRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+CreateAppCookieStickinessPolicy service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateAppCookieStickinessPolicy service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/createAppCookieStickinessPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/registerInstancesWithLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Adds new instances to the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+Once the instance is registered, it starts receiving traffic and requests from the LoadBalancer. Any instance that is
+not in any of the Availability Zones registered for the LoadBalancer will be moved to the &lt;i&gt;OutOfService&lt;/i&gt; state. It
+will move to the &lt;i&gt;InService&lt;/i&gt; state when the Availability Zone is added to the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Completion of this API does not guarantee that operation has completed. Rather, it means that the request
+has been registered and the changes will happen shortly.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse *)registerInstancesWithLoadBalancer:(ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest *)registerInstancesWithLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>registerInstancesWithLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+RegisterInstancesWithLoadBalancer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the RegisterInstancesWithLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerInstancesWithLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/applySecurityGroupsToLoadBalancer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Associates one or more security groups with your LoadBalancer in VPC. The provided security group IDs will override any
+currently applied security groups.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponse *)applySecurityGroupsToLoadBalancer:(ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequest *)applySecurityGroupsToLoadBalancerRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>applySecurityGroupsToLoadBalancerRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+ApplySecurityGroupsToLoadBalancer service method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ApplySecurityGroupsToLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/applySecurityGroupsToLoadBalancer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonElasticLoadBalancingClient/describeLoadBalancers:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns detailed configuration information for the specified LoadBalancers. If no LoadBalancers are specified, the
+operation returns configuration information for all LoadBalancers created by the caller.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; The client must have created the specified input LoadBalancers in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonElasticLoadBalancingClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancersRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancersResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (ElasticLoadBalancingDescribeLoadBalancersResponse *)describeLoadBalancers:(ElasticLoadBalancingDescribeLoadBalancersRequest *)describeLoadBalancersRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeLoadBalancersRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeLoadBalancers service
+method on AmazonElasticLoadBalancing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeLoadBalancers service method, as returned by AmazonElasticLoadBalancing.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeLoadBalancers:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

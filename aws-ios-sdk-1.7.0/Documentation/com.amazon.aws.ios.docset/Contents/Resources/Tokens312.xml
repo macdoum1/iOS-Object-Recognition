@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeImagesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeImagesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Images Request</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="312"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/setImageIds:</TokenIdentifier>
+			<Abstract type="html">An optional list of the AMI IDs to describe. If not specified, all
+AMIs will be described.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *imageIds</Declaration>
+			
+			
+			<Anchor>//api/name/imageIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesRequest/imageIds</TokenIdentifier>
+			<Abstract type="html">An optional list of the AMI IDs to describe. If not specified, all
+AMIs will be described.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *imageIds</Declaration>
+			
+			
+			<Anchor>//api/name/imageIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/setOwners:</TokenIdentifier>
+			<Abstract type="html">An optional list of owners by which to scope the described AMIs. Valid
+values are: &lt;ul&gt; &lt;li&gt; &lt;code&gt;self&lt;/code&gt; : AMIs owned by you &lt;/li&gt; &lt;li&gt;
+&lt;i&gt;AWS account ID&lt;/i&gt; : AMIs owned by this account ID &lt;/li&gt; &lt;li&gt;
+&lt;code&gt;aws-marketplace&lt;/code&gt; : AMIs owned by the AWS Marketplace &lt;/li&gt;
+&lt;li&gt; &lt;code&gt;amazon&lt;/code&gt; : AMIs owned by Amazon &lt;/li&gt; &lt;li&gt;
+&lt;code&gt;all&lt;/code&gt; : Do not scope the AMIs returned by owner &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt; The values &lt;code&gt;self&lt;/code&gt;, &lt;code&gt;aws-marketplace&lt;/code&gt;,
+&lt;code&gt;amazon&lt;/code&gt;, and &lt;code&gt;all&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *owners</Declaration>
+			
+			
+			<Anchor>//api/name/owners</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesRequest/owners</TokenIdentifier>
+			<Abstract type="html">An optional list of owners by which to scope the described AMIs. Valid
+values are: &lt;ul&gt; &lt;li&gt; &lt;code&gt;self&lt;/code&gt; : AMIs owned by you &lt;/li&gt; &lt;li&gt;
+&lt;i&gt;AWS account ID&lt;/i&gt; : AMIs owned by this account ID &lt;/li&gt; &lt;li&gt;
+&lt;code&gt;aws-marketplace&lt;/code&gt; : AMIs owned by the AWS Marketplace &lt;/li&gt;
+&lt;li&gt; &lt;code&gt;amazon&lt;/code&gt; : AMIs owned by Amazon &lt;/li&gt; &lt;li&gt;
+&lt;code&gt;all&lt;/code&gt; : Do not scope the AMIs returned by owner &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt; The values &lt;code&gt;self&lt;/code&gt;, &lt;code&gt;aws-marketplace&lt;/code&gt;,
+&lt;code&gt;amazon&lt;/code&gt;, and &lt;code&gt;all&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *owners</Declaration>
+			
+			
+			<Anchor>//api/name/owners</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/setExecutableUsers:</TokenIdentifier>
+			<Abstract type="html">An optional list of users whose launch permissions will be used to
+scope the described AMIs. Valid values are: &lt;ul&gt; &lt;li&gt;
+&lt;code&gt;self&lt;/code&gt; : AMIs for which you have explicit launch
+permissions &lt;/li&gt; &lt;li&gt; &lt;code&gt;AWS account ID&lt;/code&gt; : AMIs for which
+this account ID has launch permissions &lt;/li&gt; &lt;li&gt; &lt;code&gt;all&lt;/code&gt; :
+AMIs that have public launch permissions &lt;/li&gt; &lt;/ul&gt; &lt;p&gt; The values
+&lt;code&gt;self&lt;/code&gt; and &lt;code&gt;all&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *executableUsers</Declaration>
+			
+			
+			<Anchor>//api/name/executableUsers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesRequest/executableUsers</TokenIdentifier>
+			<Abstract type="html">An optional list of users whose launch permissions will be used to
+scope the described AMIs. Valid values are: &lt;ul&gt; &lt;li&gt;
+&lt;code&gt;self&lt;/code&gt; : AMIs for which you have explicit launch
+permissions &lt;/li&gt; &lt;li&gt; &lt;code&gt;AWS account ID&lt;/code&gt; : AMIs for which
+this account ID has launch permissions &lt;/li&gt; &lt;li&gt; &lt;code&gt;all&lt;/code&gt; :
+AMIs that have public launch permissions &lt;/li&gt; &lt;/ul&gt; &lt;p&gt; The values
+&lt;code&gt;self&lt;/code&gt; and &lt;code&gt;all&lt;/code&gt; are literals.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *executableUsers</Declaration>
+			
+			
+			<Anchor>//api/name/executableUsers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Images. For a complete
+reference to the available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeImagesRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for Images. For a complete
+reference to the available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/addImageId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to imageIds.
+This function will alloc and init imageIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addImageId:(NSString *)imageIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addImageId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/addOwner:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to owners.
+This function will alloc and init owners if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addOwner:(NSString *)ownerObject</Declaration>
+			
+			
+			<Anchor>//api/name/addOwner:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/addExecutableUser:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to executableUsers.
+This function will alloc and init executableUsers if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addExecutableUser:(NSString *)executableUserObject</Declaration>
+			
+			
+			<Anchor>//api/name/addExecutableUser:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeImagesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeImagesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

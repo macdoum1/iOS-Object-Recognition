@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2VolumeStatusItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2VolumeStatusItem</TokenIdentifier>
+			<Abstract type="html">Volume Status Item</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>
+			
+			<NodeRef refid="509"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeId property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeStatusItem/volumeId</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeId property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeStatusItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/setVolumeStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeStatus property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeStatusInfo *volumeStatus</Declaration>
+			
+			
+			<Anchor>//api/name/volumeStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeStatusItem/volumeStatus</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeStatus property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeStatusInfo *volumeStatus</Declaration>
+			
+			
+			<Anchor>//api/name/volumeStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/setEvents:</TokenIdentifier>
+			<Abstract type="html">The value of the Events property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeStatusItem/events</TokenIdentifier>
+			<Abstract type="html">The value of the Events property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/setActions:</TokenIdentifier>
+			<Abstract type="html">The value of the Actions property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actions</Declaration>
+			
+			
+			<Anchor>//api/name/actions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeStatusItem/actions</TokenIdentifier>
+			<Abstract type="html">The value of the Actions property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actions</Declaration>
+			
+			
+			<Anchor>//api/name/actions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/addEvent:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to events.
+This function will alloc and init events if not already done.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)addEvent:(EC2VolumeStatusEvent *)eventObject</Declaration>
+			
+			
+			<Anchor>//api/name/addEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/addAction:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to actions.
+This function will alloc and init actions if not already done.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAction:(EC2VolumeStatusAction *)actionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeStatusItem/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2VolumeStatusItem.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

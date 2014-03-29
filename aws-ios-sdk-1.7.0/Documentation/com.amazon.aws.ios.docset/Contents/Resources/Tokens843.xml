@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSGetQueueAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSGetQueueAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Get Queue Attributes Request</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="843"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSGetQueueAttributesRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">A list of attributes to retrieve information for.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSGetQueueAttributesRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">A list of attributes to retrieve information for.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetQueueAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/initWithQueueUrl:</TokenIdentifier>
+			<Abstract type="html">Constructs a new GetQueueAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/addAttributeName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeNames.
+This function will alloc and init attributeNames if not already done.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeName:(NSString *)attributeNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSGetQueueAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSGetQueueAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

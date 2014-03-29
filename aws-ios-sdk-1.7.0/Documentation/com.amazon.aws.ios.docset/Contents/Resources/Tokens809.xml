@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSSetSubscriptionAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSSetSubscriptionAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Set Subscription Attributes Request</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="809"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/setSubscriptionArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the subscription to modify.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetSubscriptionAttributesRequest/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the subscription to modify.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/setAttributeName:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute you want to set. Only a subset of the
+subscriptions attributes are mutable. &lt;p&gt;Valid values:
+&lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetSubscriptionAttributesRequest/attributeName</TokenIdentifier>
+			<Abstract type="html">The name of the attribute you want to set. Only a subset of the
+subscriptions attributes are mutable. &lt;p&gt;Valid values:
+&lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html">The new value for the attribute in JSON format.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetSubscriptionAttributesRequest/attributeValue</TokenIdentifier>
+			<Abstract type="html">The new value for the attribute in JSON format.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new SetSubscriptionAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/initWithSubscriptionArn:andAttributeName:andAttributeValue:</TokenIdentifier>
+			<Abstract type="html">Constructs a new SetSubscriptionAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSubscriptionArn:(NSString *)theSubscriptionArn andAttributeName:(NSString *)theAttributeName andAttributeValue:(NSString *)theAttributeValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theSubscriptionArn</Name>
+					<Abstract type="html">The ARN of the subscription to modify.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributeName</Name>
+					<Abstract type="html">The name of the attribute you want to set.
+Only a subset of the subscriptions attributes are mutable. &lt;p&gt;Valid
+values: &lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributeValue</Name>
+					<Abstract type="html">The new value for the attribute in JSON
+format.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSubscriptionArn:andAttributeName:andAttributeValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetSubscriptionAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSSetSubscriptionAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2AttachVolumeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2AttachVolumeRequest</TokenIdentifier>
+			<Abstract type="html">Attach Volume Request</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="229"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AttachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EBS volume. The volume and instance must be
+within the same Availability Zone and the instance must be running.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AttachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EBS volume. The volume and instance must be
+within the same Availability Zone and the instance must be running.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance to which the volume attaches. The volume and
+instance must be within the same Availability Zone and the instance
+must be running.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AttachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance to which the volume attaches. The volume and
+instance must be within the same Availability Zone and the instance
+must be running.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/setDevice:</TokenIdentifier>
+			<Abstract type="html">Specifies how the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AttachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">Specifies how the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new AttachVolumeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/initWithVolumeId:andInstanceId:andDevice:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttachVolumeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithVolumeId:(NSString *)theVolumeId andInstanceId:(NSString *)theInstanceId andDevice:(NSString *)theDevice</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theVolumeId</Name>
+					<Abstract type="html">The ID of the Amazon EBS volume. The volume and
+instance must be within the same Availability Zone and the instance
+must be running.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the instance to which the volume
+attaches. The volume and instance must be within the same Availability
+Zone and the instance must be running.</Abstract>
+				</Parameter><Parameter>
+					<Name>theDevice</Name>
+					<Abstract type="html">Specifies how the device is exposed to the instance
+(e.g., &lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithVolumeId:andInstanceId:andDevice:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AttachVolumeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2AttachVolumeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

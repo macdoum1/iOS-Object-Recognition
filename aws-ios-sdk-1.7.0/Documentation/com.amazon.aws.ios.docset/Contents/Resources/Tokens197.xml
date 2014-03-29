@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBLocalSecondaryIndex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBLocalSecondaryIndex</TokenIdentifier>
+			<Abstract type="html">Local Secondary Index</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>
+			
+			<NodeRef refid="197"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/setIndexName:</TokenIdentifier>
+			<Abstract type="html">Represents the name of the secondary index. The name must be unique
+among all other indexes on this table.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBLocalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">Represents the name of the secondary index. The name must be unique
+among all other indexes on this table.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *indexName</Declaration>
+			
+			
+			<Anchor>//api/name/indexName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">Represents the complete index key schema, which consists of one or
+more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or
+&lt;code&gt;RANGE&lt;/code&gt;).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBLocalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">Represents the complete index key schema, which consists of one or
+more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or
+&lt;code&gt;RANGE&lt;/code&gt;).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/setProjection:</TokenIdentifier>
+			<Abstract type="html">Represents attributes that are copied (projected) from the table into
+the index. These are in addition to the primary key attributes and
+index key attributes, which are automatically projected.</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBLocalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">Represents attributes that are copied (projected) from the table into
+the index. These are in addition to the primary key attributes and
+index key attributes, which are automatically projected.</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/addKeySchema:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to keySchema.
+This function will alloc and init keySchema if not already done.</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>- (void)addKeySchema:(DynamoDBKeySchemaElement *)keySchemaObject</Declaration>
+			
+			
+			<Anchor>//api/name/addKeySchema:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBLocalSecondaryIndex/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBLocalSecondaryIndex.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

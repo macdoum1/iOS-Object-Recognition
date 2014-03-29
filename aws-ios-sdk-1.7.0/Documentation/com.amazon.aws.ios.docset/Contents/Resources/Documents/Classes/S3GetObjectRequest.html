@@ -1,0 +1,1032 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>S3GetObjectRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">S3GetObjectRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/ifMatch">&nbsp;&nbsp;&nbsp;&nbsp;ifMatch</option>
+	
+	<option value="//api/name/ifModifiedSince">&nbsp;&nbsp;&nbsp;&nbsp;ifModifiedSince</option>
+	
+	<option value="//api/name/ifNoneMatch">&nbsp;&nbsp;&nbsp;&nbsp;ifNoneMatch</option>
+	
+	<option value="//api/name/ifUnmodifiedSince">&nbsp;&nbsp;&nbsp;&nbsp;ifUnmodifiedSince</option>
+	
+	<option value="//api/name/outputStream">&nbsp;&nbsp;&nbsp;&nbsp;outputStream</option>
+	
+	<option value="//api/name/rangeEnd">&nbsp;&nbsp;&nbsp;&nbsp;rangeEnd</option>
+	
+	<option value="//api/name/rangeStart">&nbsp;&nbsp;&nbsp;&nbsp;rangeStart</option>
+	
+	<option value="//api/name/responseHeaderOverrides">&nbsp;&nbsp;&nbsp;&nbsp;responseHeaderOverrides</option>
+	
+	<option value="//api/name/targetFilePath">&nbsp;&nbsp;&nbsp;&nbsp;targetFilePath</option>
+	
+	<option value="//api/name/versionId">&nbsp;&nbsp;&nbsp;&nbsp;versionId</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/getRange">&nbsp;&nbsp;&nbsp;&nbsp;- getRange</option>
+	
+	<option value="//api/name/initWithKey:withBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithKey:withBucket:</option>
+	
+	<option value="//api/name/initWithKey:withBucket:withVersionId:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithKey:withBucket:withVersionId:</option>
+	
+	<option value="//api/name/setRangeStart:rangeEnd:">&nbsp;&nbsp;&nbsp;&nbsp;- setRangeStart:rangeEnd:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ifMatch">ifMatch</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ifModifiedSince">ifModifiedSince</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ifNoneMatch">ifNoneMatch</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ifUnmodifiedSince">ifUnmodifiedSince</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outputStream">outputStream</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rangeEnd">rangeEnd</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rangeStart">rangeStart</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responseHeaderOverrides">responseHeaderOverrides</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/targetFilePath">targetFilePath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/versionId">versionId</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getRange">getRange</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithKey:withBucket:">initWithKey:withBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithKey:withBucket:withVersionId:">initWithKey:withBucket:withVersionId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setRangeStart:rangeEnd:">setRangeStart:rangeEnd:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="S3GetObjectRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">S3GetObjectRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/S3Request.html">S3Request</a> : <a href="../Classes/AmazonServiceRequest.html">AmazonServiceRequest</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">S3GetObjectRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>contains the parameters used for the getObject operation.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rangeStart">&nbsp;&nbsp;rangeStart</a></code>
+		<span class="tooltip"><p>Specifies the starting index of the byte range to download</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rangeEnd">&nbsp;&nbsp;rangeEnd</a></code>
+		<span class="tooltip"><p>Specifies the end index of the byte range to download</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ifModifiedSince">&nbsp;&nbsp;ifModifiedSince</a></code>
+		<span class="tooltip"><p>Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ifUnmodifiedSince">&nbsp;&nbsp;ifUnmodifiedSince</a></code>
+		<span class="tooltip"><p>Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ifMatch">&nbsp;&nbsp;ifMatch</a></code>
+		<span class="tooltip"><p>Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/versionId">&nbsp;&nbsp;versionId</a></code>
+		<span class="tooltip"><p>Specifies the (optional) version to retrieve *</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ifNoneMatch">&nbsp;&nbsp;ifNoneMatch</a></code>
+		<span class="tooltip"><p>Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outputStream">&nbsp;&nbsp;outputStream</a></code>
+		<span class="tooltip"><p>Gets and Sets the output stream for the response data.</p>
+
+<p>
+If this is set, then the response will write the data
+to the supplied stream instead of making it available through
+the data property.
+</p>
+
+
+<p><p>
+The stream must be opened and scheduled in the desired runloop.
+The SDK will not close the stream.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responseHeaderOverrides">&nbsp;&nbsp;responseHeaderOverrides</a></code>
+		<span class="tooltip"><p>Specify one or more overrides to headers in the response to this request</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/targetFilePath">&nbsp;&nbsp;targetFilePath</a></code>
+		<span class="tooltip"><p>File path where the downloaded data will be stored</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithKey:withBucket:">&ndash;&nbsp;initWithKey:withBucket:</a></code>
+		<span class="tooltip"><p>Initialize the request setting the key and bucketName properties.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithKey:withBucket:withVersionId:">&ndash;&nbsp;initWithKey:withBucket:withVersionId:</a></code>
+		<span class="tooltip"><p>Initialize the request setting the key, bucketName and versionId properties.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setRangeStart:rangeEnd:">&ndash;&nbsp;setRangeStart:rangeEnd:</a></code>
+		<span class="tooltip"><p>sets the start and end of the range.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getRange">&ndash;&nbsp;getRange</a></code>
+		<span class="tooltip"><p>returns the range in the form &lsquo;bytes=start-end&rsquo;</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/ifMatch" title="ifMatch"></a>
+	<h3 class="subsubtitle method-title">ifMatch</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *ifMatch</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ifModifiedSince" title="ifModifiedSince"></a>
+	<h3 class="subsubtitle method-title">ifModifiedSince</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *ifModifiedSince</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ifNoneMatch" title="ifNoneMatch"></a>
+	<h3 class="subsubtitle method-title">ifNoneMatch</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *ifNoneMatch</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ifUnmodifiedSince" title="ifUnmodifiedSince"></a>
+	<h3 class="subsubtitle method-title">ifUnmodifiedSince</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *ifUnmodifiedSince</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outputStream" title="outputStream"></a>
+	<h3 class="subsubtitle method-title">outputStream</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets and Sets the output stream for the response data.</p>
+
+<p>
+If this is set, then the response will write the data
+to the supplied stream instead of making it available through
+the data property.
+</p>
+
+
+<p><p>
+The stream must be opened and scheduled in the desired runloop.
+The SDK will not close the stream.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSOutputStream *outputStream</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets and Sets the output stream for the response data.</p>
+
+<p>
+If this is set, then the response will write the data
+to the supplied stream instead of making it available through
+the data property.
+</p>
+
+
+<p><p>
+The stream must be opened and scheduled in the desired runloop.
+The SDK will not close the stream.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rangeEnd" title="rangeEnd"></a>
+	<h3 class="subsubtitle method-title">rangeEnd</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the end index of the byte range to download</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) int64_t rangeEnd</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the end index of the byte range to download</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rangeStart" title="rangeStart"></a>
+	<h3 class="subsubtitle method-title">rangeStart</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the starting index of the byte range to download</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) int64_t rangeStart</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the starting index of the byte range to download</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/responseHeaderOverrides" title="responseHeaderOverrides"></a>
+	<h3 class="subsubtitle method-title">responseHeaderOverrides</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specify one or more overrides to headers in the response to this request</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) S3ResponseHeaderOverrides *responseHeaderOverrides</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specify one or more overrides to headers in the response to this request</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/targetFilePath" title="targetFilePath"></a>
+	<h3 class="subsubtitle method-title">targetFilePath</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>File path where the downloaded data will be stored</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *targetFilePath</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>File path where the downloaded data will be stored</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/versionId" title="versionId"></a>
+	<h3 class="subsubtitle method-title">versionId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the (optional) version to retrieve *</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *versionId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the (optional) version to retrieve *</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/getRange" title="getRange"></a>
+	<h3 class="subsubtitle method-title">getRange</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the range in the form &lsquo;bytes=start-end&rsquo;</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)getRange</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>returns the range in the form &lsquo;bytes=start-end&rsquo;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithKey:withBucket:" title="initWithKey:withBucket:"></a>
+	<h3 class="subsubtitle method-title">initWithKey:withBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize the request setting the key and bucketName properties.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetObjectRequest *)initWithKey:(NSString *)<em>key</em> withBucket:(NSString *)<em>bucket</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initialize the request setting the key and bucketName properties.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithKey:withBucket:withVersionId:" title="initWithKey:withBucket:withVersionId:"></a>
+	<h3 class="subsubtitle method-title">initWithKey:withBucket:withVersionId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize the request setting the key, bucketName and versionId properties.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetObjectRequest *)initWithKey:(NSString *)<em>key</em> withBucket:(NSString *)<em>bucket</em> withVersionId:(NSString *)<em>versionId</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initialize the request setting the key, bucketName and versionId properties.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setRangeStart:rangeEnd:" title="setRangeStart:rangeEnd:"></a>
+	<h3 class="subsubtitle method-title">setRangeStart:rangeEnd:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>sets the start and end of the range.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setRangeStart:(int64_t)<em>start</em> rangeEnd:(int64_t)<em>end</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>sets the start and end of the range.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3GetObjectRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

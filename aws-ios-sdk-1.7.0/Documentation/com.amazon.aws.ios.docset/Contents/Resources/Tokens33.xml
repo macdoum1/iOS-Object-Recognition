@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingAutoScalingInstanceDetails.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingAutoScalingInstanceDetails</TokenIdentifier>
+			<Abstract type="html">Auto Scaling Instance Details</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The instance ID of the Amazon EC2 instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 16&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/instanceId</TokenIdentifier>
+			<Abstract type="html">The instance ID of the Amazon EC2 instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 16&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group associated with this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group associated with this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which this instance resides.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which this instance resides.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setLifecycleState:</TokenIdentifier>
+			<Abstract type="html">The life cycle state of this instance. for more information, see &lt;a
+ng/latest/DeveloperGuide/AS_Concepts.html#instance-lifecycle&quot;&gt;Instance
+Lifecycle State&lt;/a&gt; in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lifecycleState</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/lifecycleState</TokenIdentifier>
+			<Abstract type="html">The life cycle state of this instance. for more information, see &lt;a
+ng/latest/DeveloperGuide/AS_Concepts.html#instance-lifecycle&quot;&gt;Instance
+Lifecycle State&lt;/a&gt; in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lifecycleState</Declaration>
+			
+			
+			<Anchor>//api/name/lifecycleState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setHealthStatus:</TokenIdentifier>
+			<Abstract type="html">The health status of this instance. &quot;Healthy&quot; means that the instance
+is healthy and should remain in service. &quot;Unhealthy&quot; means that the
+instance is unhealthy. Auto Scaling should terminate and replace it.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/healthStatus</TokenIdentifier>
+			<Abstract type="html">The health status of this instance. &quot;Healthy&quot; means that the instance
+is healthy and should remain in service. &quot;Unhealthy&quot; means that the
+instance is unhealthy. Auto Scaling should terminate and replace it.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthStatus</Declaration>
+			
+			
+			<Anchor>//api/name/healthStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/setLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">The launch configuration associated with this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingAutoScalingInstanceDetails/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">The launch configuration associated with this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingAutoScalingInstanceDetails/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingAutoScalingInstanceDetails.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

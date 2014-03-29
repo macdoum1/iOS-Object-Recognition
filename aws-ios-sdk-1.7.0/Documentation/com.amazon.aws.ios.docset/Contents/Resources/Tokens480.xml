@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2SecurityGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2SecurityGroup</TokenIdentifier>
+			<Abstract type="html">Security Group</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>
+			
+			<NodeRef refid="480"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key ID of the owner of the security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/ownerId</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key ID of the owner of the security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/groupName</TokenIdentifier>
+			<Abstract type="html">The name of this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setGroupId:</TokenIdentifier>
+			<Abstract type="html">The value of the GroupId property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/groupId</TokenIdentifier>
+			<Abstract type="html">The value of the GroupId property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The description of this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The description of this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setIpPermissions:</TokenIdentifier>
+			<Abstract type="html">The permissions enabled for this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/ipPermissions</TokenIdentifier>
+			<Abstract type="html">The permissions enabled for this security group.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setIpPermissionsEgress:</TokenIdentifier>
+			<Abstract type="html">The value of the IpPermissionsEgress property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipPermissionsEgress</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissionsEgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/ipPermissionsEgress</TokenIdentifier>
+			<Abstract type="html">The value of the IpPermissionsEgress property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipPermissionsEgress</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissionsEgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setVpcId:</TokenIdentifier>
+			<Abstract type="html">The value of the VpcId property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/vpcId</TokenIdentifier>
+			<Abstract type="html">The value of the VpcId property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/setTags:</TokenIdentifier>
+			<Abstract type="html">The value of the Tags property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SecurityGroup/tags</TokenIdentifier>
+			<Abstract type="html">The value of the Tags property for this object.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/addIpPermission:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to ipPermissions.
+This function will alloc and init ipPermissions if not already done.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addIpPermission:(EC2IpPermission *)ipPermissionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addIpPermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/addIpPermissionsEgres:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to ipPermissionsEgress.
+This function will alloc and init ipPermissionsEgress if not already done.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addIpPermissionsEgres:(EC2IpPermission *)ipPermissionsEgresObject</Declaration>
+			
+			
+			<Anchor>//api/name/addIpPermissionsEgres:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SecurityGroup/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2SecurityGroup.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

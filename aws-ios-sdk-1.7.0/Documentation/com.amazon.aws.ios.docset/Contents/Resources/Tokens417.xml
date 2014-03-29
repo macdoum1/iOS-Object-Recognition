@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2KeyPair.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2KeyPair</TokenIdentifier>
+			<Abstract type="html">Key Pair</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>
+			
+			<NodeRef refid="417"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2KeyPair/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2KeyPair/setKeyName:</TokenIdentifier>
+			<Abstract type="html">The name of the key pair.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2KeyPair/keyName</TokenIdentifier>
+			<Abstract type="html">The name of the key pair.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2KeyPair/setKeyFingerprint:</TokenIdentifier>
+			<Abstract type="html">The SHA-1 digest of the DER encoded private key.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyFingerprint</Declaration>
+			
+			
+			<Anchor>//api/name/keyFingerprint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2KeyPair/keyFingerprint</TokenIdentifier>
+			<Abstract type="html">The SHA-1 digest of the DER encoded private key.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyFingerprint</Declaration>
+			
+			
+			<Anchor>//api/name/keyFingerprint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2KeyPair/setKeyMaterial:</TokenIdentifier>
+			<Abstract type="html">The unencrypted PEM encoded RSA private key.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMaterial</Declaration>
+			
+			
+			<Anchor>//api/name/keyMaterial</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2KeyPair/keyMaterial</TokenIdentifier>
+			<Abstract type="html">The unencrypted PEM encoded RSA private key.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMaterial</Declaration>
+			
+			
+			<Anchor>//api/name/keyMaterial</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2KeyPair/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2KeyPair.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

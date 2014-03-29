@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBScanRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBScanRequest</TokenIdentifier>
+			<Abstract type="html">Scan Request</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>
+			
+			<NodeRef refid="212"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the requested items.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the requested items.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/attributesToGet</TokenIdentifier>
+			<Abstract type="html">The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setLimit:</TokenIdentifier>
+			<Abstract type="html">The maximum number of items to evaluate (not necessarily the number of
+matching items). If Amazon DynamoDB processes the number of items up
+to the limit while processing the results, it stops the operation and
+returns the matching values up to that point, and a
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt; to apply in a subsequent operation, so that
+you can pick up where you left off. Also, if the processed data set
+size exceeds 1 MB before Amazon DynamoDB reaches this limit, it stops
+the operation and returns the matching values up to the limit, and a
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt; to apply in a subsequent operation to continue
+the operation. For more information see &lt;a
+azon.com/amazondynamodb/latest/developerguide/QueryAndScan.html&quot;&gt;Query
+and Scan&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/limit</TokenIdentifier>
+			<Abstract type="html">The maximum number of items to evaluate (not necessarily the number of
+matching items). If Amazon DynamoDB processes the number of items up
+to the limit while processing the results, it stops the operation and
+returns the matching values up to that point, and a
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt; to apply in a subsequent operation, so that
+you can pick up where you left off. Also, if the processed data set
+size exceeds 1 MB before Amazon DynamoDB reaches this limit, it stops
+the operation and returns the matching values up to the limit, and a
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt; to apply in a subsequent operation to continue
+the operation. For more information see &lt;a
+azon.com/amazondynamodb/latest/developerguide/QueryAndScan.html&quot;&gt;Query
+and Scan&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setSelect:</TokenIdentifier>
+			<Abstract type="html">The attributes to be returned in the result. You can retrieve all item
+attributes, specific item attributes, the count of matching items, or
+in the case of an index, some or all of the attributes projected into
+the index. &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_ATTRIBUTES&lt;/code&gt;: Returns all of
+the item attributes. For a table, this is the default. For an index,
+this mode causes Amazon DynamoDB to fetch the full item from the table
+for each matching item in the index. If the index is configured to
+project all item attributes, the matching items will not be fetched
+from the table. Fetching items from the table incurs additional
+throughput cost and latency. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALLPROJECTEDATTRIBUTES&lt;/code&gt;: Retrieves all attributes
+which have been projected into the index. If the index is configured
+to project all attributes, this is equivalent to specifying
+&lt;i&gt;ALL_ATTRIBUTES&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;COUNT&lt;/code&gt;: Returns the
+number of matching items, rather than the matching items themselves.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt; &lt;code&gt;SPECIFIC_ATTRIBUTES&lt;/code&gt; : Returns only the
+attributes listed in &lt;i&gt;AttributesToGet&lt;/i&gt;. This is equivalent to
+specifying &lt;i&gt;AttributesToGet&lt;/i&gt; without specifying any value for
+&lt;i&gt;Select&lt;/i&gt;. &lt;p&gt;If you are querying an index and request only
+attributes that are projected into that index, the operation will read
+only the index and not the table. If any of the requested attributes
+are not projected into the index, Amazon DynamoDB will need to fetch
+each matching item from the table. This extra fetching incurs
+additional throughput cost and latency. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;When neither
+&lt;i&gt;Select&lt;/i&gt; nor &lt;i&gt;AttributesToGet&lt;/i&gt; are specified, Amazon
+DynamoDB defaults to &lt;code&gt;ALL_ATTRIBUTES&lt;/code&gt; when accessing a
+table, and &lt;code&gt;ALLPROJECTEDATTRIBUTES&lt;/code&gt; when accessing an
+index. You cannot use both &lt;i&gt;Select&lt;/i&gt; and &lt;i&gt;AttributesToGet&lt;/i&gt;
+together in a single request, &lt;i&gt;unless&lt;/i&gt; the value for
+&lt;i&gt;Select&lt;/i&gt; is &lt;code&gt;SPECIFIC_ATTRIBUTES&lt;/code&gt;. (This usage is
+equivalent to specifying &lt;i&gt;AttributesToGet&lt;/i&gt; without any value for
+&lt;i&gt;Select&lt;/i&gt;.)
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ALLATTRIBUTES, ALLPROJECTEDATTRIBUTES, SPECIFICATTRIBUTES, COUNT</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *select</Declaration>
+			
+			
+			<Anchor>//api/name/select</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/select</TokenIdentifier>
+			<Abstract type="html">The attributes to be returned in the result. You can retrieve all item
+attributes, specific item attributes, the count of matching items, or
+in the case of an index, some or all of the attributes projected into
+the index. &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_ATTRIBUTES&lt;/code&gt;: Returns all of
+the item attributes. For a table, this is the default. For an index,
+this mode causes Amazon DynamoDB to fetch the full item from the table
+for each matching item in the index. If the index is configured to
+project all item attributes, the matching items will not be fetched
+from the table. Fetching items from the table incurs additional
+throughput cost and latency. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALLPROJECTEDATTRIBUTES&lt;/code&gt;: Retrieves all attributes
+which have been projected into the index. If the index is configured
+to project all attributes, this is equivalent to specifying
+&lt;i&gt;ALL_ATTRIBUTES&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;COUNT&lt;/code&gt;: Returns the
+number of matching items, rather than the matching items themselves.
+&lt;/li&gt; &lt;li&gt; &lt;p&gt; &lt;code&gt;SPECIFIC_ATTRIBUTES&lt;/code&gt; : Returns only the
+attributes listed in &lt;i&gt;AttributesToGet&lt;/i&gt;. This is equivalent to
+specifying &lt;i&gt;AttributesToGet&lt;/i&gt; without specifying any value for
+&lt;i&gt;Select&lt;/i&gt;. &lt;p&gt;If you are querying an index and request only
+attributes that are projected into that index, the operation will read
+only the index and not the table. If any of the requested attributes
+are not projected into the index, Amazon DynamoDB will need to fetch
+each matching item from the table. This extra fetching incurs
+additional throughput cost and latency. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;When neither
+&lt;i&gt;Select&lt;/i&gt; nor &lt;i&gt;AttributesToGet&lt;/i&gt; are specified, Amazon
+DynamoDB defaults to &lt;code&gt;ALL_ATTRIBUTES&lt;/code&gt; when accessing a
+table, and &lt;code&gt;ALLPROJECTEDATTRIBUTES&lt;/code&gt; when accessing an
+index. You cannot use both &lt;i&gt;Select&lt;/i&gt; and &lt;i&gt;AttributesToGet&lt;/i&gt;
+together in a single request, &lt;i&gt;unless&lt;/i&gt; the value for
+&lt;i&gt;Select&lt;/i&gt; is &lt;code&gt;SPECIFIC_ATTRIBUTES&lt;/code&gt;. (This usage is
+equivalent to specifying &lt;i&gt;AttributesToGet&lt;/i&gt; without any value for
+&lt;i&gt;Select&lt;/i&gt;.)
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ALLATTRIBUTES, ALLPROJECTEDATTRIBUTES, SPECIFICATTRIBUTES, COUNT</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *select</Declaration>
+			
+			
+			<Anchor>//api/name/select</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setScanFilter:</TokenIdentifier>
+			<Abstract type="html">Evaluates the scan results and returns only the desired values.
+Multiple conditions are treated as &quot;AND&quot; operations: all conditions
+must be met to be included in the results. &lt;p&gt;Each
+&lt;i&gt;ScanConditions&lt;/i&gt; element consists of an attribute name to
+compare, along with the following: &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; - One or more values to evaluate
+against the supplied attribute. This list contains exactly one value,
+except for a &lt;code&gt;BETWEEN&lt;/code&gt; or &lt;code&gt;IN&lt;/code&gt; comparison, in
+which case the list contains two values. &lt;note&gt; &lt;p&gt;For type Number,
+value comparisons are numeric. &lt;p&gt;String value comparisons for greater
+than, equals, or less than are based on ASCII character code values.
+For example, &lt;code&gt;a&lt;/code&gt; is greater than &lt;code&gt;A&lt;/code&gt;, and
+&lt;code&gt;aa&lt;/code&gt; is greater than &lt;code&gt;B&lt;/code&gt;. For a list of code
+values, see &lt;a
+rs&quot;&gt;http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters&lt;/a&gt;.
+&lt;p&gt;For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. &lt;/note&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;&lt;i&gt;ComparisonOperator&lt;/i&gt; - A
+comparator for evaluating attributes. For example, equals, greater
+than, less than, etc. &lt;p&gt;Valid comparison operators for Scan:
+&lt;p&gt;&lt;code&gt;EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS |
+NOTCONTAINS | BEGINSWITH | IN | BETWEEN&lt;/code&gt; &lt;p&gt;For information on
+specifying data types in JSON, see &lt;a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html&quot;&gt;JSON
+Data Format&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;The
+following are descriptions of each comparison operator. &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;EQ&lt;/code&gt; : Equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not
+a set). If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NE&lt;/code&gt;
+: Not equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;,
+&quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LE&lt;/code&gt; : Less than or equal.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LT&lt;/code&gt; : Less than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GE&lt;/code&gt; : Greater than or
+equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GT&lt;/code&gt; : Greater than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_NULL&lt;/code&gt; : The
+attribute exists. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NULL&lt;/code&gt; : The attribute does
+not exist. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;CONTAINS&lt;/code&gt; : checks for a
+subsequence, or value in a set. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can
+contain only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;), then the
+operation checks for a member of the set (not as a substring). &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_CONTAINS&lt;/code&gt; : checks for absence of a
+subsequence, or absence of a value in a set.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;),
+then the operation checks for the absence of a member of the set (not
+as a substring). &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BEGINS_WITH&lt;/code&gt; : checks for a
+prefix. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;IN&lt;/code&gt; :
+checks for exact matches. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+more than one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BETWEEN&lt;/code&gt; : Greater than or equal to the
+first value, and less than or equal to the second value.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; must contain two &lt;i&gt;AttributeValue&lt;/i&gt;
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare
+to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *scanFilter</Declaration>
+			
+			
+			<Anchor>//api/name/scanFilter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/scanFilter</TokenIdentifier>
+			<Abstract type="html">Evaluates the scan results and returns only the desired values.
+Multiple conditions are treated as &quot;AND&quot; operations: all conditions
+must be met to be included in the results. &lt;p&gt;Each
+&lt;i&gt;ScanConditions&lt;/i&gt; element consists of an attribute name to
+compare, along with the following: &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; - One or more values to evaluate
+against the supplied attribute. This list contains exactly one value,
+except for a &lt;code&gt;BETWEEN&lt;/code&gt; or &lt;code&gt;IN&lt;/code&gt; comparison, in
+which case the list contains two values. &lt;note&gt; &lt;p&gt;For type Number,
+value comparisons are numeric. &lt;p&gt;String value comparisons for greater
+than, equals, or less than are based on ASCII character code values.
+For example, &lt;code&gt;a&lt;/code&gt; is greater than &lt;code&gt;A&lt;/code&gt;, and
+&lt;code&gt;aa&lt;/code&gt; is greater than &lt;code&gt;B&lt;/code&gt;. For a list of code
+values, see &lt;a
+rs&quot;&gt;http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters&lt;/a&gt;.
+&lt;p&gt;For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. &lt;/note&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;&lt;i&gt;ComparisonOperator&lt;/i&gt; - A
+comparator for evaluating attributes. For example, equals, greater
+than, less than, etc. &lt;p&gt;Valid comparison operators for Scan:
+&lt;p&gt;&lt;code&gt;EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS |
+NOTCONTAINS | BEGINSWITH | IN | BETWEEN&lt;/code&gt; &lt;p&gt;For information on
+specifying data types in JSON, see &lt;a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html&quot;&gt;JSON
+Data Format&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;The
+following are descriptions of each comparison operator. &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;EQ&lt;/code&gt; : Equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not
+a set). If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NE&lt;/code&gt;
+: Not equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;,
+&quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LE&lt;/code&gt; : Less than or equal.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LT&lt;/code&gt; : Less than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GE&lt;/code&gt; : Greater than or
+equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GT&lt;/code&gt; : Greater than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_NULL&lt;/code&gt; : The
+attribute exists. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NULL&lt;/code&gt; : The attribute does
+not exist. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;CONTAINS&lt;/code&gt; : checks for a
+subsequence, or value in a set. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can
+contain only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;), then the
+operation checks for a member of the set (not as a substring). &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_CONTAINS&lt;/code&gt; : checks for absence of a
+subsequence, or absence of a value in a set.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;),
+then the operation checks for the absence of a member of the set (not
+as a substring). &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BEGINS_WITH&lt;/code&gt; : checks for a
+prefix. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;IN&lt;/code&gt; :
+checks for exact matches. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+more than one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BETWEEN&lt;/code&gt; : Greater than or equal to the
+first value, and less than or equal to the second value.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; must contain two &lt;i&gt;AttributeValue&lt;/i&gt;
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare
+to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *scanFilter</Declaration>
+			
+			
+			<Anchor>//api/name/scanFilter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setExclusiveStartKey:</TokenIdentifier>
+			<Abstract type="html">The primary key of the first item that this operation will evaluate.
+Use the value that was returned for &lt;i&gt;LastEvaluatedKey&lt;/i&gt; in the
+previous operation. &lt;p&gt;The data type for &lt;i&gt;ExclusiveStartKey&lt;/i&gt; must
+be String, Number or Binary. No set data types are allowed. &lt;p&gt;In a
+parallel scan, a &lt;i&gt;Scan&lt;/i&gt; request that includes
+&lt;i&gt;ExclusiveStartKey&lt;/i&gt; must specify the same segment whose previous
+&lt;i&gt;Scan&lt;/i&gt; returned the corresponding value of
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt;.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *exclusiveStartKey</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/exclusiveStartKey</TokenIdentifier>
+			<Abstract type="html">The primary key of the first item that this operation will evaluate.
+Use the value that was returned for &lt;i&gt;LastEvaluatedKey&lt;/i&gt; in the
+previous operation. &lt;p&gt;The data type for &lt;i&gt;ExclusiveStartKey&lt;/i&gt; must
+be String, Number or Binary. No set data types are allowed. &lt;p&gt;In a
+parallel scan, a &lt;i&gt;Scan&lt;/i&gt; request that includes
+&lt;i&gt;ExclusiveStartKey&lt;/i&gt; must specify the same segment whose previous
+&lt;i&gt;Scan&lt;/i&gt; returned the corresponding value of
+&lt;i&gt;LastEvaluatedKey&lt;/i&gt;.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *exclusiveStartKey</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setTotalSegments:</TokenIdentifier>
+			<Abstract type="html">For a parallel &lt;i&gt;Scan&lt;/i&gt; request, &lt;i&gt;TotalSegments&lt;/i&gt; represents
+the total number of segments into which the &lt;i&gt;Scan&lt;/i&gt; operation will
+be divided. The value of &lt;i&gt;TotalSegments&lt;/i&gt; corresponds to the
+number of application workers that will perform the parallel scan. For
+example, if you want to scan a table using four application threads,
+you would specify a &lt;i&gt;TotalSegments&lt;/i&gt; value of 4. &lt;p&gt;The value for
+&lt;i&gt;TotalSegments&lt;/i&gt; must be greater than or equal to 1, and less than
+or equal to 4096. If you specify a &lt;i&gt;TotalSegments&lt;/i&gt; value of 1,
+the &lt;i&gt;Scan&lt;/i&gt; will be sequential rather than parallel. &lt;p&gt;If you
+specify &lt;i&gt;TotalSegments&lt;/i&gt;, you must also specify &lt;i&gt;Segment&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 4096&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *totalSegments</Declaration>
+			
+			
+			<Anchor>//api/name/totalSegments</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/totalSegments</TokenIdentifier>
+			<Abstract type="html">For a parallel &lt;i&gt;Scan&lt;/i&gt; request, &lt;i&gt;TotalSegments&lt;/i&gt; represents
+the total number of segments into which the &lt;i&gt;Scan&lt;/i&gt; operation will
+be divided. The value of &lt;i&gt;TotalSegments&lt;/i&gt; corresponds to the
+number of application workers that will perform the parallel scan. For
+example, if you want to scan a table using four application threads,
+you would specify a &lt;i&gt;TotalSegments&lt;/i&gt; value of 4. &lt;p&gt;The value for
+&lt;i&gt;TotalSegments&lt;/i&gt; must be greater than or equal to 1, and less than
+or equal to 4096. If you specify a &lt;i&gt;TotalSegments&lt;/i&gt; value of 1,
+the &lt;i&gt;Scan&lt;/i&gt; will be sequential rather than parallel. &lt;p&gt;If you
+specify &lt;i&gt;TotalSegments&lt;/i&gt;, you must also specify &lt;i&gt;Segment&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 4096&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *totalSegments</Declaration>
+			
+			
+			<Anchor>//api/name/totalSegments</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setSegment:</TokenIdentifier>
+			<Abstract type="html">For a parallel &lt;i&gt;Scan&lt;/i&gt; request, &lt;i&gt;Segment&lt;/i&gt; identifies an
+individual segment to be scanned by an application worker. &lt;p&gt;Segment
+IDs are zero-based, so the first segment is always 0. For example, if
+you want to scan a table using four application threads, the first
+thread would specify a &lt;i&gt;Segment&lt;/i&gt; value of 0, the second thread
+would specify 1, and so on. &lt;p&gt;The value of &lt;i&gt;LastEvaluatedKey&lt;/i&gt;
+returned from a parallel &lt;i&gt;Scan&lt;/i&gt; request must be used as
+&lt;i&gt;ExclusiveStartKey&lt;/i&gt; with the same Segment ID in a subsequent
+&lt;i&gt;Scan&lt;/i&gt; operation. &lt;p&gt;The value for &lt;i&gt;Segment&lt;/i&gt; must be greater
+than or equal to 0, and less than the value provided for
+&lt;i&gt;TotalSegments&lt;/i&gt;. &lt;p&gt;If you specify &lt;i&gt;Segment&lt;/i&gt;, you must also
+specify &lt;i&gt;TotalSegments&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;0 - 4095&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *segment</Declaration>
+			
+			
+			<Anchor>//api/name/segment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBScanRequest/segment</TokenIdentifier>
+			<Abstract type="html">For a parallel &lt;i&gt;Scan&lt;/i&gt; request, &lt;i&gt;Segment&lt;/i&gt; identifies an
+individual segment to be scanned by an application worker. &lt;p&gt;Segment
+IDs are zero-based, so the first segment is always 0. For example, if
+you want to scan a table using four application threads, the first
+thread would specify a &lt;i&gt;Segment&lt;/i&gt; value of 0, the second thread
+would specify 1, and so on. &lt;p&gt;The value of &lt;i&gt;LastEvaluatedKey&lt;/i&gt;
+returned from a parallel &lt;i&gt;Scan&lt;/i&gt; request must be used as
+&lt;i&gt;ExclusiveStartKey&lt;/i&gt; with the same Segment ID in a subsequent
+&lt;i&gt;Scan&lt;/i&gt; operation. &lt;p&gt;The value for &lt;i&gt;Segment&lt;/i&gt; must be greater
+than or equal to 0, and less than the value provided for
+&lt;i&gt;TotalSegments&lt;/i&gt;. &lt;p&gt;If you specify &lt;i&gt;Segment&lt;/i&gt;, you must also
+specify &lt;i&gt;TotalSegments&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;0 - 4095&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *segment</Declaration>
+			
+			
+			<Anchor>//api/name/segment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ScanRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/initWithTableName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ScanRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table containing the requested
+items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/addAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributesToGet:(NSString *)attributesToGetObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributesToGet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setScanFilterValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary scanFilter for the specified key.
+This function will alloc and init scanFilter if not already done.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setScanFilterValue:(DynamoDBCondition *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setScanFilterValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/setExclusiveStartKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary exclusiveStartKey for the specified key.
+This function will alloc and init exclusiveStartKey if not already done.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setExclusiveStartKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setExclusiveStartKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBScanRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBScanRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

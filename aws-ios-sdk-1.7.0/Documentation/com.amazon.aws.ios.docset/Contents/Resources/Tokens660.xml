@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListBucketsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListBucketsRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the listBuckets operation.</Abstract>
+			<DeclaredIn>S3ListBucketsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="660"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

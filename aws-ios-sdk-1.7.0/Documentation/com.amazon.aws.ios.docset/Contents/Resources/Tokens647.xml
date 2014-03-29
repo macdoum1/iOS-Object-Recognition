@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetBucketVersioningConfigurationResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketVersioningConfigurationResponse</TokenIdentifier>
+			<Abstract type="html">Contains the bucket versioning configuration.</Abstract>
+			<DeclaredIn>S3GetBucketVersioningConfigurationResponse.h</DeclaredIn>
+			
+			<NodeRef refid="647"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetBucketVersioningConfigurationResponse/setVersioningConfiguration:</TokenIdentifier>
+			<Abstract type="html">The Bucket Versioning Configuration</Abstract>
+			<DeclaredIn>S3GetBucketVersioningConfigurationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketVersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetBucketVersioningConfigurationResponse/versioningConfiguration</TokenIdentifier>
+			<Abstract type="html">The Bucket Versioning Configuration</Abstract>
+			<DeclaredIn>S3GetBucketVersioningConfigurationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketVersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

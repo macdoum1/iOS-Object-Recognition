@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingListener.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingListener</TokenIdentifier>
+			<Abstract type="html">Listener</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>
+			
+			<NodeRef refid="564"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/setProtocol:</TokenIdentifier>
+			<Abstract type="html">Specifies the LoadBalancer transport protocol to use for routing -
+HTTP, HTTPS, TCP or SSL. This property cannot be modified for the life
+of the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListener/protocol</TokenIdentifier>
+			<Abstract type="html">Specifies the LoadBalancer transport protocol to use for routing -
+HTTP, HTTPS, TCP or SSL. This property cannot be modified for the life
+of the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/setLoadBalancerPort:</TokenIdentifier>
+			<Abstract type="html">Specifies the external LoadBalancer port number. This property cannot
+be modified for the life of the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *loadBalancerPort</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListener/loadBalancerPort</TokenIdentifier>
+			<Abstract type="html">Specifies the external LoadBalancer port number. This property cannot
+be modified for the life of the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *loadBalancerPort</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/setInstanceProtocol:</TokenIdentifier>
+			<Abstract type="html">Specifies the protocol to use for routing traffic to back-end
+instances - HTTP, HTTPS, TCP, or SSL. This property cannot be modified
+for the life of the LoadBalancer. &lt;note&gt; If the front-end protocol is
+HTTP or HTTPS, &lt;code&gt;InstanceProtocol&lt;/code&gt; has to be at the same
+protocol layer, i.e., HTTP or HTTPS. Likewise, if the front-end
+protocol is TCP or SSL, InstanceProtocol has to be TCP or SSL. &lt;/note&gt;
+&lt;note&gt; If there is another listener with the same
+&lt;code&gt;InstancePort&lt;/code&gt; whose &lt;code&gt;InstanceProtocol&lt;/code&gt; is
+secure, i.e., HTTPS or SSL, the listener&apos;s
+&lt;code&gt;InstanceProtocol&lt;/code&gt; has to be secure, i.e., HTTPS or SSL. If
+there is another listener with the same &lt;code&gt;InstancePort&lt;/code&gt;
+whose &lt;code&gt;InstanceProtocol&lt;/code&gt; is HTTP or TCP, the listener&apos;s
+&lt;code&gt;InstanceProtocol&lt;/code&gt; must be either HTTP or TCP. &lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/instanceProtocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListener/instanceProtocol</TokenIdentifier>
+			<Abstract type="html">Specifies the protocol to use for routing traffic to back-end
+instances - HTTP, HTTPS, TCP, or SSL. This property cannot be modified
+for the life of the LoadBalancer. &lt;note&gt; If the front-end protocol is
+HTTP or HTTPS, &lt;code&gt;InstanceProtocol&lt;/code&gt; has to be at the same
+protocol layer, i.e., HTTP or HTTPS. Likewise, if the front-end
+protocol is TCP or SSL, InstanceProtocol has to be TCP or SSL. &lt;/note&gt;
+&lt;note&gt; If there is another listener with the same
+&lt;code&gt;InstancePort&lt;/code&gt; whose &lt;code&gt;InstanceProtocol&lt;/code&gt; is
+secure, i.e., HTTPS or SSL, the listener&apos;s
+&lt;code&gt;InstanceProtocol&lt;/code&gt; has to be secure, i.e., HTTPS or SSL. If
+there is another listener with the same &lt;code&gt;InstancePort&lt;/code&gt;
+whose &lt;code&gt;InstanceProtocol&lt;/code&gt; is HTTP or TCP, the listener&apos;s
+&lt;code&gt;InstanceProtocol&lt;/code&gt; must be either HTTP or TCP. &lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/instanceProtocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/setInstancePort:</TokenIdentifier>
+			<Abstract type="html">Specifies the TCP port on which the instance server is listening. This
+property cannot be modified for the life of the LoadBalancer.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListener/instancePort</TokenIdentifier>
+			<Abstract type="html">Specifies the TCP port on which the instance server is listening. This
+property cannot be modified for the life of the LoadBalancer.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/setSSLCertificateId:</TokenIdentifier>
+			<Abstract type="html">The ARN string of the server certificate. To get the ARN of the server
+certificate, call the AWS Identity and Access Management &lt;a
+e/index.html?API_UploadServerCertificate.html&quot;&gt;UploadServerCertificate
+&lt;/a&gt; API.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/sSLCertificateId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListener/sSLCertificateId</TokenIdentifier>
+			<Abstract type="html">The ARN string of the server certificate. To get the ARN of the server
+certificate, call the AWS Identity and Access Management &lt;a
+e/index.html?API_UploadServerCertificate.html&quot;&gt;UploadServerCertificate
+&lt;/a&gt; API.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/sSLCertificateId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new Listener object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/initWithProtocol:andLoadBalancerPort:andInstancePort:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Listener object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithProtocol:(NSString *)theProtocol andLoadBalancerPort:(NSNumber *)theLoadBalancerPort andInstancePort:(NSNumber *)theInstancePort</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theProtocol</Name>
+					<Abstract type="html">Specifies the LoadBalancer transport protocol to
+use for routing - HTTP, HTTPS, TCP or SSL. This property cannot be
+modified for the life of the LoadBalancer.</Abstract>
+				</Parameter><Parameter>
+					<Name>theLoadBalancerPort</Name>
+					<Abstract type="html">Specifies the external LoadBalancer port
+number. This property cannot be modified for the life of the
+LoadBalancer.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstancePort</Name>
+					<Abstract type="html">Specifies the TCP port on which the instance
+server is listening. This property cannot be modified for the life of
+the LoadBalancer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithProtocol:andLoadBalancerPort:andInstancePort:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListener/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListener.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

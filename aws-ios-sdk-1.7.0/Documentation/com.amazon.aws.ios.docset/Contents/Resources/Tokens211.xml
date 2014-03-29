@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DynamoDBResponse.h</DeclaredIn>
+			
+			<NodeRef refid="211"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,4883 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonS3Client Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonS3Client Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/apiVersion">&nbsp;&nbsp;&nbsp;&nbsp;+ apiVersion</option>
+	
+	<option value="//api/name/constructResponseFromRequest:">&nbsp;&nbsp;&nbsp;&nbsp;+ constructResponseFromRequest:</option>
+	
+	<option value="//api/name/initializeResponseObjects">&nbsp;&nbsp;&nbsp;&nbsp;+ initializeResponseObjects</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/abortMultipartUpload:">&nbsp;&nbsp;&nbsp;&nbsp;- abortMultipartUpload:</option>
+	
+	<option value="//api/name/completeMultipartUpload:">&nbsp;&nbsp;&nbsp;&nbsp;- completeMultipartUpload:</option>
+	
+	<option value="//api/name/createBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- createBucket:</option>
+	
+	<option value="//api/name/createBucketWithName:">&nbsp;&nbsp;&nbsp;&nbsp;- createBucketWithName:</option>
+	
+	<option value="//api/name/deleteBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucket:</option>
+	
+	<option value="//api/name/deleteBucketCrossOrigin:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketCrossOrigin:</option>
+	
+	<option value="//api/name/deleteBucketLifecycleConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketLifecycleConfiguration:</option>
+	
+	<option value="//api/name/deleteBucketPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketPolicy:</option>
+	
+	<option value="//api/name/deleteBucketTagging:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketTagging:</option>
+	
+	<option value="//api/name/deleteBucketWebsiteConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketWebsiteConfiguration:</option>
+	
+	<option value="//api/name/deleteBucketWithName:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteBucketWithName:</option>
+	
+	<option value="//api/name/deleteObject:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteObject:</option>
+	
+	<option value="//api/name/deleteObjectWithKey:withBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteObjectWithKey:withBucket:</option>
+	
+	<option value="//api/name/deleteObjects:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteObjects:</option>
+	
+	<option value="//api/name/deleteVersion:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteVersion:</option>
+	
+	<option value="//api/name/getACL:">&nbsp;&nbsp;&nbsp;&nbsp;- getACL:</option>
+	
+	<option value="//api/name/getBucketCrossOrigin:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketCrossOrigin:</option>
+	
+	<option value="//api/name/getBucketLifecycleConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketLifecycleConfiguration:</option>
+	
+	<option value="//api/name/getBucketLocation:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketLocation:</option>
+	
+	<option value="//api/name/getBucketPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketPolicy:</option>
+	
+	<option value="//api/name/getBucketTagging:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketTagging:</option>
+	
+	<option value="//api/name/getBucketVersioningConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketVersioningConfiguration:</option>
+	
+	<option value="//api/name/getBucketWebsiteConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- getBucketWebsiteConfiguration:</option>
+	
+	<option value="//api/name/getObject:">&nbsp;&nbsp;&nbsp;&nbsp;- getObject:</option>
+	
+	<option value="//api/name/getObjectMetadata:">&nbsp;&nbsp;&nbsp;&nbsp;- getObjectMetadata:</option>
+	
+	<option value="//api/name/getPreSignedURL:">&nbsp;&nbsp;&nbsp;&nbsp;- getPreSignedURL:</option>
+	
+	<option value="//api/name/getPreSignedURL:error:">&nbsp;&nbsp;&nbsp;&nbsp;- getPreSignedURL:error:</option>
+	
+	<option value="//api/name/initiateMultipartUpload:">&nbsp;&nbsp;&nbsp;&nbsp;- initiateMultipartUpload:</option>
+	
+	<option value="//api/name/initiateMultipartUploadWithKey:withBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- initiateMultipartUploadWithKey:withBucket:</option>
+	
+	<option value="//api/name/invoke:">&nbsp;&nbsp;&nbsp;&nbsp;- invoke:</option>
+	
+	<option value="//api/name/listBuckets">&nbsp;&nbsp;&nbsp;&nbsp;- listBuckets</option>
+	
+	<option value="//api/name/listBuckets:">&nbsp;&nbsp;&nbsp;&nbsp;- listBuckets:</option>
+	
+	<option value="//api/name/listMultipartUploads:">&nbsp;&nbsp;&nbsp;&nbsp;- listMultipartUploads:</option>
+	
+	<option value="//api/name/listObjects:">&nbsp;&nbsp;&nbsp;&nbsp;- listObjects:</option>
+	
+	<option value="//api/name/listObjectsInBucket:">&nbsp;&nbsp;&nbsp;&nbsp;- listObjectsInBucket:</option>
+	
+	<option value="//api/name/listParts:">&nbsp;&nbsp;&nbsp;&nbsp;- listParts:</option>
+	
+	<option value="//api/name/listVersions:">&nbsp;&nbsp;&nbsp;&nbsp;- listVersions:</option>
+	
+	<option value="//api/name/objectCopy:">&nbsp;&nbsp;&nbsp;&nbsp;- objectCopy:</option>
+	
+	<option value="//api/name/partCopy:">&nbsp;&nbsp;&nbsp;&nbsp;- partCopy:</option>
+	
+	<option value="//api/name/putObject:">&nbsp;&nbsp;&nbsp;&nbsp;- putObject:</option>
+	
+	<option value="//api/name/restoreObject:">&nbsp;&nbsp;&nbsp;&nbsp;- restoreObject:</option>
+	
+	<option value="//api/name/setACL:">&nbsp;&nbsp;&nbsp;&nbsp;- setACL:</option>
+	
+	<option value="//api/name/setBucketCrossOrigin:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketCrossOrigin:</option>
+	
+	<option value="//api/name/setBucketLifecycleConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketLifecycleConfiguration:</option>
+	
+	<option value="//api/name/setBucketPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketPolicy:</option>
+	
+	<option value="//api/name/setBucketTagging:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketTagging:</option>
+	
+	<option value="//api/name/setBucketVersioningConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketVersioningConfiguration:</option>
+	
+	<option value="//api/name/setBucketWebsiteConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- setBucketWebsiteConfiguration:</option>
+	
+	<option value="//api/name/uploadPart:">&nbsp;&nbsp;&nbsp;&nbsp;- uploadPart:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/apiVersion">apiVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/constructResponseFromRequest:">constructResponseFromRequest:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initializeResponseObjects">initializeResponseObjects</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/abortMultipartUpload:">abortMultipartUpload:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/completeMultipartUpload:">completeMultipartUpload:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createBucket:">createBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createBucketWithName:">createBucketWithName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucket:">deleteBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketCrossOrigin:">deleteBucketCrossOrigin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketLifecycleConfiguration:">deleteBucketLifecycleConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketPolicy:">deleteBucketPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketTagging:">deleteBucketTagging:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketWebsiteConfiguration:">deleteBucketWebsiteConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteBucketWithName:">deleteBucketWithName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteObject:">deleteObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteObjectWithKey:withBucket:">deleteObjectWithKey:withBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteObjects:">deleteObjects:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteVersion:">deleteVersion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getACL:">getACL:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketCrossOrigin:">getBucketCrossOrigin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketLifecycleConfiguration:">getBucketLifecycleConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketLocation:">getBucketLocation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketPolicy:">getBucketPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketTagging:">getBucketTagging:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketVersioningConfiguration:">getBucketVersioningConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getBucketWebsiteConfiguration:">getBucketWebsiteConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getObject:">getObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getObjectMetadata:">getObjectMetadata:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPreSignedURL:">getPreSignedURL:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPreSignedURL:error:">getPreSignedURL:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initiateMultipartUpload:">initiateMultipartUpload:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initiateMultipartUploadWithKey:withBucket:">initiateMultipartUploadWithKey:withBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invoke:">invoke:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listBuckets">listBuckets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listBuckets:">listBuckets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listMultipartUploads:">listMultipartUploads:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listObjects:">listObjects:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listObjectsInBucket:">listObjectsInBucket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listParts:">listParts:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listVersions:">listVersions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectCopy:">objectCopy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/partCopy:">partCopy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putObject:">putObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/restoreObject:">restoreObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setACL:">setACL:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketCrossOrigin:">setBucketCrossOrigin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketLifecycleConfiguration:">setBucketLifecycleConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketPolicy:">setBucketPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketTagging:">setBucketTagging:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketVersioningConfiguration:">setBucketVersioningConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBucketWebsiteConfiguration:">setBucketWebsiteConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/uploadPart:">uploadPart:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonS3Client Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonS3Client Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonS3Client.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>AmazonS3Client is an implementation of AmazonS3.</p>
+
+<p>The client allows you to manage your AmazonS3 buckets and keys/objects.</p>
+
+<p>Amazon S3 is storage for the Internet. It is designed to make web-scale computing easier for developers.
+Amazon S3 provides a simple web services interface that can be used to store and retrieve any amount of data,
+at any time, from anywhere on the web. It gives any developer access to the same highly scalable, reliable,
+fast, inexpensive data storage infrastructure that Amazon uses to run its own global network of web sites.
+The service aims to maximize benefits of scale and to pass those benefits on to developers.</p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listBuckets">&ndash;&nbsp;listBuckets</a></code>
+		<span class="tooltip"><p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listBuckets:">&ndash;&nbsp;listBuckets:</a></code>
+		<span class="tooltip"><p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createBucket:">&ndash;&nbsp;createBucket:</a></code>
+		<span class="tooltip"><p>Creates a bucket using the the specified request object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createBucketWithName:">&ndash;&nbsp;createBucketWithName:</a></code>
+		<span class="tooltip"><p>Creates a bucket using the the specified bucket name.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucket:">&ndash;&nbsp;deleteBucket:</a></code>
+		<span class="tooltip"><p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketWithName:">&ndash;&nbsp;deleteBucketWithName:</a></code>
+		<span class="tooltip"><p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketLocation:">&ndash;&nbsp;getBucketLocation:</a></code>
+		<span class="tooltip"><p>Takes in a bucket&rsquo;s name and lists the location of the bucket.
+This information can be used to determine the bucket&rsquo;s geographical location.
+To determine the location of a bucket, you must be the bucket owner</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getObjectMetadata:">&ndash;&nbsp;getObjectMetadata:</a></code>
+		<span class="tooltip"><p>Retrieve metadata from an object without returning the object itself.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putObject:">&ndash;&nbsp;putObject:</a></code>
+		<span class="tooltip"><p>Upload an object to S3.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getObject:">&ndash;&nbsp;getObject:</a></code>
+		<span class="tooltip"><p>Fetch the most recent version of an S3 object
+from the specified S3 bucket. You must have READ access to the object.
+If READ access is granted to an anonymous user, an object can be retrieved
+without an authorization header. Providing a version-id for the object will
+fetch the specific version from S3 instead of the most recent one.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteObject:">&ndash;&nbsp;deleteObject:</a></code>
+		<span class="tooltip"><p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteObjects:">&ndash;&nbsp;deleteObjects:</a></code>
+		<span class="tooltip"><p>Removes the specified objects from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.
+Check S3DeleteObjectsResponse.deleteErrors to see if there were any errors after calling this method.
+&ndash; When there was no error, deleteErrors will be an empty NSArray.
+&ndash; When there were any errors, deleteErrors contains a list of DeleteError objects.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteObjectWithKey:withBucket:">&ndash;&nbsp;deleteObjectWithKey:withBucket:</a></code>
+		<span class="tooltip"><p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listObjects:">&ndash;&nbsp;listObjects:</a></code>
+		<span class="tooltip"><p>List the objects in a bucket.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listObjectsInBucket:">&ndash;&nbsp;listObjectsInBucket:</a></code>
+		<span class="tooltip"><p>List the objects in a bucket.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/objectCopy:">&ndash;&nbsp;objectCopy:</a></code>
+		<span class="tooltip"><p>Create a copy of an object that is already stored in Amazon S3.
+When copying an object, you can preserve all metadata (default) or specify new metadata.
+However, the ACL is not preserved and is set to private for the user making the request.
+To override the default ACL setting, specify a new ACL when generating a copy request.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getACL:">&ndash;&nbsp;getACL:</a></code>
+		<span class="tooltip"><p>Gets the access control list for a given bucket or object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setACL:">&ndash;&nbsp;setACL:</a></code>
+		<span class="tooltip"><p>Sets the S3AccessControlList for a given bucket or object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketPolicy:">&ndash;&nbsp;getBucketPolicy:</a></code>
+		<span class="tooltip"><p>Gets the policy for the specified bucket. Only the owner of the
+bucket can retrieve the policy. If no policy has been set for the bucket,
+then an empty result object with a <code>null</code> policy text field will be
+returned.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketPolicy:">&ndash;&nbsp;setBucketPolicy:</a></code>
+		<span class="tooltip"><p>Sets the policy associated with the specified bucket. Only the owner of
+the bucket can set a bucket policy. If a policy already exists for the
+specified bucket, the new policy replaces the existing policy.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketPolicy:">&ndash;&nbsp;deleteBucketPolicy:</a></code>
+		<span class="tooltip"><p>Deletes the policy associated with the specified bucket. Only the owner
+of the bucket can delete the bucket policy.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketVersioningConfiguration:">&ndash;&nbsp;getBucketVersioningConfiguration:</a></code>
+		<span class="tooltip"><p>Returns the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketVersioningConfiguration:">&ndash;&nbsp;setBucketVersioningConfiguration:</a></code>
+		<span class="tooltip"><p>Sets the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketWebsiteConfiguration:">&ndash;&nbsp;setBucketWebsiteConfiguration:</a></code>
+		<span class="tooltip"><p>Sets the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:PutBucketWebsite</code> permission.
+By default, only the bucket owner can configure the website attached to a
+bucket. However, bucket owners can allow other users to set the website
+configuration by writing a bucket policy granting them the
+<code>S3:PutBucketWebsite</code> permission.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketWebsiteConfiguration:">&ndash;&nbsp;getBucketWebsiteConfiguration:</a></code>
+		<span class="tooltip"><p>Returns the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:GetBucketWebsite</code> permission.
+By default, only the bucket owner can read the bucket website
+configuration. However, bucket owners can allow other users to read the
+website configuration by writing a bucket policy granting them the
+<code>S3:GetBucketWebsite</code> permission.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketWebsiteConfiguration:">&ndash;&nbsp;deleteBucketWebsiteConfiguration:</a></code>
+		<span class="tooltip"><p>This operation removes the website configuration for a bucket. Calling
+this operation on a bucket with no website configuration does <b>not</b>
+throw an exception. Calling this operation a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:DeleteBucketWebsite</code>
+permission. By default, only the bucket owner can delete the website
+configuration attached to a bucket. However, bucket owners can grant
+other users permission to delete the website configuration by writing a
+bucket policy granting them the <code>S3:DeleteBucketWebsite</code>
+permission.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketLifecycleConfiguration:">&ndash;&nbsp;setBucketLifecycleConfiguration:</a></code>
+		<span class="tooltip"><p>Sets the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketLifecycleConfiguration:">&ndash;&nbsp;getBucketLifecycleConfiguration:</a></code>
+		<span class="tooltip"><p>Returns the the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketLifecycleConfiguration:">&ndash;&nbsp;deleteBucketLifecycleConfiguration:</a></code>
+		<span class="tooltip"><p>This operation removes the lifecycle configuration for a bucket. Calling
+this operation on a bucket with no lifecycle configuration does <b>not</b>
+throw an exception. Calling this operation on a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketTagging:">&ndash;&nbsp;setBucketTagging:</a></code>
+		<span class="tooltip"><p>Sets the tagging configuration for the specified bucket.  A tagging configuration contains a TagSet.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketTagging:">&ndash;&nbsp;getBucketTagging:</a></code>
+		<span class="tooltip"><p>Gets the tagging configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketTagging:">&ndash;&nbsp;deleteBucketTagging:</a></code>
+		<span class="tooltip"><p>Deletes the tagging configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBucketCrossOrigin:">&ndash;&nbsp;setBucketCrossOrigin:</a></code>
+		<span class="tooltip"><p>Sets the CORS configuration for the specified bucket, or null if no
+configuration has been established. CORS config is comprised of a set of rules.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getBucketCrossOrigin:">&ndash;&nbsp;getBucketCrossOrigin:</a></code>
+		<span class="tooltip"><p>Gets the CrossOrigin configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteBucketCrossOrigin:">&ndash;&nbsp;deleteBucketCrossOrigin:</a></code>
+		<span class="tooltip"><p>Deletes the CrossOrigin configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteVersion:">&ndash;&nbsp;deleteVersion:</a></code>
+		<span class="tooltip"><p>Deletes a specific version of an object in the specified bucket. Once
+deleted, there is no method to restore or undelete an object version.
+This is the only way to permanently delete object versions that are
+protected by versioning.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listVersions:">&ndash;&nbsp;listVersions:</a></code>
+		<span class="tooltip"><p>Returns a list of summary information about the versions in the specified bucket.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initiateMultipartUpload:">&ndash;&nbsp;initiateMultipartUpload:</a></code>
+		<span class="tooltip"><p>Initiates a multipart upload and returns an InitiateMultipartUploadResponse.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initiateMultipartUploadWithKey:withBucket:">&ndash;&nbsp;initiateMultipartUploadWithKey:withBucket:</a></code>
+		<span class="tooltip"><p>Initiates a multipart upload and returns an MultipartUpload instance
+which contains an upload ID. This upload ID associates all the
+parts in the specific upload. You specify this upload ID in each of
+your subsequent Upload Part requests. You also include
+this upload ID in the final request to either complete, or abort
+the multipart upload request.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/abortMultipartUpload:">&ndash;&nbsp;abortMultipartUpload:</a></code>
+		<span class="tooltip"><p>Aborts a multipart upload.
+After a multipart upload is aborted, no additional parts can be uploaded using that upload ID.
+The storage consumed by any previously uploaded parts will be freed.
+However, if any part uploads are currently in progress, those part uploads might or might not succeed.
+As a result, it might be necessary to abort a given multipart upload multiple times in order to completely
+free all storage consumed by all parts.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listMultipartUploads:">&ndash;&nbsp;listMultipartUploads:</a></code>
+		<span class="tooltip"><p>This operation lists in-progress multipart uploads.
+An in-progress
+multipart upload is a multipart upload that has been initiated,
+using the InitiateMultipartUpload request, but has not yet been
+completed or aborted.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/uploadPart:">&ndash;&nbsp;uploadPart:</a></code>
+		<span class="tooltip"><p>Uploads a part in a multipart upload.
+You must initiate a multipart upload before you can upload any part.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listParts:">&ndash;&nbsp;listParts:</a></code>
+		<span class="tooltip"><p>Lists the parts that have been uploaded for a particular multipart upload.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/partCopy:">&ndash;&nbsp;partCopy:</a></code>
+		<span class="tooltip"><p>S3CopyPartResponse</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/completeMultipartUpload:">&ndash;&nbsp;completeMultipartUpload:</a></code>
+		<span class="tooltip"><p>Completes a multipart upload by assembling previously uploaded parts.
+You first upload all parts using the uploadPart method.
+After successfully uploading all relevant parts of an upload,
+you call this operation to complete the upload. Upon receiving
+this request, Amazon S3 concatenates all the parts in ascending
+order by part number to create a new object. In the
+completeMultipartUpload request, you must provide the
+parts list. For each part in the list, you provide the
+part number and the ETag header value, returned after that
+part was uploaded.
+Processing of a completeMultipartUpload request may take
+several minutes to complete.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/restoreObject:">&ndash;&nbsp;restoreObject:</a></code>
+		<span class="tooltip"><p>Request temporary restoration of an object which was transitioned
+to Amazon Glacier from Amazon S3 via life cycle configuration.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPreSignedURL:">&ndash;&nbsp;getPreSignedURL:</a></code>
+		<span class="tooltip"><p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPreSignedURL:error:">&ndash;&nbsp;getPreSignedURL:error:</a></code>
+		<span class="tooltip"><p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/constructResponseFromRequest:">+&nbsp;constructResponseFromRequest:</a></code>
+		<span class="tooltip"><p>Constructs an empty response object of the appropriate type to match the given request
+object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invoke:">&ndash;&nbsp;invoke:</a></code>
+		<span class="tooltip"><p>Utility method that sends the raw S3 Request to be processed.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/apiVersion">+&nbsp;apiVersion</a></code>
+		<span class="tooltip"><p>Return the version of the S3 API</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initializeResponseObjects">+&nbsp;initializeResponseObjects</a></code>
+		<span class="tooltip"><p>Ensure that all response classes have been loaded by the runtime.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/apiVersion" title="apiVersion"></a>
+	<h3 class="subsubtitle method-title">apiVersion</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the version of the S3 API</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)apiVersion</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the version of the S3 API</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/constructResponseFromRequest:" title="constructResponseFromRequest:"></a>
+	<h3 class="subsubtitle method-title">constructResponseFromRequest:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs an empty response object of the appropriate type to match the given request
+object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (S3Response *)constructResponseFromRequest:(S3Request *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>An instance of a subclass of S3Request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the appropriate subclass of S3Response, or
+an instance of S3Response if there is no response class to
+match the instance passed in.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs an empty response object of the appropriate type to match the given request
+object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initializeResponseObjects" title="initializeResponseObjects"></a>
+	<h3 class="subsubtitle method-title">initializeResponseObjects</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Ensure that all response classes have been loaded by the runtime.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)initializeResponseObjects</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Ensure that all response classes have been loaded by the runtime.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/abortMultipartUpload:" title="abortMultipartUpload:"></a>
+	<h3 class="subsubtitle method-title">abortMultipartUpload:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Aborts a multipart upload.
+After a multipart upload is aborted, no additional parts can be uploaded using that upload ID.
+The storage consumed by any previously uploaded parts will be freed.
+However, if any part uploads are currently in progress, those part uploads might or might not succeed.
+As a result, it might be necessary to abort a given multipart upload multiple times in order to completely
+free all storage consumed by all parts.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3AbortMultipartUploadResponse *)abortMultipartUpload:(S3AbortMultipartUploadRequest *)<em>abortMultipartUploadRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>abortMultipartUploadRequest</em></dt>
+			<dd><p>The S3AbortMultipartUploadRequest which defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3AbortMultipartUploadResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Aborts a multipart upload.
+After a multipart upload is aborted, no additional parts can be uploaded using that upload ID.
+The storage consumed by any previously uploaded parts will be freed.
+However, if any part uploads are currently in progress, those part uploads might or might not succeed.
+As a result, it might be necessary to abort a given multipart upload multiple times in order to completely
+free all storage consumed by all parts.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3AbortMultipartUploadResponse.html">S3AbortMultipartUploadResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3AbortMultipartUploadRequest.html">S3AbortMultipartUploadRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/completeMultipartUpload:" title="completeMultipartUpload:"></a>
+	<h3 class="subsubtitle method-title">completeMultipartUpload:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Completes a multipart upload by assembling previously uploaded parts.
+You first upload all parts using the uploadPart method.
+After successfully uploading all relevant parts of an upload,
+you call this operation to complete the upload. Upon receiving
+this request, Amazon S3 concatenates all the parts in ascending
+order by part number to create a new object. In the
+completeMultipartUpload request, you must provide the
+parts list. For each part in the list, you provide the
+part number and the ETag header value, returned after that
+part was uploaded.
+Processing of a completeMultipartUpload request may take
+several minutes to complete.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3CompleteMultipartUploadResponse *)completeMultipartUpload:(S3CompleteMultipartUploadRequest *)<em>completeMultipartUploadRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completeMultipartUploadRequest</em></dt>
+			<dd><p>The CompleteMultipartUploadRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3CompleteMultipartUploadResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Completes a multipart upload by assembling previously uploaded parts.
+You first upload all parts using the uploadPart method.
+After successfully uploading all relevant parts of an upload,
+you call this operation to complete the upload. Upon receiving
+this request, Amazon S3 concatenates all the parts in ascending
+order by part number to create a new object. In the
+completeMultipartUpload request, you must provide the
+parts list. For each part in the list, you provide the
+part number and the ETag header value, returned after that
+part was uploaded.
+Processing of a completeMultipartUpload request may take
+several minutes to complete.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3CompleteMultipartUploadResponse.html">S3CompleteMultipartUploadResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3CompleteMultipartUploadRequest.html">S3CompleteMultipartUploadRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createBucket:" title="createBucket:"></a>
+	<h3 class="subsubtitle method-title">createBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a bucket using the the specified request object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3CreateBucketResponse *)createBucket:(S3CreateBucketRequest *)<em>createBucketRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createBucketRequest</em></dt>
+			<dd><p>An S3CreateBucketRequest that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3CreateBucketResponse from S3</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a bucket using the the specified request object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3CreateBucketResponse.html">S3CreateBucketResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3CreateBucketRequest.html">S3CreateBucketRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createBucketWithName:" title="createBucketWithName:"></a>
+	<h3 class="subsubtitle method-title">createBucketWithName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a bucket using the the specified bucket name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3CreateBucketResponse *)createBucketWithName:(NSString *)<em>bucketName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name for the bucket to be created.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3CreateBucketResponse from S3</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a bucket using the the specified bucket name.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3CreateBucketResponse.html">S3CreateBucketResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucket:" title="deleteBucket:"></a>
+	<h3 class="subsubtitle method-title">deleteBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketResponse *)deleteBucket:(S3DeleteBucketRequest *)<em>deleteBucketRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteBucketRequest</em></dt>
+			<dd><p>An S3DeleteBucketRequest that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3DeleteBucketResponse from S3</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketResponse.html">S3DeleteBucketResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketRequest.html">S3DeleteBucketRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketCrossOrigin:" title="deleteBucketCrossOrigin:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketCrossOrigin:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the CrossOrigin configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketCrossOriginResponse *)deleteBucketCrossOrigin:(S3DeleteBucketCrossOriginRequest *)<em>deleteBucketCrossOriginRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteBucketCrossOriginRequest</em></dt>
+			<dd><p>the request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes the CrossOrigin configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketCrossOriginResponse.html">S3DeleteBucketCrossOriginResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketCrossOriginRequest.html">S3DeleteBucketCrossOriginRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketLifecycleConfiguration:" title="deleteBucketLifecycleConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketLifecycleConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This operation removes the lifecycle configuration for a bucket. Calling
+this operation on a bucket with no lifecycle configuration does <b>not</b>
+throw an exception. Calling this operation on a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketLifecycleConfigurationResponse *)deleteBucketLifecycleConfiguration:(S3DeleteBucketLifecycleConfigurationRequest *)<em>deleteBucketLifecycleConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteBucketLifecycleConfigurationRequest</em></dt>
+			<dd><p>The request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This operation removes the lifecycle configuration for a bucket. Calling
+this operation on a bucket with no lifecycle configuration does <b>not</b>
+throw an exception. Calling this operation on a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketLifecycleConfigurationResponse.html">S3DeleteBucketLifecycleConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketLifecycleConfigurationRequest.html">S3DeleteBucketLifecycleConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketPolicy:" title="deleteBucketPolicy:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the policy associated with the specified bucket. Only the owner
+of the bucket can delete the bucket policy.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketPolicyResponse *)deleteBucketPolicy:(S3DeleteBucketPolicyRequest *)<em>deletePolicyRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes the policy associated with the specified bucket. Only the owner
+of the bucket can delete the bucket policy.</p>
+
+<p>Bucket policies provide access control management at the bucket level for
+both the bucket resource and contained object resources. Only one policy
+can be specified per-bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketPolicyResponse.html">S3DeleteBucketPolicyResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketPolicyRequest.html">S3DeleteBucketPolicyRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketTagging:" title="deleteBucketTagging:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketTagging:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the tagging configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketTaggingResponse *)deleteBucketTagging:(S3DeleteBucketTaggingRequest *)<em>deleteBucketTaggingRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteBucketTaggingRequest</em></dt>
+			<dd><p>The request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes the tagging configuration for the specified bucket</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketTaggingResponse.html">S3DeleteBucketTaggingResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketTaggingRequest.html">S3DeleteBucketTaggingRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketWebsiteConfiguration:" title="deleteBucketWebsiteConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketWebsiteConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This operation removes the website configuration for a bucket. Calling
+this operation on a bucket with no website configuration does <b>not</b>
+throw an exception. Calling this operation a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:DeleteBucketWebsite</code>
+permission. By default, only the bucket owner can delete the website
+configuration attached to a bucket. However, bucket owners can grant
+other users permission to delete the website configuration by writing a
+bucket policy granting them the <code>S3:DeleteBucketWebsite</code>
+permission.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketWebsiteConfigurationResponse *)deleteBucketWebsiteConfiguration:(S3DeleteBucketWebsiteConfigurationRequest *)<em>deleteBucketWebsiteConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket whose website configuration is being
+deleted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This operation removes the website configuration for a bucket. Calling
+this operation on a bucket with no website configuration does <b>not</b>
+throw an exception. Calling this operation a bucket that does not exist
+<b>will</b> throw an exception.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:DeleteBucketWebsite</code>
+permission. By default, only the bucket owner can delete the website
+configuration attached to a bucket. However, bucket owners can grant
+other users permission to delete the website configuration by writing a
+bucket policy granting them the <code>S3:DeleteBucketWebsite</code>
+permission.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketWebsiteConfigurationResponse.html">S3DeleteBucketWebsiteConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketWebsiteConfigurationRequest.html">S3DeleteBucketWebsiteConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteBucketWithName:" title="deleteBucketWithName:"></a>
+	<h3 class="subsubtitle method-title">deleteBucketWithName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteBucketResponse *)deleteBucketWithName:(NSString *)<em>bucketName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket to be deleted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3DeleteBucketResponse from S3</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes a bucket with the specified name. All objects in the bucket must be deleted before the
+bucket itself can be deleted.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteBucketResponse.html">S3DeleteBucketResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteObject:" title="deleteObject:"></a>
+	<h3 class="subsubtitle method-title">deleteObject:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteObjectResponse *)deleteObject:(S3DeleteObjectRequest *)<em>deleteObjectRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteObjectRequest</em></dt>
+			<dd><p>The S3DeleteObjectRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3DeleteObjectResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteObjectResponse.html">S3DeleteObjectResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteObjectRequest.html">S3DeleteObjectRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteObjectWithKey:withBucket:" title="deleteObjectWithKey:withBucket:"></a>
+	<h3 class="subsubtitle method-title">deleteObjectWithKey:withBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteObjectResponse *)deleteObjectWithKey:(NSString *)<em>theKey</em> withBucket:(NSString *)<em>theBucket</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>The key of the object to be deleted.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theBucket</em></dt>
+			<dd><p>The bucket containing the object to be deleted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3DeleteObjectResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes the specified object from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteObjectResponse.html">S3DeleteObjectResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteObjects:" title="deleteObjects:"></a>
+	<h3 class="subsubtitle method-title">deleteObjects:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified objects from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.
+Check S3DeleteObjectsResponse.deleteErrors to see if there were any errors after calling this method.
+&ndash; When there was no error, deleteErrors will be an empty NSArray.
+&ndash; When there were any errors, deleteErrors contains a list of DeleteError objects.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteObjectsResponse *)deleteObjects:(S3DeleteObjectsRequest *)<em>deleteObjectsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteObjectsRequest</em></dt>
+			<dd><p>The S3DeleteObjectsRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3DeleteObjectsResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes the specified objects from Amazon S3.
+Once deleted, there is no method to restore or undelete an object.
+Check S3DeleteObjectsResponse.deleteErrors to see if there were any errors after calling this method.
+&ndash; When there was no error, deleteErrors will be an empty NSArray.
+&ndash; When there were any errors, deleteErrors contains a list of DeleteError objects.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteObjectsResponse.html">S3DeleteObjectsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteObjectsRequest.html">S3DeleteObjectsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteVersion:" title="deleteVersion:"></a>
+	<h3 class="subsubtitle method-title">deleteVersion:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes a specific version of an object in the specified bucket. Once
+deleted, there is no method to restore or undelete an object version.
+This is the only way to permanently delete object versions that are
+protected by versioning.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3DeleteVersionResponse *)deleteVersion:(S3DeleteVersionRequest *)<em>deleteVersionRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Deletes a specific version of an object in the specified bucket. Once
+deleted, there is no method to restore or undelete an object version.
+This is the only way to permanently delete object versions that are
+protected by versioning.</p>
+
+<p>Deleting an object version is permanent and irreversible.
+It is a privileged operation that only the owner of the bucket containing the
+version can perform.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3DeleteVersionResponse.html">S3DeleteVersionResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3DeleteVersionRequest.html">S3DeleteVersionRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getACL:" title="getACL:"></a>
+	<h3 class="subsubtitle method-title">getACL:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the access control list for a given bucket or object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetACLResponse *)getACL:(S3GetACLRequest *)<em>getACLRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getACLRequest</em></dt>
+			<dd><p>The S3GetACLRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3GetACLResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets the access control list for a given bucket or object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetACLResponse.html">S3GetACLResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetACLRequest.html">S3GetACLRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketCrossOrigin:" title="getBucketCrossOrigin:"></a>
+	<h3 class="subsubtitle method-title">getBucketCrossOrigin:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the CrossOrigin configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketCrossOriginResponse *)getBucketCrossOrigin:(S3GetBucketCrossOriginRequest *)<em>getBucketCrossOriginRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getBucketCrossOriginRequest</em></dt>
+			<dd><p>request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A response which will contain the CORS config for bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets the CrossOrigin configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketCrossOriginResponse.html">S3GetBucketCrossOriginResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketCrossOriginRequest.html">S3GetBucketCrossOriginRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketLifecycleConfiguration:" title="getBucketLifecycleConfiguration:"></a>
+	<h3 class="subsubtitle method-title">getBucketLifecycleConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketLifecycleConfigurationResponse *)getBucketLifecycleConfiguration:(S3GetBucketLifecycleConfigurationRequest *)<em>getBucketLifecycleConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getBucketLifecycleConfigurationRequest</em></dt>
+			<dd><p>The request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The bucket lifecycle configuration for the specified bucket,
+otherwise null if there is no Lifecycle configuration set for the
+specified bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns the the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketLifecycleConfigurationResponse.html">S3GetBucketLifecycleConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketLifecycleConfigurationRequest.html">S3GetBucketLifecycleConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketLocation:" title="getBucketLocation:"></a>
+	<h3 class="subsubtitle method-title">getBucketLocation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Takes in a bucket&rsquo;s name and lists the location of the bucket.
+This information can be used to determine the bucket&rsquo;s geographical location.
+To determine the location of a bucket, you must be the bucket owner</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3Region *)getBucketLocation:(NSString *)<em>bucketName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The S3Region object that represents the region.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Takes in a bucket&rsquo;s name and lists the location of the bucket.
+This information can be used to determine the bucket&rsquo;s geographical location.
+To determine the location of a bucket, you must be the bucket owner</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3Region.html">S3Region</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketPolicy:" title="getBucketPolicy:"></a>
+	<h3 class="subsubtitle method-title">getBucketPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the policy for the specified bucket. Only the owner of the
+bucket can retrieve the policy. If no policy has been set for the bucket,
+then an empty result object with a <code>null</code> policy text field will be
+returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketPolicyResponse *)getBucketPolicy:(S3GetBucketPolicyRequest *)<em>getPolicyRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets the policy for the specified bucket. Only the owner of the
+bucket can retrieve the policy. If no policy has been set for the bucket,
+then an empty result object with a <code>null</code> policy text field will be
+returned.</p>
+
+<p>Bucket policies provide access control management at the bucket level for
+both the bucket resource and contained object resources. Only one policy
+can be specified per-bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketPolicyResponse.html">S3GetBucketPolicyResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketPolicyRequest.html">S3GetBucketPolicyRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketTagging:" title="getBucketTagging:"></a>
+	<h3 class="subsubtitle method-title">getBucketTagging:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the tagging configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketTaggingResponse *)getBucketTagging:(S3GetBucketTaggingRequest *)<em>getBucketTaggingRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getBucketTaggingRequest</em></dt>
+			<dd><p>The request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The bucket lifecycle configuration for the specified bucket,
+otherwise null if there is no Lifecycle configuration set for the
+specified bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets the tagging configuration for the specified bucket, or null if no
+configuration has been established.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketTaggingResponse.html">S3GetBucketTaggingResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketTaggingRequest.html">S3GetBucketTaggingRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketVersioningConfiguration:" title="getBucketVersioningConfiguration:"></a>
+	<h3 class="subsubtitle method-title">getBucketVersioningConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketVersioningConfigurationResponse *)getBucketVersioningConfiguration:(S3GetBucketVersioningConfigurationRequest *)<em>getBucketVersioningConfigurationRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p>
+
+<p>By default, new buckets are in the Off state. Once versioning is
+enabled for a bucket the status can never be reverted to Off.</p>
+
+<p>The versioning configuration of a bucket has different implications for
+each operation performed on that bucket or for objects within that
+bucket. For example, when versioning is enabled a <code>PutObject</code>
+operation creates a unique object version-id for the object being uploaded. The
+The <code>PutObject</code> API guarantees that, if versioning is enabled for a bucket at
+the time of the request, the new object can only be permanently deleted
+using a <code>DeleteVersion</code> operation. It can never be overwritten.
+Additionally, the <code>PutObject</code> API guarantees that,
+if versioning is enabled for a bucket the request,
+no other object will be overwritten by that request.
+Refer to the documentation sections for each API for information on how
+versioning status affects the semantics of that particular API.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketVersioningConfigurationResponse.html">S3GetBucketVersioningConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketVersioningConfigurationRequest.html">S3GetBucketVersioningConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getBucketWebsiteConfiguration:" title="getBucketWebsiteConfiguration:"></a>
+	<h3 class="subsubtitle method-title">getBucketWebsiteConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:GetBucketWebsite</code> permission.
+By default, only the bucket owner can read the bucket website
+configuration. However, bucket owners can allow other users to read the
+website configuration by writing a bucket policy granting them the
+<code>S3:GetBucketWebsite</code> permission.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetBucketWebsiteConfigurationResponse *)getBucketWebsiteConfiguration:(S3GetBucketWebsiteConfigurationRequest *)<em>getBucketWebsiteConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket whose website configuration is being
+retrieved.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The bucket website configuration for the specified bucket,
+otherwise null if there is no website configuration set for the
+specified bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:GetBucketWebsite</code> permission.
+By default, only the bucket owner can read the bucket website
+configuration. However, bucket owners can allow other users to read the
+website configuration by writing a bucket policy granting them the
+<code>S3:GetBucketWebsite</code> permission.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetBucketWebsiteConfigurationResponse.html">S3GetBucketWebsiteConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetBucketWebsiteConfigurationRequest.html">S3GetBucketWebsiteConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getObject:" title="getObject:"></a>
+	<h3 class="subsubtitle method-title">getObject:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetch the most recent version of an S3 object
+from the specified S3 bucket. You must have READ access to the object.
+If READ access is granted to an anonymous user, an object can be retrieved
+without an authorization header. Providing a version-id for the object will
+fetch the specific version from S3 instead of the most recent one.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetObjectResponse *)getObject:(S3GetObjectRequest *)<em>getObjectRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getObjectRequest</em></dt>
+			<dd><p>The S3GetObjectRequest that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3GetObjectResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Fetch the most recent version of an S3 object
+from the specified S3 bucket. You must have READ access to the object.
+If READ access is granted to an anonymous user, an object can be retrieved
+without an authorization header. Providing a version-id for the object will
+fetch the specific version from S3 instead of the most recent one.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetObjectResponse.html">S3GetObjectResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetObjectRequest.html">S3GetObjectRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getObjectMetadata:" title="getObjectMetadata:"></a>
+	<h3 class="subsubtitle method-title">getObjectMetadata:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieve metadata from an object without returning the object itself.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3GetObjectMetadataResponse *)getObjectMetadata:(S3GetObjectMetadataRequest *)<em>getObjectMetadataRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getObjectMetadataRequest</em></dt>
+			<dd><p>The S3DeleteBucketRequest object that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3GetObjectMetadataResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieve metadata from an object without returning the object itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetObjectMetadataResponse.html">S3GetObjectMetadataResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3GetObjectMetadataRequest.html">S3GetObjectMetadataRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPreSignedURL:" title="getPreSignedURL:"></a>
+	<h3 class="subsubtitle method-title">getPreSignedURL:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURL *)getPreSignedURL:(S3GetPreSignedURLRequest *)<em>preSignedURLRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>preSignedURLRequest</em></dt>
+			<dd><p>The S3GetPreSignedURLRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An signed NSURL for the resource.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetPreSignedURLRequest.html">S3GetPreSignedURLRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPreSignedURL:error:" title="getPreSignedURL:error:"></a>
+	<h3 class="subsubtitle method-title">getPreSignedURL:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSURL *)getPreSignedURL:(S3GetPreSignedURLRequest *)<em>preSignedURLRequest</em> error:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>preSignedURLRequest</em></dt>
+			<dd><p>The S3GetPreSignedURLRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>A reference to an NSError object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An signed NSURL for the resource.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a signed http request.
+Query string authentication is useful for giving HTTP or browser
+access to resources that would normally require authentication.
+When using query string authentication, you create a query,
+specify an expiration time for the query, sign it with your
+signature, place the data in an HTTP request, and distribute
+the request to a user or embed the request in a web page.
+A PreSigned URL can be generated for GET, PUT and HEAD
+operations on your bucket, and keys.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3GetPreSignedURLRequest.html">S3GetPreSignedURLRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initiateMultipartUpload:" title="initiateMultipartUpload:"></a>
+	<h3 class="subsubtitle method-title">initiateMultipartUpload:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiates a multipart upload and returns an InitiateMultipartUploadResponse.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3InitiateMultipartUploadResponse *)initiateMultipartUpload:(S3InitiateMultipartUploadRequest *)<em>initiateMultipartUploadRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>initiateMultipartUploadRequest</em></dt>
+			<dd><p>The S3InitiateMultipartUploadRequest that defines the paramaters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initiates a multipart upload and returns an InitiateMultipartUploadResponse.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3InitiateMultipartUploadResponse.html">S3InitiateMultipartUploadResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3InitiateMultipartUploadRequest.html">S3InitiateMultipartUploadRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initiateMultipartUploadWithKey:withBucket:" title="initiateMultipartUploadWithKey:withBucket:"></a>
+	<h3 class="subsubtitle method-title">initiateMultipartUploadWithKey:withBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiates a multipart upload and returns an MultipartUpload instance
+which contains an upload ID. This upload ID associates all the
+parts in the specific upload. You specify this upload ID in each of
+your subsequent Upload Part requests. You also include
+this upload ID in the final request to either complete, or abort
+the multipart upload request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3MultipartUpload *)initiateMultipartUploadWithKey:(NSString *)<em>theKey</em> withBucket:(NSString *)<em>theBucket</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theKey</em></dt>
+			<dd><p>The key the the completed object will have</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theBucket</em></dt>
+			<dd><p>The bucket where the completed object will reside.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3MultipartUpload object which contains the uploadId for the upload.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initiates a multipart upload and returns an MultipartUpload instance
+which contains an upload ID. This upload ID associates all the
+parts in the specific upload. You specify this upload ID in each of
+your subsequent Upload Part requests. You also include
+this upload ID in the final request to either complete, or abort
+the multipart upload request.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3MultipartUpload.html">S3MultipartUpload</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/invoke:" title="invoke:"></a>
+	<h3 class="subsubtitle method-title">invoke:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Utility method that sends the raw S3 Request to be processed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3Response *)invoke:(S3Request *)<em>request</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>A request describing the parameters of an S3 request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Utility method that sends the raw S3 Request to be processed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listBuckets" title="listBuckets"></a>
+	<h3 class="subsubtitle method-title">listBuckets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)listBuckets</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An NSArray of S3Bucket objects.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listBuckets:" title="listBuckets:"></a>
+	<h3 class="subsubtitle method-title">listBuckets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3ListBucketsResponse *)listBuckets:(S3ListBucketsRequest *)<em>listBucketsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listBucketsRequest</em></dt>
+			<dd><p>An S3ListBucketsRequest object that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3ListBucketsResponse from S3. The <code>buckets</code> property of the
+S3ListBucketsResult has the list of buckets.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a list of all Amazon S3 buckets that the authenticated sender of the request owns.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3ListBucketsResponse.html">S3ListBucketsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3ListBucketsRequest.html">S3ListBucketsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listMultipartUploads:" title="listMultipartUploads:"></a>
+	<h3 class="subsubtitle method-title">listMultipartUploads:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This operation lists in-progress multipart uploads.
+An in-progress
+multipart upload is a multipart upload that has been initiated,
+using the InitiateMultipartUpload request, but has not yet been
+completed or aborted.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3ListMultipartUploadsResponse *)listMultipartUploads:(S3ListMultipartUploadsRequest *)<em>listMultipartUploadsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listMultipartUploadsRequest</em></dt>
+			<dd><p>The ListMultipartUploadsRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Returns a ListMultipartUploadsResponse from S3.</returns></p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This operation lists in-progress multipart uploads.
+An in-progress
+multipart upload is a multipart upload that has been initiated,
+using the InitiateMultipartUpload request, but has not yet been
+completed or aborted.</p>
+
+<p>This operation returns at most 1,000 multipart uploads in the
+response by default. The number of multipart uploads can be further
+limited using the MaxUploads property on the request parameter. If there are
+additional multipart uploads that satisfy the list criteria, the
+response will contain an IsTruncated property with the value set to true.
+To list the additional multipart uploads use the KeyMarker and
+UploadIdMarker properties on the request parameters.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3ListMultipartUploadsResponse.html">S3ListMultipartUploadsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3ListMultipartUploadsRequest.html">S3ListMultipartUploadsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listObjects:" title="listObjects:"></a>
+	<h3 class="subsubtitle method-title">listObjects:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>List the objects in a bucket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3ListObjectsResponse *)listObjects:(S3ListObjectsRequest *)<em>listObjectsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listObjectsRequest</em></dt>
+			<dd><p>The S3ListObjectsRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3ListObjectsResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>List the objects in a bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3ListObjectsResponse.html">S3ListObjectsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3ListObjectsRequest.html">S3ListObjectsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listObjectsInBucket:" title="listObjectsInBucket:"></a>
+	<h3 class="subsubtitle method-title">listObjectsInBucket:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>List the objects in a bucket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)listObjectsInBucket:(NSString *)<em>bucketName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An NSArray of S3ObjectSummary objects.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>List the objects in a bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listParts:" title="listParts:"></a>
+	<h3 class="subsubtitle method-title">listParts:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Lists the parts that have been uploaded for a particular multipart upload.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3ListPartsResponse *)listParts:(S3ListPartsRequest *)<em>listPartsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listPartsRequest</em></dt>
+			<dd><p>The S3ListPartsRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3ListPartsResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Lists the parts that have been uploaded for a particular multipart upload.</p>
+
+<p>This method must include the upload ID, returned by
+the initiateMultipartUpload request. This request
+returns a maximum of 1000 uploaded parts by default. You can
+restrict the number of parts returned by specifying the
+maxParts property on the listPartsRequest. If your multipart
+upload consists of more parts than allowed in the
+listParts response, the response returns a isTruncated
+field with value true, and a nextPartNumberMarker property.
+In subsequent listParts request you can include the
+partNumberMarker property and set its value to the
+nextPartNumberMarker property value from the previous response.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3ListPartsResponse.html">S3ListPartsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3ListPartsRequest.html">S3ListPartsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listVersions:" title="listVersions:"></a>
+	<h3 class="subsubtitle method-title">listVersions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a list of summary information about the versions in the specified bucket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3ListVersionsResponse *)listVersions:(S3ListVersionsRequest *)<em>lisVersionsRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a list of summary information about the versions in the specified bucket.</p>
+
+<p>The returned version summaries are ordered first by key and then by
+version. Keys are sorted lexicographically (alphabetically)
+while versions are sorted from most recent to least recent.
+Both versions with data and delete markers are included in the results.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3ListVersionsResponse.html">S3ListVersionsResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3ListVersionsRequest.html">S3ListVersionsRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/objectCopy:" title="objectCopy:"></a>
+	<h3 class="subsubtitle method-title">objectCopy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a copy of an object that is already stored in Amazon S3.
+When copying an object, you can preserve all metadata (default) or specify new metadata.
+However, the ACL is not preserved and is set to private for the user making the request.
+To override the default ACL setting, specify a new ACL when generating a copy request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3CopyObjectResponse *)objectCopy:(S3CopyObjectRequest *)<em>copyObjectRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Create a copy of an object that is already stored in Amazon S3.
+When copying an object, you can preserve all metadata (default) or specify new metadata.
+However, the ACL is not preserved and is set to private for the user making the request.
+To override the default ACL setting, specify a new ACL when generating a copy request.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3CopyObjectResponse.html">S3CopyObjectResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3CopyObjectRequest.html">S3CopyObjectRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/partCopy:" title="partCopy:"></a>
+	<h3 class="subsubtitle method-title">partCopy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>S3CopyPartResponse</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3CopyPartResponse *)partCopy:(S3CopyPartRequest *)<em>copyPartRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3CopyPartResponse.html">S3CopyPartResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3CopyPartRequest.html">S3CopyPartRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putObject:" title="putObject:"></a>
+	<h3 class="subsubtitle method-title">putObject:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Upload an object to S3.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3PutObjectResponse *)putObject:(S3PutObjectRequest *)<em>putObjectRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putObjectRequest</em></dt>
+			<dd><p>The S3PutObjectRequest that defines the parameters of the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3PutObjectResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Upload an object to S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3PutObjectResponse.html">S3PutObjectResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3PutObjectRequest.html">S3PutObjectRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/restoreObject:" title="restoreObject:"></a>
+	<h3 class="subsubtitle method-title">restoreObject:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Request temporary restoration of an object which was transitioned
+to Amazon Glacier from Amazon S3 via life cycle configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3RestoreObjectResponse *)restoreObject:(S3RestoreObjectRequest *)<em>restoreObjectRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>restoreObjectRequest</em></dt>
+			<dd><p>The RestoreObjectRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An RestoreObjectResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Request temporary restoration of an object which was transitioned
+to Amazon Glacier from Amazon S3 via life cycle configuration.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3RestoreObjectRequest.html">S3RestoreObjectRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setACL:" title="setACL:"></a>
+	<h3 class="subsubtitle method-title">setACL:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the S3AccessControlList for a given bucket or object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetACLResponse *)setACL:(S3SetACLRequest *)<em>setACLRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setACLRequest</em></dt>
+			<dd><p>The S3SetACLRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3SetACLResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the S3AccessControlList for a given bucket or object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetACLResponse.html">S3SetACLResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetACLRequest.html">S3SetACLRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketCrossOrigin:" title="setBucketCrossOrigin:"></a>
+	<h3 class="subsubtitle method-title">setBucketCrossOrigin:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the CORS configuration for the specified bucket, or null if no
+configuration has been established. CORS config is comprised of a set of rules.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketCrossOriginResponse *)setBucketCrossOrigin:(S3SetBucketCrossOriginRequest *)<em>setBucketCrossOriginRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setBucketCrossOriginRequest</em></dt>
+			<dd><p>request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the CORS configuration for the specified bucket, or null if no
+configuration has been established. CORS config is comprised of a set of rules.</p>
+
+<p><p>
+For more informaiton on how to using Bucket CORS see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/cors.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketCrossOriginResponse.html">S3SetBucketCrossOriginResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketCrossOriginRequest.html">S3SetBucketCrossOriginRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketLifecycleConfiguration:" title="setBucketLifecycleConfiguration:"></a>
+	<h3 class="subsubtitle method-title">setBucketLifecycleConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketLifecycleConfigurationResponse *)setBucketLifecycleConfiguration:(S3SetBucketLifecycleConfigurationRequest *)<em>setBucketLifecycleConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setBucketLifecycleConfigurationRequest</em></dt>
+			<dd><p>The request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the lifecycle configuration for the specified bucket. Bucket
+lifecycle configuration allows you specify a number of rules for object
+based on the object&rsquo;s key prefix.  Each rule is a combination of id, prefix
+status and expiration time (in days).</p>
+
+<p><p>
+For more informaiton on how to use Bucket Lifecycle/Object Expiration see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/ObjectExpiration.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketLifecycleConfigurationResponse.html">S3SetBucketLifecycleConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketLifecycleConfigurationRequest.html">S3SetBucketLifecycleConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketPolicy:" title="setBucketPolicy:"></a>
+	<h3 class="subsubtitle method-title">setBucketPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the policy associated with the specified bucket. Only the owner of
+the bucket can set a bucket policy. If a policy already exists for the
+specified bucket, the new policy replaces the existing policy.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketPolicyResponse *)setBucketPolicy:(S3SetBucketPolicyRequest *)<em>setPolicyRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the policy associated with the specified bucket. Only the owner of
+the bucket can set a bucket policy. If a policy already exists for the
+specified bucket, the new policy replaces the existing policy.</p>
+
+<p>Bucket policies provide access control management at the bucket level for
+both the bucket resource and contained object resources. Only one policy
+can be specified per-bucket.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketPolicyResponse.html">S3SetBucketPolicyResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketPolicyRequest.html">S3SetBucketPolicyRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketTagging:" title="setBucketTagging:"></a>
+	<h3 class="subsubtitle method-title">setBucketTagging:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the tagging configuration for the specified bucket.  A tagging configuration contains a TagSet.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketTaggingResponse *)setBucketTagging:(S3SetBucketTaggingRequest *)<em>setBucketTaggingRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setBucketTaggingRequest</em></dt>
+			<dd><p>request to process</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the tagging configuration for the specified bucket.  A tagging configuration contains a TagSet.</p>
+
+<p><p>
+For more informaiton on how to using Bucket Cost Allocation Tagging see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/BucketBilling.html</a>.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketTaggingResponse.html">S3SetBucketTaggingResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketTaggingRequest.html">S3SetBucketTaggingRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketVersioningConfiguration:" title="setBucketVersioningConfiguration:"></a>
+	<h3 class="subsubtitle method-title">setBucketVersioningConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketVersioningConfigurationResponse *)setBucketVersioningConfiguration:(S3SetBucketVersioningConfigurationRequest *)<em>setBucketVersioningConfigurationRequest</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the versioning configuration for the specified bucket.
+A bucket&rsquo;s versioning configuration can be in one of three possible
+states: Off, Enabled, or Suspended</p>
+
+<p>By default, new buckets are in the Off state. Once versioning is
+enabled for a bucket the status can never be reverted to Off.</p>
+
+<p>Objects created before versioning was enabled or when versioning is
+suspended will be given the default <code>null</code> version ID. Note
+that the <code>null</code> version ID is a valid version ID and is not
+the same as not having a version ID.</p>
+
+<p>The versioning configuration of a bucket has different implications for
+each operation performed on that bucket or for objects within that
+bucket. For example, when versioning is enabled a <code>PutObject</code>
+operation creates a unique object version-id for the object being uploaded. The
+The <code>PutObject</code> API guarantees that, if versioning is enabled for a bucket at
+the time of the request, the new object can only be permanently deleted
+using a <code>DeleteVersion</code> operation. It can never be overwritten.
+Additionally, the <code>PutObject</code> API guarantees that,
+if versioning is enabled for a bucket the request,
+no other object will be overwritten by that request.
+Refer to the documentation sections for each API for information on how
+versioning status affects the semantics of that particular API.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketVersioningConfigurationResponse.html">S3SetBucketVersioningConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketVersioningConfigurationRequest.html">S3SetBucketVersioningConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBucketWebsiteConfiguration:" title="setBucketWebsiteConfiguration:"></a>
+	<h3 class="subsubtitle method-title">setBucketWebsiteConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:PutBucketWebsite</code> permission.
+By default, only the bucket owner can configure the website attached to a
+bucket. However, bucket owners can allow other users to set the website
+configuration by writing a bucket policy granting them the
+<code>S3:PutBucketWebsite</code> permission.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3SetBucketWebsiteConfigurationResponse *)setBucketWebsiteConfiguration:(S3SetBucketWebsiteConfigurationRequest *)<em>setBucketWebsiteConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bucketName</em></dt>
+			<dd><p>The name of the bucket whose website configuration is being
+set.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The configuration describing how the specified bucket will
+serve web requests (i.e. default index page, error page).</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the website configuration for the specified bucket. Bucket
+website configuration allows you to host your static websites entirely
+out of Amazon S3. To host your website in Amazon S3, create a bucket,
+upload your files, and configure it as a website. Once your bucket has
+been configured as a website, you can access all your content via the
+Amazon S3 website endpoint. To ensure that the existing Amazon S3 REST
+API will continue to behave the same, regardless of whether or not your
+bucket has been configured to host a website, a new HTTP endpoint has
+been introduced where you can access your content. The bucket content you
+want to make available via the website must be publicly readable.</p>
+
+<p><p>
+For more information on how to host a website on Amazon S3, see:
+<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html</a>.
+<p>
+This operation requires the <code>S3:PutBucketWebsite</code> permission.
+By default, only the bucket owner can configure the website attached to a
+bucket. However, bucket owners can allow other users to set the website
+configuration by writing a bucket policy granting them the
+<code>S3:PutBucketWebsite</code> permission.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any errors are encountered on the client while making the
+request or handling the response. For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If any errors occurred in Amazon S3 while processing the
+request.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3SetBucketWebsiteConfigurationResponse.html">S3SetBucketWebsiteConfigurationResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3SetBucketWebsiteConfigurationRequest.html">S3SetBucketWebsiteConfigurationRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/uploadPart:" title="uploadPart:"></a>
+	<h3 class="subsubtitle method-title">uploadPart:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Uploads a part in a multipart upload.
+You must initiate a multipart upload before you can upload any part.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (S3UploadPartResponse *)uploadPart:(S3UploadPartRequest *)<em>uploadPartRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>uploadPartRequest</em></dt>
+			<dd><p>The S3UploadPartRequest that defines the parameters of the operation.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An S3UploadPartResponse from S3.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Uploads a part in a multipart upload.
+You must initiate a multipart upload before you can upload any part.</p>
+
+<p>Your uploadPart request must include an upload ID and a part number.
+The upload ID is the ID returned by Amazon S3 in response to your
+Initiate Multipart Upload request. Part number can be any number between 1 and
+10,000, inclusive. A part number uniquely identifies a part and also
+defines its position within the object being uploaded. If you
+upload a new part using the same part number that was specified in uploading a
+previous part, the previously uploaded part is overwritten.</p>
+
+<p>When you upload a part, the S3UploadPartResponse response contains an etag property.
+You should record this etag property value and the part
+number. After uploading all parts, you must send a completeMultipartUpload
+request. At that time Amazon S3 constructs a complete object by
+concatenating all the parts you uploaded, in ascending order based on
+the part numbers. The completeMultipartUpload request requires you to
+send all the part numbers and the corresponding etag values.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/S3UploadPartResponse.html">S3UploadPartResponse</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/S3UploadPartRequest.html">S3UploadPartRequest</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonS3Client.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

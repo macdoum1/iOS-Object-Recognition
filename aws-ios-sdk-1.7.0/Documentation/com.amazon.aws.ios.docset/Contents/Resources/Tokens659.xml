@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3KeyVersion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3KeyVersion</TokenIdentifier>
+			<Abstract type="html">A key to delete, with an optional version attribute.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>
+			
+			<NodeRef refid="659"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3KeyVersion/toXml</TokenIdentifier>
+			<Abstract type="html">Returns the XML represenation of the object.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)toXml</Declaration>
+			
+			<ReturnValue><Abstract type="html">A XML representation of the Object.</Abstract></ReturnValue>
+			<Anchor>//api/name/toXml</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3KeyVersion/setKey:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the key property.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3KeyVersion/key</TokenIdentifier>
+			<Abstract type="html">Gets and sets the key property.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3KeyVersion/setVersion:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the version property.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3KeyVersion/version</TokenIdentifier>
+			<Abstract type="html">Gets and sets the version property.</Abstract>
+			<DeclaredIn>S3KeyVersion.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonSDKUtil.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonSDKUtil</TokenIdentifier>
+			<Abstract type="html">Utility class for the AWS SDK for iOS.  Contains many common operations used
+by all supported services.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/userAgentString</TokenIdentifier>
+			<Abstract type="html">The user agent string for the SDK.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)userAgentString</Declaration>
+			
+			<ReturnValue><Abstract type="html">the user agent string that will be used for service clients</Abstract></ReturnValue>
+			<Anchor>//api/name/userAgentString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/MIMETypeForExtension:</TokenIdentifier>
+			<Abstract type="html">Return a MIME type for the file based on extension.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)MIMETypeForExtension:(NSString *)extension</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>extension</Name>
+					<Abstract type="html">the extension for the file (gif, jpg, etc)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the expected MIME type to use for this type of file</Abstract></ReturnValue>
+			<Anchor>//api/name/MIMETypeForExtension:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/urlEncode:</TokenIdentifier>
+			<Abstract type="html">Encode a string to embed in a URL.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)urlEncode:(NSString *)input</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>input</Name>
+					<Abstract type="html">string to encode</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">encoded string</Abstract></ReturnValue>
+			<Anchor>//api/name/urlEncode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/hexDecode:</TokenIdentifier>
+			<Abstract type="html">Hex decode a string value.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSData *)hexDecode:(NSString *)hexString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hexString</Name>
+					<Abstract type="html">the string to attempt to decode</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The decoded data.</Abstract></ReturnValue>
+			<Anchor>//api/name/hexDecode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/hexEncode:</TokenIdentifier>
+			<Abstract type="html">Hex encode a string value.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)hexEncode:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">the string to encode</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the hex encoded value as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/hexEncode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/hexEncodeData:</TokenIdentifier>
+			<Abstract type="html">Hex encode a data value</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)hexEncodeData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">value to encode</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the hex encoded value as an NSString</Abstract></ReturnValue>
+			<Anchor>//api/name/hexEncodeData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/convertStringToNumber:</TokenIdentifier>
+			<Abstract type="html">Parse a number from an NSString value</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSNumber *)convertStringToNumber:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">NSString containing a number</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSNumber parsed from the string</Abstract></ReturnValue>
+			<Anchor>//api/name/convertStringToNumber:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/convertStringToDate:</TokenIdentifier>
+			<Abstract type="html">Parse a date from an NSString value</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)convertStringToDate:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">NSString containing a date in ISO-8061 format</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The NSDate parsed from the string</Abstract></ReturnValue>
+			<Anchor>//api/name/convertStringToDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/convertStringToDate:usingFormat:</TokenIdentifier>
+			<Abstract type="html">Parse a date from an NSString value using a given format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)convertStringToDate:(NSString *)string usingFormat:(NSString *)dateFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">NSString containing a date</Abstract>
+				</Parameter><Parameter>
+					<Name>dateFormat</Name>
+					<Abstract type="html">The format of the date</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/convertStringToDate:usingFormat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/convertDateToString:usingFormat:</TokenIdentifier>
+			<Abstract type="html">Convert a NSDate to a NSString using a given format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)convertDateToString:(NSDate *)date usingFormat:(NSString *)dateFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">the NSDate to convert</Abstract>
+				</Parameter><Parameter>
+					<Name>dateFormat</Name>
+					<Abstract type="html">the format to use</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The string representation of the date using the given format</Abstract></ReturnValue>
+			<Anchor>//api/name/convertDateToString:usingFormat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/millisSinceEpochToDate:</TokenIdentifier>
+			<Abstract type="html">Construct a date using the number of milliseconds from the epoch (00:00:00 1/1/1970 GMT)</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)millisSinceEpochToDate:(NSNumber *)millisSinceEpoch</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>millisSinceEpoch</Name>
+					<Abstract type="html">number of milliseconds since the epoch</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDate for that exact time.</Abstract></ReturnValue>
+			<Anchor>//api/name/millisSinceEpochToDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/secondsSinceEpochToDate:</TokenIdentifier>
+			<Abstract type="html">Construct a date using the number of seconds from the epoch (00:00:00 1/1/1970 GMT)</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)secondsSinceEpochToDate:(NSNumber *)secondsSinceEpoch</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>secondsSinceEpoch</Name>
+					<Abstract type="html">number of seconds since the epoch</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDate for that exact time.</Abstract></ReturnValue>
+			<Anchor>//api/name/secondsSinceEpochToDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/URLWithURL:andProtocol:</TokenIdentifier>
+			<Abstract type="html">Construct an NSURL object with a URI and protocol/scheme</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSURL *)URLWithURL:(NSURL *)theURL andProtocol:(NSString *)theProtocol</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theURL</Name>
+					<Abstract type="html">the URL fragment (hostname + path)</Abstract>
+				</Parameter><Parameter>
+					<Name>theProtocol</Name>
+					<Abstract type="html">scheme to use. Valid schemes are @&quot;http://&quot; and @&quot;https://&quot;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSURL object for this path</Abstract></ReturnValue>
+			<Anchor>//api/name/URLWithURL:andProtocol:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/timestampLocale</TokenIdentifier>
+			<Abstract type="html">Return the locale for the current device</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSLocale *)timestampLocale</Declaration>
+			
+			<ReturnValue><Abstract type="html">the NSLocale</Abstract></ReturnValue>
+			<Anchor>//api/name/timestampLocale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/setRuntimeClockSkew:</TokenIdentifier>
+			<Abstract type="html">Set the clock skew for the current device.  This clock skew will be used for calculating
+signatures to AWS signatures and for parsing/converting date values from responses.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setRuntimeClockSkew:(NSTimeInterval)clockskew</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clockskew</Name>
+					<Abstract type="html">the skew (in seconds) for this device.  If the clock on the device is fast, pass positive skew to correct.  If the clock on the device is slow, pass negative skew to correct.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRuntimeClockSkew:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonSDKUtil/getRuntimeClockSkew</TokenIdentifier>
+			<Abstract type="html">Get the clock skew for the current device.</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSTimeInterval)getRuntimeClockSkew</Declaration>
+			
+			<ReturnValue><Abstract type="html">the skew (in seconds) currently set for this device.  Positive clock skew implies the device is fast, negative implies the device is slow.</Abstract></ReturnValue>
+			<Anchor>//api/name/getRuntimeClockSkew</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

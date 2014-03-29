@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceNetworkInterfaceSpecification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceNetworkInterfaceSpecification</TokenIdentifier>
+			<Abstract type="html">Instance Network Interface Specification</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>
+			
+			<NodeRef refid="408"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">An existing interface to attach to a single instance. Requires n=1
+instances.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">An existing interface to attach to a single instance. Requires n=1
+instances.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setDeviceIndex:</TokenIdentifier>
+			<Abstract type="html">The device index. Applies to both attaching an existing network
+interface and when creating a network interface. &lt;p&gt;Condition: If you
+are specifying a network interface in the request, you must provide
+the device index.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *deviceIndex</Declaration>
+			
+			
+			<Anchor>//api/name/deviceIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/deviceIndex</TokenIdentifier>
+			<Abstract type="html">The device index. Applies to both attaching an existing network
+interface and when creating a network interface. &lt;p&gt;Condition: If you
+are specifying a network interface in the request, you must provide
+the device index.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *deviceIndex</Declaration>
+			
+			
+			<Anchor>//api/name/deviceIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">The subnet ID. Applies only when creating a network interface.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/subnetId</TokenIdentifier>
+			<Abstract type="html">The subnet ID. Applies only when creating a network interface.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">A description. Applies only when creating a network interface.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/descriptionValue</TokenIdentifier>
+			<Abstract type="html">A description. Applies only when creating a network interface.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">The primary private IP address. Applies only when creating a network
+interface. Requires n=1 network interfaces in launch. &lt;p&gt;</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">The primary private IP address. Applies only when creating a network
+interface. Requires n=1 network interfaces in launch. &lt;p&gt;</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setGroups:</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/groups</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">The value of the DeleteOnTermination property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">The value of the DeleteOnTermination property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddresses property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddresses property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setSecondaryPrivateIpAddressCount:</TokenIdentifier>
+			<Abstract type="html">The value of the SecondaryPrivateIpAddressCount property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">The value of the SecondaryPrivateIpAddressCount property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/setAssociatePublicIpAddress:</TokenIdentifier>
+			<Abstract type="html">Indicates whether to assign a public IP address to an instance in a
+VPC. The public IP address is associated with a specific network
+interface. If set to &lt;code&gt;true&lt;/code&gt;, the following rules apply:
+&lt;ol&gt; &lt;li&gt; &lt;p&gt;Can only be associated with a single network interface
+with the device index of 0. You can&apos;t associate a public IP address
+with a second network interface, and you can&apos;t associate a public IP
+address if you are launching more than one network interface. &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;Can only be associated with a new network interface, not an
+existing one. &lt;/li&gt; &lt;/ol&gt; &lt;p&gt; Default: If launching into a default
+subnet, the default value is &lt;code&gt;true&lt;/code&gt;. If launching into a
+nondefault subnet, the default value is &lt;code&gt;false&lt;/code&gt;.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL associatePublicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceSpecification/associatePublicIpAddress</TokenIdentifier>
+			<Abstract type="html">Indicates whether to assign a public IP address to an instance in a
+VPC. The public IP address is associated with a specific network
+interface. If set to &lt;code&gt;true&lt;/code&gt;, the following rules apply:
+&lt;ol&gt; &lt;li&gt; &lt;p&gt;Can only be associated with a single network interface
+with the device index of 0. You can&apos;t associate a public IP address
+with a second network interface, and you can&apos;t associate a public IP
+address if you are launching more than one network interface. &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;Can only be associated with a new network interface, not an
+existing one. &lt;/li&gt; &lt;/ol&gt; &lt;p&gt; Default: If launching into a default
+subnet, the default value is &lt;code&gt;true&lt;/code&gt;. If launching into a
+nondefault subnet, the default value is &lt;code&gt;false&lt;/code&gt;.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL associatePublicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/addGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groups.
+This function will alloc and init groups if not already done.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroup:(NSString *)groupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/addPrivateIpAddresse:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to privateIpAddresses.
+This function will alloc and init privateIpAddresses if not already done.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPrivateIpAddresse:(EC2PrivateIpAddressSpecification *)privateIpAddresseObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPrivateIpAddresse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceSpecification/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ModifyImageAttributeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyImageAttributeResponse</TokenIdentifier>
+			<Abstract type="html">Modify Image Attribute</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="425"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

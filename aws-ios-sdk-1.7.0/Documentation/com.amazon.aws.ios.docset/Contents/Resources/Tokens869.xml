@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSSendMessageBatchResponseEntry.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSendMessageBatchResponseEntry</TokenIdentifier>
+			<Abstract type="html">Send Message Batch Result Entry</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>
+			
+			<NodeRef refid="869"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/setIdValue:</TokenIdentifier>
+			<Abstract type="html">An identifier for the message in this batch.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchResponseEntry/idValue</TokenIdentifier>
+			<Abstract type="html">An identifier for the message in this batch.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/setMessageId:</TokenIdentifier>
+			<Abstract type="html">An identifier for the message.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchResponseEntry/messageId</TokenIdentifier>
+			<Abstract type="html">An identifier for the message.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/setMD5OfMessageBody:</TokenIdentifier>
+			<Abstract type="html">An MD5 digest of the non-URL-encoded message body string. This can be
+used to verify that SQS received the message correctly. SQS first URL
+decodes the message before creating the MD5 digest. For information
+about MD5, go to &lt;a
+p://faqs.org/rfcs/rfc1321.html&quot;&gt;http://faqs.org/rfcs/rfc1321.html&lt;/a&gt;.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mD5OfMessageBody</Declaration>
+			
+			
+			<Anchor>//api/name/mD5OfMessageBody</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchResponseEntry/mD5OfMessageBody</TokenIdentifier>
+			<Abstract type="html">An MD5 digest of the non-URL-encoded message body string. This can be
+used to verify that SQS received the message correctly. SQS first URL
+decodes the message before creating the MD5 digest. For information
+about MD5, go to &lt;a
+p://faqs.org/rfcs/rfc1321.html&quot;&gt;http://faqs.org/rfcs/rfc1321.html&lt;/a&gt;.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mD5OfMessageBody</Declaration>
+			
+			
+			<Anchor>//api/name/mD5OfMessageBody</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchResponseEntry/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchResponseEntry.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

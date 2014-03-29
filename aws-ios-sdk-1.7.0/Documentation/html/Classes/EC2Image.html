@@ -1,0 +1,1751 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EC2Image Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EC2Image Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/architecture">&nbsp;&nbsp;&nbsp;&nbsp;architecture</option>
+	
+	<option value="//api/name/blockDeviceMappings">&nbsp;&nbsp;&nbsp;&nbsp;blockDeviceMappings</option>
+	
+	<option value="//api/name/descriptionValue">&nbsp;&nbsp;&nbsp;&nbsp;descriptionValue</option>
+	
+	<option value="//api/name/hypervisor">&nbsp;&nbsp;&nbsp;&nbsp;hypervisor</option>
+	
+	<option value="//api/name/imageId">&nbsp;&nbsp;&nbsp;&nbsp;imageId</option>
+	
+	<option value="//api/name/imageLocation">&nbsp;&nbsp;&nbsp;&nbsp;imageLocation</option>
+	
+	<option value="//api/name/imageOwnerAlias">&nbsp;&nbsp;&nbsp;&nbsp;imageOwnerAlias</option>
+	
+	<option value="//api/name/imageType">&nbsp;&nbsp;&nbsp;&nbsp;imageType</option>
+	
+	<option value="//api/name/kernelId">&nbsp;&nbsp;&nbsp;&nbsp;kernelId</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
+	
+	<option value="//api/name/ownerId">&nbsp;&nbsp;&nbsp;&nbsp;ownerId</option>
+	
+	<option value="//api/name/platform">&nbsp;&nbsp;&nbsp;&nbsp;platform</option>
+	
+	<option value="//api/name/productCodes">&nbsp;&nbsp;&nbsp;&nbsp;productCodes</option>
+	
+	<option value="//api/name/publicValue">&nbsp;&nbsp;&nbsp;&nbsp;publicValue</option>
+	
+	<option value="//api/name/ramdiskId">&nbsp;&nbsp;&nbsp;&nbsp;ramdiskId</option>
+	
+	<option value="//api/name/rootDeviceName">&nbsp;&nbsp;&nbsp;&nbsp;rootDeviceName</option>
+	
+	<option value="//api/name/rootDeviceType">&nbsp;&nbsp;&nbsp;&nbsp;rootDeviceType</option>
+	
+	<option value="//api/name/state">&nbsp;&nbsp;&nbsp;&nbsp;state</option>
+	
+	<option value="//api/name/stateReason">&nbsp;&nbsp;&nbsp;&nbsp;stateReason</option>
+	
+	<option value="//api/name/tags">&nbsp;&nbsp;&nbsp;&nbsp;tags</option>
+	
+	<option value="//api/name/virtualizationType">&nbsp;&nbsp;&nbsp;&nbsp;virtualizationType</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addBlockDeviceMapping:">&nbsp;&nbsp;&nbsp;&nbsp;- addBlockDeviceMapping:</option>
+	
+	<option value="//api/name/addProductCode:">&nbsp;&nbsp;&nbsp;&nbsp;- addProductCode:</option>
+	
+	<option value="//api/name/addTag:">&nbsp;&nbsp;&nbsp;&nbsp;- addTag:</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/architecture">architecture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/blockDeviceMappings">blockDeviceMappings</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/descriptionValue">descriptionValue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hypervisor">hypervisor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageId">imageId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageLocation">imageLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageOwnerAlias">imageOwnerAlias</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageType">imageType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/kernelId">kernelId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ownerId">ownerId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/platform">platform</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productCodes">productCodes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/publicValue">publicValue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ramdiskId">ramdiskId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rootDeviceName">rootDeviceName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rootDeviceType">rootDeviceType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/state">state</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stateReason">stateReason</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tags">tags</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/virtualizationType">virtualizationType</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addBlockDeviceMapping:">addBlockDeviceMapping:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addProductCode:">addProductCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addTag:">addTag:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EC2Image Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EC2Image Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EC2Image.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Image</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageId">&nbsp;&nbsp;imageId</a></code>
+		<span class="tooltip"><p>The unique ID of the AMI.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageLocation">&nbsp;&nbsp;imageLocation</a></code>
+		<span class="tooltip"><p>The location of the AMI.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/state">&nbsp;&nbsp;state</a></code>
+		<span class="tooltip"><p>Current state of the AMI. If the operation returns available, the
+image is successfully registered and available for launching. If the
+operation returns deregistered, the image is deregistered and no
+longer available for launching.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>available, deregistered</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ownerId">&nbsp;&nbsp;ownerId</a></code>
+		<span class="tooltip"><p>AWS Access Key ID of the image owner.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/publicValue">&nbsp;&nbsp;publicValue</a></code>
+		<span class="tooltip"><p>True if this image has public launch permissions. False if it only has
+implicit and explicit launch permissions.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productCodes">&nbsp;&nbsp;productCodes</a></code>
+		<span class="tooltip"><p>Product codes of the AMI.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/architecture">&nbsp;&nbsp;architecture</a></code>
+		<span class="tooltip"><p>The architecture of the image.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>i386, x86_64</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageType">&nbsp;&nbsp;imageType</a></code>
+		<span class="tooltip"><p>The type of image (machine, kernel, or ramdisk).</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>machine, kernel, ramdisk</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/kernelId">&nbsp;&nbsp;kernelId</a></code>
+		<span class="tooltip"><p>The kernel associated with the image, if any. Only applicable for
+machine images.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ramdiskId">&nbsp;&nbsp;ramdiskId</a></code>
+		<span class="tooltip"><p>The RAM disk associated with the image, if any. Only applicable for
+machine images.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/platform">&nbsp;&nbsp;platform</a></code>
+		<span class="tooltip"><p>The operating platform of the AMI.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Windows</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stateReason">&nbsp;&nbsp;stateReason</a></code>
+		<span class="tooltip"><p>The reason for the state change.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageOwnerAlias">&nbsp;&nbsp;imageOwnerAlias</a></code>
+		<span class="tooltip"><p>The AWS account alias (e.g., &ldquo;amazon&rdquo;, &ldquo;redhat&rdquo;, &ldquo;self&rdquo;, etc.) or AWS
+account ID that owns the AMI.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
+		<span class="tooltip"><p>The name of the AMI that was provided during image creation.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/descriptionValue">&nbsp;&nbsp;descriptionValue</a></code>
+		<span class="tooltip"><p>The description of the AMI that was provided during image creation.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rootDeviceType">&nbsp;&nbsp;rootDeviceType</a></code>
+		<span class="tooltip"><p>The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ebs, instance-store</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rootDeviceName">&nbsp;&nbsp;rootDeviceName</a></code>
+		<span class="tooltip"><p>The root device name (e.g., <code>/dev/sda1</code>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/blockDeviceMappings">&nbsp;&nbsp;blockDeviceMappings</a></code>
+		<span class="tooltip"><p>Specifies how block devices are exposed to the instance.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/virtualizationType">&nbsp;&nbsp;virtualizationType</a></code>
+		<span class="tooltip"><p>The value of the VirtualizationType property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>hvm, paravirtual</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tags">&nbsp;&nbsp;tags</a></code>
+		<span class="tooltip"><p>A list of tags for the Image.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hypervisor">&nbsp;&nbsp;hypervisor</a></code>
+		<span class="tooltip"><p>The value of the Hypervisor property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ovm, xen</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addProductCode:">&ndash;&nbsp;addProductCode:</a></code>
+		<span class="tooltip"><p>Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addBlockDeviceMapping:">&ndash;&nbsp;addBlockDeviceMapping:</a></code>
+		<span class="tooltip"><p>Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addTag:">&ndash;&nbsp;addTag:</a></code>
+		<span class="tooltip"><p>Adds a single object to tags.
+This function will alloc and init tags if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/architecture" title="architecture"></a>
+	<h3 class="subsubtitle method-title">architecture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The architecture of the image.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>i386, x86_64</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *architecture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The architecture of the image.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>i386, x86_64</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/blockDeviceMappings" title="blockDeviceMappings"></a>
+	<h3 class="subsubtitle method-title">blockDeviceMappings</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies how block devices are exposed to the instance.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies how block devices are exposed to the instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/descriptionValue" title="descriptionValue"></a>
+	<h3 class="subsubtitle method-title">descriptionValue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The description of the AMI that was provided during image creation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *descriptionValue</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The description of the AMI that was provided during image creation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hypervisor" title="hypervisor"></a>
+	<h3 class="subsubtitle method-title">hypervisor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the Hypervisor property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ovm, xen</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *hypervisor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the Hypervisor property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ovm, xen</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageId" title="imageId"></a>
+	<h3 class="subsubtitle method-title">imageId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The unique ID of the AMI.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *imageId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The unique ID of the AMI.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageLocation" title="imageLocation"></a>
+	<h3 class="subsubtitle method-title">imageLocation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The location of the AMI.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *imageLocation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The location of the AMI.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageOwnerAlias" title="imageOwnerAlias"></a>
+	<h3 class="subsubtitle method-title">imageOwnerAlias</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The AWS account alias (e.g., &ldquo;amazon&rdquo;, &ldquo;redhat&rdquo;, &ldquo;self&rdquo;, etc.) or AWS
+account ID that owns the AMI.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *imageOwnerAlias</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The AWS account alias (e.g., &ldquo;amazon&rdquo;, &ldquo;redhat&rdquo;, &ldquo;self&rdquo;, etc.) or AWS
+account ID that owns the AMI.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageType" title="imageType"></a>
+	<h3 class="subsubtitle method-title">imageType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The type of image (machine, kernel, or ramdisk).</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>machine, kernel, ramdisk</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *imageType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The type of image (machine, kernel, or ramdisk).</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>machine, kernel, ramdisk</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/kernelId" title="kernelId"></a>
+	<h3 class="subsubtitle method-title">kernelId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The kernel associated with the image, if any. Only applicable for
+machine images.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *kernelId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The kernel associated with the image, if any. Only applicable for
+machine images.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the AMI that was provided during image creation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *name</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name of the AMI that was provided during image creation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ownerId" title="ownerId"></a>
+	<h3 class="subsubtitle method-title">ownerId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>AWS Access Key ID of the image owner.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *ownerId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>AWS Access Key ID of the image owner.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/platform" title="platform"></a>
+	<h3 class="subsubtitle method-title">platform</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The operating platform of the AMI.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Windows</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *platform</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The operating platform of the AMI.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Windows</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productCodes" title="productCodes"></a>
+	<h3 class="subsubtitle method-title">productCodes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Product codes of the AMI.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *productCodes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Product codes of the AMI.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/publicValue" title="publicValue"></a>
+	<h3 class="subsubtitle method-title">publicValue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>True if this image has public launch permissions. False if it only has
+implicit and explicit launch permissions.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL publicValue</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>True if this image has public launch permissions. False if it only has
+implicit and explicit launch permissions.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ramdiskId" title="ramdiskId"></a>
+	<h3 class="subsubtitle method-title">ramdiskId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The RAM disk associated with the image, if any. Only applicable for
+machine images.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *ramdiskId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The RAM disk associated with the image, if any. Only applicable for
+machine images.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rootDeviceName" title="rootDeviceName"></a>
+	<h3 class="subsubtitle method-title">rootDeviceName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The root device name (e.g., <code>/dev/sda1</code>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *rootDeviceName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The root device name (e.g., <code>/dev/sda1</code>).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rootDeviceType" title="rootDeviceType"></a>
+	<h3 class="subsubtitle method-title">rootDeviceType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ebs, instance-store</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *rootDeviceType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ebs, instance-store</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/state" title="state"></a>
+	<h3 class="subsubtitle method-title">state</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Current state of the AMI. If the operation returns available, the
+image is successfully registered and available for launching. If the
+operation returns deregistered, the image is deregistered and no
+longer available for launching.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>available, deregistered</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *state</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Current state of the AMI. If the operation returns available, the
+image is successfully registered and available for launching. If the
+operation returns deregistered, the image is deregistered and no
+longer available for launching.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>available, deregistered</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stateReason" title="stateReason"></a>
+	<h3 class="subsubtitle method-title">stateReason</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The reason for the state change.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) EC2StateReason *stateReason</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The reason for the state change.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tags" title="tags"></a>
+	<h3 class="subsubtitle method-title">tags</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A list of tags for the Image.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *tags</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A list of tags for the Image.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/virtualizationType" title="virtualizationType"></a>
+	<h3 class="subsubtitle method-title">virtualizationType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value of the VirtualizationType property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>hvm, paravirtual</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *virtualizationType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value of the VirtualizationType property for this object.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>hvm, paravirtual</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addBlockDeviceMapping:" title="addBlockDeviceMapping:"></a>
+	<h3 class="subsubtitle method-title">addBlockDeviceMapping:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)<em>blockDeviceMappingObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addProductCode:" title="addProductCode:"></a>
+	<h3 class="subsubtitle method-title">addProductCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addProductCode:(EC2ProductCode *)<em>productCodeObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addTag:" title="addTag:"></a>
+	<h3 class="subsubtitle method-title">addTag:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to tags.
+This function will alloc and init tags if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addTag:(EC2Tag *)<em>tagObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to tags.
+This function will alloc and init tags if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EC2Image.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

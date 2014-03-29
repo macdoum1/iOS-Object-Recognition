@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBCreateDomainRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBCreateDomainRequest</TokenIdentifier>
+			<Abstract type="html">Create Domain Request</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>
+			
+			<NodeRef refid="903"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBCreateDomainRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain to create. The name can range between 3 and 255
+characters and can contain the following characters: a-z, A-Z, 0-9,
+&apos;_&apos;, &apos;-&apos;, and &apos;.&apos;.</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBCreateDomainRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain to create. The name can range between 3 and 255
+characters and can contain the following characters: a-z, A-Z, 0-9,
+&apos;_&apos;, &apos;-&apos;, and &apos;.&apos;.</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBCreateDomainRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateDomainRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBCreateDomainRequest/initWithDomainName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateDomainRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain to create. The name can
+range between 3 and 255 characters and can contain the following
+characters: a-z, A-Z, 0-9, &apos;_&apos;, &apos;-&apos;, and &apos;.&apos;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBCreateDomainRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBCreateDomainRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

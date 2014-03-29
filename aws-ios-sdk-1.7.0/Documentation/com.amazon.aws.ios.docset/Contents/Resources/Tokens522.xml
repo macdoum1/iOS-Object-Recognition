@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest</TokenIdentifier>
+			<Abstract type="html">Create L B Cookie Stickiness Policy Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>
+			
+			<NodeRef refid="522"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/loadBalancerName</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">The name of the policy being created. The name must be unique within
+the set of policies for this LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/policyName</TokenIdentifier>
+			<Abstract type="html">The name of the policy being created. The name must be unique within
+the set of policies for this LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/setCookieExpirationPeriod:</TokenIdentifier>
+			<Abstract type="html">The time period in seconds after which the cookie should be considered
+stale. Not specifying this parameter indicates that the sticky session
+will last for the duration of the browser session.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *cookieExpirationPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/cookieExpirationPeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/cookieExpirationPeriod</TokenIdentifier>
+			<Abstract type="html">The time period in seconds after which the cookie should be considered
+stale. Not specifying this parameter indicates that the sticky session
+will last for the duration of the browser session.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *cookieExpirationPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/cookieExpirationPeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateLBCookieStickinessPolicyRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/initWithLoadBalancerName:andPolicyName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateLBCookieStickinessPolicyRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName andPolicyName:(NSString *)thePolicyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theLoadBalancerName</Name>
+					<Abstract type="html">The name associated with the LoadBalancer.
+The name must be unique within the client AWS account.</Abstract>
+				</Parameter><Parameter>
+					<Name>thePolicyName</Name>
+					<Abstract type="html">The name of the policy being created. The name
+must be unique within the set of policies for this LoadBalancer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLoadBalancerName:andPolicyName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2IamInstanceProfileSpecification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2IamInstanceProfileSpecification</TokenIdentifier>
+			<Abstract type="html">Iam Instance Profile Specification</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>
+			
+			<NodeRef refid="383"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IamInstanceProfileSpecification/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IamInstanceProfileSpecification/setArn:</TokenIdentifier>
+			<Abstract type="html">The value of the Arn property for this object.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *arn</Declaration>
+			
+			
+			<Anchor>//api/name/arn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IamInstanceProfileSpecification/arn</TokenIdentifier>
+			<Abstract type="html">The value of the Arn property for this object.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *arn</Declaration>
+			
+			
+			<Anchor>//api/name/arn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IamInstanceProfileSpecification/setName:</TokenIdentifier>
+			<Abstract type="html">The value of the Name property for this object.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IamInstanceProfileSpecification/name</TokenIdentifier>
+			<Abstract type="html">The value of the Name property for this object.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IamInstanceProfileSpecification/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2IamInstanceProfileSpecification.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

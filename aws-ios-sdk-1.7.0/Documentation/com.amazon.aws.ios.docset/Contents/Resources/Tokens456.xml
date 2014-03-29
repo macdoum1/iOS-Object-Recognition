@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Request.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Request</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Request.h</DeclaredIn>
+			
+			<NodeRef refid="456"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

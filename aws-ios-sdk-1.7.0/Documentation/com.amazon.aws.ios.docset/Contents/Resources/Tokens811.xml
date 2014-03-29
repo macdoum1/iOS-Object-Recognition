@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSSetTopicAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSSetTopicAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Set Topic Attributes Request</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="811"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic to modify.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetTopicAttributesRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic to modify.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/setAttributeName:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute you want to set. Only a subset of the
+topic&apos;s attributes are mutable. &lt;p&gt;Valid values: &lt;code&gt;Policy&lt;/code&gt; |
+&lt;code&gt;DisplayName&lt;/code&gt; | &lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetTopicAttributesRequest/attributeName</TokenIdentifier>
+			<Abstract type="html">The name of the attribute you want to set. Only a subset of the
+topic&apos;s attributes are mutable. &lt;p&gt;Valid values: &lt;code&gt;Policy&lt;/code&gt; |
+&lt;code&gt;DisplayName&lt;/code&gt; | &lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html">The new value for the attribute.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetTopicAttributesRequest/attributeValue</TokenIdentifier>
+			<Abstract type="html">The new value for the attribute.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new SetTopicAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/initWithTopicArn:andAttributeName:andAttributeValue:</TokenIdentifier>
+			<Abstract type="html">Constructs a new SetTopicAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andAttributeName:(NSString *)theAttributeName andAttributeValue:(NSString *)theAttributeValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic to modify.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributeName</Name>
+					<Abstract type="html">The name of the attribute you want to set.
+Only a subset of the topic&apos;s attributes are mutable. &lt;p&gt;Valid values:
+&lt;code&gt;Policy&lt;/code&gt; | &lt;code&gt;DisplayName&lt;/code&gt; |
+&lt;code&gt;DeliveryPolicy&lt;/code&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributeValue</Name>
+					<Abstract type="html">The new value for the attribute.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andAttributeName:andAttributeValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetTopicAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSSetTopicAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

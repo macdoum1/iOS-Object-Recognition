@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBAttributeValue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBAttributeValue</TokenIdentifier>
+			<Abstract type="html">Attribute Value</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>
+			
+			<NodeRef refid="168"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setS:</TokenIdentifier>
+			<Abstract type="html">Represents a String data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *s</Declaration>
+			
+			
+			<Anchor>//api/name/s</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/s</TokenIdentifier>
+			<Abstract type="html">Represents a String data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *s</Declaration>
+			
+			
+			<Anchor>//api/name/s</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setN:</TokenIdentifier>
+			<Abstract type="html">Represents a Number data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *n</Declaration>
+			
+			
+			<Anchor>//api/name/n</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/n</TokenIdentifier>
+			<Abstract type="html">Represents a Number data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *n</Declaration>
+			
+			
+			<Anchor>//api/name/n</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setB:</TokenIdentifier>
+			<Abstract type="html">Represents a Binary data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *b</Declaration>
+			
+			
+			<Anchor>//api/name/b</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/b</TokenIdentifier>
+			<Abstract type="html">Represents a Binary data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *b</Declaration>
+			
+			
+			<Anchor>//api/name/b</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setSS:</TokenIdentifier>
+			<Abstract type="html">Represents a String set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sS</Declaration>
+			
+			
+			<Anchor>//api/name/sS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/sS</TokenIdentifier>
+			<Abstract type="html">Represents a String set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *sS</Declaration>
+			
+			
+			<Anchor>//api/name/sS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setNS:</TokenIdentifier>
+			<Abstract type="html">Represents a Number set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *nS</Declaration>
+			
+			
+			<Anchor>//api/name/nS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/nS</TokenIdentifier>
+			<Abstract type="html">Represents a Number set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *nS</Declaration>
+			
+			
+			<Anchor>//api/name/nS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/setBS:</TokenIdentifier>
+			<Abstract type="html">Represents a Binary set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *bS</Declaration>
+			
+			
+			<Anchor>//api/name/bS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBAttributeValue/bS</TokenIdentifier>
+			<Abstract type="html">Represents a Binary set data type</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *bS</Declaration>
+			
+			
+			<Anchor>//api/name/bS</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new AttributeValue object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithS:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithS:(NSString *)theS</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theS</Name>
+					<Abstract type="html">Represents a String data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithSS:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSS:(NSMutableArray *)theSS</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theSS</Name>
+					<Abstract type="html">Represents a String set data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithN:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithN:(NSString *)theN</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theN</Name>
+					<Abstract type="html">Represents a Number data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithN:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithNS:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithNS:(NSMutableArray *)theNS</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theNS</Name>
+					<Abstract type="html">Represents a Number set data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithNS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithB:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithB:(NSData *)theB</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theB</Name>
+					<Abstract type="html">Represents a Binary data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithB:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/initWithBS:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithBS:(NSMutableArray *)theBS</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theBS</Name>
+					<Abstract type="html">Represents a Binary set data type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithBS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/addSS:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to sS.
+This function will alloc and init sS if not already done.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSS:(NSString *)sSObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/addNS:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to nS.
+This function will alloc and init nS if not already done.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (void)addNS:(NSString *)nSObject</Declaration>
+			
+			
+			<Anchor>//api/name/addNS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/addBS:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to bS.
+This function will alloc and init bS if not already done.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBS:(NSData *)bSObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBAttributeValue/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

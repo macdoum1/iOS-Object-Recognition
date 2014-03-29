@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBGetAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBGetAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Get Attributes Request</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="913"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBGetAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which to perform the operation.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/setItemName:</TokenIdentifier>
+			<Abstract type="html">The name of the item.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *itemName</Declaration>
+			
+			
+			<Anchor>//api/name/itemName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBGetAttributesRequest/itemName</TokenIdentifier>
+			<Abstract type="html">The name of the item.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *itemName</Declaration>
+			
+			
+			<Anchor>//api/name/itemName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">The names of the attributes.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBGetAttributesRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">The names of the attributes.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/setConsistentRead:</TokenIdentifier>
+			<Abstract type="html">Determines whether or not strong consistency should be enforced when
+data is read from SimpleDB. If &lt;code&gt;true&lt;/code&gt;, any data previously
+written to SimpleDB will be returned. Otherwise, results will be
+consistent eventually, and the client may not see data that was
+written immediately before your read.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBGetAttributesRequest/consistentRead</TokenIdentifier>
+			<Abstract type="html">Determines whether or not strong consistency should be enforced when
+data is read from SimpleDB. If &lt;code&gt;true&lt;/code&gt;, any data previously
+written to SimpleDB will be returned. Otherwise, results will be
+consistent eventually, and the client may not see data that was
+written immediately before your read.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetAttributesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/initWithDomainName:andItemName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new GetAttributesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDomainName:(NSString *)theDomainName andItemName:(NSString *)theItemName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theDomainName</Name>
+					<Abstract type="html">The name of the domain in which to perform the
+operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>theItemName</Name>
+					<Abstract type="html">The name of the item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDomainName:andItemName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/addAttributeName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeNames.
+This function will alloc and init attributeNames if not already done.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeName:(NSString *)attributeNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBGetAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBGetAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

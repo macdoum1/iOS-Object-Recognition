@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchAlarmHistoryItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchAlarmHistoryItem</TokenIdentifier>
+			<Abstract type="html">Alarm History Item</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>
+			
+			<NodeRef refid="125"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/setAlarmName:</TokenIdentifier>
+			<Abstract type="html">The descriptive name for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchAlarmHistoryItem/alarmName</TokenIdentifier>
+			<Abstract type="html">The descriptive name for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time stamp for the alarm history item.</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchAlarmHistoryItem/timestamp</TokenIdentifier>
+			<Abstract type="html">The time stamp for the alarm history item.</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/setHistoryItemType:</TokenIdentifier>
+			<Abstract type="html">The type of alarm history item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ConfigurationUpdate, StateUpdate, Action</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyItemType</Declaration>
+			
+			
+			<Anchor>//api/name/historyItemType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchAlarmHistoryItem/historyItemType</TokenIdentifier>
+			<Abstract type="html">The type of alarm history item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ConfigurationUpdate, StateUpdate, Action</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyItemType</Declaration>
+			
+			
+			<Anchor>//api/name/historyItemType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/setHistorySummary:</TokenIdentifier>
+			<Abstract type="html">A human-readable summary of the alarm history.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historySummary</Declaration>
+			
+			
+			<Anchor>//api/name/historySummary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchAlarmHistoryItem/historySummary</TokenIdentifier>
+			<Abstract type="html">A human-readable summary of the alarm history.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historySummary</Declaration>
+			
+			
+			<Anchor>//api/name/historySummary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/setHistoryData:</TokenIdentifier>
+			<Abstract type="html">Machine-readable data about the alarm in JSON format.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 4095&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyData</Declaration>
+			
+			
+			<Anchor>//api/name/historyData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchAlarmHistoryItem/historyData</TokenIdentifier>
+			<Abstract type="html">Machine-readable data about the alarm in JSON format.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 4095&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *historyData</Declaration>
+			
+			
+			<Anchor>//api/name/historyData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchAlarmHistoryItem/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchAlarmHistoryItem.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

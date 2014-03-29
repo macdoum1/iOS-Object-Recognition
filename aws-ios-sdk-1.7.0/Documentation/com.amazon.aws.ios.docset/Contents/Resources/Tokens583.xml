@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest</TokenIdentifier>
+			<Abstract type="html">Set Load Balancer Policies For Backend Server Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>
+			
+			<NodeRef refid="583"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">The mnemonic name associated with the LoadBalancer. This name must be
+unique within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/loadBalancerName</TokenIdentifier>
+			<Abstract type="html">The mnemonic name associated with the LoadBalancer. This name must be
+unique within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/setInstancePort:</TokenIdentifier>
+			<Abstract type="html">The port number associated with the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/instancePort</TokenIdentifier>
+			<Abstract type="html">The port number associated with the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html">List of policy names to be set. If the list is empty, then all current
+polices are removed from the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/policyNames</TokenIdentifier>
+			<Abstract type="html">List of policy names to be set. If the list is empty, then all current
+polices are removed from the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/addPolicyName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to policyNames.
+This function will alloc and init policyNames if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPolicyName:(NSString *)policyNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPolicyName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

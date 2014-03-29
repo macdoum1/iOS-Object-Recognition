@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingUpdateAutoScalingGroupRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingUpdateAutoScalingGroupRequest</TokenIdentifier>
+			<Abstract type="html">Update Auto Scaling Group Request</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>
+			
+			<NodeRef refid="122"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setLaunchConfigurationName:</TokenIdentifier>
+			<Abstract type="html">The name of the launch configuration.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/launchConfigurationName</TokenIdentifier>
+			<Abstract type="html">The name of the launch configuration.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchConfigurationName</Declaration>
+			
+			
+			<Anchor>//api/name/launchConfigurationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setMinSize:</TokenIdentifier>
+			<Abstract type="html">The minimum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/minSize</TokenIdentifier>
+			<Abstract type="html">The minimum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">The maximum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/maxSize</TokenIdentifier>
+			<Abstract type="html">The maximum size of the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">The desired capacity for the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">The desired capacity for the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setDefaultCooldown:</TokenIdentifier>
+			<Abstract type="html">The amount of time, in seconds, after a scaling activity completes
+before any further scaling activities can start. For more information,
+see &lt;a
+/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#Cooldown&quot;&gt;Cooldown
+Period&lt;/a&gt;.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *defaultCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/defaultCooldown</TokenIdentifier>
+			<Abstract type="html">The amount of time, in seconds, after a scaling activity completes
+before any further scaling activities can start. For more information,
+see &lt;a
+/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#Cooldown&quot;&gt;Cooldown
+Period&lt;/a&gt;.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *defaultCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/defaultCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setAvailabilityZones:</TokenIdentifier>
+			<Abstract type="html">Availability Zones for the group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *availabilityZones</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZones</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/availabilityZones</TokenIdentifier>
+			<Abstract type="html">Availability Zones for the group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *availabilityZones</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZones</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setHealthCheckType:</TokenIdentifier>
+			<Abstract type="html">The type of health check for the instances in the Auto Scaling group.
+The health check type can either be &lt;code&gt;EC2&lt;/code&gt; for Amazon EC2 or
+&lt;code&gt;ELB&lt;/code&gt; for Elastic Load Balancing.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthCheckType</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/healthCheckType</TokenIdentifier>
+			<Abstract type="html">The type of health check for the instances in the Auto Scaling group.
+The health check type can either be &lt;code&gt;EC2&lt;/code&gt; for Amazon EC2 or
+&lt;code&gt;ELB&lt;/code&gt; for Elastic Load Balancing.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *healthCheckType</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setHealthCheckGracePeriod:</TokenIdentifier>
+			<Abstract type="html">The length of time that Auto Scaling waits before checking an
+instance&apos;s health status. The grace period begins when an instance
+comes into service.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *healthCheckGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckGracePeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/healthCheckGracePeriod</TokenIdentifier>
+			<Abstract type="html">The length of time that Auto Scaling waits before checking an
+instance&apos;s health status. The grace period begins when an instance
+comes into service.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *healthCheckGracePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/healthCheckGracePeriod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setPlacementGroup:</TokenIdentifier>
+			<Abstract type="html">The name of the cluster placement group, if applicable. For more
+information, go to &lt;a
+.aws.amazon.com/AWSEC2/latest/UserGuide/usingclustercomputing.html&quot;&gt;
+Using Cluster Instances&lt;/a&gt; in the Amazon EC2 User Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *placementGroup</Declaration>
+			
+			
+			<Anchor>//api/name/placementGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/placementGroup</TokenIdentifier>
+			<Abstract type="html">The name of the cluster placement group, if applicable. For more
+information, go to &lt;a
+.aws.amazon.com/AWSEC2/latest/UserGuide/usingclustercomputing.html&quot;&gt;
+Using Cluster Instances&lt;/a&gt; in the Amazon EC2 User Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *placementGroup</Declaration>
+			
+			
+			<Anchor>//api/name/placementGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setVPCZoneIdentifier:</TokenIdentifier>
+			<Abstract type="html">The subnet identifier for the Amazon VPC connection, if applicable.
+You can specify several subnets in a comma-separated list. &lt;p&gt; When
+you specify &lt;code&gt;VPCZoneIdentifier&lt;/code&gt; with
+&lt;code&gt;AvailabilityZones&lt;/code&gt;, ensure that the subnets&apos; Availability
+Zones match the values you specify for &lt;code&gt;AvailabilityZones&lt;/code&gt;.
+&lt;p&gt; For more information on creating your Auto Scaling group in Amazon
+VPC by specifying subnets, see &lt;a
+.com/AutoScaling/latest/DeveloperGuide/autoscalingsubnets.html&quot;&gt;Launch
+Auto Scaling Instances into Amazon VPC&lt;/a&gt; in the the &lt;i&gt;Auto Scaling
+Developer Guide&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vPCZoneIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/vPCZoneIdentifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/vPCZoneIdentifier</TokenIdentifier>
+			<Abstract type="html">The subnet identifier for the Amazon VPC connection, if applicable.
+You can specify several subnets in a comma-separated list. &lt;p&gt; When
+you specify &lt;code&gt;VPCZoneIdentifier&lt;/code&gt; with
+&lt;code&gt;AvailabilityZones&lt;/code&gt;, ensure that the subnets&apos; Availability
+Zones match the values you specify for &lt;code&gt;AvailabilityZones&lt;/code&gt;.
+&lt;p&gt; For more information on creating your Auto Scaling group in Amazon
+VPC by specifying subnets, see &lt;a
+.com/AutoScaling/latest/DeveloperGuide/autoscalingsubnets.html&quot;&gt;Launch
+Auto Scaling Instances into Amazon VPC&lt;/a&gt; in the the &lt;i&gt;Auto Scaling
+Developer Guide&lt;/i&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vPCZoneIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/vPCZoneIdentifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/setTerminationPolicies:</TokenIdentifier>
+			<Abstract type="html">A standalone termination policy or a list of termination policies used
+to select the instance to terminate. The policies are executed in the
+order that they are listed. &lt;p&gt; For more information on creating a
+termination policy for your Auto Scaling group, go to &lt;a
+AutoScaling/latest/DeveloperGuide/us-termination-policy.html&quot;&gt;Instance
+Termination Policy for Your Auto Scaling Group&lt;/a&gt; in the the &lt;i&gt;Auto
+Scaling Developer Guide&lt;/i&gt;.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *terminationPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/terminationPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingUpdateAutoScalingGroupRequest/terminationPolicies</TokenIdentifier>
+			<Abstract type="html">A standalone termination policy or a list of termination policies used
+to select the instance to terminate. The policies are executed in the
+order that they are listed. &lt;p&gt; For more information on creating a
+termination policy for your Auto Scaling group, go to &lt;a
+AutoScaling/latest/DeveloperGuide/us-termination-policy.html&quot;&gt;Instance
+Termination Policy for Your Auto Scaling Group&lt;/a&gt; in the the &lt;i&gt;Auto
+Scaling Developer Guide&lt;/i&gt;.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *terminationPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/terminationPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/addAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to availabilityZones.
+This function will alloc and init availabilityZones if not already done.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAvailabilityZone:(NSString *)availabilityZoneObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAvailabilityZone:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/addTerminationPolicy:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to terminationPolicies.
+This function will alloc and init terminationPolicies if not already done.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTerminationPolicy:(NSString *)terminationPolicyObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTerminationPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingUpdateAutoScalingGroupRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingUpdateAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSUnsubscribeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSUnsubscribeResponse</TokenIdentifier>
+			<Abstract type="html">Unsubscribe</Abstract>
+			<DeclaredIn>SNSUnsubscribeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="820"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

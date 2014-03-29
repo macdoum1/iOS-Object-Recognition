@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetACLRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetACLRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the setACL operation.
+The bucket is always required, the key is optional and is to be set
+if you want to set the ACL for an object instead of a bucket.
+&lt;br /&gt;Required Parameters: bucket, acl
+&lt;br /&gt;Optional Parameters: key</Abstract>
+			<DeclaredIn>S3SetACLRequest.h</DeclaredIn>
+			
+			<NodeRef refid="689"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3SetACLRequest/setAcl:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the access control list (ACL) to set on the bucket or object</Abstract>
+			<DeclaredIn>S3SetACLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3AccessControlList *acl</Declaration>
+			
+			
+			<Anchor>//api/name/acl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3SetACLRequest/acl</TokenIdentifier>
+			<Abstract type="html">Gets and sets the access control list (ACL) to set on the bucket or object</Abstract>
+			<DeclaredIn>S3SetACLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3AccessControlList *acl</Declaration>
+			
+			
+			<Anchor>//api/name/acl</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

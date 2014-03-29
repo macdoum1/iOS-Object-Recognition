@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBProjection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBProjection</TokenIdentifier>
+			<Abstract type="html">Projection</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>
+			
+			<NodeRef refid="199"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProjection/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProjection/setProjectionType:</TokenIdentifier>
+			<Abstract type="html">Represents the set of attributes that are projected into the index:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys
+are projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; -
+Only the specified table attributes are projected into the index. The
+list of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected
+into the index. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ALL, KEYS_ONLY, INCLUDE</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *projectionType</Declaration>
+			
+			
+			<Anchor>//api/name/projectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProjection/projectionType</TokenIdentifier>
+			<Abstract type="html">Represents the set of attributes that are projected into the index:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys
+are projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; -
+Only the specified table attributes are projected into the index. The
+list of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected
+into the index. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ALL, KEYS_ONLY, INCLUDE</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *projectionType</Declaration>
+			
+			
+			<Anchor>//api/name/projectionType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProjection/setNonKeyAttributes:</TokenIdentifier>
+			<Abstract type="html">Represents the non-key attribute names which will be projected into
+the index. &lt;p&gt;The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 20&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *nonKeyAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/nonKeyAttributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBProjection/nonKeyAttributes</TokenIdentifier>
+			<Abstract type="html">Represents the non-key attribute names which will be projected into
+the index. &lt;p&gt;The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 20&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *nonKeyAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/nonKeyAttributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProjection/addNonKeyAttribute:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to nonKeyAttributes.
+This function will alloc and init nonKeyAttributes if not already done.</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>- (void)addNonKeyAttribute:(NSString *)nonKeyAttributeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addNonKeyAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBProjection/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBProjection.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

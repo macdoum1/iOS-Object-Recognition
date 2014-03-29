@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceStatus</TokenIdentifier>
+			<Abstract type="html">Instance Status</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>
+			
+			<NodeRef refid="412"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The Amazon EC2 instance&apos;s availability zone.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The Amazon EC2 instance&apos;s availability zone.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setEvents:</TokenIdentifier>
+			<Abstract type="html">Events that affect the status of the associated Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/events</TokenIdentifier>
+			<Abstract type="html">Events that affect the status of the associated Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setInstanceState:</TokenIdentifier>
+			<Abstract type="html">Represents the state of an Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *instanceState</Declaration>
+			
+			
+			<Anchor>//api/name/instanceState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/instanceState</TokenIdentifier>
+			<Abstract type="html">Represents the state of an Amazon EC2 instance.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *instanceState</Declaration>
+			
+			
+			<Anchor>//api/name/instanceState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setSystemStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the SystemStatus property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceStatusSummary *systemStatus</Declaration>
+			
+			
+			<Anchor>//api/name/systemStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/systemStatus</TokenIdentifier>
+			<Abstract type="html">The value of the SystemStatus property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceStatusSummary *systemStatus</Declaration>
+			
+			
+			<Anchor>//api/name/systemStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/setInstanceStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceStatus property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceStatusSummary *instanceStatus</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatus/instanceStatus</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceStatus property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceStatusSummary *instanceStatus</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/addEvent:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to events.
+This function will alloc and init events if not already done.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>- (void)addEvent:(EC2InstanceStatusEvent *)eventObject</Declaration>
+			
+			
+			<Anchor>//api/name/addEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatus/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceStatus.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

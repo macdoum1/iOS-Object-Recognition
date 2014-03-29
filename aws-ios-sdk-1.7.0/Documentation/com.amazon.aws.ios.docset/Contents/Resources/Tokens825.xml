@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSBatchResponseErrorEntry.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSBatchResponseErrorEntry</TokenIdentifier>
+			<Abstract type="html">Batch Result Error Entry</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>
+			
+			<NodeRef refid="825"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/setIdValue:</TokenIdentifier>
+			<Abstract type="html">The id of an entry in a batch request.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSBatchResponseErrorEntry/idValue</TokenIdentifier>
+			<Abstract type="html">The id of an entry in a batch request.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/setSenderFault:</TokenIdentifier>
+			<Abstract type="html">Whether the error happened due to the sender&apos;s fault.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL senderFault</Declaration>
+			
+			
+			<Anchor>//api/name/senderFault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSBatchResponseErrorEntry/senderFault</TokenIdentifier>
+			<Abstract type="html">Whether the error happened due to the sender&apos;s fault.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL senderFault</Declaration>
+			
+			
+			<Anchor>//api/name/senderFault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/setCode:</TokenIdentifier>
+			<Abstract type="html">An error code representing why the operation failed on this entry.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSBatchResponseErrorEntry/code</TokenIdentifier>
+			<Abstract type="html">An error code representing why the operation failed on this entry.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/setMessage:</TokenIdentifier>
+			<Abstract type="html">A message explaining why the operation failed on this entry.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSBatchResponseErrorEntry/message</TokenIdentifier>
+			<Abstract type="html">A message explaining why the operation failed on this entry.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSBatchResponseErrorEntry/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSBatchResponseErrorEntry.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

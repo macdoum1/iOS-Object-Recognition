@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBCondition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBCondition</TokenIdentifier>
+			<Abstract type="html">Condition</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>
+			
+			<NodeRef refid="174"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCondition/setAttributeValueList:</TokenIdentifier>
+			<Abstract type="html">Represents one or more values to evaluate against the supplied
+attribute. This list contains exactly one value, except for a
+&lt;code&gt;BETWEEN&lt;/code&gt; or &lt;code&gt;IN&lt;/code&gt; comparison, in which case the
+list contains two values. &lt;note&gt; &lt;p&gt;For type Number, value comparisons
+are numeric. &lt;p&gt;String value comparisons for greater than, equals, or
+less than are based on ASCII character code values. For example,
+&lt;code&gt;a&lt;/code&gt; is greater than &lt;code&gt;A&lt;/code&gt;, and &lt;code&gt;aa&lt;/code&gt; is
+greater than &lt;code&gt;B&lt;/code&gt;. For a list of code values, see &lt;a
+rs&quot;&gt;http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters&lt;/a&gt;.
+&lt;p&gt;For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. &lt;/note&gt;</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeValueList</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueList</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCondition/attributeValueList</TokenIdentifier>
+			<Abstract type="html">Represents one or more values to evaluate against the supplied
+attribute. This list contains exactly one value, except for a
+&lt;code&gt;BETWEEN&lt;/code&gt; or &lt;code&gt;IN&lt;/code&gt; comparison, in which case the
+list contains two values. &lt;note&gt; &lt;p&gt;For type Number, value comparisons
+are numeric. &lt;p&gt;String value comparisons for greater than, equals, or
+less than are based on ASCII character code values. For example,
+&lt;code&gt;a&lt;/code&gt; is greater than &lt;code&gt;A&lt;/code&gt;, and &lt;code&gt;aa&lt;/code&gt; is
+greater than &lt;code&gt;B&lt;/code&gt;. For a list of code values, see &lt;a
+rs&quot;&gt;http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters&lt;/a&gt;.
+&lt;p&gt;For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. &lt;/note&gt;</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeValueList</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueList</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCondition/setComparisonOperator:</TokenIdentifier>
+			<Abstract type="html">Represents a comparator for evaluating attributes. For example,
+equals, greater than, less than, etc. &lt;p&gt;Valid comparison operators
+for Query: &lt;p&gt;&lt;code&gt;EQ | LE | LT | GE | GT | BEGINS_WITH |
+BETWEEN&lt;/code&gt; &lt;p&gt;Valid comparison operators for Scan: &lt;p&gt;&lt;code&gt;EQ |
+NE | LE | LT | GE | GT | NOTNULL | NULL | CONTAINS | NOTCONTAINS |
+BEGINS_WITH | IN | BETWEEN&lt;/code&gt; &lt;p&gt;For information on specifying
+data types in JSON, see &lt;a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html&quot;&gt;JSON
+Data Format&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;The
+following are descriptions of each comparison operator. &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;EQ&lt;/code&gt; : Equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not
+a set). If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NE&lt;/code&gt;
+: Not equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;,
+&quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LE&lt;/code&gt; : Less than or equal.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LT&lt;/code&gt; : Less than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GE&lt;/code&gt; : Greater than or
+equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GT&lt;/code&gt; : Greater than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_NULL&lt;/code&gt; : The
+attribute exists. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NULL&lt;/code&gt; : The attribute does
+not exist. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;CONTAINS&lt;/code&gt; : checks for a
+subsequence, or value in a set. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can
+contain only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;), then the
+operation checks for a member of the set (not as a substring). &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_CONTAINS&lt;/code&gt; : checks for absence of a
+subsequence, or absence of a value in a set.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;),
+then the operation checks for the absence of a member of the set (not
+as a substring). &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BEGINS_WITH&lt;/code&gt; : checks for a
+prefix. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;IN&lt;/code&gt; :
+checks for exact matches. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+more than one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BETWEEN&lt;/code&gt; : Greater than or equal to the
+first value, and less than or equal to the second value.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; must contain two &lt;i&gt;AttributeValue&lt;/i&gt;
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare
+to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;EQ, NE, IN, LE, LT, GE, GT, BETWEEN, NOTNULL, NULL, CONTAINS, NOTCONTAINS, BEGINS_WITH</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBCondition/comparisonOperator</TokenIdentifier>
+			<Abstract type="html">Represents a comparator for evaluating attributes. For example,
+equals, greater than, less than, etc. &lt;p&gt;Valid comparison operators
+for Query: &lt;p&gt;&lt;code&gt;EQ | LE | LT | GE | GT | BEGINS_WITH |
+BETWEEN&lt;/code&gt; &lt;p&gt;Valid comparison operators for Scan: &lt;p&gt;&lt;code&gt;EQ |
+NE | LE | LT | GE | GT | NOTNULL | NULL | CONTAINS | NOTCONTAINS |
+BEGINS_WITH | IN | BETWEEN&lt;/code&gt; &lt;p&gt;For information on specifying
+data types in JSON, see &lt;a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html&quot;&gt;JSON
+Data Format&lt;/a&gt; in the Amazon DynamoDB Developer Guide. &lt;p&gt;The
+following are descriptions of each comparison operator. &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;EQ&lt;/code&gt; : Equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not
+a set). If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal
+&lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NE&lt;/code&gt;
+: Not equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;,
+&quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LE&lt;/code&gt; : Less than or equal.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;LT&lt;/code&gt; : Less than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GE&lt;/code&gt; : Greater than or
+equal. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;GT&lt;/code&gt; : Greater than.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different type than
+the one specified in the request, the value does not match. For
+example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not equal &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;.
+Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;,
+&quot;2&quot;, &quot;1&quot;]}&lt;/code&gt;. &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_NULL&lt;/code&gt; : The
+attribute exists. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NULL&lt;/code&gt; : The attribute does
+not exist. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;CONTAINS&lt;/code&gt; : checks for a
+subsequence, or value in a set. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can
+contain only one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;), then the
+operation checks for a member of the set (not as a substring). &lt;/li&gt;
+&lt;li&gt; &lt;p&gt;&lt;code&gt;NOT_CONTAINS&lt;/code&gt; : checks for absence of a
+subsequence, or absence of a value in a set.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&quot;SS&quot;, &quot;NS&quot;, or &quot;BS&quot;),
+then the operation checks for the absence of a member of the set (not
+as a substring). &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BEGINS_WITH&lt;/code&gt; : checks for a
+prefix. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain only one
+&lt;i&gt;AttributeValue&lt;/i&gt; of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). &lt;p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;IN&lt;/code&gt; :
+checks for exact matches. &lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; can contain
+more than one &lt;i&gt;AttributeValue&lt;/i&gt; of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;BETWEEN&lt;/code&gt; : Greater than or equal to the
+first value, and less than or equal to the second value.
+&lt;p&gt;&lt;i&gt;AttributeValueList&lt;/i&gt; must contain two &lt;i&gt;AttributeValue&lt;/i&gt;
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an &lt;i&gt;AttributeValue&lt;/i&gt; of a different
+type than the one specified in the request, the value does not match.
+For example, &lt;code&gt;{&quot;S&quot;:&quot;6&quot;}&lt;/code&gt; does not compare to
+&lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt;. Also, &lt;code&gt;{&quot;N&quot;:&quot;6&quot;}&lt;/code&gt; does not compare
+to &lt;code&gt;{&quot;NS&quot;:[&quot;6&quot;, &quot;2&quot;, &quot;1&quot;]}&lt;/code&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;EQ, NE, IN, LE, LT, GE, GT, BETWEEN, NOTNULL, NULL, CONTAINS, NOTCONTAINS, BEGINS_WITH</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCondition/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new Condition object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCondition/addAttributeValueList:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeValueList.
+This function will alloc and init attributeValueList if not already done.</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeValueList:(DynamoDBAttributeValue *)attributeValueListObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeValueList:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBCondition/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBCondition.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

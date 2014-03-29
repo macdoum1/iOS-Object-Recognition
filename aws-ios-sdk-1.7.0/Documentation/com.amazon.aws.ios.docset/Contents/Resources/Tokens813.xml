@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSSubscribeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSSubscribeRequest</TokenIdentifier>
+			<Abstract type="html">Subscribe Request</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="813"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic you want to subscribe to.</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSubscribeRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic you want to subscribe to.</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/setProtocol:</TokenIdentifier>
+			<Abstract type="html">The protocol you want to use. Supported protocols include: &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;http&lt;/code&gt; -- delivery of JSON-encoded message via HTTP
+POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;https&lt;/code&gt; -- delivery of JSON-encoded message
+via HTTPS POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;email&lt;/code&gt; -- delivery of message via
+SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;email-json&lt;/code&gt; -- delivery of JSON-encoded
+message via SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;sms&lt;/code&gt; -- delivery of message via
+SMS&lt;/li&gt; &lt;li&gt;&lt;code&gt;sqs&lt;/code&gt; -- delivery of JSON-encoded message to
+an Amazon SQS queue&lt;/li&gt; &lt;li&gt;&lt;code&gt;application&lt;/code&gt; -- delivery of
+JSON-encoded message to an EndpointArn for a mobile app and
+device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSubscribeRequest/protocol</TokenIdentifier>
+			<Abstract type="html">The protocol you want to use. Supported protocols include: &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;http&lt;/code&gt; -- delivery of JSON-encoded message via HTTP
+POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;https&lt;/code&gt; -- delivery of JSON-encoded message
+via HTTPS POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;email&lt;/code&gt; -- delivery of message via
+SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;email-json&lt;/code&gt; -- delivery of JSON-encoded
+message via SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;sms&lt;/code&gt; -- delivery of message via
+SMS&lt;/li&gt; &lt;li&gt;&lt;code&gt;sqs&lt;/code&gt; -- delivery of JSON-encoded message to
+an Amazon SQS queue&lt;/li&gt; &lt;li&gt;&lt;code&gt;application&lt;/code&gt; -- delivery of
+JSON-encoded message to an EndpointArn for a mobile app and
+device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/setEndpoint:</TokenIdentifier>
+			<Abstract type="html">The endpoint that you want to receive notifications. Endpoints vary by
+protocol: &lt;ul&gt; &lt;li&gt;For the &lt;code&gt;http&lt;/code&gt; protocol, the endpoint is
+an URL beginning with &quot;http://&quot;&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;https&lt;/code&gt;
+protocol, the endpoint is a URL beginning with &quot;https://&quot;&lt;/li&gt; &lt;li&gt;For
+the &lt;code&gt;email&lt;/code&gt; protocol, the endpoint is an email address&lt;/li&gt;
+&lt;li&gt;For the &lt;code&gt;email-json&lt;/code&gt; protocol, the endpoint is an email
+address&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;sms&lt;/code&gt; protocol, the endpoint is a
+phone number of an SMS-enabled device&lt;/li&gt; &lt;li&gt;For the
+&lt;code&gt;sqs&lt;/code&gt; protocol, the endpoint is the ARN of an Amazon SQS
+queue&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;application&lt;/code&gt; protocol, the endpoint
+is the EndpointArn of a mobile app and device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *endpoint</Declaration>
+			
+			
+			<Anchor>//api/name/endpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSubscribeRequest/endpoint</TokenIdentifier>
+			<Abstract type="html">The endpoint that you want to receive notifications. Endpoints vary by
+protocol: &lt;ul&gt; &lt;li&gt;For the &lt;code&gt;http&lt;/code&gt; protocol, the endpoint is
+an URL beginning with &quot;http://&quot;&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;https&lt;/code&gt;
+protocol, the endpoint is a URL beginning with &quot;https://&quot;&lt;/li&gt; &lt;li&gt;For
+the &lt;code&gt;email&lt;/code&gt; protocol, the endpoint is an email address&lt;/li&gt;
+&lt;li&gt;For the &lt;code&gt;email-json&lt;/code&gt; protocol, the endpoint is an email
+address&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;sms&lt;/code&gt; protocol, the endpoint is a
+phone number of an SMS-enabled device&lt;/li&gt; &lt;li&gt;For the
+&lt;code&gt;sqs&lt;/code&gt; protocol, the endpoint is the ARN of an Amazon SQS
+queue&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;application&lt;/code&gt; protocol, the endpoint
+is the EndpointArn of a mobile app and device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *endpoint</Declaration>
+			
+			
+			<Anchor>//api/name/endpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new SubscribeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/initWithTopicArn:andProtocol:andEndpoint:</TokenIdentifier>
+			<Abstract type="html">Constructs a new SubscribeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andProtocol:(NSString *)theProtocol andEndpoint:(NSString *)theEndpoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic you want to subscribe to.</Abstract>
+				</Parameter><Parameter>
+					<Name>theProtocol</Name>
+					<Abstract type="html">The protocol you want to use. Supported protocols
+include: &lt;ul&gt; &lt;li&gt;&lt;code&gt;http&lt;/code&gt; -- delivery of JSON-encoded
+message via HTTP POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;https&lt;/code&gt; -- delivery of
+JSON-encoded message via HTTPS POST&lt;/li&gt; &lt;li&gt;&lt;code&gt;email&lt;/code&gt; --
+delivery of message via SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;email-json&lt;/code&gt; --
+delivery of JSON-encoded message via SMTP&lt;/li&gt; &lt;li&gt;&lt;code&gt;sms&lt;/code&gt; --
+delivery of message via SMS&lt;/li&gt; &lt;li&gt;&lt;code&gt;sqs&lt;/code&gt; -- delivery of
+JSON-encoded message to an Amazon SQS queue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;application&lt;/code&gt; -- delivery of JSON-encoded message to an
+EndpointArn for a mobile app and device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theEndpoint</Name>
+					<Abstract type="html">The endpoint that you want to receive
+notifications. Endpoints vary by protocol: &lt;ul&gt; &lt;li&gt;For the
+&lt;code&gt;http&lt;/code&gt; protocol, the endpoint is an URL beginning with
+&quot;http://&quot;&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;https&lt;/code&gt; protocol, the endpoint
+is a URL beginning with &quot;https://&quot;&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;email&lt;/code&gt;
+protocol, the endpoint is an email address&lt;/li&gt; &lt;li&gt;For the
+&lt;code&gt;email-json&lt;/code&gt; protocol, the endpoint is an email
+address&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;sms&lt;/code&gt; protocol, the endpoint is a
+phone number of an SMS-enabled device&lt;/li&gt; &lt;li&gt;For the
+&lt;code&gt;sqs&lt;/code&gt; protocol, the endpoint is the ARN of an Amazon SQS
+queue&lt;/li&gt; &lt;li&gt;For the &lt;code&gt;application&lt;/code&gt; protocol, the endpoint
+is the EndpointArn of a mobile app and device.&lt;/li&gt; &lt;/ul&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andProtocol:andEndpoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSubscribeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSSubscribeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

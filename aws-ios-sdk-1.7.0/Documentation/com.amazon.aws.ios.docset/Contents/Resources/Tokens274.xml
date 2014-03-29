@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreateTagsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreateTagsRequest</TokenIdentifier>
+			<Abstract type="html">Create Tags Request</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="274"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateTagsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/setResources:</TokenIdentifier>
+			<Abstract type="html">One or more IDs of resources to tag. This could be the ID of an AMI,
+an instance, an EBS volume, or snapshot, etc.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateTagsRequest/resources</TokenIdentifier>
+			<Abstract type="html">One or more IDs of resources to tag. This could be the ID of an AMI,
+an instance, an EBS volume, or snapshot, etc.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/setTags:</TokenIdentifier>
+			<Abstract type="html">The tags to add or overwrite for the specified resources. Each tag
+item consists of a key-value pair.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateTagsRequest/tags</TokenIdentifier>
+			<Abstract type="html">The tags to add or overwrite for the specified resources. Each tag
+item consists of a key-value pair.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateTagsRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/initWithResources:andTags:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateTagsRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithResources:(NSMutableArray *)theResources andTags:(NSMutableArray *)theTags</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theResources</Name>
+					<Abstract type="html">One or more IDs of resources to tag. This could be
+the ID of an AMI, an instance, an EBS volume, or snapshot, etc.</Abstract>
+				</Parameter><Parameter>
+					<Name>theTags</Name>
+					<Abstract type="html">The tags to add or overwrite for the specified
+resources. Each tag item consists of a key-value pair.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithResources:andTags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/addResource:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to resources.
+This function will alloc and init resources if not already done.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addResource:(NSString *)resourceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addResource:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateTagsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CreateTagsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

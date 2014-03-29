@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CopyPartResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CopyPartResult</TokenIdentifier>
+			<Abstract type="html">Represents the response body from a copyObject response</Abstract>
+			<DeclaredIn>S3CopyPartResult.h</DeclaredIn>
+			
+			<NodeRef refid="615"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyPartResult/setLastModified:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the lastModified property</Abstract>
+			<DeclaredIn>S3CopyPartResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyPartResult/lastModified</TokenIdentifier>
+			<Abstract type="html">Gets and sets the lastModified property</Abstract>
+			<DeclaredIn>S3CopyPartResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyPartResult/setEtag:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the etag property</Abstract>
+			<DeclaredIn>S3CopyPartResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyPartResult/etag</TokenIdentifier>
+			<Abstract type="html">Gets and sets the etag property</Abstract>
+			<DeclaredIn>S3CopyPartResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

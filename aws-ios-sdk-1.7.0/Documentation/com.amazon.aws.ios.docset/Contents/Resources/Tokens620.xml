@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteBucketLifecycleConfigurationRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketLifecycleConfigurationRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the deleteBucketLifecycleConfigurationRequest operation.</Abstract>
+			<DeclaredIn>S3DeleteBucketLifecycleConfigurationRequest.h</DeclaredIn>
+			
+			<NodeRef refid="620"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

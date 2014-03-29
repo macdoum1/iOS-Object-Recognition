@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSOverLimitException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSOverLimitException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The operation that you requested would violate a limit. For example,
+ReceiveMessage returns this error if the maximum number of messages
+inflight has already been reached. AddPermission returns this error if
+the maximum number of permissions for the queue has already been
+reached.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SQSOverLimitException.h</DeclaredIn>
+			
+			<NodeRef refid="855"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSOverLimitException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SQSOverLimitException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSOverLimitException/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSOverLimitException.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

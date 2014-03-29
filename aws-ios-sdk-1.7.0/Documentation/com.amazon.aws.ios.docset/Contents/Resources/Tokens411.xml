@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceStateChange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceStateChange</TokenIdentifier>
+			<Abstract type="html">Instance State Change</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>
+			
+			<NodeRef refid="411"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStateChange/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStateChange/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose state changed.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStateChange/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the instance whose state changed.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStateChange/setCurrentState:</TokenIdentifier>
+			<Abstract type="html">The current state of the specified instance.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStateChange/currentState</TokenIdentifier>
+			<Abstract type="html">The current state of the specified instance.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStateChange/setPreviousState:</TokenIdentifier>
+			<Abstract type="html">The previous state of the specified instance.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *previousState</Declaration>
+			
+			
+			<Anchor>//api/name/previousState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStateChange/previousState</TokenIdentifier>
+			<Abstract type="html">The previous state of the specified instance.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *previousState</Declaration>
+			
+			
+			<Anchor>//api/name/previousState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStateChange/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceStateChange.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

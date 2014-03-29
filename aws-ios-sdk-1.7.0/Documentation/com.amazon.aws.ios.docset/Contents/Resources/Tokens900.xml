@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBBatchDeleteAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBBatchDeleteAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Batch Delete Attributes</Abstract>
+			<DeclaredIn>SimpleDBBatchDeleteAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="900"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

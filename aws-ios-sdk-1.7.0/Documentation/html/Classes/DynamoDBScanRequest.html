@@ -1,0 +1,1718 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DynamoDBScanRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">DynamoDBScanRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/attributesToGet">&nbsp;&nbsp;&nbsp;&nbsp;attributesToGet</option>
+	
+	<option value="//api/name/exclusiveStartKey">&nbsp;&nbsp;&nbsp;&nbsp;exclusiveStartKey</option>
+	
+	<option value="//api/name/limit">&nbsp;&nbsp;&nbsp;&nbsp;limit</option>
+	
+	<option value="//api/name/returnConsumedCapacity">&nbsp;&nbsp;&nbsp;&nbsp;returnConsumedCapacity</option>
+	
+	<option value="//api/name/scanFilter">&nbsp;&nbsp;&nbsp;&nbsp;scanFilter</option>
+	
+	<option value="//api/name/segment">&nbsp;&nbsp;&nbsp;&nbsp;segment</option>
+	
+	<option value="//api/name/select">&nbsp;&nbsp;&nbsp;&nbsp;select</option>
+	
+	<option value="//api/name/tableName">&nbsp;&nbsp;&nbsp;&nbsp;tableName</option>
+	
+	<option value="//api/name/totalSegments">&nbsp;&nbsp;&nbsp;&nbsp;totalSegments</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAttributesToGet:">&nbsp;&nbsp;&nbsp;&nbsp;- addAttributesToGet:</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithTableName:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTableName:</option>
+	
+	<option value="//api/name/setExclusiveStartKeyValue:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setExclusiveStartKeyValue:forKey:</option>
+	
+	<option value="//api/name/setScanFilterValue:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setScanFilterValue:forKey:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributesToGet">attributesToGet</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exclusiveStartKey">exclusiveStartKey</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/limit">limit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnConsumedCapacity">returnConsumedCapacity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanFilter">scanFilter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/segment">segment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/select">select</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tableName">tableName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalSegments">totalSegments</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAttributesToGet:">addAttributesToGet:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTableName:">initWithTableName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setExclusiveStartKeyValue:forKey:">setExclusiveStartKeyValue:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setScanFilterValue:forKey:">setScanFilterValue:forKey:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="DynamoDBScanRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">DynamoDBScanRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonServiceRequestConfig.html">AmazonServiceRequestConfig</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">DynamoDBScanRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Scan Request</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tableName">&nbsp;&nbsp;tableName</a></code>
+		<span class="tooltip"><p>The name of the table containing the requested items.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>3 &ndash; 255<br/>
+<b>Pattern: </b>[a-zA-Z0-9_.&ndash;]+<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributesToGet">&nbsp;&nbsp;attributesToGet</a></code>
+		<span class="tooltip"><p>The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; <br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/limit">&nbsp;&nbsp;limit</a></code>
+		<span class="tooltip"><p>The maximum number of items to evaluate (not necessarily the number of
+matching items). If Amazon DynamoDB processes the number of items up
+to the limit while processing the results, it stops the operation and
+returns the matching values up to that point, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation, so that
+you can pick up where you left off. Also, if the processed data set
+size exceeds 1 MB before Amazon DynamoDB reaches this limit, it stops
+the operation and returns the matching values up to the limit, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation to continue
+the operation. For more information see <a
+azon.com/amazondynamodb/latest/developerguide/QueryAndScan.html">Query
+and Scan</a> in the Amazon DynamoDB Developer Guide.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/select">&nbsp;&nbsp;select</a></code>
+		<span class="tooltip"><p>The attributes to be returned in the result. You can retrieve all item
+attributes, specific item attributes, the count of matching items, or
+in the case of an index, some or all of the attributes projected into
+the index. <ul> <li> <p><code>ALL_ATTRIBUTES</code>: Returns all of
+the item attributes. For a table, this is the default. For an index,
+this mode causes Amazon DynamoDB to fetch the full item from the table
+for each matching item in the index. If the index is configured to
+project all item attributes, the matching items will not be fetched
+from the table. Fetching items from the table incurs additional
+throughput cost and latency. </li> <li></p>
+
+<p><p><code>ALL_PROJECTED_ATTRIBUTES</code>: Retrieves all attributes
+which have been projected into the index. If the index is configured
+to project all attributes, this is equivalent to specifying
+<i>ALL_ATTRIBUTES</i>. </li> <li> <p><code>COUNT</code>: Returns the
+number of matching items, rather than the matching items themselves.
+</li> <li> <p> <code>SPECIFIC_ATTRIBUTES</code> : Returns only the
+attributes listed in <i>AttributesToGet</i>. This is equivalent to
+specifying <i>AttributesToGet</i> without specifying any value for
+<i>Select</i>. <p>If you are querying an index and request only
+attributes that are projected into that index, the operation will read
+only the index and not the table. If any of the requested attributes
+are not projected into the index, Amazon DynamoDB will need to fetch
+each matching item from the table. This extra fetching incurs
+additional throughput cost and latency. </li> </ul> <p>When neither
+<i>Select</i> nor <i>AttributesToGet</i> are specified, Amazon
+DynamoDB defaults to <code>ALL_ATTRIBUTES</code> when accessing a
+table, and <code>ALL_PROJECTED_ATTRIBUTES</code> when accessing an
+index. You cannot use both <i>Select</i> and <i>AttributesToGet</i>
+together in a single request, <i>unless</i> the value for
+<i>Select</i> is <code>SPECIFIC_ATTRIBUTES</code>. (This usage is
+equivalent to specifying <i>AttributesToGet</i> without any value for
+<i>Select</i>.)
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ALL_ATTRIBUTES, ALL_PROJECTED_ATTRIBUTES, SPECIFIC_ATTRIBUTES, COUNT</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanFilter">&nbsp;&nbsp;scanFilter</a></code>
+		<span class="tooltip"><p>Evaluates the scan results and returns only the desired values.
+Multiple conditions are treated as &ldquo;AND&rdquo; operations: all conditions
+must be met to be included in the results. <p>Each
+<i>ScanConditions</i> element consists of an attribute name to
+compare, along with the following: <ul>
+<li><p><i>AttributeValueList</i> &ndash; One or more values to evaluate
+against the supplied attribute. This list contains exactly one value,
+except for a <code>BETWEEN</code> or <code>IN</code> comparison, in
+which case the list contains two values. <note> <p>For type Number,
+value comparisons are numeric. <p>String value comparisons for greater
+than, equals, or less than are based on ASCII character code values.
+For example, <code>a</code> is greater than <code>A</code>, and
+<code>aa</code> is greater than <code>B</code>. For a list of code
+values, see <a
+rs">http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters</a>.</p>
+
+<p><p>For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. </note> </li> <li><p><i>ComparisonOperator</i> &ndash; A
+comparator for evaluating attributes. For example, equals, greater
+than, less than, etc. <p>Valid comparison operators for Scan:
+<p><code>EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS |
+NOT_CONTAINS | BEGINS_WITH | IN | BETWEEN</code> <p>For information on
+specifying data types in JSON, see <a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html">JSON
+Data Format</a> in the Amazon DynamoDB Developer Guide. <p>The
+following are descriptions of each comparison operator. <ul> <li>
+<p><code>EQ</code> : Equal. <p><i>AttributeValueList</i> can contain
+only one <i>AttributeValue</i> of type String, Number, or Binary (not
+a set). If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NE</code>
+: Not equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;,
+&ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LE</code> : Less than or equal.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LT</code> : Less than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GE</code> : Greater than or
+equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GT</code> : Greater than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NOT_NULL</code> : The
+attribute exists. </li> <li> <p><code>NULL</code> : The attribute does
+not exist. </li> <li> <p><code>CONTAINS</code> : checks for a
+subsequence, or value in a set. <p><i>AttributeValueList</i> can
+contain only one <i>AttributeValue</i> of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;), then the
+operation checks for a member of the set (not as a substring). </li>
+<li> <p><code>NOT_CONTAINS</code> : checks for absence of a
+subsequence, or absence of a value in a set.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;),
+then the operation checks for the absence of a member of the set (not
+as a substring). </li> <li> <p><code>BEGINS_WITH</code> : checks for a
+prefix. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). <p> </li> <li> <p><code>IN</code> :
+checks for exact matches. <p><i>AttributeValueList</i> can contain
+more than one <i>AttributeValue</i> of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. </li> <li> <p><code>BETWEEN</code> : Greater than or equal to the
+first value, and less than or equal to the second value.
+<p><i>AttributeValueList</i> must contain two <i>AttributeValue</i>
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not compare to
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare
+to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code> </li> </ul> </li> </ul></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exclusiveStartKey">&nbsp;&nbsp;exclusiveStartKey</a></code>
+		<span class="tooltip"><p>The primary key of the first item that this operation will evaluate.
+Use the value that was returned for <i>LastEvaluatedKey</i> in the
+previous operation. <p>The data type for <i>ExclusiveStartKey</i> must
+be String, Number or Binary. No set data types are allowed. <p>In a
+parallel scan, a <i>Scan</i> request that includes
+<i>ExclusiveStartKey</i> must specify the same segment whose previous
+<i>Scan</i> returned the corresponding value of
+<i>LastEvaluatedKey</i>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnConsumedCapacity">&nbsp;&nbsp;returnConsumedCapacity</a></code>
+		<span class="tooltip"><p>If set to <code>TOTAL</code>, <i>ConsumedCapacity</i> is included in
+the response; if set to <code>NONE</code> (the default),
+<i>ConsumedCapacity</i> is not included.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>TOTAL, NONE</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalSegments">&nbsp;&nbsp;totalSegments</a></code>
+		<span class="tooltip"><p>For a parallel <i>Scan</i> request, <i>TotalSegments</i> represents
+the total number of segments into which the <i>Scan</i> operation will
+be divided. The value of <i>TotalSegments</i> corresponds to the
+number of application workers that will perform the parallel scan. For
+example, if you want to scan a table using four application threads,
+you would specify a <i>TotalSegments</i> value of 4. <p>The value for
+<i>TotalSegments</i> must be greater than or equal to 1, and less than
+or equal to 4096. If you specify a <i>TotalSegments</i> value of 1,
+the <i>Scan</i> will be sequential rather than parallel. <p>If you
+specify <i>TotalSegments</i>, you must also specify <i>Segment</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; 4096<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/segment">&nbsp;&nbsp;segment</a></code>
+		<span class="tooltip"><p>For a parallel <i>Scan</i> request, <i>Segment</i> identifies an
+individual segment to be scanned by an application worker. <p>Segment
+IDs are zero-based, so the first segment is always 0. For example, if
+you want to scan a table using four application threads, the first
+thread would specify a <i>Segment</i> value of 0, the second thread
+would specify 1, and so on. <p>The value of <i>LastEvaluatedKey</i>
+returned from a parallel <i>Scan</i> request must be used as
+<i>ExclusiveStartKey</i> with the same Segment ID in a subsequent
+<i>Scan</i> operation. <p>The value for <i>Segment</i> must be greater
+than or equal to 0, and less than the value provided for
+<i>TotalSegments</i>. <p>If you specify <i>Segment</i>, you must also
+specify <i>TotalSegments</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>0 &ndash; 4095<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new ScanRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTableName:">&ndash;&nbsp;initWithTableName:</a></code>
+		<span class="tooltip"><p>Constructs a new ScanRequest object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAttributesToGet:">&ndash;&nbsp;addAttributesToGet:</a></code>
+		<span class="tooltip"><p>Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setScanFilterValue:forKey:">&ndash;&nbsp;setScanFilterValue:forKey:</a></code>
+		<span class="tooltip"><p>Set a value in the dictionary scanFilter for the specified key.
+This function will alloc and init scanFilter if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setExclusiveStartKeyValue:forKey:">&ndash;&nbsp;setExclusiveStartKeyValue:forKey:</a></code>
+		<span class="tooltip"><p>Set a value in the dictionary exclusiveStartKey for the specified key.
+This function will alloc and init exclusiveStartKey if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/attributesToGet" title="attributesToGet"></a>
+	<h3 class="subsubtitle method-title">attributesToGet</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; <br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *attributesToGet</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The names of one or more attributes to retrieve. If no attribute names
+are specified, then all attributes will be returned. If any of the
+requested attributes are not found, they will not appear in the
+result.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; <br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exclusiveStartKey" title="exclusiveStartKey"></a>
+	<h3 class="subsubtitle method-title">exclusiveStartKey</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The primary key of the first item that this operation will evaluate.
+Use the value that was returned for <i>LastEvaluatedKey</i> in the
+previous operation. <p>The data type for <i>ExclusiveStartKey</i> must
+be String, Number or Binary. No set data types are allowed. <p>In a
+parallel scan, a <i>Scan</i> request that includes
+<i>ExclusiveStartKey</i> must specify the same segment whose previous
+<i>Scan</i> returned the corresponding value of
+<i>LastEvaluatedKey</i>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableDictionary *exclusiveStartKey</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The primary key of the first item that this operation will evaluate.
+Use the value that was returned for <i>LastEvaluatedKey</i> in the
+previous operation. <p>The data type for <i>ExclusiveStartKey</i> must
+be String, Number or Binary. No set data types are allowed. <p>In a
+parallel scan, a <i>Scan</i> request that includes
+<i>ExclusiveStartKey</i> must specify the same segment whose previous
+<i>Scan</i> returned the corresponding value of
+<i>LastEvaluatedKey</i>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/limit" title="limit"></a>
+	<h3 class="subsubtitle method-title">limit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The maximum number of items to evaluate (not necessarily the number of
+matching items). If Amazon DynamoDB processes the number of items up
+to the limit while processing the results, it stops the operation and
+returns the matching values up to that point, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation, so that
+you can pick up where you left off. Also, if the processed data set
+size exceeds 1 MB before Amazon DynamoDB reaches this limit, it stops
+the operation and returns the matching values up to the limit, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation to continue
+the operation. For more information see <a
+azon.com/amazondynamodb/latest/developerguide/QueryAndScan.html">Query
+and Scan</a> in the Amazon DynamoDB Developer Guide.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *limit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The maximum number of items to evaluate (not necessarily the number of
+matching items). If Amazon DynamoDB processes the number of items up
+to the limit while processing the results, it stops the operation and
+returns the matching values up to that point, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation, so that
+you can pick up where you left off. Also, if the processed data set
+size exceeds 1 MB before Amazon DynamoDB reaches this limit, it stops
+the operation and returns the matching values up to the limit, and a
+<i>LastEvaluatedKey</i> to apply in a subsequent operation to continue
+the operation. For more information see <a
+azon.com/amazondynamodb/latest/developerguide/QueryAndScan.html">Query
+and Scan</a> in the Amazon DynamoDB Developer Guide.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnConsumedCapacity" title="returnConsumedCapacity"></a>
+	<h3 class="subsubtitle method-title">returnConsumedCapacity</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If set to <code>TOTAL</code>, <i>ConsumedCapacity</i> is included in
+the response; if set to <code>NONE</code> (the default),
+<i>ConsumedCapacity</i> is not included.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>TOTAL, NONE</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *returnConsumedCapacity</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If set to <code>TOTAL</code>, <i>ConsumedCapacity</i> is included in
+the response; if set to <code>NONE</code> (the default),
+<i>ConsumedCapacity</i> is not included.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>TOTAL, NONE</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanFilter" title="scanFilter"></a>
+	<h3 class="subsubtitle method-title">scanFilter</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Evaluates the scan results and returns only the desired values.
+Multiple conditions are treated as &ldquo;AND&rdquo; operations: all conditions
+must be met to be included in the results. <p>Each
+<i>ScanConditions</i> element consists of an attribute name to
+compare, along with the following: <ul>
+<li><p><i>AttributeValueList</i> &ndash; One or more values to evaluate
+against the supplied attribute. This list contains exactly one value,
+except for a <code>BETWEEN</code> or <code>IN</code> comparison, in
+which case the list contains two values. <note> <p>For type Number,
+value comparisons are numeric. <p>String value comparisons for greater
+than, equals, or less than are based on ASCII character code values.
+For example, <code>a</code> is greater than <code>A</code>, and
+<code>aa</code> is greater than <code>B</code>. For a list of code
+values, see <a
+rs">http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters</a>.</p>
+
+<p><p>For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. </note> </li> <li><p><i>ComparisonOperator</i> &ndash; A
+comparator for evaluating attributes. For example, equals, greater
+than, less than, etc. <p>Valid comparison operators for Scan:
+<p><code>EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS |
+NOT_CONTAINS | BEGINS_WITH | IN | BETWEEN</code> <p>For information on
+specifying data types in JSON, see <a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html">JSON
+Data Format</a> in the Amazon DynamoDB Developer Guide. <p>The
+following are descriptions of each comparison operator. <ul> <li>
+<p><code>EQ</code> : Equal. <p><i>AttributeValueList</i> can contain
+only one <i>AttributeValue</i> of type String, Number, or Binary (not
+a set). If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NE</code>
+: Not equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;,
+&ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LE</code> : Less than or equal.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LT</code> : Less than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GE</code> : Greater than or
+equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GT</code> : Greater than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NOT_NULL</code> : The
+attribute exists. </li> <li> <p><code>NULL</code> : The attribute does
+not exist. </li> <li> <p><code>CONTAINS</code> : checks for a
+subsequence, or value in a set. <p><i>AttributeValueList</i> can
+contain only one <i>AttributeValue</i> of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;), then the
+operation checks for a member of the set (not as a substring). </li>
+<li> <p><code>NOT_CONTAINS</code> : checks for absence of a
+subsequence, or absence of a value in a set.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;),
+then the operation checks for the absence of a member of the set (not
+as a substring). </li> <li> <p><code>BEGINS_WITH</code> : checks for a
+prefix. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). <p> </li> <li> <p><code>IN</code> :
+checks for exact matches. <p><i>AttributeValueList</i> can contain
+more than one <i>AttributeValue</i> of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. </li> <li> <p><code>BETWEEN</code> : Greater than or equal to the
+first value, and less than or equal to the second value.
+<p><i>AttributeValueList</i> must contain two <i>AttributeValue</i>
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not compare to
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare
+to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code> </li> </ul> </li> </ul></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableDictionary *scanFilter</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Evaluates the scan results and returns only the desired values.
+Multiple conditions are treated as &ldquo;AND&rdquo; operations: all conditions
+must be met to be included in the results. <p>Each
+<i>ScanConditions</i> element consists of an attribute name to
+compare, along with the following: <ul>
+<li><p><i>AttributeValueList</i> &ndash; One or more values to evaluate
+against the supplied attribute. This list contains exactly one value,
+except for a <code>BETWEEN</code> or <code>IN</code> comparison, in
+which case the list contains two values. <note> <p>For type Number,
+value comparisons are numeric. <p>String value comparisons for greater
+than, equals, or less than are based on ASCII character code values.
+For example, <code>a</code> is greater than <code>A</code>, and
+<code>aa</code> is greater than <code>B</code>. For a list of code
+values, see <a
+rs">http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters</a>.</p>
+
+<p><p>For Binary, Amazon DynamoDB treats each byte of the binary data as
+unsigned when it compares binary values, for example when evaluating
+query expressions. </note> </li> <li><p><i>ComparisonOperator</i> &ndash; A
+comparator for evaluating attributes. For example, equals, greater
+than, less than, etc. <p>Valid comparison operators for Scan:
+<p><code>EQ | NE | LE | LT | GE | GT | NOT_NULL | NULL | CONTAINS |
+NOT_CONTAINS | BEGINS_WITH | IN | BETWEEN</code> <p>For information on
+specifying data types in JSON, see <a
+.amazon.com/amazondynamodb/latest/developerguide/DataFormat.html">JSON
+Data Format</a> in the Amazon DynamoDB Developer Guide. <p>The
+following are descriptions of each comparison operator. <ul> <li>
+<p><code>EQ</code> : Equal. <p><i>AttributeValueList</i> can contain
+only one <i>AttributeValue</i> of type String, Number, or Binary (not
+a set). If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal
+<code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NE</code>
+: Not equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;,
+&ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LE</code> : Less than or equal.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>LT</code> : Less than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GE</code> : Greater than or
+equal. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>GT</code> : Greater than.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If an item contains an <i>AttributeValue</i> of a different type than
+the one specified in the request, the value does not match. For
+example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not equal <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>.
+Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;,
+&ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code>. <p> </li> <li> <p><code>NOT_NULL</code> : The
+attribute exists. </li> <li> <p><code>NULL</code> : The attribute does
+not exist. </li> <li> <p><code>CONTAINS</code> : checks for a
+subsequence, or value in a set. <p><i>AttributeValueList</i> can
+contain only one <i>AttributeValue</i> of type String, Number, or
+Binary (not a set). If the target attribute of the comparison is a
+String, then the operation checks for a substring match. If the target
+attribute of the comparison is Binary, then the operation looks for a
+subsequence of the target that matches the input. If the target
+attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;), then the
+operation checks for a member of the set (not as a substring). </li>
+<li> <p><code>NOT_CONTAINS</code> : checks for absence of a
+subsequence, or absence of a value in a set.
+<p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String, Number, or Binary (not a set).
+If the target attribute of the comparison is a String, then the
+operation checks for the absence of a substring match. If the target
+attribute of the comparison is Binary, then the operation checks for
+the absence of a subsequence of the target that matches the input. If
+the target attribute of the comparison is a set (&ldquo;SS&rdquo;, &ldquo;NS&rdquo;, or &ldquo;BS&rdquo;),
+then the operation checks for the absence of a member of the set (not
+as a substring). </li> <li> <p><code>BEGINS_WITH</code> : checks for a
+prefix. <p><i>AttributeValueList</i> can contain only one
+<i>AttributeValue</i> of type String or Binary (not a Number or a
+set). The target attribute of the comparison must be a String or
+Binary (not a Number or a set). <p> </li> <li> <p><code>IN</code> :
+checks for exact matches. <p><i>AttributeValueList</i> can contain
+more than one <i>AttributeValue</i> of type String, Number, or Binary
+(not a set). The target attribute of the comparison must be of the
+same type and exact value to match. A String never matches a String
+set. </li> <li> <p><code>BETWEEN</code> : Greater than or equal to the
+first value, and less than or equal to the second value.
+<p><i>AttributeValueList</i> must contain two <i>AttributeValue</i>
+elements of the same type, either String, Number, or Binary (not a
+set). A target attribute matches if the target value is greater than,
+or equal to, the first element and less than, or equal to, the second
+element. If an item contains an <i>AttributeValue</i> of a different
+type than the one specified in the request, the value does not match.
+For example, <code>{&ldquo;S&rdquo;:&ldquo;6&rdquo;}</code> does not compare to
+<code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code>. Also, <code>{&ldquo;N&rdquo;:&ldquo;6&rdquo;}</code> does not compare
+to <code>{&ldquo;NS&rdquo;:[&ldquo;6&rdquo;, &ldquo;2&rdquo;, &ldquo;1&rdquo;]}</code> </li> </ul> </li> </ul></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/segment" title="segment"></a>
+	<h3 class="subsubtitle method-title">segment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For a parallel <i>Scan</i> request, <i>Segment</i> identifies an
+individual segment to be scanned by an application worker. <p>Segment
+IDs are zero-based, so the first segment is always 0. For example, if
+you want to scan a table using four application threads, the first
+thread would specify a <i>Segment</i> value of 0, the second thread
+would specify 1, and so on. <p>The value of <i>LastEvaluatedKey</i>
+returned from a parallel <i>Scan</i> request must be used as
+<i>ExclusiveStartKey</i> with the same Segment ID in a subsequent
+<i>Scan</i> operation. <p>The value for <i>Segment</i> must be greater
+than or equal to 0, and less than the value provided for
+<i>TotalSegments</i>. <p>If you specify <i>Segment</i>, you must also
+specify <i>TotalSegments</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>0 &ndash; 4095<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *segment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For a parallel <i>Scan</i> request, <i>Segment</i> identifies an
+individual segment to be scanned by an application worker. <p>Segment
+IDs are zero-based, so the first segment is always 0. For example, if
+you want to scan a table using four application threads, the first
+thread would specify a <i>Segment</i> value of 0, the second thread
+would specify 1, and so on. <p>The value of <i>LastEvaluatedKey</i>
+returned from a parallel <i>Scan</i> request must be used as
+<i>ExclusiveStartKey</i> with the same Segment ID in a subsequent
+<i>Scan</i> operation. <p>The value for <i>Segment</i> must be greater
+than or equal to 0, and less than the value provided for
+<i>TotalSegments</i>. <p>If you specify <i>Segment</i>, you must also
+specify <i>TotalSegments</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>0 &ndash; 4095<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/select" title="select"></a>
+	<h3 class="subsubtitle method-title">select</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The attributes to be returned in the result. You can retrieve all item
+attributes, specific item attributes, the count of matching items, or
+in the case of an index, some or all of the attributes projected into
+the index. <ul> <li> <p><code>ALL_ATTRIBUTES</code>: Returns all of
+the item attributes. For a table, this is the default. For an index,
+this mode causes Amazon DynamoDB to fetch the full item from the table
+for each matching item in the index. If the index is configured to
+project all item attributes, the matching items will not be fetched
+from the table. Fetching items from the table incurs additional
+throughput cost and latency. </li> <li></p>
+
+<p><p><code>ALL_PROJECTED_ATTRIBUTES</code>: Retrieves all attributes
+which have been projected into the index. If the index is configured
+to project all attributes, this is equivalent to specifying
+<i>ALL_ATTRIBUTES</i>. </li> <li> <p><code>COUNT</code>: Returns the
+number of matching items, rather than the matching items themselves.
+</li> <li> <p> <code>SPECIFIC_ATTRIBUTES</code> : Returns only the
+attributes listed in <i>AttributesToGet</i>. This is equivalent to
+specifying <i>AttributesToGet</i> without specifying any value for
+<i>Select</i>. <p>If you are querying an index and request only
+attributes that are projected into that index, the operation will read
+only the index and not the table. If any of the requested attributes
+are not projected into the index, Amazon DynamoDB will need to fetch
+each matching item from the table. This extra fetching incurs
+additional throughput cost and latency. </li> </ul> <p>When neither
+<i>Select</i> nor <i>AttributesToGet</i> are specified, Amazon
+DynamoDB defaults to <code>ALL_ATTRIBUTES</code> when accessing a
+table, and <code>ALL_PROJECTED_ATTRIBUTES</code> when accessing an
+index. You cannot use both <i>Select</i> and <i>AttributesToGet</i>
+together in a single request, <i>unless</i> the value for
+<i>Select</i> is <code>SPECIFIC_ATTRIBUTES</code>. (This usage is
+equivalent to specifying <i>AttributesToGet</i> without any value for
+<i>Select</i>.)
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ALL_ATTRIBUTES, ALL_PROJECTED_ATTRIBUTES, SPECIFIC_ATTRIBUTES, COUNT</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *select</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The attributes to be returned in the result. You can retrieve all item
+attributes, specific item attributes, the count of matching items, or
+in the case of an index, some or all of the attributes projected into
+the index. <ul> <li> <p><code>ALL_ATTRIBUTES</code>: Returns all of
+the item attributes. For a table, this is the default. For an index,
+this mode causes Amazon DynamoDB to fetch the full item from the table
+for each matching item in the index. If the index is configured to
+project all item attributes, the matching items will not be fetched
+from the table. Fetching items from the table incurs additional
+throughput cost and latency. </li> <li></p>
+
+<p><p><code>ALL_PROJECTED_ATTRIBUTES</code>: Retrieves all attributes
+which have been projected into the index. If the index is configured
+to project all attributes, this is equivalent to specifying
+<i>ALL_ATTRIBUTES</i>. </li> <li> <p><code>COUNT</code>: Returns the
+number of matching items, rather than the matching items themselves.
+</li> <li> <p> <code>SPECIFIC_ATTRIBUTES</code> : Returns only the
+attributes listed in <i>AttributesToGet</i>. This is equivalent to
+specifying <i>AttributesToGet</i> without specifying any value for
+<i>Select</i>. <p>If you are querying an index and request only
+attributes that are projected into that index, the operation will read
+only the index and not the table. If any of the requested attributes
+are not projected into the index, Amazon DynamoDB will need to fetch
+each matching item from the table. This extra fetching incurs
+additional throughput cost and latency. </li> </ul> <p>When neither
+<i>Select</i> nor <i>AttributesToGet</i> are specified, Amazon
+DynamoDB defaults to <code>ALL_ATTRIBUTES</code> when accessing a
+table, and <code>ALL_PROJECTED_ATTRIBUTES</code> when accessing an
+index. You cannot use both <i>Select</i> and <i>AttributesToGet</i>
+together in a single request, <i>unless</i> the value for
+<i>Select</i> is <code>SPECIFIC_ATTRIBUTES</code>. (This usage is
+equivalent to specifying <i>AttributesToGet</i> without any value for
+<i>Select</i>.)
+<p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>ALL_ATTRIBUTES, ALL_PROJECTED_ATTRIBUTES, SPECIFIC_ATTRIBUTES, COUNT</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tableName" title="tableName"></a>
+	<h3 class="subsubtitle method-title">tableName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the table containing the requested items.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>3 &ndash; 255<br/>
+<b>Pattern: </b>[a-zA-Z0-9_.&ndash;]+<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *tableName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name of the table containing the requested items.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>3 &ndash; 255<br/>
+<b>Pattern: </b>[a-zA-Z0-9_.&ndash;]+<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalSegments" title="totalSegments"></a>
+	<h3 class="subsubtitle method-title">totalSegments</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For a parallel <i>Scan</i> request, <i>TotalSegments</i> represents
+the total number of segments into which the <i>Scan</i> operation will
+be divided. The value of <i>TotalSegments</i> corresponds to the
+number of application workers that will perform the parallel scan. For
+example, if you want to scan a table using four application threads,
+you would specify a <i>TotalSegments</i> value of 4. <p>The value for
+<i>TotalSegments</i> must be greater than or equal to 1, and less than
+or equal to 4096. If you specify a <i>TotalSegments</i> value of 1,
+the <i>Scan</i> will be sequential rather than parallel. <p>If you
+specify <i>TotalSegments</i>, you must also specify <i>Segment</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; 4096<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *totalSegments</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For a parallel <i>Scan</i> request, <i>TotalSegments</i> represents
+the total number of segments into which the <i>Scan</i> operation will
+be divided. The value of <i>TotalSegments</i> corresponds to the
+number of application workers that will perform the parallel scan. For
+example, if you want to scan a table using four application threads,
+you would specify a <i>TotalSegments</i> value of 4. <p>The value for
+<i>TotalSegments</i> must be greater than or equal to 1, and less than
+or equal to 4096. If you specify a <i>TotalSegments</i> value of 1,
+the <i>Scan</i> will be sequential rather than parallel. <p>If you
+specify <i>TotalSegments</i>, you must also specify <i>Segment</i>.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; 4096<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAttributesToGet:" title="addAttributesToGet:"></a>
+	<h3 class="subsubtitle method-title">addAttributesToGet:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAttributesToGet:(NSString *)<em>attributesToGetObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new ScanRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new ScanRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTableName:" title="initWithTableName:"></a>
+	<h3 class="subsubtitle method-title">initWithTableName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new ScanRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTableName:(NSString *)<em>theTableName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theTableName</em></dt>
+			<dd><p>The name of the table containing the requested
+items.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new ScanRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setExclusiveStartKeyValue:forKey:" title="setExclusiveStartKeyValue:forKey:"></a>
+	<h3 class="subsubtitle method-title">setExclusiveStartKeyValue:forKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set a value in the dictionary exclusiveStartKey for the specified key.
+This function will alloc and init exclusiveStartKey if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setExclusiveStartKeyValue:(DynamoDBAttributeValue *)<em>theValue</em> forKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set a value in the dictionary exclusiveStartKey for the specified key.
+This function will alloc and init exclusiveStartKey if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setScanFilterValue:forKey:" title="setScanFilterValue:forKey:"></a>
+	<h3 class="subsubtitle method-title">setScanFilterValue:forKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set a value in the dictionary scanFilter for the specified key.
+This function will alloc and init scanFilter if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setScanFilterValue:(DynamoDBCondition *)<em>theValue</em> forKey:(NSString *)<em>theKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set a value in the dictionary scanFilter for the specified key.
+This function will alloc and init scanFilter if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBScanRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

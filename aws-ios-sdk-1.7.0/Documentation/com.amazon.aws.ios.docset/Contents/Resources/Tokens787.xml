@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSListEndpointsByPlatformApplicationResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSListEndpointsByPlatformApplicationResponse</TokenIdentifier>
+			<Abstract type="html">List Endpoints By Platform Application Result</Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>
+			
+			<NodeRef refid="787"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/setEndpoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *endpoints</Declaration>
+			
+			
+			<Anchor>//api/name/endpoints</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListEndpointsByPlatformApplicationResponse/endpoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *endpoints</Declaration>
+			
+			
+			<Anchor>//api/name/endpoints</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListEndpointsByPlatformApplicationResponse/nextToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/endpointsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the endpoints array for the specified index</Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SNSEndpoint *)endpointsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/endpointsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListEndpointsByPlatformApplicationResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSListEndpointsByPlatformApplicationResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

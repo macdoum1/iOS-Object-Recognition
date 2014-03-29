@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSSendMessageBatchRequestEntry.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSSendMessageBatchRequestEntry</TokenIdentifier>
+			<Abstract type="html">Send Message Batch Request Entry</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>
+			
+			<NodeRef refid="867"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/setIdValue:</TokenIdentifier>
+			<Abstract type="html">An identifier for the message in this batch. This is used to
+communicate the result. Note that the the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchRequestEntry/idValue</TokenIdentifier>
+			<Abstract type="html">An identifier for the message in this batch. This is used to
+communicate the result. Note that the the &lt;code&gt;Id&lt;/code&gt;s of a batch
+request need to be unique within the request.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *idValue</Declaration>
+			
+			
+			<Anchor>//api/name/idValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/setMessageBody:</TokenIdentifier>
+			<Abstract type="html">Body of the message.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *messageBody</Declaration>
+			
+			
+			<Anchor>//api/name/messageBody</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchRequestEntry/messageBody</TokenIdentifier>
+			<Abstract type="html">Body of the message.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *messageBody</Declaration>
+			
+			
+			<Anchor>//api/name/messageBody</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/setDelaySeconds:</TokenIdentifier>
+			<Abstract type="html">The number of seconds for which the message has to be delayed.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *delaySeconds</Declaration>
+			
+			
+			<Anchor>//api/name/delaySeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSSendMessageBatchRequestEntry/delaySeconds</TokenIdentifier>
+			<Abstract type="html">The number of seconds for which the message has to be delayed.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *delaySeconds</Declaration>
+			
+			
+			<Anchor>//api/name/delaySeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new SendMessageBatchRequestEntry object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/initWithIdValue:andMessageBody:</TokenIdentifier>
+			<Abstract type="html">Constructs a new SendMessageBatchRequestEntry object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithIdValue:(NSString *)theIdValue andMessageBody:(NSString *)theMessageBody</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theIdValue</Name>
+					<Abstract type="html">An identifier for the message in this batch. This is
+used to communicate the result. Note that the the &lt;code&gt;Id&lt;/code&gt;s of
+a batch request need to be unique within the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>theMessageBody</Name>
+					<Abstract type="html">Body of the message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithIdValue:andMessageBody:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSSendMessageBatchRequestEntry/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSSendMessageBatchRequestEntry.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

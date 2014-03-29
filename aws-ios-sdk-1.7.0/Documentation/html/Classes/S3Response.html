@@ -1,0 +1,913 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>S3Response Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">S3Response Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/connectionState">&nbsp;&nbsp;&nbsp;&nbsp;connectionState</option>
+	
+	<option value="//api/name/contentLength">&nbsp;&nbsp;&nbsp;&nbsp;contentLength</option>
+	
+	<option value="//api/name/date">&nbsp;&nbsp;&nbsp;&nbsp;date</option>
+	
+	<option value="//api/name/deleteMarker">&nbsp;&nbsp;&nbsp;&nbsp;deleteMarker</option>
+	
+	<option value="//api/name/etag">&nbsp;&nbsp;&nbsp;&nbsp;etag</option>
+	
+	<option value="//api/name/id2">&nbsp;&nbsp;&nbsp;&nbsp;id2</option>
+	
+	<option value="//api/name/server">&nbsp;&nbsp;&nbsp;&nbsp;server</option>
+	
+	<option value="//api/name/serverSideEncryption">&nbsp;&nbsp;&nbsp;&nbsp;serverSideEncryption</option>
+	
+	<option value="//api/name/versionId">&nbsp;&nbsp;&nbsp;&nbsp;versionId</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/getTypeOfPropertyNamed:">&nbsp;&nbsp;&nbsp;&nbsp;- getTypeOfPropertyNamed:</option>
+	
+	<option value="//api/name/setValue:forHTTPHeaderField:">&nbsp;&nbsp;&nbsp;&nbsp;- setValue:forHTTPHeaderField:</option>
+	
+	<option value="//api/name/valueForHTTPHeaderField:">&nbsp;&nbsp;&nbsp;&nbsp;- valueForHTTPHeaderField:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/connectionState">connectionState</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentLength">contentLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/date">date</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteMarker">deleteMarker</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/etag">etag</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/id2">id2</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/server">server</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serverSideEncryption">serverSideEncryption</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/versionId">versionId</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getTypeOfPropertyNamed:">getTypeOfPropertyNamed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setValue:forHTTPHeaderField:">setValue:forHTTPHeaderField:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/valueForHTTPHeaderField:">valueForHTTPHeaderField:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="S3Response Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">S3Response Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonServiceResponse.html">AmazonServiceResponse</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">S3Response.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>response headers that are common to Amazon S3 responses.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/connectionState">&nbsp;&nbsp;connectionState</a></code>
+		<span class="tooltip"><p>Specfies whether the connection to the server is open or closed.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/etag">&nbsp;&nbsp;etag</a></code>
+		<span class="tooltip"><p>The entity tag is an MD5 hash of the object that you can use to do conditional
+<code>GET</code> operations using the <code>If-Modified</code> request tag with the <code>GET</code> request operation.
+Amazon S3 checks the object against the provided MD5 value. If they do not match, Amazon S3 returns an error.
+The ETag only reflects changes to the contents of an object, not its metadata.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/server">&nbsp;&nbsp;server</a></code>
+		<span class="tooltip"><p>The name of the server that created the response.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/id2">&nbsp;&nbsp;id2</a></code>
+		<span class="tooltip"><p>A special token that helps AWS troubleshoot problems.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/versionId">&nbsp;&nbsp;versionId</a></code>
+		<span class="tooltip"><p>The version of the object.
+When you enable versioning, Amazon S3 generates a random number for objects added to a bucket.
+The value is UTF-8 encoded and URL ready.
+When you PUT an object in a bucket where versioning has been suspended, the version ID is always <code>null</code>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serverSideEncryption">&nbsp;&nbsp;serverSideEncryption</a></code>
+		<span class="tooltip"><p>Algorithm used for optional server side encryption.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/date">&nbsp;&nbsp;date</a></code>
+		<span class="tooltip"><p>The date and time Amazon S3 responded.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteMarker">&nbsp;&nbsp;deleteMarker</a></code>
+		<span class="tooltip"><p>Specifies whether the object returned was (<code>true</code>) or was not (<code>false</code>) a Delete Marker.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentLength">&nbsp;&nbsp;contentLength</a></code>
+		<span class="tooltip"><p>The length in bytes of the body in the response.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setValue:forHTTPHeaderField:">&ndash;&nbsp;setValue:forHTTPHeaderField:</a></code>
+		<span class="tooltip"><p>Sets the value in the response corresponding to the HTTP header</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/valueForHTTPHeaderField:">&ndash;&nbsp;valueForHTTPHeaderField:</a></code>
+		<span class="tooltip"><p>Gets the value in the response corresponding to the HTTP header</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getTypeOfPropertyNamed:">&ndash;&nbsp;getTypeOfPropertyNamed:</a></code>
+		<span class="tooltip"><p>Determines the type of a property in a response.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/connectionState" title="connectionState"></a>
+	<h3 class="subsubtitle method-title">connectionState</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specfies whether the connection to the server is open or closed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *connectionState</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specfies whether the connection to the server is open or closed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentLength" title="contentLength"></a>
+	<h3 class="subsubtitle method-title">contentLength</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The length in bytes of the body in the response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t contentLength</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The length in bytes of the body in the response.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/date" title="date"></a>
+	<h3 class="subsubtitle method-title">date</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The date and time Amazon S3 responded.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *date</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The date and time Amazon S3 responded.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteMarker" title="deleteMarker"></a>
+	<h3 class="subsubtitle method-title">deleteMarker</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies whether the object returned was (<code>true</code>) or was not (<code>false</code>) a Delete Marker.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL deleteMarker</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies whether the object returned was (<code>true</code>) or was not (<code>false</code>) a Delete Marker.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/etag" title="etag"></a>
+	<h3 class="subsubtitle method-title">etag</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The entity tag is an MD5 hash of the object that you can use to do conditional
+<code>GET</code> operations using the <code>If-Modified</code> request tag with the <code>GET</code> request operation.
+Amazon S3 checks the object against the provided MD5 value. If they do not match, Amazon S3 returns an error.
+The ETag only reflects changes to the contents of an object, not its metadata.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *etag</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The entity tag is an MD5 hash of the object that you can use to do conditional
+<code>GET</code> operations using the <code>If-Modified</code> request tag with the <code>GET</code> request operation.
+Amazon S3 checks the object against the provided MD5 value. If they do not match, Amazon S3 returns an error.
+The ETag only reflects changes to the contents of an object, not its metadata.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/id2" title="id2"></a>
+	<h3 class="subsubtitle method-title">id2</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A special token that helps AWS troubleshoot problems.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *id2</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A special token that helps AWS troubleshoot problems.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/server" title="server"></a>
+	<h3 class="subsubtitle method-title">server</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the server that created the response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *server</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name of the server that created the response.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serverSideEncryption" title="serverSideEncryption"></a>
+	<h3 class="subsubtitle method-title">serverSideEncryption</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Algorithm used for optional server side encryption.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *serverSideEncryption</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Algorithm used for optional server side encryption.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/versionId" title="versionId"></a>
+	<h3 class="subsubtitle method-title">versionId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The version of the object.
+When you enable versioning, Amazon S3 generates a random number for objects added to a bucket.
+The value is UTF-8 encoded and URL ready.
+When you PUT an object in a bucket where versioning has been suspended, the version ID is always <code>null</code>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *versionId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The version of the object.
+When you enable versioning, Amazon S3 generates a random number for objects added to a bucket.
+The value is UTF-8 encoded and URL ready.
+When you PUT an object in a bucket where versioning has been suspended, the version ID is always <code>null</code>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/getTypeOfPropertyNamed:" title="getTypeOfPropertyNamed:"></a>
+	<h3 class="subsubtitle method-title">getTypeOfPropertyNamed:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines the type of a property in a response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)getTypeOfPropertyNamed:(NSString *)<em>propertyName</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Determines the type of a property in a response.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setValue:forHTTPHeaderField:" title="setValue:forHTTPHeaderField:"></a>
+	<h3 class="subsubtitle method-title">setValue:forHTTPHeaderField:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the value in the response corresponding to the HTTP header</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setValue:(id)<em>value</em> forHTTPHeaderField:(NSString *)<em>header</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets the value in the response corresponding to the HTTP header</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/valueForHTTPHeaderField:" title="valueForHTTPHeaderField:"></a>
+	<h3 class="subsubtitle method-title">valueForHTTPHeaderField:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gets the value in the response corresponding to the HTTP header</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)valueForHTTPHeaderField:(NSString *)<em>header</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gets the value in the response corresponding to the HTTP header</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">S3Response.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

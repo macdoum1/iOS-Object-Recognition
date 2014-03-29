@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingSuspendProcessesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingSuspendProcessesResponse</TokenIdentifier>
+			<Abstract type="html">Suspend Processes</Abstract>
+			<DeclaredIn>AutoScalingSuspendProcessesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="116"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

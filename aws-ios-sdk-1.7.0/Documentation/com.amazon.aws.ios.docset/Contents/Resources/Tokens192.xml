@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBKeySchemaElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBKeySchemaElement</TokenIdentifier>
+			<Abstract type="html">Key Schema Element</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>
+			
+			<NodeRef refid="192"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeySchemaElement/setAttributeName:</TokenIdentifier>
+			<Abstract type="html">Represents the name of a key attribute.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBKeySchemaElement/attributeName</TokenIdentifier>
+			<Abstract type="html">Represents the name of a key attribute.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attributeName</Declaration>
+			
+			
+			<Anchor>//api/name/attributeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeySchemaElement/setKeyType:</TokenIdentifier>
+			<Abstract type="html">Represents the attribute data, consisting of the data type and the
+attribute value itself.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;HASH, RANGE</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyType</Declaration>
+			
+			
+			<Anchor>//api/name/keyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBKeySchemaElement/keyType</TokenIdentifier>
+			<Abstract type="html">Represents the attribute data, consisting of the data type and the
+attribute value itself.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;HASH, RANGE</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyType</Declaration>
+			
+			
+			<Anchor>//api/name/keyType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeySchemaElement/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new KeySchemaElement object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeySchemaElement/initWithAttributeName:andKeyType:</TokenIdentifier>
+			<Abstract type="html">Constructs a new KeySchemaElement object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAttributeName:(NSString *)theAttributeName andKeyType:(NSString *)theKeyType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theAttributeName</Name>
+					<Abstract type="html">Represents the name of a key attribute.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKeyType</Name>
+					<Abstract type="html">Represents the attribute data, consisting of the
+data type and the attribute value itself.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAttributeName:andKeyType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeySchemaElement/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBKeySchemaElement.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

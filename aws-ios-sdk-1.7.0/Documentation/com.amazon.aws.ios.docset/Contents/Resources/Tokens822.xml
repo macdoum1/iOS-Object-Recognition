@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSAddPermissionResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSAddPermissionResponse</TokenIdentifier>
+			<Abstract type="html">Add Permission</Abstract>
+			<DeclaredIn>SQSAddPermissionResponse.h</DeclaredIn>
+			
+			<NodeRef refid="822"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

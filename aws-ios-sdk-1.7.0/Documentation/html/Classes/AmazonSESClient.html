@@ -1,0 +1,2540 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonSESClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonSESClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/deleteIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteIdentity:</option>
+	
+	<option value="//api/name/deleteVerifiedEmailAddress:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteVerifiedEmailAddress:</option>
+	
+	<option value="//api/name/getIdentityDkimAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getIdentityDkimAttributes:</option>
+	
+	<option value="//api/name/getIdentityNotificationAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getIdentityNotificationAttributes:</option>
+	
+	<option value="//api/name/getIdentityVerificationAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getIdentityVerificationAttributes:</option>
+	
+	<option value="//api/name/getSendQuota:">&nbsp;&nbsp;&nbsp;&nbsp;- getSendQuota:</option>
+	
+	<option value="//api/name/getSendStatistics:">&nbsp;&nbsp;&nbsp;&nbsp;- getSendStatistics:</option>
+	
+	<option value="//api/name/listIdentities:">&nbsp;&nbsp;&nbsp;&nbsp;- listIdentities:</option>
+	
+	<option value="//api/name/listVerifiedEmailAddresses:">&nbsp;&nbsp;&nbsp;&nbsp;- listVerifiedEmailAddresses:</option>
+	
+	<option value="//api/name/sendEmail:">&nbsp;&nbsp;&nbsp;&nbsp;- sendEmail:</option>
+	
+	<option value="//api/name/sendRawEmail:">&nbsp;&nbsp;&nbsp;&nbsp;- sendRawEmail:</option>
+	
+	<option value="//api/name/setIdentityDkimEnabled:">&nbsp;&nbsp;&nbsp;&nbsp;- setIdentityDkimEnabled:</option>
+	
+	<option value="//api/name/setIdentityFeedbackForwardingEnabled:">&nbsp;&nbsp;&nbsp;&nbsp;- setIdentityFeedbackForwardingEnabled:</option>
+	
+	<option value="//api/name/setIdentityNotificationTopic:">&nbsp;&nbsp;&nbsp;&nbsp;- setIdentityNotificationTopic:</option>
+	
+	<option value="//api/name/verifyDomainDkim:">&nbsp;&nbsp;&nbsp;&nbsp;- verifyDomainDkim:</option>
+	
+	<option value="//api/name/verifyDomainIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- verifyDomainIdentity:</option>
+	
+	<option value="//api/name/verifyEmailAddress:">&nbsp;&nbsp;&nbsp;&nbsp;- verifyEmailAddress:</option>
+	
+	<option value="//api/name/verifyEmailIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- verifyEmailIdentity:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteIdentity:">deleteIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteVerifiedEmailAddress:">deleteVerifiedEmailAddress:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getIdentityDkimAttributes:">getIdentityDkimAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getIdentityNotificationAttributes:">getIdentityNotificationAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getIdentityVerificationAttributes:">getIdentityVerificationAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSendQuota:">getSendQuota:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSendStatistics:">getSendStatistics:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listIdentities:">listIdentities:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listVerifiedEmailAddresses:">listVerifiedEmailAddresses:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendEmail:">sendEmail:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendRawEmail:">sendRawEmail:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIdentityDkimEnabled:">setIdentityDkimEnabled:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIdentityFeedbackForwardingEnabled:">setIdentityFeedbackForwardingEnabled:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setIdentityNotificationTopic:">setIdentityNotificationTopic:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verifyDomainDkim:">verifyDomainDkim:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verifyDomainIdentity:">verifyDomainIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verifyEmailAddress:">verifyEmailAddress:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verifyEmailIdentity:">verifyEmailIdentity:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonSESClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonSESClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonSESClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonSES.</p>
+
+<p>Amazon SES
+</summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteIdentity:">&ndash;&nbsp;deleteIdentity:</a></code>
+		<span class="tooltip"><p>
+Deletes the specified identity (email address or domain) from the list of verified identities.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listVerifiedEmailAddresses:">&ndash;&nbsp;listVerifiedEmailAddresses:</a></code>
+		<span class="tooltip"><p>
+Returns a list containing all of the email addresses that have been verified.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain
+Verification. The ListIdentities action is now preferred.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSendStatistics:">&ndash;&nbsp;getSendStatistics:</a></code>
+		<span class="tooltip"><p>
+Returns the user's sending statistics. The result is a list of data points, representing the last two weeks of sending
+activity.
+</p>
+
+
+<p>
+Each data point in the list contains statistics for a 15-minute interval.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verifyEmailIdentity:">&ndash;&nbsp;verifyEmailIdentity:</a></code>
+		<span class="tooltip"><p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getIdentityNotificationAttributes:">&ndash;&nbsp;getIdentityNotificationAttributes:</a></code>
+		<span class="tooltip"><p>
+Given a list of verified identities (email addresses and/or domains), returns a structure describing identity
+notification attributes. For more information about feedback notification, see the <a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verifyDomainDkim:">&ndash;&nbsp;verifyDomainDkim:</a></code>
+		<span class="tooltip"><p>
+Returns a set of DNS records, or <i>tokens</i> , that must be published in the domain name's DNS to complete the DKIM
+verification process. These tokens are DNS CNAME records that point to DKIM public keys hosted by Amazon SES. To
+complete the DKIM verification process, these tokens must be published in the domain's DNS. The tokens must remain
+published in order for Easy DKIM signing to function correctly.
+</p>
+
+
+<p>
+After the tokens are added to the domain's DNS, Amazon SES will be able to DKIM-sign email originating from that domain.
+To enable or disable Easy DKIM signing for a domain, use the SetIdentityDkimEnabled action.
+</p>
+
+
+<p>
+For more information about Easy DKIM, go to the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide">
+Amazon SES Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getIdentityDkimAttributes:">&ndash;&nbsp;getIdentityDkimAttributes:</a></code>
+		<span class="tooltip"><p>
+Returns the DNS records, or <i>tokens</i> , that must be present in order for Easy DKIM to sign outgoing email messages.
+</p>
+
+
+<p>
+This action takes a list of verified identities as input. It then returns the following information for each identity:
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verifyEmailAddress:">&ndash;&nbsp;verifyEmailAddress:</a></code>
+		<span class="tooltip"><p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The
+VerifyEmailIdentity action is now preferred.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendRawEmail:">&ndash;&nbsp;sendRawEmail:</a></code>
+		<span class="tooltip"><p>
+Sends an email message, with header and content specified by the client. The SendRawEmail action is useful for sending
+multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message
+cannot be sent.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listIdentities:">&ndash;&nbsp;listIdentities:</a></code>
+		<span class="tooltip"><p>
+Returns a list containing all of the identities (email addresses and domains) for a specific AWS Account, regardless of
+verification status.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getIdentityVerificationAttributes:">&ndash;&nbsp;getIdentityVerificationAttributes:</a></code>
+		<span class="tooltip"><p>
+Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities)
+the verification token for each identity.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIdentityDkimEnabled:">&ndash;&nbsp;setIdentityDkimEnabled:</a></code>
+		<span class="tooltip"><p>
+Enables or disables Easy DKIM signing of email sent from an identity:
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSendQuota:">&ndash;&nbsp;getSendQuota:</a></code>
+		<span class="tooltip"><p>
+Returns the user's current sending limits.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIdentityFeedbackForwardingEnabled:">&ndash;&nbsp;setIdentityFeedbackForwardingEnabled:</a></code>
+		<span class="tooltip"><p>
+Given an identity (email address or domain), enables or disables whether Amazon SES forwards feedback notifications as
+email. Feedback forwarding may only be disabled when both complaint and bounce topics are set. For more information
+about feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verifyDomainIdentity:">&ndash;&nbsp;verifyDomainIdentity:</a></code>
+		<span class="tooltip"><p>
+Verifies a domain.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendEmail:">&ndash;&nbsp;sendEmail:</a></code>
+		<span class="tooltip"><p>
+Composes an email message based on input data, and then immediately queues the message for sending.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteVerifiedEmailAddress:">&ndash;&nbsp;deleteVerifiedEmailAddress:</a></code>
+		<span class="tooltip"><p>
+Deletes the specified email address from the list of verified addresses.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain
+Verification. The DeleteIdentity action is now preferred.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setIdentityNotificationTopic:">&ndash;&nbsp;setIdentityNotificationTopic:</a></code>
+		<span class="tooltip"><p>
+Given an identity (email address or domain), sets the Amazon SNS topic to which Amazon SES will publish bounce and
+complaint notifications for emails sent with that identity as the Source .
+Publishing to topics may only be disabled when feedback forwarding is enabled. For more information about
+feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteIdentity:" title="deleteIdentity:"></a>
+	<h3 class="subsubtitle method-title">deleteIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes the specified identity (email address or domain) from the list of verified identities.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESDeleteIdentityResponse *)deleteIdentity:(SESDeleteIdentityRequest *)<em>deleteIdentityRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteIdentityRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteIdentity service method on
+AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DeleteIdentity service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes the specified identity (email address or domain) from the list of verified identities.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESDeleteIdentityRequest.html">SESDeleteIdentityRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESDeleteIdentityResponse.html">SESDeleteIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteVerifiedEmailAddress:" title="deleteVerifiedEmailAddress:"></a>
+	<h3 class="subsubtitle method-title">deleteVerifiedEmailAddress:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes the specified email address from the list of verified addresses.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain
+Verification. The DeleteIdentity action is now preferred.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESDeleteVerifiedEmailAddressResponse *)deleteVerifiedEmailAddress:(SESDeleteVerifiedEmailAddressRequest *)<em>deleteVerifiedEmailAddressRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteVerifiedEmailAddressRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DeleteVerifiedEmailAddress service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes the specified email address from the list of verified addresses.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain
+Verification. The DeleteIdentity action is now preferred.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESDeleteVerifiedEmailAddressRequest.html">SESDeleteVerifiedEmailAddressRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESDeleteVerifiedEmailAddressResponse.html">SESDeleteVerifiedEmailAddressResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getIdentityDkimAttributes:" title="getIdentityDkimAttributes:"></a>
+	<h3 class="subsubtitle method-title">getIdentityDkimAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns the DNS records, or <i>tokens</i> , that must be present in order for Easy DKIM to sign outgoing email messages.
+</p>
+
+
+<p>
+This action takes a list of verified identities as input. It then returns the following information for each identity:
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESGetIdentityDkimAttributesResponse *)getIdentityDkimAttributes:(SESGetIdentityDkimAttributesRequest *)<em>getIdentityDkimAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getIdentityDkimAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetIdentityDkimAttributes
+service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetIdentityDkimAttributes service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns the DNS records, or <i>tokens</i> , that must be present in order for Easy DKIM to sign outgoing email messages.
+</p>
+
+
+<p>
+This action takes a list of verified identities as input. It then returns the following information for each identity:
+</p>
+
+
+
+
+<ul>
+<li>Whether Easy DKIM signing is enabled or disabled.</li>
+<li>The set of tokens that are required for Easy DKIM signing. These tokens must be published in the domain name's DNS
+records in order for DKIM verification to complete, and must remain published in order for Easy DKIM signing to operate
+correctly. (This information is only returned for domain name identities, not for email addresses.)</li>
+<li>Whether Amazon SES has successfully verified the DKIM tokens published in the domain name's DNS. (This information
+is only returned for domain name identities, not for email addresses.)</li>
+
+</ul>
+
+
+<p>
+For more information about Easy DKIM signing, go to the <a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityDkimAttributesRequest.html">SESGetIdentityDkimAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityDkimAttributesResponse.html">SESGetIdentityDkimAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getIdentityNotificationAttributes:" title="getIdentityNotificationAttributes:"></a>
+	<h3 class="subsubtitle method-title">getIdentityNotificationAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Given a list of verified identities (email addresses and/or domains), returns a structure describing identity
+notification attributes. For more information about feedback notification, see the <a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESGetIdentityNotificationAttributesResponse *)getIdentityNotificationAttributes:(SESGetIdentityNotificationAttributesRequest *)<em>getIdentityNotificationAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getIdentityNotificationAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+GetIdentityNotificationAttributes service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetIdentityNotificationAttributes service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Given a list of verified identities (email addresses and/or domains), returns a structure describing identity
+notification attributes. For more information about feedback notification, see the <a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityNotificationAttributesRequest.html">SESGetIdentityNotificationAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityNotificationAttributesResponse.html">SESGetIdentityNotificationAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getIdentityVerificationAttributes:" title="getIdentityVerificationAttributes:"></a>
+	<h3 class="subsubtitle method-title">getIdentityVerificationAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities)
+the verification token for each identity.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESGetIdentityVerificationAttributesResponse *)getIdentityVerificationAttributes:(SESGetIdentityVerificationAttributesRequest *)<em>getIdentityVerificationAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getIdentityVerificationAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+GetIdentityVerificationAttributes service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetIdentityVerificationAttributes service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities)
+the verification token for each identity.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityVerificationAttributesRequest.html">SESGetIdentityVerificationAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESGetIdentityVerificationAttributesResponse.html">SESGetIdentityVerificationAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSendQuota:" title="getSendQuota:"></a>
+	<h3 class="subsubtitle method-title">getSendQuota:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns the user's current sending limits.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESGetSendQuotaResponse *)getSendQuota:(SESGetSendQuotaRequest *)<em>getSendQuotaRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getSendQuotaRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetSendQuota service method on
+AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetSendQuota service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns the user's current sending limits.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESGetSendQuotaRequest.html">SESGetSendQuotaRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESGetSendQuotaResponse.html">SESGetSendQuotaResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSendStatistics:" title="getSendStatistics:"></a>
+	<h3 class="subsubtitle method-title">getSendStatistics:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns the user's sending statistics. The result is a list of data points, representing the last two weeks of sending
+activity.
+</p>
+
+
+<p>
+Each data point in the list contains statistics for a 15-minute interval.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESGetSendStatisticsResponse *)getSendStatistics:(SESGetSendStatisticsRequest *)<em>getSendStatisticsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getSendStatisticsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetSendStatistics service method
+on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetSendStatistics service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns the user's sending statistics. The result is a list of data points, representing the last two weeks of sending
+activity.
+</p>
+
+
+<p>
+Each data point in the list contains statistics for a 15-minute interval.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESGetSendStatisticsRequest.html">SESGetSendStatisticsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESGetSendStatisticsResponse.html">SESGetSendStatisticsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listIdentities:" title="listIdentities:"></a>
+	<h3 class="subsubtitle method-title">listIdentities:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list containing all of the identities (email addresses and domains) for a specific AWS Account, regardless of
+verification status.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESListIdentitiesResponse *)listIdentities:(SESListIdentitiesRequest *)<em>listIdentitiesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listIdentitiesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListIdentities service method on
+AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListIdentities service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list containing all of the identities (email addresses and domains) for a specific AWS Account, regardless of
+verification status.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESListIdentitiesRequest.html">SESListIdentitiesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESListIdentitiesResponse.html">SESListIdentitiesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listVerifiedEmailAddresses:" title="listVerifiedEmailAddresses:"></a>
+	<h3 class="subsubtitle method-title">listVerifiedEmailAddresses:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list containing all of the email addresses that have been verified.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain
+Verification. The ListIdentities action is now preferred.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESListVerifiedEmailAddressesResponse *)listVerifiedEmailAddresses:(SESListVerifiedEmailAddressesRequest *)<em>listVerifiedEmailAddressesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listVerifiedEmailAddressesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+ListVerifiedEmailAddresses service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListVerifiedEmailAddresses service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list containing all of the email addresses that have been verified.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain
+Verification. The ListIdentities action is now preferred.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESListVerifiedEmailAddressesRequest.html">SESListVerifiedEmailAddressesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESListVerifiedEmailAddressesResponse.html">SESListVerifiedEmailAddressesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendEmail:" title="sendEmail:"></a>
+	<h3 class="subsubtitle method-title">sendEmail:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Composes an email message based on input data, and then immediately queues the message for sending.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESSendEmailResponse *)sendEmail:(SESSendEmailRequest *)<em>sendEmailRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sendEmailRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SendEmail service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SendEmail service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Composes an email message based on input data, and then immediately queues the message for sending.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SESMessageRejectedException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SESMessageRejectedException.html">SESMessageRejectedException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESSendEmailRequest.html">SESSendEmailRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESSendEmailResponse.html">SESSendEmailResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendRawEmail:" title="sendRawEmail:"></a>
+	<h3 class="subsubtitle method-title">sendRawEmail:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Sends an email message, with header and content specified by the client. The SendRawEmail action is useful for sending
+multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message
+cannot be sent.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESSendRawEmailResponse *)sendRawEmail:(SESSendRawEmailRequest *)<em>sendRawEmailRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sendRawEmailRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SendRawEmail service method on
+AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SendRawEmail service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Sends an email message, with header and content specified by the client. The SendRawEmail action is useful for sending
+multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message
+cannot be sent.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>If you have not yet requested production access to Amazon SES, then you will only be able to send email
+to and from verified email addresses and domains. For more information, go to the Amazon SES Developer Guide.
+</p>
+
+
+<p>
+The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.
+</p>
+
+
+<p>
+Amazon SES has a limit on the total number of recipients per message: The combined number of To:, CC: and BCC: email
+addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient
+list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.
+</p>
+
+
+<p>
+For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your <i>sending
+quota</i> - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go
+to the "Managing Your Sending Activity" section of the<a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SESMessageRejectedException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SESMessageRejectedException.html">SESMessageRejectedException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESSendRawEmailRequest.html">SESSendRawEmailRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESSendRawEmailResponse.html">SESSendRawEmailResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIdentityDkimEnabled:" title="setIdentityDkimEnabled:"></a>
+	<h3 class="subsubtitle method-title">setIdentityDkimEnabled:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Enables or disables Easy DKIM signing of email sent from an identity:
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESSetIdentityDkimEnabledResponse *)setIdentityDkimEnabled:(SESSetIdentityDkimEnabledRequest *)<em>setIdentityDkimEnabledRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setIdentityDkimEnabledRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetIdentityDkimEnabled
+service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SetIdentityDkimEnabled service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Enables or disables Easy DKIM signing of email sent from an identity:
+</p>
+
+
+
+
+<ul>
+<li>If Easy DKIM signing is enabled for a domain name identity (e.g., example.com ), then Amazon SES will DKIM-sign all
+email sent by addresses under that domain name (e.g., user@example.com ).</li>
+<li>If Easy DKIM signing is enabled for an email address, then Amazon SES will DKIM-sign all email sent by that email
+address.</li>
+
+</ul>
+
+
+<p>
+For email addresses (e.g., user@example.com ), you can only enable Easy DKIM signing if the corresponding domain (e.g.,
+example.com ) has been set up for Easy DKIM using the AWS Console or the VerifyDomainDkim action.
+</p>
+
+
+<p>
+For more information about Easy DKIM signing, go to the <a
+href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityDkimEnabledRequest.html">SESSetIdentityDkimEnabledRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityDkimEnabledResponse.html">SESSetIdentityDkimEnabledResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIdentityFeedbackForwardingEnabled:" title="setIdentityFeedbackForwardingEnabled:"></a>
+	<h3 class="subsubtitle method-title">setIdentityFeedbackForwardingEnabled:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Given an identity (email address or domain), enables or disables whether Amazon SES forwards feedback notifications as
+email. Feedback forwarding may only be disabled when both complaint and bounce topics are set. For more information
+about feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESSetIdentityFeedbackForwardingEnabledResponse *)setIdentityFeedbackForwardingEnabled:(SESSetIdentityFeedbackForwardingEnabledRequest *)<em>setIdentityFeedbackForwardingEnabledRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setIdentityFeedbackForwardingEnabledRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetIdentityFeedbackForwardingEnabled service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SetIdentityFeedbackForwardingEnabled service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Given an identity (email address or domain), enables or disables whether Amazon SES forwards feedback notifications as
+email. Feedback forwarding may only be disabled when both complaint and bounce topics are set. For more information
+about feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityFeedbackForwardingEnabledRequest.html">SESSetIdentityFeedbackForwardingEnabledRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityFeedbackForwardingEnabledResponse.html">SESSetIdentityFeedbackForwardingEnabledResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setIdentityNotificationTopic:" title="setIdentityNotificationTopic:"></a>
+	<h3 class="subsubtitle method-title">setIdentityNotificationTopic:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Given an identity (email address or domain), sets the Amazon SNS topic to which Amazon SES will publish bounce and
+complaint notifications for emails sent with that identity as the Source .
+Publishing to topics may only be disabled when feedback forwarding is enabled. For more information about
+feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESSetIdentityNotificationTopicResponse *)setIdentityNotificationTopic:(SESSetIdentityNotificationTopicRequest *)<em>setIdentityNotificationTopicRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setIdentityNotificationTopicRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetIdentityNotificationTopic service method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SetIdentityNotificationTopic service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Given an identity (email address or domain), sets the Amazon SNS topic to which Amazon SES will publish bounce and
+complaint notifications for emails sent with that identity as the Source .
+Publishing to topics may only be disabled when feedback forwarding is enabled. For more information about
+feedback notification, see the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide"> Amazon SES
+Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityNotificationTopicRequest.html">SESSetIdentityNotificationTopicRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESSetIdentityNotificationTopicResponse.html">SESSetIdentityNotificationTopicResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verifyDomainDkim:" title="verifyDomainDkim:"></a>
+	<h3 class="subsubtitle method-title">verifyDomainDkim:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a set of DNS records, or <i>tokens</i> , that must be published in the domain name's DNS to complete the DKIM
+verification process. These tokens are DNS CNAME records that point to DKIM public keys hosted by Amazon SES. To
+complete the DKIM verification process, these tokens must be published in the domain's DNS. The tokens must remain
+published in order for Easy DKIM signing to function correctly.
+</p>
+
+
+<p>
+After the tokens are added to the domain's DNS, Amazon SES will be able to DKIM-sign email originating from that domain.
+To enable or disable Easy DKIM signing for a domain, use the SetIdentityDkimEnabled action.
+</p>
+
+
+<p>
+For more information about Easy DKIM, go to the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide">
+Amazon SES Developer Guide </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESVerifyDomainDkimResponse *)verifyDomainDkim:(SESVerifyDomainDkimRequest *)<em>verifyDomainDkimRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>verifyDomainDkimRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the VerifyDomainDkim service method on
+AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the VerifyDomainDkim service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a set of DNS records, or <i>tokens</i> , that must be published in the domain name's DNS to complete the DKIM
+verification process. These tokens are DNS CNAME records that point to DKIM public keys hosted by Amazon SES. To
+complete the DKIM verification process, these tokens must be published in the domain's DNS. The tokens must remain
+published in order for Easy DKIM signing to function correctly.
+</p>
+
+
+<p>
+After the tokens are added to the domain's DNS, Amazon SES will be able to DKIM-sign email originating from that domain.
+To enable or disable Easy DKIM signing for a domain, use the SetIdentityDkimEnabled action.
+</p>
+
+
+<p>
+For more information about Easy DKIM, go to the <a href="http://docs.amazonwebservices.com/ses/latest/DeveloperGuide">
+Amazon SES Developer Guide </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESVerifyDomainDkimRequest.html">SESVerifyDomainDkimRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESVerifyDomainDkimResponse.html">SESVerifyDomainDkimResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verifyDomainIdentity:" title="verifyDomainIdentity:"></a>
+	<h3 class="subsubtitle method-title">verifyDomainIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Verifies a domain.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESVerifyDomainIdentityResponse *)verifyDomainIdentity:(SESVerifyDomainIdentityRequest *)<em>verifyDomainIdentityRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>verifyDomainIdentityRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the VerifyDomainIdentity service
+method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the VerifyDomainIdentity service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Verifies a domain.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESVerifyDomainIdentityRequest.html">SESVerifyDomainIdentityRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESVerifyDomainIdentityResponse.html">SESVerifyDomainIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verifyEmailAddress:" title="verifyEmailAddress:"></a>
+	<h3 class="subsubtitle method-title">verifyEmailAddress:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The
+VerifyEmailIdentity action is now preferred.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESVerifyEmailAddressResponse *)verifyEmailAddress:(SESVerifyEmailAddressRequest *)<em>verifyEmailAddressRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>verifyEmailAddressRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the VerifyEmailAddress service method
+on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b>The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The
+VerifyEmailIdentity action is now preferred.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESVerifyEmailAddressRequest.html">SESVerifyEmailAddressRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESVerifyEmailAddressResponse.html">SESVerifyEmailAddressResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verifyEmailIdentity:" title="verifyEmailIdentity:"></a>
+	<h3 class="subsubtitle method-title">verifyEmailIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SESVerifyEmailIdentityResponse *)verifyEmailIdentity:(SESVerifyEmailIdentityRequest *)<em>verifyEmailIdentityRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>verifyEmailIdentityRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the VerifyEmailIdentity service
+method on AmazonSES.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the VerifyEmailIdentity service method, as returned by AmazonSES.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Verifies an email address. This action causes a confirmation email message to be sent to the specified address.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSES indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SESVerifyEmailIdentityRequest.html">SESVerifyEmailIdentityRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SESVerifyEmailIdentityResponse.html">SESVerifyEmailIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSESClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

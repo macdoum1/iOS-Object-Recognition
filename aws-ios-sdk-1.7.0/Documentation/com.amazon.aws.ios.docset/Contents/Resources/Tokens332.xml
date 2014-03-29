@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeReservedInstancesOfferingsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesOfferingsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Reserved Instances Offerings Request</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="332"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setReservedInstancesOfferingIds:</TokenIdentifier>
+			<Abstract type="html">An optional list of the unique IDs of the Reserved Instance offerings
+to describe.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesOfferingIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesOfferingIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/reservedInstancesOfferingIds</TokenIdentifier>
+			<Abstract type="html">An optional list of the unique IDs of the Reserved Instance offerings
+to describe.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesOfferingIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesOfferingIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">The instance type on which the Reserved Instance can be used.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">The instance type on which the Reserved Instance can be used.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which the Reserved Instance can be used.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which the Reserved Instance can be used.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setProductDescription:</TokenIdentifier>
+			<Abstract type="html">The Reserved Instance product description.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/productDescription</TokenIdentifier>
+			<Abstract type="html">The Reserved Instance product description.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for
+ReservedInstancesOfferings. For a complete reference to the available
+filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for
+ReservedInstancesOfferings. For a complete reference to the available
+filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setInstanceTenancy:</TokenIdentifier>
+			<Abstract type="html">The tenancy of the Reserved Instance offering. A Reserved Instance
+with tenancy of dedicated will run on single-tenant hardware and can
+only be launched within a VPC.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;default, dedicated</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">The tenancy of the Reserved Instance offering. A Reserved Instance
+with tenancy of dedicated will run on single-tenant hardware and can
+only be launched within a VPC.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;default, dedicated</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setOfferingType:</TokenIdentifier>
+			<Abstract type="html">The Reserved Instance offering type.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Heavy Utilization, Medium Utilization, Light Utilization</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *offeringType</Declaration>
+			
+			
+			<Anchor>//api/name/offeringType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/offeringType</TokenIdentifier>
+			<Abstract type="html">The Reserved Instance offering type.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Heavy Utilization, Medium Utilization, Light Utilization</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *offeringType</Declaration>
+			
+			
+			<Anchor>//api/name/offeringType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">The value of the NextToken property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">The value of the NextToken property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">The value of the MaxResults property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">The value of the MaxResults property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setIncludeMarketplace:</TokenIdentifier>
+			<Abstract type="html">Include Marketplace offerings in the response.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL includeMarketplace</Declaration>
+			
+			
+			<Anchor>//api/name/includeMarketplace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/includeMarketplace</TokenIdentifier>
+			<Abstract type="html">Include Marketplace offerings in the response.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL includeMarketplace</Declaration>
+			
+			
+			<Anchor>//api/name/includeMarketplace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setMinDuration:</TokenIdentifier>
+			<Abstract type="html">Minimum duration (in seconds) to filter when searching for offerings.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minDuration</Declaration>
+			
+			
+			<Anchor>//api/name/minDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/minDuration</TokenIdentifier>
+			<Abstract type="html">Minimum duration (in seconds) to filter when searching for offerings.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minDuration</Declaration>
+			
+			
+			<Anchor>//api/name/minDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setMaxDuration:</TokenIdentifier>
+			<Abstract type="html">Maximum duration (in seconds) to filter when searching for offerings.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxDuration</Declaration>
+			
+			
+			<Anchor>//api/name/maxDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/maxDuration</TokenIdentifier>
+			<Abstract type="html">Maximum duration (in seconds) to filter when searching for offerings.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxDuration</Declaration>
+			
+			
+			<Anchor>//api/name/maxDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/setMaxInstanceCount:</TokenIdentifier>
+			<Abstract type="html">The value of the MaxInstanceCount property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxInstanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxInstanceCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesOfferingsRequest/maxInstanceCount</TokenIdentifier>
+			<Abstract type="html">The value of the MaxInstanceCount property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxInstanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxInstanceCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/addReservedInstancesOfferingId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to reservedInstancesOfferingIds.
+This function will alloc and init reservedInstancesOfferingIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addReservedInstancesOfferingId:(NSString *)reservedInstancesOfferingIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addReservedInstancesOfferingId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesOfferingsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesOfferingsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

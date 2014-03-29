@@ -1,0 +1,1260 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonSecurityTokenServiceClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonSecurityTokenServiceClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/assumeRole:">&nbsp;&nbsp;&nbsp;&nbsp;- assumeRole:</option>
+	
+	<option value="//api/name/assumeRoleWithWebIdentity:">&nbsp;&nbsp;&nbsp;&nbsp;- assumeRoleWithWebIdentity:</option>
+	
+	<option value="//api/name/decodeAuthorizationMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeAuthorizationMessage:</option>
+	
+	<option value="//api/name/getFederationToken:">&nbsp;&nbsp;&nbsp;&nbsp;- getFederationToken:</option>
+	
+	<option value="//api/name/getSessionToken:">&nbsp;&nbsp;&nbsp;&nbsp;- getSessionToken:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/assumeRole:">assumeRole:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/assumeRoleWithWebIdentity:">assumeRoleWithWebIdentity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeAuthorizationMessage:">decodeAuthorizationMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFederationToken:">getFederationToken:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSessionToken:">getSessionToken:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonSecurityTokenServiceClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonSecurityTokenServiceClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonSecurityTokenServiceClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonSecurityTokenService.</p>
+
+<p>AWS Security Token Service <p>
+The AWS Security Token Service is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you
+authenticate (federated users). This guide provides descriptions of the AWS Security Token Service API.
+</p></p>
+
+<p>
+For more detailed information about using this service, go to <a href="http://docs.aws.amazon.com/IAM/latest/UsingSTS/Welcome.html"> Using Temporary Security Credentials </a> .
+</p>
+
+
+<p>
+For information about setting up signatures and authorization through the API, go to <a href="http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html"> Signing AWS API Requests
+</a> in the <i>AWS General Reference</i> . For general information about the Query API, go to <a href="http://docs.aws.amazon.com/IAM/latest/UserGuide/IAM_UsingQueryAPI.html"> Making Query Requests
+</a> in <i>Using IAM</i> . For information about using security tokens with other AWS products, go to <a href="http://docs.aws.amazon.com/IAM/latest/UsingSTS/UsingTokens.html"> Using Temporary
+Security Credentials to Access AWS </a> in <i>Using Temporary Security Credentials</i> .
+
+</p>
+
+
+<p>
+If you're new to AWS and need additional technical information about a specific AWS product, you can find the product's technical documentation at <a href="http://aws.amazon.com/documentation/">
+http://aws.amazon.com/documentation/ </a> .
+</p>
+
+
+<p>
+We will refer to Amazon Identity and Access Management using the abbreviated form IAM. All copyrights and legal protections still apply.
+</p>
+
+
+<p></summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSessionToken:">&ndash;&nbsp;getSessionToken:</a></code>
+		<span class="tooltip"><p>
+Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a
+secret access key, and a security token. Typically, you use GetSessionToken if you want use MFA to protect programmatic
+calls to specific AWS APIs like Amazon EC2 StopInstances . MFA-enabled IAM users would need to call GetSessionToken and
+submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned
+from the call, IAM users can then make programmatic calls to APIs that require MFA authentication.
+</p>
+
+
+<p>
+The GetSessionToken action must be called by using the long-term AWS security credentials of the AWS account or an IAM
+user. Credentials that are created by IAM users are valid for the duration that you specify, between 900 seconds (15
+minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum
+duration of 3600 seconds (1 hour).
+</p>
+
+
+<p>
+The permissions that are granted to the federated user are the intersection of the policy that is passed with the
+GetSessionToken request and policies that are associated with of the entity making the GetSessionToken call.
+</p>
+
+
+<p><p>
+For more information about using GetSessionToken to create temporary credentials, go to <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/CreatingSessionTokens.html"> Creating Temporary Credentials to
+Enable Access for IAM Users </a> in <i>Using IAM</i> .</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeAuthorizationMessage:">&ndash;&nbsp;decodeAuthorizationMessage:</a></code>
+		<span class="tooltip"><p>
+Decodes additional information about the authorization status of a request from an encoded message returned in response
+to an AWS request.
+</p>
+
+
+<p>
+For example, if a user is not authorized to perform an action that he or she has requested, the request returns a
+Client.UnauthorizedOperation response (an HTTP 403 response). Some AWS actions additionally return an encoded message
+that can provide details about this authorization failure.
+</p>
+
+
+<p>
+<b>NOTE:</b> Only certain AWS actions return an encoded authorization message. The documentation for an individual
+action indicates whether that action returns an encoded message in addition to returning an HTTP code.
+</p>
+
+
+<p>
+The message is encoded because the details of the authorization status can constitute privileged information that the
+user who requested the action should not see. To decode an authorization status message, a user must be granted
+permissions via an IAM policy to request the DecodeAuthorizationMessage (
+sts:DecodeAuthorizationMessage ) action.
+</p>
+
+
+<p>
+The decoded message includes the following type of information:
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/assumeRoleWithWebIdentity:">&ndash;&nbsp;assumeRoleWithWebIdentity:</a></code>
+		<span class="tooltip"><p><p>
+Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application
+with a web identity provider, such as Login with Amazon, Facebook, or Google. AssumeRoleWithWebIdentity is an API call
+that does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on
+mobile devices) that requests temporary security credentials without including long-term AWS credentials in the
+application or by deploying server-based proxy services that use long-term AWS credentials. For more information, see <a
+href="http://docs.aws.amazon.com/STS/latest/UsingSTS/STSUseCases.html#MobileApplication-KnownProvider"> Creating a
+Mobile Application with Third-Party Sign-In </a> in <i>AWS Security Token Service</i> .</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getFederationToken:">&ndash;&nbsp;getFederationToken:</a></code>
+		<span class="tooltip"><p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) for a federated user. A typical use is in a proxy application that is getting temporary security credentials on
+behalf of distributed applications inside a corporate network. Because you must call the GetFederationToken action using
+the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be
+safely stored, usually in a server-based application.
+</p>
+
+
+<p><p>
+<b>Note:</b> Do not use this call in mobile applications or client-based web applications that directly get temporary
+security credentials. For those types of applications, use AssumeRoleWithWebIdentity .</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/assumeRole:">&ndash;&nbsp;assumeRole:</a></code>
+		<span class="tooltip"><p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) that you can use to access AWS resources that you might not normally have access to. Typically, you use
+AssumeRole for cross-account access or federation.
+</p>
+
+
+<p><p>
+For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You
+could create long-term credentials in each account to access those resources. However, managing all those credentials
+and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term
+credentials in one account and then use temporary security credentials to access all the other accounts by assuming
+roles in those accounts. For more information about roles, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/WorkingWithRoles.html"> Roles </a> in <i>Using IAM</i> .</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/assumeRole:" title="assumeRole:"></a>
+	<h3 class="subsubtitle method-title">assumeRole:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) that you can use to access AWS resources that you might not normally have access to. Typically, you use
+AssumeRole for cross-account access or federation.
+</p>
+
+
+<p><p>
+For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You
+could create long-term credentials in each account to access those resources. However, managing all those credentials
+and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term
+credentials in one account and then use temporary security credentials to access all the other accounts by assuming
+roles in those accounts. For more information about roles, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/WorkingWithRoles.html"> Roles </a> in <i>Using IAM</i> .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SecurityTokenServiceAssumeRoleResponse *)assumeRole:(SecurityTokenServiceAssumeRoleRequest *)<em>assumeRoleRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>assumeRoleRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the AssumeRole service method on
+AmazonSecurityTokenService.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the AssumeRole service method, as returned by AmazonSecurityTokenService.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) that you can use to access AWS resources that you might not normally have access to. Typically, you use
+AssumeRole for cross-account access or federation.
+</p>
+
+
+<p>
+For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You
+could create long-term credentials in each account to access those resources. However, managing all those credentials
+and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term
+credentials in one account and then use temporary security credentials to access all the other accounts by assuming
+roles in those accounts. For more information about roles, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/WorkingWithRoles.html"> Roles </a> in <i>Using IAM</i> .
+
+</p>
+
+
+<p>
+For federation, you can, for example, grant single sign-on access to the AWS Management Console. If you already have an
+identity and authentication system in your corporate network, you don't have to recreate user identities in AWS in order
+to grant those user identities access to AWS. Instead, after a user has been authenticated, you call AssumeRole (and
+specify the role with the appropriate permissions) to get temporary security credentials for that user. With those
+temporary security credentials, you construct a sign-in URL that users can use to access the console. For more
+information, see <a href="http://docs.aws.amazon.com/STS/latest/UsingSTS/STSUseCases.html"> Scenarios for Granting
+Temporary Access </a> in <i>AWS Security Token Service</i> .
+
+</p>
+
+
+<p>
+The temporary security credentials are valid for the duration that you specified when calling AssumeRole , which can be
+from 900 seconds (15 minutes) to 3600 seconds (1 hour). The default is 1 hour.
+</p>
+
+
+<p>
+The temporary security credentials that are returned from the AssumeRoleWithWebIdentity response have the permissions
+that are associated with the access policy of the role being assumed and any policies that are associated with the AWS
+resource being accessed. You can further restrict the permissions of the temporary security credentials by passing a
+policy in the request. The resulting permissions are an intersection of the role's access policy and the policy that you
+passed. These policies and any applicable resource-based policies are evaluated when calls to AWS service APIs are made
+using the temporary security credentials.
+</p>
+
+
+<p>
+To assume a role, your AWS account must be trusted by the role. The trust relationship is defined in the role's trust
+policy when the IAM role is created. You must also have a policy that allows you to call sts:AssumeRole .
+
+</p>
+
+
+<p>
+<b>Important:</b> You cannot call Assumerole by using AWS account credentials; access will be denied. You must use IAM
+user credentials or temporary security credentials to call AssumeRole .
+
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServicePackedPolicyTooLargeException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServicePackedPolicyTooLargeException.html">SecurityTokenServicePackedPolicyTooLargeException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceMalformedPolicyDocumentException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceMalformedPolicyDocumentException.html">SecurityTokenServiceMalformedPolicyDocumentException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSecurityTokenService indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceAssumeRoleRequest.html">SecurityTokenServiceAssumeRoleRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceAssumeRoleResponse.html">SecurityTokenServiceAssumeRoleResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSecurityTokenServiceClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/assumeRoleWithWebIdentity:" title="assumeRoleWithWebIdentity:"></a>
+	<h3 class="subsubtitle method-title">assumeRoleWithWebIdentity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><p>
+Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application
+with a web identity provider, such as Login with Amazon, Facebook, or Google. AssumeRoleWithWebIdentity is an API call
+that does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on
+mobile devices) that requests temporary security credentials without including long-term AWS credentials in the
+application or by deploying server-based proxy services that use long-term AWS credentials. For more information, see <a
+href="http://docs.aws.amazon.com/STS/latest/UsingSTS/STSUseCases.html#MobileApplication-KnownProvider"> Creating a
+Mobile Application with Third-Party Sign-In </a> in <i>AWS Security Token Service</i> .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SecurityTokenServiceAssumeRoleWithWebIdentityResponse *)assumeRoleWithWebIdentity:(SecurityTokenServiceAssumeRoleWithWebIdentityRequest *)<em>assumeRoleWithWebIdentityRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>assumeRoleWithWebIdentityRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the AssumeRoleWithWebIdentity
+service method on AmazonSecurityTokenService.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the AssumeRoleWithWebIdentity service method, as returned by AmazonSecurityTokenService.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application
+with a web identity provider, such as Login with Amazon, Facebook, or Google. AssumeRoleWithWebIdentity is an API call
+that does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on
+mobile devices) that requests temporary security credentials without including long-term AWS credentials in the
+application or by deploying server-based proxy services that use long-term AWS credentials. For more information, see <a
+href="http://docs.aws.amazon.com/STS/latest/UsingSTS/STSUseCases.html#MobileApplication-KnownProvider"> Creating a
+Mobile Application with Third-Party Sign-In </a> in <i>AWS Security Token Service</i> .
+
+</p>
+
+
+<p>
+The temporary security credentials consist of an access key ID, a secret access key, and a security token. Applications
+can use these temporary security credentials to sign calls to AWS service APIs. The credentials are valid for the
+duration that you specified when calling AssumeRoleWithWebIdentity , which can be from 900 seconds (15 minutes) to 3600
+seconds (1 hour). By default, the temporary security credentials are valid for 1 hour.
+</p>
+
+
+<p>
+The temporary security credentials that are returned from the AssumeRoleWithWebIdentity response have the permissions
+that are associated with the access policy of the role being assumed. You can further restrict the permissions of the
+temporary security credentials by passing a policy in the request. The resulting permissions are an intersection of the
+role's access policy and the policy that you passed. These policies and any applicable resource-based policies are
+evaluated when calls to AWS service APIs are made using the temporary security credentials.
+</p>
+
+
+<p>
+Before your application can call AssumeRoleWithWebIdentity , you must have an identity token from a supported identity
+provider and create a role that the application can assume. The role that your application assumes must trust the
+identity provider that is associated with the identity token. In other words, the identity provider must be specified in
+the role's trust policy. For more information, see <a
+href="http://docs.aws.amazon.com/STS/latest/UsingSTS/CreatingWIF.html"> Creating Temporary Security Credentials for
+Mobile Apps Using Third-Party Identity Providers </a> .
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+
+<p>
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServicePackedPolicyTooLargeException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServicePackedPolicyTooLargeException.html">SecurityTokenServicePackedPolicyTooLargeException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceIDPRejectedClaimException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceIDPRejectedClaimException.html">SecurityTokenServiceIDPRejectedClaimException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceMalformedPolicyDocumentException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceMalformedPolicyDocumentException.html">SecurityTokenServiceMalformedPolicyDocumentException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceInvalidIdentityTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceInvalidIdentityTokenException.html">SecurityTokenServiceInvalidIdentityTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceExpiredTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceExpiredTokenException.html">SecurityTokenServiceExpiredTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceIDPCommunicationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceIDPCommunicationErrorException.html">SecurityTokenServiceIDPCommunicationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSecurityTokenService indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceAssumeRoleWithWebIdentityRequest.html">SecurityTokenServiceAssumeRoleWithWebIdentityRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceAssumeRoleWithWebIdentityResponse.html">SecurityTokenServiceAssumeRoleWithWebIdentityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSecurityTokenServiceClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeAuthorizationMessage:" title="decodeAuthorizationMessage:"></a>
+	<h3 class="subsubtitle method-title">decodeAuthorizationMessage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Decodes additional information about the authorization status of a request from an encoded message returned in response
+to an AWS request.
+</p>
+
+
+<p>
+For example, if a user is not authorized to perform an action that he or she has requested, the request returns a
+Client.UnauthorizedOperation response (an HTTP 403 response). Some AWS actions additionally return an encoded message
+that can provide details about this authorization failure.
+</p>
+
+
+<p>
+<b>NOTE:</b> Only certain AWS actions return an encoded authorization message. The documentation for an individual
+action indicates whether that action returns an encoded message in addition to returning an HTTP code.
+</p>
+
+
+<p>
+The message is encoded because the details of the authorization status can constitute privileged information that the
+user who requested the action should not see. To decode an authorization status message, a user must be granted
+permissions via an IAM policy to request the DecodeAuthorizationMessage (
+sts:DecodeAuthorizationMessage ) action.
+</p>
+
+
+<p>
+The decoded message includes the following type of information:
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SecurityTokenServiceDecodeAuthorizationMessageResponse *)decodeAuthorizationMessage:(SecurityTokenServiceDecodeAuthorizationMessageRequest *)<em>decodeAuthorizationMessageRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>decodeAuthorizationMessageRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DecodeAuthorizationMessage service method on AmazonSecurityTokenService.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DecodeAuthorizationMessage service method, as returned by AmazonSecurityTokenService.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Decodes additional information about the authorization status of a request from an encoded message returned in response
+to an AWS request.
+</p>
+
+
+<p>
+For example, if a user is not authorized to perform an action that he or she has requested, the request returns a
+Client.UnauthorizedOperation response (an HTTP 403 response). Some AWS actions additionally return an encoded message
+that can provide details about this authorization failure.
+</p>
+
+
+<p>
+<b>NOTE:</b> Only certain AWS actions return an encoded authorization message. The documentation for an individual
+action indicates whether that action returns an encoded message in addition to returning an HTTP code.
+</p>
+
+
+<p>
+The message is encoded because the details of the authorization status can constitute privileged information that the
+user who requested the action should not see. To decode an authorization status message, a user must be granted
+permissions via an IAM policy to request the DecodeAuthorizationMessage (
+sts:DecodeAuthorizationMessage ) action.
+</p>
+
+
+<p>
+The decoded message includes the following type of information:
+</p>
+
+
+
+
+<ul>
+<li>Whether the request was denied due to an explicit deny or due to the absence of an explicit allow. For more
+information, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html#policy-eval-denyallow">
+Determining Whether a Request is Allowed or Denied </a> in <i>Using IAM</i> .
+</li>
+<li>The principal who made the request.</li>
+<li>The requested action.</li>
+<li>The requested resource.</li>
+<li>The values of condition keys in the context of the user's request.</li>
+
+</ul>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceInvalidAuthorizationMessageException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceInvalidAuthorizationMessageException.html">SecurityTokenServiceInvalidAuthorizationMessageException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSecurityTokenService indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceDecodeAuthorizationMessageRequest.html">SecurityTokenServiceDecodeAuthorizationMessageRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceDecodeAuthorizationMessageResponse.html">SecurityTokenServiceDecodeAuthorizationMessageResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSecurityTokenServiceClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getFederationToken:" title="getFederationToken:"></a>
+	<h3 class="subsubtitle method-title">getFederationToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) for a federated user. A typical use is in a proxy application that is getting temporary security credentials on
+behalf of distributed applications inside a corporate network. Because you must call the GetFederationToken action using
+the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be
+safely stored, usually in a server-based application.
+</p>
+
+
+<p><p>
+<b>Note:</b> Do not use this call in mobile applications or client-based web applications that directly get temporary
+security credentials. For those types of applications, use AssumeRoleWithWebIdentity .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SecurityTokenServiceGetFederationTokenResponse *)getFederationToken:(SecurityTokenServiceGetFederationTokenRequest *)<em>getFederationTokenRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getFederationTokenRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetFederationToken service method
+on AmazonSecurityTokenService.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetFederationToken service method, as returned by AmazonSecurityTokenService.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) for a federated user. A typical use is in a proxy application that is getting temporary security credentials on
+behalf of distributed applications inside a corporate network. Because you must call the GetFederationToken action using
+the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be
+safely stored, usually in a server-based application.
+</p>
+
+
+<p>
+<b>Note:</b> Do not use this call in mobile applications or client-based web applications that directly get temporary
+security credentials. For those types of applications, use AssumeRoleWithWebIdentity .
+
+</p>
+
+
+<p>
+The GetFederationToken action must be called by using the long-term AWS security credentials of the AWS account or an
+IAM user. Credentials that are created by IAM users are valid for the specified duration, between 900 seconds (15
+minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum
+duration of 3600 seconds (1 hour).
+</p>
+
+
+<p>
+The permissions that are granted to the federated user are the intersection of the policy that is passed with the
+GetFederationToken request and policies that are associated with of the entity making the GetFederationToken call.
+</p>
+
+
+<p>
+For more information about how permissions work, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/TokenPermissions.html"> Controlling Permissions in Temporary
+Credentials </a> in <i>Using Temporary Security Credentials</i> . For information about using GetFederationToken to
+create temporary security credentials, see <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/CreatingFedTokens.html"> Creating Temporary Credentials to Enable
+Access for Federated Users </a> in <i>Using Temporary Security Credentials</i> .
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServicePackedPolicyTooLargeException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServicePackedPolicyTooLargeException.html">SecurityTokenServicePackedPolicyTooLargeException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SecurityTokenServiceMalformedPolicyDocumentException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SecurityTokenServiceMalformedPolicyDocumentException.html">SecurityTokenServiceMalformedPolicyDocumentException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSecurityTokenService indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceGetFederationTokenRequest.html">SecurityTokenServiceGetFederationTokenRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceGetFederationTokenResponse.html">SecurityTokenServiceGetFederationTokenResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSecurityTokenServiceClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSessionToken:" title="getSessionToken:"></a>
+	<h3 class="subsubtitle method-title">getSessionToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a
+secret access key, and a security token. Typically, you use GetSessionToken if you want use MFA to protect programmatic
+calls to specific AWS APIs like Amazon EC2 StopInstances . MFA-enabled IAM users would need to call GetSessionToken and
+submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned
+from the call, IAM users can then make programmatic calls to APIs that require MFA authentication.
+</p>
+
+
+<p>
+The GetSessionToken action must be called by using the long-term AWS security credentials of the AWS account or an IAM
+user. Credentials that are created by IAM users are valid for the duration that you specify, between 900 seconds (15
+minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum
+duration of 3600 seconds (1 hour).
+</p>
+
+
+<p>
+The permissions that are granted to the federated user are the intersection of the policy that is passed with the
+GetSessionToken request and policies that are associated with of the entity making the GetSessionToken call.
+</p>
+
+
+<p><p>
+For more information about using GetSessionToken to create temporary credentials, go to <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/CreatingSessionTokens.html"> Creating Temporary Credentials to
+Enable Access for IAM Users </a> in <i>Using IAM</i> .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SecurityTokenServiceGetSessionTokenResponse *)getSessionToken:(SecurityTokenServiceGetSessionTokenRequest *)<em>getSessionTokenRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getSessionTokenRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetSessionToken service method on
+AmazonSecurityTokenService.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetSessionToken service method, as returned by AmazonSecurityTokenService.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a
+secret access key, and a security token. Typically, you use GetSessionToken if you want use MFA to protect programmatic
+calls to specific AWS APIs like Amazon EC2 StopInstances . MFA-enabled IAM users would need to call GetSessionToken and
+submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned
+from the call, IAM users can then make programmatic calls to APIs that require MFA authentication.
+</p>
+
+
+<p>
+The GetSessionToken action must be called by using the long-term AWS security credentials of the AWS account or an IAM
+user. Credentials that are created by IAM users are valid for the duration that you specify, between 900 seconds (15
+minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum
+duration of 3600 seconds (1 hour).
+</p>
+
+
+<p>
+The permissions that are granted to the federated user are the intersection of the policy that is passed with the
+GetSessionToken request and policies that are associated with of the entity making the GetSessionToken call.
+</p>
+
+
+<p>
+For more information about using GetSessionToken to create temporary credentials, go to <a
+href="http://docs.aws.amazon.com/IAM/latest/UserGuide/CreatingSessionTokens.html"> Creating Temporary Credentials to
+Enable Access for IAM Users </a> in <i>Using IAM</i> .
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSecurityTokenService indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceGetSessionTokenRequest.html">SecurityTokenServiceGetSessionTokenRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SecurityTokenServiceGetSessionTokenResponse.html">SecurityTokenServiceGetSessionTokenResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSecurityTokenServiceClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceStatusEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceStatusEvent</TokenIdentifier>
+			<Abstract type="html">Instance Status Event</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>
+			
+			<NodeRef refid="414"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/setCode:</TokenIdentifier>
+			<Abstract type="html">The associated code of the event. Valid values: instance-reboot,
+system-reboot, instance-retirement
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instance-reboot, system-reboot, system-maintenance, instance-retirement, instance-stop</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatusEvent/code</TokenIdentifier>
+			<Abstract type="html">The associated code of the event. Valid values: instance-reboot,
+system-reboot, instance-retirement
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instance-reboot, system-reboot, system-maintenance, instance-retirement, instance-stop</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">A description of the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatusEvent/descriptionValue</TokenIdentifier>
+			<Abstract type="html">A description of the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/setNotBefore:</TokenIdentifier>
+			<Abstract type="html">The earliest scheduled start time for the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatusEvent/notBefore</TokenIdentifier>
+			<Abstract type="html">The earliest scheduled start time for the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/setNotAfter:</TokenIdentifier>
+			<Abstract type="html">The latest scheduled end time for the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceStatusEvent/notAfter</TokenIdentifier>
+			<Abstract type="html">The latest scheduled end time for the event.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceStatusEvent/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceStatusEvent.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketPolicyRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketPolicyRequest</TokenIdentifier>
+			<Abstract type="html">Sets the policy associated with the specified bucket. Only the owner of
+the bucket can set a bucket policy. If a policy already exists for the
+specified bucket, the new policy replaces the existing policy.</Abstract>
+			<DeclaredIn>S3SetBucketPolicyRequest.h</DeclaredIn>
+			
+			<NodeRef refid="695"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3SetBucketPolicyRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">The bucket policy</Abstract>
+			<DeclaredIn>S3SetBucketPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketPolicy *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3SetBucketPolicyRequest/policy</TokenIdentifier>
+			<Abstract type="html">The bucket policy</Abstract>
+			<DeclaredIn>S3SetBucketPolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketPolicy *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

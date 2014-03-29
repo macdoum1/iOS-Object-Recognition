@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ObjectSummary.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ObjectSummary</TokenIdentifier>
+			<Abstract type="html">Represents an S3 Object Summary.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>
+			
+			<NodeRef refid="677"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setKey:</TokenIdentifier>
+			<Abstract type="html">The key of the Amazon S3 object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/key</TokenIdentifier>
+			<Abstract type="html">The key of the Amazon S3 object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setEtag:</TokenIdentifier>
+			<Abstract type="html">The ETag of the Amazon S3 object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/etag</TokenIdentifier>
+			<Abstract type="html">The ETag of the Amazon S3 object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setSize:</TokenIdentifier>
+			<Abstract type="html">The size of the Amazon S3 object, in bytes.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/size</TokenIdentifier>
+			<Abstract type="html">The size of the Amazon S3 object, in bytes.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setLastModified:</TokenIdentifier>
+			<Abstract type="html">The date this object was last modified.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/lastModified</TokenIdentifier>
+			<Abstract type="html">The date this object was last modified.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The class of storage used by this object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used by this object.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/setOwner:</TokenIdentifier>
+			<Abstract type="html">The owner of this object. Can be nil if the requester
+doesn&apos;t have permission to view ownership.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ObjectSummary/owner</TokenIdentifier>
+			<Abstract type="html">The owner of this object. Can be nil if the requester
+doesn&apos;t have permission to view ownership.</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ObjectSummary/description</TokenIdentifier>
+			<Abstract type="html">The string representation of the S3ObjectSummary</Abstract>
+			<DeclaredIn>S3ObjectSummary.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2StartInstancesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2StartInstancesRequest</TokenIdentifier>
+			<Abstract type="html">Start Instances Request</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="488"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">The list of Amazon EC2 instances to start.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2StartInstancesRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">The list of Amazon EC2 instances to start.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/setAdditionalInfo:</TokenIdentifier>
+			<Abstract type="html">The value of the AdditionalInfo property for this object.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2StartInstancesRequest/additionalInfo</TokenIdentifier>
+			<Abstract type="html">The value of the AdditionalInfo property for this object.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2StartInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new StartInstancesRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/initWithInstanceIds:</TokenIdentifier>
+			<Abstract type="html">Constructs a new StartInstancesRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithInstanceIds:(NSMutableArray *)theInstanceIds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theInstanceIds</Name>
+					<Abstract type="html">The list of Amazon EC2 instances to start.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithInstanceIds:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/addInstanceId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instanceIds.
+This function will alloc and init instanceIds if not already done.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstanceId:(NSString *)instanceIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstanceId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2StartInstancesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2StartInstancesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

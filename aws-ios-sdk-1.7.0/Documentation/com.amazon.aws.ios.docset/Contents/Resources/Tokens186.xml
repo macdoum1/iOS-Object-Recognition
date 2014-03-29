@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBExpectedAttributeValue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBExpectedAttributeValue</TokenIdentifier>
+			<Abstract type="html">Expected Attribute Value</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>
+			
+			<NodeRef refid="186"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/setValue:</TokenIdentifier>
+			<Abstract type="html">Represents the data for an attribute. You can set one, and only one,
+of the elements.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBAttributeValue *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBExpectedAttributeValue/value</TokenIdentifier>
+			<Abstract type="html">Represents the data for an attribute. You can set one, and only one,
+of the elements.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBAttributeValue *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/setExists:</TokenIdentifier>
+			<Abstract type="html">Causes Amazon DynamoDB to evaluate the value before attempting a
+conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you specify more
+than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBExpectedAttributeValue/exists</TokenIdentifier>
+			<Abstract type="html">Causes Amazon DynamoDB to evaluate the value before attempting a
+conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you specify more
+than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ExpectedAttributeValue object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/initWithValue:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithValue:(DynamoDBAttributeValue *)theValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theValue</Name>
+					<Abstract type="html">Represents the data for an attribute. You can set one,
+and only one, of the elements.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/initWithExists:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithExists:(BOOL)theExists</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theExists</Name>
+					<Abstract type="html">Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you specify more
+than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithExists:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBExpectedAttributeValue/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBExpectedAttributeValue.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteBucketTaggingResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketTaggingResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the deleteBucketTaggingResponse operation.</Abstract>
+			<DeclaredIn>S3DeleteBucketTaggingResponse.h</DeclaredIn>
+			
+			<NodeRef refid="627"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonSecurityTokenServiceClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonSecurityTokenServiceClient</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonSecurityTokenService.</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSecurityTokenServiceClient/getSessionToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a set of temporary credentials for an AWS account or IAM user. The credentials consist of an access key ID, a
+secret access key, and a security token. Typically, you use GetSessionToken if you want use MFA to protect programmatic
+calls to specific AWS APIs like Amazon EC2 StopInstances . MFA-enabled IAM users would need to call GetSessionToken and
+submit an MFA code that is associated with their MFA device. Using the temporary security credentials that are returned
+from the call, IAM users can then make programmatic calls to APIs that require MFA authentication.
+&lt;/p&gt;
+&lt;p&gt;
+The GetSessionToken action must be called by using the long-term AWS security credentials of the AWS account or an IAM
+user. Credentials that are created by IAM users are valid for the duration that you specify, between 900 seconds (15
+minutes) and 129600 seconds (36 hours); credentials that are created by using account credentials have a maximum
+duration of 3600 seconds (1 hour).
+&lt;/p&gt;
+&lt;p&gt;
+The permissions that are granted to the federated user are the intersection of the policy that is passed with the
+GetSessionToken request and policies that are associated with of the entity making the GetSessionToken call.
+&lt;/p&gt;
+&lt;p&gt;
+For more information about using GetSessionToken to create temporary credentials, go to  Creating Temporary Credentials to
+Enable Access for IAM Users  in &lt;i&gt;Using IAM&lt;/i&gt; .</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetSessionTokenRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetSessionTokenResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SecurityTokenServiceGetSessionTokenResponse *)getSessionToken:(SecurityTokenServiceGetSessionTokenRequest *)getSessionTokenRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getSessionTokenRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetSessionToken service method on
+AmazonSecurityTokenService.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetSessionToken service method, as returned by AmazonSecurityTokenService.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSessionToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSecurityTokenServiceClient/decodeAuthorizationMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Decodes additional information about the authorization status of a request from an encoded message returned in response
+to an AWS request.
+&lt;/p&gt;
+&lt;p&gt;
+For example, if a user is not authorized to perform an action that he or she has requested, the request returns a
+Client.UnauthorizedOperation response (an HTTP 403 response). Some AWS actions additionally return an encoded message
+that can provide details about this authorization failure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Only certain AWS actions return an encoded authorization message. The documentation for an individual
+action indicates whether that action returns an encoded message in addition to returning an HTTP code.
+&lt;/p&gt;
+&lt;p&gt;
+The message is encoded because the details of the authorization status can constitute privileged information that the
+user who requested the action should not see. To decode an authorization status message, a user must be granted
+permissions via an IAM policy to request the DecodeAuthorizationMessage (
+sts:DecodeAuthorizationMessage ) action.
+&lt;/p&gt;
+&lt;p&gt;
+The decoded message includes the following type of information:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceDecodeAuthorizationMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceDecodeAuthorizationMessageResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SecurityTokenServiceDecodeAuthorizationMessageResponse *)decodeAuthorizationMessage:(SecurityTokenServiceDecodeAuthorizationMessageRequest *)decodeAuthorizationMessageRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>decodeAuthorizationMessageRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+DecodeAuthorizationMessage service method on AmazonSecurityTokenService.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DecodeAuthorizationMessage service method, as returned by AmazonSecurityTokenService.</Abstract></ReturnValue>
+			<Anchor>//api/name/decodeAuthorizationMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSecurityTokenServiceClient/assumeRoleWithWebIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a set of temporary security credentials for users who have been authenticated in a mobile or web application
+with a web identity provider, such as Login with Amazon, Facebook, or Google. AssumeRoleWithWebIdentity is an API call
+that does not require the use of AWS security credentials. Therefore, you can distribute an application (for example, on
+mobile devices) that requests temporary security credentials without including long-term AWS credentials in the
+application or by deploying server-based proxy services that use long-term AWS credentials. For more information, see  Creating a
+Mobile Application with Third-Party Sign-In  in &lt;i&gt;AWS Security Token Service&lt;/i&gt; .</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleWithWebIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleWithWebIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SecurityTokenServiceAssumeRoleWithWebIdentityResponse *)assumeRoleWithWebIdentity:(SecurityTokenServiceAssumeRoleWithWebIdentityRequest *)assumeRoleWithWebIdentityRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>assumeRoleWithWebIdentityRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AssumeRoleWithWebIdentity
+service method on AmazonSecurityTokenService.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AssumeRoleWithWebIdentity service method, as returned by AmazonSecurityTokenService.</Abstract></ReturnValue>
+			<Anchor>//api/name/assumeRoleWithWebIdentity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSecurityTokenServiceClient/getFederationToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) for a federated user. A typical use is in a proxy application that is getting temporary security credentials on
+behalf of distributed applications inside a corporate network. Because you must call the GetFederationToken action using
+the long-term security credentials of an IAM user, this call is appropriate in contexts where those credentials can be
+safely stored, usually in a server-based application.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Note:&lt;/b&gt; Do not use this call in mobile applications or client-based web applications that directly get temporary
+security credentials. For those types of applications, use AssumeRoleWithWebIdentity .</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetFederationTokenRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetFederationTokenResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SecurityTokenServiceGetFederationTokenResponse *)getFederationToken:(SecurityTokenServiceGetFederationTokenRequest *)getFederationTokenRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getFederationTokenRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetFederationToken service method
+on AmazonSecurityTokenService.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetFederationToken service method, as returned by AmazonSecurityTokenService.</Abstract></ReturnValue>
+			<Anchor>//api/name/getFederationToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSecurityTokenServiceClient/assumeRole:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security
+token) that you can use to access AWS resources that you might not normally have access to. Typically, you use
+AssumeRole for cross-account access or federation.
+&lt;/p&gt;
+&lt;p&gt;
+For cross-account access, imagine that you own multiple accounts and need to access resources in each account. You
+could create long-term credentials in each account to access those resources. However, managing all those credentials
+and remembering which one can access which account can be time consuming. Instead, you can create one set of long-term
+credentials in one account and then use temporary security credentials to access all the other accounts by assuming
+roles in those accounts. For more information about roles, see  Roles  in &lt;i&gt;Using IAM&lt;/i&gt; .</Abstract>
+			<DeclaredIn>AmazonSecurityTokenServiceClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SecurityTokenServiceAssumeRoleResponse *)assumeRole:(SecurityTokenServiceAssumeRoleRequest *)assumeRoleRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>assumeRoleRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AssumeRole service method on
+AmazonSecurityTokenService.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the AssumeRole service method, as returned by AmazonSecurityTokenService.</Abstract></ReturnValue>
+			<Anchor>//api/name/assumeRole:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

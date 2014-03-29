@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetObjectMetadataResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectMetadataResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a getObjectMetadata operation</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>
+			
+			<NodeRef refid="651"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectMetadataResponse/setMissingMeta:</TokenIdentifier>
+			<Abstract type="html">How many metadata items were not returned in the response.</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int missingMeta</Declaration>
+			
+			
+			<Anchor>//api/name/missingMeta</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectMetadataResponse/missingMeta</TokenIdentifier>
+			<Abstract type="html">How many metadata items were not returned in the response.</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int missingMeta</Declaration>
+			
+			
+			<Anchor>//api/name/missingMeta</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectMetadataResponse/setOngoingRestore:</TokenIdentifier>
+			<Abstract type="html">Whether or not this object is currently being restored</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) BOOL ongoingRestore</Declaration>
+			
+			
+			<Anchor>//api/name/ongoingRestore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectMetadataResponse/ongoingRestore</TokenIdentifier>
+			<Abstract type="html">Whether or not this object is currently being restored</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) BOOL ongoingRestore</Declaration>
+			
+			
+			<Anchor>//api/name/ongoingRestore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectMetadataResponse/setRestoreExpiry:</TokenIdentifier>
+			<Abstract type="html">If defined, the expiration date for the restored copy of the object</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSDate *restoreExpiry</Declaration>
+			
+			
+			<Anchor>//api/name/restoreExpiry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectMetadataResponse/restoreExpiry</TokenIdentifier>
+			<Abstract type="html">If defined, the expiration date for the restored copy of the object</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSDate *restoreExpiry</Declaration>
+			
+			
+			<Anchor>//api/name/restoreExpiry</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectMetadataResponse/setValue:forHTTPHeaderField:</TokenIdentifier>
+			<Abstract type="html">Sets a value in the response for the given HTTP header.</Abstract>
+			<DeclaredIn>S3GetObjectMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setValue:(id)value forHTTPHeaderField:(NSString *)header</Declaration>
+			
+			
+			<Anchor>//api/name/setValue:forHTTPHeaderField:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

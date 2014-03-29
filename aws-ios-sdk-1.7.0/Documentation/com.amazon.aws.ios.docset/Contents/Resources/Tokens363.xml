@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DisassociateAddressResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DisassociateAddressResponse</TokenIdentifier>
+			<Abstract type="html">Disassociate Address</Abstract>
+			<DeclaredIn>EC2DisassociateAddressResponse.h</DeclaredIn>
+			
+			<NodeRef refid="363"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

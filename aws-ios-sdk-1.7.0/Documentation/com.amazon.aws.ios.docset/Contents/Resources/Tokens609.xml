@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CompleteMultipartUploadResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadResult</TokenIdentifier>
+			<Abstract type="html">The S3CompleteMultipartUploadResult contains all the information about the completeMultipartUploadResult method.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>
+			
+			<NodeRef refid="609"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadResult/setLocation:</TokenIdentifier>
+			<Abstract type="html">The URI that identifies the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CompleteMultipartUploadResult/location</TokenIdentifier>
+			<Abstract type="html">The URI that identifies the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadResult/setBucket:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket that contains the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CompleteMultipartUploadResult/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket that contains the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadResult/setKey:</TokenIdentifier>
+			<Abstract type="html">The object key of the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CompleteMultipartUploadResult/key</TokenIdentifier>
+			<Abstract type="html">The object key of the newly created object.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadResult/setEtag:</TokenIdentifier>
+			<Abstract type="html">Entity tag that identifies the newly created object&apos;s data.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CompleteMultipartUploadResult/etag</TokenIdentifier>
+			<Abstract type="html">Entity tag that identifies the newly created object&apos;s data.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

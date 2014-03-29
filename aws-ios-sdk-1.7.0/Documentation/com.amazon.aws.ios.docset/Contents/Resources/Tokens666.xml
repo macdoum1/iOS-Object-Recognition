@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListObjectsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsRequest</TokenIdentifier>
+			<Abstract type="html">Request Object for Listing the Objects in the specified bucket.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="666"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsRequest/setPrefix:</TokenIdentifier>
+			<Abstract type="html">Limits the response to keys that begin with the specified prefix.
+You can use prefixes to separate a bucket into different groupings of keys.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsRequest/prefix</TokenIdentifier>
+			<Abstract type="html">Limits the response to keys that begin with the specified prefix.
+You can use prefixes to separate a bucket into different groupings of keys.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsRequest/setMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies the key to start with when listing objects in a bucket. Amazon
+S3 lists objects in alphabetical order.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsRequest/marker</TokenIdentifier>
+			<Abstract type="html">Specifies the key to start with when listing objects in a bucket. Amazon
+S3 lists objects in alphabetical order.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsRequest/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">  A delimiter is a character you use to group keys. All keys that contain
+the same string between the prefix and the first occurrence of the
+delimiter are grouped under a single result element.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsRequest/delimiter</TokenIdentifier>
+			<Abstract type="html">  A delimiter is a character you use to group keys. All keys that contain
+the same string between the prefix and the first occurrence of the
+delimiter are grouped under a single result element.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsRequest/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of keys returned in the response body. The
+response might contain fewer keys but will never contain more.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsRequest/maxKeys</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of keys returned in the response body. The
+response might contain fewer keys but will never contain more.</Abstract>
+			<DeclaredIn>S3ListObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

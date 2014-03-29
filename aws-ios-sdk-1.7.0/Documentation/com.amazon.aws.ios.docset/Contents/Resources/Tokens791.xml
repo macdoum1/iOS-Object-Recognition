@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSListSubscriptionsByTopicResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsByTopicResponse</TokenIdentifier>
+			<Abstract type="html">List Subscriptions By Topic Result</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>
+			
+			<NodeRef refid="791"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html">A list of subscriptions.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
+			<Abstract type="html">A list of subscriptions.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt;
+request. This element is returned if there are more subscriptions to
+retrieve.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt;
+request. This element is returned if there are more subscriptions to
+retrieve.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/subscriptionsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the subscriptions array for the specified index</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SNSSubscription *)subscriptionsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

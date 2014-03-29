@@ -1,0 +1,720 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DynamoDBExpectedAttributeValue Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">DynamoDBExpectedAttributeValue Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/exists">&nbsp;&nbsp;&nbsp;&nbsp;exists</option>
+	
+	<option value="//api/name/value">&nbsp;&nbsp;&nbsp;&nbsp;value</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithExists:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithExists:</option>
+	
+	<option value="//api/name/initWithValue:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithValue:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exists">exists</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/value">value</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithExists:">initWithExists:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithValue:">initWithValue:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="DynamoDBExpectedAttributeValue Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">DynamoDBExpectedAttributeValue Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">DynamoDBExpectedAttributeValue.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Expected Attribute Value</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/value">&nbsp;&nbsp;value</a></code>
+		<span class="tooltip"><p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exists">&nbsp;&nbsp;exists</a></code>
+		<span class="tooltip"><p>Causes Amazon DynamoDB to evaluate the value before attempting a
+conditional operation: <ul> <li> <p>If <i>Exists</i> is
+<code>true</code>, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+<i>ConditionalCheckFailedException</i>. </li> <li> <p>If <i>Exists</i>
+is <code>false</code>, Amazon DynamoDB assumes that the attribute
+value does <i>not</i> exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a <i>ConditionalCheckFailedException</i>. </li>
+</ul> <p>The default setting for <i>Exists</i> is <code>true</code>.
+If you supply a <i>Value</i> all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&rsquo;t have to set <i>Exists</i> to
+<code>true</code>, because it is implied. <p>Amazon DynamoDB returns a
+<i>ValidationException</i> if: <ul> <li> <p><i>Exists</i> is
+<code>true</code> but there is no <i>Value</i> to check. (You expect a
+value to exist, but don&rsquo;t specify what that value is.) </li> <li></p>
+
+<p><p><i>Exists</i> is <code>false</code> but you also specify a
+<i>Value</i>. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) </li> </ul> <p>If you specify more
+than one condition for <i>Exists</i>, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new ExpectedAttributeValue object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithValue:">&ndash;&nbsp;initWithValue:</a></code>
+		<span class="tooltip"><p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithExists:">&ndash;&nbsp;initWithExists:</a></code>
+		<span class="tooltip"><p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/exists" title="exists"></a>
+	<h3 class="subsubtitle method-title">exists</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Causes Amazon DynamoDB to evaluate the value before attempting a
+conditional operation: <ul> <li> <p>If <i>Exists</i> is
+<code>true</code>, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+<i>ConditionalCheckFailedException</i>. </li> <li> <p>If <i>Exists</i>
+is <code>false</code>, Amazon DynamoDB assumes that the attribute
+value does <i>not</i> exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a <i>ConditionalCheckFailedException</i>. </li>
+</ul> <p>The default setting for <i>Exists</i> is <code>true</code>.
+If you supply a <i>Value</i> all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&rsquo;t have to set <i>Exists</i> to
+<code>true</code>, because it is implied. <p>Amazon DynamoDB returns a
+<i>ValidationException</i> if: <ul> <li> <p><i>Exists</i> is
+<code>true</code> but there is no <i>Value</i> to check. (You expect a
+value to exist, but don&rsquo;t specify what that value is.) </li> <li></p>
+
+<p><p><i>Exists</i> is <code>false</code> but you also specify a
+<i>Value</i>. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) </li> </ul> <p>If you specify more
+than one condition for <i>Exists</i>, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL exists</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Causes Amazon DynamoDB to evaluate the value before attempting a
+conditional operation: <ul> <li> <p>If <i>Exists</i> is
+<code>true</code>, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+<i>ConditionalCheckFailedException</i>. </li> <li> <p>If <i>Exists</i>
+is <code>false</code>, Amazon DynamoDB assumes that the attribute
+value does <i>not</i> exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a <i>ConditionalCheckFailedException</i>. </li>
+</ul> <p>The default setting for <i>Exists</i> is <code>true</code>.
+If you supply a <i>Value</i> all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&rsquo;t have to set <i>Exists</i> to
+<code>true</code>, because it is implied. <p>Amazon DynamoDB returns a
+<i>ValidationException</i> if: <ul> <li> <p><i>Exists</i> is
+<code>true</code> but there is no <i>Value</i> to check. (You expect a
+value to exist, but don&rsquo;t specify what that value is.) </li> <li></p>
+
+<p><p><i>Exists</i> is <code>false</code> but you also specify a
+<i>Value</i>. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) </li> </ul> <p>If you specify more
+than one condition for <i>Exists</i>, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="subsubtitle method-title">value</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) DynamoDBAttributeValue *value</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Represents the data for an attribute. You can set one, and only one,
+of the elements.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new ExpectedAttributeValue object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new ExpectedAttributeValue object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithExists:" title="initWithExists:"></a>
+	<h3 class="subsubtitle method-title">initWithExists:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithExists:(BOOL)<em>theExists</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theExists</em></dt>
+			<dd><p>Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: <ul> <li> <p>If <i>Exists</i> is
+<code>true</code>, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+<i>ConditionalCheckFailedException</i>. </li> <li> <p>If <i>Exists</i>
+is <code>false</code>, Amazon DynamoDB assumes that the attribute
+value does <i>not</i> exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a <i>ConditionalCheckFailedException</i>. </li>
+</ul> <p>The default setting for <i>Exists</i> is <code>true</code>.
+If you supply a <i>Value</i> all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&rsquo;t have to set <i>Exists</i> to
+<code>true</code>, because it is implied. <p>Amazon DynamoDB returns a
+<i>ValidationException</i> if: <ul> <li> <p><i>Exists</i> is
+<code>true</code> but there is no <i>Value</i> to check. (You expect a
+value to exist, but don&rsquo;t specify what that value is.) </li> <li></p>
+
+<p><p><i>Exists</i> is <code>false</code> but you also specify a
+<i>Value</i>. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) </li> </ul> <p>If you specify more
+than one condition for <i>Exists</i>, then all of the conditions must
+evaluate to true. (In other words, the conditions are ANDed together.)
+Otherwise, the conditional operation will fail.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithValue:" title="initWithValue:"></a>
+	<h3 class="subsubtitle method-title">initWithValue:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithValue:(DynamoDBAttributeValue *)<em>theValue</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theValue</em></dt>
+			<dd><p>Represents the data for an attribute. You can set one,
+and only one, of the elements.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new ExpectedAttributeValue object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">DynamoDBExpectedAttributeValue.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

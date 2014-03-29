@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeConversionTasksRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeConversionTasksRequest</TokenIdentifier>
+			<Abstract type="html">Describe Conversion Tasks Request</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>
+			
+			<NodeRef refid="306"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeConversionTasksRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">The value of the Filters property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeConversionTasksRequest/filters</TokenIdentifier>
+			<Abstract type="html">The value of the Filters property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/setConversionTaskIds:</TokenIdentifier>
+			<Abstract type="html">The value of the ConversionTaskIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *conversionTaskIds</Declaration>
+			
+			
+			<Anchor>//api/name/conversionTaskIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeConversionTasksRequest/conversionTaskIds</TokenIdentifier>
+			<Abstract type="html">The value of the ConversionTaskIds property for this object.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *conversionTaskIds</Declaration>
+			
+			
+			<Anchor>//api/name/conversionTaskIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/addConversionTaskId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to conversionTaskIds.
+This function will alloc and init conversionTaskIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addConversionTaskId:(NSString *)conversionTaskIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addConversionTaskId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeConversionTasksRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeConversionTasksRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

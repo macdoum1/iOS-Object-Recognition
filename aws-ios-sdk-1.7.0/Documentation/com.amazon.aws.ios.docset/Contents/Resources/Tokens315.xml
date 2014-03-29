@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeInstanceAttributeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeInstanceAttributeResponse</TokenIdentifier>
+			<Abstract type="html">Describe Instance Attribute Response</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="315"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceAttributeResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceAttributeResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceAttributeResponse/setInstanceAttribute:</TokenIdentifier>
+			<Abstract type="html">The described instance attribute.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceAttribute *instanceAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/instanceAttribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeInstanceAttributeResponse/instanceAttribute</TokenIdentifier>
+			<Abstract type="html">The described instance attribute.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceAttribute *instanceAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/instanceAttribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeInstanceAttributeResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeInstanceAttributeResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

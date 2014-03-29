@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SecurityTokenServiceRequest.h</DeclaredIn>
+			
+			<NodeRef refid="895"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

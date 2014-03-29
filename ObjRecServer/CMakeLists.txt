@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( ObjRec )
+find_package( OpenCV REQUIRED )
+add_executable( ObjRec ObjRec.cpp )
+add_executable( AddObj AddObj.cpp )
+target_link_libraries( ObjRec ${OpenCV_LIBS} )
+target_link_libraries( AddObj ${OpenCV_LIBS} )

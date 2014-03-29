@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonAuthUtils.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonAuthUtils</TokenIdentifier>
+			<Abstract type="html">Utilities for signing requests</Abstract>
+			<DeclaredIn>AmazonAuthUtils.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonAuthUtils/HMACSign:withKey:usingAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Compute a keyed hash of some data with a specified key and algorithm.</Abstract>
+			<DeclaredIn>AmazonAuthUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)HMACSign:(NSData *)data withKey:(NSString *)key usingAlgorithm:(CCHmacAlgorithm)algorithm</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to sign</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key to sign the data with</Abstract>
+				</Parameter><Parameter>
+					<Name>algorithm</Name>
+					<Abstract type="html">Which HMAC algortithm to use. Currently support &lt;code&gt;kCCHmacAlgSHA1&lt;/code&gt; and &lt;code&gt;kCCHmacAlgSHA256&lt;/code&gt;.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Base64 encoded string that is the signature of the data with the specified key.</Abstract></ReturnValue>
+			<Anchor>//api/name/HMACSign:withKey:usingAlgorithm:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

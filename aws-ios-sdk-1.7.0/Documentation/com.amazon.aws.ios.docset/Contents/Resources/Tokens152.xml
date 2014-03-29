@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchMetricAlarm.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchMetricAlarm</TokenIdentifier>
+			<Abstract type="html">Metric Alarm</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>
+			
+			<NodeRef refid="152"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setAlarmName:</TokenIdentifier>
+			<Abstract type="html">The name of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/alarmName</TokenIdentifier>
+			<Abstract type="html">The name of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setAlarmArn:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmArn</Declaration>
+			
+			
+			<Anchor>//api/name/alarmArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/alarmArn</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmArn</Declaration>
+			
+			
+			<Anchor>//api/name/alarmArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setAlarmDescription:</TokenIdentifier>
+			<Abstract type="html">The description for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmDescription</Declaration>
+			
+			
+			<Anchor>//api/name/alarmDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/alarmDescription</TokenIdentifier>
+			<Abstract type="html">The description for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *alarmDescription</Declaration>
+			
+			
+			<Anchor>//api/name/alarmDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setAlarmConfigurationUpdatedTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time stamp of the last update to the alarm configuration.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *alarmConfigurationUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/alarmConfigurationUpdatedTimestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/alarmConfigurationUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">The time stamp of the last update to the alarm configuration.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *alarmConfigurationUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/alarmConfigurationUpdatedTimestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setActionsEnabled:</TokenIdentifier>
+			<Abstract type="html">Indicates whether actions should be executed during any changes to the
+alarm&apos;s state.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL actionsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/actionsEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/actionsEnabled</TokenIdentifier>
+			<Abstract type="html">Indicates whether actions should be executed during any changes to the
+alarm&apos;s state.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL actionsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/actionsEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setOKActions:</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;OK&lt;/code&gt; state from any other state. Each action is specified
+as an Amazon Resource Number (ARN). Currently the only actions
+supported are publishing to an Amazon SNS topic and triggering an Auto
+Scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *oKActions</Declaration>
+			
+			
+			<Anchor>//api/name/oKActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/oKActions</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;OK&lt;/code&gt; state from any other state. Each action is specified
+as an Amazon Resource Number (ARN). Currently the only actions
+supported are publishing to an Amazon SNS topic and triggering an Auto
+Scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *oKActions</Declaration>
+			
+			
+			<Anchor>//api/name/oKActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setAlarmActions:</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;ALARM&lt;/code&gt; state from any other state. Each action is
+specified as an Amazon Resource Number (ARN). Currently the only
+actions supported are publishing to an Amazon SNS topic and triggering
+an Auto Scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmActions</Declaration>
+			
+			
+			<Anchor>//api/name/alarmActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/alarmActions</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;ALARM&lt;/code&gt; state from any other state. Each action is
+specified as an Amazon Resource Number (ARN). Currently the only
+actions supported are publishing to an Amazon SNS topic and triggering
+an Auto Scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarmActions</Declaration>
+			
+			
+			<Anchor>//api/name/alarmActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setInsufficientDataActions:</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt; state from any other state. Each action
+is specified as an Amazon Resource Number (ARN). Currently the only
+actions supported are publishing to an Amazon SNS topic or triggering
+an Auto Scaling policy. &lt;important&gt;The current WSDL lists this
+attribute as &lt;code&gt;UnknownActions&lt;/code&gt;.&lt;/important&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *insufficientDataActions</Declaration>
+			
+			
+			<Anchor>//api/name/insufficientDataActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/insufficientDataActions</TokenIdentifier>
+			<Abstract type="html">The list of actions to execute when this alarm transitions into an
+&lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt; state from any other state. Each action
+is specified as an Amazon Resource Number (ARN). Currently the only
+actions supported are publishing to an Amazon SNS topic or triggering
+an Auto Scaling policy. &lt;important&gt;The current WSDL lists this
+attribute as &lt;code&gt;UnknownActions&lt;/code&gt;.&lt;/important&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 5&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *insufficientDataActions</Declaration>
+			
+			
+			<Anchor>//api/name/insufficientDataActions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setStateValue:</TokenIdentifier>
+			<Abstract type="html">The state value for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;OK, ALARM, INSUFFICIENT_DATA</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/stateValue</TokenIdentifier>
+			<Abstract type="html">The state value for the alarm.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;OK, ALARM, INSUFFICIENT_DATA</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setStateReason:</TokenIdentifier>
+			<Abstract type="html">A human-readable explanation for the alarm&apos;s state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 1023&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/stateReason</TokenIdentifier>
+			<Abstract type="html">A human-readable explanation for the alarm&apos;s state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 1023&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setStateReasonData:</TokenIdentifier>
+			<Abstract type="html">An explanation for the alarm&apos;s state in machine-readable JSON format
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 4000&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateReasonData</Declaration>
+			
+			
+			<Anchor>//api/name/stateReasonData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/stateReasonData</TokenIdentifier>
+			<Abstract type="html">An explanation for the alarm&apos;s state in machine-readable JSON format
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 4000&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateReasonData</Declaration>
+			
+			
+			<Anchor>//api/name/stateReasonData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setStateUpdatedTimestamp:</TokenIdentifier>
+			<Abstract type="html">The time stamp of the last update to the alarm&apos;s state.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *stateUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/stateUpdatedTimestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/stateUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">The time stamp of the last update to the alarm&apos;s state.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *stateUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/stateUpdatedTimestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setMetricName:</TokenIdentifier>
+			<Abstract type="html">The name of the alarm&apos;s metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/metricName</TokenIdentifier>
+			<Abstract type="html">The name of the alarm&apos;s metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setNamespace:</TokenIdentifier>
+			<Abstract type="html">The namespace of alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/namespace</TokenIdentifier>
+			<Abstract type="html">The namespace of alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[^:].*&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setStatistic:</TokenIdentifier>
+			<Abstract type="html">The statistic to apply to the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SampleCount, Average, Sum, Minimum, Maximum</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/statistic</TokenIdentifier>
+			<Abstract type="html">The statistic to apply to the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SampleCount, Average, Sum, Minimum, Maximum</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setDimensions:</TokenIdentifier>
+			<Abstract type="html">The list of dimensions associated with the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/dimensions</TokenIdentifier>
+			<Abstract type="html">The list of dimensions associated with the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;0 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setPeriod:</TokenIdentifier>
+			<Abstract type="html">The period in seconds over which the statistic is applied.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;60 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/period</TokenIdentifier>
+			<Abstract type="html">The period in seconds over which the statistic is applied.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;60 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setUnit:</TokenIdentifier>
+			<Abstract type="html">The unit of the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/unit</TokenIdentifier>
+			<Abstract type="html">The unit of the alarm&apos;s associated metric.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setEvaluationPeriods:</TokenIdentifier>
+			<Abstract type="html">The number of periods over which data is compared to the specified
+threshold.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *evaluationPeriods</Declaration>
+			
+			
+			<Anchor>//api/name/evaluationPeriods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/evaluationPeriods</TokenIdentifier>
+			<Abstract type="html">The number of periods over which data is compared to the specified
+threshold.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *evaluationPeriods</Declaration>
+			
+			
+			<Anchor>//api/name/evaluationPeriods</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setThreshold:</TokenIdentifier>
+			<Abstract type="html">The value against which the specified statistic is compared.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/threshold</TokenIdentifier>
+			<Abstract type="html">The value against which the specified statistic is compared.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/setComparisonOperator:</TokenIdentifier>
+			<Abstract type="html">The arithmetic operation to use when comparing the specified
+&lt;code&gt;Statistic&lt;/code&gt; and &lt;code&gt;Threshold&lt;/code&gt;. The specified
+&lt;code&gt;Statistic&lt;/code&gt; value is used as the first operand.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchMetricAlarm/comparisonOperator</TokenIdentifier>
+			<Abstract type="html">The arithmetic operation to use when comparing the specified
+&lt;code&gt;Statistic&lt;/code&gt; and &lt;code&gt;Threshold&lt;/code&gt;. The specified
+&lt;code&gt;Statistic&lt;/code&gt; value is used as the first operand.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/addOKAction:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to oKActions.
+This function will alloc and init oKActions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (void)addOKAction:(NSString *)oKActionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addOKAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/addAlarmAction:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to alarmActions.
+This function will alloc and init alarmActions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAlarmAction:(NSString *)alarmActionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAlarmAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/addInsufficientDataAction:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to insufficientDataActions.
+This function will alloc and init insufficientDataActions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInsufficientDataAction:(NSString *)insufficientDataActionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInsufficientDataAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/addDimension:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDimension:(CloudWatchDimension *)dimensionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addDimension:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchMetricAlarm/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchMetricAlarm.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

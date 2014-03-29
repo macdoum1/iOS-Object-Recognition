@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceNetworkInterfaceAttachment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceNetworkInterfaceAttachment</TokenIdentifier>
+			<Abstract type="html">Instance Network Interface Attachment</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>
+			
+			<NodeRef refid="407"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/setAttachmentId:</TokenIdentifier>
+			<Abstract type="html">The value of the AttachmentId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attachmentId</Declaration>
+			
+			
+			<Anchor>//api/name/attachmentId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceAttachment/attachmentId</TokenIdentifier>
+			<Abstract type="html">The value of the AttachmentId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attachmentId</Declaration>
+			
+			
+			<Anchor>//api/name/attachmentId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/setDeviceIndex:</TokenIdentifier>
+			<Abstract type="html">The value of the DeviceIndex property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *deviceIndex</Declaration>
+			
+			
+			<Anchor>//api/name/deviceIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceAttachment/deviceIndex</TokenIdentifier>
+			<Abstract type="html">The value of the DeviceIndex property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *deviceIndex</Declaration>
+			
+			
+			<Anchor>//api/name/deviceIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/setStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceAttachment/status</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/setAttachTime:</TokenIdentifier>
+			<Abstract type="html">The value of the AttachTime property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceAttachment/attachTime</TokenIdentifier>
+			<Abstract type="html">The value of the AttachTime property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">The value of the DeleteOnTermination property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterfaceAttachment/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">The value of the DeleteOnTermination property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterfaceAttachment/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterfaceAttachment.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

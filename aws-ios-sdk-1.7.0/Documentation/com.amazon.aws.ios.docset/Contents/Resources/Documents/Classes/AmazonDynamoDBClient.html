@@ -1,0 +1,2738 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonDynamoDBClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonDynamoDBClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/batchGetItem:">&nbsp;&nbsp;&nbsp;&nbsp;- batchGetItem:</option>
+	
+	<option value="//api/name/batchWriteItem:">&nbsp;&nbsp;&nbsp;&nbsp;- batchWriteItem:</option>
+	
+	<option value="//api/name/createTable:">&nbsp;&nbsp;&nbsp;&nbsp;- createTable:</option>
+	
+	<option value="//api/name/deleteItem:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteItem:</option>
+	
+	<option value="//api/name/deleteTable:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteTable:</option>
+	
+	<option value="//api/name/describeTable:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTable:</option>
+	
+	<option value="//api/name/getItem:">&nbsp;&nbsp;&nbsp;&nbsp;- getItem:</option>
+	
+	<option value="//api/name/listTables:">&nbsp;&nbsp;&nbsp;&nbsp;- listTables:</option>
+	
+	<option value="//api/name/putItem:">&nbsp;&nbsp;&nbsp;&nbsp;- putItem:</option>
+	
+	<option value="//api/name/query:">&nbsp;&nbsp;&nbsp;&nbsp;- query:</option>
+	
+	<option value="//api/name/scan:">&nbsp;&nbsp;&nbsp;&nbsp;- scan:</option>
+	
+	<option value="//api/name/updateItem:">&nbsp;&nbsp;&nbsp;&nbsp;- updateItem:</option>
+	
+	<option value="//api/name/updateTable:">&nbsp;&nbsp;&nbsp;&nbsp;- updateTable:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/batchGetItem:">batchGetItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/batchWriteItem:">batchWriteItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createTable:">createTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteItem:">deleteItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteTable:">deleteTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTable:">describeTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getItem:">getItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listTables:">listTables:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putItem:">putItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/query:">query:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scan:">scan:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateItem:">updateItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateTable:">updateTable:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonDynamoDBClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonDynamoDBClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">DynamoDBWebServiceClient : AmazonAbstractJsonWebServiceClient : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonDynamoDBClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonDynamoDB.</p>
+
+<p>Amazon DynamoDB <b>Overview</b> <p>
+This is the Amazon DynamoDB API Reference. This guide provides descriptions and samples of the Amazon DynamoDB API.
+</p>
+</summary></p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scan:">&ndash;&nbsp;scan:</a></code>
+		<span class="tooltip"><p>
+The <i>Scan</i> operation returns one or more items and item attributes by accessing every item in the table. To have
+Amazon DynamoDB return fewer items, you can provide a <i>ScanFilter</i> .
+</p>
+
+
+<p>
+If the total number of scanned items exceeds the maximum data set size limit of 1 MB, the scan stops and results are
+returned to the user with a <i>LastEvaluatedKey</i> to continue the scan in a subsequent operation. The results also
+include the number of items exceeding the limit. A scan can result in no table data meeting the filter criteria.
+</p>
+
+
+<p>
+The result set is eventually consistent.
+</p>
+
+
+<p>
+By default, <i>Scan</i> operations proceed sequentially; however, for faster performance on large tables, applications
+can request a parallel <i>Scan</i> by specifying the <i>Segment</i> and <i>TotalSegments</i> parameters. For more
+information, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScanParallelScan">
+Parallel Scan </a> in the Amazon DynamoDB Developer Guide.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateTable:">&ndash;&nbsp;updateTable:</a></code>
+		<span class="tooltip"><p>
+Updates the provisioned throughput for the given table. Setting the throughput for a table helps you manage performance
+and is part of the provisioned throughput feature of Amazon DynamoDB.
+</p>
+
+
+<p>
+The provisioned throughput values can be upgraded or downgraded based on the maximums and minimums listed in the <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html"> Limits </a> section in the Amazon
+DynamoDB Developer Guide.
+</p>
+
+
+<p>
+The table must be in the ACTIVE state for this operation to succeed. <i>UpdateTable</i> is an asynchronous operation;
+while executing the operation, the table is in the UPDATING state. While the table is in the UPDATING state, the table
+still has the provisioned throughput from before the call. The new provisioned throughput setting is in effect only when
+the table returns to the ACTIVE state after the <i>UpdateTable</i> operation.
+</p>
+
+
+<p>
+You cannot add, modify or delete local secondary indexes using <i>UpdateTable</i> . Local secondary indexes can only be
+defined at table creation time.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteTable:">&ndash;&nbsp;deleteTable:</a></code>
+		<span class="tooltip"><p>
+The <i>DeleteTable</i> operation deletes a table and all of its items. After a <i>DeleteTable</i> request, the specified
+table is in the DELETING state until Amazon DynamoDB completes the deletion. If the table is in the ACTIVE state, you
+can delete it. If a table is in CREATING or UPDATING states, then Amazon DynamoDB returns a
+<i>ResourceInUseException</i> . If the specified table does not exist, Amazon DynamoDB returns a
+<i>ResourceNotFoundException</i> . If table is already in the DELETING state, no error is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> Amazon DynamoDB might continue to accept data read and write operations, such as GetItem and PutItem, on a
+table in the DELETING state until the table deletion is complete.
+</p>
+
+
+<p>
+When you delete a table, any local secondary indexes on that table are also deleted.
+</p>
+
+
+<p>
+Use the <i>DescribeTable</i> API to check the status of the table.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/batchWriteItem:">&ndash;&nbsp;batchWriteItem:</a></code>
+		<span class="tooltip"><p>
+The <i>BatchWriteItem</i> operation puts or deletes multiple items in one or more tables. A single call to
+<i>BatchWriteItem</i> can write up to 1 MB of data, which can comprise as many as 25 put or delete requests. Individual
+items to be written can be as large as 64 KB.
+</p>
+
+
+<p>
+<b>NOTE:</b> BatchWriteItem cannot update items. To update items, use the UpdateItem API.
+</p>
+
+
+<p>
+The individual <i>PutItem</i> and <i>DeleteItem</i> operations specified in <i>BatchWriteItem</i> are atomic; however
+<i>BatchWriteItem</i> as a whole is not. If any requested operations fail because the table's provisioned throughput is
+exceeded or an internal processing failure occurs, the failed operations are returned in the <i>UnprocessedItems</i>
+response parameter. You can investigate and optionally resend the requests. Typically, you would call
+<i>BatchWriteItem</i> in a loop. Each iteration would check for unprocessed items and submit a new <i>BatchWriteItem</i>
+request with those unprocessed items until all items have been processed.
+</p>
+
+
+<p>
+To write one item, you can use the <i>PutItem</i> operation; to delete one item, you can use the <i>DeleteItem</i>
+operation.
+</p>
+
+
+<p>
+With <i>BatchWriteItem</i> , you can efficiently write or delete large amounts of data, such as from Amazon Elastic
+MapReduce (EMR), or copy data from another database into Amazon DynamoDB. In order to improve performance with these
+large-scale operations, <i>BatchWriteItem</i> does not behave in the same way as individual <i>PutItem</i> and
+<i>DeleteItem</i> calls would For example, you cannot specify conditions on individual put and delete requests, and
+<i>BatchWriteItem</i> does not return deleted items in the response.
+</p>
+
+
+<p>
+If you use a programming language that supports concurrency, such as Java, you can use threads to write items in
+parallel. Your application must include the necessary logic to manage the threads.
+</p>
+
+
+<p>
+With languages that don't support threading, such as PHP, <i>BatchWriteItem</i> will write or delete the specified items
+one at a time. In both situations, <i>BatchWriteItem</i> provides an alternative where the API performs the specified
+put and delete operations in parallel, giving you the power of the thread pool approach without having to introduce
+complexity into your application.
+</p>
+
+
+<p>
+Parallel processing reduces latency, but each specified put and delete request consumes the same number of write
+capacity units whether it is processed in parallel or not. Delete operations on nonexistent items consume one write
+capacity unit.
+</p>
+
+
+<p>
+If one or more of the following is true, Amazon DynamoDB rejects the entire batch write operation:
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTable:">&ndash;&nbsp;describeTable:</a></code>
+		<span class="tooltip"><p>
+Returns information about the table, including the current status of the table, when it was created, the primary key
+schema, and any indexes on the table.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getItem:">&ndash;&nbsp;getItem:</a></code>
+		<span class="tooltip"><p>
+The <i>GetItem</i> operation returns a set of attributes for the item with the given primary key. If there is no
+matching item, <i>GetItem</i> does not return any data.
+</p>
+
+
+<p>
+<i>GetItem</i> provides an eventually consistent read by default. If your application requires a strongly consistent
+read, set <i>ConsistentRead</i> to true . Although a strongly consistent read might take more time than an eventually
+consistent read, it always returns the last updated value.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteItem:">&ndash;&nbsp;deleteItem:</a></code>
+		<span class="tooltip"><p>
+Deletes a single item in a table by primary key. You can perform a conditional delete operation that deletes the item if
+it exists, or if it has an expected attribute value.
+</p>
+
+
+<p>
+In addition to deleting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+Unless you specify conditions, the <i>DeleteItem</i> is an idempotent operation; running it multiple times on the same
+item or attribute does <i>not</i> result in an error response.
+</p>
+
+
+<p>
+Conditional deletes are useful for only deleting items if specific conditions are met. If those conditions are met,
+Amazon DynamoDB performs the delete. Otherwise, the item is not deleted.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createTable:">&ndash;&nbsp;createTable:</a></code>
+		<span class="tooltip"><p>
+The <i>CreateTable</i> operation adds a new table to your account. In an AWS account, table names must be unique within
+each region. That is, you can have two tables with same name if you create the tables in different regions.
+</p>
+
+
+<p>
+<i>CreateTable</i> is an asynchronous operation. Upon receiving a <i>CreateTable</i> request, Amazon DynamoDB
+immediately returns a response with a <i>TableStatus</i> of CREATING . After the table is created, Amazon DynamoDB sets
+the <i>TableStatus</i> to ACTIVE . You can perform read and write operations only on an ACTIVE table.
+</p>
+
+
+<p>
+If you want to create multiple tables with local secondary indexes on them, you must create them sequentially. Only one
+table with local secondary indexes can be in the CREATING state at any given time.
+</p>
+
+
+<p>
+You can use the <i>DescribeTable</i> API to check the table status.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/query:">&ndash;&nbsp;query:</a></code>
+		<span class="tooltip"><p>
+A <i>Query</i> operation directly accesses items from a table using the table primary key, or from an index using the
+index key. You must provide a specific hash key value. You can narrow the scope of the query by using comparison
+operators on the range key value, or on the index key. You can use the <i>ScanIndexForward</i> parameter to get results
+in forward or reverse order, by range key or by index key.
+</p>
+
+
+<p>
+Queries that do not return results consume the minimum read capacity units according to the type of read.
+</p>
+
+
+<p>
+If the total number of items meeting the query criteria exceeds the result set size limit of 1 MB, the query stops and
+results are returned to the user with a <i>LastEvaluatedKey</i> to continue the query in a subsequent operation. Unlike
+a <i>Scan</i> operation, a <i>Query</i> operation never returns an empty result set <i>and</i> a
+<i>LastEvaluatedKey</i> . The <i>LastEvaluatedKey</i> is only provided if the results exceed 1 MB,
+or if you have used <i>Limit</i> .
+</p>
+
+
+<p>
+To request a strongly consistent result, set <i>ConsistentRead</i> to true.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putItem:">&ndash;&nbsp;putItem:</a></code>
+		<span class="tooltip"><p>
+Creates a new item, or replaces an old item with a new item. If an item already exists in the specified table with the
+same primary key, the new item completely replaces the existing item. You can perform a conditional put (insert a new
+item if one with the specified primary key doesn't exist), or replace an existing item if it has certain attribute
+values.
+</p>
+
+
+<p>
+In addition to putting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+When you add an item, the primary key attribute(s) are the only required attributes. Attribute values cannot be null.
+String and binary type attributes must have lengths greater than zero. Set type attributes cannot be empty. Requests
+with empty values will be rejected with a <i>ValidationException</i> .
+</p>
+
+
+<p>
+You can request that <i>PutItem</i> return either a copy of the old item (before the update) or a copy of the new item
+(after the update). For more information, see the <i>ReturnValues</i> description.
+</p>
+
+
+<p>
+<b>NOTE:</b> To prevent a new item from replacing an existing item, use a conditional put operation with Exists set to
+false for the primary key attribute, or attributes.
+</p>
+
+
+<p>
+For more information about using this API, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDItems.html"> Working with Items </a>
+in the Amazon DynamoDB Developer Guide.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listTables:">&ndash;&nbsp;listTables:</a></code>
+		<span class="tooltip"><p>
+Returns an array of all the tables associated with the current account and endpoint.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateItem:">&ndash;&nbsp;updateItem:</a></code>
+		<span class="tooltip"><p>
+Edits an existing item's attributes, or inserts a new item if it does not already exist. You can put, delete, or add
+attribute values. You can also perform a conditional update (insert a new attribute name-value pair if it doesn't exist,
+or replace an existing name-value pair if it has certain expected attribute values).
+</p>
+
+
+<p>
+In addition to updating an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/batchGetItem:">&ndash;&nbsp;batchGetItem:</a></code>
+		<span class="tooltip"><p>
+The <i>BatchGetItem</i> operation returns the attributes of one or more items from one or more tables. You identify
+requested items by primary key.
+</p>
+
+
+<p>
+A single operation can retrieve up to 1 MB of data, which can comprise as many as 100 items. <i>BatchGetItem</i> will
+return a partial result if the response size limit is exceeded, the table's provisioned throughput is exceeded, or an
+internal processing failure occurs. If a partial result is returned, the operation returns a value for
+<i>UnprocessedKeys</i> . You can use this value to retry the operation starting with the next item to get.
+</p>
+
+
+<p>
+For example, if you ask to retrieve 100 items, but each individual item is 50 KB in size, the system returns 20 items (1
+MB) and an appropriate <i>UnprocessedKeys</i> value so you can get the next page of results. If desired, your
+application can include its own logic to assemble the pages of results into one dataset.
+</p>
+
+
+<p>
+If no items can be processed because of insufficient provisioned throughput on each of the tables involved in the
+request, <i>BatchGetItem</i> throws <i>ProvisionedThroughputExceededException</i> .
+</p>
+
+
+<p>
+By default, <i>BatchGetItem</i> performs eventually consistent reads on every table in the request. If you want strongly
+consistent reads instead, you can set <i>ConsistentRead</i> to true for any or all tables.
+</p>
+
+
+<p>
+In order to minimize response latency, <i>BatchGetItem</i> fetches items in parallel.
+</p>
+
+
+<p>
+When designing your application, keep in mind that Amazon DynamoDB does not return attributes in any particular order.
+To help parse the response by item, include the primary key values for the items in your request in the
+<i>AttributesToGet</i> parameter.
+</p>
+
+
+<p>
+If a requested item does not exist, it is not returned in the result. Requests for nonexistent items consume the minimum
+read capacity units according to the type of read. For more information, see <a
+ref="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDTables.html#CapacityUnitCalculations">
+Capacity Units Calculations </a> in the Amazon DynamoDB Developer Guide.
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/batchGetItem:" title="batchGetItem:"></a>
+	<h3 class="subsubtitle method-title">batchGetItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>BatchGetItem</i> operation returns the attributes of one or more items from one or more tables. You identify
+requested items by primary key.
+</p>
+
+
+<p>
+A single operation can retrieve up to 1 MB of data, which can comprise as many as 100 items. <i>BatchGetItem</i> will
+return a partial result if the response size limit is exceeded, the table's provisioned throughput is exceeded, or an
+internal processing failure occurs. If a partial result is returned, the operation returns a value for
+<i>UnprocessedKeys</i> . You can use this value to retry the operation starting with the next item to get.
+</p>
+
+
+<p>
+For example, if you ask to retrieve 100 items, but each individual item is 50 KB in size, the system returns 20 items (1
+MB) and an appropriate <i>UnprocessedKeys</i> value so you can get the next page of results. If desired, your
+application can include its own logic to assemble the pages of results into one dataset.
+</p>
+
+
+<p>
+If no items can be processed because of insufficient provisioned throughput on each of the tables involved in the
+request, <i>BatchGetItem</i> throws <i>ProvisionedThroughputExceededException</i> .
+</p>
+
+
+<p>
+By default, <i>BatchGetItem</i> performs eventually consistent reads on every table in the request. If you want strongly
+consistent reads instead, you can set <i>ConsistentRead</i> to true for any or all tables.
+</p>
+
+
+<p>
+In order to minimize response latency, <i>BatchGetItem</i> fetches items in parallel.
+</p>
+
+
+<p>
+When designing your application, keep in mind that Amazon DynamoDB does not return attributes in any particular order.
+To help parse the response by item, include the primary key values for the items in your request in the
+<i>AttributesToGet</i> parameter.
+</p>
+
+
+<p>
+If a requested item does not exist, it is not returned in the result. Requests for nonexistent items consume the minimum
+read capacity units according to the type of read. For more information, see <a
+ref="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDTables.html#CapacityUnitCalculations">
+Capacity Units Calculations </a> in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBBatchGetItemResponse *)batchGetItem:(DynamoDBBatchGetItemRequest *)<em>batchGetItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>batchGetItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the BatchGetItem service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the BatchGetItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>BatchGetItem</i> operation returns the attributes of one or more items from one or more tables. You identify
+requested items by primary key.
+</p>
+
+
+<p>
+A single operation can retrieve up to 1 MB of data, which can comprise as many as 100 items. <i>BatchGetItem</i> will
+return a partial result if the response size limit is exceeded, the table's provisioned throughput is exceeded, or an
+internal processing failure occurs. If a partial result is returned, the operation returns a value for
+<i>UnprocessedKeys</i> . You can use this value to retry the operation starting with the next item to get.
+</p>
+
+
+<p>
+For example, if you ask to retrieve 100 items, but each individual item is 50 KB in size, the system returns 20 items (1
+MB) and an appropriate <i>UnprocessedKeys</i> value so you can get the next page of results. If desired, your
+application can include its own logic to assemble the pages of results into one dataset.
+</p>
+
+
+<p>
+If no items can be processed because of insufficient provisioned throughput on each of the tables involved in the
+request, <i>BatchGetItem</i> throws <i>ProvisionedThroughputExceededException</i> .
+</p>
+
+
+<p>
+By default, <i>BatchGetItem</i> performs eventually consistent reads on every table in the request. If you want strongly
+consistent reads instead, you can set <i>ConsistentRead</i> to true for any or all tables.
+</p>
+
+
+<p>
+In order to minimize response latency, <i>BatchGetItem</i> fetches items in parallel.
+</p>
+
+
+<p>
+When designing your application, keep in mind that Amazon DynamoDB does not return attributes in any particular order.
+To help parse the response by item, include the primary key values for the items in your request in the
+<i>AttributesToGet</i> parameter.
+</p>
+
+
+<p>
+If a requested item does not exist, it is not returned in the result. Requests for nonexistent items consume the minimum
+read capacity units according to the type of read. For more information, see <a
+ref="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDTables.html#CapacityUnitCalculations">
+Capacity Units Calculations </a> in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBBatchGetItemRequest.html">DynamoDBBatchGetItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBBatchGetItemResponse.html">DynamoDBBatchGetItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/batchWriteItem:" title="batchWriteItem:"></a>
+	<h3 class="subsubtitle method-title">batchWriteItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>BatchWriteItem</i> operation puts or deletes multiple items in one or more tables. A single call to
+<i>BatchWriteItem</i> can write up to 1 MB of data, which can comprise as many as 25 put or delete requests. Individual
+items to be written can be as large as 64 KB.
+</p>
+
+
+<p>
+<b>NOTE:</b> BatchWriteItem cannot update items. To update items, use the UpdateItem API.
+</p>
+
+
+<p>
+The individual <i>PutItem</i> and <i>DeleteItem</i> operations specified in <i>BatchWriteItem</i> are atomic; however
+<i>BatchWriteItem</i> as a whole is not. If any requested operations fail because the table's provisioned throughput is
+exceeded or an internal processing failure occurs, the failed operations are returned in the <i>UnprocessedItems</i>
+response parameter. You can investigate and optionally resend the requests. Typically, you would call
+<i>BatchWriteItem</i> in a loop. Each iteration would check for unprocessed items and submit a new <i>BatchWriteItem</i>
+request with those unprocessed items until all items have been processed.
+</p>
+
+
+<p>
+To write one item, you can use the <i>PutItem</i> operation; to delete one item, you can use the <i>DeleteItem</i>
+operation.
+</p>
+
+
+<p>
+With <i>BatchWriteItem</i> , you can efficiently write or delete large amounts of data, such as from Amazon Elastic
+MapReduce (EMR), or copy data from another database into Amazon DynamoDB. In order to improve performance with these
+large-scale operations, <i>BatchWriteItem</i> does not behave in the same way as individual <i>PutItem</i> and
+<i>DeleteItem</i> calls would For example, you cannot specify conditions on individual put and delete requests, and
+<i>BatchWriteItem</i> does not return deleted items in the response.
+</p>
+
+
+<p>
+If you use a programming language that supports concurrency, such as Java, you can use threads to write items in
+parallel. Your application must include the necessary logic to manage the threads.
+</p>
+
+
+<p>
+With languages that don't support threading, such as PHP, <i>BatchWriteItem</i> will write or delete the specified items
+one at a time. In both situations, <i>BatchWriteItem</i> provides an alternative where the API performs the specified
+put and delete operations in parallel, giving you the power of the thread pool approach without having to introduce
+complexity into your application.
+</p>
+
+
+<p>
+Parallel processing reduces latency, but each specified put and delete request consumes the same number of write
+capacity units whether it is processed in parallel or not. Delete operations on nonexistent items consume one write
+capacity unit.
+</p>
+
+
+<p>
+If one or more of the following is true, Amazon DynamoDB rejects the entire batch write operation:
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBBatchWriteItemResponse *)batchWriteItem:(DynamoDBBatchWriteItemRequest *)<em>batchWriteItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>batchWriteItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the BatchWriteItem service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the BatchWriteItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>BatchWriteItem</i> operation puts or deletes multiple items in one or more tables. A single call to
+<i>BatchWriteItem</i> can write up to 1 MB of data, which can comprise as many as 25 put or delete requests. Individual
+items to be written can be as large as 64 KB.
+</p>
+
+
+<p>
+<b>NOTE:</b> BatchWriteItem cannot update items. To update items, use the UpdateItem API.
+</p>
+
+
+<p>
+The individual <i>PutItem</i> and <i>DeleteItem</i> operations specified in <i>BatchWriteItem</i> are atomic; however
+<i>BatchWriteItem</i> as a whole is not. If any requested operations fail because the table's provisioned throughput is
+exceeded or an internal processing failure occurs, the failed operations are returned in the <i>UnprocessedItems</i>
+response parameter. You can investigate and optionally resend the requests. Typically, you would call
+<i>BatchWriteItem</i> in a loop. Each iteration would check for unprocessed items and submit a new <i>BatchWriteItem</i>
+request with those unprocessed items until all items have been processed.
+</p>
+
+
+<p>
+To write one item, you can use the <i>PutItem</i> operation; to delete one item, you can use the <i>DeleteItem</i>
+operation.
+</p>
+
+
+<p>
+With <i>BatchWriteItem</i> , you can efficiently write or delete large amounts of data, such as from Amazon Elastic
+MapReduce (EMR), or copy data from another database into Amazon DynamoDB. In order to improve performance with these
+large-scale operations, <i>BatchWriteItem</i> does not behave in the same way as individual <i>PutItem</i> and
+<i>DeleteItem</i> calls would For example, you cannot specify conditions on individual put and delete requests, and
+<i>BatchWriteItem</i> does not return deleted items in the response.
+</p>
+
+
+<p>
+If you use a programming language that supports concurrency, such as Java, you can use threads to write items in
+parallel. Your application must include the necessary logic to manage the threads.
+</p>
+
+
+<p>
+With languages that don't support threading, such as PHP, <i>BatchWriteItem</i> will write or delete the specified items
+one at a time. In both situations, <i>BatchWriteItem</i> provides an alternative where the API performs the specified
+put and delete operations in parallel, giving you the power of the thread pool approach without having to introduce
+complexity into your application.
+</p>
+
+
+<p>
+Parallel processing reduces latency, but each specified put and delete request consumes the same number of write
+capacity units whether it is processed in parallel or not. Delete operations on nonexistent items consume one write
+capacity unit.
+</p>
+
+
+<p>
+If one or more of the following is true, Amazon DynamoDB rejects the entire batch write operation:
+</p>
+
+
+
+
+<ul>
+<li> <p>
+One or more tables specified in the <i>BatchWriteItem</i> request does not exist.
+</p>
+</li>
+<li> <p>
+Primary key attributes specified on an item in the request do not match those in the corresponding table's primary key
+schema.
+</p>
+</li>
+<li> <p>
+You try to perform multiple operations on the same item in the same <i>BatchWriteItem</i> request. For example, you
+cannot put and delete the same item in the same <i>BatchWriteItem</i> request.
+</p>
+</li>
+<li> <p>
+The total request size exceeds 1 MB.
+</p>
+</li>
+<li> <p>
+Any individual item in a batch exceeds 64 KB.
+</p>
+</li>
+
+</ul>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBItemCollectionSizeLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBItemCollectionSizeLimitExceededException.html">DynamoDBItemCollectionSizeLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBBatchWriteItemRequest.html">DynamoDBBatchWriteItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBBatchWriteItemResponse.html">DynamoDBBatchWriteItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createTable:" title="createTable:"></a>
+	<h3 class="subsubtitle method-title">createTable:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>CreateTable</i> operation adds a new table to your account. In an AWS account, table names must be unique within
+each region. That is, you can have two tables with same name if you create the tables in different regions.
+</p>
+
+
+<p>
+<i>CreateTable</i> is an asynchronous operation. Upon receiving a <i>CreateTable</i> request, Amazon DynamoDB
+immediately returns a response with a <i>TableStatus</i> of CREATING . After the table is created, Amazon DynamoDB sets
+the <i>TableStatus</i> to ACTIVE . You can perform read and write operations only on an ACTIVE table.
+</p>
+
+
+<p>
+If you want to create multiple tables with local secondary indexes on them, you must create them sequentially. Only one
+table with local secondary indexes can be in the CREATING state at any given time.
+</p>
+
+
+<p>
+You can use the <i>DescribeTable</i> API to check the table status.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBCreateTableResponse *)createTable:(DynamoDBCreateTableRequest *)<em>createTableRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createTableRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateTable service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateTable service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>CreateTable</i> operation adds a new table to your account. In an AWS account, table names must be unique within
+each region. That is, you can have two tables with same name if you create the tables in different regions.
+</p>
+
+
+<p>
+<i>CreateTable</i> is an asynchronous operation. Upon receiving a <i>CreateTable</i> request, Amazon DynamoDB
+immediately returns a response with a <i>TableStatus</i> of CREATING . After the table is created, Amazon DynamoDB sets
+the <i>TableStatus</i> to ACTIVE . You can perform read and write operations only on an ACTIVE table.
+</p>
+
+
+<p>
+If you want to create multiple tables with local secondary indexes on them, you must create them sequentially. Only one
+table with local secondary indexes can be in the CREATING state at any given time.
+</p>
+
+
+<p>
+You can use the <i>DescribeTable</i> API to check the table status.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceInUseException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceInUseException.html">DynamoDBResourceInUseException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBLimitExceededException.html">DynamoDBLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBCreateTableRequest.html">DynamoDBCreateTableRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBCreateTableResponse.html">DynamoDBCreateTableResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteItem:" title="deleteItem:"></a>
+	<h3 class="subsubtitle method-title">deleteItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes a single item in a table by primary key. You can perform a conditional delete operation that deletes the item if
+it exists, or if it has an expected attribute value.
+</p>
+
+
+<p>
+In addition to deleting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+Unless you specify conditions, the <i>DeleteItem</i> is an idempotent operation; running it multiple times on the same
+item or attribute does <i>not</i> result in an error response.
+</p>
+
+
+<p>
+Conditional deletes are useful for only deleting items if specific conditions are met. If those conditions are met,
+Amazon DynamoDB performs the delete. Otherwise, the item is not deleted.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBDeleteItemResponse *)deleteItem:(DynamoDBDeleteItemRequest *)<em>deleteItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteItem service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DeleteItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes a single item in a table by primary key. You can perform a conditional delete operation that deletes the item if
+it exists, or if it has an expected attribute value.
+</p>
+
+
+<p>
+In addition to deleting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+Unless you specify conditions, the <i>DeleteItem</i> is an idempotent operation; running it multiple times on the same
+item or attribute does <i>not</i> result in an error response.
+</p>
+
+
+<p>
+Conditional deletes are useful for only deleting items if specific conditions are met. If those conditions are met,
+Amazon DynamoDB performs the delete. Otherwise, the item is not deleted.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBItemCollectionSizeLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBItemCollectionSizeLimitExceededException.html">DynamoDBItemCollectionSizeLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBConditionalCheckFailedException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBConditionalCheckFailedException.html">DynamoDBConditionalCheckFailedException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBDeleteItemRequest.html">DynamoDBDeleteItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBDeleteItemResponse.html">DynamoDBDeleteItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteTable:" title="deleteTable:"></a>
+	<h3 class="subsubtitle method-title">deleteTable:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>DeleteTable</i> operation deletes a table and all of its items. After a <i>DeleteTable</i> request, the specified
+table is in the DELETING state until Amazon DynamoDB completes the deletion. If the table is in the ACTIVE state, you
+can delete it. If a table is in CREATING or UPDATING states, then Amazon DynamoDB returns a
+<i>ResourceInUseException</i> . If the specified table does not exist, Amazon DynamoDB returns a
+<i>ResourceNotFoundException</i> . If table is already in the DELETING state, no error is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> Amazon DynamoDB might continue to accept data read and write operations, such as GetItem and PutItem, on a
+table in the DELETING state until the table deletion is complete.
+</p>
+
+
+<p>
+When you delete a table, any local secondary indexes on that table are also deleted.
+</p>
+
+
+<p>
+Use the <i>DescribeTable</i> API to check the status of the table.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBDeleteTableResponse *)deleteTable:(DynamoDBDeleteTableRequest *)<em>deleteTableRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteTableRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteTable service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DeleteTable service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>DeleteTable</i> operation deletes a table and all of its items. After a <i>DeleteTable</i> request, the specified
+table is in the DELETING state until Amazon DynamoDB completes the deletion. If the table is in the ACTIVE state, you
+can delete it. If a table is in CREATING or UPDATING states, then Amazon DynamoDB returns a
+<i>ResourceInUseException</i> . If the specified table does not exist, Amazon DynamoDB returns a
+<i>ResourceNotFoundException</i> . If table is already in the DELETING state, no error is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> Amazon DynamoDB might continue to accept data read and write operations, such as GetItem and PutItem, on a
+table in the DELETING state until the table deletion is complete.
+</p>
+
+
+<p>
+When you delete a table, any local secondary indexes on that table are also deleted.
+</p>
+
+
+<p>
+Use the <i>DescribeTable</i> API to check the status of the table.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceInUseException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceInUseException.html">DynamoDBResourceInUseException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBLimitExceededException.html">DynamoDBLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBDeleteTableRequest.html">DynamoDBDeleteTableRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBDeleteTableResponse.html">DynamoDBDeleteTableResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTable:" title="describeTable:"></a>
+	<h3 class="subsubtitle method-title">describeTable:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns information about the table, including the current status of the table, when it was created, the primary key
+schema, and any indexes on the table.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBDescribeTableResponse *)describeTable:(DynamoDBDescribeTableRequest *)<em>describeTableRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeTableRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeTable service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeTable service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns information about the table, including the current status of the table, when it was created, the primary key
+schema, and any indexes on the table.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBDescribeTableRequest.html">DynamoDBDescribeTableRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBDescribeTableResponse.html">DynamoDBDescribeTableResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getItem:" title="getItem:"></a>
+	<h3 class="subsubtitle method-title">getItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>GetItem</i> operation returns a set of attributes for the item with the given primary key. If there is no
+matching item, <i>GetItem</i> does not return any data.
+</p>
+
+
+<p>
+<i>GetItem</i> provides an eventually consistent read by default. If your application requires a strongly consistent
+read, set <i>ConsistentRead</i> to true . Although a strongly consistent read might take more time than an eventually
+consistent read, it always returns the last updated value.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBGetItemResponse *)getItem:(DynamoDBGetItemRequest *)<em>getItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetItem service method on AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>GetItem</i> operation returns a set of attributes for the item with the given primary key. If there is no
+matching item, <i>GetItem</i> does not return any data.
+</p>
+
+
+<p>
+<i>GetItem</i> provides an eventually consistent read by default. If your application requires a strongly consistent
+read, set <i>ConsistentRead</i> to true . Although a strongly consistent read might take more time than an eventually
+consistent read, it always returns the last updated value.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBGetItemRequest.html">DynamoDBGetItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBGetItemResponse.html">DynamoDBGetItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listTables:" title="listTables:"></a>
+	<h3 class="subsubtitle method-title">listTables:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns an array of all the tables associated with the current account and endpoint.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBListTablesResponse *)listTables:(DynamoDBListTablesRequest *)<em>listTablesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listTablesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListTables service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListTables service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns an array of all the tables associated with the current account and endpoint.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBListTablesRequest.html">DynamoDBListTablesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBListTablesResponse.html">DynamoDBListTablesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putItem:" title="putItem:"></a>
+	<h3 class="subsubtitle method-title">putItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates a new item, or replaces an old item with a new item. If an item already exists in the specified table with the
+same primary key, the new item completely replaces the existing item. You can perform a conditional put (insert a new
+item if one with the specified primary key doesn't exist), or replace an existing item if it has certain attribute
+values.
+</p>
+
+
+<p>
+In addition to putting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+When you add an item, the primary key attribute(s) are the only required attributes. Attribute values cannot be null.
+String and binary type attributes must have lengths greater than zero. Set type attributes cannot be empty. Requests
+with empty values will be rejected with a <i>ValidationException</i> .
+</p>
+
+
+<p>
+You can request that <i>PutItem</i> return either a copy of the old item (before the update) or a copy of the new item
+(after the update). For more information, see the <i>ReturnValues</i> description.
+</p>
+
+
+<p>
+<b>NOTE:</b> To prevent a new item from replacing an existing item, use a conditional put operation with Exists set to
+false for the primary key attribute, or attributes.
+</p>
+
+
+<p>
+For more information about using this API, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDItems.html"> Working with Items </a>
+in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBPutItemResponse *)putItem:(DynamoDBPutItemRequest *)<em>putItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the PutItem service method on AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the PutItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates a new item, or replaces an old item with a new item. If an item already exists in the specified table with the
+same primary key, the new item completely replaces the existing item. You can perform a conditional put (insert a new
+item if one with the specified primary key doesn't exist), or replace an existing item if it has certain attribute
+values.
+</p>
+
+
+<p>
+In addition to putting an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+
+<p>
+When you add an item, the primary key attribute(s) are the only required attributes. Attribute values cannot be null.
+String and binary type attributes must have lengths greater than zero. Set type attributes cannot be empty. Requests
+with empty values will be rejected with a <i>ValidationException</i> .
+</p>
+
+
+<p>
+You can request that <i>PutItem</i> return either a copy of the old item (before the update) or a copy of the new item
+(after the update). For more information, see the <i>ReturnValues</i> description.
+</p>
+
+
+<p>
+<b>NOTE:</b> To prevent a new item from replacing an existing item, use a conditional put operation with Exists set to
+false for the primary key attribute, or attributes.
+</p>
+
+
+<p>
+For more information about using this API, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDDItems.html"> Working with Items </a>
+in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBItemCollectionSizeLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBItemCollectionSizeLimitExceededException.html">DynamoDBItemCollectionSizeLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBConditionalCheckFailedException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBConditionalCheckFailedException.html">DynamoDBConditionalCheckFailedException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBPutItemRequest.html">DynamoDBPutItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBPutItemResponse.html">DynamoDBPutItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/query:" title="query:"></a>
+	<h3 class="subsubtitle method-title">query:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+A <i>Query</i> operation directly accesses items from a table using the table primary key, or from an index using the
+index key. You must provide a specific hash key value. You can narrow the scope of the query by using comparison
+operators on the range key value, or on the index key. You can use the <i>ScanIndexForward</i> parameter to get results
+in forward or reverse order, by range key or by index key.
+</p>
+
+
+<p>
+Queries that do not return results consume the minimum read capacity units according to the type of read.
+</p>
+
+
+<p>
+If the total number of items meeting the query criteria exceeds the result set size limit of 1 MB, the query stops and
+results are returned to the user with a <i>LastEvaluatedKey</i> to continue the query in a subsequent operation. Unlike
+a <i>Scan</i> operation, a <i>Query</i> operation never returns an empty result set <i>and</i> a
+<i>LastEvaluatedKey</i> . The <i>LastEvaluatedKey</i> is only provided if the results exceed 1 MB,
+or if you have used <i>Limit</i> .
+</p>
+
+
+<p>
+To request a strongly consistent result, set <i>ConsistentRead</i> to true.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBQueryResponse *)query:(DynamoDBQueryRequest *)<em>queryRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>queryRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Query service method on AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the Query service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+A <i>Query</i> operation directly accesses items from a table using the table primary key, or from an index using the
+index key. You must provide a specific hash key value. You can narrow the scope of the query by using comparison
+operators on the range key value, or on the index key. You can use the <i>ScanIndexForward</i> parameter to get results
+in forward or reverse order, by range key or by index key.
+</p>
+
+
+<p>
+Queries that do not return results consume the minimum read capacity units according to the type of read.
+</p>
+
+
+<p>
+If the total number of items meeting the query criteria exceeds the result set size limit of 1 MB, the query stops and
+results are returned to the user with a <i>LastEvaluatedKey</i> to continue the query in a subsequent operation. Unlike
+a <i>Scan</i> operation, a <i>Query</i> operation never returns an empty result set <i>and</i> a
+<i>LastEvaluatedKey</i> . The <i>LastEvaluatedKey</i> is only provided if the results exceed 1 MB,
+or if you have used <i>Limit</i> .
+</p>
+
+
+<p>
+To request a strongly consistent result, set <i>ConsistentRead</i> to true.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBQueryRequest.html">DynamoDBQueryRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBQueryResponse.html">DynamoDBQueryResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scan:" title="scan:"></a>
+	<h3 class="subsubtitle method-title">scan:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The <i>Scan</i> operation returns one or more items and item attributes by accessing every item in the table. To have
+Amazon DynamoDB return fewer items, you can provide a <i>ScanFilter</i> .
+</p>
+
+
+<p>
+If the total number of scanned items exceeds the maximum data set size limit of 1 MB, the scan stops and results are
+returned to the user with a <i>LastEvaluatedKey</i> to continue the scan in a subsequent operation. The results also
+include the number of items exceeding the limit. A scan can result in no table data meeting the filter criteria.
+</p>
+
+
+<p>
+The result set is eventually consistent.
+</p>
+
+
+<p>
+By default, <i>Scan</i> operations proceed sequentially; however, for faster performance on large tables, applications
+can request a parallel <i>Scan</i> by specifying the <i>Segment</i> and <i>TotalSegments</i> parameters. For more
+information, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScanParallelScan">
+Parallel Scan </a> in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBScanResponse *)scan:(DynamoDBScanRequest *)<em>scanRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>scanRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Scan service method on AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the Scan service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The <i>Scan</i> operation returns one or more items and item attributes by accessing every item in the table. To have
+Amazon DynamoDB return fewer items, you can provide a <i>ScanFilter</i> .
+</p>
+
+
+<p>
+If the total number of scanned items exceeds the maximum data set size limit of 1 MB, the scan stops and results are
+returned to the user with a <i>LastEvaluatedKey</i> to continue the scan in a subsequent operation. The results also
+include the number of items exceeding the limit. A scan can result in no table data meeting the filter criteria.
+</p>
+
+
+<p>
+The result set is eventually consistent.
+</p>
+
+
+<p>
+By default, <i>Scan</i> operations proceed sequentially; however, for faster performance on large tables, applications
+can request a parallel <i>Scan</i> by specifying the <i>Segment</i> and <i>TotalSegments</i> parameters. For more
+information, see <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScanParallelScan">
+Parallel Scan </a> in the Amazon DynamoDB Developer Guide.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBScanRequest.html">DynamoDBScanRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBScanResponse.html">DynamoDBScanResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateItem:" title="updateItem:"></a>
+	<h3 class="subsubtitle method-title">updateItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Edits an existing item's attributes, or inserts a new item if it does not already exist. You can put, delete, or add
+attribute values. You can also perform a conditional update (insert a new attribute name-value pair if it doesn't exist,
+or replace an existing name-value pair if it has certain expected attribute values).
+</p>
+
+
+<p>
+In addition to updating an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBUpdateItemResponse *)updateItem:(DynamoDBUpdateItemRequest *)<em>updateItemRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>updateItemRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the UpdateItem service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the UpdateItem service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Edits an existing item's attributes, or inserts a new item if it does not already exist. You can put, delete, or add
+attribute values. You can also perform a conditional update (insert a new attribute name-value pair if it doesn't exist,
+or replace an existing name-value pair if it has certain expected attribute values).
+</p>
+
+
+<p>
+In addition to updating an item, you can also return the item's attribute values in the same operation, using the
+<i>ReturnValues</i> parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBItemCollectionSizeLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBItemCollectionSizeLimitExceededException.html">DynamoDBItemCollectionSizeLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBConditionalCheckFailedException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBConditionalCheckFailedException.html">DynamoDBConditionalCheckFailedException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBProvisionedThroughputExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBProvisionedThroughputExceededException.html">DynamoDBProvisionedThroughputExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBUpdateItemRequest.html">DynamoDBUpdateItemRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBUpdateItemResponse.html">DynamoDBUpdateItemResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateTable:" title="updateTable:"></a>
+	<h3 class="subsubtitle method-title">updateTable:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Updates the provisioned throughput for the given table. Setting the throughput for a table helps you manage performance
+and is part of the provisioned throughput feature of Amazon DynamoDB.
+</p>
+
+
+<p>
+The provisioned throughput values can be upgraded or downgraded based on the maximums and minimums listed in the <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html"> Limits </a> section in the Amazon
+DynamoDB Developer Guide.
+</p>
+
+
+<p>
+The table must be in the ACTIVE state for this operation to succeed. <i>UpdateTable</i> is an asynchronous operation;
+while executing the operation, the table is in the UPDATING state. While the table is in the UPDATING state, the table
+still has the provisioned throughput from before the call. The new provisioned throughput setting is in effect only when
+the table returns to the ACTIVE state after the <i>UpdateTable</i> operation.
+</p>
+
+
+<p>
+You cannot add, modify or delete local secondary indexes using <i>UpdateTable</i> . Local secondary indexes can only be
+defined at table creation time.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (DynamoDBUpdateTableResponse *)updateTable:(DynamoDBUpdateTableRequest *)<em>updateTableRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>updateTableRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the UpdateTable service method on
+AmazonDynamoDB.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the UpdateTable service method, as returned by AmazonDynamoDB.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Updates the provisioned throughput for the given table. Setting the throughput for a table helps you manage performance
+and is part of the provisioned throughput feature of Amazon DynamoDB.
+</p>
+
+
+<p>
+The provisioned throughput values can be upgraded or downgraded based on the maximums and minimums listed in the <a
+href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html"> Limits </a> section in the Amazon
+DynamoDB Developer Guide.
+</p>
+
+
+<p>
+The table must be in the ACTIVE state for this operation to succeed. <i>UpdateTable</i> is an asynchronous operation;
+while executing the operation, the table is in the UPDATING state. While the table is in the UPDATING state, the table
+still has the provisioned throughput from before the call. The new provisioned throughput setting is in effect only when
+the table returns to the ACTIVE state after the <i>UpdateTable</i> operation.
+</p>
+
+
+<p>
+You cannot add, modify or delete local secondary indexes using <i>UpdateTable</i> . Local secondary indexes can only be
+defined at table creation time.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceInUseException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceInUseException.html">DynamoDBResourceInUseException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBResourceNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBResourceNotFoundException.html">DynamoDBResourceNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBLimitExceededException.html">DynamoDBLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>DynamoDBInternalServerErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/DynamoDBInternalServerErrorException.html">DynamoDBInternalServerErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonDynamoDB indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/DynamoDBUpdateTableRequest.html">DynamoDBUpdateTableRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/DynamoDBUpdateTableResponse.html">DynamoDBUpdateTableResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonDynamoDBClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreateSnapshotRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreateSnapshotRequest</TokenIdentifier>
+			<Abstract type="html">Create Snapshot Request</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>
+			
+			<NodeRef refid="270"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateSnapshotRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The ID of the volume from which to create the snapshot.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateSnapshotRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">The ID of the volume from which to create the snapshot.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The description for the new snapshot.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CreateSnapshotRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The description for the new snapshot.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CreateSnapshotRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/initWithVolumeId:andDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CreateSnapshotRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithVolumeId:(NSString *)theVolumeId andDescriptionValue:(NSString *)theDescriptionValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theVolumeId</Name>
+					<Abstract type="html">The ID of the volume from which to create the
+snapshot.</Abstract>
+				</Parameter><Parameter>
+					<Name>theDescriptionValue</Name>
+					<Abstract type="html">The description for the new snapshot.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithVolumeId:andDescriptionValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CreateSnapshotRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CreateSnapshotRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

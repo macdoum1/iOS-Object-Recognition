@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBBatchPutAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBBatchPutAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Batch Put Attributes</Abstract>
+			<DeclaredIn>SimpleDBBatchPutAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="902"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeRegionsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeRegionsResponse</TokenIdentifier>
+			<Abstract type="html">Describe Regions Response</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="327"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeRegionsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeRegionsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeRegionsResponse/setRegions:</TokenIdentifier>
+			<Abstract type="html">The list of described Amazon EC2 regions.</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *regions</Declaration>
+			
+			
+			<Anchor>//api/name/regions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeRegionsResponse/regions</TokenIdentifier>
+			<Abstract type="html">The list of described Amazon EC2 regions.</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *regions</Declaration>
+			
+			
+			<Anchor>//api/name/regions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeRegionsResponse/regionsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the regions array for the specified index</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (EC2Region *)regionsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/regionsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeRegionsResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeRegionsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

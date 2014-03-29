@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceBlockDeviceMapping.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceBlockDeviceMapping</TokenIdentifier>
+			<Abstract type="html">Instance Block Device Mapping</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>
+			
+			<NodeRef refid="398"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceBlockDeviceMapping/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceBlockDeviceMapping/setDeviceName:</TokenIdentifier>
+			<Abstract type="html">The device name (e.g., &lt;code&gt;/dev/sdh&lt;/code&gt;) at which the block
+device is exposed on the instance.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceBlockDeviceMapping/deviceName</TokenIdentifier>
+			<Abstract type="html">The device name (e.g., &lt;code&gt;/dev/sdh&lt;/code&gt;) at which the block
+device is exposed on the instance.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceBlockDeviceMapping/setEbs:</TokenIdentifier>
+			<Abstract type="html">The optional EBS device mapped to the specified device name.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2EbsInstanceBlockDevice *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceBlockDeviceMapping/ebs</TokenIdentifier>
+			<Abstract type="html">The optional EBS device mapped to the specified device name.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2EbsInstanceBlockDevice *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceBlockDeviceMapping/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceBlockDeviceMapping.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

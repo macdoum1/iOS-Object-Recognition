@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2RecurringCharge.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2RecurringCharge</TokenIdentifier>
+			<Abstract type="html">Recurring Charge</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>
+			
+			<NodeRef refid="448"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RecurringCharge/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RecurringCharge/setFrequency:</TokenIdentifier>
+			<Abstract type="html">The frequency of the recurring charge.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Hourly</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *frequency</Declaration>
+			
+			
+			<Anchor>//api/name/frequency</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RecurringCharge/frequency</TokenIdentifier>
+			<Abstract type="html">The frequency of the recurring charge.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Hourly</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *frequency</Declaration>
+			
+			
+			<Anchor>//api/name/frequency</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RecurringCharge/setAmount:</TokenIdentifier>
+			<Abstract type="html">The amount of the recurring charge.</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *amount</Declaration>
+			
+			
+			<Anchor>//api/name/amount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2RecurringCharge/amount</TokenIdentifier>
+			<Abstract type="html">The amount of the recurring charge.</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *amount</Declaration>
+			
+			
+			<Anchor>//api/name/amount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2RecurringCharge/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2RecurringCharge.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

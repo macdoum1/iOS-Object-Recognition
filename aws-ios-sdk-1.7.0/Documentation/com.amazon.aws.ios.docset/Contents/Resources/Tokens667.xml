@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListObjectsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a listObjects operation.</Abstract>
+			<DeclaredIn>S3ListObjectsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="667"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResponse/setListObjectsResult:</TokenIdentifier>
+			<Abstract type="html">The result object which contains the response elements from the request</Abstract>
+			<DeclaredIn>S3ListObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ListObjectsResult *listObjectsResult</Declaration>
+			
+			
+			<Anchor>//api/name/listObjectsResult</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResponse/listObjectsResult</TokenIdentifier>
+			<Abstract type="html">The result object which contains the response elements from the request</Abstract>
+			<DeclaredIn>S3ListObjectsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ListObjectsResult *listObjectsResult</Declaration>
+			
+			
+			<Anchor>//api/name/listObjectsResult</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

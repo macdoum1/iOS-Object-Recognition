@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BucketWebsiteConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BucketWebsiteConfiguration</TokenIdentifier>
+			<Abstract type="html">Bucket configuration options for hosting static websites entirely out of
+Amazon S3.
+&lt;p&gt;
+To host a static website in Amazon S3, create a bucket, upload your files,
+and set the bucket website configuration. Once your bucket has been
+configured as a website, you can access all your content via the Amazon S3
+website endpoint. To ensure that the existing Amazon S3 REST API will
+continue to behave the same, regardless of whether or not your bucket has
+been configured to host a website, a new HTTP endpoint has been introduced
+where you can access your website content. The bucket content you want to
+make available via the website must be publicly readable.
+&lt;p&gt;
+To enable hosting websites, Amazon S3 introduces the following
+concepts/features:
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Website endpoints&lt;/b&gt; - When you configure a bucket as a website, the website
+is available via the the region-specific website endpoint where the bucket
+resides.
+&lt;li&gt;&lt;b&gt;Index document support&lt;/b&gt; - When configuring a bucket as a website you must
+provide an index document name. This is the webpage that Amazon S3 returns when
+it receives a request to the root of your website, or one of its
+subdirectories. Amazon S3 supports index documents in subdirectories.
+&lt;li&gt;&lt;b&gt;Error document support&lt;/b&gt; - Should an error occur, Amazon S3 will return an
+HTML error document, instead of an XML document.You can optionally provide
+your own error document that contains HTML, or any other static content
+specific to your website. You provide the error document name when you
+configure a bucket as a website. If you provide the custom error document,
+Amazon S3 returns your custom error document when an HTTP 4XX class error
+occurs. For other error non-4XX class errors, Amazon S3 will return its own
+error document.
+&lt;/ul&gt;
+&lt;p&gt;
+For more information on how to host a website on Amazon S3, see:
+http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html.</Abstract>
+			<DeclaredIn>BucketWebsiteConfiguration.h</DeclaredIn>
+			
+			<NodeRef refid="124"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BucketWebsiteConfiguration/setIndexDocumentSuffix:</TokenIdentifier>
+			<Abstract type="html">The document to serve when a directory is specified (ex: index.html).
+This path is relative to the requested resource.</Abstract>
+			<DeclaredIn>BucketWebsiteConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *indexDocumentSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/indexDocumentSuffix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BucketWebsiteConfiguration/indexDocumentSuffix</TokenIdentifier>
+			<Abstract type="html">The document to serve when a directory is specified (ex: index.html).
+This path is relative to the requested resource.</Abstract>
+			<DeclaredIn>BucketWebsiteConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *indexDocumentSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/indexDocumentSuffix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BucketWebsiteConfiguration/setErrorDocument:</TokenIdentifier>
+			<Abstract type="html">The complete path to the document to serve for 4xx errors.</Abstract>
+			<DeclaredIn>BucketWebsiteConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *errorDocument</Declaration>
+			
+			
+			<Anchor>//api/name/errorDocument</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BucketWebsiteConfiguration/errorDocument</TokenIdentifier>
+			<Abstract type="html">The complete path to the document to serve for 4xx errors.</Abstract>
+			<DeclaredIn>BucketWebsiteConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *errorDocument</Declaration>
+			
+			
+			<Anchor>//api/name/errorDocument</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

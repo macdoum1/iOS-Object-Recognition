@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBBatchWriteItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBBatchWriteItemRequest</TokenIdentifier>
+			<Abstract type="html">Batch Write Item Request</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="172"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/setRequestItems:</TokenIdentifier>
+			<Abstract type="html">A map of one or more table names and, for each table, a list of
+operations to be performed (&lt;i&gt;DeleteRequest&lt;/i&gt; or
+&lt;i&gt;PutRequest&lt;/i&gt;). Each element in the map consists of the following:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt;
+operation on the specified item. The item to be deleted is identified
+by a &lt;i&gt;Key&lt;/i&gt; subelement: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary
+key attribute values that uniquely identify the item. Each entry in
+this map consists of an attribute name and an attribute value. &lt;/li&gt;
+&lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt;
+operation on the specified item. The item to be put is identified by
+an &lt;i&gt;Item&lt;/i&gt; subelement: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of
+attributes and their values. Each entry in this map consists of an
+attribute name and an attribute value. Attribute values must not be
+null; string and binary type attributes must have lengths greater than
+zero; and set type attributes must not be empty. Requests that contain
+empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt;. &lt;p&gt;If
+you specify any attributes that are part of an index key, then the
+data types for those attributes must match those of the schema in the
+table&apos;s attribute definition.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 25&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBBatchWriteItemRequest/requestItems</TokenIdentifier>
+			<Abstract type="html">A map of one or more table names and, for each table, a list of
+operations to be performed (&lt;i&gt;DeleteRequest&lt;/i&gt; or
+&lt;i&gt;PutRequest&lt;/i&gt;). Each element in the map consists of the following:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt;
+operation on the specified item. The item to be deleted is identified
+by a &lt;i&gt;Key&lt;/i&gt; subelement: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary
+key attribute values that uniquely identify the item. Each entry in
+this map consists of an attribute name and an attribute value. &lt;/li&gt;
+&lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt;
+operation on the specified item. The item to be put is identified by
+an &lt;i&gt;Item&lt;/i&gt; subelement: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of
+attributes and their values. Each entry in this map consists of an
+attribute name and an attribute value. Attribute values must not be
+null; string and binary type attributes must have lengths greater than
+zero; and set type attributes must not be empty. Requests that contain
+empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt;. &lt;p&gt;If
+you specify any attributes that are part of an index key, then the
+data types for those attributes must match those of the schema in the
+table&apos;s attribute definition.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 25&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBBatchWriteItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/setReturnItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBBatchWriteItemRequest/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/setRequestItemsValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary requestItems for the specified key.
+This function will alloc and init requestItems if not already done.</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setRequestItemsValue:(NSArray *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setRequestItemsValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBBatchWriteItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBBatchWriteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest</TokenIdentifier>
+			<Abstract type="html">Register Instances With Load Balancer Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>
+			
+			<NodeRef refid="577"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/loadBalancerName</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/setInstances:</TokenIdentifier>
+			<Abstract type="html">A list of instance IDs that should be registered with the
+LoadBalancer. &lt;note&gt;When the instance is stopped and then restarted,
+the IP addresses associated with your instance changes. Elastic Load
+Balancing cannot recognize the new IP address, which prevents it from
+routing traffic to your instances. We recommend that you de-register
+your Amazon EC2 instances from your load balancer after you stop your
+instance, and then register the load balancer with your instance after
+you&apos;ve restarted. To de-register your instances from load balancer,
+use &lt;a&gt;DeregisterInstancesFromLoadBalancer&lt;/a&gt; action.&lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/instances</TokenIdentifier>
+			<Abstract type="html">A list of instance IDs that should be registered with the
+LoadBalancer. &lt;note&gt;When the instance is stopped and then restarted,
+the IP addresses associated with your instance changes. Elastic Load
+Balancing cannot recognize the new IP address, which prevents it from
+routing traffic to your instances. We recommend that you de-register
+your Amazon EC2 instances from your load balancer after you stop your
+instance, and then register the load balancer with your instance after
+you&apos;ve restarted. To de-register your instances from load balancer,
+use &lt;a&gt;DeregisterInstancesFromLoadBalancer&lt;/a&gt; action.&lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new RegisterInstancesWithLoadBalancerRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/initWithLoadBalancerName:andInstances:</TokenIdentifier>
+			<Abstract type="html">Constructs a new RegisterInstancesWithLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName andInstances:(NSMutableArray *)theInstances</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theLoadBalancerName</Name>
+					<Abstract type="html">The name associated with the LoadBalancer.
+The name must be unique within the client AWS account.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstances</Name>
+					<Abstract type="html">A list of instance IDs that should be registered
+with the LoadBalancer. &lt;note&gt;When the instance is stopped and then
+restarted, the IP addresses associated with your instance changes.
+Elastic Load Balancing cannot recognize the new IP address, which
+prevents it from routing traffic to your instances. We recommend that
+you de-register your Amazon EC2 instances from your load balancer
+after you stop your instance, and then register the load balancer with
+your instance after you&apos;ve restarted. To de-register your instances
+from load balancer, use &lt;a&gt;DeregisterInstancesFromLoadBalancer&lt;/a&gt;
+action.&lt;/note&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLoadBalancerName:andInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/addInstance:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instances.
+This function will alloc and init instances if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstance:(ElasticLoadBalancingInstance *)instanceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

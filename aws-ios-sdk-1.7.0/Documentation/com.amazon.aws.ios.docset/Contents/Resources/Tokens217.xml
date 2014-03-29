@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBUpdateTableRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBUpdateTableRequest</TokenIdentifier>
+			<Abstract type="html">Update Table Request</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>
+			
+			<NodeRef refid="217"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateTableRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table to be updated.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateTableRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table to be updated.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateTableRequest/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">The provisioned throughput settings for the specified table. The
+settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.
+&lt;p&gt;For current minimum and maximum provisioned throughput values, see
+&lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateTableRequest/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">The provisioned throughput settings for the specified table. The
+settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.
+&lt;p&gt;For current minimum and maximum provisioned throughput values, see
+&lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateTableRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new UpdateTableRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateTableRequest/initWithTableName:andProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">Constructs a new UpdateTableRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andProvisionedThroughput:(DynamoDBProvisionedThroughput *)theProvisionedThroughput</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table to be updated.</Abstract>
+				</Parameter><Parameter>
+					<Name>theProvisionedThroughput</Name>
+					<Abstract type="html">The provisioned throughput settings
+for the specified table. The settings can be modified using the
+&lt;i&gt;UpdateTable&lt;/i&gt; operation. &lt;p&gt;For current minimum and maximum
+provisioned throughput values, see &lt;a
+mazon.com/amazondynamodb/latest/developerguide/Limits.html&quot;&gt;Limits&lt;/a&gt;
+in the Amazon DynamoDB Developer Guide.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andProvisionedThroughput:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateTableRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBUpdateTableRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

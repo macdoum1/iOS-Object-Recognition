@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBDomainMetadataResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBDomainMetadataResponse</TokenIdentifier>
+			<Abstract type="html">Domain Metadata Result</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>
+			
+			<NodeRef refid="911"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setItemCount:</TokenIdentifier>
+			<Abstract type="html">The number of all items in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/itemCount</TokenIdentifier>
+			<Abstract type="html">The number of all items in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setItemNamesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all item names in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/itemNamesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/itemNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all item names in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/itemNamesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setAttributeNameCount:</TokenIdentifier>
+			<Abstract type="html">The number of unique attribute names in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeNameCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNameCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/attributeNameCount</TokenIdentifier>
+			<Abstract type="html">The number of unique attribute names in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeNameCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNameCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setAttributeNamesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all unique attribute names in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/attributeNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all unique attribute names in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setAttributeValueCount:</TokenIdentifier>
+			<Abstract type="html">The number of all attribute name/value pairs in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeValueCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/attributeValueCount</TokenIdentifier>
+			<Abstract type="html">The number of all attribute name/value pairs in the domain.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeValueCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setAttributeValuesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all attribute values in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeValuesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValuesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/attributeValuesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all attribute values in the domain, in bytes.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *attributeValuesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValuesSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The data and time when metadata was calculated, in Epoch (UNIX)
+seconds.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBDomainMetadataResponse/timestamp</TokenIdentifier>
+			<Abstract type="html">The data and time when metadata was calculated, in Epoch (UNIX)
+seconds.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBDomainMetadataResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBDomainMetadataResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

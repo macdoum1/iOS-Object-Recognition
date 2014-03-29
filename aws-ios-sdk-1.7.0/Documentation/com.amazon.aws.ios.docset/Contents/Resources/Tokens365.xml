@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DiskImageDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DiskImageDescription</TokenIdentifier>
+			<Abstract type="html">Disk Image Description</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>
+			
+			<NodeRef refid="365"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/setFormat:</TokenIdentifier>
+			<Abstract type="html">The value of the Format property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;VMDK, RAW, VHD</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDescription/format</TokenIdentifier>
+			<Abstract type="html">The value of the Format property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;VMDK, RAW, VHD</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/setSize:</TokenIdentifier>
+			<Abstract type="html">The value of the Size property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDescription/size</TokenIdentifier>
+			<Abstract type="html">The value of the Size property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/setImportManifestUrl:</TokenIdentifier>
+			<Abstract type="html">The value of the ImportManifestUrl property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDescription/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">The value of the ImportManifestUrl property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/setChecksum:</TokenIdentifier>
+			<Abstract type="html">The value of the Checksum property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *checksum</Declaration>
+			
+			
+			<Anchor>//api/name/checksum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImageDescription/checksum</TokenIdentifier>
+			<Abstract type="html">The value of the Checksum property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *checksum</Declaration>
+			
+			
+			<Anchor>//api/name/checksum</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImageDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DiskImageDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

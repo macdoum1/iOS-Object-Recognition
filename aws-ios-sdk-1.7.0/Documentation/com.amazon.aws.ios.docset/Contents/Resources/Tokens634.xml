@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteVersionRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteVersionRequest</TokenIdentifier>
+			<Abstract type="html">Provides options for deleting a specific version of an object in the specified bucket.
+Once deleted, there is no method to restore or undelete an object version.
+This is the only way to permanently delete object versions that are protected
+by versioning.</Abstract>
+			<DeclaredIn>S3DeleteVersionRequest.h</DeclaredIn>
+			
+			<NodeRef refid="634"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteVersionRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">The version ID uniquely identifying which version of the object to
+delete.</Abstract>
+			<DeclaredIn>S3DeleteVersionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteVersionRequest/versionId</TokenIdentifier>
+			<Abstract type="html">The version ID uniquely identifying which version of the object to
+delete.</Abstract>
+			<DeclaredIn>S3DeleteVersionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteVersionRequest/setMfa:</TokenIdentifier>
+			<Abstract type="html">The optional Multi-Factor Authentication information to include with this
+request. Multi-Factor Authentication is required when deleting a version
+from a bucket that has enabled MFA Delete in its bucket versioning
+configuration.</Abstract>
+			<DeclaredIn>S3DeleteVersionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3MultiFactorAuthentication *mfa</Declaration>
+			
+			
+			<Anchor>//api/name/mfa</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteVersionRequest/mfa</TokenIdentifier>
+			<Abstract type="html">The optional Multi-Factor Authentication information to include with this
+request. Multi-Factor Authentication is required when deleting a version
+from a bucket that has enabled MFA Delete in its bucket versioning
+configuration.</Abstract>
+			<DeclaredIn>S3DeleteVersionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3MultiFactorAuthentication *mfa</Declaration>
+			
+			
+			<Anchor>//api/name/mfa</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

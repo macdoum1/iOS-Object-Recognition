@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonWIFCredentialsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonWIFCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">An implementation of AmazonCredentialsProvider which makes calls to AWS
+Secure Token Service (STS) with Web Identity Federation.</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonCredentialsProvider</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/setSessionLength:</TokenIdentifier>
+			<Abstract type="html">The duration of the credentials generated for STS in seconds
+Defaults to 3600 (1 hour)</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sessionLength</Declaration>
+			
+			
+			<Anchor>//api/name/sessionLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonWIFCredentialsProvider/sessionLength</TokenIdentifier>
+			<Abstract type="html">The duration of the credentials generated for STS in seconds
+Defaults to 3600 (1 hour)</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sessionLength</Declaration>
+			
+			
+			<Anchor>//api/name/sessionLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/setRefreshThreshold:</TokenIdentifier>
+			<Abstract type="html">The threshold at which the credentials will be refreshed prior to their expiration
+Defaults to 300 (5 minutes)</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger refreshThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/refreshThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonWIFCredentialsProvider/refreshThreshold</TokenIdentifier>
+			<Abstract type="html">The threshold at which the credentials will be refreshed prior to their expiration
+Defaults to 300 (5 minutes)</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger refreshThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/refreshThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/setSubjectFromWIF:</TokenIdentifier>
+			<Abstract type="html">The identity that was returned from the Identity Provider that uniquely identifies
+the user.</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSString *subjectFromWIF</Declaration>
+			
+			
+			<Anchor>//api/name/subjectFromWIF</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonWIFCredentialsProvider/subjectFromWIF</TokenIdentifier>
+			<Abstract type="html">The identity that was returned from the Identity Provider that uniquely identifies
+the user.</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSString *subjectFromWIF</Declaration>
+			
+			
+			<Anchor>//api/name/subjectFromWIF</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/setError:</TokenIdentifier>
+			<Abstract type="html">The last error (if any) that occured during refresh</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonWIFCredentialsProvider/error</TokenIdentifier>
+			<Abstract type="html">The last error (if any) that occured during refresh</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/initWithRole:andWebIdentityToken:fromProvider:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with information from the Identity Provider.</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRole:(NSString *)roleArn andWebIdentityToken:(NSString *)token fromProvider:(NSString *)providerId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>roleArn</Name>
+					<Abstract type="html">ARN for IAM Role to assume</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">The OAuth/OpenID token from the Identity Provider</Abstract>
+				</Parameter><Parameter>
+					<Name>providerId</Name>
+					<Abstract type="html">The Provider ID that specifies where the token came from (nil for OpenID providers)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRole:andWebIdentityToken:fromProvider:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonWIFCredentialsProvider/initWithClient:andRole:andWebIdentityToken:fromProvider:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with information from the Identity Provider and a pre-configured client</Abstract>
+			<DeclaredIn>AmazonWIFCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithClient:(AmazonSecurityTokenServiceClient *)theClient andRole:(NSString *)roleArn andWebIdentityToken:(NSString *)token fromProvider:(NSString *)providerId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theClient</Name>
+					<Abstract type="html">The STS client to use to make requests.  Note: this client does not need credentials.</Abstract>
+				</Parameter><Parameter>
+					<Name>roleArn</Name>
+					<Abstract type="html">ARN for IAM Role to assume</Abstract>
+				</Parameter><Parameter>
+					<Name>token</Name>
+					<Abstract type="html">The OAuth/OpenID token from the Identity Provider</Abstract>
+				</Parameter><Parameter>
+					<Name>providerId</Name>
+					<Abstract type="html">The Provider ID that specifies where the token came from (nil for OpenID providers)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithClient:andRole:andWebIdentityToken:fromProvider:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

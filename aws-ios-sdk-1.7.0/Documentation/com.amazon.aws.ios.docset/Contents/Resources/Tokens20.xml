@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonServiceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setCredentials:</TokenIdentifier>
+			<Abstract type="html">Request specific credentials.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/credentials</TokenIdentifier>
+			<Abstract type="html">Request specific credentials.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setUrlRequest:</TokenIdentifier>
+			<Abstract type="html">The urlRequest object which represents this request.
+Use configureURLRequest to make sure all fields have</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonURLRequest *urlRequest</Declaration>
+			
+			
+			<Anchor>//api/name/urlRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/urlRequest</TokenIdentifier>
+			<Abstract type="html">The urlRequest object which represents this request.
+Use configureURLRequest to make sure all fields have</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonURLRequest *urlRequest</Declaration>
+			
+			
+			<Anchor>//api/name/urlRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setUrlConnection:</TokenIdentifier>
+			<Abstract type="html">The connection object used to make the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSURLConnection *urlConnection</Declaration>
+			
+			
+			<Anchor>//api/name/urlConnection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/urlConnection</TokenIdentifier>
+			<Abstract type="html">The connection object used to make the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSURLConnection *urlConnection</Declaration>
+			
+			
+			<Anchor>//api/name/urlConnection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setHttpMethod:</TokenIdentifier>
+			<Abstract type="html">The HTTP Method (GET, PUT, POST, DELETE) used for the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *httpMethod</Declaration>
+			
+			
+			<Anchor>//api/name/httpMethod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/httpMethod</TokenIdentifier>
+			<Abstract type="html">The HTTP Method (GET, PUT, POST, DELETE) used for the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *httpMethod</Declaration>
+			
+			
+			<Anchor>//api/name/httpMethod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setUrl:</TokenIdentifier>
+			<Abstract type="html">The URL for the resource.
+This property is read-only.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/url</TokenIdentifier>
+			<Abstract type="html">The URL for the resource.
+This property is read-only.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate object for the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object for the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/setRequestTag:</TokenIdentifier>
+			<Abstract type="html">Open property that enables user to distinquish various requests.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestTag</Declaration>
+			
+			
+			<Anchor>//api/name/requestTag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequest/requestTag</TokenIdentifier>
+			<Abstract type="html">Open property that enables user to distinquish various requests.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestTag</Declaration>
+			
+			
+			<Anchor>//api/name/requestTag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/validate</TokenIdentifier>
+			<Abstract type="html">This method returns nil if the request object passed the validation.
+If not, it will return an exception.
+All methods inheriting this method must call [super validate] first to check if it returns any exceptions.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (AmazonClientException *)validate</Declaration>
+			
+			
+			<Anchor>//api/name/validate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/cancel</TokenIdentifier>
+			<Abstract type="html">Cancel asynchronous operations. The thread invoked this request needs to call this method to cancel the operation. Once cancelled, it cannot be resumed. Create another request object and invoke it again.
+It has no effect on synchronous operations.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequest/constructResponse</TokenIdentifier>
+			<Abstract type="html">Internal helper method to create the appropriate response object for the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (AmazonServiceResponse *)constructResponse</Declaration>
+			
+			
+			<Anchor>//api/name/constructResponse</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Part.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Part</TokenIdentifier>
+			<Abstract type="html">a container for elements related to a particular part of a multipart upload.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>
+			
+			<NodeRef refid="679"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Part/setEtag:</TokenIdentifier>
+			<Abstract type="html">The entity tag returned when the part was uploaded.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Part/etag</TokenIdentifier>
+			<Abstract type="html">The entity tag returned when the part was uploaded.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Part/setLastModified:</TokenIdentifier>
+			<Abstract type="html">The date and time at which the part was uploaded.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Part/lastModified</TokenIdentifier>
+			<Abstract type="html">The date and time at which the part was uploaded.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Part/setPartNumber:</TokenIdentifier>
+			<Abstract type="html">The unique part number identifying the part.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Part/partNumber</TokenIdentifier>
+			<Abstract type="html">The unique part number identifying the part.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumber</Declaration>
+			
+			
+			<Anchor>//api/name/partNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Part/setSize:</TokenIdentifier>
+			<Abstract type="html">The size of the uploaded part data.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Part/size</TokenIdentifier>
+			<Abstract type="html">The size of the uploaded part data.</Abstract>
+			<DeclaredIn>S3Part.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

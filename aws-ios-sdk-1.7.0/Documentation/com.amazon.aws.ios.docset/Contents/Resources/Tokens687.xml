@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3RestoreObjectRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3RestoreObjectRequest</TokenIdentifier>
+			<Abstract type="html">contains the parameters used for the to restore object from Amazon Glacier.</Abstract>
+			<DeclaredIn>S3RestoreObjectRequest.h</DeclaredIn>
+			
+			<NodeRef refid="687"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3RestoreObjectRequest/setDays:</TokenIdentifier>
+			<Abstract type="html">The number of days the restored object should remain active for *</Abstract>
+			<DeclaredIn>S3RestoreObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3RestoreObjectRequest/days</TokenIdentifier>
+			<Abstract type="html">The number of days the restored object should remain active for *</Abstract>
+			<DeclaredIn>S3RestoreObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

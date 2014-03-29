@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ResetInstanceAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ResetInstanceAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Reset Instance Attribute Request</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="470"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EC2 instance whose attribute is being reset.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The ID of the Amazon EC2 instance whose attribute is being reset.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being reset. &lt;p&gt; Available attribute names:
+&lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instanceType, kernel, ramdisk, userData, disableApiTermination, instanceInitiatedShutdownBehavior, rootDeviceName, blockDeviceMapping, productCodes, sourceDestCheck, groupSet, ebsOptimized</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ResetInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the attribute being reset. &lt;p&gt; Available attribute names:
+&lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;instanceType, kernel, ramdisk, userData, disableApiTermination, instanceInitiatedShutdownBehavior, rootDeviceName, blockDeviceMapping, productCodes, sourceDestCheck, groupSet, ebsOptimized</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ResetInstanceAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/initWithInstanceId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ResetInstanceAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithInstanceId:(NSString *)theInstanceId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theInstanceId</Name>
+					<Abstract type="html">The ID of the Amazon EC2 instance whose attribute
+is being reset.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the attribute being reset. &lt;p&gt;
+Available attribute names: &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithInstanceId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ResetInstanceAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ResetInstanceAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingDeleteAutoScalingGroupRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingDeleteAutoScalingGroupRequest</TokenIdentifier>
+			<Abstract type="html">Delete Auto Scaling Group Request</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDeleteAutoScalingGroupRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDeleteAutoScalingGroupRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group to delete.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDeleteAutoScalingGroupRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group to delete.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDeleteAutoScalingGroupRequest/setForceDelete:</TokenIdentifier>
+			<Abstract type="html">Starting with API version 2011-01-01, specifies that the Auto Scaling
+group will be deleted along with all instances associated with the
+group, without waiting for all instances to be terminated.</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL forceDelete</Declaration>
+			
+			
+			<Anchor>//api/name/forceDelete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDeleteAutoScalingGroupRequest/forceDelete</TokenIdentifier>
+			<Abstract type="html">Starting with API version 2011-01-01, specifies that the Auto Scaling
+group will be deleted along with all instances associated with the
+group, without waiting for all instances to be terminated.</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL forceDelete</Declaration>
+			
+			
+			<Anchor>//api/name/forceDelete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDeleteAutoScalingGroupRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingDeleteAutoScalingGroupRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

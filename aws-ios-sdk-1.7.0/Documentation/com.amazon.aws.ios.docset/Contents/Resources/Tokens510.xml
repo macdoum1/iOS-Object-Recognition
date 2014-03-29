@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Vpc.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Vpc</TokenIdentifier>
+			<Abstract type="html">Vpc</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>
+			
+			<NodeRef refid="510"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setVpcId:</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/vpcId</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setState:</TokenIdentifier>
+			<Abstract type="html">Describes the current state of the VPC. The state of the subnet may be
+either &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, available</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/state</TokenIdentifier>
+			<Abstract type="html">Describes the current state of the VPC. The state of the subnet may be
+either &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, available</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">Specifies the CIDR block the VPC covers.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/cidrBlock</TokenIdentifier>
+			<Abstract type="html">Specifies the CIDR block the VPC covers.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setDhcpOptionsId:</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the set of DHCP options associated with the VPC.
+Contains a value of &lt;code&gt;default&lt;/code&gt; if the default options are
+associated with the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *dhcpOptionsId</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/dhcpOptionsId</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the set of DHCP options associated with the VPC.
+Contains a value of &lt;code&gt;default&lt;/code&gt; if the default options are
+associated with the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *dhcpOptionsId</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for the VPC.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setInstanceTenancy:</TokenIdentifier>
+			<Abstract type="html">The allowed tenancy of instances launched into the VPC.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;default, dedicated</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">The allowed tenancy of instances launched into the VPC.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;default, dedicated</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/setIsDefault:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL isDefault</Declaration>
+			
+			
+			<Anchor>//api/name/isDefault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Vpc/isDefault</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL isDefault</Declaration>
+			
+			
+			<Anchor>//api/name/isDefault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Vpc/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Vpc.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

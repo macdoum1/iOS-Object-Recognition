@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstancePrivateIpAddress.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstancePrivateIpAddress</TokenIdentifier>
+			<Abstract type="html">Instance Private Ip Address</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>
+			
+			<NodeRef refid="409"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstancePrivateIpAddress/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/setPrivateDnsName:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateDnsName property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstancePrivateIpAddress/privateDnsName</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateDnsName property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/setPrimary:</TokenIdentifier>
+			<Abstract type="html">The value of the Primary property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstancePrivateIpAddress/primary</TokenIdentifier>
+			<Abstract type="html">The value of the Primary property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/setAssociation:</TokenIdentifier>
+			<Abstract type="html">The value of the Association property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			
+			
+			<Anchor>//api/name/association</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstancePrivateIpAddress/association</TokenIdentifier>
+			<Abstract type="html">The value of the Association property for this object.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			
+			
+			<Anchor>//api/name/association</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstancePrivateIpAddress/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstancePrivateIpAddress.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

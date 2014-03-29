@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Load Balancer Policy Types Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="542"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest/setPolicyTypeNames:</TokenIdentifier>
+			<Abstract type="html">Specifies the name of the policy types. If no names are specified,
+returns the description of all the policy types defined by Elastic
+Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyTypeNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest/policyTypeNames</TokenIdentifier>
+			<Abstract type="html">Specifies the name of the policy types. If no names are specified,
+returns the description of all the policy types defined by Elastic
+Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyTypeNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest/addPolicyTypeName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to policyTypeNames.
+This function will alloc and init policyTypeNames if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPolicyTypeName:(NSString *)policyTypeNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPolicyTypeName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

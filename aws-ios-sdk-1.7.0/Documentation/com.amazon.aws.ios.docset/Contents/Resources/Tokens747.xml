@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESSetIdentityNotificationTopicRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSetIdentityNotificationTopicRequest</TokenIdentifier>
+			<Abstract type="html">Set Identity Notification Topic Request</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>
+			
+			<NodeRef refid="747"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setIdentity:</TokenIdentifier>
+			<Abstract type="html">The identity for which the topic will be set. Examples:
+&lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/identity</TokenIdentifier>
+			<Abstract type="html">The identity for which the topic will be set. Examples:
+&lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setNotificationType:</TokenIdentifier>
+			<Abstract type="html">The type of feedback notifications that will be published to the
+specified topic.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Bounce, Complaint</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/notificationType</TokenIdentifier>
+			<Abstract type="html">The type of feedback notifications that will be published to the
+specified topic.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Bounce, Complaint</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *notificationType</Declaration>
+			
+			
+			<Anchor>//api/name/notificationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/setSnsTopic:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the Amazon Simple Notification
+Service (Amazon SNS) topic. If the parameter is ommited from the
+request or a null value is passed, the topic is cleared and publishing
+is disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snsTopic</Declaration>
+			
+			
+			<Anchor>//api/name/snsTopic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSetIdentityNotificationTopicRequest/snsTopic</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the Amazon Simple Notification
+Service (Amazon SNS) topic. If the parameter is ommited from the
+request or a null value is passed, the topic is cleared and publishing
+is disabled.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snsTopic</Declaration>
+			
+			
+			<Anchor>//api/name/snsTopic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSetIdentityNotificationTopicRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESSetIdentityNotificationTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2AvailabilityZone.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2AvailabilityZone</TokenIdentifier>
+			<Abstract type="html">Availability Zone</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>
+			
+			<NodeRef refid="233"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/setZoneName:</TokenIdentifier>
+			<Abstract type="html">Name of the Availability Zone.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *zoneName</Declaration>
+			
+			
+			<Anchor>//api/name/zoneName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AvailabilityZone/zoneName</TokenIdentifier>
+			<Abstract type="html">Name of the Availability Zone.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *zoneName</Declaration>
+			
+			
+			<Anchor>//api/name/zoneName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/setState:</TokenIdentifier>
+			<Abstract type="html">State of the Availability Zone.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AvailabilityZone/state</TokenIdentifier>
+			<Abstract type="html">State of the Availability Zone.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/setRegionName:</TokenIdentifier>
+			<Abstract type="html">Name of the region in which this zone resides.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *regionName</Declaration>
+			
+			
+			<Anchor>//api/name/regionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AvailabilityZone/regionName</TokenIdentifier>
+			<Abstract type="html">Name of the region in which this zone resides.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *regionName</Declaration>
+			
+			
+			<Anchor>//api/name/regionName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/setMessages:</TokenIdentifier>
+			<Abstract type="html">A list of messages about the Availability Zone.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2AvailabilityZone/messages</TokenIdentifier>
+			<Abstract type="html">A list of messages about the Availability Zone.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/addMessage:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to messages.
+This function will alloc and init messages if not already done.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>- (void)addMessage:(EC2AvailabilityZoneMessage *)messageObject</Declaration>
+			
+			
+			<Anchor>//api/name/addMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2AvailabilityZone/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2AvailabilityZone.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

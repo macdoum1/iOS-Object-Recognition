@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2RevokeSecurityGroupIngressResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2RevokeSecurityGroupIngressResponse</TokenIdentifier>
+			<Abstract type="html">Revoke Security Group Ingress</Abstract>
+			<DeclaredIn>EC2RevokeSecurityGroupIngressResponse.h</DeclaredIn>
+			
+			<NodeRef refid="476"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

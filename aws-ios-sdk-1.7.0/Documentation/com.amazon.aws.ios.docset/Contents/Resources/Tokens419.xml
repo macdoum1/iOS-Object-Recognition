@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2LaunchPermission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2LaunchPermission</TokenIdentifier>
+			<Abstract type="html">Launch Permission</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>
+			
+			<NodeRef refid="419"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LaunchPermission/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LaunchPermission/setUserId:</TokenIdentifier>
+			<Abstract type="html">The AWS user ID of the user involved in this launch permission.</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LaunchPermission/userId</TokenIdentifier>
+			<Abstract type="html">The AWS user ID of the user involved in this launch permission.</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LaunchPermission/setGroup:</TokenIdentifier>
+			<Abstract type="html">The AWS group of the user involved in this launch permission. &lt;p&gt;
+Available groups: &lt;code&gt;all&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;all</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *group</Declaration>
+			
+			
+			<Anchor>//api/name/group</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2LaunchPermission/group</TokenIdentifier>
+			<Abstract type="html">The AWS group of the user involved in this launch permission. &lt;p&gt;
+Available groups: &lt;code&gt;all&lt;/code&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;all</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *group</Declaration>
+			
+			
+			<Anchor>//api/name/group</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2LaunchPermission/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2LaunchPermission.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

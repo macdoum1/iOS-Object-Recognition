@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CopyObjectRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CopyObjectRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the CopyObject operation.</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>
+			
+			<NodeRef refid="610"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setSourceKey:</TokenIdentifier>
+			<Abstract type="html">The name of the source object.</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceKey</Declaration>
+			
+			
+			<Anchor>//api/name/sourceKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/sourceKey</TokenIdentifier>
+			<Abstract type="html">The name of the source object.</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceKey</Declaration>
+			
+			
+			<Anchor>//api/name/sourceKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setSourceBucket:</TokenIdentifier>
+			<Abstract type="html">The bucket of the source object</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceBucket</Declaration>
+			
+			
+			<Anchor>//api/name/sourceBucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/sourceBucket</TokenIdentifier>
+			<Abstract type="html">The bucket of the source object</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceBucket</Declaration>
+			
+			
+			<Anchor>//api/name/sourceBucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setMetadataDirective:</TokenIdentifier>
+			<Abstract type="html">Whether to copy or replace the metadata.
+Valid values: COPY | REPLACE</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metadataDirective</Declaration>
+			
+			
+			<Anchor>//api/name/metadataDirective</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/metadataDirective</TokenIdentifier>
+			<Abstract type="html">Whether to copy or replace the metadata.
+Valid values: COPY | REPLACE</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *metadataDirective</Declaration>
+			
+			
+			<Anchor>//api/name/metadataDirective</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setIfMatch:</TokenIdentifier>
+			<Abstract type="html">Copies the object if its entity tag (ETag) matches the specified tag</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Copies the object if its entity tag (ETag) matches the specified tag</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setIfNoneMatch:</TokenIdentifier>
+			<Abstract type="html">Copies the object if its entity tag (ETag) is different than the specified ETag</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifNoneMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifNoneMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Copies the object if its entity tag (ETag) is different than the specified ETag</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifNoneMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifNoneMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setIfModifiedSince:</TokenIdentifier>
+			<Abstract type="html">Copies the object if it has been modified since the specified time</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifModifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifModifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Copies the object if it has been modified since the specified time</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifModifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifModifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/setIfUnmodifiedSince:</TokenIdentifier>
+			<Abstract type="html">Copies the object if it hasn&apos;t been modified since the specified time</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifUnmodifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3CopyObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Copies the object if it hasn&apos;t been modified since the specified time</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifUnmodifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CopyObjectRequest/initWithSourceKey:sourceBucket:destinationKey:destinationBucket:</TokenIdentifier>
+			<Abstract type="html">intializes the request with source and destination.</Abstract>
+			<DeclaredIn>S3CopyObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSourceKey:(NSString *)srcKey sourceBucket:(NSString *)srcBucket destinationKey:(NSString *)dstKey destinationBucket:(NSString *)dstBucket</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>srcKey</Name>
+					<Abstract type="html">The name of the source object.</Abstract>
+				</Parameter><Parameter>
+					<Name>srcBucket</Name>
+					<Abstract type="html">The name of the souce bucket.</Abstract>
+				</Parameter><Parameter>
+					<Name>dstKey</Name>
+					<Abstract type="html">The name of the destination object.</Abstract>
+				</Parameter><Parameter>
+					<Name>dstBucket</Name>
+					<Abstract type="html">The name of the destination bucket.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the request object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSourceKey:sourceBucket:destinationKey:destinationBucket:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

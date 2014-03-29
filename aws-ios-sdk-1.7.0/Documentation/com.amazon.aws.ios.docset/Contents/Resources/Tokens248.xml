@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CancelSpotInstanceRequestsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CancelSpotInstanceRequestsRequest</TokenIdentifier>
+			<Abstract type="html">Cancel Spot Instance Requests Request</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="248"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CancelSpotInstanceRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/setSpotInstanceRequestIds:</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the Spot Instance request.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CancelSpotInstanceRequestsRequest/spotInstanceRequestIds</TokenIdentifier>
+			<Abstract type="html">Specifies the ID of the Spot Instance request.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new CancelSpotInstanceRequestsRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/initWithSpotInstanceRequestIds:</TokenIdentifier>
+			<Abstract type="html">Constructs a new CancelSpotInstanceRequestsRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSpotInstanceRequestIds:(NSMutableArray *)theSpotInstanceRequestIds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theSpotInstanceRequestIds</Name>
+					<Abstract type="html">Specifies the ID of the Spot Instance
+request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSpotInstanceRequestIds:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/addSpotInstanceRequestId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to spotInstanceRequestIds.
+This function will alloc and init spotInstanceRequestIds if not already done.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSpotInstanceRequestId:(NSString *)spotInstanceRequestIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSpotInstanceRequestId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelSpotInstanceRequestsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CancelSpotInstanceRequestsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ImportInstanceVolumeDetailItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ImportInstanceVolumeDetailItem</TokenIdentifier>
+			<Abstract type="html">Import Instance Volume Detail Item</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>
+			
+			<NodeRef refid="390"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setBytesConverted:</TokenIdentifier>
+			<Abstract type="html">The value of the BytesConverted property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *bytesConverted</Declaration>
+			
+			
+			<Anchor>//api/name/bytesConverted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
+			<Abstract type="html">The value of the BytesConverted property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *bytesConverted</Declaration>
+			
+			
+			<Anchor>//api/name/bytesConverted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setImage:</TokenIdentifier>
+			<Abstract type="html">The value of the Image property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageDescription *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
+			<Abstract type="html">The value of the Image property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageDescription *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setVolume:</TokenIdentifier>
+			<Abstract type="html">The value of the Volume property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageVolumeDescription *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
+			<Abstract type="html">The value of the Volume property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageVolumeDescription *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">The value of the StatusMessage property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
+			<Abstract type="html">The value of the StatusMessage property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ImportInstanceVolumeDetailItem/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ImportInstanceVolumeDetailItem/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ImportInstanceVolumeDetailItem.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListVersionsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListVersionsRequest</TokenIdentifier>
+			<Abstract type="html">Provides options for returning a list of summary information about the
+versions in a specified bucket.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="672"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setPrefix:</TokenIdentifier>
+			<Abstract type="html">Optional parameter restricting the response to keys which begin with the
+specified prefix. You can use prefixes to separate a bucket into
+different sets of keys in a way similar to how a file system uses
+folders.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/prefix</TokenIdentifier>
+			<Abstract type="html">Optional parameter restricting the response to keys which begin with the
+specified prefix. You can use prefixes to separate a bucket into
+different sets of keys in a way similar to how a file system uses
+folders.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setKeyMarker:</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
+the specified bucket to begin returning results. Results are always
+ordered first lexicographically (i.e. alphabetically) and then from most
+recent version to least recent version. If a keyMarker is used without a
+versionIdMarker, results begin immediately after that key&apos;s last version.
+When a keyMarker is used with a versionIdMarker, results begin
+immediately after the version with the specified key and version ID.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/keyMarker</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
+the specified bucket to begin returning results. Results are always
+ordered first lexicographically (i.e. alphabetically) and then from most
+recent version to least recent version. If a keyMarker is used without a
+versionIdMarker, results begin immediately after that key&apos;s last version.
+When a keyMarker is used with a versionIdMarker, results begin
+immediately after the version with the specified key and version ID.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setVersionIdMarker:</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
+the specified bucket to begin returning results. Results are always
+ordered first lexicographically (i.e. alphabetically) and then from most
+recent version to least recent version. A keyMarker must be specified
+when specifying a versionIdMarker. Results begin immediately after the
+version with the specified key and version ID.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/versionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/versionIdMarker</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating where in the sorted list of all versions in
+the specified bucket to begin returning results. Results are always
+ordered first lexicographically (i.e. alphabetically) and then from most
+recent version to least recent version. A keyMarker must be specified
+when specifying a versionIdMarker. Results begin immediately after the
+version with the specified key and version ID.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/versionIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">Optional parameter that causes keys that contain the same string between
+the prefix and the first occurrence of the delimiter to be rolled up into
+a single result element in the commonPrefixes list. These rolled-up keys
+are not returned elsewhere in the response. The most commonly used
+delimiter is &quot;/&quot;, which simulates a hierarchical organization similar to
+a file system directory structure.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/delimiter</TokenIdentifier>
+			<Abstract type="html">Optional parameter that causes keys that contain the same string between
+the prefix and the first occurrence of the delimiter to be rolled up into
+a single result element in the commonPrefixes list. These rolled-up keys
+are not returned elsewhere in the response. The most commonly used
+delimiter is &quot;/&quot;, which simulates a hierarchical organization similar to
+a file system directory structure.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListVersionsRequest/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating the maximum number of results to include in
+the response. Amazon S3 might return fewer than this, but will not return
+more. Even if maxKeys is not specified, Amazon S3 will limit the number
+of results in the response.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListVersionsRequest/maxKeys</TokenIdentifier>
+			<Abstract type="html">Optional parameter indicating the maximum number of results to include in
+the response. Amazon S3 might return fewer than this, but will not return
+more. Even if maxKeys is not specified, Amazon S3 will limit the number
+of results in the response.</Abstract>
+			<DeclaredIn>S3ListVersionsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

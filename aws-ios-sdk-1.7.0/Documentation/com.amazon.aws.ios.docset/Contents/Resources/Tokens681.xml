@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3PutObjectRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3PutObjectRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the putObject operation.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>
+			
+			<NodeRef refid="681"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setCacheControl:</TokenIdentifier>
+			<Abstract type="html">Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cacheControl</Declaration>
+			
+			
+			<Anchor>//api/name/cacheControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/cacheControl</TokenIdentifier>
+			<Abstract type="html">Can be used to specify caching behavior along the request/reply chain.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *cacheControl</Declaration>
+			
+			
+			<Anchor>//api/name/cacheControl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setContentDisposition:</TokenIdentifier>
+			<Abstract type="html">Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/contentDisposition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/contentDisposition</TokenIdentifier>
+			<Abstract type="html">Specifies presentational information for the object.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec19.html#sec19.5.1.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentDisposition</Declaration>
+			
+			
+			<Anchor>//api/name/contentDisposition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setContentEncoding:</TokenIdentifier>
+			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+&lt;code&gt;Content-Type&lt;/code&gt; header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/contentEncoding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/contentEncoding</TokenIdentifier>
+			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what
+decoding mechanisms must be applied to obtain the media-type referenced by the
+&lt;code&gt;Content-Type&lt;/code&gt; header field.
+For more information, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/contentEncoding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html">The base64 encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864.
+This header can be used as a message integrity check to verify that the data is the same \
+data that was originally sent.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html">The base64 encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864.
+This header can be used as a message integrity check to verify that the data is the same \
+data that was originally sent.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setGenerateMD5:</TokenIdentifier>
+			<Abstract type="html">If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL generateMD5</Declaration>
+			
+			
+			<Anchor>//api/name/generateMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/generateMD5</TokenIdentifier>
+			<Abstract type="html">If this property is set and the contentMD5 property is nil, the MD5 will be calculated as part of the Put Request.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL generateMD5</Declaration>
+			
+			
+			<Anchor>//api/name/generateMD5</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setExpect:</TokenIdentifier>
+			<Abstract type="html">When your application uses 100-continue, it does not send the request body until it receives an acknowledgement.
+If the message is rejected based on the headers, the body of the message is not sent.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *expect</Declaration>
+			
+			
+			<Anchor>//api/name/expect</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/expect</TokenIdentifier>
+			<Abstract type="html">When your application uses 100-continue, it does not send the request body until it receives an acknowledgement.
+If the message is rejected based on the headers, the body of the message is not sent.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *expect</Declaration>
+			
+			
+			<Anchor>//api/name/expect</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setData:</TokenIdentifier>
+			<Abstract type="html">The that represents the object to be uploaded
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/data</TokenIdentifier>
+			<Abstract type="html">The that represents the object to be uploaded
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setStream:</TokenIdentifier>
+			<Abstract type="html">The stream from which to read the object to be uploaded.
+To use the stream you must explicitly set the content length.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/stream</TokenIdentifier>
+			<Abstract type="html">The stream from which to read the object to be uploaded.
+To use the stream you must explicitly set the content length.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSInputStream *stream</Declaration>
+			
+			
+			<Anchor>//api/name/stream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setExpires:</TokenIdentifier>
+			<Abstract type="html">Number of milliseconds before expiration.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) int32_t expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/expires</TokenIdentifier>
+			<Abstract type="html">Number of milliseconds before expiration.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) int32_t expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setFilename:</TokenIdentifier>
+			<Abstract type="html">Path of file in the filesystem to be uploaded.
+The &lt;code&gt;contentLength&lt;/code&gt; and &lt;code&gt;contentType&lt;/code&gt; will be inferred.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;
+@throws AmazonClientException If the file does not exist or is not readable.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/filename</TokenIdentifier>
+			<Abstract type="html">Path of file in the filesystem to be uploaded.
+The &lt;code&gt;contentLength&lt;/code&gt; and &lt;code&gt;contentType&lt;/code&gt; will be inferred.
+&lt;p&gt;
+Use one of &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;stream&lt;/code&gt;, &lt;code&gt;filename&lt;/code&gt;.
+&lt;/p&gt;
+@throws AmazonClientException If the file does not exist or is not readable.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/setRedirectLocation:</TokenIdentifier>
+			<Abstract type="html">The redirect location.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *redirectLocation</Declaration>
+			
+			
+			<Anchor>//api/name/redirectLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3PutObjectRequest/redirectLocation</TokenIdentifier>
+			<Abstract type="html">The redirect location.</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *redirectLocation</Declaration>
+			
+			
+			<Anchor>//api/name/redirectLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3PutObjectRequest/initWithKey:inBucket:</TokenIdentifier>
+			<Abstract type="html">Initializes the request with the key and bucket name</Abstract>
+			<DeclaredIn>S3PutObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithKey:(NSString *)aKey inBucket:(NSString *)aBucket</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKey:inBucket:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

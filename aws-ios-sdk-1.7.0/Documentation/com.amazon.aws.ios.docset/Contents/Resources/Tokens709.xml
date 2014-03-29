@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESBody.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESBody</TokenIdentifier>
+			<Abstract type="html">Body</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>
+			
+			<NodeRef refid="709"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESBody/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESBody/setText:</TokenIdentifier>
+			<Abstract type="html">The content of the message, in text format. Use this for text-based
+email clients, or clients on high-latency networks (such as mobile
+devices).</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESContent *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESBody/text</TokenIdentifier>
+			<Abstract type="html">The content of the message, in text format. Use this for text-based
+email clients, or clients on high-latency networks (such as mobile
+devices).</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESContent *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESBody/setHtml:</TokenIdentifier>
+			<Abstract type="html">The content of the message, in HTML format. Use this for email clients
+that can process HTML. You can include clickable links, formatted
+text, and much more in an HTML message.</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESContent *html</Declaration>
+			
+			
+			<Anchor>//api/name/html</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESBody/html</TokenIdentifier>
+			<Abstract type="html">The content of the message, in HTML format. Use this for email clients
+that can process HTML. You can include clickable links, formatted
+text, and much more in an HTML message.</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESContent *html</Declaration>
+			
+			
+			<Anchor>//api/name/html</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESBody/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESBody.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

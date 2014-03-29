@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBUpdateItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBUpdateItemRequest</TokenIdentifier>
+			<Abstract type="html">Update Item Request</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="215"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the item to update.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table containing the item to update.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">The primary key that defines the item. Each element consists of an
+attribute name and a value for that attribute.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/key</TokenIdentifier>
+			<Abstract type="html">The primary key that defines the item. Each element consists of an
+attribute name and a value for that attribute.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setAttributeUpdates:</TokenIdentifier>
+			<Abstract type="html">The names of attributes to be modified, the action to perform on each,
+and the new value for each. If you are updating an attribute that is
+an index key attribute for any indexes on that table, the attribute
+type must match the index key type defined in the
+&lt;i&gt;AttributesDefinition&lt;/i&gt; of the table description. You can use
+&lt;i&gt;UpdateItem&lt;/i&gt; to update any non-key attributes. &lt;p&gt;Attribute
+values cannot be null. String and binary type attributes must have
+lengths greater than zero. Set type attributes must not be empty.
+Requests with empty values will be rejected with a
+&lt;i&gt;ValidationException&lt;/i&gt;. &lt;p&gt;Each &lt;i&gt;AttributeUpdates&lt;/i&gt; element
+consists of an attribute name to modify, along with the following:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The new value, if applicable, for this
+attribute. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Action&lt;/i&gt; - Specifies how to perform the
+update. Valid values for &lt;i&gt;Action&lt;/i&gt; are &lt;code&gt;PUT&lt;/code&gt;,
+&lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The behavior depends on
+whether the specified primary key already exists in the table. &lt;p&gt;
+&lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found in the table:&lt;/b&gt;
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified attribute to the
+item. If the attribute already exists, it is replaced by the new
+value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is specified,
+the attribute and its value are removed from the item. The data type
+of the specified value must match the existing value&apos;s data type.
+&lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;If you specify any attributes that are part of an index key, then
+the data types for those attributes must match those of the schema in
+the table&apos;s attribute definition.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *attributeUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/attributeUpdates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/attributeUpdates</TokenIdentifier>
+			<Abstract type="html">The names of attributes to be modified, the action to perform on each,
+and the new value for each. If you are updating an attribute that is
+an index key attribute for any indexes on that table, the attribute
+type must match the index key type defined in the
+&lt;i&gt;AttributesDefinition&lt;/i&gt; of the table description. You can use
+&lt;i&gt;UpdateItem&lt;/i&gt; to update any non-key attributes. &lt;p&gt;Attribute
+values cannot be null. String and binary type attributes must have
+lengths greater than zero. Set type attributes must not be empty.
+Requests with empty values will be rejected with a
+&lt;i&gt;ValidationException&lt;/i&gt;. &lt;p&gt;Each &lt;i&gt;AttributeUpdates&lt;/i&gt; element
+consists of an attribute name to modify, along with the following:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The new value, if applicable, for this
+attribute. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Action&lt;/i&gt; - Specifies how to perform the
+update. Valid values for &lt;i&gt;Action&lt;/i&gt; are &lt;code&gt;PUT&lt;/code&gt;,
+&lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The behavior depends on
+whether the specified primary key already exists in the table. &lt;p&gt;
+&lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found in the table:&lt;/b&gt;
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified attribute to the
+item. If the attribute already exists, it is replaced by the new
+value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is specified,
+the attribute and its value are removed from the item. The data type
+of the specified value must match the existing value&apos;s data type.
+&lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;If you specify any attributes that are part of an index key, then
+the data types for those attributes must match those of the schema in
+the table&apos;s attribute definition.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *attributeUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/attributeUpdates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setExpected:</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;UpdateItem&lt;/i&gt; operation. All the conditions must be met for
+the operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/expected</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;UpdateItem&lt;/i&gt; operation. All the conditions must be met for
+the operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setReturnValues:</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared either before or after they were updated. For
+&lt;i&gt;UpdateItem&lt;/i&gt;, the valid values are: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; - If &lt;i&gt;ReturnValues&lt;/i&gt; is not specified, or if
+its value is &lt;code&gt;NONE&lt;/code&gt;, then nothing is returned. (This is the
+default for &lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; -
+If &lt;i&gt;UpdateItem&lt;/i&gt; overwrote an attribute name-value pair, then the
+content of the old item is returned. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;UPDATED_OLD&lt;/code&gt; - The old versions of only the updated
+attributes are returned. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_NEW&lt;/code&gt; - All of
+the attributes of the new version of the item are returned. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;UPDATED_NEW&lt;/code&gt; - The new versions of only the updated
+attributes are returned. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/returnValues</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared either before or after they were updated. For
+&lt;i&gt;UpdateItem&lt;/i&gt;, the valid values are: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; - If &lt;i&gt;ReturnValues&lt;/i&gt; is not specified, or if
+its value is &lt;code&gt;NONE&lt;/code&gt;, then nothing is returned. (This is the
+default for &lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; -
+If &lt;i&gt;UpdateItem&lt;/i&gt; overwrote an attribute name-value pair, then the
+content of the old item is returned. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;UPDATED_OLD&lt;/code&gt; - The old versions of only the updated
+attributes are returned. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ALL_NEW&lt;/code&gt; - All of
+the attributes of the new version of the item are returned. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;UPDATED_NEW&lt;/code&gt; - The new versions of only the updated
+attributes are returned. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setReturnItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBUpdateItemRequest/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new UpdateItemRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/initWithTableName:andKey:andAttributeUpdates:</TokenIdentifier>
+			<Abstract type="html">Constructs a new UpdateItemRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andKey:(NSMutableDictionary *)theKey andAttributeUpdates:(NSMutableDictionary *)theAttributeUpdates</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table containing the item to
+update.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">The primary key that defines the item. Each element
+consists of an attribute name and a value for that attribute.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttributeUpdates</Name>
+					<Abstract type="html">The names of attributes to be modified, the
+action to perform on each, and the new value for each. If you are
+updating an attribute that is an index key attribute for any indexes
+on that table, the attribute type must match the index key type
+defined in the &lt;i&gt;AttributesDefinition&lt;/i&gt; of the table description.
+You can use &lt;i&gt;UpdateItem&lt;/i&gt; to update any non-key attributes.
+&lt;p&gt;Attribute values cannot be null. String and binary type attributes
+must have lengths greater than zero. Set type attributes must not be
+empty. Requests with empty values will be rejected with a
+&lt;i&gt;ValidationException&lt;/i&gt;. &lt;p&gt;Each &lt;i&gt;AttributeUpdates&lt;/i&gt; element
+consists of an attribute name to modify, along with the following:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The new value, if applicable, for this
+attribute. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Action&lt;/i&gt; - Specifies how to perform the
+update. Valid values for &lt;i&gt;Action&lt;/i&gt; are &lt;code&gt;PUT&lt;/code&gt;,
+&lt;code&gt;DELETE&lt;/code&gt;, and &lt;code&gt;ADD&lt;/code&gt;. The behavior depends on
+whether the specified primary key already exists in the table. &lt;p&gt;
+&lt;b&gt;If an item with the specified &lt;i&gt;Key&lt;/i&gt; is found in the table:&lt;/b&gt;
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Adds the specified attribute to the
+item. If the attribute already exists, it is replaced by the new
+value. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - If no value is specified,
+the attribute and its value are removed from the item. The data type
+of the specified value must match the existing value&apos;s data type.
+&lt;p&gt;If a &lt;i&gt;set&lt;/i&gt; of values is specified, then those values are
+subtracted from the old set. For example, if the attribute value was
+the set &lt;code&gt;[a,b,c]&lt;/code&gt; and the &lt;i&gt;DELETE&lt;/i&gt; action specified
+&lt;code&gt;[a,c]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[b]&lt;/code&gt;. Specifying an empty set is an error. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - If the attribute does not already exist, then
+the attribute and its values are added to the item. If the attribute
+does exist, then the behavior of &lt;code&gt;ADD&lt;/code&gt; depends on the data
+type of the attribute: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If the existing attribute is a
+number, and if &lt;i&gt;Value&lt;/i&gt; is also a number, then the &lt;i&gt;Value&lt;/i&gt; is
+mathematically added to the existing attribute. If &lt;i&gt;Value&lt;/i&gt; is a
+negative number, then it is subtracted from the existing attribute.
+&lt;note&gt; &lt;p&gt; If you use &lt;code&gt;ADD&lt;/code&gt; to increment or decrement a
+number value for an item that doesn&apos;t exist before the update, Amazon
+DynamoDB uses 0 as the initial value. &lt;p&gt;In addition, if you use
+&lt;code&gt;ADD&lt;/code&gt; to update an existing item, and intend to increment
+or decrement an attribute value which does not yet exist, Amazon
+DynamoDB uses &lt;code&gt;0&lt;/code&gt; as the initial value. For example,
+suppose that the item you want to update does not yet have an
+attribute named &lt;i&gt;itemcount&lt;/i&gt;, but you decide to &lt;code&gt;ADD&lt;/code&gt;
+the number &lt;code&gt;3&lt;/code&gt; to this attribute anyway, even though it
+currently does not exist. Amazon DynamoDB will create the
+&lt;i&gt;itemcount&lt;/i&gt; attribute, set its initial value to &lt;code&gt;0&lt;/code&gt;,
+and finally add &lt;code&gt;3&lt;/code&gt; to it. The result will be a new
+&lt;i&gt;itemcount&lt;/i&gt; attribute in the item, with a value of
+&lt;code&gt;3&lt;/code&gt;. &lt;/note&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;If the existing data type is a
+set, and if the &lt;i&gt;Value&lt;/i&gt; is also a set, then the &lt;i&gt;Value&lt;/i&gt; is
+added to the existing set. (This is a &lt;i&gt;set&lt;/i&gt; operation, not
+mathematical addition.) For example, if the attribute value was the
+set &lt;code&gt;[1,2]&lt;/code&gt;, and the &lt;code&gt;ADD&lt;/code&gt; action specified
+&lt;code&gt;[3]&lt;/code&gt;, then the final attribute value would be
+&lt;code&gt;[1,2,3]&lt;/code&gt;. An error occurs if an Add action is specified
+for a set attribute and the attribute type specified does not match
+the existing set type. &lt;p&gt;Both sets must have the same primitive data
+type. For example, if the existing data type is a set of strings, the
+&lt;i&gt;Value&lt;/i&gt; must also be a set of strings. The same holds true for
+number sets and binary sets. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This action is only valid
+for an existing attribute whose data type is number or is a set. Do
+not use &lt;code&gt;ADD&lt;/code&gt; for any other data types. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;
+&lt;b&gt;If no item with the specified &lt;i&gt;Key&lt;/i&gt; is found:&lt;/b&gt; &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;PUT&lt;/code&gt; - Amazon DynamoDB creates a new item with the
+specified primary key, and then adds the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;DELETE&lt;/code&gt; - Nothing happens; there is no attribute to
+delete. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;ADD&lt;/code&gt; - Amazon DynamoDB creates an
+item with the supplied primary key and number (or set of numbers) for
+the attribute value. The only data types allowed are number and number
+set; no other data types can be specified. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;If you specify any attributes that are part of an index key, then
+the data types for those attributes must match those of the schema in
+the table&apos;s attribute definition.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andKey:andAttributeUpdates:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary key for the specified key.
+This function will alloc and init key if not already done.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setAttributeUpdatesValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary attributeUpdates for the specified key.
+This function will alloc and init attributeUpdates if not already done.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setAttributeUpdatesValue:(DynamoDBAttributeValueUpdate *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setAttributeUpdatesValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/setExpectedValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary expected for the specified key.
+This function will alloc and init expected if not already done.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setExpectedValue:(DynamoDBExpectedAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setExpectedValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBUpdateItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBUpdateItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

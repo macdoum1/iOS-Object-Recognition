@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetObjectRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectRequest</TokenIdentifier>
+			<Abstract type="html">contains the parameters used for the getObject operation.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>
+			
+			<NodeRef refid="652"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setRangeStart:</TokenIdentifier>
+			<Abstract type="html">Specifies the starting index of the byte range to download</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int64_t rangeStart</Declaration>
+			
+			
+			<Anchor>//api/name/rangeStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/rangeStart</TokenIdentifier>
+			<Abstract type="html">Specifies the starting index of the byte range to download</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int64_t rangeStart</Declaration>
+			
+			
+			<Anchor>//api/name/rangeStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setRangeEnd:</TokenIdentifier>
+			<Abstract type="html">Specifies the end index of the byte range to download</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int64_t rangeEnd</Declaration>
+			
+			
+			<Anchor>//api/name/rangeEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/rangeEnd</TokenIdentifier>
+			<Abstract type="html">Specifies the end index of the byte range to download</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) int64_t rangeEnd</Declaration>
+			
+			
+			<Anchor>//api/name/rangeEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setIfModifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifModifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifModifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifModifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifModifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setIfUnmodifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifUnmodifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *ifUnmodifiedSince</Declaration>
+			
+			
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setIfMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Specifies the (optional) version to retrieve *</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">Specifies the (optional) version to retrieve *</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setIfNoneMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifNoneMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifNoneMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ifNoneMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ifNoneMatch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setOutputStream:</TokenIdentifier>
+			<Abstract type="html">Gets and Sets the output stream for the response data.
+&lt;p&gt;
+If this is set, then the response will write the data
+to the supplied stream instead of making it available through
+the data property.
+&lt;/p&gt;&lt;p&gt;
+The stream must be opened and scheduled in the desired runloop.
+The SDK will not close the stream.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSOutputStream *outputStream</Declaration>
+			
+			
+			<Anchor>//api/name/outputStream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/outputStream</TokenIdentifier>
+			<Abstract type="html">Gets and Sets the output stream for the response data.
+&lt;p&gt;
+If this is set, then the response will write the data
+to the supplied stream instead of making it available through
+the data property.
+&lt;/p&gt;&lt;p&gt;
+The stream must be opened and scheduled in the desired runloop.
+The SDK will not close the stream.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSOutputStream *outputStream</Declaration>
+			
+			
+			<Anchor>//api/name/outputStream</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setResponseHeaderOverrides:</TokenIdentifier>
+			<Abstract type="html">Specify one or more overrides to headers in the response to this request</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ResponseHeaderOverrides *responseHeaderOverrides</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaderOverrides</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/responseHeaderOverrides</TokenIdentifier>
+			<Abstract type="html">Specify one or more overrides to headers in the response to this request</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ResponseHeaderOverrides *responseHeaderOverrides</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaderOverrides</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setTargetFilePath:</TokenIdentifier>
+			<Abstract type="html">File path where the downloaded data will be stored</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *targetFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/targetFilePath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetObjectRequest/targetFilePath</TokenIdentifier>
+			<Abstract type="html">File path where the downloaded data will be stored</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *targetFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/targetFilePath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/initWithKey:withBucket:</TokenIdentifier>
+			<Abstract type="html">Initialize the request setting the key and bucketName properties.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (S3GetObjectRequest *)initWithKey:(NSString *)key withBucket:(NSString *)bucket</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKey:withBucket:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/initWithKey:withBucket:withVersionId:</TokenIdentifier>
+			<Abstract type="html">Initialize the request setting the key, bucketName and versionId properties.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (S3GetObjectRequest *)initWithKey:(NSString *)key withBucket:(NSString *)bucket withVersionId:(NSString *)versionId</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKey:withBucket:withVersionId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/setRangeStart:rangeEnd:</TokenIdentifier>
+			<Abstract type="html">sets the start and end of the range.</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setRangeStart:(int64_t)start rangeEnd:(int64_t)end</Declaration>
+			
+			
+			<Anchor>//api/name/setRangeStart:rangeEnd:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetObjectRequest/getRange</TokenIdentifier>
+			<Abstract type="html">returns the range in the form &apos;bytes=start-end&apos;</Abstract>
+			<DeclaredIn>S3GetObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)getRange</Declaration>
+			
+			
+			<Anchor>//api/name/getRange</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

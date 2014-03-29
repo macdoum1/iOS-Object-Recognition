@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest</TokenIdentifier>
+			<Abstract type="html">Detach Load Balancer From Subnets Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="546"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer to be detached. The name
+must be unique within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/loadBalancerName</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer to be detached. The name
+must be unique within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/setSubnets:</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs to remove from the set of configured subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/subnets</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs to remove from the set of configured subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/addSubnet:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to subnets.
+This function will alloc and init subnets if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSubnet:(NSString *)subnetObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSubnet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

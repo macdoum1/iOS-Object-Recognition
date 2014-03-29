@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2PurchaseReservedInstancesOfferingRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2PurchaseReservedInstancesOfferingRequest</TokenIdentifier>
+			<Abstract type="html">Purchase Reserved Instances Offering Request</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>
+			
+			<NodeRef refid="444"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PurchaseReservedInstancesOfferingRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/setReservedInstancesOfferingId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of the Reserved Instances offering being purchased.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesOfferingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PurchaseReservedInstancesOfferingRequest/reservedInstancesOfferingId</TokenIdentifier>
+			<Abstract type="html">The unique ID of the Reserved Instances offering being purchased.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservedInstancesOfferingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">The number of Reserved Instances to purchase.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PurchaseReservedInstancesOfferingRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">The number of Reserved Instances to purchase.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/setLimitPrice:</TokenIdentifier>
+			<Abstract type="html">The value of the LimitPrice property for this object.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2ReservedInstanceLimitPrice *limitPrice</Declaration>
+			
+			
+			<Anchor>//api/name/limitPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PurchaseReservedInstancesOfferingRequest/limitPrice</TokenIdentifier>
+			<Abstract type="html">The value of the LimitPrice property for this object.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2ReservedInstanceLimitPrice *limitPrice</Declaration>
+			
+			
+			<Anchor>//api/name/limitPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new PurchaseReservedInstancesOfferingRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/initWithReservedInstancesOfferingId:andInstanceCount:</TokenIdentifier>
+			<Abstract type="html">Constructs a new PurchaseReservedInstancesOfferingRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithReservedInstancesOfferingId:(NSString *)theReservedInstancesOfferingId andInstanceCount:(NSNumber *)theInstanceCount</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theReservedInstancesOfferingId</Name>
+					<Abstract type="html">The unique ID of the Reserved
+Instances offering being purchased.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstanceCount</Name>
+					<Abstract type="html">The number of Reserved Instances to purchase.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithReservedInstancesOfferingId:andInstanceCount:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PurchaseReservedInstancesOfferingRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2PurchaseReservedInstancesOfferingRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

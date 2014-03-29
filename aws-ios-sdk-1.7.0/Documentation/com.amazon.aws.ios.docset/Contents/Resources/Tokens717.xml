@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESGetIdentityDkimAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESGetIdentityDkimAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Get Identity Dkim Attributes Result</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="717"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityDkimAttributesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityDkimAttributesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityDkimAttributesResponse/setDkimAttributes:</TokenIdentifier>
+			<Abstract type="html">The DKIM attributes for an email address or a domain.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *dkimAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetIdentityDkimAttributesResponse/dkimAttributes</TokenIdentifier>
+			<Abstract type="html">The DKIM attributes for an email address or a domain.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *dkimAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityDkimAttributesResponse/dkimAttributesValueForKey:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the dkimAttributes dictionary for the specified key.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SESIdentityDkimAttributes *)dkimAttributesValueForKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/dkimAttributesValueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetIdentityDkimAttributesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESGetIdentityDkimAttributesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

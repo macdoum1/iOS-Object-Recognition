@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CompleteMultipartUploadResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a completeMultipartUpload operation.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadResponse.h</DeclaredIn>
+			
+			<NodeRef refid="608"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

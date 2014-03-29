@@ -1,0 +1,1309 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonSDKUtil Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonSDKUtil Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/MIMETypeForExtension:">&nbsp;&nbsp;&nbsp;&nbsp;+ MIMETypeForExtension:</option>
+	
+	<option value="//api/name/URLWithURL:andProtocol:">&nbsp;&nbsp;&nbsp;&nbsp;+ URLWithURL:andProtocol:</option>
+	
+	<option value="//api/name/convertDateToString:usingFormat:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertDateToString:usingFormat:</option>
+	
+	<option value="//api/name/convertStringToDate:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertStringToDate:</option>
+	
+	<option value="//api/name/convertStringToDate:usingFormat:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertStringToDate:usingFormat:</option>
+	
+	<option value="//api/name/convertStringToNumber:">&nbsp;&nbsp;&nbsp;&nbsp;+ convertStringToNumber:</option>
+	
+	<option value="//api/name/getRuntimeClockSkew">&nbsp;&nbsp;&nbsp;&nbsp;+ getRuntimeClockSkew</option>
+	
+	<option value="//api/name/hexDecode:">&nbsp;&nbsp;&nbsp;&nbsp;+ hexDecode:</option>
+	
+	<option value="//api/name/hexEncode:">&nbsp;&nbsp;&nbsp;&nbsp;+ hexEncode:</option>
+	
+	<option value="//api/name/hexEncodeData:">&nbsp;&nbsp;&nbsp;&nbsp;+ hexEncodeData:</option>
+	
+	<option value="//api/name/millisSinceEpochToDate:">&nbsp;&nbsp;&nbsp;&nbsp;+ millisSinceEpochToDate:</option>
+	
+	<option value="//api/name/secondsSinceEpochToDate:">&nbsp;&nbsp;&nbsp;&nbsp;+ secondsSinceEpochToDate:</option>
+	
+	<option value="//api/name/setRuntimeClockSkew:">&nbsp;&nbsp;&nbsp;&nbsp;+ setRuntimeClockSkew:</option>
+	
+	<option value="//api/name/timestampLocale">&nbsp;&nbsp;&nbsp;&nbsp;+ timestampLocale</option>
+	
+	<option value="//api/name/urlEncode:">&nbsp;&nbsp;&nbsp;&nbsp;+ urlEncode:</option>
+	
+	<option value="//api/name/userAgentString">&nbsp;&nbsp;&nbsp;&nbsp;+ userAgentString</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/MIMETypeForExtension:">MIMETypeForExtension:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/URLWithURL:andProtocol:">URLWithURL:andProtocol:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertDateToString:usingFormat:">convertDateToString:usingFormat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertStringToDate:">convertStringToDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertStringToDate:usingFormat:">convertStringToDate:usingFormat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertStringToNumber:">convertStringToNumber:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getRuntimeClockSkew">getRuntimeClockSkew</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hexDecode:">hexDecode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hexEncode:">hexEncode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hexEncodeData:">hexEncodeData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/millisSinceEpochToDate:">millisSinceEpochToDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/secondsSinceEpochToDate:">secondsSinceEpochToDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setRuntimeClockSkew:">setRuntimeClockSkew:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/timestampLocale">timestampLocale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/urlEncode:">urlEncode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userAgentString">userAgentString</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonSDKUtil Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonSDKUtil Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonSDKUtil.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Utility class for the AWS SDK for iOS.  Contains many common operations used
+by all supported services.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userAgentString">+&nbsp;userAgentString</a></code>
+		<span class="tooltip"><p>The user agent string for the SDK.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/MIMETypeForExtension:">+&nbsp;MIMETypeForExtension:</a></code>
+		<span class="tooltip"><p>Return a MIME type for the file based on extension.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/urlEncode:">+&nbsp;urlEncode:</a></code>
+		<span class="tooltip"><p>Encode a string to embed in a URL.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hexDecode:">+&nbsp;hexDecode:</a></code>
+		<span class="tooltip"><p>Hex decode a string value.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hexEncode:">+&nbsp;hexEncode:</a></code>
+		<span class="tooltip"><p>Hex encode a string value.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hexEncodeData:">+&nbsp;hexEncodeData:</a></code>
+		<span class="tooltip"><p>Hex encode a data value</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertStringToNumber:">+&nbsp;convertStringToNumber:</a></code>
+		<span class="tooltip"><p>Parse a number from an NSString value</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertStringToDate:">+&nbsp;convertStringToDate:</a></code>
+		<span class="tooltip"><p>Parse a date from an NSString value</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertStringToDate:usingFormat:">+&nbsp;convertStringToDate:usingFormat:</a></code>
+		<span class="tooltip"><p>Parse a date from an NSString value using a given format</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertDateToString:usingFormat:">+&nbsp;convertDateToString:usingFormat:</a></code>
+		<span class="tooltip"><p>Convert a NSDate to a NSString using a given format</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/millisSinceEpochToDate:">+&nbsp;millisSinceEpochToDate:</a></code>
+		<span class="tooltip"><p>Construct a date using the number of milliseconds from the epoch (00:00:00 1/1/1970 GMT)</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/secondsSinceEpochToDate:">+&nbsp;secondsSinceEpochToDate:</a></code>
+		<span class="tooltip"><p>Construct a date using the number of seconds from the epoch (00:00:00 1/1/1970 GMT)</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/URLWithURL:andProtocol:">+&nbsp;URLWithURL:andProtocol:</a></code>
+		<span class="tooltip"><p>Construct an NSURL object with a URI and protocol/scheme</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/timestampLocale">+&nbsp;timestampLocale</a></code>
+		<span class="tooltip"><p>Return the locale for the current device</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setRuntimeClockSkew:">+&nbsp;setRuntimeClockSkew:</a></code>
+		<span class="tooltip"><p>Set the clock skew for the current device.  This clock skew will be used for calculating
+signatures to AWS signatures and for parsing/converting date values from responses.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getRuntimeClockSkew">+&nbsp;getRuntimeClockSkew</a></code>
+		<span class="tooltip"><p>Get the clock skew for the current device.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/MIMETypeForExtension:" title="MIMETypeForExtension:"></a>
+	<h3 class="subsubtitle method-title">MIMETypeForExtension:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return a MIME type for the file based on extension.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)MIMETypeForExtension:(NSString *)<em>extension</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>extension</em></dt>
+			<dd><p>the extension for the file (gif, jpg, etc)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the expected MIME type to use for this type of file</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return a MIME type for the file based on extension.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/URLWithURL:andProtocol:" title="URLWithURL:andProtocol:"></a>
+	<h3 class="subsubtitle method-title">URLWithURL:andProtocol:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Construct an NSURL object with a URI and protocol/scheme</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSURL *)URLWithURL:(NSURL *)<em>theURL</em> andProtocol:(NSString *)<em>theProtocol</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theURL</em></dt>
+			<dd><p>the URL fragment (hostname + path)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theProtocol</em></dt>
+			<dd><p>scheme to use. Valid schemes are @&ldquo;http://&rdquo; and @&ldquo;https://&rdquo;</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSURL object for this path</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Construct an NSURL object with a URI and protocol/scheme</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertDateToString:usingFormat:" title="convertDateToString:usingFormat:"></a>
+	<h3 class="subsubtitle method-title">convertDateToString:usingFormat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Convert a NSDate to a NSString using a given format</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)convertDateToString:(NSDate *)<em>date</em> usingFormat:(NSString *)<em>dateFormat</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>date</em></dt>
+			<dd><p>the NSDate to convert</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dateFormat</em></dt>
+			<dd><p>the format to use</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The string representation of the date using the given format</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Convert a NSDate to a NSString using a given format</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertStringToDate:" title="convertStringToDate:"></a>
+	<h3 class="subsubtitle method-title">convertStringToDate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse a date from an NSString value</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)convertStringToDate:(NSString *)<em>string</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>NSString containing a date in ISO-8061 format</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The NSDate parsed from the string</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Parse a date from an NSString value</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertStringToDate:usingFormat:" title="convertStringToDate:usingFormat:"></a>
+	<h3 class="subsubtitle method-title">convertStringToDate:usingFormat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse a date from an NSString value using a given format</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)convertStringToDate:(NSString *)<em>string</em> usingFormat:(NSString *)<em>dateFormat</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>NSString containing a date</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dateFormat</em></dt>
+			<dd><p>The format of the date</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Parse a date from an NSString value using a given format</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertStringToNumber:" title="convertStringToNumber:"></a>
+	<h3 class="subsubtitle method-title">convertStringToNumber:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Parse a number from an NSString value</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSNumber *)convertStringToNumber:(NSString *)<em>string</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>NSString containing a number</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSNumber parsed from the string</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Parse a number from an NSString value</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getRuntimeClockSkew" title="getRuntimeClockSkew"></a>
+	<h3 class="subsubtitle method-title">getRuntimeClockSkew</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the clock skew for the current device.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSTimeInterval)getRuntimeClockSkew</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the skew (in seconds) currently set for this device.  Positive clock skew implies the device is fast, negative implies the device is slow.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get the clock skew for the current device.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hexDecode:" title="hexDecode:"></a>
+	<h3 class="subsubtitle method-title">hexDecode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Hex decode a string value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)hexDecode:(NSString *)<em>hexString</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>hexString</em></dt>
+			<dd><p>the string to attempt to decode</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The decoded data.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Hex decode a string value.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hexEncode:" title="hexEncode:"></a>
+	<h3 class="subsubtitle method-title">hexEncode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Hex encode a string value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)hexEncode:(NSString *)<em>string</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>string</em></dt>
+			<dd><p>the string to encode</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the hex encoded value as an NSString</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Hex encode a string value.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hexEncodeData:" title="hexEncodeData:"></a>
+	<h3 class="subsubtitle method-title">hexEncodeData:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Hex encode a data value</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)hexEncodeData:(NSData *)<em>data</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>value to encode</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the hex encoded value as an NSString</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Hex encode a data value</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/millisSinceEpochToDate:" title="millisSinceEpochToDate:"></a>
+	<h3 class="subsubtitle method-title">millisSinceEpochToDate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Construct a date using the number of milliseconds from the epoch (00:00:00 1/1/1970 GMT)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)millisSinceEpochToDate:(NSNumber *)<em>millisSinceEpoch</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>millisSinceEpoch</em></dt>
+			<dd><p>number of milliseconds since the epoch</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSDate for that exact time.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Construct a date using the number of milliseconds from the epoch (00:00:00 1/1/1970 GMT)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/secondsSinceEpochToDate:" title="secondsSinceEpochToDate:"></a>
+	<h3 class="subsubtitle method-title">secondsSinceEpochToDate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Construct a date using the number of seconds from the epoch (00:00:00 1/1/1970 GMT)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)secondsSinceEpochToDate:(NSNumber *)<em>secondsSinceEpoch</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>secondsSinceEpoch</em></dt>
+			<dd><p>number of seconds since the epoch</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSDate for that exact time.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Construct a date using the number of seconds from the epoch (00:00:00 1/1/1970 GMT)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setRuntimeClockSkew:" title="setRuntimeClockSkew:"></a>
+	<h3 class="subsubtitle method-title">setRuntimeClockSkew:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the clock skew for the current device.  This clock skew will be used for calculating
+signatures to AWS signatures and for parsing/converting date values from responses.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)setRuntimeClockSkew:(NSTimeInterval)<em>clockskew</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clockskew</em></dt>
+			<dd><p>the skew (in seconds) for this device.  If the clock on the device is fast, pass positive skew to correct.  If the clock on the device is slow, pass negative skew to correct.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the clock skew for the current device.  This clock skew will be used for calculating
+signatures to AWS signatures and for parsing/converting date values from responses.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/timestampLocale" title="timestampLocale"></a>
+	<h3 class="subsubtitle method-title">timestampLocale</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return the locale for the current device</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSLocale *)timestampLocale</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the NSLocale</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Return the locale for the current device</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/urlEncode:" title="urlEncode:"></a>
+	<h3 class="subsubtitle method-title">urlEncode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Encode a string to embed in a URL.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)urlEncode:(NSString *)<em>input</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>input</em></dt>
+			<dd><p>string to encode</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>encoded string</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Encode a string to embed in a URL.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userAgentString" title="userAgentString"></a>
+	<h3 class="subsubtitle method-title">userAgentString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The user agent string for the SDK.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)userAgentString</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the user agent string that will be used for service clients</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The user agent string for the SDK.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSDKUtil.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

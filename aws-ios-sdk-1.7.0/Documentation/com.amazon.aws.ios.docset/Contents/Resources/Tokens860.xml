@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSReceiveMessageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSReceiveMessageRequest</TokenIdentifier>
+			<Abstract type="html">Receive Message Request</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>
+			
+			<NodeRef refid="860"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSReceiveMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">A list of attributes that need to be returned along with each message.
+The set of valid attributes are [SenderId,
+ApproximateFirstReceiveTimestamp, ApproximateReceiveCount,
+SentTimestamp].</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSReceiveMessageRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">A list of attributes that need to be returned along with each message.
+The set of valid attributes are [SenderId,
+ApproximateFirstReceiveTimestamp, ApproximateReceiveCount,
+SentTimestamp].</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/setMaxNumberOfMessages:</TokenIdentifier>
+			<Abstract type="html">The maximum number of messages to return. Amazon SQS never returns
+more messages than this value but may return fewer. &lt;p&gt;All of the
+messages are not necessarily returned.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfMessages</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfMessages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSReceiveMessageRequest/maxNumberOfMessages</TokenIdentifier>
+			<Abstract type="html">The maximum number of messages to return. Amazon SQS never returns
+more messages than this value but may return fewer. &lt;p&gt;All of the
+messages are not necessarily returned.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfMessages</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfMessages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/setVisibilityTimeout:</TokenIdentifier>
+			<Abstract type="html">The duration (in seconds) that the received messages are hidden from
+subsequent retrieve requests after being retrieved by a
+&lt;code&gt;ReceiveMessage&lt;/code&gt; request.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSReceiveMessageRequest/visibilityTimeout</TokenIdentifier>
+			<Abstract type="html">The duration (in seconds) that the received messages are hidden from
+subsequent retrieve requests after being retrieved by a
+&lt;code&gt;ReceiveMessage&lt;/code&gt; request.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/setWaitTimeSeconds:</TokenIdentifier>
+			<Abstract type="html">The duration (in seconds) for which the call will wait for a message
+to arrive in the queue before returning. If a message is available,
+the call will return sooner than WaitTimeSeconds.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *waitTimeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/waitTimeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSReceiveMessageRequest/waitTimeSeconds</TokenIdentifier>
+			<Abstract type="html">The duration (in seconds) for which the call will wait for a message
+to arrive in the queue before returning. If a message is available,
+the call will return sooner than WaitTimeSeconds.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *waitTimeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/waitTimeSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ReceiveMessageRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/initWithQueueUrl:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReceiveMessageRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/addAttributeName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeNames.
+This function will alloc and init attributeNames if not already done.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeName:(NSString *)attributeNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSReceiveMessageRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSReceiveMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

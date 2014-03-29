@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSAddPermissionRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSAddPermissionRequest</TokenIdentifier>
+			<Abstract type="html">Add Permission Request</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>
+			
+			<NodeRef refid="821"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSAddPermissionRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/setLabel:</TokenIdentifier>
+			<Abstract type="html">The unique identification of the permission you&apos;re setting (e.g.,
+&lt;code&gt;AliceSendMessage&lt;/code&gt;). Constraints: Maximum 80 characters;
+alphanumeric characters, hyphens (-), and underscores (_) are allowed.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSAddPermissionRequest/label</TokenIdentifier>
+			<Abstract type="html">The unique identification of the permission you&apos;re setting (e.g.,
+&lt;code&gt;AliceSendMessage&lt;/code&gt;). Constraints: Maximum 80 characters;
+alphanumeric characters, hyphens (-), and underscores (_) are allowed.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/setAWSAccountIds:</TokenIdentifier>
+			<Abstract type="html">The AWS account number of the &lt;a
+AWSSimpleQueueService/latest/APIReference/Glossary.html&quot;&gt;principal&lt;/a&gt;
+who will be given permission. The principal must have an AWS account,
+but does not need to be signed up for Amazon SQS.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *aWSAccountIds</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccountIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSAddPermissionRequest/aWSAccountIds</TokenIdentifier>
+			<Abstract type="html">The AWS account number of the &lt;a
+AWSSimpleQueueService/latest/APIReference/Glossary.html&quot;&gt;principal&lt;/a&gt;
+who will be given permission. The principal must have an AWS account,
+but does not need to be signed up for Amazon SQS.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *aWSAccountIds</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccountIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/setActions:</TokenIdentifier>
+			<Abstract type="html">The action the client wants to allow for the specified principal.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actions</Declaration>
+			
+			
+			<Anchor>//api/name/actions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSAddPermissionRequest/actions</TokenIdentifier>
+			<Abstract type="html">The action the client wants to allow for the specified principal.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *actions</Declaration>
+			
+			
+			<Anchor>//api/name/actions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new AddPermissionRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/initWithQueueUrl:andLabel:andAWSAccountIds:andActions:</TokenIdentifier>
+			<Abstract type="html">Constructs a new AddPermissionRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl andLabel:(NSString *)theLabel andAWSAccountIds:(NSMutableArray *)theAWSAccountIds andActions:(NSMutableArray *)theActions</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter><Parameter>
+					<Name>theLabel</Name>
+					<Abstract type="html">The unique identification of the permission you&apos;re
+setting (e.g., &lt;code&gt;AliceSendMessage&lt;/code&gt;). Constraints: Maximum 80
+characters; alphanumeric characters, hyphens (-), and underscores (_)
+are allowed.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAWSAccountIds</Name>
+					<Abstract type="html">The AWS account number of the &lt;a
+AWSSimpleQueueService/latest/APIReference/Glossary.html&quot;&gt;principal&lt;/a&gt;
+who will be given permission. The principal must have an AWS account,
+but does not need to be signed up for Amazon SQS.</Abstract>
+				</Parameter><Parameter>
+					<Name>theActions</Name>
+					<Abstract type="html">The action the client wants to allow for the
+specified principal.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:andLabel:andAWSAccountIds:andActions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/addAWSAccountId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to aWSAccountIds.
+This function will alloc and init aWSAccountIds if not already done.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAWSAccountId:(NSString *)aWSAccountIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAWSAccountId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/addAction:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to actions.
+This function will alloc and init actions if not already done.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAction:(NSString *)actionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAction:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSAddPermissionRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSAddPermissionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

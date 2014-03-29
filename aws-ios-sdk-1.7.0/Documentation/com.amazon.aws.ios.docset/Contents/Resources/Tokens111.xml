@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingSetDesiredCapacityRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingSetDesiredCapacityRequest</TokenIdentifier>
+			<Abstract type="html">Set Desired Capacity Request</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>
+			
+			<NodeRef refid="111"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetDesiredCapacityRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetDesiredCapacityRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetDesiredCapacityRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetDesiredCapacityRequest/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">The new capacity setting for the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetDesiredCapacityRequest/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">The new capacity setting for the Auto Scaling group.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *desiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/desiredCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetDesiredCapacityRequest/setHonorCooldown:</TokenIdentifier>
+			<Abstract type="html">By default, &lt;code&gt;SetDesiredCapacity&lt;/code&gt; overrides any cooldown
+period associated with the Auto Scaling group. Set to
+&lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown
+period associated with the Auto Scaling group to complete before
+initiating a scaling activity to set your Auto Scaling group to the
+new capacity setting.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingSetDesiredCapacityRequest/honorCooldown</TokenIdentifier>
+			<Abstract type="html">By default, &lt;code&gt;SetDesiredCapacity&lt;/code&gt; overrides any cooldown
+period associated with the Auto Scaling group. Set to
+&lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown
+period associated with the Auto Scaling group to complete before
+initiating a scaling activity to set your Auto Scaling group to the
+new capacity setting.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingSetDesiredCapacityRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingSetDesiredCapacityRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

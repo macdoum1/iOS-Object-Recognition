@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CopyObjectResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CopyObjectResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a putObject operation.</Abstract>
+			<DeclaredIn>S3CopyObjectResponse.h</DeclaredIn>
+			
+			<NodeRef refid="611"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

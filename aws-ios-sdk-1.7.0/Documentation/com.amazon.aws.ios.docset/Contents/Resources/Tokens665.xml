@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListMultipartUploadsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListMultipartUploadsResult</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the listMultipartUploads method.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>
+			
+			<NodeRef refid="665"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setBucket:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket to list uploads.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket to list uploads.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setKeyMarker:</TokenIdentifier>
+			<Abstract type="html">The key at or after which the listing began.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/keyMarker</TokenIdentifier>
+			<Abstract type="html">The key at or after which the listing began.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/keyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setUploadIdMarker:</TokenIdentifier>
+			<Abstract type="html">Upload ID after which listing began.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/uploadIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/uploadIdMarker</TokenIdentifier>
+			<Abstract type="html">Upload ID after which listing began.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/uploadIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setNextKeyMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies the value that should be used for the key-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextKeyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextKeyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/nextKeyMarker</TokenIdentifier>
+			<Abstract type="html">Specifies the value that should be used for the key-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextKeyMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextKeyMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setNextUploadIdMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies the value that should be used for the upload-id-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextUploadIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextUploadIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/nextUploadIdMarker</TokenIdentifier>
+			<Abstract type="html">Specifies the value that should be used for the upload-id-marker request parameter in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextUploadIdMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextUploadIdMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">Contains the delimiter that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/delimiter</TokenIdentifier>
+			<Abstract type="html">Contains the delimiter that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setPrefix:</TokenIdentifier>
+			<Abstract type="html">Contains the prefix that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/prefix</TokenIdentifier>
+			<Abstract type="html">Contains the prefix that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setCommonPrefixes:</TokenIdentifier>
+			<Abstract type="html">If you specify a delimiter in the request, then the result returns each distinct key prefix containing the delimiter.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/commonPrefixes</TokenIdentifier>
+			<Abstract type="html">If you specify a delimiter in the request, then the result returns each distinct key prefix containing the delimiter.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setUploads:</TokenIdentifier>
+			<Abstract type="html">The list of S3MultipartUPload instance returned in the response.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *uploads</Declaration>
+			
+			
+			<Anchor>//api/name/uploads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/uploads</TokenIdentifier>
+			<Abstract type="html">The list of S3MultipartUPload instance returned in the response.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *uploads</Declaration>
+			
+			
+			<Anchor>//api/name/uploads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setMaxUploads:</TokenIdentifier>
+			<Abstract type="html">The maxUploads that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger maxUploads</Declaration>
+			
+			
+			<Anchor>//api/name/maxUploads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/maxUploads</TokenIdentifier>
+			<Abstract type="html">The maxUploads that was specified in the request.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger maxUploads</Declaration>
+			
+			
+			<Anchor>//api/name/maxUploads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListMultipartUploadsResult/setIsTruncated:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the returned list of multipart uploads is truncated.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListMultipartUploadsResult/isTruncated</TokenIdentifier>
+			<Abstract type="html">Indicates whether the returned list of multipart uploads is truncated.</Abstract>
+			<DeclaredIn>S3ListMultipartUploadsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) bool isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

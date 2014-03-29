@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchListMetricsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchListMetricsResponse</TokenIdentifier>
+			<Abstract type="html">List Metrics Result</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="150"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/setMetrics:</TokenIdentifier>
+			<Abstract type="html">A list of metrics used to generate statistics for an AWS account.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchListMetricsResponse/metrics</TokenIdentifier>
+			<Abstract type="html">A list of metrics used to generate statistics for an AWS account.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CloudWatchListMetricsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/metricsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the metrics array for the specified index</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (CloudWatchMetric *)metricsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/metricsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CloudWatchListMetricsResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>CloudWatchListMetricsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

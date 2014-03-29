@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketLifecycleConfigurationResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketLifecycleConfigurationResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the setBucketLifecycleConfigurationResponse operation.</Abstract>
+			<DeclaredIn>S3SetBucketLifecycleConfigurationResponse.h</DeclaredIn>
+			
+			<NodeRef refid="694"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

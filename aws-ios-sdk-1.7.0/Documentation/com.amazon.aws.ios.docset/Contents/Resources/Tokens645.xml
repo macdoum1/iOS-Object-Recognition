@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetBucketTaggingResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetBucketTaggingResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the getBucketTaggingResponse operation.</Abstract>
+			<DeclaredIn>S3GetBucketTaggingResponse.h</DeclaredIn>
+			
+			<NodeRef refid="645"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetBucketTaggingResponse/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The cost allocation tagging configuration represented by the XML</Abstract>
+			<DeclaredIn>S3GetBucketTaggingResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketTaggingConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetBucketTaggingResponse/configuration</TokenIdentifier>
+			<Abstract type="html">The cost allocation tagging configuration represented by the XML</Abstract>
+			<DeclaredIn>S3GetBucketTaggingResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3BucketTaggingConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

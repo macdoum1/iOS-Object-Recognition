@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteBucketPolicyRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketPolicyRequest</TokenIdentifier>
+			<Abstract type="html">Deletes the policy associated with the specified bucket. Only the owner
+of the bucket can delete the bucket policy.</Abstract>
+			<DeclaredIn>S3DeleteBucketPolicyRequest.h</DeclaredIn>
+			
+			<NodeRef refid="622"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

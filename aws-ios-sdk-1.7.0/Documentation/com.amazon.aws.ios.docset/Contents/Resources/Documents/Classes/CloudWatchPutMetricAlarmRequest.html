@@ -1,0 +1,1596 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CloudWatchPutMetricAlarmRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CloudWatchPutMetricAlarmRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/actionsEnabled">&nbsp;&nbsp;&nbsp;&nbsp;actionsEnabled</option>
+	
+	<option value="//api/name/alarmActions">&nbsp;&nbsp;&nbsp;&nbsp;alarmActions</option>
+	
+	<option value="//api/name/alarmDescription">&nbsp;&nbsp;&nbsp;&nbsp;alarmDescription</option>
+	
+	<option value="//api/name/alarmName">&nbsp;&nbsp;&nbsp;&nbsp;alarmName</option>
+	
+	<option value="//api/name/comparisonOperator">&nbsp;&nbsp;&nbsp;&nbsp;comparisonOperator</option>
+	
+	<option value="//api/name/dimensions">&nbsp;&nbsp;&nbsp;&nbsp;dimensions</option>
+	
+	<option value="//api/name/evaluationPeriods">&nbsp;&nbsp;&nbsp;&nbsp;evaluationPeriods</option>
+	
+	<option value="//api/name/insufficientDataActions">&nbsp;&nbsp;&nbsp;&nbsp;insufficientDataActions</option>
+	
+	<option value="//api/name/metricName">&nbsp;&nbsp;&nbsp;&nbsp;metricName</option>
+	
+	<option value="//api/name/namespace">&nbsp;&nbsp;&nbsp;&nbsp;namespace</option>
+	
+	<option value="//api/name/oKActions">&nbsp;&nbsp;&nbsp;&nbsp;oKActions</option>
+	
+	<option value="//api/name/period">&nbsp;&nbsp;&nbsp;&nbsp;period</option>
+	
+	<option value="//api/name/statistic">&nbsp;&nbsp;&nbsp;&nbsp;statistic</option>
+	
+	<option value="//api/name/threshold">&nbsp;&nbsp;&nbsp;&nbsp;threshold</option>
+	
+	<option value="//api/name/unit">&nbsp;&nbsp;&nbsp;&nbsp;unit</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAlarmAction:">&nbsp;&nbsp;&nbsp;&nbsp;- addAlarmAction:</option>
+	
+	<option value="//api/name/addDimension:">&nbsp;&nbsp;&nbsp;&nbsp;- addDimension:</option>
+	
+	<option value="//api/name/addInsufficientDataAction:">&nbsp;&nbsp;&nbsp;&nbsp;- addInsufficientDataAction:</option>
+	
+	<option value="//api/name/addOKAction:">&nbsp;&nbsp;&nbsp;&nbsp;- addOKAction:</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/actionsEnabled">actionsEnabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alarmActions">alarmActions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alarmDescription">alarmDescription</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alarmName">alarmName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/comparisonOperator">comparisonOperator</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dimensions">dimensions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/evaluationPeriods">evaluationPeriods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insufficientDataActions">insufficientDataActions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/metricName">metricName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/namespace">namespace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/oKActions">oKActions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/period">period</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/statistic">statistic</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/threshold">threshold</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unit">unit</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAlarmAction:">addAlarmAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addDimension:">addDimension:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addInsufficientDataAction:">addInsufficientDataAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addOKAction:">addOKAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CloudWatchPutMetricAlarmRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CloudWatchPutMetricAlarmRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonServiceRequestConfig.html">AmazonServiceRequestConfig</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CloudWatchPutMetricAlarmRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Put Metric Alarm Request</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alarmName">&nbsp;&nbsp;alarmName</a></code>
+		<span class="tooltip"><p>The descriptive name for the alarm. This name must be unique within
+the user&rsquo;s AWS account</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alarmDescription">&nbsp;&nbsp;alarmDescription</a></code>
+		<span class="tooltip"><p>The description for the alarm.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 255<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/actionsEnabled">&nbsp;&nbsp;actionsEnabled</a></code>
+		<span class="tooltip"><p>Indicates whether or not actions should be executed during any changes
+to the alarm&rsquo;s state.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/oKActions">&nbsp;&nbsp;oKActions</a></code>
+		<span class="tooltip"><p>The list of actions to execute when this alarm transitions into an
+<code>OK</code> state from any other state. Each action is specified
+as an Amazon Resource Number (ARN). Currently the only action
+supported is publishing to an Amazon SNS topic or an Amazon Auto
+Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alarmActions">&nbsp;&nbsp;alarmActions</a></code>
+		<span class="tooltip"><p>The list of actions to execute when this alarm transitions into an
+<code>ALARM</code> state from any other state. Each action is
+specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insufficientDataActions">&nbsp;&nbsp;insufficientDataActions</a></code>
+		<span class="tooltip"><p>The list of actions to execute when this alarm transitions into an
+<code>INSUFFICIENT_DATA</code> state from any other state. Each action
+is specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/metricName">&nbsp;&nbsp;metricName</a></code>
+		<span class="tooltip"><p>The name for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/namespace">&nbsp;&nbsp;namespace</a></code>
+		<span class="tooltip"><p>The namespace for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/>
+<b>Pattern: </b>[^:].*<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/statistic">&nbsp;&nbsp;statistic</a></code>
+		<span class="tooltip"><p>The statistic to apply to the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>SampleCount, Average, Sum, Minimum, Maximum</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dimensions">&nbsp;&nbsp;dimensions</a></code>
+		<span class="tooltip"><p>The dimensions for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 10<br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/period">&nbsp;&nbsp;period</a></code>
+		<span class="tooltip"><p>The period in seconds over which the specified statistic is applied.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>60 &ndash; <br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unit">&nbsp;&nbsp;unit</a></code>
+		<span class="tooltip"><p>The unit for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/evaluationPeriods">&nbsp;&nbsp;evaluationPeriods</a></code>
+		<span class="tooltip"><p>The number of periods over which data is compared to the specified
+threshold.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/threshold">&nbsp;&nbsp;threshold</a></code>
+		<span class="tooltip"><p>The value against which the specified statistic is compared.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/comparisonOperator">&nbsp;&nbsp;comparisonOperator</a></code>
+		<span class="tooltip"><p>The arithmetic operation to use when comparing the specified
+<code>Statistic</code> and <code>Threshold</code>. The specified
+<code>Statistic</code> value is used as the first operand.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addOKAction:">&ndash;&nbsp;addOKAction:</a></code>
+		<span class="tooltip"><p>Adds a single object to oKActions.
+This function will alloc and init oKActions if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAlarmAction:">&ndash;&nbsp;addAlarmAction:</a></code>
+		<span class="tooltip"><p>Adds a single object to alarmActions.
+This function will alloc and init alarmActions if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addInsufficientDataAction:">&ndash;&nbsp;addInsufficientDataAction:</a></code>
+		<span class="tooltip"><p>Adds a single object to insufficientDataActions.
+This function will alloc and init insufficientDataActions if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addDimension:">&ndash;&nbsp;addDimension:</a></code>
+		<span class="tooltip"><p>Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/actionsEnabled" title="actionsEnabled"></a>
+	<h3 class="subsubtitle method-title">actionsEnabled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether or not actions should be executed during any changes
+to the alarm&rsquo;s state.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL actionsEnabled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether or not actions should be executed during any changes
+to the alarm&rsquo;s state.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/alarmActions" title="alarmActions"></a>
+	<h3 class="subsubtitle method-title">alarmActions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The list of actions to execute when this alarm transitions into an
+<code>ALARM</code> state from any other state. Each action is
+specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *alarmActions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The list of actions to execute when this alarm transitions into an
+<code>ALARM</code> state from any other state. Each action is
+specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/alarmDescription" title="alarmDescription"></a>
+	<h3 class="subsubtitle method-title">alarmDescription</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The description for the alarm.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 255<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *alarmDescription</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The description for the alarm.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 255<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/alarmName" title="alarmName"></a>
+	<h3 class="subsubtitle method-title">alarmName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The descriptive name for the alarm. This name must be unique within
+the user&rsquo;s AWS account</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *alarmName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The descriptive name for the alarm. This name must be unique within
+the user&rsquo;s AWS account</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/comparisonOperator" title="comparisonOperator"></a>
+	<h3 class="subsubtitle method-title">comparisonOperator</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The arithmetic operation to use when comparing the specified
+<code>Statistic</code> and <code>Threshold</code>. The specified
+<code>Statistic</code> value is used as the first operand.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *comparisonOperator</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The arithmetic operation to use when comparing the specified
+<code>Statistic</code> and <code>Threshold</code>. The specified
+<code>Statistic</code> value is used as the first operand.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dimensions" title="dimensions"></a>
+	<h3 class="subsubtitle method-title">dimensions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The dimensions for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 10<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *dimensions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The dimensions for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 10<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/evaluationPeriods" title="evaluationPeriods"></a>
+	<h3 class="subsubtitle method-title">evaluationPeriods</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The number of periods over which data is compared to the specified
+threshold.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *evaluationPeriods</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The number of periods over which data is compared to the specified
+threshold.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>1 &ndash; <br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insufficientDataActions" title="insufficientDataActions"></a>
+	<h3 class="subsubtitle method-title">insufficientDataActions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The list of actions to execute when this alarm transitions into an
+<code>INSUFFICIENT_DATA</code> state from any other state. Each action
+is specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *insufficientDataActions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The list of actions to execute when this alarm transitions into an
+<code>INSUFFICIENT_DATA</code> state from any other state. Each action
+is specified as an Amazon Resource Number (ARN). Currently the only
+action supported is publishing to an Amazon SNS topic or an Amazon
+Auto Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/metricName" title="metricName"></a>
+	<h3 class="subsubtitle method-title">metricName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *metricName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/namespace" title="namespace"></a>
+	<h3 class="subsubtitle method-title">namespace</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The namespace for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/>
+<b>Pattern: </b>[^:].*<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *namespace</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The namespace for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>1 &ndash; 255<br/>
+<b>Pattern: </b>[^:].*<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/oKActions" title="oKActions"></a>
+	<h3 class="subsubtitle method-title">oKActions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The list of actions to execute when this alarm transitions into an
+<code>OK</code> state from any other state. Each action is specified
+as an Amazon Resource Number (ARN). Currently the only action
+supported is publishing to an Amazon SNS topic or an Amazon Auto
+Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *oKActions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The list of actions to execute when this alarm transitions into an
+<code>OK</code> state from any other state. Each action is specified
+as an Amazon Resource Number (ARN). Currently the only action
+supported is publishing to an Amazon SNS topic or an Amazon Auto
+Scaling policy.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Length: </b>0 &ndash; 5<br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/period" title="period"></a>
+	<h3 class="subsubtitle method-title">period</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The period in seconds over which the specified statistic is applied.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>60 &ndash; <br/></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *period</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The period in seconds over which the specified statistic is applied.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Range: </b>60 &ndash; <br/></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/statistic" title="statistic"></a>
+	<h3 class="subsubtitle method-title">statistic</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The statistic to apply to the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>SampleCount, Average, Sum, Minimum, Maximum</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *statistic</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The statistic to apply to the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>SampleCount, Average, Sum, Minimum, Maximum</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/threshold" title="threshold"></a>
+	<h3 class="subsubtitle method-title">threshold</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The value against which the specified statistic is compared.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *threshold</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The value against which the specified statistic is compared.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unit" title="unit"></a>
+	<h3 class="subsubtitle method-title">unit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The unit for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *unit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The unit for the alarm&rsquo;s associated metric.</p>
+
+<p><p>
+<b>Constraints:</b><br/>
+<b>Allowed Values: </b>Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, None</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAlarmAction:" title="addAlarmAction:"></a>
+	<h3 class="subsubtitle method-title">addAlarmAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to alarmActions.
+This function will alloc and init alarmActions if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAlarmAction:(NSString *)<em>alarmActionObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to alarmActions.
+This function will alloc and init alarmActions if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addDimension:" title="addDimension:"></a>
+	<h3 class="subsubtitle method-title">addDimension:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addDimension:(CloudWatchDimension *)<em>dimensionObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to dimensions.
+This function will alloc and init dimensions if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addInsufficientDataAction:" title="addInsufficientDataAction:"></a>
+	<h3 class="subsubtitle method-title">addInsufficientDataAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to insufficientDataActions.
+This function will alloc and init insufficientDataActions if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addInsufficientDataAction:(NSString *)<em>insufficientDataActionObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to insufficientDataActions.
+This function will alloc and init insufficientDataActions if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addOKAction:" title="addOKAction:"></a>
+	<h3 class="subsubtitle method-title">addOKAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to oKActions.
+This function will alloc and init oKActions if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addOKAction:(NSString *)<em>oKActionObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to oKActions.
+This function will alloc and init oKActions if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CloudWatchPutMetricAlarmRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListPartsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListPartsResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from a listParts operation.</Abstract>
+			<DeclaredIn>S3ListPartsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="670"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

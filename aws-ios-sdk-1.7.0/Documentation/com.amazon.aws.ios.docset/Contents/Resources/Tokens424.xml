@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ModifyImageAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyImageAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Modify Image Attribute Request</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="424"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">The ID of the AMI whose attribute you want to modify.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">The ID of the AMI whose attribute you want to modify.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">The name of the AMI attribute you want to modify. &lt;p&gt; Available
+attributes: &lt;code&gt;launchPermission&lt;/code&gt;, &lt;code&gt;productCodes&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">The name of the AMI attribute you want to modify. &lt;p&gt; Available
+attributes: &lt;code&gt;launchPermission&lt;/code&gt;, &lt;code&gt;productCodes&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setOperationType:</TokenIdentifier>
+			<Abstract type="html">The type of operation being requested. &lt;p&gt; Available operation types:
+&lt;code&gt;add&lt;/code&gt;, &lt;code&gt;remove&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *operationType</Declaration>
+			
+			
+			<Anchor>//api/name/operationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/operationType</TokenIdentifier>
+			<Abstract type="html">The type of operation being requested. &lt;p&gt; Available operation types:
+&lt;code&gt;add&lt;/code&gt;, &lt;code&gt;remove&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *operationType</Declaration>
+			
+			
+			<Anchor>//api/name/operationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setUserIds:</TokenIdentifier>
+			<Abstract type="html">The AWS user ID being added to or removed from the list of users with
+launch permissions for this AMI. Only valid when the launchPermission
+attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userIds</Declaration>
+			
+			
+			<Anchor>//api/name/userIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/userIds</TokenIdentifier>
+			<Abstract type="html">The AWS user ID being added to or removed from the list of users with
+launch permissions for this AMI. Only valid when the launchPermission
+attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userIds</Declaration>
+			
+			
+			<Anchor>//api/name/userIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setUserGroups:</TokenIdentifier>
+			<Abstract type="html">The user group being added to or removed from the list of user groups
+with launch permissions for this AMI. Only valid when the
+launchPermission attribute is being modified. &lt;p&gt; Available user
+groups: &lt;code&gt;all&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userGroups</Declaration>
+			
+			
+			<Anchor>//api/name/userGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/userGroups</TokenIdentifier>
+			<Abstract type="html">The user group being added to or removed from the list of user groups
+with launch permissions for this AMI. Only valid when the
+launchPermission attribute is being modified. &lt;p&gt; Available user
+groups: &lt;code&gt;all&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userGroups</Declaration>
+			
+			
+			<Anchor>//api/name/userGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">The list of product codes being added to or removed from the specified
+AMI. Only valid when the productCodes attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/productCodes</TokenIdentifier>
+			<Abstract type="html">The list of product codes being added to or removed from the specified
+AMI. Only valid when the productCodes attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of the attribute being modified. Only valid when the
+description attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">The value of the attribute being modified. Only valid when the
+description attribute is being modified.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setLaunchPermission:</TokenIdentifier>
+			<Abstract type="html">The value of the LaunchPermission property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2LaunchPermissionModifications *launchPermission</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/launchPermission</TokenIdentifier>
+			<Abstract type="html">The value of the LaunchPermission property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2LaunchPermissionModifications *launchPermission</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermission</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyImageAttributeRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">String value</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ModifyImageAttributeRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/initWithImageId:andAttribute:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ModifyImageAttributeRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImageId:(NSString *)theImageId andAttribute:(NSString *)theAttribute</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theImageId</Name>
+					<Abstract type="html">The ID of the AMI whose attribute you want to
+modify.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAttribute</Name>
+					<Abstract type="html">The name of the AMI attribute you want to modify.
+&lt;p&gt; Available attributes: &lt;code&gt;launchPermission&lt;/code&gt;,
+&lt;code&gt;productCodes&lt;/code&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImageId:andAttribute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/addUserId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to userIds.
+This function will alloc and init userIds if not already done.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addUserId:(NSString *)userIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addUserId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/addUserGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to userGroups.
+This function will alloc and init userGroups if not already done.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addUserGroup:(NSString *)userGroupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addUserGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/addProductCode:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addProductCode:(NSString *)productCodeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addProductCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyImageAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ModifyImageAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

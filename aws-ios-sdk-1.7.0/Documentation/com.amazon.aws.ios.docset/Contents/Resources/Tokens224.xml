@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Address.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Address</TokenIdentifier>
+			<Abstract type="html">Address</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>
+			
+			<NodeRef refid="224"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setInstanceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setPublicIp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/publicIp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setAllocationId:</TokenIdentifier>
+			<Abstract type="html">The value of the AllocationId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/allocationId</TokenIdentifier>
+			<Abstract type="html">The value of the AllocationId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setAssociationId:</TokenIdentifier>
+			<Abstract type="html">The value of the AssociationId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/associationId</TokenIdentifier>
+			<Abstract type="html">The value of the AssociationId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setDomain:</TokenIdentifier>
+			<Abstract type="html">The value of the Domain property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;vpc, standard</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/domain</TokenIdentifier>
+			<Abstract type="html">The value of the Domain property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;vpc, standard</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setNetworkInterfaceOwnerId:</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceOwnerId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceOwnerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/networkInterfaceOwnerId</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceOwnerId property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceOwnerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Address/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Address/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Address.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

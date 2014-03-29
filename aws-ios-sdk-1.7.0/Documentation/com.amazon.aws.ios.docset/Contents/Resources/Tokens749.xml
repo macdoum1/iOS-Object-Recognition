@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESVerifyDomainDkimRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESVerifyDomainDkimRequest</TokenIdentifier>
+			<Abstract type="html">Verify Domain Dkim Request</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>
+			
+			<NodeRef refid="749"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/setDomain:</TokenIdentifier>
+			<Abstract type="html">The name of the domain to be verified for Easy DKIM signing.</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESVerifyDomainDkimRequest/domain</TokenIdentifier>
+			<Abstract type="html">The name of the domain to be verified for Easy DKIM signing.</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESVerifyDomainDkimRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESVerifyDomainDkimRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

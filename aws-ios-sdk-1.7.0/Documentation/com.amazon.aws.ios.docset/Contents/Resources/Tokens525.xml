@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingCreateLoadBalancerListenersResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingCreateLoadBalancerListenersResponse</TokenIdentifier>
+			<Abstract type="html">Create Load Balancer Listeners</Abstract>
+			<DeclaredIn>ElasticLoadBalancingCreateLoadBalancerListenersResponse.h</DeclaredIn>
+			
+			<NodeRef refid="525"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

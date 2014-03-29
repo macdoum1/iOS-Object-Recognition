@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESGetSendQuotaResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESGetSendQuotaResponse</TokenIdentifier>
+			<Abstract type="html">Get Send Quota Result</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>
+			
+			<NodeRef refid="723"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setMax24HourSend:</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send in a 24-hour
+interval.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *max24HourSend</Declaration>
+			
+			
+			<Anchor>//api/name/max24HourSend</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send in a 24-hour
+interval.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *max24HourSend</Declaration>
+			
+			
+			<Anchor>//api/name/max24HourSend</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setMaxSendRate:</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send per second.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSendRate</Declaration>
+			
+			
+			<Anchor>//api/name/maxSendRate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
+			<Abstract type="html">The maximum number of emails the user is allowed to send per second.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxSendRate</Declaration>
+			
+			
+			<Anchor>//api/name/maxSendRate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/setSentLast24Hours:</TokenIdentifier>
+			<Abstract type="html">The number of emails sent during the previous 24 hours.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sentLast24Hours</Declaration>
+			
+			
+			<Anchor>//api/name/sentLast24Hours</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
+			<Abstract type="html">The number of emails sent during the previous 24 hours.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *sentLast24Hours</Declaration>
+			
+			
+			<Anchor>//api/name/sentLast24Hours</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESGetSendQuotaResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESGetSendQuotaResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

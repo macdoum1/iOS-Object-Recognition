@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3VersionSummary.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3VersionSummary</TokenIdentifier>
+			<Abstract type="html">Contains the summary of a version stored in an Amazon S3 bucket.
+This object doesn&apos;t contain the version&apos;s full metadata or any of its contents.</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>
+			
+			<NodeRef refid="708"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3VersionSummary/setVersionId:</TokenIdentifier>
+			<Abstract type="html">The version ID uniquely identifying this version of an object</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3VersionSummary/versionId</TokenIdentifier>
+			<Abstract type="html">The version ID uniquely identifying this version of an object</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3VersionSummary/setIsLatest:</TokenIdentifier>
+			<Abstract type="html">True if this is the latest version of the associated object</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isLatest</Declaration>
+			
+			
+			<Anchor>//api/name/isLatest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3VersionSummary/isLatest</TokenIdentifier>
+			<Abstract type="html">True if this is the latest version of the associated object</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isLatest</Declaration>
+			
+			
+			<Anchor>//api/name/isLatest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3VersionSummary/setIsDeleteMarker:</TokenIdentifier>
+			<Abstract type="html">True if this object is a delete marker.</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isDeleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/isDeleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3VersionSummary/isDeleteMarker</TokenIdentifier>
+			<Abstract type="html">True if this object is a delete marker.</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isDeleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/isDeleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3VersionSummary/description</TokenIdentifier>
+			<Abstract type="html">The string representation of the S3VersionSummary</Abstract>
+			<DeclaredIn>S3VersionSummary.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

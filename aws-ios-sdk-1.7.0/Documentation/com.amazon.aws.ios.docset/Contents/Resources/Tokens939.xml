@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBSelectResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBSelectResponse</TokenIdentifier>
+			<Abstract type="html">Select Result</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>
+			
+			<NodeRef refid="939"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setItems:</TokenIdentifier>
+			<Abstract type="html">A list of items that match the select expression.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBSelectResponse/items</TokenIdentifier>
+			<Abstract type="html">A list of items that match the select expression.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">An opaque token indicating that more items than
+&lt;code&gt;MaxNumberOfItems&lt;/code&gt; were matched, the response size exceeded
+1 megabyte, or the execution time exceeded 5 seconds.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBSelectResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">An opaque token indicating that more items than
+&lt;code&gt;MaxNumberOfItems&lt;/code&gt; were matched, the response size exceeded
+1 megabyte, or the execution time exceeded 5 seconds.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/itemsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the items array for the specified index</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>- (SimpleDBItem *)itemsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/itemsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBSelectResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBSelectResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

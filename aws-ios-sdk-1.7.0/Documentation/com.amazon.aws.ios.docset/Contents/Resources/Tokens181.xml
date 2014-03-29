@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBDeleteRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBDeleteRequest</TokenIdentifier>
+			<Abstract type="html">Delete Request</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>
+			
+			<NodeRef refid="181"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">A map of attribute name to attribute values, representing the primary
+key of the item to delete. All of the table&apos;s primary key attributes
+must be specified, and their data types must match those of the
+table&apos;s key schema.</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteRequest/key</TokenIdentifier>
+			<Abstract type="html">A map of attribute name to attribute values, representing the primary
+key of the item to delete. All of the table&apos;s primary key attributes
+must be specified, and their data types must match those of the
+table&apos;s key schema.</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteRequest/setKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary key for the specified key.
+This function will alloc and init key if not already done.</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBDeleteRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

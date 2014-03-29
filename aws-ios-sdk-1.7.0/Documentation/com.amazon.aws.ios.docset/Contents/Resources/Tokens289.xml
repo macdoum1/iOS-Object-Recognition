@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteSnapshotResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSnapshotResponse</TokenIdentifier>
+			<Abstract type="html">Delete Snapshot</Abstract>
+			<DeclaredIn>EC2DeleteSnapshotResponse.h</DeclaredIn>
+			
+			<NodeRef refid="289"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

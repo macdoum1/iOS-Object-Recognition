@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2InstanceNetworkInterface.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2InstanceNetworkInterface</TokenIdentifier>
+			<Abstract type="html">Instance Network Interface</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>
+			
+			<NodeRef refid="405"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaceId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">The value of the SubnetId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/subnetId</TokenIdentifier>
+			<Abstract type="html">The value of the SubnetId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setVpcId:</TokenIdentifier>
+			<Abstract type="html">The value of the VpcId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/vpcId</TokenIdentifier>
+			<Abstract type="html">The value of the VpcId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">The value of the OwnerId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/ownerId</TokenIdentifier>
+			<Abstract type="html">The value of the OwnerId property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available, attaching, in-use, detaching</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/status</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available, attaching, in-use, detaching</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddress property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setPrivateDnsName:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateDnsName property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/privateDnsName</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateDnsName property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">The value of the SourceDestCheck property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">The value of the SourceDestCheck property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setGroups:</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/groups</TokenIdentifier>
+			<Abstract type="html">The value of the Groups property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setAttachment:</TokenIdentifier>
+			<Abstract type="html">The value of the Attachment property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAttachment *attachment</Declaration>
+			
+			
+			<Anchor>//api/name/attachment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/attachment</TokenIdentifier>
+			<Abstract type="html">The value of the Attachment property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAttachment *attachment</Declaration>
+			
+			
+			<Anchor>//api/name/attachment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setAssociation:</TokenIdentifier>
+			<Abstract type="html">The value of the Association property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			
+			
+			<Anchor>//api/name/association</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/association</TokenIdentifier>
+			<Abstract type="html">The value of the Association property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			
+			
+			<Anchor>//api/name/association</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddresses property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2InstanceNetworkInterface/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">The value of the PrivateIpAddresses property for this object.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/addGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groups.
+This function will alloc and init groups if not already done.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroup:(EC2GroupIdentifier *)groupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/addPrivateIpAddresse:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to privateIpAddresses.
+This function will alloc and init privateIpAddresses if not already done.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPrivateIpAddresse:(EC2InstancePrivateIpAddress *)privateIpAddresseObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPrivateIpAddresse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2InstanceNetworkInterface/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2InstanceNetworkInterface.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingScalingPolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingScalingPolicy</TokenIdentifier>
+			<Abstract type="html">Scaling Policy</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group associated with this scaling
+policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the Auto Scaling group associated with this scaling
+policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">The name of the scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/policyName</TokenIdentifier>
+			<Abstract type="html">The name of the scaling policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setScalingAdjustment:</TokenIdentifier>
+			<Abstract type="html">The number associated with the specified adjustment type. A positive
+value adds to the current capacity and a negative value removes from
+the current capacity.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *scalingAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/scalingAdjustment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/scalingAdjustment</TokenIdentifier>
+			<Abstract type="html">The number associated with the specified adjustment type. A positive
+value adds to the current capacity and a negative value removes from
+the current capacity.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *scalingAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/scalingAdjustment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setAdjustmentType:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the &lt;code&gt;ScalingAdjustment&lt;/code&gt; is an absolute
+number or a percentage of the current capacity. Valid values are
+&lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and
+&lt;code&gt;PercentChangeInCapacity&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *adjustmentType</Declaration>
+			
+			
+			<Anchor>//api/name/adjustmentType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/adjustmentType</TokenIdentifier>
+			<Abstract type="html">Specifies whether the &lt;code&gt;ScalingAdjustment&lt;/code&gt; is an absolute
+number or a percentage of the current capacity. Valid values are
+&lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and
+&lt;code&gt;PercentChangeInCapacity&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *adjustmentType</Declaration>
+			
+			
+			<Anchor>//api/name/adjustmentType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setCooldown:</TokenIdentifier>
+			<Abstract type="html">The amount of time, in seconds, after a scaling activity completes
+before any further trigger-related scaling activities can start.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *cooldown</Declaration>
+			
+			
+			<Anchor>//api/name/cooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/cooldown</TokenIdentifier>
+			<Abstract type="html">The amount of time, in seconds, after a scaling activity completes
+before any further trigger-related scaling activities can start.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *cooldown</Declaration>
+			
+			
+			<Anchor>//api/name/cooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setPolicyARN:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyARN</Declaration>
+			
+			
+			<Anchor>//api/name/policyARN</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/policyARN</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) of the policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyARN</Declaration>
+			
+			
+			<Anchor>//api/name/policyARN</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setAlarms:</TokenIdentifier>
+			<Abstract type="html">A list of CloudWatch Alarms related to the policy.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarms</Declaration>
+			
+			
+			<Anchor>//api/name/alarms</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/alarms</TokenIdentifier>
+			<Abstract type="html">A list of CloudWatch Alarms related to the policy.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *alarms</Declaration>
+			
+			
+			<Anchor>//api/name/alarms</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/setMinAdjustmentStep:</TokenIdentifier>
+			<Abstract type="html">Changes the &lt;code&gt;DesiredCapacity&lt;/code&gt; of the Auto Scaling group by
+at least the specified number of instances.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minAdjustmentStep</Declaration>
+			
+			
+			<Anchor>//api/name/minAdjustmentStep</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingScalingPolicy/minAdjustmentStep</TokenIdentifier>
+			<Abstract type="html">Changes the &lt;code&gt;DesiredCapacity&lt;/code&gt; of the Auto Scaling group by
+at least the specified number of instances.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *minAdjustmentStep</Declaration>
+			
+			
+			<Anchor>//api/name/minAdjustmentStep</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/addAlarm:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to alarms.
+This function will alloc and init alarms if not already done.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAlarm:(AutoScalingAlarm *)alarmObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAlarm:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingScalingPolicy/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingScalingPolicy.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

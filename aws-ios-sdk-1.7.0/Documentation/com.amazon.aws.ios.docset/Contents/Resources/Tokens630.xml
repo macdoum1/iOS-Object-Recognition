@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteObjectRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectRequest</TokenIdentifier>
+			<Abstract type="html">Request object for DeleteObject.</Abstract>
+			<DeclaredIn>S3DeleteObjectRequest.h</DeclaredIn>
+			
+			<NodeRef refid="630"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectRequest/setMfaAuth:</TokenIdentifier>
+			<Abstract type="html">The concatenation of the multi-factor authentication device&apos;s serial number,
+a space, and the value displayed on your authentication device.</Abstract>
+			<DeclaredIn>S3DeleteObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mfaAuth</Declaration>
+			
+			
+			<Anchor>//api/name/mfaAuth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectRequest/mfaAuth</TokenIdentifier>
+			<Abstract type="html">The concatenation of the multi-factor authentication device&apos;s serial number,
+a space, and the value displayed on your authentication device.</Abstract>
+			<DeclaredIn>S3DeleteObjectRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mfaAuth</Declaration>
+			
+			
+			<Anchor>//api/name/mfaAuth</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

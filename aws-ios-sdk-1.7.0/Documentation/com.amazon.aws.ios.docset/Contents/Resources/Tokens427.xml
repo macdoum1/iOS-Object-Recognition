@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ModifyInstanceAttributeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyInstanceAttributeResponse</TokenIdentifier>
+			<Abstract type="html">Modify Instance Attribute</Abstract>
+			<DeclaredIn>EC2ModifyInstanceAttributeResponse.h</DeclaredIn>
+			
+			<NodeRef refid="427"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

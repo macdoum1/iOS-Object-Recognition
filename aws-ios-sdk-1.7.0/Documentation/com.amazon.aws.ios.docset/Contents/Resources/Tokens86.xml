@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingExecutePolicyResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingExecutePolicyResponse</TokenIdentifier>
+			<Abstract type="html">Execute Policy</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyResponse.h</DeclaredIn>
+			
+			<NodeRef refid="86"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

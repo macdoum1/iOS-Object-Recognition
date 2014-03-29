@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreateTagsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreateTagsResponse</TokenIdentifier>
+			<Abstract type="html">Create Tags</Abstract>
+			<DeclaredIn>EC2CreateTagsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="275"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

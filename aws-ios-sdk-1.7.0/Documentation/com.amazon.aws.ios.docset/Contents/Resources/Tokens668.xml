@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListObjectsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListObjectsResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>
+			
+			<NodeRef refid="668"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setObjectSummaries:</TokenIdentifier>
+			<Abstract type="html">The list of buckets</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objectSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/objectSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/objectSummaries</TokenIdentifier>
+			<Abstract type="html">The list of buckets</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objectSummaries</Declaration>
+			
+			
+			<Anchor>//api/name/objectSummaries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setBucketName:</TokenIdentifier>
+			<Abstract type="html">The bucket name</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucketName</Declaration>
+			
+			
+			<Anchor>//api/name/bucketName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/bucketName</TokenIdentifier>
+			<Abstract type="html">The bucket name</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucketName</Declaration>
+			
+			
+			<Anchor>//api/name/bucketName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setPrefix:</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/prefix</TokenIdentifier>
+			<Abstract type="html">The prefix parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setMarker:</TokenIdentifier>
+			<Abstract type="html">The marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/marker</TokenIdentifier>
+			<Abstract type="html">The marker parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/maxKeys</TokenIdentifier>
+			<Abstract type="html">The maxKeys parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxKeys</Declaration>
+			
+			
+			<Anchor>//api/name/maxKeys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/delimiter</TokenIdentifier>
+			<Abstract type="html">The delimiter parameter originally specified by the caller.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *delimiter</Declaration>
+			
+			
+			<Anchor>//api/name/delimiter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setIsTruncated:</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/isTruncated</TokenIdentifier>
+			<Abstract type="html">Indicates if this is  a complete listing or if caller needs
+to make additional requests.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListObjectsResult/setCommonPrefixes:</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListObjectsResult/commonPrefixes</TokenIdentifier>
+			<Abstract type="html">A list of common prefixes.  Will only be specified for requests
+that include a delimiter.</Abstract>
+			<DeclaredIn>S3ListObjectsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *commonPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/commonPrefixes</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceAssumeRoleResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceAssumeRoleResponse</TokenIdentifier>
+			<Abstract type="html">Assume Role Result</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>
+			
+			<NodeRef refid="876"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/setCredentials:</TokenIdentifier>
+			<Abstract type="html">The temporary security credentials, which include an access key ID, a
+secret access key, and a security token.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SecurityTokenServiceCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleResponse/credentials</TokenIdentifier>
+			<Abstract type="html">The temporary security credentials, which include an access key ID, a
+secret access key, and a security token.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SecurityTokenServiceCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/setAssumedRoleUser:</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) and the assumed role ID, which are
+identifiers that you can use to refer to the resulting temporary
+security credentials. For example, you can reference these credentials
+as a principal in a resource-based policy by using the ARN or assumed
+role ID. The ARN and ID include the &lt;code&gt;RoleSessionName&lt;/code&gt; that
+you specified when you called &lt;code&gt;AssumeRole&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SecurityTokenServiceAssumedRoleUser *assumedRoleUser</Declaration>
+			
+			
+			<Anchor>//api/name/assumedRoleUser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleResponse/assumedRoleUser</TokenIdentifier>
+			<Abstract type="html">The Amazon Resource Name (ARN) and the assumed role ID, which are
+identifiers that you can use to refer to the resulting temporary
+security credentials. For example, you can reference these credentials
+as a principal in a resource-based policy by using the ARN or assumed
+role ID. The ARN and ID include the &lt;code&gt;RoleSessionName&lt;/code&gt; that
+you specified when you called &lt;code&gt;AssumeRole&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SecurityTokenServiceAssumedRoleUser *assumedRoleUser</Declaration>
+			
+			
+			<Anchor>//api/name/assumedRoleUser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/setPackedPolicySize:</TokenIdentifier>
+			<Abstract type="html">A percentage value that indicates the size of the policy in packed
+form. The service rejects any policy with a packed size greater than
+100 percent, which means the policy exceeded the allowed space.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;0 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packedPolicySize</Declaration>
+			
+			
+			<Anchor>//api/name/packedPolicySize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceAssumeRoleResponse/packedPolicySize</TokenIdentifier>
+			<Abstract type="html">A percentage value that indicates the size of the policy in packed
+form. The service rejects any policy with a packed size greater than
+100 percent, which means the policy exceeded the allowed space.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;0 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packedPolicySize</Declaration>
+			
+			
+			<Anchor>//api/name/packedPolicySize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceAssumeRoleResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceAssumeRoleResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

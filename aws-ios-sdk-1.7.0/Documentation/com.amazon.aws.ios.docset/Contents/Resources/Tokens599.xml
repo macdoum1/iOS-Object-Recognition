@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketLifecycleConfigurationTransition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketLifecycleConfigurationTransition</TokenIdentifier>
+			<Abstract type="html">A Lifecycle transition is a comprised of a target storage class and
+a time, either expressed in an age, or an explicit date.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>
+			
+			<NodeRef refid="599"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationTransition/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The storage class for this transition. Currently only &apos;GLACIER&apos; is supported. *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationTransition/storageClass</TokenIdentifier>
+			<Abstract type="html">The storage class for this transition. Currently only &apos;GLACIER&apos; is supported. *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationTransition/setTransitionDays:</TokenIdentifier>
+			<Abstract type="html">The time for this transition in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t transitionDays</Declaration>
+			
+			
+			<Anchor>//api/name/transitionDays</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationTransition/transitionDays</TokenIdentifier>
+			<Abstract type="html">The time for this transition in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t transitionDays</Declaration>
+			
+			
+			<Anchor>//api/name/transitionDays</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationTransition/setTransitionDate:</TokenIdentifier>
+			<Abstract type="html">The date for this transition as an absolute date.
+If transitionDays is non-zero, this property will be
+ignored.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *transitionDate</Declaration>
+			
+			
+			<Anchor>//api/name/transitionDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationTransition/transitionDate</TokenIdentifier>
+			<Abstract type="html">The date for this transition as an absolute date.
+If transitionDays is non-zero, this property will be
+ignored.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *transitionDate</Declaration>
+			
+			
+			<Anchor>//api/name/transitionDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationTransition/initWithTimeInDays:</TokenIdentifier>
+			<Abstract type="html">initializer that creates a new transition with a time in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTimeInDays:(NSInteger)theDays</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTimeInDays:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationTransition/initWithDate:</TokenIdentifier>
+			<Abstract type="html">initializer that creates a new transition with an explicit date *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationTransition.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDate:(NSDate *)theDate</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDate:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

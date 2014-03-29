@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBListTablesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBListTablesResponse</TokenIdentifier>
+			<Abstract type="html">List Tables Result</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="196"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/setTableNames:</TokenIdentifier>
+			<Abstract type="html">The names of the tables associated with the current account at the
+current endpoint.</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tableNames</Declaration>
+			
+			
+			<Anchor>//api/name/tableNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBListTablesResponse/tableNames</TokenIdentifier>
+			<Abstract type="html">The names of the tables associated with the current account at the
+current endpoint.</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tableNames</Declaration>
+			
+			
+			<Anchor>//api/name/tableNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/setLastEvaluatedTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the last table in the current list, only if some tables
+for the account and endpoint have not been returned. This value does
+not exist in a response if all table names are already returned. Use
+this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to
+continue the list until all the table names are returned.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastEvaluatedTableName</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBListTablesResponse/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">The name of the last table in the current list, only if some tables
+for the account and endpoint have not been returned. This value does
+not exist in a response if all table names are already returned. Use
+this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to
+continue the list until all the table names are returned.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastEvaluatedTableName</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/tableNamesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the tableNames array for the specified index</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)tableNamesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/tableNamesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBListTablesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBListTablesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

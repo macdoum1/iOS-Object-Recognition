@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CopyImageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CopyImageRequest</TokenIdentifier>
+			<Abstract type="html">Copy Image Request</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>
+			
+			<NodeRef refid="254"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setSourceRegion:</TokenIdentifier>
+			<Abstract type="html">The value of the SourceRegion property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">The value of the SourceRegion property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setSourceImageId:</TokenIdentifier>
+			<Abstract type="html">The value of the SourceImageId property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceImageId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/sourceImageId</TokenIdentifier>
+			<Abstract type="html">The value of the SourceImageId property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sourceImageId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">The value of the Name property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/name</TokenIdentifier>
+			<Abstract type="html">The value of the Name property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CopyImageRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CopyImageRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CopyImageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

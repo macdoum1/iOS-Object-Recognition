@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBKeysAndAttributes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBKeysAndAttributes</TokenIdentifier>
+			<Abstract type="html">Keys And Attributes</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>
+			
+			<NodeRef refid="193"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/setKeys:</TokenIdentifier>
+			<Abstract type="html">Represents the primary key attribute values that define the items and
+the attributes associated with the items.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keys</Declaration>
+			
+			
+			<Anchor>//api/name/keys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBKeysAndAttributes/keys</TokenIdentifier>
+			<Abstract type="html">Represents the primary key attribute values that define the items and
+the attributes associated with the items.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 100&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keys</Declaration>
+			
+			
+			<Anchor>//api/name/keys</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/setAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">Represents one or more attributes to retrieve from the table or index.
+If no attribute names are specified then all attributes will be
+returned. If any of the specified attributes are not found, they will
+not appear in the result. &lt;p&gt;If you are querying an index and request
+only attributes that are projected into that index, the operation will
+read only the index and not the table. If any of the requested
+attributes are not projected into the index, Amazon DynamoDB will need
+to fetch each matching item from the table. This extra fetching incurs
+additional throughput cost and latency.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBKeysAndAttributes/attributesToGet</TokenIdentifier>
+			<Abstract type="html">Represents one or more attributes to retrieve from the table or index.
+If no attribute names are specified then all attributes will be
+returned. If any of the specified attributes are not found, they will
+not appear in the result. &lt;p&gt;If you are querying an index and request
+only attributes that are projected into that index, the operation will
+read only the index and not the table. If any of the requested
+attributes are not projected into the index, Amazon DynamoDB will need
+to fetch each matching item from the table. This extra fetching incurs
+additional throughput cost and latency.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - &lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributesToGet</Declaration>
+			
+			
+			<Anchor>//api/name/attributesToGet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/setConsistentRead:</TokenIdentifier>
+			<Abstract type="html">Represents the consistency of a read operation. If set to
+&lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise,
+an eventually consistent read is used.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBKeysAndAttributes/consistentRead</TokenIdentifier>
+			<Abstract type="html">Represents the consistency of a read operation. If set to
+&lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise,
+an eventually consistent read is used.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL consistentRead</Declaration>
+			
+			
+			<Anchor>//api/name/consistentRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/addKey:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to keys.
+This function will alloc and init keys if not already done.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (void)addKey:(NSMutableDictionary *)keyObject</Declaration>
+			
+			
+			<Anchor>//api/name/addKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/addAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributesToGet.
+This function will alloc and init attributesToGet if not already done.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributesToGet:(NSString *)attributesToGetObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributesToGet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBKeysAndAttributes/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBKeysAndAttributes.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

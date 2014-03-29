@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingPolicies.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingPolicies</TokenIdentifier>
+			<Abstract type="html">Policies</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>
+			
+			<NodeRef refid="569"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/setAppCookieStickinessPolicies:</TokenIdentifier>
+			<Abstract type="html">A list of the &lt;a&gt;AppCookieStickinessPolicy&lt;/a&gt; objects created with
+&lt;a&gt;CreateAppCookieStickinessPolicy&lt;/a&gt;.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *appCookieStickinessPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html">A list of the &lt;a&gt;AppCookieStickinessPolicy&lt;/a&gt; objects created with
+&lt;a&gt;CreateAppCookieStickinessPolicy&lt;/a&gt;.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *appCookieStickinessPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/setLBCookieStickinessPolicies:</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;LBCookieStickinessPolicy&lt;/a&gt; objects created with
+&lt;a&gt;CreateAppCookieStickinessPolicy&lt;/a&gt;.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *lBCookieStickinessPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/lBCookieStickinessPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicies/lBCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html">A list of &lt;a&gt;LBCookieStickinessPolicy&lt;/a&gt; objects created with
+&lt;a&gt;CreateAppCookieStickinessPolicy&lt;/a&gt;.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *lBCookieStickinessPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/lBCookieStickinessPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/setOtherPolicies:</TokenIdentifier>
+			<Abstract type="html">A list of policy names other than the stickiness policies.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *otherPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/otherPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
+			<Abstract type="html">A list of policy names other than the stickiness policies.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *otherPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/otherPolicies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new Policies object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/addAppCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to appCookieStickinessPolicies.
+This function will alloc and init appCookieStickinessPolicies if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAppCookieStickinessPolicy:(ElasticLoadBalancingAppCookieStickinessPolicy *)appCookieStickinessPolicyObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAppCookieStickinessPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/addLBCookieStickinessPolicy:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to lBCookieStickinessPolicies.
+This function will alloc and init lBCookieStickinessPolicies if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLBCookieStickinessPolicy:(ElasticLoadBalancingLBCookieStickinessPolicy *)lBCookieStickinessPolicyObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLBCookieStickinessPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/addOtherPolicy:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to otherPolicies.
+This function will alloc and init otherPolicies if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>- (void)addOtherPolicy:(NSString *)otherPolicyObject</Declaration>
+			
+			
+			<Anchor>//api/name/addOtherPolicy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicies/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicies.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

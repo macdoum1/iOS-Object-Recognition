@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSResponse.h</DeclaredIn>
+			
+			<NodeRef refid="804"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

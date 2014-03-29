@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DiskImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DiskImage</TokenIdentifier>
+			<Abstract type="html">Disk Image</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>
+			
+			<NodeRef refid="364"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImage/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImage/setImage:</TokenIdentifier>
+			<Abstract type="html">The value of the Image property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageDetail *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImage/image</TokenIdentifier>
+			<Abstract type="html">The value of the Image property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2DiskImageDetail *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImage/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImage/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The value of the Description property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImage/setVolume:</TokenIdentifier>
+			<Abstract type="html">The value of the Volume property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeDetail *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DiskImage/volume</TokenIdentifier>
+			<Abstract type="html">The value of the Volume property for this object.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2VolumeDetail *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DiskImage/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DiskImage.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

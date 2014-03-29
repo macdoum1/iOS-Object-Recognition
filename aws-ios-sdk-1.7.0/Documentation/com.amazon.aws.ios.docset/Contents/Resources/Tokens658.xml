@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3InitiateMultipartUploadResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3InitiateMultipartUploadResponse</TokenIdentifier>
+			<Abstract type="html">Contains the response from an initiateMultipartUpload request.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadResponse.h</DeclaredIn>
+			
+			<NodeRef refid="658"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3InitiateMultipartUploadResponse/setMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">An object representing the multipart upload.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) S3MultipartUpload *multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/multipartUpload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3InitiateMultipartUploadResponse/multipartUpload</TokenIdentifier>
+			<Abstract type="html">An object representing the multipart upload.</Abstract>
+			<DeclaredIn>S3InitiateMultipartUploadResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) S3MultipartUpload *multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/multipartUpload</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

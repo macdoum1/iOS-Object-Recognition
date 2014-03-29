@@ -1,0 +1,3515 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonElasticLoadBalancingClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonElasticLoadBalancingClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/applySecurityGroupsToLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- applySecurityGroupsToLoadBalancer:</option>
+	
+	<option value="//api/name/attachLoadBalancerToSubnets:">&nbsp;&nbsp;&nbsp;&nbsp;- attachLoadBalancerToSubnets:</option>
+	
+	<option value="//api/name/configureHealthCheck:">&nbsp;&nbsp;&nbsp;&nbsp;- configureHealthCheck:</option>
+	
+	<option value="//api/name/createAppCookieStickinessPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createAppCookieStickinessPolicy:</option>
+	
+	<option value="//api/name/createLBCookieStickinessPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createLBCookieStickinessPolicy:</option>
+	
+	<option value="//api/name/createLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancer:</option>
+	
+	<option value="//api/name/createLoadBalancerListeners:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancerListeners:</option>
+	
+	<option value="//api/name/createLoadBalancerPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- createLoadBalancerPolicy:</option>
+	
+	<option value="//api/name/deleteLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancer:</option>
+	
+	<option value="//api/name/deleteLoadBalancerListeners:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancerListeners:</option>
+	
+	<option value="//api/name/deleteLoadBalancerPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLoadBalancerPolicy:</option>
+	
+	<option value="//api/name/deregisterInstancesFromLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- deregisterInstancesFromLoadBalancer:</option>
+	
+	<option value="//api/name/describeInstanceHealth:">&nbsp;&nbsp;&nbsp;&nbsp;- describeInstanceHealth:</option>
+	
+	<option value="//api/name/describeLoadBalancerPolicies:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancerPolicies:</option>
+	
+	<option value="//api/name/describeLoadBalancerPolicyTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancerPolicyTypes:</option>
+	
+	<option value="//api/name/describeLoadBalancers:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLoadBalancers:</option>
+	
+	<option value="//api/name/detachLoadBalancerFromSubnets:">&nbsp;&nbsp;&nbsp;&nbsp;- detachLoadBalancerFromSubnets:</option>
+	
+	<option value="//api/name/disableAvailabilityZonesForLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- disableAvailabilityZonesForLoadBalancer:</option>
+	
+	<option value="//api/name/enableAvailabilityZonesForLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- enableAvailabilityZonesForLoadBalancer:</option>
+	
+	<option value="//api/name/registerInstancesWithLoadBalancer:">&nbsp;&nbsp;&nbsp;&nbsp;- registerInstancesWithLoadBalancer:</option>
+	
+	<option value="//api/name/setLoadBalancerListenerSSLCertificate:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerListenerSSLCertificate:</option>
+	
+	<option value="//api/name/setLoadBalancerPoliciesForBackendServer:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerPoliciesForBackendServer:</option>
+	
+	<option value="//api/name/setLoadBalancerPoliciesOfListener:">&nbsp;&nbsp;&nbsp;&nbsp;- setLoadBalancerPoliciesOfListener:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applySecurityGroupsToLoadBalancer:">applySecurityGroupsToLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attachLoadBalancerToSubnets:">attachLoadBalancerToSubnets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configureHealthCheck:">configureHealthCheck:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createAppCookieStickinessPolicy:">createAppCookieStickinessPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLBCookieStickinessPolicy:">createLBCookieStickinessPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancer:">createLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancerListeners:">createLoadBalancerListeners:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLoadBalancerPolicy:">createLoadBalancerPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancer:">deleteLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancerListeners:">deleteLoadBalancerListeners:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLoadBalancerPolicy:">deleteLoadBalancerPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deregisterInstancesFromLoadBalancer:">deregisterInstancesFromLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeInstanceHealth:">describeInstanceHealth:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancerPolicies:">describeLoadBalancerPolicies:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancerPolicyTypes:">describeLoadBalancerPolicyTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLoadBalancers:">describeLoadBalancers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/detachLoadBalancerFromSubnets:">detachLoadBalancerFromSubnets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disableAvailabilityZonesForLoadBalancer:">disableAvailabilityZonesForLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableAvailabilityZonesForLoadBalancer:">enableAvailabilityZonesForLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerInstancesWithLoadBalancer:">registerInstancesWithLoadBalancer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerListenerSSLCertificate:">setLoadBalancerListenerSSLCertificate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerPoliciesForBackendServer:">setLoadBalancerPoliciesForBackendServer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLoadBalancerPoliciesOfListener:">setLoadBalancerPoliciesOfListener:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonElasticLoadBalancingClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonElasticLoadBalancingClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonElasticLoadBalancingClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonElasticLoadBalancing.</p>
+
+<p>Elastic Load Balancing <p>
+Elastic Load Balancing is a cost-effective and easy to use web service to help you improve availability and scalability of your application. It makes it easy for you to distribute application loads
+between two or more EC2 instances. Elastic Load Balancing enables availability through redundancy and supports traffic growth of your application.
+</p></p>
+
+<p>
+This guide provides detailed information about Elastic Load Balancing actions, data types, parameters, and errors.
+</p>
+
+
+<p>
+Query requests are HTTP or HTTPS requests that use the HTTP verb GET or POST and a Query parameter named Action or Operation. Action is used throughout this documentation, although Operation is
+supported for backward compatibility with other AWS Query APIs.
+</p>
+
+
+<p>
+This reference guide is based on the current WSDL, which is available at:
+</p>
+
+
+<p>
+For detailed information on constructing a query request using the actions, data types, and parameters mentioned in this guide, go to <a
+href="http://docs.amazonwebservices.com/ElasticLoadBalancing/latest/DeveloperGuide/using-query-api.html"> Using the Query API </a> in the <i>Elastic Load Balancing Developer Guide</i> .
+</p>
+
+
+<p>
+For detailed information about Elastic Load Balancing features and their associated API calls, go to <a
+href="http://docs.amazonwebservices.com/ElasticLoadBalancing/latest/DeveloperGuide/UserScenarios.html"> Using Elastic Load Balancing </a> in the <i>Elastic Load Balancing Developer Guide</i> .
+</p>
+
+
+<p></summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancerPolicyTypes:">&ndash;&nbsp;describeLoadBalancerPolicyTypes:</a></code>
+		<span class="tooltip"><p>
+Returns meta-information on the specified LoadBalancer policies defined by the Elastic Load Balancing service. The
+policy types that are returned from this action can be used in a CreateLoadBalancerPolicy action to instantiate specific
+policy configurations that will be applied to an Elastic LoadBalancer.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configureHealthCheck:">&ndash;&nbsp;configureHealthCheck:</a></code>
+		<span class="tooltip"><p>
+Enables the client to define an application healthcheck for the instances.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/detachLoadBalancerFromSubnets:">&ndash;&nbsp;detachLoadBalancerFromSubnets:</a></code>
+		<span class="tooltip"><p>
+Removes subnets from the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+After a subnet is removed all of the EndPoints registered with the LoadBalancer that are in the removed subnet will go
+into the <i>OutOfService</i> state. When a subnet is removed, the LoadBalancer will balance the traffic among the
+remaining routable subnets for the LoadBalancer.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancerPolicies:">&ndash;&nbsp;describeLoadBalancerPolicies:</a></code>
+		<span class="tooltip"><p>
+Returns detailed descriptions of the policies. If you specify a LoadBalancer name, the operation returns either the
+descriptions of the specified policies, or descriptions of all the policies created for the LoadBalancer. If you don't
+specify a LoadBalancer name, the operation returns descriptions of the specified sample policies, or descriptions of all
+the sample policies. The names of the sample policies have the ELBSample- prefix.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerPoliciesOfListener:">&ndash;&nbsp;setLoadBalancerPoliciesOfListener:</a></code>
+		<span class="tooltip"><p>
+Associates, updates, or disables a policy with a listener on the LoadBalancer. You can associate multiple policies with
+a listener.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disableAvailabilityZonesForLoadBalancer:">&ndash;&nbsp;disableAvailabilityZonesForLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Removes the specified EC2 Availability Zones from the set of configured Availability Zones for the LoadBalancer.
+</p>
+
+
+<p>
+There must be at least one Availability Zone registered with a LoadBalancer at all times. A client cannot remove all
+the Availability Zones from a LoadBalancer. Once an Availability Zone is removed, all the instances registered with the
+LoadBalancer that are in the removed Availability Zone go into the OutOfService state. Upon Availability Zone removal,
+the LoadBalancer attempts to equally balance the traffic among its remaining usable Availability Zones. Trying to remove
+an Availability Zone that was not associated with the LoadBalancer does nothing.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeInstanceHealth:">&ndash;&nbsp;describeInstanceHealth:</a></code>
+		<span class="tooltip"><p>
+Returns the current state of the instances of the specified LoadBalancer. If no instances are specified, the state of
+all the instances for the LoadBalancer is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancer in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancerPolicy:">&ndash;&nbsp;deleteLoadBalancerPolicy:</a></code>
+		<span class="tooltip"><p>
+Deletes a policy from the LoadBalancer. The specified policy must not be enabled for any listeners.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancerPolicy:">&ndash;&nbsp;createLoadBalancerPolicy:</a></code>
+		<span class="tooltip"><p>
+Creates a new policy that contains the necessary attributes depending on the policy type. Policies are settings that
+are saved for your Elastic LoadBalancer and that can be applied to the front-end listener, or the back-end application
+server, depending on your policy type.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableAvailabilityZonesForLoadBalancer:">&ndash;&nbsp;enableAvailabilityZonesForLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Adds one or more EC2 Availability Zones to the LoadBalancer.
+</p>
+
+
+<p>
+The LoadBalancer evenly distributes requests across all its registered Availability Zones that contain instances. As a
+result, the client must ensure that its LoadBalancer is appropriately scaled for each registered Availability Zone.
+</p>
+
+
+<p>
+<b>NOTE:</b> The new EC2 Availability Zones to be added must be in the same EC2 Region as the Availability Zones for
+which the LoadBalancer was created.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancerListeners:">&ndash;&nbsp;createLoadBalancerListeners:</a></code>
+		<span class="tooltip"><p>
+Creates one or more listeners on a LoadBalancer for the specified port. If a listener with the given port does not
+already exist, it will be created; otherwise, the properties of the new listener must match the properties of the
+existing listener.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLoadBalancer:">&ndash;&nbsp;createLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Creates a new LoadBalancer.
+</p>
+
+
+<p><p>
+After the call has completed successfully, a new LoadBalancer is created; however, it will not be usable until at least
+one instance has been registered. When the LoadBalancer creation is completed, the client can check whether or not it is
+usable by using the DescribeInstanceHealth API. The LoadBalancer is usable as soon as any registered instance is
+<i>InService</i> .</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancer:">&ndash;&nbsp;deleteLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Deletes the specified LoadBalancer.
+</p>
+
+
+<p>
+If attempting to recreate the LoadBalancer, the client must reconfigure all the settings. The DNS name associated with
+a deleted LoadBalancer will no longer be usable. Once deleted, the name and associated DNS record of the LoadBalancer no
+longer exist and traffic sent to any of its IP addresses will no longer be delivered to client instances. The client
+will not receive the same DNS name even if a new LoadBalancer with same LoadBalancerName is created.
+</p>
+
+
+<p>
+To successfully call this API, the client must provide the same account credentials as were used to create the
+LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> By design, if the LoadBalancer does not exist or has already been deleted, DeleteLoadBalancer still
+succeeds.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerPoliciesForBackendServer:">&ndash;&nbsp;setLoadBalancerPoliciesForBackendServer:</a></code>
+		<span class="tooltip"><p>
+Replaces the current set of policies associated with a port on which the back-end server is listening with a new set of
+policies. After the policies have been created using CreateLoadBalancerPolicy, they can be applied here as a list. At
+this time, only the back-end server authentication policy type can be applied to the back-end ports; this policy type is
+composed of multiple public key policies.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLoadBalancerListeners:">&ndash;&nbsp;deleteLoadBalancerListeners:</a></code>
+		<span class="tooltip"><p>
+Deletes listeners from the LoadBalancer for the specified port.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deregisterInstancesFromLoadBalancer:">&ndash;&nbsp;deregisterInstancesFromLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Deregisters instances from the LoadBalancer. Once the instance is deregistered, it will stop receiving traffic from the
+LoadBalancer.
+</p>
+
+
+<p>
+In order to successfully call this API, the same account credentials as those used to create the LoadBalancer must be
+provided.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setLoadBalancerListenerSSLCertificate:">&ndash;&nbsp;setLoadBalancerListenerSSLCertificate:</a></code>
+		<span class="tooltip"><p>
+Sets the certificate that terminates the specified listener's SSL connections. The specified certificate replaces any
+prior certificate that was used on the same LoadBalancer and port.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLBCookieStickinessPolicy:">&ndash;&nbsp;createLBCookieStickinessPolicy:</a></code>
+		<span class="tooltip"><p>
+Generates a stickiness policy with sticky session lifetimes controlled by the lifetime of the browser (user-agent) or a
+specified expiration period. This policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+When a LoadBalancer implements this policy, the LoadBalancer uses a special cookie to track the backend server instance
+for each request. When the LoadBalancer receives a request, it first checks to see if this cookie is present in the
+request. If so, the LoadBalancer sends the request to the application server specified in the cookie. If not, the
+LoadBalancer sends the request to a server that is chosen based on the existing load balancing algorithm.
+</p>
+
+
+<p>
+A cookie is inserted into the response for binding subsequent requests from the same user to that server. The validity
+of the cookie is based on the cookie expiration time, which is specified in the policy configuration.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attachLoadBalancerToSubnets:">&ndash;&nbsp;attachLoadBalancerToSubnets:</a></code>
+		<span class="tooltip"><p>
+Adds one or more subnets to the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+The Loadbalancers evenly distribute requests across all of the registered subnets.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createAppCookieStickinessPolicy:">&ndash;&nbsp;createAppCookieStickinessPolicy:</a></code>
+		<span class="tooltip"><p>
+Generates a stickiness policy with sticky session lifetimes that follow that of an application-generated cookie. This
+policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+This policy is similar to the policy created by CreateLBCookieStickinessPolicy, except that the lifetime of the special
+Elastic Load Balancing cookie follows the lifetime of the application-generated cookie specified in the policy
+configuration. The LoadBalancer only inserts a new stickiness cookie when the application response includes a new
+application cookie.
+</p>
+
+
+<p>
+If the application cookie is explicitly removed or expires, the session stops being sticky until a new application
+cookie is issued.
+</p>
+
+
+<p>
+<b>NOTE:</b> An application client must receive and send two cookies: the application-generated cookie and the special
+Elastic Load Balancing cookie named AWSELB. This is the default behavior for many common web browsers.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerInstancesWithLoadBalancer:">&ndash;&nbsp;registerInstancesWithLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Adds new instances to the LoadBalancer.
+</p>
+
+
+<p>
+Once the instance is registered, it starts receiving traffic and requests from the LoadBalancer. Any instance that is
+not in any of the Availability Zones registered for the LoadBalancer will be moved to the <i>OutOfService</i> state. It
+will move to the <i>InService</i> state when the Availability Zone is added to the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> Completion of this API does not guarantee that operation has completed. Rather, it means that the request
+has been registered and the changes will happen shortly.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applySecurityGroupsToLoadBalancer:">&ndash;&nbsp;applySecurityGroupsToLoadBalancer:</a></code>
+		<span class="tooltip"><p>
+Associates one or more security groups with your LoadBalancer in VPC. The provided security group IDs will override any
+currently applied security groups.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLoadBalancers:">&ndash;&nbsp;describeLoadBalancers:</a></code>
+		<span class="tooltip"><p>
+Returns detailed configuration information for the specified LoadBalancers. If no LoadBalancers are specified, the
+operation returns configuration information for all LoadBalancers created by the caller.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancers in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/applySecurityGroupsToLoadBalancer:" title="applySecurityGroupsToLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">applySecurityGroupsToLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Associates one or more security groups with your LoadBalancer in VPC. The provided security group IDs will override any
+currently applied security groups.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponse *)applySecurityGroupsToLoadBalancer:(ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequest *)<em>applySecurityGroupsToLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>applySecurityGroupsToLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+ApplySecurityGroupsToLoadBalancer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ApplySecurityGroupsToLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Associates one or more security groups with your LoadBalancer in VPC. The provided security group IDs will override any
+currently applied security groups.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidSecurityGroupException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidSecurityGroupException.html">ElasticLoadBalancingInvalidSecurityGroupException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequest.html">ElasticLoadBalancingApplySecurityGroupsToLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponse.html">ElasticLoadBalancingApplySecurityGroupsToLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attachLoadBalancerToSubnets:" title="attachLoadBalancerToSubnets:"></a>
+	<h3 class="subsubtitle method-title">attachLoadBalancerToSubnets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Adds one or more subnets to the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+The Loadbalancers evenly distribute requests across all of the registered subnets.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse *)attachLoadBalancerToSubnets:(ElasticLoadBalancingAttachLoadBalancerToSubnetsRequest *)<em>attachLoadBalancerToSubnetsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>attachLoadBalancerToSubnetsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+AttachLoadBalancerToSubnets service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the AttachLoadBalancerToSubnets service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Adds one or more subnets to the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+The Loadbalancers evenly distribute requests across all of the registered subnets.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidSubnetException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidSubnetException.html">ElasticLoadBalancingInvalidSubnetException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingSubnetNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingSubnetNotFoundException.html">ElasticLoadBalancingSubnetNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingAttachLoadBalancerToSubnetsRequest.html">ElasticLoadBalancingAttachLoadBalancerToSubnetsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse.html">ElasticLoadBalancingAttachLoadBalancerToSubnetsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/configureHealthCheck:" title="configureHealthCheck:"></a>
+	<h3 class="subsubtitle method-title">configureHealthCheck:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Enables the client to define an application healthcheck for the instances.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingConfigureHealthCheckResponse *)configureHealthCheck:(ElasticLoadBalancingConfigureHealthCheckRequest *)<em>configureHealthCheckRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configureHealthCheckRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ConfigureHealthCheck service
+method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ConfigureHealthCheck service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Enables the client to define an application healthcheck for the instances.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingConfigureHealthCheckRequest.html">ElasticLoadBalancingConfigureHealthCheckRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingConfigureHealthCheckResponse.html">ElasticLoadBalancingConfigureHealthCheckResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createAppCookieStickinessPolicy:" title="createAppCookieStickinessPolicy:"></a>
+	<h3 class="subsubtitle method-title">createAppCookieStickinessPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Generates a stickiness policy with sticky session lifetimes that follow that of an application-generated cookie. This
+policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+This policy is similar to the policy created by CreateLBCookieStickinessPolicy, except that the lifetime of the special
+Elastic Load Balancing cookie follows the lifetime of the application-generated cookie specified in the policy
+configuration. The LoadBalancer only inserts a new stickiness cookie when the application response includes a new
+application cookie.
+</p>
+
+
+<p>
+If the application cookie is explicitly removed or expires, the session stops being sticky until a new application
+cookie is issued.
+</p>
+
+
+<p>
+<b>NOTE:</b> An application client must receive and send two cookies: the application-generated cookie and the special
+Elastic Load Balancing cookie named AWSELB. This is the default behavior for many common web browsers.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingCreateAppCookieStickinessPolicyResponse *)createAppCookieStickinessPolicy:(ElasticLoadBalancingCreateAppCookieStickinessPolicyRequest *)<em>createAppCookieStickinessPolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createAppCookieStickinessPolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+CreateAppCookieStickinessPolicy service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateAppCookieStickinessPolicy service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Generates a stickiness policy with sticky session lifetimes that follow that of an application-generated cookie. This
+policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+This policy is similar to the policy created by CreateLBCookieStickinessPolicy, except that the lifetime of the special
+Elastic Load Balancing cookie follows the lifetime of the application-generated cookie specified in the policy
+configuration. The LoadBalancer only inserts a new stickiness cookie when the application response includes a new
+application cookie.
+</p>
+
+
+<p>
+If the application cookie is explicitly removed or expires, the session stops being sticky until a new application
+cookie is issued.
+</p>
+
+
+<p>
+<b>NOTE:</b> An application client must receive and send two cookies: the application-generated cookie and the special
+Elastic Load Balancing cookie named AWSELB. This is the default behavior for many common web browsers.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingDuplicatePolicyNameException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingDuplicatePolicyNameException.html">ElasticLoadBalancingDuplicatePolicyNameException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingTooManyPoliciesException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingTooManyPoliciesException.html">ElasticLoadBalancingTooManyPoliciesException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateAppCookieStickinessPolicyRequest.html">ElasticLoadBalancingCreateAppCookieStickinessPolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateAppCookieStickinessPolicyResponse.html">ElasticLoadBalancingCreateAppCookieStickinessPolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLBCookieStickinessPolicy:" title="createLBCookieStickinessPolicy:"></a>
+	<h3 class="subsubtitle method-title">createLBCookieStickinessPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Generates a stickiness policy with sticky session lifetimes controlled by the lifetime of the browser (user-agent) or a
+specified expiration period. This policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+When a LoadBalancer implements this policy, the LoadBalancer uses a special cookie to track the backend server instance
+for each request. When the LoadBalancer receives a request, it first checks to see if this cookie is present in the
+request. If so, the LoadBalancer sends the request to the application server specified in the cookie. If not, the
+LoadBalancer sends the request to a server that is chosen based on the existing load balancing algorithm.
+</p>
+
+
+<p>
+A cookie is inserted into the response for binding subsequent requests from the same user to that server. The validity
+of the cookie is based on the cookie expiration time, which is specified in the policy configuration.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse *)createLBCookieStickinessPolicy:(ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest *)<em>createLBCookieStickinessPolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createLBCookieStickinessPolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+CreateLBCookieStickinessPolicy service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateLBCookieStickinessPolicy service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Generates a stickiness policy with sticky session lifetimes controlled by the lifetime of the browser (user-agent) or a
+specified expiration period. This policy can be associated only with HTTP/HTTPS listeners.
+</p>
+
+
+<p>
+When a LoadBalancer implements this policy, the LoadBalancer uses a special cookie to track the backend server instance
+for each request. When the LoadBalancer receives a request, it first checks to see if this cookie is present in the
+request. If so, the LoadBalancer sends the request to the application server specified in the cookie. If not, the
+LoadBalancer sends the request to a server that is chosen based on the existing load balancing algorithm.
+</p>
+
+
+<p>
+A cookie is inserted into the response for binding subsequent requests from the same user to that server. The validity
+of the cookie is based on the cookie expiration time, which is specified in the policy configuration.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingDuplicatePolicyNameException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingDuplicatePolicyNameException.html">ElasticLoadBalancingDuplicatePolicyNameException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingTooManyPoliciesException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingTooManyPoliciesException.html">ElasticLoadBalancingTooManyPoliciesException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest.html">ElasticLoadBalancingCreateLBCookieStickinessPolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse.html">ElasticLoadBalancingCreateLBCookieStickinessPolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancer:" title="createLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates a new LoadBalancer.
+</p>
+
+
+<p><p>
+After the call has completed successfully, a new LoadBalancer is created; however, it will not be usable until at least
+one instance has been registered. When the LoadBalancer creation is completed, the client can check whether or not it is
+usable by using the DescribeInstanceHealth API. The LoadBalancer is usable as soon as any registered instance is
+<i>InService</i> .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingCreateLoadBalancerResponse *)createLoadBalancer:(ElasticLoadBalancingCreateLoadBalancerRequest *)<em>createLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateLoadBalancer service method
+on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateLoadBalancer service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates a new LoadBalancer.
+</p>
+
+
+<p>
+After the call has completed successfully, a new LoadBalancer is created; however, it will not be usable until at least
+one instance has been registered. When the LoadBalancer creation is completed, the client can check whether or not it is
+usable by using the DescribeInstanceHealth API. The LoadBalancer is usable as soon as any registered instance is
+<i>InService</i> .
+
+</p>
+
+
+<p>
+<b>NOTE:</b> Currently, the client's quota of LoadBalancers is limited to ten per Region.
+</p>
+
+
+<p>
+<b>NOTE:</b> LoadBalancer DNS names vary depending on the Region they're created in. For LoadBalancers created in the
+United States, the DNS name ends with: us-east-1.elb.amazonaws.com (for the US Standard Region)
+us-west-1.elb.amazonaws.com (for the Northern California Region) For LoadBalancers created in the EU (Ireland) Region,
+the DNS name ends with: eu-west-1.elb.amazonaws.com
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidSubnetException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidSubnetException.html">ElasticLoadBalancingInvalidSubnetException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidSecurityGroupException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidSecurityGroupException.html">ElasticLoadBalancingInvalidSecurityGroupException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingCertificateNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingCertificateNotFoundException.html">ElasticLoadBalancingCertificateNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidSchemeException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidSchemeException.html">ElasticLoadBalancingInvalidSchemeException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingDuplicateLoadBalancerNameException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingDuplicateLoadBalancerNameException.html">ElasticLoadBalancingDuplicateLoadBalancerNameException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingTooManyLoadBalancersException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingTooManyLoadBalancersException.html">ElasticLoadBalancingTooManyLoadBalancersException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingSubnetNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingSubnetNotFoundException.html">ElasticLoadBalancingSubnetNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerRequest.html">ElasticLoadBalancingCreateLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerResponse.html">ElasticLoadBalancingCreateLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancerListeners:" title="createLoadBalancerListeners:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancerListeners:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates one or more listeners on a LoadBalancer for the specified port. If a listener with the given port does not
+already exist, it will be created; otherwise, the properties of the new listener must match the properties of the
+existing listener.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingCreateLoadBalancerListenersResponse *)createLoadBalancerListeners:(ElasticLoadBalancingCreateLoadBalancerListenersRequest *)<em>createLoadBalancerListenersRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createLoadBalancerListenersRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+CreateLoadBalancerListeners service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates one or more listeners on a LoadBalancer for the specified port. If a listener with the given port does not
+already exist, it will be created; otherwise, the properties of the new listener must match the properties of the
+existing listener.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingDuplicateListenerException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingDuplicateListenerException.html">ElasticLoadBalancingDuplicateListenerException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingCertificateNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingCertificateNotFoundException.html">ElasticLoadBalancingCertificateNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerListenersRequest.html">ElasticLoadBalancingCreateLoadBalancerListenersRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerListenersResponse.html">ElasticLoadBalancingCreateLoadBalancerListenersResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLoadBalancerPolicy:" title="createLoadBalancerPolicy:"></a>
+	<h3 class="subsubtitle method-title">createLoadBalancerPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates a new policy that contains the necessary attributes depending on the policy type. Policies are settings that
+are saved for your Elastic LoadBalancer and that can be applied to the front-end listener, or the back-end application
+server, depending on your policy type.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingCreateLoadBalancerPolicyResponse *)createLoadBalancerPolicy:(ElasticLoadBalancingCreateLoadBalancerPolicyRequest *)<em>createLoadBalancerPolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createLoadBalancerPolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateLoadBalancerPolicy
+service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateLoadBalancerPolicy service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates a new policy that contains the necessary attributes depending on the policy type. Policies are settings that
+are saved for your Elastic LoadBalancer and that can be applied to the front-end listener, or the back-end application
+server, depending on your policy type.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingPolicyTypeNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingPolicyTypeNotFoundException.html">ElasticLoadBalancingPolicyTypeNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingDuplicatePolicyNameException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingDuplicatePolicyNameException.html">ElasticLoadBalancingDuplicatePolicyNameException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingTooManyPoliciesException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingTooManyPoliciesException.html">ElasticLoadBalancingTooManyPoliciesException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerPolicyRequest.html">ElasticLoadBalancingCreateLoadBalancerPolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingCreateLoadBalancerPolicyResponse.html">ElasticLoadBalancingCreateLoadBalancerPolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancer:" title="deleteLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes the specified LoadBalancer.
+</p>
+
+
+<p>
+If attempting to recreate the LoadBalancer, the client must reconfigure all the settings. The DNS name associated with
+a deleted LoadBalancer will no longer be usable. Once deleted, the name and associated DNS record of the LoadBalancer no
+longer exist and traffic sent to any of its IP addresses will no longer be delivered to client instances. The client
+will not receive the same DNS name even if a new LoadBalancer with same LoadBalancerName is created.
+</p>
+
+
+<p>
+To successfully call this API, the client must provide the same account credentials as were used to create the
+LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> By design, if the LoadBalancer does not exist or has already been deleted, DeleteLoadBalancer still
+succeeds.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDeleteLoadBalancerResponse *)deleteLoadBalancer:(ElasticLoadBalancingDeleteLoadBalancerRequest *)<em>deleteLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteLoadBalancer service method
+on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes the specified LoadBalancer.
+</p>
+
+
+<p>
+If attempting to recreate the LoadBalancer, the client must reconfigure all the settings. The DNS name associated with
+a deleted LoadBalancer will no longer be usable. Once deleted, the name and associated DNS record of the LoadBalancer no
+longer exist and traffic sent to any of its IP addresses will no longer be delivered to client instances. The client
+will not receive the same DNS name even if a new LoadBalancer with same LoadBalancerName is created.
+</p>
+
+
+<p>
+To successfully call this API, the client must provide the same account credentials as were used to create the
+LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> By design, if the LoadBalancer does not exist or has already been deleted, DeleteLoadBalancer still
+succeeds.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerRequest.html">ElasticLoadBalancingDeleteLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerResponse.html">ElasticLoadBalancingDeleteLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancerListeners:" title="deleteLoadBalancerListeners:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancerListeners:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes listeners from the LoadBalancer for the specified port.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDeleteLoadBalancerListenersResponse *)deleteLoadBalancerListeners:(ElasticLoadBalancingDeleteLoadBalancerListenersRequest *)<em>deleteLoadBalancerListenersRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteLoadBalancerListenersRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DeleteLoadBalancerListeners service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes listeners from the LoadBalancer for the specified port.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerListenersRequest.html">ElasticLoadBalancingDeleteLoadBalancerListenersRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerListenersResponse.html">ElasticLoadBalancingDeleteLoadBalancerListenersResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLoadBalancerPolicy:" title="deleteLoadBalancerPolicy:"></a>
+	<h3 class="subsubtitle method-title">deleteLoadBalancerPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes a policy from the LoadBalancer. The specified policy must not be enabled for any listeners.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDeleteLoadBalancerPolicyResponse *)deleteLoadBalancerPolicy:(ElasticLoadBalancingDeleteLoadBalancerPolicyRequest *)<em>deleteLoadBalancerPolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteLoadBalancerPolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteLoadBalancerPolicy
+service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DeleteLoadBalancerPolicy service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes a policy from the LoadBalancer. The specified policy must not be enabled for any listeners.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerPolicyRequest.html">ElasticLoadBalancingDeleteLoadBalancerPolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeleteLoadBalancerPolicyResponse.html">ElasticLoadBalancingDeleteLoadBalancerPolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deregisterInstancesFromLoadBalancer:" title="deregisterInstancesFromLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">deregisterInstancesFromLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deregisters instances from the LoadBalancer. Once the instance is deregistered, it will stop receiving traffic from the
+LoadBalancer.
+</p>
+
+
+<p>
+In order to successfully call this API, the same account credentials as those used to create the LoadBalancer must be
+provided.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDeregisterInstancesFromLoadBalancerResponse *)deregisterInstancesFromLoadBalancer:(ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest *)<em>deregisterInstancesFromLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deregisterInstancesFromLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DeregisterInstancesFromLoadBalancer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DeregisterInstancesFromLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deregisters instances from the LoadBalancer. Once the instance is deregistered, it will stop receiving traffic from the
+LoadBalancer.
+</p>
+
+
+<p>
+In order to successfully call this API, the same account credentials as those used to create the LoadBalancer must be
+provided.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidInstanceException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidInstanceException.html">ElasticLoadBalancingInvalidInstanceException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.html">ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerResponse.html">ElasticLoadBalancingDeregisterInstancesFromLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeInstanceHealth:" title="describeInstanceHealth:"></a>
+	<h3 class="subsubtitle method-title">describeInstanceHealth:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns the current state of the instances of the specified LoadBalancer. If no instances are specified, the state of
+all the instances for the LoadBalancer is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancer in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDescribeInstanceHealthResponse *)describeInstanceHealth:(ElasticLoadBalancingDescribeInstanceHealthRequest *)<em>describeInstanceHealthRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeInstanceHealthRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeInstanceHealth
+service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeInstanceHealth service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns the current state of the instances of the specified LoadBalancer. If no instances are specified, the state of
+all the instances for the LoadBalancer is returned.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancer in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidInstanceException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidInstanceException.html">ElasticLoadBalancingInvalidInstanceException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeInstanceHealthRequest.html">ElasticLoadBalancingDescribeInstanceHealthRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeInstanceHealthResponse.html">ElasticLoadBalancingDescribeInstanceHealthResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancerPolicies:" title="describeLoadBalancerPolicies:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancerPolicies:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns detailed descriptions of the policies. If you specify a LoadBalancer name, the operation returns either the
+descriptions of the specified policies, or descriptions of all the policies created for the LoadBalancer. If you don't
+specify a LoadBalancer name, the operation returns descriptions of the specified sample policies, or descriptions of all
+the sample policies. The names of the sample policies have the ELBSample- prefix.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDescribeLoadBalancerPoliciesResponse *)describeLoadBalancerPolicies:(ElasticLoadBalancingDescribeLoadBalancerPoliciesRequest *)<em>describeLoadBalancerPoliciesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeLoadBalancerPoliciesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeLoadBalancerPolicies service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeLoadBalancerPolicies service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns detailed descriptions of the policies. If you specify a LoadBalancer name, the operation returns either the
+descriptions of the specified policies, or descriptions of all the policies created for the LoadBalancer. If you don't
+specify a LoadBalancer name, the operation returns descriptions of the specified sample policies, or descriptions of all
+the sample policies. The names of the sample policies have the ELBSample- prefix.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingPolicyNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingPolicyNotFoundException.html">ElasticLoadBalancingPolicyNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancerPoliciesRequest.html">ElasticLoadBalancingDescribeLoadBalancerPoliciesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancerPoliciesResponse.html">ElasticLoadBalancingDescribeLoadBalancerPoliciesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancerPolicyTypes:" title="describeLoadBalancerPolicyTypes:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancerPolicyTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns meta-information on the specified LoadBalancer policies defined by the Elastic Load Balancing service. The
+policy types that are returned from this action can be used in a CreateLoadBalancerPolicy action to instantiate specific
+policy configurations that will be applied to an Elastic LoadBalancer.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse *)describeLoadBalancerPolicyTypes:(ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest *)<em>describeLoadBalancerPolicyTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeLoadBalancerPolicyTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeLoadBalancerPolicyTypes service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeLoadBalancerPolicyTypes service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns meta-information on the specified LoadBalancer policies defined by the Elastic Load Balancing service. The
+policy types that are returned from this action can be used in a CreateLoadBalancerPolicy action to instantiate specific
+policy configurations that will be applied to an Elastic LoadBalancer.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingPolicyTypeNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingPolicyTypeNotFoundException.html">ElasticLoadBalancingPolicyTypeNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest.html">ElasticLoadBalancingDescribeLoadBalancerPolicyTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse.html">ElasticLoadBalancingDescribeLoadBalancerPolicyTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLoadBalancers:" title="describeLoadBalancers:"></a>
+	<h3 class="subsubtitle method-title">describeLoadBalancers:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns detailed configuration information for the specified LoadBalancers. If no LoadBalancers are specified, the
+operation returns configuration information for all LoadBalancers created by the caller.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancers in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDescribeLoadBalancersResponse *)describeLoadBalancers:(ElasticLoadBalancingDescribeLoadBalancersRequest *)<em>describeLoadBalancersRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeLoadBalancersRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeLoadBalancers service
+method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeLoadBalancers service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns detailed configuration information for the specified LoadBalancers. If no LoadBalancers are specified, the
+operation returns configuration information for all LoadBalancers created by the caller.
+</p>
+
+
+<p>
+<b>NOTE:</b> The client must have created the specified input LoadBalancers in order to retrieve this information; the
+client must provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancersRequest.html">ElasticLoadBalancingDescribeLoadBalancersRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDescribeLoadBalancersResponse.html">ElasticLoadBalancingDescribeLoadBalancersResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/detachLoadBalancerFromSubnets:" title="detachLoadBalancerFromSubnets:"></a>
+	<h3 class="subsubtitle method-title">detachLoadBalancerFromSubnets:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Removes subnets from the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+After a subnet is removed all of the EndPoints registered with the LoadBalancer that are in the removed subnet will go
+into the <i>OutOfService</i> state. When a subnet is removed, the LoadBalancer will balance the traffic among the
+remaining routable subnets for the LoadBalancer.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse *)detachLoadBalancerFromSubnets:(ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest *)<em>detachLoadBalancerFromSubnetsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>detachLoadBalancerFromSubnetsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DetachLoadBalancerFromSubnets service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DetachLoadBalancerFromSubnets service method, as returned by AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Removes subnets from the set of configured subnets in the VPC for the LoadBalancer.
+</p>
+
+
+<p>
+After a subnet is removed all of the EndPoints registered with the LoadBalancer that are in the removed subnet will go
+into the <i>OutOfService</i> state. When a subnet is removed, the LoadBalancer will balance the traffic among the
+remaining routable subnets for the LoadBalancer.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest.html">ElasticLoadBalancingDetachLoadBalancerFromSubnetsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.html">ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disableAvailabilityZonesForLoadBalancer:" title="disableAvailabilityZonesForLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">disableAvailabilityZonesForLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Removes the specified EC2 Availability Zones from the set of configured Availability Zones for the LoadBalancer.
+</p>
+
+
+<p>
+There must be at least one Availability Zone registered with a LoadBalancer at all times. A client cannot remove all
+the Availability Zones from a LoadBalancer. Once an Availability Zone is removed, all the instances registered with the
+LoadBalancer that are in the removed Availability Zone go into the OutOfService state. Upon Availability Zone removal,
+the LoadBalancer attempts to equally balance the traffic among its remaining usable Availability Zones. Trying to remove
+an Availability Zone that was not associated with the LoadBalancer does nothing.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerResponse *)disableAvailabilityZonesForLoadBalancer:(ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest *)<em>disableAvailabilityZonesForLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>disableAvailabilityZonesForLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DisableAvailabilityZonesForLoadBalancer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DisableAvailabilityZonesForLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Removes the specified EC2 Availability Zones from the set of configured Availability Zones for the LoadBalancer.
+</p>
+
+
+<p>
+There must be at least one Availability Zone registered with a LoadBalancer at all times. A client cannot remove all
+the Availability Zones from a LoadBalancer. Once an Availability Zone is removed, all the instances registered with the
+LoadBalancer that are in the removed Availability Zone go into the OutOfService state. Upon Availability Zone removal,
+the LoadBalancer attempts to equally balance the traffic among its remaining usable Availability Zones. Trying to remove
+an Availability Zone that was not associated with the LoadBalancer does nothing.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest.html">ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerResponse.html">ElasticLoadBalancingDisableAvailabilityZonesForLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableAvailabilityZonesForLoadBalancer:" title="enableAvailabilityZonesForLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">enableAvailabilityZonesForLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Adds one or more EC2 Availability Zones to the LoadBalancer.
+</p>
+
+
+<p>
+The LoadBalancer evenly distributes requests across all its registered Availability Zones that contain instances. As a
+result, the client must ensure that its LoadBalancer is appropriately scaled for each registered Availability Zone.
+</p>
+
+
+<p>
+<b>NOTE:</b> The new EC2 Availability Zones to be added must be in the same EC2 Region as the Availability Zones for
+which the LoadBalancer was created.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerResponse *)enableAvailabilityZonesForLoadBalancer:(ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerRequest *)<em>enableAvailabilityZonesForLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>enableAvailabilityZonesForLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+EnableAvailabilityZonesForLoadBalancer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the EnableAvailabilityZonesForLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Adds one or more EC2 Availability Zones to the LoadBalancer.
+</p>
+
+
+<p>
+The LoadBalancer evenly distributes requests across all its registered Availability Zones that contain instances. As a
+result, the client must ensure that its LoadBalancer is appropriately scaled for each registered Availability Zone.
+</p>
+
+
+<p>
+<b>NOTE:</b> The new EC2 Availability Zones to be added must be in the same EC2 Region as the Availability Zones for
+which the LoadBalancer was created.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerRequest.html">ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerResponse.html">ElasticLoadBalancingEnableAvailabilityZonesForLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerInstancesWithLoadBalancer:" title="registerInstancesWithLoadBalancer:"></a>
+	<h3 class="subsubtitle method-title">registerInstancesWithLoadBalancer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Adds new instances to the LoadBalancer.
+</p>
+
+
+<p>
+Once the instance is registered, it starts receiving traffic and requests from the LoadBalancer. Any instance that is
+not in any of the Availability Zones registered for the LoadBalancer will be moved to the <i>OutOfService</i> state. It
+will move to the <i>InService</i> state when the Availability Zone is added to the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> Completion of this API does not guarantee that operation has completed. Rather, it means that the request
+has been registered and the changes will happen shortly.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse *)registerInstancesWithLoadBalancer:(ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest *)<em>registerInstancesWithLoadBalancerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>registerInstancesWithLoadBalancerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+RegisterInstancesWithLoadBalancer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the RegisterInstancesWithLoadBalancer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Adds new instances to the LoadBalancer.
+</p>
+
+
+<p>
+Once the instance is registered, it starts receiving traffic and requests from the LoadBalancer. Any instance that is
+not in any of the Availability Zones registered for the LoadBalancer will be moved to the <i>OutOfService</i> state. It
+will move to the <i>InService</i> state when the Availability Zone is added to the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> In order for this call to be successful, the client must have created the LoadBalancer. The client must
+provide the same account credentials as those that were used to create the LoadBalancer.
+</p>
+
+
+<p>
+<b>NOTE:</b> Completion of this API does not guarantee that operation has completed. Rather, it means that the request
+has been registered and the changes will happen shortly.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidInstanceException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidInstanceException.html">ElasticLoadBalancingInvalidInstanceException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest.html">ElasticLoadBalancingRegisterInstancesWithLoadBalancerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.html">ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerListenerSSLCertificate:" title="setLoadBalancerListenerSSLCertificate:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerListenerSSLCertificate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Sets the certificate that terminates the specified listener's SSL connections. The specified certificate replaces any
+prior certificate that was used on the same LoadBalancer and port.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse *)setLoadBalancerListenerSSLCertificate:(ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateRequest *)<em>setLoadBalancerListenerSSLCertificateRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setLoadBalancerListenerSSLCertificateRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetLoadBalancerListenerSSLCertificate service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Sets the certificate that terminates the specified listener's SSL connections. The specified certificate replaces any
+prior certificate that was used on the same LoadBalancer and port.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingCertificateNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingCertificateNotFoundException.html">ElasticLoadBalancingCertificateNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingListenerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingListenerNotFoundException.html">ElasticLoadBalancingListenerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateRequest.html">ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse.html">ElasticLoadBalancingSetLoadBalancerListenerSSLCertificateResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerPoliciesForBackendServer:" title="setLoadBalancerPoliciesForBackendServer:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerPoliciesForBackendServer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Replaces the current set of policies associated with a port on which the back-end server is listening with a new set of
+policies. After the policies have been created using CreateLoadBalancerPolicy, they can be applied here as a list. At
+this time, only the back-end server authentication policy type can be applied to the back-end ports; this policy type is
+composed of multiple public key policies.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerResponse *)setLoadBalancerPoliciesForBackendServer:(ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest *)<em>setLoadBalancerPoliciesForBackendServerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setLoadBalancerPoliciesForBackendServerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetLoadBalancerPoliciesForBackendServer service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SetLoadBalancerPoliciesForBackendServer service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Replaces the current set of policies associated with a port on which the back-end server is listening with a new set of
+policies. After the policies have been created using CreateLoadBalancerPolicy, they can be applied here as a list. At
+this time, only the back-end server authentication policy type can be applied to the back-end ports; this policy type is
+composed of multiple public key policies.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingPolicyNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingPolicyNotFoundException.html">ElasticLoadBalancingPolicyNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest.html">ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerResponse.html">ElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setLoadBalancerPoliciesOfListener:" title="setLoadBalancerPoliciesOfListener:"></a>
+	<h3 class="subsubtitle method-title">setLoadBalancerPoliciesOfListener:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Associates, updates, or disables a policy with a listener on the LoadBalancer. You can associate multiple policies with
+a listener.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerResponse *)setLoadBalancerPoliciesOfListener:(ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerRequest *)<em>setLoadBalancerPoliciesOfListenerRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setLoadBalancerPoliciesOfListenerRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetLoadBalancerPoliciesOfListener service method on AmazonElasticLoadBalancing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the SetLoadBalancerPoliciesOfListener service method, as returned by
+AmazonElasticLoadBalancing.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Associates, updates, or disables a policy with a listener on the LoadBalancer. You can associate multiple policies with
+a listener.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingPolicyNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingPolicyNotFoundException.html">ElasticLoadBalancingPolicyNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingInvalidConfigurationRequestException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingInvalidConfigurationRequestException.html">ElasticLoadBalancingInvalidConfigurationRequestException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingLoadBalancerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingLoadBalancerNotFoundException.html">ElasticLoadBalancingLoadBalancerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>ElasticLoadBalancingListenerNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/ElasticLoadBalancingListenerNotFoundException.html">ElasticLoadBalancingListenerNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonElasticLoadBalancing indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerRequest.html">ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerResponse.html">ElasticLoadBalancingSetLoadBalancerPoliciesOfListenerResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonElasticLoadBalancingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

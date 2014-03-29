@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingExecutePolicyRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingExecutePolicyRequest</TokenIdentifier>
+			<Abstract type="html">Execute Policy Request</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingExecutePolicyRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingExecutePolicyRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name or the Amazon Resource Name (ARN) of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingExecutePolicyRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name or the Amazon Resource Name (ARN) of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingExecutePolicyRequest/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">The name or ARN of the policy you want to run.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingExecutePolicyRequest/policyName</TokenIdentifier>
+			<Abstract type="html">The name or ARN of the policy you want to run.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingExecutePolicyRequest/setHonorCooldown:</TokenIdentifier>
+			<Abstract type="html">Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the
+cooldown period associated with the Auto Scaling group to complete
+before executing the policy. &lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want
+Auto Scaling to circumvent the cooldown period associated with the
+Auto Scaling group and execute the policy before the cooldown period
+ends. &lt;p&gt;For information about cooldown period, see &lt;a
+/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#Cooldown&quot;&gt;Cooldown
+Period&lt;/a&gt; in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingExecutePolicyRequest/honorCooldown</TokenIdentifier>
+			<Abstract type="html">Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the
+cooldown period associated with the Auto Scaling group to complete
+before executing the policy. &lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want
+Auto Scaling to circumvent the cooldown period associated with the
+Auto Scaling group and execute the policy before the cooldown period
+ends. &lt;p&gt;For information about cooldown period, see &lt;a
+/AutoScaling/latest/DeveloperGuide/AS_Concepts.html#Cooldown&quot;&gt;Cooldown
+Period&lt;/a&gt; in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL honorCooldown</Declaration>
+			
+			
+			<Anchor>//api/name/honorCooldown</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingExecutePolicyRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingExecutePolicyRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

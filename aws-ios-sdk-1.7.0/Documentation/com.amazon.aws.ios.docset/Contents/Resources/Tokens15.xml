@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonSNSClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonSNSClient</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonSNS.</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/confirmSubscription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ConfirmSubscription action verifies an endpoint owner&apos;s intent to receive messages by validating the token sent to
+the endpoint by an earlier Subscribe action. If the token is valid, the action creates a new subscription and returns
+its Amazon Resource Name (ARN). This call requires an AWS signature only when the AuthenticateOnUnsubscribe flag is set
+to &quot;true&quot;.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSConfirmSubscriptionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSConfirmSubscriptionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSConfirmSubscriptionResponse *)confirmSubscription:(SNSConfirmSubscriptionRequest *)confirmSubscriptionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>confirmSubscriptionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ConfirmSubscription service
+method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ConfirmSubscription service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/confirmSubscription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/createPlatformApplication:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The CreatePlatformApplication action creates a platform application object for one of the supported push notification
+services, such as APNS and GCM, to which devices and mobile apps may register. You must specify PlatformPrincipal and
+PlatformCredential attributes when using the CreatePlatformApplication action. The PlatformPrincipal is received from
+the notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is &quot;SSL certificate&quot;. For GCM, PlatformPrincipal is
+not applicable. For ADM, PlatformPrincipal is &quot;client id&quot;. The PlatformCredential is also received from the
+notification service. For APNS/APNS_SANDBOX, PlatformCredential is &quot;private key&quot;. For GCM, PlatformCredential is &quot;API
+key&quot;. For ADM, PlatformCredential is &quot;client secret&quot;. The PlatformApplicationArn that is returned when using
+CreatePlatformApplication is then used as an attribute for the CreatePlatformEndpoint action. For more information, see
+ Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreatePlatformApplicationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreatePlatformApplicationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSCreatePlatformApplicationResponse *)createPlatformApplication:(SNSCreatePlatformApplicationRequest *)createPlatformApplicationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createPlatformApplicationRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreatePlatformApplication
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreatePlatformApplication service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/createPlatformApplication:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/getTopicAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The GetTopicAttributes action returns all of the properties of a topic. Topic properties returned might differ based on
+the authorization of the user.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetTopicAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetTopicAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSGetTopicAttributesResponse *)getTopicAttributes:(SNSGetTopicAttributesRequest *)getTopicAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getTopicAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetTopicAttributes service method
+on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetTopicAttributes service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/getTopicAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/subscribe:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The Subscribe action prepares to subscribe an endpoint by sending the endpoint a confirmation message. To actually
+create a subscription, the endpoint owner must call the ConfirmSubscription action with the token from the confirmation
+message. Confirmation tokens are valid for three days.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSubscribeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSubscribeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSSubscribeResponse *)subscribe:(SNSSubscribeRequest *)subscribeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>subscribeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the Subscribe service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the Subscribe service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/subscribe:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/deleteEndpoint:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeleteEndpoint action, which is idempotent, deletes the endpoint from SNS. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteEndpointRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteEndpointResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSDeleteEndpointResponse *)deleteEndpoint:(SNSDeleteEndpointRequest *)deleteEndpointRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteEndpointRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteEndpoint service method on
+AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteEndpoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/setTopicAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The SetTopicAttributes action allows a topic owner to set an attribute of the topic to a new value.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetTopicAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetTopicAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSSetTopicAttributesResponse *)setTopicAttributes:(SNSSetTopicAttributesRequest *)setTopicAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setTopicAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SetTopicAttributes service method
+on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTopicAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/removePermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The RemovePermission action removes a statement from a topic&apos;s access control policy.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSRemovePermissionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSRemovePermissionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSRemovePermissionResponse *)removePermission:(SNSRemovePermissionRequest *)removePermissionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>removePermissionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the RemovePermission service method on
+AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removePermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/getEndpointAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The GetEndpointAttributes retrieves the endpoint attributes for a device on one of the supported push notification
+services, such as GCM and APNS. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetEndpointAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetEndpointAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSGetEndpointAttributesResponse *)getEndpointAttributes:(SNSGetEndpointAttributesRequest *)getEndpointAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getEndpointAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetEndpointAttributes service
+method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetEndpointAttributes service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/getEndpointAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/listSubscriptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ListSubscriptions action returns a list of the requester&apos;s subscriptions. Each call returns a limited list of
+subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken parameter in
+a new ListSubscriptions call to get further results.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSListSubscriptionsResponse *)listSubscriptions:(SNSListSubscriptionsRequest *)listSubscriptionsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listSubscriptionsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListSubscriptions service method
+on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListSubscriptions service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/listSubscriptions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/createPlatformEndpoint:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The CreatePlatformEndpoint creates an endpoint for a device and mobile app on one of the supported push notification
+services, such as GCM and APNS. CreatePlatformEndpoint requires the PlatformApplicationArn that is returned from
+CreatePlatformApplication . The EndpointArn that is returned when using CreatePlatformEndpoint can then be used by the
+Publish action to send a message to a mobile app or by the Subscribe action for subscription to a topic. For more
+information, see  Using Amazon SNS Mobile Push
+Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreatePlatformEndpointRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreatePlatformEndpointResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSCreatePlatformEndpointResponse *)createPlatformEndpoint:(SNSCreatePlatformEndpointRequest *)createPlatformEndpointRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createPlatformEndpointRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreatePlatformEndpoint
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreatePlatformEndpoint service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/createPlatformEndpoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/setSubscriptionAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The SetSubscriptionAttributes action allows a subscription owner to set an attribute of the topic to a new value.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetSubscriptionAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetSubscriptionAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSSetSubscriptionAttributesResponse *)setSubscriptionAttributes:(SNSSetSubscriptionAttributesRequest *)setSubscriptionAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setSubscriptionAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SetSubscriptionAttributes
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSubscriptionAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/createTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The CreateTopic action creates a topic to which notifications can be published. Users can create at most 100 topics. For
+more information, see  http://aws.amazon.com/sns  . This action is idempotent,
+so if the requester already owns a topic with the specified name, that topic&apos;s ARN is returned without creating a new
+topic.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreateTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSCreateTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSCreateTopicResponse *)createTopic:(SNSCreateTopicRequest *)createTopicRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createTopicRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the CreateTopic service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the CreateTopic service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/createTopic:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/getSubscriptionAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The GetSubscriptionAttribtues action returns all of the properties of a subscription.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetSubscriptionAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetSubscriptionAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSGetSubscriptionAttributesResponse *)getSubscriptionAttributes:(SNSGetSubscriptionAttributesRequest *)getSubscriptionAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getSubscriptionAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetSubscriptionAttributes
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetSubscriptionAttributes service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSubscriptionAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/listTopics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ListTopics action returns a list of the requester&apos;s topics. Each call returns a limited list of topics, up to 100.
+If there are more topics, a NextToken is also returned. Use the NextToken parameter in a new ListTopics call to get
+further results.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListTopicsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListTopicsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSListTopicsResponse *)listTopics:(SNSListTopicsRequest *)listTopicsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listTopicsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListTopics service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListTopics service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/listTopics:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/deletePlatformApplication:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeletePlatformApplication action deletes a platform application object for one of the supported push notification
+services, such as APNS and GCM. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeletePlatformApplicationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeletePlatformApplicationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSDeletePlatformApplicationResponse *)deletePlatformApplication:(SNSDeletePlatformApplicationRequest *)deletePlatformApplicationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deletePlatformApplicationRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeletePlatformApplication
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deletePlatformApplication:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/listPlatformApplications:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ListPlatformApplications action lists the platform application objects for the supported push notification services,
+such as APNS and GCM. The results for ListPlatformApplications are paginated and return a limited list of applications,
+up to 100. If additional records are available after the first page results, then a NextToken string will be returned.
+To receive the next page, you call ListPlatformApplications using the NextToken string received from the previous call.
+When there are no more records to return, NextToken will be null. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListPlatformApplicationsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListPlatformApplicationsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSListPlatformApplicationsResponse *)listPlatformApplications:(SNSListPlatformApplicationsRequest *)listPlatformApplicationsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listPlatformApplicationsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListPlatformApplications
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListPlatformApplications service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/listPlatformApplications:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/setEndpointAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The SetEndpointAttributes action sets the attributes for an endpoint for a device on one of the supported push
+notification services, such as GCM and APNS. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetEndpointAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetEndpointAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSSetEndpointAttributesResponse *)setEndpointAttributes:(SNSSetEndpointAttributesRequest *)setEndpointAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setEndpointAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SetEndpointAttributes service
+method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEndpointAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/unsubscribe:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The Unsubscribe action deletes a subscription. If the subscription requires authentication for deletion, only the owner
+of the subscription or the topic&apos;s owner can unsubscribe, and an AWS signature is required. If the Unsubscribe call does
+not require authentication and the requester is not the subscription owner, a final cancellation message is delivered to
+the endpoint, so that the endpoint owner can easily resubscribe to the topic if the Unsubscribe request was unintended.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSUnsubscribeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSUnsubscribeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSUnsubscribeResponse *)unsubscribe:(SNSUnsubscribeRequest *)unsubscribeRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unsubscribeRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the Unsubscribe service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unsubscribe:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/deleteTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The DeleteTopic action deletes a topic and all its subscriptions. Deleting a topic might prevent some messages
+previously sent to the topic from being delivered to subscribers. This action is idempotent, so deleting a topic that
+does not exist does not result in an error.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSDeleteTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSDeleteTopicResponse *)deleteTopic:(SNSDeleteTopicRequest *)deleteTopicRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteTopicRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteTopic service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteTopic:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/getPlatformApplicationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The GetPlatformApplicationAttributes action retrieves the attributes of the platform application object for the
+supported push notification services, such as APNS and GCM. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetPlatformApplicationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSGetPlatformApplicationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSGetPlatformApplicationAttributesResponse *)getPlatformApplicationAttributes:(SNSGetPlatformApplicationAttributesRequest *)getPlatformApplicationAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getPlatformApplicationAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+GetPlatformApplicationAttributes service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetPlatformApplicationAttributes service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPlatformApplicationAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/setPlatformApplicationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The SetPlatformApplicationAttributes action sets the attributes of the platform application object for the supported
+push notification services, such as APNS and GCM. For more information, see  Using Amazon SNS Mobile Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetPlatformApplicationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSSetPlatformApplicationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSSetPlatformApplicationAttributesResponse *)setPlatformApplicationAttributes:(SNSSetPlatformApplicationAttributesRequest *)setPlatformApplicationAttributesRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setPlatformApplicationAttributesRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+SetPlatformApplicationAttributes service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPlatformApplicationAttributes:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/addPermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The AddPermission action adds a statement to a topic&apos;s access control policy, granting access for the specified AWS
+accounts to the specified actions.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSAddPermissionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSAddPermissionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSAddPermissionResponse *)addPermission:(SNSAddPermissionRequest *)addPermissionRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>addPermissionRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the AddPermission service method on
+AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addPermission:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/listEndpointsByPlatformApplication:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ListEndpointsByPlatformApplication action lists the endpoints and endpoint attributes for devices in a supported
+push notification service, such as GCM and APNS. The results for ListEndpointsByPlatformApplication are paginated and
+return a limited list of endpoints, up to 100. If additional records are available after the first page results, then a
+NextToken string will be returned. To receive the next page, you call ListEndpointsByPlatformApplication again using the
+NextToken string received from the previous call. When there are no more records to return, NextToken will be null. For
+more information, see  Using Amazon SNS Mobile
+Push Notifications  .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListEndpointsByPlatformApplicationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListEndpointsByPlatformApplicationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSListEndpointsByPlatformApplicationResponse *)listEndpointsByPlatformApplication:(SNSListEndpointsByPlatformApplicationRequest *)listEndpointsByPlatformApplicationRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listEndpointsByPlatformApplicationRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the
+ListEndpointsByPlatformApplication service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListEndpointsByPlatformApplication service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/listEndpointsByPlatformApplication:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/listSubscriptionsByTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The ListSubscriptionsByTopic action returns a list of the subscriptions to a specific topic. Each call returns a limited
+list of subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken
+parameter in a new ListSubscriptionsByTopic call to get further results.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsByTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsByTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSListSubscriptionsByTopicResponse *)listSubscriptionsByTopic:(SNSListSubscriptionsByTopicRequest *)listSubscriptionsByTopicRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listSubscriptionsByTopicRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListSubscriptionsByTopic
+service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListSubscriptionsByTopic service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/listSubscriptionsByTopic:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonSNSClient/publish:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The Publish action sends a message to all of a topic&apos;s subscribed endpoints. When a messageId is returned, the message
+has been saved and Amazon SNS will attempt to deliver it to the topic&apos;s subscribers shortly. The format of the outgoing
+message to each subscribed endpoint depends on the notification protocol selected.
+&lt;/p&gt;
+&lt;p&gt;
+To use the Publish action for sending a message to a mobile endpoint, such as an app on a Kindle device or mobile phone,
+you must specify the EndpointArn. The EndpointArn is returned when making a call with the CreatePlatformEndpoint action.
+The second example below shows a request and response for publishing to a mobile endpoint.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonSNSClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSPublishRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/SNSPublishResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (SNSPublishResponse *)publish:(SNSPublishRequest *)publishRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>publishRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the Publish service method on AmazonSNS.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the Publish service method, as returned by AmazonSNS.</Abstract></ReturnValue>
+			<Anchor>//api/name/publish:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

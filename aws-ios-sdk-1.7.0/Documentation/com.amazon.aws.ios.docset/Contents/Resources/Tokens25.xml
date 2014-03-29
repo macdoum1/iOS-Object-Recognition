@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonStaticCredentialsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonStaticCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">A wrapper for static/long-term credentials.  Embedding credentials in your application is not recommended.</Abstract>
+			<DeclaredIn>AmazonStaticCredentialsProvider.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/AmazonCredentialsProvider</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonStaticCredentialsProvider/initWithAccessKey:withSecretKey:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with the access key and the secret key.</Abstract>
+			<DeclaredIn>AmazonStaticCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKey:(NSString *)accessKey withSecretKey:(NSString *)secretKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">The AWS Access Key</Abstract>
+				</Parameter><Parameter>
+					<Name>secretKey</Name>
+					<Abstract type="html">The AWS Secret Key</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKey:withSecretKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonStaticCredentialsProvider/initWithCredentials:</TokenIdentifier>
+			<Abstract type="html">Inits the provider with a pre-allocated AmazonCredentials object</Abstract>
+			<DeclaredIn>AmazonStaticCredentialsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCredentials:(AmazonCredentials *)theCredentials</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theCredentials</Name>
+					<Abstract type="html">the static credentials to provide to clients</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithCredentials:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

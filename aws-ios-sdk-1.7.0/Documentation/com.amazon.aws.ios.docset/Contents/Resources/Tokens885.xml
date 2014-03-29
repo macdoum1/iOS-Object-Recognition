@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceGetFederationTokenRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceGetFederationTokenRequest</TokenIdentifier>
+			<Abstract type="html">Get Federation Token Request</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>
+			
+			<NodeRef refid="885"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the federated user. The name is used as an identifier for
+the temporary security credentials (such as &lt;code&gt;Bob&lt;/code&gt;). For
+example, you can reference the federated user name in a resource-based
+policy, such as in an Amazon S3 bucket policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetFederationTokenRequest/name</TokenIdentifier>
+			<Abstract type="html">The name of the federated user. The name is used as an identifier for
+the temporary security credentials (such as &lt;code&gt;Bob&lt;/code&gt;). For
+example, you can reference the federated user name in a resource-based
+policy, such as in an Amazon S3 bucket policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;2 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w+=,.@-]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">A policy that specifies the permissions that are granted to the
+federated user. By default, federated users have no permissions; they
+do not inherit any from the IAM user. When you specify a policy, the
+federated user&apos;s permissions are intersection of the specified policy
+and the IAM user&apos;s policy. If you don&apos;t specify a policy, federated
+users can only access AWS resources that explicitly allow those
+federated users in a resource policy, such as in an Amazon S3 bucket
+policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2048&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0009\u000A\u000D\u0020-\u00FF]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetFederationTokenRequest/policy</TokenIdentifier>
+			<Abstract type="html">A policy that specifies the permissions that are granted to the
+federated user. By default, federated users have no permissions; they
+do not inherit any from the IAM user. When you specify a policy, the
+federated user&apos;s permissions are intersection of the specified policy
+and the IAM user&apos;s policy. If you don&apos;t specify a policy, federated
+users can only access AWS resources that explicitly allow those
+federated users in a resource policy, such as in an Amazon S3 bucket
+policy.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2048&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0009\u000A\u000D\u0020-\u00FF]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, that the session should last. Acceptable
+durations for federation sessions range from 900 seconds (15 minutes)
+to 129600 seconds (36 hours), with 43200 seconds (12 hours) as the
+default. Sessions for AWS account owners are restricted to a maximum
+of 3600 seconds (one hour). If the duration is longer than one hour,
+the session for AWS account owners defaults to one hour.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 129600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceGetFederationTokenRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">The duration, in seconds, that the session should last. Acceptable
+durations for federation sessions range from 900 seconds (15 minutes)
+to 129600 seconds (36 hours), with 43200 seconds (12 hours) as the
+default. Sessions for AWS account owners are restricted to a maximum
+of 3600 seconds (one hour). If the duration is longer than one hour,
+the session for AWS account owners defaults to one hour.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;900 - 129600&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *durationSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new GetFederationTokenRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/initWithName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new GetFederationTokenRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)theName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the federated user. The name is used as an
+identifier for the temporary security credentials (such as
+&lt;code&gt;Bob&lt;/code&gt;). For example, you can reference the federated user
+name in a resource-based policy, such as in an Amazon S3 bucket
+policy.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceGetFederationTokenRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceGetFederationTokenRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

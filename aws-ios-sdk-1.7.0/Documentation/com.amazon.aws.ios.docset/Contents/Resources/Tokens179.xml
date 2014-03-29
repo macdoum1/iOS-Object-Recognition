@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBDeleteItemRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBDeleteItemRequest</TokenIdentifier>
+			<Abstract type="html">Delete Item Request</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>
+			
+			<NodeRef refid="179"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table from which to delete the item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table from which to delete the item.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects,
+representing the primary key of the item to delete.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/key</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects,
+representing the primary key of the item to delete.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setExpected:</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;DeleteItem&lt;/i&gt;operation. All the conditions must be met for the
+operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/expected</TokenIdentifier>
+			<Abstract type="html">A map of attribute/condition pairs. This is the conditional block for
+the &lt;i&gt;DeleteItem&lt;/i&gt;operation. All the conditions must be met for the
+operation to succeed. &lt;p&gt;&lt;i&gt;Expected&lt;/i&gt; allows you to provide an
+attribute name, and whether or not Amazon DynamoDB should check to see
+if the attribute value already exists; or if the attribute value
+exists and has a particular value before changing it. &lt;p&gt;Each item in
+&lt;i&gt;Expected&lt;/i&gt; represents an attribute name for Amazon DynamoDB to
+check, along with the following: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Value&lt;/i&gt; - The
+attribute value for Amazon DynamoDB to check. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; - Causes Amazon DynamoDB to evaluate the value before
+attempting a conditional operation: &lt;ul&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt;, Amazon DynamoDB will check to see if that attribute
+value already exists in the table. If it is found, then the operation
+succeeds. If it is not found, the operation fails with a
+&lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt; &lt;li&gt; &lt;p&gt;If &lt;i&gt;Exists&lt;/i&gt;
+is &lt;code&gt;false&lt;/code&gt;, Amazon DynamoDB assumes that the attribute
+value does &lt;i&gt;not&lt;/i&gt; exist in the table. If in fact the value does
+not exist, then the assumption is valid and the operation succeeds. If
+the value is found, despite the assumption that it does not exist, the
+operation fails with a &lt;i&gt;ConditionalCheckFailedException&lt;/i&gt;. &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;The default setting for &lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;true&lt;/code&gt;.
+If you supply a &lt;i&gt;Value&lt;/i&gt; all by itself, Amazon DynamoDB assumes
+the attribute exists: You don&apos;t have to set &lt;i&gt;Exists&lt;/i&gt; to
+&lt;code&gt;true&lt;/code&gt;, because it is implied. &lt;p&gt;Amazon DynamoDB returns a
+&lt;i&gt;ValidationException&lt;/i&gt; if: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is
+&lt;code&gt;true&lt;/code&gt; but there is no &lt;i&gt;Value&lt;/i&gt; to check. (You expect a
+value to exist, but don&apos;t specify what that value is.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Exists&lt;/i&gt; is &lt;code&gt;false&lt;/code&gt; but you also specify a
+&lt;i&gt;Value&lt;/i&gt;. (You cannot expect an attribute to have a value, while
+also expecting it not to exist.) &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If you
+specify more than one condition for &lt;i&gt;Exists&lt;/i&gt;, then all of the
+conditions must evaluate to true. (In other words, the conditions are
+ANDed together.) Otherwise, the conditional operation will fail.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *expected</Declaration>
+			
+			
+			<Anchor>//api/name/expected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setReturnValues:</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared before they were deleted. For &lt;i&gt;DeleteItem&lt;/i&gt;, the valid
+values are: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; - If &lt;i&gt;ReturnValues&lt;/i&gt; is
+not specified, or if its value is &lt;code&gt;NONE&lt;/code&gt;, then nothing is
+returned. (This is the default for &lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; - The content of the old item is returned.
+&lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/returnValues</TokenIdentifier>
+			<Abstract type="html">Use &lt;i&gt;ReturnValues&lt;/i&gt; if you want to get the item attributes as they
+appeared before they were deleted. For &lt;i&gt;DeleteItem&lt;/i&gt;, the valid
+values are: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;NONE&lt;/code&gt; - If &lt;i&gt;ReturnValues&lt;/i&gt; is
+not specified, or if its value is &lt;code&gt;NONE&lt;/code&gt;, then nothing is
+returned. (This is the default for &lt;i&gt;ReturnValues&lt;/i&gt;.) &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL_OLD&lt;/code&gt; - The content of the old item is returned.
+&lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;NONE, ALLOLD, UPDATEDOLD, ALLNEW, UPDATEDNEW</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnValues</Declaration>
+			
+			
+			<Anchor>//api/name/returnValues</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;TOTAL&lt;/code&gt;, &lt;i&gt;ConsumedCapacity&lt;/i&gt; is included in
+the response; if set to &lt;code&gt;NONE&lt;/code&gt; (the default),
+&lt;i&gt;ConsumedCapacity&lt;/i&gt; is not included.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;TOTAL, NONE</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setReturnItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBDeleteItemRequest/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">If set to &lt;code&gt;SIZE&lt;/code&gt;, statistics about item collections, if
+any, that were modified during the operation are returned in the
+response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are
+returned..
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;SIZE, NONE</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteItemRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/initWithTableName:andKey:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteItemRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTableName:(NSString *)theTableName andKey:(NSMutableDictionary *)theKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTableName</Name>
+					<Abstract type="html">The name of the table from which to delete the
+item.</Abstract>
+				</Parameter><Parameter>
+					<Name>theKey</Name>
+					<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt;
+objects, representing the primary key of the item to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTableName:andKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setKeyValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary key for the specified key.
+This function will alloc and init key if not already done.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setKeyValue:(DynamoDBAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/setExpectedValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary expected for the specified key.
+This function will alloc and init expected if not already done.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setExpectedValue:(DynamoDBExpectedAttributeValue *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setExpectedValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBDeleteItemRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBDeleteItemRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

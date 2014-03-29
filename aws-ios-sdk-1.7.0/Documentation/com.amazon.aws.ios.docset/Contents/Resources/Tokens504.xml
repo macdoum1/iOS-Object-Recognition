@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2VolumeDetail.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2VolumeDetail</TokenIdentifier>
+			<Abstract type="html">Volume Detail</Abstract>
+			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>
+			
+			<NodeRef refid="504"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/setSize:</TokenIdentifier>
+			<Abstract type="html">The value of the Size property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeDetail/size</TokenIdentifier>
+			<Abstract type="html">The value of the Size property for this object.</Abstract>
+			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeDetail/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2VolumeDetail.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

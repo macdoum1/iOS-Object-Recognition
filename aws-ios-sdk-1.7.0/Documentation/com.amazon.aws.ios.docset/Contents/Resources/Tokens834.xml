@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSDeleteMessageBatchRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageBatchRequest</TokenIdentifier>
+			<Abstract type="html">Delete Message Batch Request</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>
+			
+			<NodeRef refid="834"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageBatchRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/setEntries:</TokenIdentifier>
+			<Abstract type="html">A list of receipt handles for the messages to be deleted.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *entries</Declaration>
+			
+			
+			<Anchor>//api/name/entries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageBatchRequest/entries</TokenIdentifier>
+			<Abstract type="html">A list of receipt handles for the messages to be deleted.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *entries</Declaration>
+			
+			
+			<Anchor>//api/name/entries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteMessageBatchRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/initWithQueueUrl:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteMessageBatchRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/initWithQueueUrl:andEntries:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteMessageBatchRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl andEntries:(NSMutableArray *)theEntries</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter><Parameter>
+					<Name>theEntries</Name>
+					<Abstract type="html">A list of receipt handles for the messages to be
+deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:andEntries:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/addEntry:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to entries.
+This function will alloc and init entries if not already done.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addEntry:(SQSDeleteMessageBatchRequestEntry *)entryObject</Declaration>
+			
+			
+			<Anchor>//api/name/addEntry:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageBatchRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSDeleteMessageBatchRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

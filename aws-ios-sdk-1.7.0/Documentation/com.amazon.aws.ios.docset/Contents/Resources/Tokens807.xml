@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSSetPlatformApplicationAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSSetPlatformApplicationAttributesRequest</TokenIdentifier>
+			<Abstract type="html">Set Platform Application Attributes Request</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="807"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetPlatformApplicationAttributesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetPlatformApplicationAttributesRequest/setPlatformApplicationArn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platformApplicationArn</Declaration>
+			
+			
+			<Anchor>//api/name/platformApplicationArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetPlatformApplicationAttributesRequest/platformApplicationArn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platformApplicationArn</Declaration>
+			
+			
+			<Anchor>//api/name/platformApplicationArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetPlatformApplicationAttributesRequest/setAttributes:</TokenIdentifier>
+			<Abstract type="html">A map of the platform application attributes. Attributes in this map
+include the following: &lt;ul&gt; &lt;!-- AllowEndpointPolicies,
+EventDeliveryAttemptFailure, and Policy are not yet supported. Will
+remove comments once it is available --&gt;
+&lt;li&gt;&lt;code&gt;PlatformCredential&lt;/code&gt; -- The credential received from
+the notification service. For APNS/APNS_SANDBOX, PlatformCredential is
+&quot;private key&quot;. For GCM, PlatformCredential is &quot;API key&quot;. For ADM,&lt;!--
+, WNS and MPNS--&gt; PlatformCredential is &quot;client secret&quot;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PlatformPrincipal&lt;/code&gt; -- The principal received from the
+notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is &quot;SSL
+certificate&quot;. For GCM, PlatformPrincipal is not applicable. For
+ADM,&lt;!-- , WNS and MPNS--&gt; PlatformPrincipal is &quot;client id&quot;.&lt;/li&gt; &lt;!--
+&lt;li&gt;&lt;code&gt;AllowEndpointPolicies&lt;/code&gt; true or false (default false) -
+If true, then policies on endpoints will be evaluated to determine if
+the topic or user has the rights to send messages to it. If false, the
+endpoint policy will be ignored and only the mobile app policy will be
+considered.&lt;/li&gt; --&gt; &lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic
+ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which
+EndpointDeleted event notifications should be sent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which
+EndpointUpdate event notifications should be sent.&lt;/li&gt; &lt;!--
+&lt;li&gt;&lt;code&gt;EventDeliveryAttemptFailure&lt;/code&gt; Topic ARN to which
+DeliveryAttemptFailure event notifications should be sent upon Direct
+Publish delivery attempt failures to one of the application&apos;s
+endpoints.&lt;/li&gt; --&gt; &lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN
+to which DeliveryFailure event notifications should be sent upon
+Direct Publish delivery failure (permanent) to one of the
+application&apos;s endpoints.&lt;/li&gt; &lt;!-- &lt;li&gt;&lt;code&gt;Policy&lt;/code&gt; Access
+policy controlling who can send messages to endpoints under this
+mobile app.&lt;/li&gt; --&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSSetPlatformApplicationAttributesRequest/attributes</TokenIdentifier>
+			<Abstract type="html">A map of the platform application attributes. Attributes in this map
+include the following: &lt;ul&gt; &lt;!-- AllowEndpointPolicies,
+EventDeliveryAttemptFailure, and Policy are not yet supported. Will
+remove comments once it is available --&gt;
+&lt;li&gt;&lt;code&gt;PlatformCredential&lt;/code&gt; -- The credential received from
+the notification service. For APNS/APNS_SANDBOX, PlatformCredential is
+&quot;private key&quot;. For GCM, PlatformCredential is &quot;API key&quot;. For ADM,&lt;!--
+, WNS and MPNS--&gt; PlatformCredential is &quot;client secret&quot;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PlatformPrincipal&lt;/code&gt; -- The principal received from the
+notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is &quot;SSL
+certificate&quot;. For GCM, PlatformPrincipal is not applicable. For
+ADM,&lt;!-- , WNS and MPNS--&gt; PlatformPrincipal is &quot;client id&quot;.&lt;/li&gt; &lt;!--
+&lt;li&gt;&lt;code&gt;AllowEndpointPolicies&lt;/code&gt; true or false (default false) -
+If true, then policies on endpoints will be evaluated to determine if
+the topic or user has the rights to send messages to it. If false, the
+endpoint policy will be ignored and only the mobile app policy will be
+considered.&lt;/li&gt; --&gt; &lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic
+ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which
+EndpointDeleted event notifications should be sent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which
+EndpointUpdate event notifications should be sent.&lt;/li&gt; &lt;!--
+&lt;li&gt;&lt;code&gt;EventDeliveryAttemptFailure&lt;/code&gt; Topic ARN to which
+DeliveryAttemptFailure event notifications should be sent upon Direct
+Publish delivery attempt failures to one of the application&apos;s
+endpoints.&lt;/li&gt; --&gt; &lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN
+to which DeliveryFailure event notifications should be sent upon
+Direct Publish delivery failure (permanent) to one of the
+application&apos;s endpoints.&lt;/li&gt; &lt;!-- &lt;li&gt;&lt;code&gt;Policy&lt;/code&gt; Access
+policy controlling who can send messages to endpoints under this
+mobile app.&lt;/li&gt; --&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetPlatformApplicationAttributesRequest/setAttributesValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Set a value in the dictionary attributes for the specified key.
+This function will alloc and init attributes if not already done.</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setAttributesValue:(NSString *)theValue forKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/setAttributesValue:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSSetPlatformApplicationAttributesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSSetPlatformApplicationAttributesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

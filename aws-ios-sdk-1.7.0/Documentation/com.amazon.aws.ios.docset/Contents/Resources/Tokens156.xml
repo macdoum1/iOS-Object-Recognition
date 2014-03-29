@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CloudWatchPutMetricAlarmResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricAlarmResponse</TokenIdentifier>
+			<Abstract type="html">Put Metric Alarm</Abstract>
+			<DeclaredIn>CloudWatchPutMetricAlarmResponse.h</DeclaredIn>
+			
+			<NodeRef refid="156"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

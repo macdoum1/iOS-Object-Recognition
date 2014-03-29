@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Response.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Response</TokenIdentifier>
+			<Abstract type="html">response headers that are common to Amazon S3 responses.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>
+			
+			<NodeRef refid="685"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setConnectionState:</TokenIdentifier>
+			<Abstract type="html">Specfies whether the connection to the server is open or closed.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/connectionState</TokenIdentifier>
+			<Abstract type="html">Specfies whether the connection to the server is open or closed.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setEtag:</TokenIdentifier>
+			<Abstract type="html">The entity tag is an MD5 hash of the object that you can use to do conditional
+&lt;code&gt;GET&lt;/code&gt; operations using the &lt;code&gt;If-Modified&lt;/code&gt; request tag with the &lt;code&gt;GET&lt;/code&gt; request operation.
+Amazon S3 checks the object against the provided MD5 value. If they do not match, Amazon S3 returns an error.
+The ETag only reflects changes to the contents of an object, not its metadata.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/etag</TokenIdentifier>
+			<Abstract type="html">The entity tag is an MD5 hash of the object that you can use to do conditional
+&lt;code&gt;GET&lt;/code&gt; operations using the &lt;code&gt;If-Modified&lt;/code&gt; request tag with the &lt;code&gt;GET&lt;/code&gt; request operation.
+Amazon S3 checks the object against the provided MD5 value. If they do not match, Amazon S3 returns an error.
+The ETag only reflects changes to the contents of an object, not its metadata.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *etag</Declaration>
+			
+			
+			<Anchor>//api/name/etag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setServer:</TokenIdentifier>
+			<Abstract type="html">The name of the server that created the response.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *server</Declaration>
+			
+			
+			<Anchor>//api/name/server</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/server</TokenIdentifier>
+			<Abstract type="html">The name of the server that created the response.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *server</Declaration>
+			
+			
+			<Anchor>//api/name/server</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setId2:</TokenIdentifier>
+			<Abstract type="html">A special token that helps AWS troubleshoot problems.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *id2</Declaration>
+			
+			
+			<Anchor>//api/name/id2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/id2</TokenIdentifier>
+			<Abstract type="html">A special token that helps AWS troubleshoot problems.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *id2</Declaration>
+			
+			
+			<Anchor>//api/name/id2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setVersionId:</TokenIdentifier>
+			<Abstract type="html">The version of the object.
+When you enable versioning, Amazon S3 generates a random number for objects added to a bucket.
+The value is UTF-8 encoded and URL ready.
+When you PUT an object in a bucket where versioning has been suspended, the version ID is always &lt;code&gt;null&lt;/code&gt;.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/versionId</TokenIdentifier>
+			<Abstract type="html">The version of the object.
+When you enable versioning, Amazon S3 generates a random number for objects added to a bucket.
+The value is UTF-8 encoded and URL ready.
+When you PUT an object in a bucket where versioning has been suspended, the version ID is always &lt;code&gt;null&lt;/code&gt;.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setServerSideEncryption:</TokenIdentifier>
+			<Abstract type="html">Algorithm used for optional server side encryption.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serverSideEncryption</Declaration>
+			
+			
+			<Anchor>//api/name/serverSideEncryption</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/serverSideEncryption</TokenIdentifier>
+			<Abstract type="html">Algorithm used for optional server side encryption.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serverSideEncryption</Declaration>
+			
+			
+			<Anchor>//api/name/serverSideEncryption</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setDate:</TokenIdentifier>
+			<Abstract type="html">The date and time Amazon S3 responded.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/date</TokenIdentifier>
+			<Abstract type="html">The date and time Amazon S3 responded.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setDeleteMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the object returned was (&lt;code&gt;true&lt;/code&gt;) or was not (&lt;code&gt;false&lt;/code&gt;) a Delete Marker.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL deleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Specifies whether the object returned was (&lt;code&gt;true&lt;/code&gt;) or was not (&lt;code&gt;false&lt;/code&gt;) a Delete Marker.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL deleteMarker</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setContentLength:</TokenIdentifier>
+			<Abstract type="html">The length in bytes of the body in the response.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t contentLength</Declaration>
+			
+			
+			<Anchor>//api/name/contentLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3Response/contentLength</TokenIdentifier>
+			<Abstract type="html">The length in bytes of the body in the response.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int64_t contentLength</Declaration>
+			
+			
+			<Anchor>//api/name/contentLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/setValue:forHTTPHeaderField:</TokenIdentifier>
+			<Abstract type="html">Sets the value in the response corresponding to the HTTP header</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>- (void)setValue:(id)value forHTTPHeaderField:(NSString *)header</Declaration>
+			
+			
+			<Anchor>//api/name/setValue:forHTTPHeaderField:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/valueForHTTPHeaderField:</TokenIdentifier>
+			<Abstract type="html">Gets the value in the response corresponding to the HTTP header</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>- (id)valueForHTTPHeaderField:(NSString *)header</Declaration>
+			
+			
+			<Anchor>//api/name/valueForHTTPHeaderField:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Response/getTypeOfPropertyNamed:</TokenIdentifier>
+			<Abstract type="html">Determines the type of a property in a response.</Abstract>
+			<DeclaredIn>S3Response.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)getTypeOfPropertyNamed:(NSString *)propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/getTypeOfPropertyNamed:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

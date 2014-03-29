@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSListSubscriptionsByTopicRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSListSubscriptionsByTopicRequest</TokenIdentifier>
+			<Abstract type="html">List Subscriptions By Topic Request</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>
+			
+			<NodeRef refid="790"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic for which you wish to find subscriptions.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsByTopicRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic for which you wish to find subscriptions.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">Token returned by the previous &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt;
+request.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSListSubscriptionsByTopicRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">Token returned by the previous &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt;
+request.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ListSubscriptionsByTopicRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/initWithTopicArn:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ListSubscriptionsByTopicRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic for which you wish to find
+subscriptions.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/initWithTopicArn:andNextToken:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ListSubscriptionsByTopicRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andNextToken:(NSString *)theNextToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic for which you wish to find
+subscriptions.</Abstract>
+				</Parameter><Parameter>
+					<Name>theNextToken</Name>
+					<Abstract type="html">Token returned by the previous
+&lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andNextToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSListSubscriptionsByTopicRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSListSubscriptionsByTopicRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

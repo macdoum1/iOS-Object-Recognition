@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3Region.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3Region</TokenIdentifier>
+			<Abstract type="html">Specifies constants that define Amazon S3 Regions.
+&lt;p&gt;
+Amazon S3 Regions allow the user to choose the geographical region where Amazon S3
+will store the buckets the user creates. Choose a Amazon S3 Region to optimize
+latency, minimize costs, or address regulatory requirements.
+&lt;/p&gt;
+&lt;p&gt;
+Objects stored in a Amazon S3 Region never leave that region unless explicitly
+transfered to another region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>
+			
+			<NodeRef refid="683"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3Region/initWithStringValue:</TokenIdentifier>
+			<Abstract type="html">Returns an S3Region initialized with the supplied string value.</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStringValue:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithStringValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/USStandard</TokenIdentifier>
+			<Abstract type="html">The US Standard Amazon S3 Region. This region
+uses Amazon S3 servers located in the United
+States.
+&lt;p&gt;
+This is the default Amazon S3 Region. All requests sent to
+&lt;code&gt;s3.amazonaws.com&lt;/code&gt; go
+to this region unless a location constraint is specified when creating a bucket.
+The US Standard Region automatically places
+data in either Amazon&apos;s east or west coast data centers depending on
+which one provides the lowest latency. The US Standard Region
+provides eventual consistency for all requests.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)USStandard</Declaration>
+			
+			
+			<Anchor>//api/name/USStandard</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/USWest</TokenIdentifier>
+			<Abstract type="html">The US-West (Northern California) Amazon S3 Region. This region uses Amazon S3
+servers located in Northern California.
+&lt;p&gt;
+When using buckets in this region, optionally set the client
+endpoint to &lt;code&gt;s3-us-west-1.amazonaws.com&lt;/code&gt; on all requests to these
+buckets to reduce any latency experienced after the first
+hour of creating a bucket in this region.
+&lt;/p&gt;
+&lt;p&gt;
+In Amazon S3, the US-West (Northern California) Region provides
+read-after-write consistency for PUTS of new objects in Amazon
+S3 buckets and eventual consistency for overwrite PUTS and DELETES.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)USWest</Declaration>
+			
+			
+			<Anchor>//api/name/USWest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/USWest2</TokenIdentifier>
+			<Abstract type="html">The US-West-2 (Oregon) Region. This region uses Amazon S3 servers located
+in Oregon.
+&lt;p&gt;
+When using buckets in this region, optionally set the client
+endpoint to &lt;code&gt;s3-us-west-2.amazonaws.com&lt;/code&gt; on all requests to these buckets
+to reduce any latency experienced after the first hour of
+creating a bucket in this region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)USWest2</Declaration>
+			
+			
+			<Anchor>//api/name/USWest2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/EUIreland</TokenIdentifier>
+			<Abstract type="html">The EU (Ireland) Amazon S3 Region. This region uses Amazon S3 servers located
+in Ireland.  Deprecated in favor of &lt;code&gt;EUWest1&lt;/code&gt;.
+&lt;p&gt;
+In Amazon S3, the EU (Ireland) Region provides read-after-write
+consistency for PUTS of new objects in Amazon S3 buckets and eventual
+consistency for overwrite PUTS and DELETES.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)EUIreland</Declaration>
+			
+			
+			<Anchor>//api/name/EUIreland</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/EUWest1</TokenIdentifier>
+			<Abstract type="html">The EU (Ireland) Amazon S3 Region. This region uses Amazon S3 servers located
+in Ireland.
+&lt;p&gt;
+In Amazon S3, the EU (Ireland) Region provides read-after-write
+consistency for PUTS of new objects in Amazon S3 buckets and eventual
+consistency for overwrite PUTS and DELETES.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)EUWest1</Declaration>
+			
+			
+			<Anchor>//api/name/EUWest1</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/APSingapore</TokenIdentifier>
+			<Abstract type="html">The Asia Pacific (Singapore) Region. This region uses Amazon S3 servers located
+in Singapore.
+&lt;p&gt;
+When using buckets in this region, optionally set the client
+endpoint to &lt;code&gt;s3-ap-southeast-1.amazonaws.com&lt;/code&gt; on all requests to these buckets
+to reduce any latency experienced after the first hour of
+creating a bucket in this region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)APSingapore</Declaration>
+			
+			
+			<Anchor>//api/name/APSingapore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/APSydney</TokenIdentifier>
+			<Abstract type="html">The AP-Southeast-2 (Sydney) Region. This region uses Amazon S3 servers located
+in Sydney.
+&lt;p&gt;
+When using buckets in this region, optionally set the client
+endpoint to &lt;code&gt;s3-ap-southeast-2.amazonaws.com&lt;/code&gt; on all requests to these buckets
+to reduce any latency experienced after the first hour of
+creating a bucket in this region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)APSydney</Declaration>
+			
+			
+			<Anchor>//api/name/APSydney</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/APJapan</TokenIdentifier>
+			<Abstract type="html">The Asia Pacific (Japan) Region. This region uses Amazon S3 servers located
+in Japan.
+&lt;p&gt;
+When using buckets in this region, optionally set the client
+endpoint to &lt;code&gt;s3-ap-northeast-1.amazonaws.com&lt;/code&gt; on all requests to these buckets
+to reduce any latency experienced after the first hour of
+creating a bucket in this region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)APJapan</Declaration>
+			
+			
+			<Anchor>//api/name/APJapan</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/SASaoPaulo</TokenIdentifier>
+			<Abstract type="html">The South America (Sao Paulo) Region. This region uses Amazon S3 servers
+located in Sao Paulo.
+&lt;p&gt;
+When using buckets in this region, optionally set the client endpoint to
+&lt;code&gt;s3-sa-east-1.amazonaws.com&lt;/code&gt; on all requests to these buckets
+to reduce any latency experienced after the first hour of creating a
+bucket in this region.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)SASaoPaulo</Declaration>
+			
+			
+			<Anchor>//api/name/SASaoPaulo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3Region/regionWithString:</TokenIdentifier>
+			<Abstract type="html">Convert a string describing an Amazon S3 region to the corresponding S3Region</Abstract>
+			<DeclaredIn>S3Region.h</DeclaredIn>			
+			
+			<Declaration>+ (S3Region *)regionWithString:(NSString *)regionName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionName</Name>
+					<Abstract type="html">A string representation of an Amazon S3 region.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The corresponding S3Region.
+@throws AWSClientException If the specified string does not match one of the Amazon S3 regions.</Abstract></ReturnValue>
+			<Anchor>//api/name/regionWithString:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

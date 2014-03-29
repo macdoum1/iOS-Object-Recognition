@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonServiceRequestConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceRequestConfig</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequestConfig/setCredentials:</TokenIdentifier>
+			<Abstract type="html">Request specific credentials.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequestConfig/credentials</TokenIdentifier>
+			<Abstract type="html">Request specific credentials.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonCredentials *credentials</Declaration>
+			
+			
+			<Anchor>//api/name/credentials</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequestConfig/setRequestEndpoint:</TokenIdentifier>
+			<Abstract type="html">Request specific endpoint.  This value will override the setting
+in the service specific client used to submit the request.
+Inspect the &apos;endpoint&apos; property in the AmazonXXXClient class to
+see the default endpoint.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestEndpoint</Declaration>
+			
+			
+			<Anchor>//api/name/requestEndpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequestConfig/requestEndpoint</TokenIdentifier>
+			<Abstract type="html">Request specific endpoint.  This value will override the setting
+in the service specific client used to submit the request.
+Inspect the &apos;endpoint&apos; property in the AmazonXXXClient class to
+see the default endpoint.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestEndpoint</Declaration>
+			
+			
+			<Anchor>//api/name/requestEndpoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequestConfig/setUrlConnection:</TokenIdentifier>
+			<Abstract type="html">The connection object used to make the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSURLConnection *urlConnection</Declaration>
+			
+			
+			<Anchor>//api/name/urlConnection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequestConfig/urlConnection</TokenIdentifier>
+			<Abstract type="html">The connection object used to make the request.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSURLConnection *urlConnection</Declaration>
+			
+			
+			<Anchor>//api/name/urlConnection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceRequestConfig/setRequestTag:</TokenIdentifier>
+			<Abstract type="html">Open property that enables user to distinquish various requests.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestTag</Declaration>
+			
+			
+			<Anchor>//api/name/requestTag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceRequestConfig/requestTag</TokenIdentifier>
+			<Abstract type="html">Open property that enables user to distinquish various requests.</Abstract>
+			<DeclaredIn>AmazonServiceRequestConfig.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestTag</Declaration>
+			
+			
+			<Anchor>//api/name/requestTag</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

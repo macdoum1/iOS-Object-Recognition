@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceCredentials.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceCredentials</TokenIdentifier>
+			<Abstract type="html">Credentials</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>
+			
+			<NodeRef refid="880"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/setAccessKeyId:</TokenIdentifier>
+			<Abstract type="html">The access key ID that identifies the temporary security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;16 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/accessKeyId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceCredentials/accessKeyId</TokenIdentifier>
+			<Abstract type="html">The access key ID that identifies the temporary security credentials.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;16 - 32&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\w]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/accessKeyId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/setSecretAccessKey:</TokenIdentifier>
+			<Abstract type="html">The secret access key that can be used to sign requests.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *secretAccessKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretAccessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceCredentials/secretAccessKey</TokenIdentifier>
+			<Abstract type="html">The secret access key that can be used to sign requests.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *secretAccessKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretAccessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/setSessionToken:</TokenIdentifier>
+			<Abstract type="html">The token that users must pass to the service API to use the temporary
+credentials.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/sessionToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceCredentials/sessionToken</TokenIdentifier>
+			<Abstract type="html">The token that users must pass to the service API to use the temporary
+credentials.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/sessionToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/setExpiration:</TokenIdentifier>
+			<Abstract type="html">The date on which the current credentials expire.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceCredentials/expiration</TokenIdentifier>
+			<Abstract type="html">The date on which the current credentials expire.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new Credentials object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/initWithAccessKeyId:andSecretAccessKey:andSessionToken:andExpiration:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Credentials object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKeyId:(NSString *)theAccessKeyId andSecretAccessKey:(NSString *)theSecretAccessKey andSessionToken:(NSString *)theSessionToken andExpiration:(NSDate *)theExpiration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theAccessKeyId</Name>
+					<Abstract type="html">The access key ID that identifies the temporary
+security credentials.</Abstract>
+				</Parameter><Parameter>
+					<Name>theSecretAccessKey</Name>
+					<Abstract type="html">The secret access key that can be used to
+sign requests.</Abstract>
+				</Parameter><Parameter>
+					<Name>theSessionToken</Name>
+					<Abstract type="html">The token that users must pass to the service
+API to use the temporary credentials.</Abstract>
+				</Parameter><Parameter>
+					<Name>theExpiration</Name>
+					<Abstract type="html">The date on which the current credentials expire.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKeyId:andSecretAccessKey:andSessionToken:andExpiration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceCredentials/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceCredentials.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

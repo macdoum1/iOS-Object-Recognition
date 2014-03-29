@@ -1,0 +1,3543 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonSNSClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonSNSClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addPermission:">&nbsp;&nbsp;&nbsp;&nbsp;- addPermission:</option>
+	
+	<option value="//api/name/confirmSubscription:">&nbsp;&nbsp;&nbsp;&nbsp;- confirmSubscription:</option>
+	
+	<option value="//api/name/createPlatformApplication:">&nbsp;&nbsp;&nbsp;&nbsp;- createPlatformApplication:</option>
+	
+	<option value="//api/name/createPlatformEndpoint:">&nbsp;&nbsp;&nbsp;&nbsp;- createPlatformEndpoint:</option>
+	
+	<option value="//api/name/createTopic:">&nbsp;&nbsp;&nbsp;&nbsp;- createTopic:</option>
+	
+	<option value="//api/name/deleteEndpoint:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteEndpoint:</option>
+	
+	<option value="//api/name/deletePlatformApplication:">&nbsp;&nbsp;&nbsp;&nbsp;- deletePlatformApplication:</option>
+	
+	<option value="//api/name/deleteTopic:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteTopic:</option>
+	
+	<option value="//api/name/getEndpointAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getEndpointAttributes:</option>
+	
+	<option value="//api/name/getPlatformApplicationAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getPlatformApplicationAttributes:</option>
+	
+	<option value="//api/name/getSubscriptionAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getSubscriptionAttributes:</option>
+	
+	<option value="//api/name/getTopicAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- getTopicAttributes:</option>
+	
+	<option value="//api/name/listEndpointsByPlatformApplication:">&nbsp;&nbsp;&nbsp;&nbsp;- listEndpointsByPlatformApplication:</option>
+	
+	<option value="//api/name/listPlatformApplications:">&nbsp;&nbsp;&nbsp;&nbsp;- listPlatformApplications:</option>
+	
+	<option value="//api/name/listSubscriptions:">&nbsp;&nbsp;&nbsp;&nbsp;- listSubscriptions:</option>
+	
+	<option value="//api/name/listSubscriptionsByTopic:">&nbsp;&nbsp;&nbsp;&nbsp;- listSubscriptionsByTopic:</option>
+	
+	<option value="//api/name/listTopics:">&nbsp;&nbsp;&nbsp;&nbsp;- listTopics:</option>
+	
+	<option value="//api/name/publish:">&nbsp;&nbsp;&nbsp;&nbsp;- publish:</option>
+	
+	<option value="//api/name/removePermission:">&nbsp;&nbsp;&nbsp;&nbsp;- removePermission:</option>
+	
+	<option value="//api/name/setEndpointAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- setEndpointAttributes:</option>
+	
+	<option value="//api/name/setPlatformApplicationAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- setPlatformApplicationAttributes:</option>
+	
+	<option value="//api/name/setSubscriptionAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- setSubscriptionAttributes:</option>
+	
+	<option value="//api/name/setTopicAttributes:">&nbsp;&nbsp;&nbsp;&nbsp;- setTopicAttributes:</option>
+	
+	<option value="//api/name/subscribe:">&nbsp;&nbsp;&nbsp;&nbsp;- subscribe:</option>
+	
+	<option value="//api/name/unsubscribe:">&nbsp;&nbsp;&nbsp;&nbsp;- unsubscribe:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPermission:">addPermission:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/confirmSubscription:">confirmSubscription:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createPlatformApplication:">createPlatformApplication:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createPlatformEndpoint:">createPlatformEndpoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createTopic:">createTopic:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteEndpoint:">deleteEndpoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deletePlatformApplication:">deletePlatformApplication:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteTopic:">deleteTopic:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getEndpointAttributes:">getEndpointAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPlatformApplicationAttributes:">getPlatformApplicationAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscriptionAttributes:">getSubscriptionAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getTopicAttributes:">getTopicAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listEndpointsByPlatformApplication:">listEndpointsByPlatformApplication:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listPlatformApplications:">listPlatformApplications:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listSubscriptions:">listSubscriptions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listSubscriptionsByTopic:">listSubscriptionsByTopic:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listTopics:">listTopics:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/publish:">publish:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removePermission:">removePermission:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setEndpointAttributes:">setEndpointAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPlatformApplicationAttributes:">setPlatformApplicationAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSubscriptionAttributes:">setSubscriptionAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTopicAttributes:">setTopicAttributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribe:">subscribe:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unsubscribe:">unsubscribe:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonSNSClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonSNSClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonSNSClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonSNS.</p>
+
+<p>Amazon SNS
+</summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/confirmSubscription:">&ndash;&nbsp;confirmSubscription:</a></code>
+		<span class="tooltip"><p>
+The ConfirmSubscription action verifies an endpoint owner's intent to receive messages by validating the token sent to
+the endpoint by an earlier Subscribe action. If the token is valid, the action creates a new subscription and returns
+its Amazon Resource Name (ARN). This call requires an AWS signature only when the AuthenticateOnUnsubscribe flag is set
+to "true".
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createPlatformApplication:">&ndash;&nbsp;createPlatformApplication:</a></code>
+		<span class="tooltip"><p>
+The CreatePlatformApplication action creates a platform application object for one of the supported push notification
+services, such as APNS and GCM, to which devices and mobile apps may register. You must specify PlatformPrincipal and
+PlatformCredential attributes when using the CreatePlatformApplication action. The PlatformPrincipal is received from
+the notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is "SSL certificate". For GCM, PlatformPrincipal is
+not applicable. For ADM, PlatformPrincipal is "client id". The PlatformCredential is also received from the
+notification service. For APNS/APNS_SANDBOX, PlatformCredential is "private key". For GCM, PlatformCredential is "API
+key". For ADM, PlatformCredential is "client secret". The PlatformApplicationArn that is returned when using
+CreatePlatformApplication is then used as an attribute for the CreatePlatformEndpoint action. For more information, see
+<a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getTopicAttributes:">&ndash;&nbsp;getTopicAttributes:</a></code>
+		<span class="tooltip"><p>
+The GetTopicAttributes action returns all of the properties of a topic. Topic properties returned might differ based on
+the authorization of the user.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/subscribe:">&ndash;&nbsp;subscribe:</a></code>
+		<span class="tooltip"><p>
+The Subscribe action prepares to subscribe an endpoint by sending the endpoint a confirmation message. To actually
+create a subscription, the endpoint owner must call the ConfirmSubscription action with the token from the confirmation
+message. Confirmation tokens are valid for three days.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteEndpoint:">&ndash;&nbsp;deleteEndpoint:</a></code>
+		<span class="tooltip"><p>
+The DeleteEndpoint action, which is idempotent, deletes the endpoint from SNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTopicAttributes:">&ndash;&nbsp;setTopicAttributes:</a></code>
+		<span class="tooltip"><p>
+The SetTopicAttributes action allows a topic owner to set an attribute of the topic to a new value.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removePermission:">&ndash;&nbsp;removePermission:</a></code>
+		<span class="tooltip"><p>
+The RemovePermission action removes a statement from a topic's access control policy.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getEndpointAttributes:">&ndash;&nbsp;getEndpointAttributes:</a></code>
+		<span class="tooltip"><p>
+The GetEndpointAttributes retrieves the endpoint attributes for a device on one of the supported push notification
+services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listSubscriptions:">&ndash;&nbsp;listSubscriptions:</a></code>
+		<span class="tooltip"><p>
+The ListSubscriptions action returns a list of the requester's subscriptions. Each call returns a limited list of
+subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken parameter in
+a new ListSubscriptions call to get further results.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createPlatformEndpoint:">&ndash;&nbsp;createPlatformEndpoint:</a></code>
+		<span class="tooltip"><p>
+The CreatePlatformEndpoint creates an endpoint for a device and mobile app on one of the supported push notification
+services, such as GCM and APNS. CreatePlatformEndpoint requires the PlatformApplicationArn that is returned from
+CreatePlatformApplication . The EndpointArn that is returned when using CreatePlatformEndpoint can then be used by the
+Publish action to send a message to a mobile app or by the Subscribe action for subscription to a topic. For more
+information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push
+Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSubscriptionAttributes:">&ndash;&nbsp;setSubscriptionAttributes:</a></code>
+		<span class="tooltip"><p>
+The SetSubscriptionAttributes action allows a subscription owner to set an attribute of the topic to a new value.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createTopic:">&ndash;&nbsp;createTopic:</a></code>
+		<span class="tooltip"><p>
+The CreateTopic action creates a topic to which notifications can be published. Users can create at most 100 topics. For
+more information, see <a href="http://aws.amazon.com/sns/"> http://aws.amazon.com/sns </a> . This action is idempotent,
+so if the requester already owns a topic with the specified name, that topic's ARN is returned without creating a new
+topic.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSubscriptionAttributes:">&ndash;&nbsp;getSubscriptionAttributes:</a></code>
+		<span class="tooltip"><p>
+The GetSubscriptionAttribtues action returns all of the properties of a subscription.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listTopics:">&ndash;&nbsp;listTopics:</a></code>
+		<span class="tooltip"><p>
+The ListTopics action returns a list of the requester's topics. Each call returns a limited list of topics, up to 100.
+If there are more topics, a NextToken is also returned. Use the NextToken parameter in a new ListTopics call to get
+further results.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deletePlatformApplication:">&ndash;&nbsp;deletePlatformApplication:</a></code>
+		<span class="tooltip"><p>
+The DeletePlatformApplication action deletes a platform application object for one of the supported push notification
+services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listPlatformApplications:">&ndash;&nbsp;listPlatformApplications:</a></code>
+		<span class="tooltip"><p>
+The ListPlatformApplications action lists the platform application objects for the supported push notification services,
+such as APNS and GCM. The results for ListPlatformApplications are paginated and return a limited list of applications,
+up to 100. If additional records are available after the first page results, then a NextToken string will be returned.
+To receive the next page, you call ListPlatformApplications using the NextToken string received from the previous call.
+When there are no more records to return, NextToken will be null. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setEndpointAttributes:">&ndash;&nbsp;setEndpointAttributes:</a></code>
+		<span class="tooltip"><p>
+The SetEndpointAttributes action sets the attributes for an endpoint for a device on one of the supported push
+notification services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unsubscribe:">&ndash;&nbsp;unsubscribe:</a></code>
+		<span class="tooltip"><p>
+The Unsubscribe action deletes a subscription. If the subscription requires authentication for deletion, only the owner
+of the subscription or the topic's owner can unsubscribe, and an AWS signature is required. If the Unsubscribe call does
+not require authentication and the requester is not the subscription owner, a final cancellation message is delivered to
+the endpoint, so that the endpoint owner can easily resubscribe to the topic if the Unsubscribe request was unintended.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteTopic:">&ndash;&nbsp;deleteTopic:</a></code>
+		<span class="tooltip"><p>
+The DeleteTopic action deletes a topic and all its subscriptions. Deleting a topic might prevent some messages
+previously sent to the topic from being delivered to subscribers. This action is idempotent, so deleting a topic that
+does not exist does not result in an error.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPlatformApplicationAttributes:">&ndash;&nbsp;getPlatformApplicationAttributes:</a></code>
+		<span class="tooltip"><p>
+The GetPlatformApplicationAttributes action retrieves the attributes of the platform application object for the
+supported push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPlatformApplicationAttributes:">&ndash;&nbsp;setPlatformApplicationAttributes:</a></code>
+		<span class="tooltip"><p>
+The SetPlatformApplicationAttributes action sets the attributes of the platform application object for the supported
+push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPermission:">&ndash;&nbsp;addPermission:</a></code>
+		<span class="tooltip"><p>
+The AddPermission action adds a statement to a topic's access control policy, granting access for the specified AWS
+accounts to the specified actions.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listEndpointsByPlatformApplication:">&ndash;&nbsp;listEndpointsByPlatformApplication:</a></code>
+		<span class="tooltip"><p>
+The ListEndpointsByPlatformApplication action lists the endpoints and endpoint attributes for devices in a supported
+push notification service, such as GCM and APNS. The results for ListEndpointsByPlatformApplication are paginated and
+return a limited list of endpoints, up to 100. If additional records are available after the first page results, then a
+NextToken string will be returned. To receive the next page, you call ListEndpointsByPlatformApplication again using the
+NextToken string received from the previous call. When there are no more records to return, NextToken will be null. For
+more information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile
+Push Notifications </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listSubscriptionsByTopic:">&ndash;&nbsp;listSubscriptionsByTopic:</a></code>
+		<span class="tooltip"><p>
+The ListSubscriptionsByTopic action returns a list of the subscriptions to a specific topic. Each call returns a limited
+list of subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken
+parameter in a new ListSubscriptionsByTopic call to get further results.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/publish:">&ndash;&nbsp;publish:</a></code>
+		<span class="tooltip"><p>
+The Publish action sends a message to all of a topic's subscribed endpoints. When a messageId is returned, the message
+has been saved and Amazon SNS will attempt to deliver it to the topic's subscribers shortly. The format of the outgoing
+message to each subscribed endpoint depends on the notification protocol selected.
+</p>
+
+
+<p>
+To use the Publish action for sending a message to a mobile endpoint, such as an app on a Kindle device or mobile phone,
+you must specify the EndpointArn. The EndpointArn is returned when making a call with the CreatePlatformEndpoint action.
+The second example below shows a request and response for publishing to a mobile endpoint.
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addPermission:" title="addPermission:"></a>
+	<h3 class="subsubtitle method-title">addPermission:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The AddPermission action adds a statement to a topic's access control policy, granting access for the specified AWS
+accounts to the specified actions.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSAddPermissionResponse *)addPermission:(SNSAddPermissionRequest *)<em>addPermissionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>addPermissionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the AddPermission service method on
+AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The AddPermission action adds a statement to a topic's access control policy, granting access for the specified AWS
+accounts to the specified actions.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSAddPermissionRequest.html">SNSAddPermissionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSAddPermissionResponse.html">SNSAddPermissionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/confirmSubscription:" title="confirmSubscription:"></a>
+	<h3 class="subsubtitle method-title">confirmSubscription:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ConfirmSubscription action verifies an endpoint owner's intent to receive messages by validating the token sent to
+the endpoint by an earlier Subscribe action. If the token is valid, the action creates a new subscription and returns
+its Amazon Resource Name (ARN). This call requires an AWS signature only when the AuthenticateOnUnsubscribe flag is set
+to "true".
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSConfirmSubscriptionResponse *)confirmSubscription:(SNSConfirmSubscriptionRequest *)<em>confirmSubscriptionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>confirmSubscriptionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ConfirmSubscription service
+method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ConfirmSubscription service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ConfirmSubscription action verifies an endpoint owner's intent to receive messages by validating the token sent to
+the endpoint by an earlier Subscribe action. If the token is valid, the action creates a new subscription and returns
+its Amazon Resource Name (ARN). This call requires an AWS signature only when the AuthenticateOnUnsubscribe flag is set
+to "true".
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSSubscriptionLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSSubscriptionLimitExceededException.html">SNSSubscriptionLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSConfirmSubscriptionRequest.html">SNSConfirmSubscriptionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSConfirmSubscriptionResponse.html">SNSConfirmSubscriptionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createPlatformApplication:" title="createPlatformApplication:"></a>
+	<h3 class="subsubtitle method-title">createPlatformApplication:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The CreatePlatformApplication action creates a platform application object for one of the supported push notification
+services, such as APNS and GCM, to which devices and mobile apps may register. You must specify PlatformPrincipal and
+PlatformCredential attributes when using the CreatePlatformApplication action. The PlatformPrincipal is received from
+the notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is "SSL certificate". For GCM, PlatformPrincipal is
+not applicable. For ADM, PlatformPrincipal is "client id". The PlatformCredential is also received from the
+notification service. For APNS/APNS_SANDBOX, PlatformCredential is "private key". For GCM, PlatformCredential is "API
+key". For ADM, PlatformCredential is "client secret". The PlatformApplicationArn that is returned when using
+CreatePlatformApplication is then used as an attribute for the CreatePlatformEndpoint action. For more information, see
+<a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSCreatePlatformApplicationResponse *)createPlatformApplication:(SNSCreatePlatformApplicationRequest *)<em>createPlatformApplicationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createPlatformApplicationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreatePlatformApplication
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreatePlatformApplication service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The CreatePlatformApplication action creates a platform application object for one of the supported push notification
+services, such as APNS and GCM, to which devices and mobile apps may register. You must specify PlatformPrincipal and
+PlatformCredential attributes when using the CreatePlatformApplication action. The PlatformPrincipal is received from
+the notification service. For APNS/APNS_SANDBOX, PlatformPrincipal is "SSL certificate". For GCM, PlatformPrincipal is
+not applicable. For ADM, PlatformPrincipal is "client id". The PlatformCredential is also received from the
+notification service. For APNS/APNS_SANDBOX, PlatformCredential is "private key". For GCM, PlatformCredential is "API
+key". For ADM, PlatformCredential is "client secret". The PlatformApplicationArn that is returned when using
+CreatePlatformApplication is then used as an attribute for the CreatePlatformEndpoint action. For more information, see
+<a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSCreatePlatformApplicationRequest.html">SNSCreatePlatformApplicationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSCreatePlatformApplicationResponse.html">SNSCreatePlatformApplicationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createPlatformEndpoint:" title="createPlatformEndpoint:"></a>
+	<h3 class="subsubtitle method-title">createPlatformEndpoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The CreatePlatformEndpoint creates an endpoint for a device and mobile app on one of the supported push notification
+services, such as GCM and APNS. CreatePlatformEndpoint requires the PlatformApplicationArn that is returned from
+CreatePlatformApplication . The EndpointArn that is returned when using CreatePlatformEndpoint can then be used by the
+Publish action to send a message to a mobile app or by the Subscribe action for subscription to a topic. For more
+information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push
+Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSCreatePlatformEndpointResponse *)createPlatformEndpoint:(SNSCreatePlatformEndpointRequest *)<em>createPlatformEndpointRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createPlatformEndpointRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreatePlatformEndpoint
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreatePlatformEndpoint service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The CreatePlatformEndpoint creates an endpoint for a device and mobile app on one of the supported push notification
+services, such as GCM and APNS. CreatePlatformEndpoint requires the PlatformApplicationArn that is returned from
+CreatePlatformApplication . The EndpointArn that is returned when using CreatePlatformEndpoint can then be used by the
+Publish action to send a message to a mobile app or by the Subscribe action for subscription to a topic. For more
+information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push
+Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSCreatePlatformEndpointRequest.html">SNSCreatePlatformEndpointRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSCreatePlatformEndpointResponse.html">SNSCreatePlatformEndpointResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createTopic:" title="createTopic:"></a>
+	<h3 class="subsubtitle method-title">createTopic:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The CreateTopic action creates a topic to which notifications can be published. Users can create at most 100 topics. For
+more information, see <a href="http://aws.amazon.com/sns/"> http://aws.amazon.com/sns </a> . This action is idempotent,
+so if the requester already owns a topic with the specified name, that topic's ARN is returned without creating a new
+topic.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSCreateTopicResponse *)createTopic:(SNSCreateTopicRequest *)<em>createTopicRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createTopicRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateTopic service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the CreateTopic service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The CreateTopic action creates a topic to which notifications can be published. Users can create at most 100 topics. For
+more information, see <a href="http://aws.amazon.com/sns/"> http://aws.amazon.com/sns </a> . This action is idempotent,
+so if the requester already owns a topic with the specified name, that topic's ARN is returned without creating a new
+topic.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSTopicLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSTopicLimitExceededException.html">SNSTopicLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSCreateTopicRequest.html">SNSCreateTopicRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSCreateTopicResponse.html">SNSCreateTopicResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteEndpoint:" title="deleteEndpoint:"></a>
+	<h3 class="subsubtitle method-title">deleteEndpoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The DeleteEndpoint action, which is idempotent, deletes the endpoint from SNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSDeleteEndpointResponse *)deleteEndpoint:(SNSDeleteEndpointRequest *)<em>deleteEndpointRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteEndpointRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteEndpoint service method on
+AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The DeleteEndpoint action, which is idempotent, deletes the endpoint from SNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSDeleteEndpointRequest.html">SNSDeleteEndpointRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSDeleteEndpointResponse.html">SNSDeleteEndpointResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deletePlatformApplication:" title="deletePlatformApplication:"></a>
+	<h3 class="subsubtitle method-title">deletePlatformApplication:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The DeletePlatformApplication action deletes a platform application object for one of the supported push notification
+services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSDeletePlatformApplicationResponse *)deletePlatformApplication:(SNSDeletePlatformApplicationRequest *)<em>deletePlatformApplicationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deletePlatformApplicationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeletePlatformApplication
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The DeletePlatformApplication action deletes a platform application object for one of the supported push notification
+services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSDeletePlatformApplicationRequest.html">SNSDeletePlatformApplicationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSDeletePlatformApplicationResponse.html">SNSDeletePlatformApplicationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteTopic:" title="deleteTopic:"></a>
+	<h3 class="subsubtitle method-title">deleteTopic:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The DeleteTopic action deletes a topic and all its subscriptions. Deleting a topic might prevent some messages
+previously sent to the topic from being delivered to subscribers. This action is idempotent, so deleting a topic that
+does not exist does not result in an error.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSDeleteTopicResponse *)deleteTopic:(SNSDeleteTopicRequest *)<em>deleteTopicRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteTopicRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteTopic service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The DeleteTopic action deletes a topic and all its subscriptions. Deleting a topic might prevent some messages
+previously sent to the topic from being delivered to subscribers. This action is idempotent, so deleting a topic that
+does not exist does not result in an error.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSDeleteTopicRequest.html">SNSDeleteTopicRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSDeleteTopicResponse.html">SNSDeleteTopicResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getEndpointAttributes:" title="getEndpointAttributes:"></a>
+	<h3 class="subsubtitle method-title">getEndpointAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The GetEndpointAttributes retrieves the endpoint attributes for a device on one of the supported push notification
+services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSGetEndpointAttributesResponse *)getEndpointAttributes:(SNSGetEndpointAttributesRequest *)<em>getEndpointAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getEndpointAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetEndpointAttributes service
+method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetEndpointAttributes service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The GetEndpointAttributes retrieves the endpoint attributes for a device on one of the supported push notification
+services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSGetEndpointAttributesRequest.html">SNSGetEndpointAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSGetEndpointAttributesResponse.html">SNSGetEndpointAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPlatformApplicationAttributes:" title="getPlatformApplicationAttributes:"></a>
+	<h3 class="subsubtitle method-title">getPlatformApplicationAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The GetPlatformApplicationAttributes action retrieves the attributes of the platform application object for the
+supported push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSGetPlatformApplicationAttributesResponse *)getPlatformApplicationAttributes:(SNSGetPlatformApplicationAttributesRequest *)<em>getPlatformApplicationAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getPlatformApplicationAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+GetPlatformApplicationAttributes service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetPlatformApplicationAttributes service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The GetPlatformApplicationAttributes action retrieves the attributes of the platform application object for the
+supported push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSGetPlatformApplicationAttributesRequest.html">SNSGetPlatformApplicationAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSGetPlatformApplicationAttributesResponse.html">SNSGetPlatformApplicationAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSubscriptionAttributes:" title="getSubscriptionAttributes:"></a>
+	<h3 class="subsubtitle method-title">getSubscriptionAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The GetSubscriptionAttribtues action returns all of the properties of a subscription.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSGetSubscriptionAttributesResponse *)getSubscriptionAttributes:(SNSGetSubscriptionAttributesRequest *)<em>getSubscriptionAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getSubscriptionAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetSubscriptionAttributes
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetSubscriptionAttributes service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The GetSubscriptionAttribtues action returns all of the properties of a subscription.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSGetSubscriptionAttributesRequest.html">SNSGetSubscriptionAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSGetSubscriptionAttributesResponse.html">SNSGetSubscriptionAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getTopicAttributes:" title="getTopicAttributes:"></a>
+	<h3 class="subsubtitle method-title">getTopicAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The GetTopicAttributes action returns all of the properties of a topic. Topic properties returned might differ based on
+the authorization of the user.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSGetTopicAttributesResponse *)getTopicAttributes:(SNSGetTopicAttributesRequest *)<em>getTopicAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>getTopicAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the GetTopicAttributes service method
+on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the GetTopicAttributes service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The GetTopicAttributes action returns all of the properties of a topic. Topic properties returned might differ based on
+the authorization of the user.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSGetTopicAttributesRequest.html">SNSGetTopicAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSGetTopicAttributesResponse.html">SNSGetTopicAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listEndpointsByPlatformApplication:" title="listEndpointsByPlatformApplication:"></a>
+	<h3 class="subsubtitle method-title">listEndpointsByPlatformApplication:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListEndpointsByPlatformApplication action lists the endpoints and endpoint attributes for devices in a supported
+push notification service, such as GCM and APNS. The results for ListEndpointsByPlatformApplication are paginated and
+return a limited list of endpoints, up to 100. If additional records are available after the first page results, then a
+NextToken string will be returned. To receive the next page, you call ListEndpointsByPlatformApplication again using the
+NextToken string received from the previous call. When there are no more records to return, NextToken will be null. For
+more information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile
+Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSListEndpointsByPlatformApplicationResponse *)listEndpointsByPlatformApplication:(SNSListEndpointsByPlatformApplicationRequest *)<em>listEndpointsByPlatformApplicationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listEndpointsByPlatformApplicationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+ListEndpointsByPlatformApplication service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListEndpointsByPlatformApplication service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListEndpointsByPlatformApplication action lists the endpoints and endpoint attributes for devices in a supported
+push notification service, such as GCM and APNS. The results for ListEndpointsByPlatformApplication are paginated and
+return a limited list of endpoints, up to 100. If additional records are available after the first page results, then a
+NextToken string will be returned. To receive the next page, you call ListEndpointsByPlatformApplication again using the
+NextToken string received from the previous call. When there are no more records to return, NextToken will be null. For
+more information, see <a href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile
+Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSListEndpointsByPlatformApplicationRequest.html">SNSListEndpointsByPlatformApplicationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSListEndpointsByPlatformApplicationResponse.html">SNSListEndpointsByPlatformApplicationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listPlatformApplications:" title="listPlatformApplications:"></a>
+	<h3 class="subsubtitle method-title">listPlatformApplications:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListPlatformApplications action lists the platform application objects for the supported push notification services,
+such as APNS and GCM. The results for ListPlatformApplications are paginated and return a limited list of applications,
+up to 100. If additional records are available after the first page results, then a NextToken string will be returned.
+To receive the next page, you call ListPlatformApplications using the NextToken string received from the previous call.
+When there are no more records to return, NextToken will be null. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSListPlatformApplicationsResponse *)listPlatformApplications:(SNSListPlatformApplicationsRequest *)<em>listPlatformApplicationsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listPlatformApplicationsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListPlatformApplications
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListPlatformApplications service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListPlatformApplications action lists the platform application objects for the supported push notification services,
+such as APNS and GCM. The results for ListPlatformApplications are paginated and return a limited list of applications,
+up to 100. If additional records are available after the first page results, then a NextToken string will be returned.
+To receive the next page, you call ListPlatformApplications using the NextToken string received from the previous call.
+When there are no more records to return, NextToken will be null. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSListPlatformApplicationsRequest.html">SNSListPlatformApplicationsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSListPlatformApplicationsResponse.html">SNSListPlatformApplicationsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listSubscriptions:" title="listSubscriptions:"></a>
+	<h3 class="subsubtitle method-title">listSubscriptions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListSubscriptions action returns a list of the requester's subscriptions. Each call returns a limited list of
+subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken parameter in
+a new ListSubscriptions call to get further results.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSListSubscriptionsResponse *)listSubscriptions:(SNSListSubscriptionsRequest *)<em>listSubscriptionsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listSubscriptionsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListSubscriptions service method
+on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListSubscriptions service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListSubscriptions action returns a list of the requester's subscriptions. Each call returns a limited list of
+subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken parameter in
+a new ListSubscriptions call to get further results.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSListSubscriptionsRequest.html">SNSListSubscriptionsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSListSubscriptionsResponse.html">SNSListSubscriptionsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listSubscriptionsByTopic:" title="listSubscriptionsByTopic:"></a>
+	<h3 class="subsubtitle method-title">listSubscriptionsByTopic:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListSubscriptionsByTopic action returns a list of the subscriptions to a specific topic. Each call returns a limited
+list of subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken
+parameter in a new ListSubscriptionsByTopic call to get further results.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSListSubscriptionsByTopicResponse *)listSubscriptionsByTopic:(SNSListSubscriptionsByTopicRequest *)<em>listSubscriptionsByTopicRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listSubscriptionsByTopicRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListSubscriptionsByTopic
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListSubscriptionsByTopic service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListSubscriptionsByTopic action returns a list of the subscriptions to a specific topic. Each call returns a limited
+list of subscriptions, up to 100. If there are more subscriptions, a NextToken is also returned. Use the NextToken
+parameter in a new ListSubscriptionsByTopic call to get further results.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSListSubscriptionsByTopicRequest.html">SNSListSubscriptionsByTopicRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSListSubscriptionsByTopicResponse.html">SNSListSubscriptionsByTopicResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listTopics:" title="listTopics:"></a>
+	<h3 class="subsubtitle method-title">listTopics:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The ListTopics action returns a list of the requester's topics. Each call returns a limited list of topics, up to 100.
+If there are more topics, a NextToken is also returned. Use the NextToken parameter in a new ListTopics call to get
+further results.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSListTopicsResponse *)listTopics:(SNSListTopicsRequest *)<em>listTopicsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listTopicsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ListTopics service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the ListTopics service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The ListTopics action returns a list of the requester's topics. Each call returns a limited list of topics, up to 100.
+If there are more topics, a NextToken is also returned. Use the NextToken parameter in a new ListTopics call to get
+further results.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSListTopicsRequest.html">SNSListTopicsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSListTopicsResponse.html">SNSListTopicsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/publish:" title="publish:"></a>
+	<h3 class="subsubtitle method-title">publish:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The Publish action sends a message to all of a topic's subscribed endpoints. When a messageId is returned, the message
+has been saved and Amazon SNS will attempt to deliver it to the topic's subscribers shortly. The format of the outgoing
+message to each subscribed endpoint depends on the notification protocol selected.
+</p>
+
+
+<p>
+To use the Publish action for sending a message to a mobile endpoint, such as an app on a Kindle device or mobile phone,
+you must specify the EndpointArn. The EndpointArn is returned when making a call with the CreatePlatformEndpoint action.
+The second example below shows a request and response for publishing to a mobile endpoint.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSPublishResponse *)publish:(SNSPublishRequest *)<em>publishRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>publishRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Publish service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the Publish service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The Publish action sends a message to all of a topic's subscribed endpoints. When a messageId is returned, the message
+has been saved and Amazon SNS will attempt to deliver it to the topic's subscribers shortly. The format of the outgoing
+message to each subscribed endpoint depends on the notification protocol selected.
+</p>
+
+
+<p>
+To use the Publish action for sending a message to a mobile endpoint, such as an app on a Kindle device or mobile phone,
+you must specify the EndpointArn. The EndpointArn is returned when making a call with the CreatePlatformEndpoint action.
+The second example below shows a request and response for publishing to a mobile endpoint.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSPlatformApplicationDisabledException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSPlatformApplicationDisabledException.html">SNSPlatformApplicationDisabledException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSEndpointDisabledException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSEndpointDisabledException.html">SNSEndpointDisabledException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSPublishRequest.html">SNSPublishRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSPublishResponse.html">SNSPublishResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removePermission:" title="removePermission:"></a>
+	<h3 class="subsubtitle method-title">removePermission:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The RemovePermission action removes a statement from a topic's access control policy.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSRemovePermissionResponse *)removePermission:(SNSRemovePermissionRequest *)<em>removePermissionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>removePermissionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the RemovePermission service method on
+AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The RemovePermission action removes a statement from a topic's access control policy.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSRemovePermissionRequest.html">SNSRemovePermissionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSRemovePermissionResponse.html">SNSRemovePermissionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setEndpointAttributes:" title="setEndpointAttributes:"></a>
+	<h3 class="subsubtitle method-title">setEndpointAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The SetEndpointAttributes action sets the attributes for an endpoint for a device on one of the supported push
+notification services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSSetEndpointAttributesResponse *)setEndpointAttributes:(SNSSetEndpointAttributesRequest *)<em>setEndpointAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setEndpointAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetEndpointAttributes service
+method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The SetEndpointAttributes action sets the attributes for an endpoint for a device on one of the supported push
+notification services, such as GCM and APNS. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSSetEndpointAttributesRequest.html">SNSSetEndpointAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSSetEndpointAttributesResponse.html">SNSSetEndpointAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPlatformApplicationAttributes:" title="setPlatformApplicationAttributes:"></a>
+	<h3 class="subsubtitle method-title">setPlatformApplicationAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The SetPlatformApplicationAttributes action sets the attributes of the platform application object for the supported
+push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSSetPlatformApplicationAttributesResponse *)setPlatformApplicationAttributes:(SNSSetPlatformApplicationAttributesRequest *)<em>setPlatformApplicationAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setPlatformApplicationAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+SetPlatformApplicationAttributes service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The SetPlatformApplicationAttributes action sets the attributes of the platform application object for the supported
+push notification services, such as APNS and GCM. For more information, see <a
+href="http://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html"> Using Amazon SNS Mobile Push Notifications </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSSetPlatformApplicationAttributesRequest.html">SNSSetPlatformApplicationAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSSetPlatformApplicationAttributesResponse.html">SNSSetPlatformApplicationAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSubscriptionAttributes:" title="setSubscriptionAttributes:"></a>
+	<h3 class="subsubtitle method-title">setSubscriptionAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The SetSubscriptionAttributes action allows a subscription owner to set an attribute of the topic to a new value.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSSetSubscriptionAttributesResponse *)setSubscriptionAttributes:(SNSSetSubscriptionAttributesRequest *)<em>setSubscriptionAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setSubscriptionAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetSubscriptionAttributes
+service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The SetSubscriptionAttributes action allows a subscription owner to set an attribute of the topic to a new value.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSSetSubscriptionAttributesRequest.html">SNSSetSubscriptionAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSSetSubscriptionAttributesResponse.html">SNSSetSubscriptionAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTopicAttributes:" title="setTopicAttributes:"></a>
+	<h3 class="subsubtitle method-title">setTopicAttributes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The SetTopicAttributes action allows a topic owner to set an attribute of the topic to a new value.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSSetTopicAttributesResponse *)setTopicAttributes:(SNSSetTopicAttributesRequest *)<em>setTopicAttributesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setTopicAttributesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetTopicAttributes service method
+on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The SetTopicAttributes action allows a topic owner to set an attribute of the topic to a new value.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSSetTopicAttributesRequest.html">SNSSetTopicAttributesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSSetTopicAttributesResponse.html">SNSSetTopicAttributesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/subscribe:" title="subscribe:"></a>
+	<h3 class="subsubtitle method-title">subscribe:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The Subscribe action prepares to subscribe an endpoint by sending the endpoint a confirmation message. To actually
+create a subscription, the endpoint owner must call the ConfirmSubscription action with the token from the confirmation
+message. Confirmation tokens are valid for three days.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSSubscribeResponse *)subscribe:(SNSSubscribeRequest *)<em>subscribeRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>subscribeRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Subscribe service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the Subscribe service method, as returned by AmazonSNS.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The Subscribe action prepares to subscribe an endpoint by sending the endpoint a confirmation message. To actually
+create a subscription, the endpoint owner must call the ConfirmSubscription action with the token from the confirmation
+message. Confirmation tokens are valid for three days.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSSubscriptionLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSSubscriptionLimitExceededException.html">SNSSubscriptionLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSSubscribeRequest.html">SNSSubscribeRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSSubscribeResponse.html">SNSSubscribeResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unsubscribe:" title="unsubscribe:"></a>
+	<h3 class="subsubtitle method-title">unsubscribe:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+The Unsubscribe action deletes a subscription. If the subscription requires authentication for deletion, only the owner
+of the subscription or the topic's owner can unsubscribe, and an AWS signature is required. If the Unsubscribe call does
+not require authentication and the requester is not the subscription owner, a final cancellation message is delivered to
+the endpoint, so that the endpoint owner can easily resubscribe to the topic if the Unsubscribe request was unintended.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SNSUnsubscribeResponse *)unsubscribe:(SNSUnsubscribeRequest *)<em>unsubscribeRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>unsubscribeRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the Unsubscribe service method on AmazonSNS.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+The Unsubscribe action deletes a subscription. If the subscription requires authentication for deletion, only the owner
+of the subscription or the topic's owner can unsubscribe, and an AWS signature is required. If the Unsubscribe call does
+not require authentication and the requester is not the subscription owner, a final cancellation message is delivered to
+the endpoint, so that the endpoint owner can easily resubscribe to the topic if the Unsubscribe request was unintended.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSNotFoundException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSNotFoundException.html">SNSNotFoundException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSAuthorizationErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSAuthorizationErrorException.html">SNSAuthorizationErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInternalErrorException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInternalErrorException.html">SNSInternalErrorException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>SNSInvalidParameterException</em></dt>
+			<dd><p>For more information see <a href="../Classes/SNSInvalidParameterException.html">SNSInvalidParameterException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonSNS indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/SNSUnsubscribeRequest.html">SNSUnsubscribeRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/SNSUnsubscribeResponse.html">SNSUnsubscribeResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonSNSClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

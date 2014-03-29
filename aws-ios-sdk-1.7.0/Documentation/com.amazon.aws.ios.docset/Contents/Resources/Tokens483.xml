@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2SpotInstanceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2SpotInstanceRequest</TokenIdentifier>
+			<Abstract type="html">Spot Instance Request</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>
+			
+			<NodeRef refid="483"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setSpotInstanceRequestId:</TokenIdentifier>
+			<Abstract type="html">The value of the SpotInstanceRequestId property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
+			<Abstract type="html">The value of the SpotInstanceRequestId property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPrice property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/spotPrice</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPrice property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setType:</TokenIdentifier>
+			<Abstract type="html">The value of the Type property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;one-time, persistent</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/type</TokenIdentifier>
+			<Abstract type="html">The value of the Type property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;one-time, persistent</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setState:</TokenIdentifier>
+			<Abstract type="html">The value of the State property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;open, active, closed, cancelled, failed</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/state</TokenIdentifier>
+			<Abstract type="html">The value of the State property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;open, active, closed, cancelled, failed</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setFault:</TokenIdentifier>
+			<Abstract type="html">The value of the Fault property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStateFault *fault</Declaration>
+			
+			
+			<Anchor>//api/name/fault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/fault</TokenIdentifier>
+			<Abstract type="html">The value of the Fault property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStateFault *fault</Declaration>
+			
+			
+			<Anchor>//api/name/fault</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setStatus:</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStatus *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/status</TokenIdentifier>
+			<Abstract type="html">The value of the Status property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2SpotInstanceStatus *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setValidFrom:</TokenIdentifier>
+			<Abstract type="html">The value of the ValidFrom property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *validFrom</Declaration>
+			
+			
+			<Anchor>//api/name/validFrom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/validFrom</TokenIdentifier>
+			<Abstract type="html">The value of the ValidFrom property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *validFrom</Declaration>
+			
+			
+			<Anchor>//api/name/validFrom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setValidUntil:</TokenIdentifier>
+			<Abstract type="html">The value of the ValidUntil property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *validUntil</Declaration>
+			
+			
+			<Anchor>//api/name/validUntil</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/validUntil</TokenIdentifier>
+			<Abstract type="html">The value of the ValidUntil property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *validUntil</Declaration>
+			
+			
+			<Anchor>//api/name/validUntil</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setLaunchGroup:</TokenIdentifier>
+			<Abstract type="html">The value of the LaunchGroup property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchGroup</Declaration>
+			
+			
+			<Anchor>//api/name/launchGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/launchGroup</TokenIdentifier>
+			<Abstract type="html">The value of the LaunchGroup property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchGroup</Declaration>
+			
+			
+			<Anchor>//api/name/launchGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setAvailabilityZoneGroup:</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZoneGroup property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZoneGroup</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/availabilityZoneGroup</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZoneGroup property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZoneGroup</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">The LaunchSpecificationType data type.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2LaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">The LaunchSpecificationType data type.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2LaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceId property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceId property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setCreateTime:</TokenIdentifier>
+			<Abstract type="html">The value of the CreateTime property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/createTime</TokenIdentifier>
+			<Abstract type="html">The value of the CreateTime property for this object.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setProductDescription:</TokenIdentifier>
+			<Abstract type="html">The value of the ProductDescription property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/productDescription</TokenIdentifier>
+			<Abstract type="html">The value of the ProductDescription property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for this spot instance request.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for this spot instance request.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/setLaunchedAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which the bid is launched.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchedAvailabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/launchedAvailabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotInstanceRequest/launchedAvailabilityZone</TokenIdentifier>
+			<Abstract type="html">The Availability Zone in which the bid is launched.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *launchedAvailabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/launchedAvailabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotInstanceRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2SpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

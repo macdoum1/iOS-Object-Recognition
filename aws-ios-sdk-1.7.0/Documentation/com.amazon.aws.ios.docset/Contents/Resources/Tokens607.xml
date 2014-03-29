@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CompleteMultipartUploadRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CompleteMultipartUploadRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the completeMultipartUpload operation.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>
+			
+			<NodeRef refid="607"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/initWithMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Initialize the instance with the bucket, key, and uploadId from an S3MultipartUpload instance.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMultipartUpload:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/addPartWithPartNumber:withETag:</TokenIdentifier>
+			<Abstract type="html">Add a part by part number and the ETag that was returned by uploadPart.</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPartWithPartNumber:(int)partNumber withETag:(NSString *)etag</Declaration>
+			
+			
+			<Anchor>//api/name/addPartWithPartNumber:withETag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3CompleteMultipartUploadRequest/requestBody</TokenIdentifier>
+			<Abstract type="html">Build the request body for the request</Abstract>
+			<DeclaredIn>S3CompleteMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSData *)requestBody</Declaration>
+			
+			
+			<Anchor>//api/name/requestBody</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

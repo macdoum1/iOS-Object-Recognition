@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingDescribeAutoScalingNotificationTypesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingDescribeAutoScalingNotificationTypesResponse</TokenIdentifier>
+			<Abstract type="html">Describe Auto Scaling Notification Types Result</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeAutoScalingNotificationTypesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeAutoScalingNotificationTypesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeAutoScalingNotificationTypesResponse/setAutoScalingNotificationTypes:</TokenIdentifier>
+			<Abstract type="html">Returns a list of all notification types supported by Auto Scaling.
+They are: &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCH_ERROR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATE_ERROR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:TEST_NOTIFICATION&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt;
+&lt;examples&gt;
+omain;/?Version=2011-01-01&amp;amp;Action=DescribeAutoScalingNotificationTypes
+&amp;amp;AUTHPARAMS &lt;/queryrequest&gt;
+&lt;queryresponse&gt;&lt;DescribeAutoScalingNotificationTypesResponse
+xmlns=&quot;http://autoscaling.&amp;amp;api-domain;/doc/2011-01-01/&quot;&gt;
+&lt;DescribeAutoScalingNotificationTypesResult&gt;
+&lt;AutoScalingNotificationTypes&gt;
+&lt;member&gt;autoscaling:EC2INSTANCELAUNCH&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCELAUNCH_ERROR&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCETERMINATE&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCETERMINATE_ERROR&lt;/member&gt;
+&lt;member&gt;autoscaling:TEST_NOTIFICATION&lt;/member&gt;
+&lt;/AutoScalingNotificationTypes&gt;
+&lt;/DescribeAutoScalingNotificationTypesResult&gt; &lt;ResponseMetadata&gt;
+&lt;RequestId&gt;42fc6794-bf21-11e2-a1cf-ff3dEXAMPLE&lt;/RequestId&gt;
+&lt;/ResponseMetadata&gt;
+&lt;/DescribeAutoScalingNotificationTypesResponse&gt;&lt;/queryresponse&gt;
+&lt;/examples&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *autoScalingNotificationTypes</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingNotificationTypes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeAutoScalingNotificationTypesResponse/autoScalingNotificationTypes</TokenIdentifier>
+			<Abstract type="html">Returns a list of all notification types supported by Auto Scaling.
+They are: &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCH_ERROR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATE_ERROR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:TEST_NOTIFICATION&lt;/code&gt;&lt;/li&gt; &lt;/ul&gt;
+&lt;examples&gt;
+omain;/?Version=2011-01-01&amp;amp;Action=DescribeAutoScalingNotificationTypes
+&amp;amp;AUTHPARAMS &lt;/queryrequest&gt;
+&lt;queryresponse&gt;&lt;DescribeAutoScalingNotificationTypesResponse
+xmlns=&quot;http://autoscaling.&amp;amp;api-domain;/doc/2011-01-01/&quot;&gt;
+&lt;DescribeAutoScalingNotificationTypesResult&gt;
+&lt;AutoScalingNotificationTypes&gt;
+&lt;member&gt;autoscaling:EC2INSTANCELAUNCH&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCELAUNCH_ERROR&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCETERMINATE&lt;/member&gt;
+&lt;member&gt;autoscaling:EC2INSTANCETERMINATE_ERROR&lt;/member&gt;
+&lt;member&gt;autoscaling:TEST_NOTIFICATION&lt;/member&gt;
+&lt;/AutoScalingNotificationTypes&gt;
+&lt;/DescribeAutoScalingNotificationTypesResult&gt; &lt;ResponseMetadata&gt;
+&lt;RequestId&gt;42fc6794-bf21-11e2-a1cf-ff3dEXAMPLE&lt;/RequestId&gt;
+&lt;/ResponseMetadata&gt;
+&lt;/DescribeAutoScalingNotificationTypesResponse&gt;&lt;/queryresponse&gt;
+&lt;/examples&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *autoScalingNotificationTypes</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingNotificationTypes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeAutoScalingNotificationTypesResponse/autoScalingNotificationTypesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the autoScalingNotificationTypes array for the specified index</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)autoScalingNotificationTypesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingNotificationTypesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeAutoScalingNotificationTypesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingDescribeAutoScalingNotificationTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

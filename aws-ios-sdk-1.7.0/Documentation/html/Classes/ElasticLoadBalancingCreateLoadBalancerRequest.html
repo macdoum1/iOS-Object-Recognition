@@ -1,0 +1,1098 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ElasticLoadBalancingCreateLoadBalancerRequest Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ElasticLoadBalancingCreateLoadBalancerRequest Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/availabilityZones">&nbsp;&nbsp;&nbsp;&nbsp;availabilityZones</option>
+	
+	<option value="//api/name/listeners">&nbsp;&nbsp;&nbsp;&nbsp;listeners</option>
+	
+	<option value="//api/name/loadBalancerName">&nbsp;&nbsp;&nbsp;&nbsp;loadBalancerName</option>
+	
+	<option value="//api/name/scheme">&nbsp;&nbsp;&nbsp;&nbsp;scheme</option>
+	
+	<option value="//api/name/securityGroups">&nbsp;&nbsp;&nbsp;&nbsp;securityGroups</option>
+	
+	<option value="//api/name/subnets">&nbsp;&nbsp;&nbsp;&nbsp;subnets</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAvailabilityZone:">&nbsp;&nbsp;&nbsp;&nbsp;- addAvailabilityZone:</option>
+	
+	<option value="//api/name/addListener:">&nbsp;&nbsp;&nbsp;&nbsp;- addListener:</option>
+	
+	<option value="//api/name/addSecurityGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- addSecurityGroup:</option>
+	
+	<option value="//api/name/addSubnet:">&nbsp;&nbsp;&nbsp;&nbsp;- addSubnet:</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;- description</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithLoadBalancerName:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithLoadBalancerName:</option>
+	
+	<option value="//api/name/initWithLoadBalancerName:andListeners:andAvailabilityZones:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithLoadBalancerName:andListeners:andAvailabilityZones:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/availabilityZones">availabilityZones</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listeners">listeners</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadBalancerName">loadBalancerName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scheme">scheme</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/securityGroups">securityGroups</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subnets">subnets</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAvailabilityZone:">addAvailabilityZone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addListener:">addListener:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSecurityGroup:">addSecurityGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSubnet:">addSubnet:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithLoadBalancerName:">initWithLoadBalancerName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithLoadBalancerName:andListeners:andAvailabilityZones:">initWithLoadBalancerName:andListeners:andAvailabilityZones:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ElasticLoadBalancingCreateLoadBalancerRequest Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ElasticLoadBalancingCreateLoadBalancerRequest Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonServiceRequestConfig.html">AmazonServiceRequestConfig</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ElasticLoadBalancingCreateLoadBalancerRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Create Load Balancer Request</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadBalancerName">&nbsp;&nbsp;loadBalancerName</a></code>
+		<span class="tooltip"><p>The name associated with the LoadBalancer. The name must be unique
+within your set of LoadBalancers.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listeners">&nbsp;&nbsp;listeners</a></code>
+		<span class="tooltip"><p>A list of the following tuples: LoadBalancerPort, InstancePort, and
+Protocol.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/availabilityZones">&nbsp;&nbsp;availabilityZones</a></code>
+		<span class="tooltip"><p>A list of Availability Zones. <p> At least one Availability Zone must
+be specified. Specified Availability Zones must be in the same EC2
+Region as the LoadBalancer. Traffic will be equally distributed across
+all zones. <p> This list can be modified after the creation of the
+LoadBalancer.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/subnets">&nbsp;&nbsp;subnets</a></code>
+		<span class="tooltip"><p>A list of subnet IDs in your VPC to attach to your LoadBalancer.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/securityGroups">&nbsp;&nbsp;securityGroups</a></code>
+		<span class="tooltip"><p>The security groups assigned to your LoadBalancer within your VPC.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scheme">&nbsp;&nbsp;scheme</a></code>
+		<span class="tooltip"><p>The type of a LoadBalancer. This option is only available for
+LoadBalancers attached to a Amazon VPC. By default, Elastic Load
+Balancer creates an internet-facing load balancer with publicly
+resolvable DNS name that resolves to public IP addresses. Specify the
+value <i>internal</i> for this option to create an internal load
+balancer with a DNS name that resolves to private IP addresses.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Default constructor for a new CreateLoadBalancerRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithLoadBalancerName:">&ndash;&nbsp;initWithLoadBalancerName:</a></code>
+		<span class="tooltip"><p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithLoadBalancerName:andListeners:andAvailabilityZones:">&ndash;&nbsp;initWithLoadBalancerName:andListeners:andAvailabilityZones:</a></code>
+		<span class="tooltip"><p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addListener:">&ndash;&nbsp;addListener:</a></code>
+		<span class="tooltip"><p>Adds a single object to listeners.
+This function will alloc and init listeners if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAvailabilityZone:">&ndash;&nbsp;addAvailabilityZone:</a></code>
+		<span class="tooltip"><p>Adds a single object to availabilityZones.
+This function will alloc and init availabilityZones if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSubnet:">&ndash;&nbsp;addSubnet:</a></code>
+		<span class="tooltip"><p>Adds a single object to subnets.
+This function will alloc and init subnets if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSecurityGroup:">&ndash;&nbsp;addSecurityGroup:</a></code>
+		<span class="tooltip"><p>Adds a single object to securityGroups.
+This function will alloc and init securityGroups if not already done.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+		<span class="tooltip"><p>Returns a string representation of this object; useful for testing and
+debugging.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/availabilityZones" title="availabilityZones"></a>
+	<h3 class="subsubtitle method-title">availabilityZones</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A list of Availability Zones. <p> At least one Availability Zone must
+be specified. Specified Availability Zones must be in the same EC2
+Region as the LoadBalancer. Traffic will be equally distributed across
+all zones. <p> This list can be modified after the creation of the
+LoadBalancer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *availabilityZones</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A list of Availability Zones. <p> At least one Availability Zone must
+be specified. Specified Availability Zones must be in the same EC2
+Region as the LoadBalancer. Traffic will be equally distributed across
+all zones. <p> This list can be modified after the creation of the
+LoadBalancer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listeners" title="listeners"></a>
+	<h3 class="subsubtitle method-title">listeners</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A list of the following tuples: LoadBalancerPort, InstancePort, and
+Protocol.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *listeners</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A list of the following tuples: LoadBalancerPort, InstancePort, and
+Protocol.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadBalancerName" title="loadBalancerName"></a>
+	<h3 class="subsubtitle method-title">loadBalancerName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name associated with the LoadBalancer. The name must be unique
+within your set of LoadBalancers.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *loadBalancerName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name associated with the LoadBalancer. The name must be unique
+within your set of LoadBalancers.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scheme" title="scheme"></a>
+	<h3 class="subsubtitle method-title">scheme</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The type of a LoadBalancer. This option is only available for
+LoadBalancers attached to a Amazon VPC. By default, Elastic Load
+Balancer creates an internet-facing load balancer with publicly
+resolvable DNS name that resolves to public IP addresses. Specify the
+value <i>internal</i> for this option to create an internal load
+balancer with a DNS name that resolves to private IP addresses.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *scheme</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The type of a LoadBalancer. This option is only available for
+LoadBalancers attached to a Amazon VPC. By default, Elastic Load
+Balancer creates an internet-facing load balancer with publicly
+resolvable DNS name that resolves to public IP addresses. Specify the
+value <i>internal</i> for this option to create an internal load
+balancer with a DNS name that resolves to private IP addresses.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/securityGroups" title="securityGroups"></a>
+	<h3 class="subsubtitle method-title">securityGroups</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The security groups assigned to your LoadBalancer within your VPC.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *securityGroups</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The security groups assigned to your LoadBalancer within your VPC.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/subnets" title="subnets"></a>
+	<h3 class="subsubtitle method-title">subnets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A list of subnet IDs in your VPC to attach to your LoadBalancer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *subnets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A list of subnet IDs in your VPC to attach to your LoadBalancer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAvailabilityZone:" title="addAvailabilityZone:"></a>
+	<h3 class="subsubtitle method-title">addAvailabilityZone:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to availabilityZones.
+This function will alloc and init availabilityZones if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAvailabilityZone:(NSString *)<em>availabilityZoneObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to availabilityZones.
+This function will alloc and init availabilityZones if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addListener:" title="addListener:"></a>
+	<h3 class="subsubtitle method-title">addListener:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to listeners.
+This function will alloc and init listeners if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addListener:(ElasticLoadBalancingListener *)<em>listenerObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to listeners.
+This function will alloc and init listeners if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSecurityGroup:" title="addSecurityGroup:"></a>
+	<h3 class="subsubtitle method-title">addSecurityGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to securityGroups.
+This function will alloc and init securityGroups if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSecurityGroup:(NSString *)<em>securityGroupObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to securityGroups.
+This function will alloc and init securityGroups if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSubnet:" title="addSubnet:"></a>
+	<h3 class="subsubtitle method-title">addSubnet:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a single object to subnets.
+This function will alloc and init subnets if not already done.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSubnet:(NSString *)<em>subnetObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a single object to subnets.
+This function will alloc and init subnets if not already done.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)description</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string representation of this object.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a string representation of this object; useful for testing and
+debugging.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Default constructor for a new CreateLoadBalancerRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Default constructor for a new CreateLoadBalancerRequest object.  Callers should use the
+property methods to initialize this object after creating it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithLoadBalancerName:" title="initWithLoadBalancerName:"></a>
+	<h3 class="subsubtitle method-title">initWithLoadBalancerName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithLoadBalancerName:(NSString *)<em>theLoadBalancerName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theLoadBalancerName</em></dt>
+			<dd><p>The name associated with the LoadBalancer.
+The name must be unique within your set of LoadBalancers.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithLoadBalancerName:andListeners:andAvailabilityZones:" title="initWithLoadBalancerName:andListeners:andAvailabilityZones:"></a>
+	<h3 class="subsubtitle method-title">initWithLoadBalancerName:andListeners:andAvailabilityZones:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithLoadBalancerName:(NSString *)<em>theLoadBalancerName</em> andListeners:(NSMutableArray *)<em>theListeners</em> andAvailabilityZones:(NSMutableArray *)<em>theAvailabilityZones</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theLoadBalancerName</em></dt>
+			<dd><p>The name associated with the LoadBalancer.
+The name must be unique within your set of LoadBalancers.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theListeners</em></dt>
+			<dd><p>A list of the following tuples: LoadBalancerPort,
+InstancePort, and Protocol.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>theAvailabilityZones</em></dt>
+			<dd><p>A list of Availability Zones. <p> At least
+one Availability Zone must be specified. Specified Availability Zones
+must be in the same EC2 Region as the LoadBalancer. Traffic will be
+equally distributed across all zones. <p> This list can be modified
+after the creation of the LoadBalancer.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Constructs a new CreateLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ElasticLoadBalancingCreateLoadBalancerRequest.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

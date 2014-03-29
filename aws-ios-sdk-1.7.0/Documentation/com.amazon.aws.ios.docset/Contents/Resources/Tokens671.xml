@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListPartsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListPartsResult</TokenIdentifier>
+			<Abstract type="html">The S3ListPartsResult contains all the information about the listParts method.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>
+			
+			<NodeRef refid="671"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setBucket:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket to which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket to which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setKey:</TokenIdentifier>
+			<Abstract type="html">Tthe object key for which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/key</TokenIdentifier>
+			<Abstract type="html">Tthe object key for which the multipart upload was initiated.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setUploadId:</TokenIdentifier>
+			<Abstract type="html">The upload ID identifying the multipart upload whose parts are being listed.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/uploadId</TokenIdentifier>
+			<Abstract type="html">The upload ID identifying the multipart upload whose parts are being listed.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the uploaded object.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the uploaded object.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setOwner:</TokenIdentifier>
+			<Abstract type="html">The owner of the object that will be created from the parts</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/owner</TokenIdentifier>
+			<Abstract type="html">The owner of the object that will be created from the parts</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setInitiator:</TokenIdentifier>
+			<Abstract type="html">The initiator of the multipart upload</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *initiator</Declaration>
+			
+			
+			<Anchor>//api/name/initiator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/initiator</TokenIdentifier>
+			<Abstract type="html">The initiator of the multipart upload</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3Owner *initiator</Declaration>
+			
+			
+			<Anchor>//api/name/initiator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setPartNumberMarker:</TokenIdentifier>
+			<Abstract type="html">The part number after which listing begins.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/partNumberMarker</TokenIdentifier>
+			<Abstract type="html">The part number after which listing begins.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setNextPartNumberMarker:</TokenIdentifier>
+			<Abstract type="html">When a list is truncated, specifies the last part that should be skipped
+over to resume listing. Use this value for the partNumberMarker
+request property in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t nextPartNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/nextPartNumberMarker</TokenIdentifier>
+			<Abstract type="html">When a list is truncated, specifies the last part that should be skipped
+over to resume listing. Use this value for the partNumberMarker
+request property in a subsequent request.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t nextPartNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setMaxParts:</TokenIdentifier>
+			<Abstract type="html">The maxParts which was supplied in the request.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxParts</Declaration>
+			
+			
+			<Anchor>//api/name/maxParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/maxParts</TokenIdentifier>
+			<Abstract type="html">The maxParts which was supplied in the request.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int32_t maxParts</Declaration>
+			
+			
+			<Anchor>//api/name/maxParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setIsTruncated:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the returned list of parts is truncated. A value true
+indicates the list was truncated. A list may be truncated if the number of
+parts exceeds the limit specified by MaxParts.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/isTruncated</TokenIdentifier>
+			<Abstract type="html">Indicates whether the returned list of parts is truncated. A value true
+indicates the list was truncated. A list may be truncated if the number of
+parts exceeds the limit specified by MaxParts.</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL isTruncated</Declaration>
+			
+			
+			<Anchor>//api/name/isTruncated</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsResult/setParts:</TokenIdentifier>
+			<Abstract type="html">The list of S3Part objects representing the parts</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *parts</Declaration>
+			
+			
+			<Anchor>//api/name/parts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsResult/parts</TokenIdentifier>
+			<Abstract type="html">The list of S3Part objects representing the parts</Abstract>
+			<DeclaredIn>S3ListPartsResult.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *parts</Declaration>
+			
+			
+			<Anchor>//api/name/parts</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

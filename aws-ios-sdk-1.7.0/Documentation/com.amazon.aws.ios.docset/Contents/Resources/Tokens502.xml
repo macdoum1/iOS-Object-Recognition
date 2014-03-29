@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Volume.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Volume</TokenIdentifier>
+			<Abstract type="html">Volume</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>
+			
+			<NodeRef refid="502"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of this volume.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/volumeId</TokenIdentifier>
+			<Abstract type="html">The unique ID of this volume.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setSize:</TokenIdentifier>
+			<Abstract type="html">The size of this volume, in gigabytes.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/size</TokenIdentifier>
+			<Abstract type="html">The size of this volume, in gigabytes.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">Optional snapshot from which this volume was created.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/snapshotId</TokenIdentifier>
+			<Abstract type="html">Optional snapshot from which this volume was created.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">Availability zone in which this volume was created.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/availabilityZone</TokenIdentifier>
+			<Abstract type="html">Availability zone in which this volume was created.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setState:</TokenIdentifier>
+			<Abstract type="html">State of this volume (e.g., creating, available).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;creating, available, in-use, deleting, deleted, error</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/state</TokenIdentifier>
+			<Abstract type="html">State of this volume (e.g., creating, available).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;creating, available, in-use, deleting, deleted, error</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setCreateTime:</TokenIdentifier>
+			<Abstract type="html">Timestamp when volume creation was initiated.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/createTime</TokenIdentifier>
+			<Abstract type="html">Timestamp when volume creation was initiated.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setAttachments:</TokenIdentifier>
+			<Abstract type="html">Information on what this volume is attached to.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attachments</Declaration>
+			
+			
+			<Anchor>//api/name/attachments</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/attachments</TokenIdentifier>
+			<Abstract type="html">Information on what this volume is attached to.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attachments</Declaration>
+			
+			
+			<Anchor>//api/name/attachments</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Volume.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Volume.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setVolumeType:</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;standard, io1</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeType</Declaration>
+			
+			
+			<Anchor>//api/name/volumeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/volumeType</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;standard, io1</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeType</Declaration>
+			
+			
+			<Anchor>//api/name/volumeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/setIops:</TokenIdentifier>
+			<Abstract type="html">The value of the Iops property for this object.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *iops</Declaration>
+			
+			
+			<Anchor>//api/name/iops</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Volume/iops</TokenIdentifier>
+			<Abstract type="html">The value of the Iops property for this object.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *iops</Declaration>
+			
+			
+			<Anchor>//api/name/iops</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/addAttachment:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attachments.
+This function will alloc and init attachments if not already done.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttachment:(EC2VolumeAttachment *)attachmentObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttachment:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Volume/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Volume.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Reservation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Reservation</TokenIdentifier>
+			<Abstract type="html">Reservation</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>
+			
+			<NodeRef refid="459"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setReservationId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of this reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/reservationId</TokenIdentifier>
+			<Abstract type="html">The unique ID of this reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *reservationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservationId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key ID of the user who owns the reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/ownerId</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key ID of the user who owns the reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setRequesterId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of the user who requested the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requesterId</Declaration>
+			
+			
+			<Anchor>//api/name/requesterId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/requesterId</TokenIdentifier>
+			<Abstract type="html">The unique ID of the user who requested the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requesterId</Declaration>
+			
+			
+			<Anchor>//api/name/requesterId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setGroups:</TokenIdentifier>
+			<Abstract type="html">The list of security groups requested for the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/groups</TokenIdentifier>
+			<Abstract type="html">The list of security groups requested for the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setGroupNames:</TokenIdentifier>
+			<Abstract type="html">The list of security groups requested for the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupNames</Declaration>
+			
+			
+			<Anchor>//api/name/groupNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/groupNames</TokenIdentifier>
+			<Abstract type="html">The list of security groups requested for the instances in this
+reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *groupNames</Declaration>
+			
+			
+			<Anchor>//api/name/groupNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/setInstances:</TokenIdentifier>
+			<Abstract type="html">The list of Amazon EC2 instances included in this reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Reservation/instances</TokenIdentifier>
+			<Abstract type="html">The list of Amazon EC2 instances included in this reservation.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/addGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groups.
+This function will alloc and init groups if not already done.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroup:(EC2GroupIdentifier *)groupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/addGroupName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to groupNames.
+This function will alloc and init groupNames if not already done.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>- (void)addGroupName:(NSString *)groupNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/addInstance:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instances.
+This function will alloc and init instances if not already done.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstance:(EC2Instance *)instanceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Reservation/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Reservation.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

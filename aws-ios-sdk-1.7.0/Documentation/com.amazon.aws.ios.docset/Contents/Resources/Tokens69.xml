@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingDescribeScalingActivitiesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingDescribeScalingActivitiesRequest</TokenIdentifier>
+			<Abstract type="html">Describe Scaling Activities Request</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/setActivityIds:</TokenIdentifier>
+			<Abstract type="html">A list containing the activity IDs of the desired scaling activities.
+If this list is omitted, all activities are described. If an
+&lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited
+to that group. The list of requested activities cannot contain more
+than 50 items. If unknown activities are requested, they are ignored
+with no error.</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *activityIds</Declaration>
+			
+			
+			<Anchor>//api/name/activityIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeScalingActivitiesRequest/activityIds</TokenIdentifier>
+			<Abstract type="html">A list containing the activity IDs of the desired scaling activities.
+If this list is omitted, all activities are described. If an
+&lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited
+to that group. The list of requested activities cannot contain more
+than 50 items. If unknown activities are requested, they are ignored
+with no error.</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *activityIds</Declaration>
+			
+			
+			<Anchor>//api/name/activityIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeScalingActivitiesRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">The maximum number of scaling activities to return.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 50&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeScalingActivitiesRequest/maxRecords</TokenIdentifier>
+			<Abstract type="html">The maximum number of scaling activities to return.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 50&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results
+for pagination.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeScalingActivitiesRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A string that marks the start of the next batch of returned results
+for pagination.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/addActivityId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to activityIds.
+This function will alloc and init activityIds if not already done.</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addActivityId:(NSString *)activityIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addActivityId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeScalingActivitiesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingDescribeScalingActivitiesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

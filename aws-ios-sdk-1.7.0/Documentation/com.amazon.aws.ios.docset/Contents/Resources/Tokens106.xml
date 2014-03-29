@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingResumeProcessesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingResumeProcessesRequest</TokenIdentifier>
+			<Abstract type="html">Resume Processes Request</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>
+			
+			<NodeRef refid="106"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingResumeProcessesRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingResumeProcessesRequest/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">The name or Amazon Resource Name (ARN) of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingResumeProcessesRequest/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">The name or Amazon Resource Name (ARN) of the Auto Scaling group.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 1600&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[\u0020-\uD7FF\uE000-\uFFFD\uD800\uDC00-\uDBFF\uDFFF\r\n\t]*&lt;br/&gt;</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingResumeProcessesRequest/setScalingProcesses:</TokenIdentifier>
+			<Abstract type="html">The processes that you want to suspend or resume, which can include
+one or more of the following: &lt;ul&gt; &lt;li&gt;Launch&lt;/li&gt; &lt;li&gt;Terminate&lt;/li&gt;
+&lt;li&gt;HealthCheck&lt;/li&gt; &lt;li&gt;ReplaceUnhealthy&lt;/li&gt; &lt;li&gt;AZRebalance&lt;/li&gt;
+&lt;li&gt;AlarmNotification&lt;/li&gt; &lt;li&gt;ScheduledActions&lt;/li&gt;
+&lt;li&gt;AddToLoadBalancer&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; To suspend all process types,
+omit this parameter.</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *scalingProcesses</Declaration>
+			
+			
+			<Anchor>//api/name/scalingProcesses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingResumeProcessesRequest/scalingProcesses</TokenIdentifier>
+			<Abstract type="html">The processes that you want to suspend or resume, which can include
+one or more of the following: &lt;ul&gt; &lt;li&gt;Launch&lt;/li&gt; &lt;li&gt;Terminate&lt;/li&gt;
+&lt;li&gt;HealthCheck&lt;/li&gt; &lt;li&gt;ReplaceUnhealthy&lt;/li&gt; &lt;li&gt;AZRebalance&lt;/li&gt;
+&lt;li&gt;AlarmNotification&lt;/li&gt; &lt;li&gt;ScheduledActions&lt;/li&gt;
+&lt;li&gt;AddToLoadBalancer&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; To suspend all process types,
+omit this parameter.</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *scalingProcesses</Declaration>
+			
+			
+			<Anchor>//api/name/scalingProcesses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingResumeProcessesRequest/addScalingProcesse:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to scalingProcesses.
+This function will alloc and init scalingProcesses if not already done.</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addScalingProcesse:(NSString *)scalingProcesseObject</Declaration>
+			
+			
+			<Anchor>//api/name/addScalingProcesse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingResumeProcessesRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingResumeProcessesRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

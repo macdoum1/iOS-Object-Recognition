@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Storage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Storage</TokenIdentifier>
+			<Abstract type="html">Storage</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>
+			
+			<NodeRef refid="493"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/setS3:</TokenIdentifier>
+			<Abstract type="html">The details of S3 storage for bundling a Windows instance.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2S3Storage *s3</Declaration>
+			
+			
+			<Anchor>//api/name/s3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Storage/s3</TokenIdentifier>
+			<Abstract type="html">The details of S3 storage for bundling a Windows instance.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2S3Storage *s3</Declaration>
+			
+			
+			<Anchor>//api/name/s3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Storage/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Storage.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

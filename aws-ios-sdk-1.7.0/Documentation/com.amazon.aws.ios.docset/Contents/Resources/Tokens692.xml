@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3SetBucketCrossOriginResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3SetBucketCrossOriginResponse</TokenIdentifier>
+			<Abstract type="html">Contains all the information about the SetBucketCrossOriginResponse operation.</Abstract>
+			<DeclaredIn>S3SetBucketCrossOriginResponse.h</DeclaredIn>
+			
+			<NodeRef refid="692"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

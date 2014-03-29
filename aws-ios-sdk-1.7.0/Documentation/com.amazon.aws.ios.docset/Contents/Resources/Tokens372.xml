@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2EnableVolumeIOResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2EnableVolumeIOResponse</TokenIdentifier>
+			<Abstract type="html">Enable Volume I O</Abstract>
+			<DeclaredIn>EC2EnableVolumeIOResponse.h</DeclaredIn>
+			
+			<NodeRef refid="372"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

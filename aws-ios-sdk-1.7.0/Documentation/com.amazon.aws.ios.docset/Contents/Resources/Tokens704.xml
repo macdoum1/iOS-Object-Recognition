@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3TransferOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3TransferOperation</TokenIdentifier>
+			<Abstract type="html">Type of the S3 Transfer being processed.</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>
+			
+			<NodeRef refid="704"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setS3:</TokenIdentifier>
+			<Abstract type="html">S3 client used to make transfer requests</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonS3Client *s3</Declaration>
+			
+			
+			<Anchor>//api/name/s3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/s3</TokenIdentifier>
+			<Abstract type="html">S3 client used to make transfer requests</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) AmazonS3Client *s3</Declaration>
+			
+			
+			<Anchor>//api/name/s3</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setPutRequest:</TokenIdentifier>
+			<Abstract type="html">Put Object request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3PutObjectRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/putRequest</TokenIdentifier>
+			<Abstract type="html">Put Object request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3PutObjectRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setGetRequest:</TokenIdentifier>
+			<Abstract type="html">Get Object request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3GetObjectRequest *getRequest</Declaration>
+			
+			
+			<Anchor>//api/name/getRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/getRequest</TokenIdentifier>
+			<Abstract type="html">Get Object request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3GetObjectRequest *getRequest</Declaration>
+			
+			
+			<Anchor>//api/name/getRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setTransferRequestType:</TokenIdentifier>
+			<Abstract type="html">Type of the S3 request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) S3TransferType transferRequestType</Declaration>
+			
+			
+			<Anchor>//api/name/transferRequestType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/transferRequestType</TokenIdentifier>
+			<Abstract type="html">Type of the S3 request</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) S3TransferType transferRequestType</Declaration>
+			
+			
+			<Anchor>//api/name/transferRequestType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setIsPaused:</TokenIdentifier>
+			<Abstract type="html">Boolean to check if this operation is paused</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isPaused</Declaration>
+			
+			
+			<Anchor>//api/name/isPaused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/isPaused</TokenIdentifier>
+			<Abstract type="html">Boolean to check if this operation is paused</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isPaused</Declaration>
+			
+			
+			<Anchor>//api/name/isPaused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/setRequestMetadataFile:</TokenIdentifier>
+			<Abstract type="html">filename where the request object metadata is persisted</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestMetadataFile</Declaration>
+			
+			
+			<Anchor>//api/name/requestMetadataFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3TransferOperation/requestMetadataFile</TokenIdentifier>
+			<Abstract type="html">filename where the request object metadata is persisted</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestMetadataFile</Declaration>
+			
+			
+			<Anchor>//api/name/requestMetadataFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/cleanup</TokenIdentifier>
+			<Abstract type="html">This method will close any open input or output streams</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/pause</TokenIdentifier>
+			<Abstract type="html">This method will pause the transfer</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3TransferOperation/removeRequestMetadataFile</TokenIdentifier>
+			<Abstract type="html">This method removes the local file that was used to store either put or get request metadata.</Abstract>
+			<DeclaredIn>S3TransferOperation.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeRequestMetadataFile</Declaration>
+			
+			
+			<Anchor>//api/name/removeRequestMetadataFile</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

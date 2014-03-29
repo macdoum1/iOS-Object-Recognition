@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Instance.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Instance</TokenIdentifier>
+			<Abstract type="html">Instance</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>
+			
+			<NodeRef refid="396"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">Unique ID of the instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/instanceId</TokenIdentifier>
+			<Abstract type="html">Unique ID of the instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setImageId:</TokenIdentifier>
+			<Abstract type="html">Image ID of the AMI used to launch the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/imageId</TokenIdentifier>
+			<Abstract type="html">Image ID of the AMI used to launch the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setState:</TokenIdentifier>
+			<Abstract type="html">The current state of the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/state</TokenIdentifier>
+			<Abstract type="html">The current state of the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceState *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPrivateDnsName:</TokenIdentifier>
+			<Abstract type="html">The private DNS name assigned to the instance. This DNS name can only
+be used inside the Amazon EC2 network. This element remains empty
+until the instance enters a running state.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/privateDnsName</TokenIdentifier>
+			<Abstract type="html">The private DNS name assigned to the instance. This DNS name can only
+be used inside the Amazon EC2 network. This element remains empty
+until the instance enters a running state.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/privateDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPublicDnsName:</TokenIdentifier>
+			<Abstract type="html">The public DNS name assigned to the instance. This DNS name is
+contactable from outside the Amazon EC2 network. This element remains
+empty until the instance enters a running state.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/publicDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/publicDnsName</TokenIdentifier>
+			<Abstract type="html">The public DNS name assigned to the instance. This DNS name is
+contactable from outside the Amazon EC2 network. This element remains
+empty until the instance enters a running state.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicDnsName</Declaration>
+			
+			
+			<Anchor>//api/name/publicDnsName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setStateTransitionReason:</TokenIdentifier>
+			<Abstract type="html">Reason for the most recent state transition. This might be an empty
+string.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateTransitionReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateTransitionReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/stateTransitionReason</TokenIdentifier>
+			<Abstract type="html">Reason for the most recent state transition. This might be an empty
+string.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *stateTransitionReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateTransitionReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setKeyName:</TokenIdentifier>
+			<Abstract type="html">If this instance was launched with an associated key pair, this
+displays the key pair name.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/keyName</TokenIdentifier>
+			<Abstract type="html">If this instance was launched with an associated key pair, this
+displays the key pair name.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setAmiLaunchIndex:</TokenIdentifier>
+			<Abstract type="html">The AMI launch index, which can be used to find this instance within
+the launch group.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *amiLaunchIndex</Declaration>
+			
+			
+			<Anchor>//api/name/amiLaunchIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/amiLaunchIndex</TokenIdentifier>
+			<Abstract type="html">The AMI launch index, which can be used to find this instance within
+the launch group.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *amiLaunchIndex</Declaration>
+			
+			
+			<Anchor>//api/name/amiLaunchIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">Product codes attached to this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/productCodes</TokenIdentifier>
+			<Abstract type="html">Product codes attached to this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">The instance type. For more information on instance types, please see
+the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/2009-07-15/DeveloperGuide/&quot;&gt;
+Amazon Elastic Compute Cloud Developer Guide&lt;/a&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/instanceType</TokenIdentifier>
+			<Abstract type="html">The instance type. For more information on instance types, please see
+the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/2009-07-15/DeveloperGuide/&quot;&gt;
+Amazon Elastic Compute Cloud Developer Guide&lt;/a&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setLaunchTime:</TokenIdentifier>
+			<Abstract type="html">The time this instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *launchTime</Declaration>
+			
+			
+			<Anchor>//api/name/launchTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/launchTime</TokenIdentifier>
+			<Abstract type="html">The time this instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *launchTime</Declaration>
+			
+			
+			<Anchor>//api/name/launchTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPlacement:</TokenIdentifier>
+			<Abstract type="html">The location where this instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/placement</TokenIdentifier>
+			<Abstract type="html">The location where this instance launched.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setKernelId:</TokenIdentifier>
+			<Abstract type="html">Kernel associated with this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/kernelId</TokenIdentifier>
+			<Abstract type="html">Kernel associated with this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">RAM disk associated with this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/ramdiskId</TokenIdentifier>
+			<Abstract type="html">RAM disk associated with this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPlatform:</TokenIdentifier>
+			<Abstract type="html">Platform of the instance (e.g., Windows).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Windows</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/platform</TokenIdentifier>
+			<Abstract type="html">Platform of the instance (e.g., Windows).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Windows</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setMonitoring:</TokenIdentifier>
+			<Abstract type="html">Monitoring status for this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Monitoring *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/monitoring</TokenIdentifier>
+			<Abstract type="html">Monitoring status for this instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2Monitoring *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon VPC subnet ID in which the instance is running.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/subnetId</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon VPC subnet ID in which the instance is running.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setVpcId:</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon VPC in which the instance is running.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/vpcId</TokenIdentifier>
+			<Abstract type="html">Specifies the Amazon VPC in which the instance is running.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">Specifies the private IP address that is assigned to the instance
+(Amazon VPC).</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">Specifies the private IP address that is assigned to the instance
+(Amazon VPC).</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setPublicIpAddress:</TokenIdentifier>
+			<Abstract type="html">Specifies the IP address of the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/publicIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/publicIpAddress</TokenIdentifier>
+			<Abstract type="html">Specifies the IP address of the instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *publicIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/publicIpAddress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setStateReason:</TokenIdentifier>
+			<Abstract type="html">The reason for the state change.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2StateReason *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/stateReason</TokenIdentifier>
+			<Abstract type="html">The reason for the state change.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2StateReason *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setArchitecture:</TokenIdentifier>
+			<Abstract type="html">The architecture of this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/architecture</TokenIdentifier>
+			<Abstract type="html">The architecture of this instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setRootDeviceType:</TokenIdentifier>
+			<Abstract type="html">The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ebs, instance-store</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceType</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/rootDeviceType</TokenIdentifier>
+			<Abstract type="html">The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ebs, instance-store</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceType</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">Block device mapping set.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">Block device mapping set.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setVirtualizationType:</TokenIdentifier>
+			<Abstract type="html">The value of the VirtualizationType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;hvm, paravirtual</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/virtualizationType</TokenIdentifier>
+			<Abstract type="html">The value of the VirtualizationType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;hvm, paravirtual</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setInstanceLifecycle:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;spot</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceLifecycle</Declaration>
+			
+			
+			<Anchor>//api/name/instanceLifecycle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/instanceLifecycle</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;spot</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceLifecycle</Declaration>
+			
+			
+			<Anchor>//api/name/instanceLifecycle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setSpotInstanceRequestId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/spotInstanceRequestId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setLicense:</TokenIdentifier>
+			<Abstract type="html">Represents an active license in use and attached to an Amazon EC2
+instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceLicense *license</Declaration>
+			
+			
+			<Anchor>//api/name/license</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/license</TokenIdentifier>
+			<Abstract type="html">Represents an active license in use and attached to an Amazon EC2
+instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2InstanceLicense *license</Declaration>
+			
+			
+			<Anchor>//api/name/license</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setClientToken:</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/clientToken</TokenIdentifier>
+			<Abstract type="html">The value of the ClientToken property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Instance.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">The value of the SecurityGroups property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/securityGroups</TokenIdentifier>
+			<Abstract type="html">The value of the SecurityGroups property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">The value of the SourceDestCheck property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">The value of the SourceDestCheck property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setHypervisor:</TokenIdentifier>
+			<Abstract type="html">The value of the Hypervisor property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ovm, xen</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *hypervisor</Declaration>
+			
+			
+			<Anchor>//api/name/hypervisor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/hypervisor</TokenIdentifier>
+			<Abstract type="html">The value of the Hypervisor property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ovm, xen</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *hypervisor</Declaration>
+			
+			
+			<Anchor>//api/name/hypervisor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setNetworkInterfaces:</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaces property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">The value of the NetworkInterfaces property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setIamInstanceProfile:</TokenIdentifier>
+			<Abstract type="html">The value of the IamInstanceProfile property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2IamInstanceProfile *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">The value of the IamInstanceProfile property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2IamInstanceProfile *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">The value of the EbsOptimized property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Instance/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">The value of the EbsOptimized property for this object.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/addProductCode:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (void)addProductCode:(EC2ProductCode *)productCodeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addProductCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2InstanceBlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/addSecurityGroup:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to securityGroups.
+This function will alloc and init securityGroups if not already done.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSecurityGroup:(EC2GroupIdentifier *)securityGroupObject</Declaration>
+			
+			
+			<Anchor>//api/name/addSecurityGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/addNetworkInterface:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to networkInterfaces.
+This function will alloc and init networkInterfaces if not already done.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (void)addNetworkInterface:(EC2InstanceNetworkInterface *)networkInterfaceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addNetworkInterface:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Instance/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Instance.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

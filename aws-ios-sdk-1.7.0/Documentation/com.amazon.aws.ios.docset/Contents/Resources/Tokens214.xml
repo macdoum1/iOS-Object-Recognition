@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBTableDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBTableDescription</TokenIdentifier>
+			<Abstract type="html">Table Description</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>
+			
+			<NodeRef refid="214"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setAttributeDefinitions:</TokenIdentifier>
+			<Abstract type="html">An array of &lt;i&gt;AttributeDefinition&lt;/i&gt; objects. Each of these objects
+describes one attribute in the table and index key schema. &lt;p&gt;Each
+&lt;i&gt;AttributeDefinition&lt;/i&gt; object in this array is composed of: &lt;ul&gt;
+&lt;li&gt; &lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeType&lt;/i&gt; - The data type for the attribute. &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeDefinitions</Declaration>
+			
+			
+			<Anchor>//api/name/attributeDefinitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/attributeDefinitions</TokenIdentifier>
+			<Abstract type="html">An array of &lt;i&gt;AttributeDefinition&lt;/i&gt; objects. Each of these objects
+describes one attribute in the table and index key schema. &lt;p&gt;Each
+&lt;i&gt;AttributeDefinition&lt;/i&gt; object in this array is composed of: &lt;ul&gt;
+&lt;li&gt; &lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of the attribute. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;AttributeType&lt;/i&gt; - The data type for the attribute. &lt;/li&gt; &lt;/ul&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *attributeDefinitions</Declaration>
+			
+			
+			<Anchor>//api/name/attributeDefinitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setTableName:</TokenIdentifier>
+			<Abstract type="html">The name of the table.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/tableName</TokenIdentifier>
+			<Abstract type="html">The name of the table.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;3 - 255&lt;br/&gt;
+&lt;b&gt;Pattern: &lt;/b&gt;[a-zA-Z0-9_.-]+&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">The primary key structure for the table. Each &lt;i&gt;KeySchemaElement&lt;/i&gt;
+consists of: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of the
+attribute. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - The key type for the
+attribute. Can be either &lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;.
+&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For more information about primary keys, see &lt;a
+modb/latest/developerguide/DataModel.html#DataModelPrimaryKey&quot;&gt;Primary
+Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/keySchema</TokenIdentifier>
+			<Abstract type="html">The primary key structure for the table. Each &lt;i&gt;KeySchemaElement&lt;/i&gt;
+consists of: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;AttributeName&lt;/i&gt; - The name of the
+attribute. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;KeyType&lt;/i&gt; - The key type for the
+attribute. Can be either &lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;.
+&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;For more information about primary keys, see &lt;a
+modb/latest/developerguide/DataModel.html#DataModelPrimaryKey&quot;&gt;Primary
+Key&lt;/a&gt; in the Amazon DynamoDB Developer Guide.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Length: &lt;/b&gt;1 - 2&lt;br/&gt;</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *keySchema</Declaration>
+			
+			
+			<Anchor>//api/name/keySchema</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setTableStatus:</TokenIdentifier>
+			<Abstract type="html">Represents the current state of the table: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;CREATING&lt;/i&gt; - The table is being created, as the result of a
+&lt;i&gt;CreateTable&lt;/i&gt; operation. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;UPDATING&lt;/i&gt; - The
+table is being updated, as the result of an &lt;i&gt;UpdateTable&lt;/i&gt;
+operation. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;DELETING&lt;/i&gt; - The table is being deleted,
+as the result of a &lt;i&gt;DeleteTable&lt;/i&gt; operation. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;ACTIVE&lt;/i&gt; - The table is ready for use. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;CREATING, UPDATING, DELETING, ACTIVE</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableStatus</Declaration>
+			
+			
+			<Anchor>//api/name/tableStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/tableStatus</TokenIdentifier>
+			<Abstract type="html">Represents the current state of the table: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;CREATING&lt;/i&gt; - The table is being created, as the result of a
+&lt;i&gt;CreateTable&lt;/i&gt; operation. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;UPDATING&lt;/i&gt; - The
+table is being updated, as the result of an &lt;i&gt;UpdateTable&lt;/i&gt;
+operation. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;DELETING&lt;/i&gt; - The table is being deleted,
+as the result of a &lt;i&gt;DeleteTable&lt;/i&gt; operation. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;ACTIVE&lt;/i&gt; - The table is ready for use. &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;CREATING, UPDATING, DELETING, ACTIVE</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *tableStatus</Declaration>
+			
+			
+			<Anchor>//api/name/tableStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setCreationDateTime:</TokenIdentifier>
+			<Abstract type="html">Represents the date and time when the table was created, in UNIX epoch time format.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *creationDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/creationDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/creationDateTime</TokenIdentifier>
+			<Abstract type="html">Represents the date and time when the table was created, in UNIX epoch time format.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *creationDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/creationDateTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">Represents the provisioned throughput settings for the table,
+consisting of read and write capacity units, along with data about
+increases and decreases.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughputDescription *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">Represents the provisioned throughput settings for the table,
+consisting of read and write capacity units, along with data about
+increases and decreases.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBProvisionedThroughputDescription *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setTableSizeBytes:</TokenIdentifier>
+			<Abstract type="html">Represents the total size of the specified table, in bytes. Amazon
+DynamoDB updates this value approximately every six hours. Recent
+changes might not be reflected in this value.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *tableSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/tableSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/tableSizeBytes</TokenIdentifier>
+			<Abstract type="html">Represents the total size of the specified table, in bytes. Amazon
+DynamoDB updates this value approximately every six hours. Recent
+changes might not be reflected in this value.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *tableSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/tableSizeBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setItemCount:</TokenIdentifier>
+			<Abstract type="html">Represents the number of items in the specified table. Amazon DynamoDB
+updates this value approximately every six hours. Recent changes might
+not be reflected in this value.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/itemCount</TokenIdentifier>
+			<Abstract type="html">Represents the number of items in the specified table. Amazon DynamoDB
+updates this value approximately every six hours. Recent changes might
+not be reflected in this value.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/setLocalSecondaryIndexes:</TokenIdentifier>
+			<Abstract type="html">Represents one or more secondary indexes on the table. Each index is
+scoped to a given hash key value. Tables with one or more local
+secondary indexes are subject to an item collection size limit, where
+the amount of data within a given item collection cannot exceed 10 GB.
+Each element is composed of: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexName&lt;/i&gt; - The name
+of the secondary index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;KeySchema&lt;/i&gt; - Specifies the
+complete index key schema. The attribute names in the key schema must
+be between 1 and 255 characters (inclusive). The key schema must begin
+with the same hash key attribute as the table. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Projection&lt;/i&gt; - Specifies attributes that are copied
+(projected) from the table into the index. These are in addition to
+the primary key attributes and index key attributes, which are
+automatically projected. Each attribute specification is composed of:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ProjectionType&lt;/i&gt; - One of the following: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys are
+projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; - Only
+the specified table attributes are projected into the index. The list
+of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected into
+the index. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;NonKeyAttributes&lt;/i&gt; - A list
+of one or more non-key attribute names that are projected into the
+index. The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexSizeBytes&lt;/i&gt;
+- Represents the total size of the index, in bytes. Amazon DynamoDB
+updates this value approximately every six hours. Recent changes might
+not be reflected in this value.&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ItemCount&lt;/i&gt; -
+Represents the number of items in the index. Amazon DynamoDB updates
+this value approximately every six hours. Recent changes might not be
+reflected in this value. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If the table is in the
+&lt;code&gt;DELETING&lt;/code&gt; state, no information about indexes will be
+returned.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *localSecondaryIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/localSecondaryIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBTableDescription/localSecondaryIndexes</TokenIdentifier>
+			<Abstract type="html">Represents one or more secondary indexes on the table. Each index is
+scoped to a given hash key value. Tables with one or more local
+secondary indexes are subject to an item collection size limit, where
+the amount of data within a given item collection cannot exceed 10 GB.
+Each element is composed of: &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexName&lt;/i&gt; - The name
+of the secondary index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;KeySchema&lt;/i&gt; - Specifies the
+complete index key schema. The attribute names in the key schema must
+be between 1 and 255 characters (inclusive). The key schema must begin
+with the same hash key attribute as the table. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;i&gt;Projection&lt;/i&gt; - Specifies attributes that are copied
+(projected) from the table into the index. These are in addition to
+the primary key attributes and index key attributes, which are
+automatically projected. Each attribute specification is composed of:
+&lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ProjectionType&lt;/i&gt; - One of the following: &lt;ul&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;KEYS_ONLY&lt;/code&gt; - Only the index and primary keys are
+projected into the index. &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;code&gt;INCLUDE&lt;/code&gt; - Only
+the specified table attributes are projected into the index. The list
+of projected attributes are in &lt;i&gt;NonKeyAttributes&lt;/i&gt;. &lt;/li&gt; &lt;li&gt;
+&lt;p&gt;&lt;code&gt;ALL&lt;/code&gt; - All of the table attributes are projected into
+the index. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;NonKeyAttributes&lt;/i&gt; - A list
+of one or more non-key attribute names that are projected into the
+index. The total count of attributes specified in
+&lt;i&gt;NonKeyAttributes&lt;/i&gt;, summed across all of the local secondary
+indexes, must not exceed 20. If you project the same attribute into
+two different indexes, this counts as two distinct attributes when
+determining the total. &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;IndexSizeBytes&lt;/i&gt;
+- Represents the total size of the index, in bytes. Amazon DynamoDB
+updates this value approximately every six hours. Recent changes might
+not be reflected in this value.&lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;i&gt;ItemCount&lt;/i&gt; -
+Represents the number of items in the index. Amazon DynamoDB updates
+this value approximately every six hours. Recent changes might not be
+reflected in this value. &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If the table is in the
+&lt;code&gt;DELETING&lt;/code&gt; state, no information about indexes will be
+returned.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *localSecondaryIndexes</Declaration>
+			
+			
+			<Anchor>//api/name/localSecondaryIndexes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new TableDescription object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/addAttributeDefinition:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to attributeDefinitions.
+This function will alloc and init attributeDefinitions if not already done.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAttributeDefinition:(DynamoDBAttributeDefinition *)attributeDefinitionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addAttributeDefinition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/addKeySchema:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to keySchema.
+This function will alloc and init keySchema if not already done.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addKeySchema:(DynamoDBKeySchemaElement *)keySchemaObject</Declaration>
+			
+			
+			<Anchor>//api/name/addKeySchema:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/addLocalSecondaryIndexe:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to localSecondaryIndexes.
+This function will alloc and init localSecondaryIndexes if not already done.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLocalSecondaryIndexe:(DynamoDBLocalSecondaryIndexDescription *)localSecondaryIndexeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addLocalSecondaryIndexe:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBTableDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBTableDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

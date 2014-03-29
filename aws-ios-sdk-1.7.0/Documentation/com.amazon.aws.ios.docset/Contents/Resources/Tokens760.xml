@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SNSConfirmSubscriptionRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SNSConfirmSubscriptionRequest</TokenIdentifier>
+			<Abstract type="html">Confirm Subscription Request</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>
+			
+			<NodeRef refid="760"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic for which you wish to confirm a subscription.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSConfirmSubscriptionRequest/topicArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the topic for which you wish to confirm a subscription.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/setToken:</TokenIdentifier>
+			<Abstract type="html">Short-lived token sent to an endpoint during the
+&lt;code&gt;Subscribe&lt;/code&gt; action.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSConfirmSubscriptionRequest/token</TokenIdentifier>
+			<Abstract type="html">Short-lived token sent to an endpoint during the
+&lt;code&gt;Subscribe&lt;/code&gt; action.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/setAuthenticateOnUnsubscribe:</TokenIdentifier>
+			<Abstract type="html">Disallows unauthenticated unsubscribes of the subscription. If the
+value of this parameter is &lt;code&gt;true&lt;/code&gt; and the request has an
+AWS signature, then only the topic owner and the subscription owner
+can unsubscribe the endpoint. The unsubscribe action requires AWS
+authentication.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *authenticateOnUnsubscribe</Declaration>
+			
+			
+			<Anchor>//api/name/authenticateOnUnsubscribe</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SNSConfirmSubscriptionRequest/authenticateOnUnsubscribe</TokenIdentifier>
+			<Abstract type="html">Disallows unauthenticated unsubscribes of the subscription. If the
+value of this parameter is &lt;code&gt;true&lt;/code&gt; and the request has an
+AWS signature, then only the topic owner and the subscription owner
+can unsubscribe the endpoint. The unsubscribe action requires AWS
+authentication.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *authenticateOnUnsubscribe</Declaration>
+			
+			
+			<Anchor>//api/name/authenticateOnUnsubscribe</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ConfirmSubscriptionRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/initWithTopicArn:andToken:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ConfirmSubscriptionRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andToken:(NSString *)theToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic for which you wish to confirm
+a subscription.</Abstract>
+				</Parameter><Parameter>
+					<Name>theToken</Name>
+					<Abstract type="html">Short-lived token sent to an endpoint during the
+&lt;code&gt;Subscribe&lt;/code&gt; action.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/initWithTopicArn:andToken:andAuthenticateOnUnsubscribe:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ConfirmSubscriptionRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTopicArn:(NSString *)theTopicArn andToken:(NSString *)theToken andAuthenticateOnUnsubscribe:(NSString *)theAuthenticateOnUnsubscribe</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTopicArn</Name>
+					<Abstract type="html">The ARN of the topic for which you wish to confirm
+a subscription.</Abstract>
+				</Parameter><Parameter>
+					<Name>theToken</Name>
+					<Abstract type="html">Short-lived token sent to an endpoint during the
+&lt;code&gt;Subscribe&lt;/code&gt; action.</Abstract>
+				</Parameter><Parameter>
+					<Name>theAuthenticateOnUnsubscribe</Name>
+					<Abstract type="html">Disallows unauthenticated
+unsubscribes of the subscription. If the value of this parameter is
+&lt;code&gt;true&lt;/code&gt; and the request has an AWS signature, then only the
+topic owner and the subscription owner can unsubscribe the endpoint.
+The unsubscribe action requires AWS authentication.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTopicArn:andToken:andAuthenticateOnUnsubscribe:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SNSConfirmSubscriptionRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SNSConfirmSubscriptionRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

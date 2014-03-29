@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AutoScalingDescribeMetricCollectionTypesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AutoScalingDescribeMetricCollectionTypesResponse</TokenIdentifier>
+			<Abstract type="html">Describe Metric Collection Types Result</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/setMetrics:</TokenIdentifier>
+			<Abstract type="html">The list of Metrics collected.The following metrics are supported:
+&lt;ul&gt; &lt;li&gt;&lt;p&gt;GroupMinSize&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/li&gt;
+&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeMetricCollectionTypesResponse/metrics</TokenIdentifier>
+			<Abstract type="html">The list of Metrics collected.The following metrics are supported:
+&lt;ul&gt; &lt;li&gt;&lt;p&gt;GroupMinSize&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/li&gt; &lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/li&gt;
+&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/setGranularities:</TokenIdentifier>
+			<Abstract type="html">A list of granularities for the listed Metrics.</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *granularities</Declaration>
+			
+			
+			<Anchor>//api/name/granularities</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AutoScalingDescribeMetricCollectionTypesResponse/granularities</TokenIdentifier>
+			<Abstract type="html">A list of granularities for the listed Metrics.</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *granularities</Declaration>
+			
+			
+			<Anchor>//api/name/granularities</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/metricsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the metrics array for the specified index</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (AutoScalingMetricCollectionType *)metricsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/metricsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/granularitiesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the granularities array for the specified index</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (AutoScalingMetricGranularityType *)granularitiesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/granularitiesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AutoScalingDescribeMetricCollectionTypesResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>AutoScalingDescribeMetricCollectionTypesResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

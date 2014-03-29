@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetACLRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetACLRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the getACL operation.
+The BucketName is always required, the Key is optional and is to be set
+if you want the ACL for an object instead of a bucket.
+&lt;br /&gt;Required Parameters: bucket
+&lt;br /&gt;Optional Parameters: key</Abstract>
+			<DeclaredIn>S3GetACLRequest.h</DeclaredIn>
+			
+			<NodeRef refid="636"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

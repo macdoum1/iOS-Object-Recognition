@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketTaggingConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketTaggingConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3BucketTaggingConfiguration.h</DeclaredIn>
+			
+			<NodeRef refid="603"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketTaggingConfiguration/setTagsets:</TokenIdentifier>
+			<Abstract type="html">The list of tagsets (currently only one tag set is allowed)</Abstract>
+			<DeclaredIn>S3BucketTaggingConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tagsets</Declaration>
+			
+			
+			<Anchor>//api/name/tagsets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketTaggingConfiguration/tagsets</TokenIdentifier>
+			<Abstract type="html">The list of tagsets (currently only one tag set is allowed)</Abstract>
+			<DeclaredIn>S3BucketTaggingConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tagsets</Declaration>
+			
+			
+			<Anchor>//api/name/tagsets</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

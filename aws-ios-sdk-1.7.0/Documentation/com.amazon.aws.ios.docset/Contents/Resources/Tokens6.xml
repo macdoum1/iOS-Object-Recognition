@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonCredentials.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonCredentials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCredentials/initWithAccessKey:withSecretKey:</TokenIdentifier>
+			<Abstract type="html">Inits the credential with the access key and the secret key.</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKey:(NSString *)accessKey withSecretKey:(NSString *)secretKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">The AWS Access Key</Abstract>
+				</Parameter><Parameter>
+					<Name>secretKey</Name>
+					<Abstract type="html">The AWS Secret Key</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKey:withSecretKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCredentials/initWithAccessKey:withSecretKey:withSecurityToken:</TokenIdentifier>
+			<Abstract type="html">Inits the credential with the access key and the secret key.</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAccessKey:(NSString *)theAccessKey withSecretKey:(NSString *)theSecretKey withSecurityToken:(NSString *)theSecurityToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theAccessKey</Name>
+					<Abstract type="html">The AWS Access Key</Abstract>
+				</Parameter><Parameter>
+					<Name>theSecretKey</Name>
+					<Abstract type="html">The AWS Secret Key</Abstract>
+				</Parameter><Parameter>
+					<Name>theSecurityToken</Name>
+					<Abstract type="html">The AWS Security Token</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithAccessKey:withSecretKey:withSecurityToken:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCredentials/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonCredentials/accessKey</TokenIdentifier>
+			<Abstract type="html">The AWS Access Key</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCredentials/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">The AWS Secret Key</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonCredentials/secretKey</TokenIdentifier>
+			<Abstract type="html">The AWS Secret Key</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCredentials/setSecurityToken:</TokenIdentifier>
+			<Abstract type="html">The AWS Security Token, used inconjunction with Session Based Credentials.</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *securityToken</Declaration>
+			
+			
+			<Anchor>//api/name/securityToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonCredentials/securityToken</TokenIdentifier>
+			<Abstract type="html">The AWS Security Token, used inconjunction with Session Based Credentials.</Abstract>
+			<DeclaredIn>AmazonCredentials.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *securityToken</Declaration>
+			
+			
+			<Anchor>//api/name/securityToken</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

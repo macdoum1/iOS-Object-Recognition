@@ -1,0 +1,4480 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AmazonAutoScalingClient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v1.7.0 </a></h1>
+				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AmazonAutoScalingClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/createAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- createAutoScalingGroup:</option>
+	
+	<option value="//api/name/createLaunchConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- createLaunchConfiguration:</option>
+	
+	<option value="//api/name/createOrUpdateTags:">&nbsp;&nbsp;&nbsp;&nbsp;- createOrUpdateTags:</option>
+	
+	<option value="//api/name/deleteAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAutoScalingGroup:</option>
+	
+	<option value="//api/name/deleteLaunchConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteLaunchConfiguration:</option>
+	
+	<option value="//api/name/deleteNotificationConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteNotificationConfiguration:</option>
+	
+	<option value="//api/name/deletePolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- deletePolicy:</option>
+	
+	<option value="//api/name/deleteScheduledAction:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteScheduledAction:</option>
+	
+	<option value="//api/name/deleteTags:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteTags:</option>
+	
+	<option value="//api/name/describeAdjustmentTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAdjustmentTypes:</option>
+	
+	<option value="//api/name/describeAutoScalingGroups:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingGroups:</option>
+	
+	<option value="//api/name/describeAutoScalingInstances:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingInstances:</option>
+	
+	<option value="//api/name/describeAutoScalingNotificationTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeAutoScalingNotificationTypes:</option>
+	
+	<option value="//api/name/describeLaunchConfigurations:">&nbsp;&nbsp;&nbsp;&nbsp;- describeLaunchConfigurations:</option>
+	
+	<option value="//api/name/describeMetricCollectionTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeMetricCollectionTypes:</option>
+	
+	<option value="//api/name/describeNotificationConfigurations:">&nbsp;&nbsp;&nbsp;&nbsp;- describeNotificationConfigurations:</option>
+	
+	<option value="//api/name/describePolicies:">&nbsp;&nbsp;&nbsp;&nbsp;- describePolicies:</option>
+	
+	<option value="//api/name/describeScalingActivities:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScalingActivities:</option>
+	
+	<option value="//api/name/describeScalingProcessTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScalingProcessTypes:</option>
+	
+	<option value="//api/name/describeScheduledActions:">&nbsp;&nbsp;&nbsp;&nbsp;- describeScheduledActions:</option>
+	
+	<option value="//api/name/describeTags:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTags:</option>
+	
+	<option value="//api/name/describeTerminationPolicyTypes:">&nbsp;&nbsp;&nbsp;&nbsp;- describeTerminationPolicyTypes:</option>
+	
+	<option value="//api/name/disableMetricsCollection:">&nbsp;&nbsp;&nbsp;&nbsp;- disableMetricsCollection:</option>
+	
+	<option value="//api/name/enableMetricsCollection:">&nbsp;&nbsp;&nbsp;&nbsp;- enableMetricsCollection:</option>
+	
+	<option value="//api/name/executePolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- executePolicy:</option>
+	
+	<option value="//api/name/putNotificationConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- putNotificationConfiguration:</option>
+	
+	<option value="//api/name/putScalingPolicy:">&nbsp;&nbsp;&nbsp;&nbsp;- putScalingPolicy:</option>
+	
+	<option value="//api/name/putScheduledUpdateGroupAction:">&nbsp;&nbsp;&nbsp;&nbsp;- putScheduledUpdateGroupAction:</option>
+	
+	<option value="//api/name/resumeProcesses:">&nbsp;&nbsp;&nbsp;&nbsp;- resumeProcesses:</option>
+	
+	<option value="//api/name/setDesiredCapacity:">&nbsp;&nbsp;&nbsp;&nbsp;- setDesiredCapacity:</option>
+	
+	<option value="//api/name/setInstanceHealth:">&nbsp;&nbsp;&nbsp;&nbsp;- setInstanceHealth:</option>
+	
+	<option value="//api/name/suspendProcesses:">&nbsp;&nbsp;&nbsp;&nbsp;- suspendProcesses:</option>
+	
+	<option value="//api/name/terminateInstanceInAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- terminateInstanceInAutoScalingGroup:</option>
+	
+	<option value="//api/name/updateAutoScalingGroup:">&nbsp;&nbsp;&nbsp;&nbsp;- updateAutoScalingGroup:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createAutoScalingGroup:">createAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createLaunchConfiguration:">createLaunchConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createOrUpdateTags:">createOrUpdateTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAutoScalingGroup:">deleteAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteLaunchConfiguration:">deleteLaunchConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteNotificationConfiguration:">deleteNotificationConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deletePolicy:">deletePolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteScheduledAction:">deleteScheduledAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteTags:">deleteTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAdjustmentTypes:">describeAdjustmentTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingGroups:">describeAutoScalingGroups:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingInstances:">describeAutoScalingInstances:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeAutoScalingNotificationTypes:">describeAutoScalingNotificationTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeLaunchConfigurations:">describeLaunchConfigurations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeMetricCollectionTypes:">describeMetricCollectionTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeNotificationConfigurations:">describeNotificationConfigurations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describePolicies:">describePolicies:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScalingActivities:">describeScalingActivities:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScalingProcessTypes:">describeScalingProcessTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeScheduledActions:">describeScheduledActions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTags:">describeTags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/describeTerminationPolicyTypes:">describeTerminationPolicyTypes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disableMetricsCollection:">disableMetricsCollection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableMetricsCollection:">enableMetricsCollection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/executePolicy:">executePolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putNotificationConfiguration:">putNotificationConfiguration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putScalingPolicy:">putScalingPolicy:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putScheduledUpdateGroupAction:">putScheduledUpdateGroupAction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resumeProcesses:">resumeProcesses:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDesiredCapacity:">setDesiredCapacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInstanceHealth:">setInstanceHealth:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/suspendProcesses:">suspendProcesses:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/terminateInstanceInAutoScalingGroup:">terminateInstanceInAutoScalingGroup:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateAutoScalingGroup:">updateAutoScalingGroup:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AmazonAutoScalingClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AmazonAutoScalingClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/AmazonWebServiceClient.html">AmazonWebServiceClient</a> : <a href="../Classes/AmazonAbstractWebServiceClient.html">AmazonAbstractWebServiceClient</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AmazonAutoScalingClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><summary>
+Interface for accessing AmazonAutoScaling.</p>
+
+<p>Auto Scaling <p>
+Auto Scaling is a web service designed to automatically launch or terminate Amazon Elastic Compute Cloud (Amazon EC2) instances based on user-defined policies, schedules, and health checks. This
+service is used in conjunction with Amazon CloudWatch and Elastic Load Balancing services.
+</p></p>
+
+<p>
+Auto Scaling provides APIs that you can call by submitting a Query Request. Query requests are HTTP or HTTPS requests that use the HTTP verbs GET or POST and a Query parameter named <i>Action</i> or
+<i>Operation</i> that specifies the API you are calling. Action is used throughout this documentation, although Operation is also supported for backward compatibility with other Amazon Web Services
+(AWS) Query APIs.
+</p>
+
+
+<p>
+Calling the API using a Query request is the most direct way to access the web service, but requires that your application handle low-level details such as generating the hash to sign the request and
+error handling. The benefit of calling the service using a Query request is that you are assured of having access to the complete functionality of the API. For information about signing a a query
+request, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/api_requests.html"> Use Query Requests to Call Auto Scaling APIs </a>
+</p>
+
+
+<p>
+This guide provides detailed information about Auto Scaling actions, data types, parameters, and errors. For detailed information about Auto Scaling features and their associated API actions, go to
+the <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/"> Auto Scaling Developer Guide </a> .
+</p>
+
+
+<p>
+This reference is based on the current WSDL, which is available at:
+</p>
+
+
+<p>
+<a href="http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl"> http://autoscaling.amazonaws.com/doc/2011-01-01/AutoScaling.wsdl </a>
+</p>
+
+
+<p>
+<b>Endpoints</b>
+</p>
+
+
+<p>
+For information about this product's regions and endpoints, go to <a href="http://docs.aws.amazon.com/general/latest/gr/index.html?rande.html"> Regions and Endpoints </a> in the Amazon Web Services
+General Reference.
+</p>
+
+
+<p></summary></p>
+
+<p>See our blog to learn more about Managing Credentials in Mobile Applications.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingGroups:">&ndash;&nbsp;describeAutoScalingGroups:</a></code>
+		<span class="tooltip"><p>
+Returns a full description of each Auto Scaling group in the given list. This includes all Amazon EC2 instances that
+are members of the group. If a list of names is not provided, the service returns the full details of all Auto Scaling
+groups.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableMetricsCollection:">&ndash;&nbsp;enableMetricsCollection:</a></code>
+		<span class="tooltip"><p>
+Enables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of enabled metrics with the Metrics parameter.
+</p>
+
+
+<p><p>
+Auto Scaling metrics collection can be turned on only if the InstanceMonitoring flag, in the Auto Scaling group&rsquo;s
+launch configuration, is set to True .</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resumeProcesses:">&ndash;&nbsp;resumeProcesses:</a></code>
+		<span class="tooltip"><p>
+Resumes all suspended Auto Scaling processes for an Auto Scaling group. For information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteLaunchConfiguration:">&ndash;&nbsp;deleteLaunchConfiguration:</a></code>
+		<span class="tooltip"><p>
+Deletes the specified LaunchConfiguration.
+</p>
+
+
+<p>
+The specified launch configuration must not be attached to an Auto Scaling group. When this call completes, the launch
+configuration is no longer available for use.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describePolicies:">&ndash;&nbsp;describePolicies:</a></code>
+		<span class="tooltip"><p>
+Returns descriptions of what each policy does. This action supports pagination. If the response includes a token, there
+are more records available. To get the additional records, repeat the request with the response token as the NextToken
+parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScalingProcessTypes:">&ndash;&nbsp;describeScalingProcessTypes:</a></code>
+		<span class="tooltip"><p>
+Returns scaling process types for use in the ResumeProcesses and SuspendProcesses actions.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createAutoScalingGroup:">&ndash;&nbsp;createAutoScalingGroup:</a></code>
+		<span class="tooltip"><p>
+Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed,
+the Auto Scaling group is ready to be used in other calls.
+</p>
+
+
+<p>
+<b>NOTE:</b> The Auto Scaling group name must be unique within the scope of your AWS account.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScalingActivities:">&ndash;&nbsp;describeScalingActivities:</a></code>
+		<span class="tooltip"><p>
+Returns the scaling activities for the specified Auto Scaling group.
+</p>
+
+
+<p>
+If the specified ActivityIds list is empty, all the activities from the past six weeks are returned. Activities are
+sorted by completion time. Activities still in progress appear first on the list.
+</p>
+
+
+<p>
+This action supports pagination. If the response includes a token, there are more records available. To get the
+additional records, repeat the request with the response token as the NextToken parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeNotificationConfigurations:">&ndash;&nbsp;describeNotificationConfigurations:</a></code>
+		<span class="tooltip"><p>
+Returns a list of notification actions associated with Auto Scaling groups for specified events.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTerminationPolicyTypes:">&ndash;&nbsp;describeTerminationPolicyTypes:</a></code>
+		<span class="tooltip"><p>
+Returns a list of all termination policies supported by Auto Scaling.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeTags:">&ndash;&nbsp;describeTags:</a></code>
+		<span class="tooltip"><p>
+Lists the Auto Scaling group tags.
+</p>
+
+
+<p>
+You can use filters to limit results when describing tags. For example, you can query for tags of a particular Auto
+Scaling group. You can specify multiple values for a filter. A tag must match at least one of the specified values for
+it to be included in the results.
+</p>
+
+
+<p>
+You can also specify multiple filters. The result includes information for a particular tag only if it matches all your
+filters. If there's no match, no special message is returned.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/executePolicy:">&ndash;&nbsp;executePolicy:</a></code>
+		<span class="tooltip"><p>
+Executes the specified policy.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteTags:">&ndash;&nbsp;deleteTags:</a></code>
+		<span class="tooltip"><p>
+Removes the specified tags or a set of tags from a set of resources.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putScalingPolicy:">&ndash;&nbsp;putScalingPolicy:</a></code>
+		<span class="tooltip"><p>
+Creates or updates a policy for an Auto Scaling group. To update an existing policy, use the existing policy name and
+set the parameter(s) you want to change. Any existing parameter not changed in an update to an existing policy is not
+changed in this update request.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putNotificationConfiguration:">&ndash;&nbsp;putNotificationConfiguration:</a></code>
+		<span class="tooltip"><p>
+Configures an Auto Scaling group to send notifications when specified events take place. Subscribers to this topic can
+have messages for events delivered to an endpoint such as a web server or email address.
+</p>
+
+
+<p>
+For more information see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html"> Get Email Notifications
+When Your Auto Scaling Group Changes </a>
+</p>
+
+
+<p>
+A new PutNotificationConfiguration overwrites an existing configuration.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deletePolicy:">&ndash;&nbsp;deletePolicy:</a></code>
+		<span class="tooltip"><p>
+Deletes a policy created by PutScalingPolicy.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteNotificationConfiguration:">&ndash;&nbsp;deleteNotificationConfiguration:</a></code>
+		<span class="tooltip"><p>
+Deletes notifications created by PutNotificationConfiguration.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteScheduledAction:">&ndash;&nbsp;deleteScheduledAction:</a></code>
+		<span class="tooltip"><p>
+Deletes a scheduled action previously created using the PutScheduledUpdateGroupAction.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInstanceHealth:">&ndash;&nbsp;setInstanceHealth:</a></code>
+		<span class="tooltip"><p>
+Sets the health status of a specified instance that belongs to any of your Auto Scaling groups.
+</p>
+
+
+<p>
+For more information, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-configure-healthcheck.html"> Configure Health
+Checks for Your Auto Scaling group </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingNotificationTypes:">&ndash;&nbsp;describeAutoScalingNotificationTypes:</a></code>
+		<span class="tooltip"><p>
+Returns a list of all notification types that are supported by Auto Scaling.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createOrUpdateTags:">&ndash;&nbsp;createOrUpdateTags:</a></code>
+		<span class="tooltip"><p>
+Creates new tags or updates existing tags for an Auto Scaling group.
+</p>
+
+
+<p>
+<b>NOTE:</b> A tag's definition is composed of a resource ID, resource type, key and value, and the propagate flag.
+Value and the propagate flag are optional parameters. See the Request Parameters for more information.
+</p>
+
+
+<p>
+For information on creating tags for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html"> Tag Your Auto Scaling Groups and
+Amazon EC2 Instances </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/suspendProcesses:">&ndash;&nbsp;suspendProcesses:</a></code>
+		<span class="tooltip"><p>
+Suspends Auto Scaling processes for an Auto Scaling group. To suspend specific process types, specify them by name with
+the ScalingProcesses.member.N parameter. To suspend all process types, omit the ScalingProcesses.member.N parameter.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> Suspending either of the two primary process types, Launch or Terminate, can prevent other process
+types from functioning properly.
+</p>
+
+
+<p>
+To resume processes that have been suspended, use ResumeProcesses For more information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAutoScalingInstances:">&ndash;&nbsp;describeAutoScalingInstances:</a></code>
+		<span class="tooltip"><p>
+Returns a description of each Auto Scaling instance in the InstanceIds list. If a list is not provided, the service
+returns the full details of all instances up to a maximum of 50. By default, the service returns a list of 20 items.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createLaunchConfiguration:">&ndash;&nbsp;createLaunchConfiguration:</a></code>
+		<span class="tooltip"><p>
+Creates a new launch configuration. The launch configuration name must be unique within the scope of the client's AWS
+account. The maximum limit of launch configurations, which by default is 100, must not yet have been met; otherwise, the
+call will fail. When created, the new launch configuration is available for immediate use.
+</p>
+
+
+<p>
+You can create a launch configuration with Amazon EC2 security groups or with Amazon VPC security groups. However, you
+can't use Amazon EC2 security groups together with Amazon VPC security groups, or vice versa.
+</p>
+
+
+<p>
+<b>NOTE:</b> At this time, Auto Scaling launch configurations don't support compressed (e.g. zipped) user data files.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteAutoScalingGroup:">&ndash;&nbsp;deleteAutoScalingGroup:</a></code>
+		<span class="tooltip"><p>
+Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress.
+</p>
+
+
+<p>
+<b>NOTE:</b> To remove all instances before calling DeleteAutoScalingGroup, you can call UpdateAutoScalingGroup to set
+the minimum and maximum size of the AutoScalingGroup to zero.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disableMetricsCollection:">&ndash;&nbsp;disableMetricsCollection:</a></code>
+		<span class="tooltip"><p>
+Disables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of affected metrics with the Metrics parameter.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateAutoScalingGroup:">&ndash;&nbsp;updateAutoScalingGroup:</a></code>
+		<span class="tooltip"><p>
+Updates the configuration for the specified AutoScalingGroup.
+</p>
+
+
+<p>
+<b>NOTE:</b> To update an Auto Scaling group with a launch configuration that has the InstanceMonitoring flag set to
+False, you must first ensure that collection of group metrics is disabled. Otherwise, calls to UpdateAutoScalingGroup
+will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by
+calling DisableMetricsCollection.
+</p>
+
+
+<p>
+The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any
+triggers after this call returns. Scaling activities that are currently in progress aren't affected.
+</p>
+
+
+<p>
+<b>NOTE:</b> If a new value is specified for MinSize without specifying the value for DesiredCapacity, and if the new
+MinSize is larger than the current size of the Auto Scaling Group, there will be an implicit call to SetDesiredCapacity
+to set the group to the new MinSize. If a new value is specified for MaxSize without specifying the value for
+DesiredCapacity, and the new MaxSize is smaller than the current size of the Auto Scaling Group, there will be an
+implicit call to SetDesiredCapacity to set the group to the new MaxSize. All other optional parameters are left
+unchanged if not passed in the request.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeLaunchConfigurations:">&ndash;&nbsp;describeLaunchConfigurations:</a></code>
+		<span class="tooltip"><p>
+Returns a full description of the launch configurations, or the specified launch configurations, if they exist.
+</p>
+
+
+<p>
+If no name is specified, then the full details of all launch configurations are returned.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeAdjustmentTypes:">&ndash;&nbsp;describeAdjustmentTypes:</a></code>
+		<span class="tooltip"><p>
+Returns policy adjustment types for use in the PutScalingPolicy action.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeScheduledActions:">&ndash;&nbsp;describeScheduledActions:</a></code>
+		<span class="tooltip"><p>
+Lists all the actions scheduled for your Auto Scaling group that haven't been executed. To see a list of actions
+already executed, see the activity record returned in DescribeScalingActivities.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/putScheduledUpdateGroupAction:">&ndash;&nbsp;putScheduledUpdateGroupAction:</a></code>
+		<span class="tooltip"><p>
+Creates or updates a scheduled scaling action for an Auto Scaling group. When updating a scheduled scaling action, if
+you leave a parameter unspecified, the corresponding value remains unchanged in the affected Auto Scaling group.
+</p>
+
+
+<p>
+For information on creating or updating a scheduled action for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/schedule_time.html"> Scale Based on a Schedule </a> .
+</p>
+
+
+<p>
+<b>NOTE:</b> Auto Scaling supports the date and time expressed in "YYYY-MM-DDThh:mm:ssZ" format in UTC/GMT only.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/describeMetricCollectionTypes:">&ndash;&nbsp;describeMetricCollectionTypes:</a></code>
+		<span class="tooltip"><p>
+Returns a list of metrics and a corresponding list of granularities for each metric.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDesiredCapacity:">&ndash;&nbsp;setDesiredCapacity:</a></code>
+		<span class="tooltip"><p>
+Sets the desired size of the specified AutoScalingGroup.
+</p>
+</span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/terminateInstanceInAutoScalingGroup:">&ndash;&nbsp;terminateInstanceInAutoScalingGroup:</a></code>
+		<span class="tooltip"><p>
+Terminates the specified instance. Optionally, the desired group size can be adjusted.
+</p>
+
+
+<p>
+<b>NOTE:</b> This call simply registers a termination request. The termination of the instance cannot happen
+immediately.
+</p>
+</span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createAutoScalingGroup:" title="createAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">createAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed,
+the Auto Scaling group is ready to be used in other calls.
+</p>
+
+
+<p>
+<b>NOTE:</b> The Auto Scaling group name must be unique within the scope of your AWS account.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingCreateAutoScalingGroupResponse *)createAutoScalingGroup:(AutoScalingCreateAutoScalingGroupRequest *)<em>createAutoScalingGroupRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createAutoScalingGroupRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateAutoScalingGroup
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed,
+the Auto Scaling group is ready to be used in other calls.
+</p>
+
+
+<p>
+<b>NOTE:</b> The Auto Scaling group name must be unique within the scope of your AWS account.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingAlreadyExistsException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingAlreadyExistsException.html">AutoScalingAlreadyExistsException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateAutoScalingGroupRequest.html">AutoScalingCreateAutoScalingGroupRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateAutoScalingGroupResponse.html">AutoScalingCreateAutoScalingGroupResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createLaunchConfiguration:" title="createLaunchConfiguration:"></a>
+	<h3 class="subsubtitle method-title">createLaunchConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates a new launch configuration. The launch configuration name must be unique within the scope of the client's AWS
+account. The maximum limit of launch configurations, which by default is 100, must not yet have been met; otherwise, the
+call will fail. When created, the new launch configuration is available for immediate use.
+</p>
+
+
+<p>
+You can create a launch configuration with Amazon EC2 security groups or with Amazon VPC security groups. However, you
+can't use Amazon EC2 security groups together with Amazon VPC security groups, or vice versa.
+</p>
+
+
+<p>
+<b>NOTE:</b> At this time, Auto Scaling launch configurations don't support compressed (e.g. zipped) user data files.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingCreateLaunchConfigurationResponse *)createLaunchConfiguration:(AutoScalingCreateLaunchConfigurationRequest *)<em>createLaunchConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createLaunchConfigurationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateLaunchConfiguration
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates a new launch configuration. The launch configuration name must be unique within the scope of the client's AWS
+account. The maximum limit of launch configurations, which by default is 100, must not yet have been met; otherwise, the
+call will fail. When created, the new launch configuration is available for immediate use.
+</p>
+
+
+<p>
+You can create a launch configuration with Amazon EC2 security groups or with Amazon VPC security groups. However, you
+can't use Amazon EC2 security groups together with Amazon VPC security groups, or vice versa.
+</p>
+
+
+<p>
+<b>NOTE:</b> At this time, Auto Scaling launch configurations don't support compressed (e.g. zipped) user data files.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingAlreadyExistsException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingAlreadyExistsException.html">AutoScalingAlreadyExistsException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateLaunchConfigurationRequest.html">AutoScalingCreateLaunchConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateLaunchConfigurationResponse.html">AutoScalingCreateLaunchConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createOrUpdateTags:" title="createOrUpdateTags:"></a>
+	<h3 class="subsubtitle method-title">createOrUpdateTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates new tags or updates existing tags for an Auto Scaling group.
+</p>
+
+
+<p>
+<b>NOTE:</b> A tag's definition is composed of a resource ID, resource type, key and value, and the propagate flag.
+Value and the propagate flag are optional parameters. See the Request Parameters for more information.
+</p>
+
+
+<p>
+For information on creating tags for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html"> Tag Your Auto Scaling Groups and
+Amazon EC2 Instances </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingCreateOrUpdateTagsResponse *)createOrUpdateTags:(AutoScalingCreateOrUpdateTagsRequest *)<em>createOrUpdateTagsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>createOrUpdateTagsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the CreateOrUpdateTags service method
+on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates new tags or updates existing tags for an Auto Scaling group.
+</p>
+
+
+<p>
+<b>NOTE:</b> A tag's definition is composed of a resource ID, resource type, key and value, and the propagate flag.
+Value and the propagate flag are optional parameters. See the Request Parameters for more information.
+</p>
+
+
+<p>
+For information on creating tags for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html"> Tag Your Auto Scaling Groups and
+Amazon EC2 Instances </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingAlreadyExistsException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingAlreadyExistsException.html">AutoScalingAlreadyExistsException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateOrUpdateTagsRequest.html">AutoScalingCreateOrUpdateTagsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingCreateOrUpdateTagsResponse.html">AutoScalingCreateOrUpdateTagsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteAutoScalingGroup:" title="deleteAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">deleteAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress.
+</p>
+
+
+<p>
+<b>NOTE:</b> To remove all instances before calling DeleteAutoScalingGroup, you can call UpdateAutoScalingGroup to set
+the minimum and maximum size of the AutoScalingGroup to zero.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeleteAutoScalingGroupResponse *)deleteAutoScalingGroup:(AutoScalingDeleteAutoScalingGroupRequest *)<em>deleteAutoScalingGroupRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteAutoScalingGroupRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteAutoScalingGroup
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress.
+</p>
+
+
+<p>
+<b>NOTE:</b> To remove all instances before calling DeleteAutoScalingGroup, you can call UpdateAutoScalingGroup to set
+the minimum and maximum size of the AutoScalingGroup to zero.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingResourceInUseException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingResourceInUseException.html">AutoScalingResourceInUseException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingScalingActivityInProgressException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingScalingActivityInProgressException.html">AutoScalingScalingActivityInProgressException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteAutoScalingGroupRequest.html">AutoScalingDeleteAutoScalingGroupRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteAutoScalingGroupResponse.html">AutoScalingDeleteAutoScalingGroupResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteLaunchConfiguration:" title="deleteLaunchConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteLaunchConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes the specified LaunchConfiguration.
+</p>
+
+
+<p>
+The specified launch configuration must not be attached to an Auto Scaling group. When this call completes, the launch
+configuration is no longer available for use.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeleteLaunchConfigurationResponse *)deleteLaunchConfiguration:(AutoScalingDeleteLaunchConfigurationRequest *)<em>deleteLaunchConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteLaunchConfigurationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteLaunchConfiguration
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes the specified LaunchConfiguration.
+</p>
+
+
+<p>
+The specified launch configuration must not be attached to an Auto Scaling group. When this call completes, the launch
+configuration is no longer available for use.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingResourceInUseException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingResourceInUseException.html">AutoScalingResourceInUseException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteLaunchConfigurationRequest.html">AutoScalingDeleteLaunchConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteLaunchConfigurationResponse.html">AutoScalingDeleteLaunchConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteNotificationConfiguration:" title="deleteNotificationConfiguration:"></a>
+	<h3 class="subsubtitle method-title">deleteNotificationConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes notifications created by PutNotificationConfiguration.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeleteNotificationConfigurationResponse *)deleteNotificationConfiguration:(AutoScalingDeleteNotificationConfigurationRequest *)<em>deleteNotificationConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteNotificationConfigurationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DeleteNotificationConfiguration service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes notifications created by PutNotificationConfiguration.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteNotificationConfigurationRequest.html">AutoScalingDeleteNotificationConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteNotificationConfigurationResponse.html">AutoScalingDeleteNotificationConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deletePolicy:" title="deletePolicy:"></a>
+	<h3 class="subsubtitle method-title">deletePolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes a policy created by PutScalingPolicy.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeletePolicyResponse *)deletePolicy:(AutoScalingDeletePolicyRequest *)<em>deletePolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deletePolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeletePolicy service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes a policy created by PutScalingPolicy.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeletePolicyRequest.html">AutoScalingDeletePolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeletePolicyResponse.html">AutoScalingDeletePolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteScheduledAction:" title="deleteScheduledAction:"></a>
+	<h3 class="subsubtitle method-title">deleteScheduledAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Deletes a scheduled action previously created using the PutScheduledUpdateGroupAction.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeleteScheduledActionResponse *)deleteScheduledAction:(AutoScalingDeleteScheduledActionRequest *)<em>deleteScheduledActionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteScheduledActionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteScheduledAction service
+method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Deletes a scheduled action previously created using the PutScheduledUpdateGroupAction.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteScheduledActionRequest.html">AutoScalingDeleteScheduledActionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteScheduledActionResponse.html">AutoScalingDeleteScheduledActionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteTags:" title="deleteTags:"></a>
+	<h3 class="subsubtitle method-title">deleteTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Removes the specified tags or a set of tags from a set of resources.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDeleteTagsResponse *)deleteTags:(AutoScalingDeleteTagsRequest *)<em>deleteTagsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deleteTagsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DeleteTags service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Removes the specified tags or a set of tags from a set of resources.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteTagsRequest.html">AutoScalingDeleteTagsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDeleteTagsResponse.html">AutoScalingDeleteTagsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAdjustmentTypes:" title="describeAdjustmentTypes:"></a>
+	<h3 class="subsubtitle method-title">describeAdjustmentTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns policy adjustment types for use in the PutScalingPolicy action.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeAdjustmentTypesResponse *)describeAdjustmentTypes:(AutoScalingDescribeAdjustmentTypesRequest *)<em>describeAdjustmentTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeAdjustmentTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeAdjustmentTypes
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeAdjustmentTypes service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns policy adjustment types for use in the PutScalingPolicy action.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAdjustmentTypesRequest.html">AutoScalingDescribeAdjustmentTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAdjustmentTypesResponse.html">AutoScalingDescribeAdjustmentTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingGroups:" title="describeAutoScalingGroups:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingGroups:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a full description of each Auto Scaling group in the given list. This includes all Amazon EC2 instances that
+are members of the group. If a list of names is not provided, the service returns the full details of all Auto Scaling
+groups.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeAutoScalingGroupsResponse *)describeAutoScalingGroups:(AutoScalingDescribeAutoScalingGroupsRequest *)<em>describeAutoScalingGroupsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeAutoScalingGroupsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeAutoScalingGroups
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeAutoScalingGroups service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a full description of each Auto Scaling group in the given list. This includes all Amazon EC2 instances that
+are members of the group. If a list of names is not provided, the service returns the full details of all Auto Scaling
+groups.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingGroupsRequest.html">AutoScalingDescribeAutoScalingGroupsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingGroupsResponse.html">AutoScalingDescribeAutoScalingGroupsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingInstances:" title="describeAutoScalingInstances:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingInstances:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a description of each Auto Scaling instance in the InstanceIds list. If a list is not provided, the service
+returns the full details of all instances up to a maximum of 50. By default, the service returns a list of 20 items.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeAutoScalingInstancesResponse *)describeAutoScalingInstances:(AutoScalingDescribeAutoScalingInstancesRequest *)<em>describeAutoScalingInstancesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeAutoScalingInstancesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeAutoScalingInstances service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeAutoScalingInstances service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a description of each Auto Scaling instance in the InstanceIds list. If a list is not provided, the service
+returns the full details of all instances up to a maximum of 50. By default, the service returns a list of 20 items.
+</p>
+
+
+<p>
+This action supports pagination by returning a token if there are more pages to retrieve. To get the next page, call
+this action again with the returned token as the NextToken parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingInstancesRequest.html">AutoScalingDescribeAutoScalingInstancesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingInstancesResponse.html">AutoScalingDescribeAutoScalingInstancesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeAutoScalingNotificationTypes:" title="describeAutoScalingNotificationTypes:"></a>
+	<h3 class="subsubtitle method-title">describeAutoScalingNotificationTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list of all notification types that are supported by Auto Scaling.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeAutoScalingNotificationTypesResponse *)describeAutoScalingNotificationTypes:(AutoScalingDescribeAutoScalingNotificationTypesRequest *)<em>describeAutoScalingNotificationTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeAutoScalingNotificationTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeAutoScalingNotificationTypes service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeAutoScalingNotificationTypes service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list of all notification types that are supported by Auto Scaling.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingNotificationTypesRequest.html">AutoScalingDescribeAutoScalingNotificationTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeAutoScalingNotificationTypesResponse.html">AutoScalingDescribeAutoScalingNotificationTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeLaunchConfigurations:" title="describeLaunchConfigurations:"></a>
+	<h3 class="subsubtitle method-title">describeLaunchConfigurations:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a full description of the launch configurations, or the specified launch configurations, if they exist.
+</p>
+
+
+<p>
+If no name is specified, then the full details of all launch configurations are returned.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeLaunchConfigurationsResponse *)describeLaunchConfigurations:(AutoScalingDescribeLaunchConfigurationsRequest *)<em>describeLaunchConfigurationsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeLaunchConfigurationsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeLaunchConfigurations service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeLaunchConfigurations service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a full description of the launch configurations, or the specified launch configurations, if they exist.
+</p>
+
+
+<p>
+If no name is specified, then the full details of all launch configurations are returned.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeLaunchConfigurationsRequest.html">AutoScalingDescribeLaunchConfigurationsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeLaunchConfigurationsResponse.html">AutoScalingDescribeLaunchConfigurationsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeMetricCollectionTypes:" title="describeMetricCollectionTypes:"></a>
+	<h3 class="subsubtitle method-title">describeMetricCollectionTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list of metrics and a corresponding list of granularities for each metric.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeMetricCollectionTypesResponse *)describeMetricCollectionTypes:(AutoScalingDescribeMetricCollectionTypesRequest *)<em>describeMetricCollectionTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeMetricCollectionTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeMetricCollectionTypes service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeMetricCollectionTypes service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list of metrics and a corresponding list of granularities for each metric.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeMetricCollectionTypesRequest.html">AutoScalingDescribeMetricCollectionTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeMetricCollectionTypesResponse.html">AutoScalingDescribeMetricCollectionTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeNotificationConfigurations:" title="describeNotificationConfigurations:"></a>
+	<h3 class="subsubtitle method-title">describeNotificationConfigurations:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list of notification actions associated with Auto Scaling groups for specified events.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeNotificationConfigurationsResponse *)describeNotificationConfigurations:(AutoScalingDescribeNotificationConfigurationsRequest *)<em>describeNotificationConfigurationsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeNotificationConfigurationsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeNotificationConfigurations service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeNotificationConfigurations service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list of notification actions associated with Auto Scaling groups for specified events.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeNotificationConfigurationsRequest.html">AutoScalingDescribeNotificationConfigurationsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeNotificationConfigurationsResponse.html">AutoScalingDescribeNotificationConfigurationsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describePolicies:" title="describePolicies:"></a>
+	<h3 class="subsubtitle method-title">describePolicies:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns descriptions of what each policy does. This action supports pagination. If the response includes a token, there
+are more records available. To get the additional records, repeat the request with the response token as the NextToken
+parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribePoliciesResponse *)describePolicies:(AutoScalingDescribePoliciesRequest *)<em>describePoliciesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describePoliciesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribePolicies service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribePolicies service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns descriptions of what each policy does. This action supports pagination. If the response includes a token, there
+are more records available. To get the additional records, repeat the request with the response token as the NextToken
+parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribePoliciesRequest.html">AutoScalingDescribePoliciesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribePoliciesResponse.html">AutoScalingDescribePoliciesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScalingActivities:" title="describeScalingActivities:"></a>
+	<h3 class="subsubtitle method-title">describeScalingActivities:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns the scaling activities for the specified Auto Scaling group.
+</p>
+
+
+<p>
+If the specified ActivityIds list is empty, all the activities from the past six weeks are returned. Activities are
+sorted by completion time. Activities still in progress appear first on the list.
+</p>
+
+
+<p>
+This action supports pagination. If the response includes a token, there are more records available. To get the
+additional records, repeat the request with the response token as the NextToken parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeScalingActivitiesResponse *)describeScalingActivities:(AutoScalingDescribeScalingActivitiesRequest *)<em>describeScalingActivitiesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeScalingActivitiesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeScalingActivities
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeScalingActivities service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns the scaling activities for the specified Auto Scaling group.
+</p>
+
+
+<p>
+If the specified ActivityIds list is empty, all the activities from the past six weeks are returned. Activities are
+sorted by completion time. Activities still in progress appear first on the list.
+</p>
+
+
+<p>
+This action supports pagination. If the response includes a token, there are more records available. To get the
+additional records, repeat the request with the response token as the NextToken parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScalingActivitiesRequest.html">AutoScalingDescribeScalingActivitiesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScalingActivitiesResponse.html">AutoScalingDescribeScalingActivitiesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScalingProcessTypes:" title="describeScalingProcessTypes:"></a>
+	<h3 class="subsubtitle method-title">describeScalingProcessTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns scaling process types for use in the ResumeProcesses and SuspendProcesses actions.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeScalingProcessTypesResponse *)describeScalingProcessTypes:(AutoScalingDescribeScalingProcessTypesRequest *)<em>describeScalingProcessTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeScalingProcessTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeScalingProcessTypes service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeScalingProcessTypes service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns scaling process types for use in the ResumeProcesses and SuspendProcesses actions.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScalingProcessTypesRequest.html">AutoScalingDescribeScalingProcessTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScalingProcessTypesResponse.html">AutoScalingDescribeScalingProcessTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeScheduledActions:" title="describeScheduledActions:"></a>
+	<h3 class="subsubtitle method-title">describeScheduledActions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Lists all the actions scheduled for your Auto Scaling group that haven't been executed. To see a list of actions
+already executed, see the activity record returned in DescribeScalingActivities.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeScheduledActionsResponse *)describeScheduledActions:(AutoScalingDescribeScheduledActionsRequest *)<em>describeScheduledActionsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeScheduledActionsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeScheduledActions
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeScheduledActions service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Lists all the actions scheduled for your Auto Scaling group that haven't been executed. To see a list of actions
+already executed, see the activity record returned in DescribeScalingActivities.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScheduledActionsRequest.html">AutoScalingDescribeScheduledActionsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeScheduledActionsResponse.html">AutoScalingDescribeScheduledActionsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTags:" title="describeTags:"></a>
+	<h3 class="subsubtitle method-title">describeTags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Lists the Auto Scaling group tags.
+</p>
+
+
+<p>
+You can use filters to limit results when describing tags. For example, you can query for tags of a particular Auto
+Scaling group. You can specify multiple values for a filter. A tag must match at least one of the specified values for
+it to be included in the results.
+</p>
+
+
+<p>
+You can also specify multiple filters. The result includes information for a particular tag only if it matches all your
+filters. If there's no match, no special message is returned.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeTagsResponse *)describeTags:(AutoScalingDescribeTagsRequest *)<em>describeTagsRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeTagsRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DescribeTags service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeTags service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Lists the Auto Scaling group tags.
+</p>
+
+
+<p>
+You can use filters to limit results when describing tags. For example, you can query for tags of a particular Auto
+Scaling group. You can specify multiple values for a filter. A tag must match at least one of the specified values for
+it to be included in the results.
+</p>
+
+
+<p>
+You can also specify multiple filters. The result includes information for a particular tag only if it matches all your
+filters. If there's no match, no special message is returned.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingInvalidNextTokenException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingInvalidNextTokenException.html">AutoScalingInvalidNextTokenException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeTagsRequest.html">AutoScalingDescribeTagsRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeTagsResponse.html">AutoScalingDescribeTagsResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/describeTerminationPolicyTypes:" title="describeTerminationPolicyTypes:"></a>
+	<h3 class="subsubtitle method-title">describeTerminationPolicyTypes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Returns a list of all termination policies supported by Auto Scaling.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDescribeTerminationPolicyTypesResponse *)describeTerminationPolicyTypes:(AutoScalingDescribeTerminationPolicyTypesRequest *)<em>describeTerminationPolicyTypesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>describeTerminationPolicyTypesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+DescribeTerminationPolicyTypes service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the DescribeTerminationPolicyTypes service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Returns a list of all termination policies supported by Auto Scaling.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeTerminationPolicyTypesRequest.html">AutoScalingDescribeTerminationPolicyTypesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDescribeTerminationPolicyTypesResponse.html">AutoScalingDescribeTerminationPolicyTypesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disableMetricsCollection:" title="disableMetricsCollection:"></a>
+	<h3 class="subsubtitle method-title">disableMetricsCollection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Disables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of affected metrics with the Metrics parameter.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingDisableMetricsCollectionResponse *)disableMetricsCollection:(AutoScalingDisableMetricsCollectionRequest *)<em>disableMetricsCollectionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>disableMetricsCollectionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the DisableMetricsCollection
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Disables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of affected metrics with the Metrics parameter.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingDisableMetricsCollectionRequest.html">AutoScalingDisableMetricsCollectionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingDisableMetricsCollectionResponse.html">AutoScalingDisableMetricsCollectionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableMetricsCollection:" title="enableMetricsCollection:"></a>
+	<h3 class="subsubtitle method-title">enableMetricsCollection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Enables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of enabled metrics with the Metrics parameter.
+</p>
+
+
+<p><p>
+Auto Scaling metrics collection can be turned on only if the InstanceMonitoring flag, in the Auto Scaling group&rsquo;s
+launch configuration, is set to True .</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingEnableMetricsCollectionResponse *)enableMetricsCollection:(AutoScalingEnableMetricsCollectionRequest *)<em>enableMetricsCollectionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>enableMetricsCollectionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the EnableMetricsCollection
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Enables monitoring of group metrics for the Auto Scaling group specified in AutoScalingGroupName .
+You can specify the list of enabled metrics with the Metrics parameter.
+</p>
+
+
+<p>
+Auto Scaling metrics collection can be turned on only if the InstanceMonitoring flag, in the Auto Scaling group's
+launch configuration, is set to True .
+
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingEnableMetricsCollectionRequest.html">AutoScalingEnableMetricsCollectionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingEnableMetricsCollectionResponse.html">AutoScalingEnableMetricsCollectionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/executePolicy:" title="executePolicy:"></a>
+	<h3 class="subsubtitle method-title">executePolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Executes the specified policy.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingExecutePolicyResponse *)executePolicy:(AutoScalingExecutePolicyRequest *)<em>executePolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>executePolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ExecutePolicy service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Executes the specified policy.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingScalingActivityInProgressException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingScalingActivityInProgressException.html">AutoScalingScalingActivityInProgressException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingExecutePolicyRequest.html">AutoScalingExecutePolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingExecutePolicyResponse.html">AutoScalingExecutePolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putNotificationConfiguration:" title="putNotificationConfiguration:"></a>
+	<h3 class="subsubtitle method-title">putNotificationConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Configures an Auto Scaling group to send notifications when specified events take place. Subscribers to this topic can
+have messages for events delivered to an endpoint such as a web server or email address.
+</p>
+
+
+<p>
+For more information see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html"> Get Email Notifications
+When Your Auto Scaling Group Changes </a>
+</p>
+
+
+<p>
+A new PutNotificationConfiguration overwrites an existing configuration.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingPutNotificationConfigurationResponse *)putNotificationConfiguration:(AutoScalingPutNotificationConfigurationRequest *)<em>putNotificationConfigurationRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putNotificationConfigurationRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+PutNotificationConfiguration service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Configures an Auto Scaling group to send notifications when specified events take place. Subscribers to this topic can
+have messages for events delivered to an endpoint such as a web server or email address.
+</p>
+
+
+<p>
+For more information see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASGettingNotifications.html"> Get Email Notifications
+When Your Auto Scaling Group Changes </a>
+</p>
+
+
+<p>
+A new PutNotificationConfiguration overwrites an existing configuration.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutNotificationConfigurationRequest.html">AutoScalingPutNotificationConfigurationRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutNotificationConfigurationResponse.html">AutoScalingPutNotificationConfigurationResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putScalingPolicy:" title="putScalingPolicy:"></a>
+	<h3 class="subsubtitle method-title">putScalingPolicy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates or updates a policy for an Auto Scaling group. To update an existing policy, use the existing policy name and
+set the parameter(s) you want to change. Any existing parameter not changed in an update to an existing policy is not
+changed in this update request.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingPutScalingPolicyResponse *)putScalingPolicy:(AutoScalingPutScalingPolicyRequest *)<em>putScalingPolicyRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putScalingPolicyRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the PutScalingPolicy service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the PutScalingPolicy service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates or updates a policy for an Auto Scaling group. To update an existing policy, use the existing policy name and
+set the parameter(s) you want to change. Any existing parameter not changed in an update to an existing policy is not
+changed in this update request.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutScalingPolicyRequest.html">AutoScalingPutScalingPolicyRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutScalingPolicyResponse.html">AutoScalingPutScalingPolicyResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/putScheduledUpdateGroupAction:" title="putScheduledUpdateGroupAction:"></a>
+	<h3 class="subsubtitle method-title">putScheduledUpdateGroupAction:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Creates or updates a scheduled scaling action for an Auto Scaling group. When updating a scheduled scaling action, if
+you leave a parameter unspecified, the corresponding value remains unchanged in the affected Auto Scaling group.
+</p>
+
+
+<p>
+For information on creating or updating a scheduled action for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/schedule_time.html"> Scale Based on a Schedule </a> .
+</p>
+
+
+<p>
+<b>NOTE:</b> Auto Scaling supports the date and time expressed in "YYYY-MM-DDThh:mm:ssZ" format in UTC/GMT only.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingPutScheduledUpdateGroupActionResponse *)putScheduledUpdateGroupAction:(AutoScalingPutScheduledUpdateGroupActionRequest *)<em>putScheduledUpdateGroupActionRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>putScheduledUpdateGroupActionRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+PutScheduledUpdateGroupAction service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Creates or updates a scheduled scaling action for an Auto Scaling group. When updating a scheduled scaling action, if
+you leave a parameter unspecified, the corresponding value remains unchanged in the affected Auto Scaling group.
+</p>
+
+
+<p>
+For information on creating or updating a scheduled action for your Auto Scaling group, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/schedule_time.html"> Scale Based on a Schedule </a> .
+</p>
+
+
+<p>
+<b>NOTE:</b> Auto Scaling supports the date and time expressed in "YYYY-MM-DDThh:mm:ssZ" format in UTC/GMT only.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingLimitExceededException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingLimitExceededException.html">AutoScalingLimitExceededException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingAlreadyExistsException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingAlreadyExistsException.html">AutoScalingAlreadyExistsException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutScheduledUpdateGroupActionRequest.html">AutoScalingPutScheduledUpdateGroupActionRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingPutScheduledUpdateGroupActionResponse.html">AutoScalingPutScheduledUpdateGroupActionResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resumeProcesses:" title="resumeProcesses:"></a>
+	<h3 class="subsubtitle method-title">resumeProcesses:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Resumes all suspended Auto Scaling processes for an Auto Scaling group. For information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingResumeProcessesResponse *)resumeProcesses:(AutoScalingResumeProcessesRequest *)<em>resumeProcessesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resumeProcessesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the ResumeProcesses service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Resumes all suspended Auto Scaling processes for an Auto Scaling group. For information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingResumeProcessesRequest.html">AutoScalingResumeProcessesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingResumeProcessesResponse.html">AutoScalingResumeProcessesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDesiredCapacity:" title="setDesiredCapacity:"></a>
+	<h3 class="subsubtitle method-title">setDesiredCapacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Sets the desired size of the specified AutoScalingGroup.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingSetDesiredCapacityResponse *)setDesiredCapacity:(AutoScalingSetDesiredCapacityRequest *)<em>setDesiredCapacityRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setDesiredCapacityRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetDesiredCapacity service method
+on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Sets the desired size of the specified AutoScalingGroup.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingScalingActivityInProgressException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingScalingActivityInProgressException.html">AutoScalingScalingActivityInProgressException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingSetDesiredCapacityRequest.html">AutoScalingSetDesiredCapacityRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingSetDesiredCapacityResponse.html">AutoScalingSetDesiredCapacityResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInstanceHealth:" title="setInstanceHealth:"></a>
+	<h3 class="subsubtitle method-title">setInstanceHealth:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Sets the health status of a specified instance that belongs to any of your Auto Scaling groups.
+</p>
+
+
+<p>
+For more information, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-configure-healthcheck.html"> Configure Health
+Checks for Your Auto Scaling group </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingSetInstanceHealthResponse *)setInstanceHealth:(AutoScalingSetInstanceHealthRequest *)<em>setInstanceHealthRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>setInstanceHealthRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SetInstanceHealth service method
+on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Sets the health status of a specified instance that belongs to any of your Auto Scaling groups.
+</p>
+
+
+<p>
+For more information, see <a
+href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-configure-healthcheck.html"> Configure Health
+Checks for Your Auto Scaling group </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingSetInstanceHealthRequest.html">AutoScalingSetInstanceHealthRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingSetInstanceHealthResponse.html">AutoScalingSetInstanceHealthResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/suspendProcesses:" title="suspendProcesses:"></a>
+	<h3 class="subsubtitle method-title">suspendProcesses:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Suspends Auto Scaling processes for an Auto Scaling group. To suspend specific process types, specify them by name with
+the ScalingProcesses.member.N parameter. To suspend all process types, omit the ScalingProcesses.member.N parameter.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> Suspending either of the two primary process types, Launch or Terminate, can prevent other process
+types from functioning properly.
+</p>
+
+
+<p>
+To resume processes that have been suspended, use ResumeProcesses For more information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingSuspendProcessesResponse *)suspendProcesses:(AutoScalingSuspendProcessesRequest *)<em>suspendProcessesRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>suspendProcessesRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the SuspendProcesses service method on
+AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Suspends Auto Scaling processes for an Auto Scaling group. To suspend specific process types, specify them by name with
+the ScalingProcesses.member.N parameter. To suspend all process types, omit the ScalingProcesses.member.N parameter.
+</p>
+
+
+<p>
+<b>IMPORTANT:</b> Suspending either of the two primary process types, Launch or Terminate, can prevent other process
+types from functioning properly.
+</p>
+
+
+<p>
+To resume processes that have been suspended, use ResumeProcesses For more information on suspending and resuming Auto
+Scaling process, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/US_SuspendResume.html">
+Suspend and Resume Auto Scaling Process </a> .
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingSuspendProcessesRequest.html">AutoScalingSuspendProcessesRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingSuspendProcessesResponse.html">AutoScalingSuspendProcessesResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/terminateInstanceInAutoScalingGroup:" title="terminateInstanceInAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">terminateInstanceInAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Terminates the specified instance. Optionally, the desired group size can be adjusted.
+</p>
+
+
+<p>
+<b>NOTE:</b> This call simply registers a termination request. The termination of the instance cannot happen
+immediately.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingTerminateInstanceInAutoScalingGroupResponse *)terminateInstanceInAutoScalingGroup:(AutoScalingTerminateInstanceInAutoScalingGroupRequest *)<em>terminateInstanceInAutoScalingGroupRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>terminateInstanceInAutoScalingGroupRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the
+TerminateInstanceInAutoScalingGroup service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The response from the TerminateInstanceInAutoScalingGroup service method, as returned by AmazonAutoScaling.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Terminates the specified instance. Optionally, the desired group size can be adjusted.
+</p>
+
+
+<p>
+<b>NOTE:</b> This call simply registers a termination request. The termination of the instance cannot happen
+immediately.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingScalingActivityInProgressException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingScalingActivityInProgressException.html">AutoScalingScalingActivityInProgressException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingTerminateInstanceInAutoScalingGroupRequest.html">AutoScalingTerminateInstanceInAutoScalingGroupRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingTerminateInstanceInAutoScalingGroupResponse.html">AutoScalingTerminateInstanceInAutoScalingGroupResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateAutoScalingGroup:" title="updateAutoScalingGroup:"></a>
+	<h3 class="subsubtitle method-title">updateAutoScalingGroup:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>
+Updates the configuration for the specified AutoScalingGroup.
+</p>
+
+
+<p>
+<b>NOTE:</b> To update an Auto Scaling group with a launch configuration that has the InstanceMonitoring flag set to
+False, you must first ensure that collection of group metrics is disabled. Otherwise, calls to UpdateAutoScalingGroup
+will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by
+calling DisableMetricsCollection.
+</p>
+
+
+<p>
+The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any
+triggers after this call returns. Scaling activities that are currently in progress aren't affected.
+</p>
+
+
+<p>
+<b>NOTE:</b> If a new value is specified for MinSize without specifying the value for DesiredCapacity, and if the new
+MinSize is larger than the current size of the Auto Scaling Group, there will be an implicit call to SetDesiredCapacity
+to set the group to the new MinSize. If a new value is specified for MaxSize without specifying the value for
+DesiredCapacity, and the new MaxSize is smaller than the current size of the Auto Scaling Group, there will be an
+implicit call to SetDesiredCapacity to set the group to the new MaxSize. All other optional parameters are left
+unchanged if not passed in the request.
+</p>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AutoScalingUpdateAutoScalingGroupResponse *)updateAutoScalingGroup:(AutoScalingUpdateAutoScalingGroupRequest *)<em>updateAutoScalingGroupRequest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>updateAutoScalingGroupRequest</em></dt>
+			<dd><p>Container for the necessary parameters to execute the UpdateAutoScalingGroup
+service method on AmazonAutoScaling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>
+Updates the configuration for the specified AutoScalingGroup.
+</p>
+
+
+<p>
+<b>NOTE:</b> To update an Auto Scaling group with a launch configuration that has the InstanceMonitoring flag set to
+False, you must first ensure that collection of group metrics is disabled. Otherwise, calls to UpdateAutoScalingGroup
+will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by
+calling DisableMetricsCollection.
+</p>
+
+
+<p>
+The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any
+triggers after this call returns. Scaling activities that are currently in progress aren't affected.
+</p>
+
+
+<p>
+<b>NOTE:</b> If a new value is specified for MinSize without specifying the value for DesiredCapacity, and if the new
+MinSize is larger than the current size of the Auto Scaling Group, there will be an implicit call to SetDesiredCapacity
+to set the group to the new MinSize. If a new value is specified for MaxSize without specifying the value for
+DesiredCapacity, and the new MaxSize is smaller than the current size of the Auto Scaling Group, there will be an
+implicit call to SetDesiredCapacity to set the group to the new MaxSize. All other optional parameters are left
+unchanged if not passed in the request.
+</p>
+
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AutoScalingScalingActivityInProgressException</em></dt>
+			<dd><p>For more information see <a href="../Classes/AutoScalingScalingActivityInProgressException.html">AutoScalingScalingActivityInProgressException</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonClientException</em></dt>
+			<dd><p>If any internal errors are encountered inside the client while
+attempting to make the request or handle the response.  For example
+if a network connection is not available.  For more information see <a href="../Classes/AmazonClientException.html">AmazonClientException</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>AmazonServiceException</em></dt>
+			<dd><p>If an error response is returned by AmazonAutoScaling indicating
+either a problem with the data in the request, or a server side issue.  For more information see <a href="../Classes/AmazonServiceException.html">AmazonServiceException</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Classes/AutoScalingUpdateAutoScalingGroupRequest.html">AutoScalingUpdateAutoScalingGroupRequest</a></p></code></li>
+			
+			<li><code><p><a href="../Classes/AutoScalingUpdateAutoScalingGroupResponse.html">AutoScalingUpdateAutoScalingGroupResponse</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AmazonAutoScalingClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer"><script src="/urchin.js" type="text/javascript"></script><script type="text/javascript">urchinTracker();</script>
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2013-10-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

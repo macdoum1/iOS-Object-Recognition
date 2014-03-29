@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceDecodeAuthorizationMessageResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceDecodeAuthorizationMessageResponse</TokenIdentifier>
+			<Abstract type="html">Decode Authorization Message Result</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>
+			
+			<NodeRef refid="882"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceDecodeAuthorizationMessageResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceDecodeAuthorizationMessageResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceDecodeAuthorizationMessageResponse/setDecodedMessage:</TokenIdentifier>
+			<Abstract type="html">An XML document that contains the decoded message.</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *decodedMessage</Declaration>
+			
+			
+			<Anchor>//api/name/decodedMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SecurityTokenServiceDecodeAuthorizationMessageResponse/decodedMessage</TokenIdentifier>
+			<Abstract type="html">An XML document that contains the decoded message.</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *decodedMessage</Declaration>
+			
+			
+			<Anchor>//api/name/decodedMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceDecodeAuthorizationMessageResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceDecodeAuthorizationMessageResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

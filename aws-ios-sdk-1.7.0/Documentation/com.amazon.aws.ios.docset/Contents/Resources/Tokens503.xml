@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2VolumeAttachment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2VolumeAttachment</TokenIdentifier>
+			<Abstract type="html">Volume Attachment</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>
+			
+			<NodeRef refid="503"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setVolumeId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/volumeId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setInstanceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setDevice:</TokenIdentifier>
+			<Abstract type="html">How the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/device</TokenIdentifier>
+			<Abstract type="html">How the device is exposed to the instance (e.g.,
+&lt;code&gt;/dev/sdh&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;attaching, attached, detaching, detached</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setAttachTime:</TokenIdentifier>
+			<Abstract type="html">Timestamp when this attachment initiated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/attachTime</TokenIdentifier>
+			<Abstract type="html">Timestamp when this attachment initiated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *attachTime</Declaration>
+			
+			
+			<Anchor>//api/name/attachTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">` &lt;p&gt; Whether this volume will be deleted or not when the associated
+instance is terminated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2VolumeAttachment/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">` &lt;p&gt; Whether this volume will be deleted or not when the associated
+instance is terminated.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2VolumeAttachment/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2VolumeAttachment.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

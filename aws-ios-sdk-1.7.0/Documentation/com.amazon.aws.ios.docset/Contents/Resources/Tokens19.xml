@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonServiceException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonServiceException</TokenIdentifier>
+			<Abstract type="html">Represents an AWS Service Exception.</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/setRequestId:</TokenIdentifier>
+			<Abstract type="html">The requestId as assigned by the service.</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceException/requestId</TokenIdentifier>
+			<Abstract type="html">The requestId as assigned by the service.</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/setErrorCode:</TokenIdentifier>
+			<Abstract type="html">The error code returned by the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/errorCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceException/errorCode</TokenIdentifier>
+			<Abstract type="html">The error code returned by the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *errorCode</Declaration>
+			
+			
+			<Anchor>//api/name/errorCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/setServiceName:</TokenIdentifier>
+			<Abstract type="html">  </Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceException/serviceName</TokenIdentifier>
+			<Abstract type="html">  </Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/setStatusCode:</TokenIdentifier>
+			<Abstract type="html">The HTTP status code returned by the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t statusCode</Declaration>
+			
+			
+			<Anchor>//api/name/statusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceException/statusCode</TokenIdentifier>
+			<Abstract type="html">The HTTP status code returned by the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t statusCode</Declaration>
+			
+			
+			<Anchor>//api/name/statusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/setAdditionalFields:</TokenIdentifier>
+			<Abstract type="html">Other fields in the error response from the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableDictionary *additionalFields</Declaration>
+			
+			
+			<Anchor>//api/name/additionalFields</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AmazonServiceException/additionalFields</TokenIdentifier>
+			<Abstract type="html">Other fields in the error response from the service</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableDictionary *additionalFields</Declaration>
+			
+			
+			<Anchor>//api/name/additionalFields</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonServiceException/exceptionWithMessage:</TokenIdentifier>
+			<Abstract type="html">Return an exception with the given message</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>+ (id)exceptionWithMessage:(NSString *)theMessage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theMessage</Name>
+					<Abstract type="html">The user-friendly message</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/exceptionWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonServiceException/exceptionWithStatusCode:</TokenIdentifier>
+			<Abstract type="html">Return an exception with the given HTTP status code</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>+ (id)exceptionWithStatusCode:(int32_t)theStatusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theStatusCode</Name>
+					<Abstract type="html">The HTTP status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/exceptionWithStatusCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AmazonServiceException/exceptionWithMessage:withErrorCode:withStatusCode:withRequestId:</TokenIdentifier>
+			<Abstract type="html">Return an exception with the given message, error code, status, and request ID.</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>+ (id)exceptionWithMessage:(NSString *)theMessage withErrorCode:(NSString *)theErrorCode withStatusCode:(int32_t)theStatusCode withRequestId:(NSString *)theRequestId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theMessage</Name>
+					<Abstract type="html">The message for the exception.</Abstract>
+				</Parameter><Parameter>
+					<Name>theErrorCode</Name>
+					<Abstract type="html">The error code for the exception.</Abstract>
+				</Parameter><Parameter>
+					<Name>theStatusCode</Name>
+					<Abstract type="html">The HTTP Status code for the exception.</Abstract>
+				</Parameter><Parameter>
+					<Name>theRequestId</Name>
+					<Abstract type="html">The request ID assigned by the service.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The exception.</Abstract></ReturnValue>
+			<Anchor>//api/name/exceptionWithMessage:withErrorCode:withStatusCode:withRequestId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonServiceException/initWithName:reason:userInfo:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a name, reason and userInfo.</Abstract>
+			<DeclaredIn>AmazonServiceException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)name reason:(NSString *)reason userInfo:(NSDictionary *)userInfo</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name.</Abstract>
+				</Parameter><Parameter>
+					<Name>reason</Name>
+					<Abstract type="html">The reason.</Abstract>
+				</Parameter><Parameter>
+					<Name>userInfo</Name>
+					<Abstract type="html">The userInfo.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:reason:userInfo:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

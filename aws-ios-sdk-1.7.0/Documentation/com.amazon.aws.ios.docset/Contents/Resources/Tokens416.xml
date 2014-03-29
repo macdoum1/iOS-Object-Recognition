@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2IpPermission.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2IpPermission</TokenIdentifier>
+			<Abstract type="html">Ip Permission</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>
+			
+			<NodeRef refid="416"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/setIpProtocol:</TokenIdentifier>
+			<Abstract type="html">The IP protocol of this permission. &lt;p&gt; Valid protocol values:
+&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ipProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/ipProtocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IpPermission/ipProtocol</TokenIdentifier>
+			<Abstract type="html">The IP protocol of this permission. &lt;p&gt; Valid protocol values:
+&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ipProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/ipProtocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/setFromPort:</TokenIdentifier>
+			<Abstract type="html">Start of port range for the TCP and UDP protocols, or an ICMP type
+number. An ICMP type number of &lt;code&gt;-1&lt;/code&gt; indicates a wildcard
+(i.e., any ICMP type number).</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *fromPort</Declaration>
+			
+			
+			<Anchor>//api/name/fromPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IpPermission/fromPort</TokenIdentifier>
+			<Abstract type="html">Start of port range for the TCP and UDP protocols, or an ICMP type
+number. An ICMP type number of &lt;code&gt;-1&lt;/code&gt; indicates a wildcard
+(i.e., any ICMP type number).</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *fromPort</Declaration>
+			
+			
+			<Anchor>//api/name/fromPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/setToPort:</TokenIdentifier>
+			<Abstract type="html">End of port range for the TCP and UDP protocols, or an ICMP code. An
+ICMP code of &lt;code&gt;-1&lt;/code&gt; indicates a wildcard (i.e., any ICMP
+code).</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *toPort</Declaration>
+			
+			
+			<Anchor>//api/name/toPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IpPermission/toPort</TokenIdentifier>
+			<Abstract type="html">End of port range for the TCP and UDP protocols, or an ICMP code. An
+ICMP code of &lt;code&gt;-1&lt;/code&gt; indicates a wildcard (i.e., any ICMP
+code).</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *toPort</Declaration>
+			
+			
+			<Anchor>//api/name/toPort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/setUserIdGroupPairs:</TokenIdentifier>
+			<Abstract type="html">The list of AWS user IDs and groups included in this permission.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userIdGroupPairs</Declaration>
+			
+			
+			<Anchor>//api/name/userIdGroupPairs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IpPermission/userIdGroupPairs</TokenIdentifier>
+			<Abstract type="html">The list of AWS user IDs and groups included in this permission.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *userIdGroupPairs</Declaration>
+			
+			
+			<Anchor>//api/name/userIdGroupPairs</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/setIpRanges:</TokenIdentifier>
+			<Abstract type="html">The list of CIDR IP ranges included in this permission.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipRanges</Declaration>
+			
+			
+			<Anchor>//api/name/ipRanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2IpPermission/ipRanges</TokenIdentifier>
+			<Abstract type="html">The list of CIDR IP ranges included in this permission.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *ipRanges</Declaration>
+			
+			
+			<Anchor>//api/name/ipRanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/addUserIdGroupPair:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to userIdGroupPairs.
+This function will alloc and init userIdGroupPairs if not already done.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>- (void)addUserIdGroupPair:(EC2UserIdGroupPair *)userIdGroupPairObject</Declaration>
+			
+			
+			<Anchor>//api/name/addUserIdGroupPair:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/addIpRange:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to ipRanges.
+This function will alloc and init ipRanges if not already done.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>- (void)addIpRange:(NSString *)ipRangeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addIpRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2IpPermission/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2IpPermission.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

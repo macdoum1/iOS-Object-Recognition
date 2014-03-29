@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonCloudWatchClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonCloudWatchClient</TokenIdentifier>
+			<Abstract type="html">&lt;summary&gt;
+Interface for accessing AmazonCloudWatch.</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/putMetricAlarm:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Creates or updates an alarm and associates it with the specified Amazon CloudWatch metric. Optionally, this operation
+can associate one or more Amazon Simple Notification Service resources with the alarm.
+&lt;/p&gt;
+&lt;p&gt;
+When this operation creates an alarm, the alarm state is immediately set to INSUFFICIENT_DATA . The alarm is evaluated
+and its StateValue is set appropriately. Any actions associated with the StateValue is then executed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; When updating an existing alarm, its StateValue is left unchanged.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricAlarmRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricAlarmResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchPutMetricAlarmResponse *)putMetricAlarm:(CloudWatchPutMetricAlarmRequest *)putMetricAlarmRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>putMetricAlarmRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the PutMetricAlarm service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/putMetricAlarm:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/putMetricData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Publishes metric data points to Amazon CloudWatch. Amazon CloudWatch associates the data points with the specified
+metric. If the specified metric does not exist, Amazon CloudWatch creates the metric. When Amazon CloudWatch creates a
+metric, it can take up to fifteen minutes for the metric to appear in calls to the ListMetrics action.
+&lt;/p&gt;
+&lt;p&gt;
+Each PutMetricData request is limited to 8 KB in size for HTTP GET requests and is limited to 40 KB in size for HTTP
+POST requests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;IMPORTANT:&lt;/b&gt;Although the Value parameter accepts numbers of type Double, Amazon CloudWatch rejects values that are
+either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to
+2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.
+&lt;/p&gt;
+&lt;p&gt;
+Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission
+time using GetMetricStatistics .
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricDataRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchPutMetricDataResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchPutMetricDataResponse *)putMetricData:(CloudWatchPutMetricDataRequest *)putMetricDataRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>putMetricDataRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the PutMetricData service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/putMetricData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/listMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Returns a list of valid metrics stored for the AWS account owner. Returned metrics can be used with GetMetricStatistics
+to obtain statistical data for a given metric.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Up to 500 results are returned for any one call. To retrieve further results, use returned NextToken
+values with subsequent ListMetrics operations.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; If you create a metric with the PutMetricData action, allow up to fifteen minutes for the metric to appear
+in calls to the ListMetrics action. Statistics about the metric, however, are available sooner using
+GetMetricStatistics.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchListMetricsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchListMetricsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchListMetricsResponse *)listMetrics:(CloudWatchListMetricsRequest *)listMetricsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listMetricsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the ListMetrics service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the ListMetrics service method, as returned by AmazonCloudWatch.</Abstract></ReturnValue>
+			<Anchor>//api/name/listMetrics:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/getMetricStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Gets statistics for the specified metric.
+&lt;/p&gt;
+&lt;p&gt;
+The maximum number of data points returned from a single GetMetricStatistics request is 1,440, wereas the maximum
+number of data points that can be queried is 50,850. If you make a request that generates more than 1,440 data points,
+Amazon CloudWatch returns an error. In such a case, you can alter the request by narrowing the specified time range or
+increasing the specified period. Alternatively, you can make multiple requests across adjacent time ranges.
+&lt;/p&gt;
+&lt;p&gt;
+Amazon CloudWatch aggregates data points based on the length of the period that you specify. For example, if you
+request statistics with a one-minute granularity, Amazon CloudWatch aggregates data points with time stamps that fall
+within the same one-minute period. In such a case, the data points queried can greatly outnumber the data points
+returned.
+&lt;/p&gt;
+&lt;p&gt;
+The following examples show various statistics allowed by the data point query maximum of 50,850 when you call
+GetMetricStatistics on Amazon EC2 instances with detailed (one-minute) monitoring enabled:
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchGetMetricStatisticsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchGetMetricStatisticsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchGetMetricStatisticsResponse *)getMetricStatistics:(CloudWatchGetMetricStatisticsRequest *)getMetricStatisticsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>getMetricStatisticsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the GetMetricStatistics service
+method on AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the GetMetricStatistics service method, as returned by AmazonCloudWatch.</Abstract></ReturnValue>
+			<Anchor>//api/name/getMetricStatistics:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/disableAlarmActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Disables actions for the specified alarms. When an alarm&apos;s actions are disabled the alarm&apos;s state may change, but none
+of the alarm&apos;s actions will execute.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDisableAlarmActionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDisableAlarmActionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchDisableAlarmActionsResponse *)disableAlarmActions:(CloudWatchDisableAlarmActionsRequest *)disableAlarmActionsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>disableAlarmActionsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DisableAlarmActions service
+method on AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/disableAlarmActions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/describeAlarms:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Retrieves alarms with the specified names. If no name is specified, all alarms for the user are returned. Alarms can be
+retrieved by using only a prefix for the alarm name, the alarm state, or a prefix for any action.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchDescribeAlarmsResponse *)describeAlarms:(CloudWatchDescribeAlarmsRequest *)describeAlarmsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAlarmsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAlarms service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAlarms service method, as returned by AmazonCloudWatch.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarms:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/describeAlarmsForMetric:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Retrieves all alarms for a single metric. Specify a statistic, period, or unit to filter the set of alarms further.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmsForMetricRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmsForMetricResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchDescribeAlarmsForMetricResponse *)describeAlarmsForMetric:(CloudWatchDescribeAlarmsForMetricRequest *)describeAlarmsForMetricRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAlarmsForMetricRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAlarmsForMetric
+service method on AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAlarmsForMetric service method, as returned by AmazonCloudWatch.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarmsForMetric:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/describeAlarmHistory:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Retrieves history for the specified alarm. Filter alarms by date range or item type. If an alarm name is not specified,
+Amazon CloudWatch returns histories for all of the owner&apos;s alarms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NOTE:&lt;/b&gt; Amazon CloudWatch retains the history of an alarm for two weeks, whether or not you delete the alarm.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmHistoryRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDescribeAlarmHistoryResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchDescribeAlarmHistoryResponse *)describeAlarmHistory:(CloudWatchDescribeAlarmHistoryRequest *)describeAlarmHistoryRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>describeAlarmHistoryRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DescribeAlarmHistory service
+method on AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The response from the DescribeAlarmHistory service method, as returned by AmazonCloudWatch.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarmHistory:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/enableAlarmActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Enables actions for the specified alarms.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchEnableAlarmActionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchEnableAlarmActionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchEnableAlarmActionsResponse *)enableAlarmActions:(CloudWatchEnableAlarmActionsRequest *)enableAlarmActionsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enableAlarmActionsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the EnableAlarmActions service method
+on AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enableAlarmActions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/deleteAlarms:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Deletes all specified alarms. In the event of an error, no alarms are deleted.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDeleteAlarmsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchDeleteAlarmsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchDeleteAlarmsResponse *)deleteAlarms:(CloudWatchDeleteAlarmsRequest *)deleteAlarmsRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteAlarmsRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the DeleteAlarms service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteAlarms:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonCloudWatchClient/setAlarmState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+Temporarily sets the state of an alarm. When the updated StateValue differs from the previous value, the action
+configured for the appropriate state is invoked. This is not a permanent change. The next periodic alarm check (in about
+a minute) will set the alarm to its actual state.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>AmazonCloudWatchClient.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchSetAlarmStateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/CloudWatchSetAlarmStateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CloudWatchSetAlarmStateResponse *)setAlarmState:(CloudWatchSetAlarmStateRequest *)setAlarmStateRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>setAlarmStateRequest</Name>
+					<Abstract type="html">Container for the necessary parameters to execute the SetAlarmState service method on
+AmazonCloudWatch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAlarmState:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

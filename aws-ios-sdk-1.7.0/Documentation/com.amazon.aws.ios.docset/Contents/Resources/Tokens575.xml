@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingPolicyTypeDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingPolicyTypeDescription</TokenIdentifier>
+			<Abstract type="html">Policy Type Description</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>
+			
+			<NodeRef refid="575"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/setPolicyTypeName:</TokenIdentifier>
+			<Abstract type="html">The name of the policy type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyTypeName</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyTypeDescription/policyTypeName</TokenIdentifier>
+			<Abstract type="html">The name of the policy type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *policyTypeName</Declaration>
+			
+			
+			<Anchor>//api/name/policyTypeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">A human-readable description of the policy type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyTypeDescription/descriptionValue</TokenIdentifier>
+			<Abstract type="html">A human-readable description of the policy type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/setPolicyAttributeTypeDescriptions:</TokenIdentifier>
+			<Abstract type="html">The description of the policy attributes associated with the
+LoadBalancer policies defined by the Elastic Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyAttributeTypeDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/policyAttributeTypeDescriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingPolicyTypeDescription/policyAttributeTypeDescriptions</TokenIdentifier>
+			<Abstract type="html">The description of the policy attributes associated with the
+LoadBalancer policies defined by the Elastic Load Balancing service.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyAttributeTypeDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/policyAttributeTypeDescriptions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/addPolicyAttributeTypeDescription:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to policyAttributeTypeDescriptions.
+This function will alloc and init policyAttributeTypeDescriptions if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPolicyAttributeTypeDescription:(ElasticLoadBalancingPolicyAttributeTypeDescription *)policyAttributeTypeDescriptionObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPolicyAttributeTypeDescription:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingPolicyTypeDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingPolicyTypeDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

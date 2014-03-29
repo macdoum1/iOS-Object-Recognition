@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingBackendServerDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingBackendServerDescription</TokenIdentifier>
+			<Abstract type="html">Backend Server Description</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>
+			
+			<NodeRef refid="516"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/setInstancePort:</TokenIdentifier>
+			<Abstract type="html">Provides the port on which the back-end server is listening.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingBackendServerDescription/instancePort</TokenIdentifier>
+			<Abstract type="html">Provides the port on which the back-end server is listening.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 65535&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *instancePort</Declaration>
+			
+			
+			<Anchor>//api/name/instancePort</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html">Provides a list of policy names enabled for the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingBackendServerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html">Provides a list of policy names enabled for the back-end server.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/addPolicyName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to policyNames.
+This function will alloc and init policyNames if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPolicyName:(NSString *)policyNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPolicyName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingBackendServerDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingBackendServerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetPreSignedURLRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetPreSignedURLRequest</TokenIdentifier>
+			<Abstract type="html">The GetPreSignedURLRequest contains the parameters used to create
+a pre signed URL.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>
+			
+			<NodeRef refid="654"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setExpires:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the expires property for this request.
+The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/expires</TokenIdentifier>
+			<Abstract type="html">Gets and sets the expires property for this request.
+The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expires</Declaration>
+			
+			
+			<Anchor>//api/name/expires</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setProtocol:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the protocol property for this request.
+Specifies whether the pre signed URL will use
+http or https. Defaults to https unless otherwise
+set.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/protocol</TokenIdentifier>
+			<Abstract type="html">Gets and sets the protocol property for this request.
+Specifies whether the pre signed URL will use
+http or https. Defaults to https unless otherwise
+set.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setHttpVerb:</TokenIdentifier>
+			<Abstract type="html">Gets and sets the verb property.
+Specifies the verb used in the pre-signed URL.
+Accepted verbs are GET, PUT and HEAD.
+Default is GET.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *httpVerb</Declaration>
+			
+			
+			<Anchor>//api/name/httpVerb</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/httpVerb</TokenIdentifier>
+			<Abstract type="html">Gets and sets the verb property.
+Specifies the verb used in the pre-signed URL.
+Accepted verbs are GET, PUT and HEAD.
+Default is GET.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *httpVerb</Declaration>
+			
+			
+			<Anchor>//api/name/httpVerb</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Sets the access key used in the pre signed URL.
+This will be set automatically with the value used to
+create the AmazonS3Client.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/accessKey</TokenIdentifier>
+			<Abstract type="html">Sets the access key used in the pre signed URL.
+This will be set automatically with the value used to
+create the AmazonS3Client.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Sets the (optional) versionId used in the pre signed URL.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/versionId</TokenIdentifier>
+			<Abstract type="html">Sets the (optional) versionId used in the pre signed URL.</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3GetPreSignedURLRequest/setResponseHeaderOverrides:</TokenIdentifier>
+			<Abstract type="html">Specify one or more overrides to headers in the response to this request</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ResponseHeaderOverrides *responseHeaderOverrides</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaderOverrides</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3GetPreSignedURLRequest/responseHeaderOverrides</TokenIdentifier>
+			<Abstract type="html">Specify one or more overrides to headers in the response to this request</Abstract>
+			<DeclaredIn>S3GetPreSignedURLRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3ResponseHeaderOverrides *responseHeaderOverrides</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaderOverrides</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBReplaceableAttribute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBReplaceableAttribute</TokenIdentifier>
+			<Abstract type="html">Replaceable Attribute</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>
+			
+			<NodeRef refid="933"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable attribute.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableAttribute/name</TokenIdentifier>
+			<Abstract type="html">The name of the replaceable attribute.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of the replaceable attribute.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableAttribute/value</TokenIdentifier>
+			<Abstract type="html">The value of the replaceable attribute.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/setReplace:</TokenIdentifier>
+			<Abstract type="html">A flag specifying whether or not to replace the attribute/value pair
+or to add a new attribute/value pair. The default setting is
+&lt;code&gt;false&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL replace</Declaration>
+			
+			
+			<Anchor>//api/name/replace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBReplaceableAttribute/replace</TokenIdentifier>
+			<Abstract type="html">A flag specifying whether or not to replace the attribute/value pair
+or to add a new attribute/value pair. The default setting is
+&lt;code&gt;false&lt;/code&gt;.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL replace</Declaration>
+			
+			
+			<Anchor>//api/name/replace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ReplaceableAttribute object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/initWithName:andValue:andReplace:</TokenIdentifier>
+			<Abstract type="html">Constructs a new ReplaceableAttribute object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)theName andValue:(NSString *)theValue andReplace:(BOOL)theReplace</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theName</Name>
+					<Abstract type="html">The name of the replaceable attribute.</Abstract>
+				</Parameter><Parameter>
+					<Name>theValue</Name>
+					<Abstract type="html">The value of the replaceable attribute.</Abstract>
+				</Parameter><Parameter>
+					<Name>theReplace</Name>
+					<Abstract type="html">A flag specifying whether or not to replace the
+attribute/value pair or to add a new attribute/value pair. The default
+setting is &lt;code&gt;false&lt;/code&gt;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithName:andValue:andReplace:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBReplaceableAttribute/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBReplaceableAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

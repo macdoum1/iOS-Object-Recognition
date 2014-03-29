@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse</TokenIdentifier>
+			<Abstract type="html">Detach Load Balancer From Subnets Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>
+			
+			<NodeRef refid="547"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/setSubnets:</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs removed from the configured set of subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/subnets</TokenIdentifier>
+			<Abstract type="html">A list of subnet IDs removed from the configured set of subnets for
+the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/subnetsObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the subnets array for the specified index</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)subnetsObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/subnetsObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDetachLoadBalancerFromSubnetsResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CreatePlacementGroupResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CreatePlacementGroupResponse</TokenIdentifier>
+			<Abstract type="html">Create Placement Group</Abstract>
+			<DeclaredIn>EC2CreatePlacementGroupResponse.h</DeclaredIn>
+			
+			<NodeRef refid="265"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

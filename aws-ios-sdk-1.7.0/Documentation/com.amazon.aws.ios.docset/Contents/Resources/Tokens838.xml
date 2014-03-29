@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SQSDeleteMessageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SQSDeleteMessageRequest</TokenIdentifier>
+			<Abstract type="html">Delete Message Request</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>
+			
+			<NodeRef refid="838"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/setReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">The receipt handle associated with the message to delete.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SQSDeleteMessageRequest/receiptHandle</TokenIdentifier>
+			<Abstract type="html">The receipt handle associated with the message to delete.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeleteMessageRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/initWithQueueUrl:andReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeleteMessageRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithQueueUrl:(NSString *)theQueueUrl andReceiptHandle:(NSString *)theReceiptHandle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theQueueUrl</Name>
+					<Abstract type="html">The URL of the SQS queue to take action on.</Abstract>
+				</Parameter><Parameter>
+					<Name>theReceiptHandle</Name>
+					<Abstract type="html">The receipt handle associated with the message
+to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithQueueUrl:andReceiptHandle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SQSDeleteMessageRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SQSDeleteMessageRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

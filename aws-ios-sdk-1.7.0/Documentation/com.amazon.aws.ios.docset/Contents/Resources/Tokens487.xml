@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2SpotPrice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2SpotPrice</TokenIdentifier>
+			<Abstract type="html">Spot Price</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>
+			
+			<NodeRef refid="487"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotPrice/instanceType</TokenIdentifier>
+			<Abstract type="html">The value of the InstanceType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;t1.micro, m1.small, m1.medium, m1.large, m1.xlarge, m2.xlarge, m2.2xlarge, m2.4xlarge, m3.xlarge, m3.2xlarge, c1.medium, c1.xlarge, hi1.4xlarge, hs1.8xlarge, cc1.4xlarge, cc2.8xlarge, cg1.4xlarge, cr1.8xlarge</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/setProductDescription:</TokenIdentifier>
+			<Abstract type="html">The value of the ProductDescription property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotPrice/productDescription</TokenIdentifier>
+			<Abstract type="html">The value of the ProductDescription property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Linux/UNIX, Linux/UNIX (Amazon VPC), Windows, Windows (Amazon VPC)</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPrice property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotPrice/spotPrice</TokenIdentifier>
+			<Abstract type="html">The value of the SpotPrice property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The value of the Timestamp property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotPrice/timestamp</TokenIdentifier>
+			<Abstract type="html">The value of the Timestamp property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2SpotPrice/availabilityZone</TokenIdentifier>
+			<Abstract type="html">The value of the AvailabilityZone property for this object.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2SpotPrice/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2SpotPrice.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

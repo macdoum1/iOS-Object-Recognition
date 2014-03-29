@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Snapshot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Snapshot</TokenIdentifier>
+			<Abstract type="html">Snapshot</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>
+			
+			<NodeRef refid="481"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of this snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/snapshotId</TokenIdentifier>
+			<Abstract type="html">The unique ID of this snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The ID of the volume from which this snapshot was created.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/volumeId</TokenIdentifier>
+			<Abstract type="html">The ID of the volume from which this snapshot was created.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setState:</TokenIdentifier>
+			<Abstract type="html">Snapshot state (e.g., pending, completed, or error).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, completed, error</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/state</TokenIdentifier>
+			<Abstract type="html">Snapshot state (e.g., pending, completed, or error).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, completed, error</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setStartTime:</TokenIdentifier>
+			<Abstract type="html">Time stamp when the snapshot was initiated.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/startTime</TokenIdentifier>
+			<Abstract type="html">Time stamp when the snapshot was initiated.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setProgress:</TokenIdentifier>
+			<Abstract type="html">The progress of the snapshot, in percentage.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/progress</TokenIdentifier>
+			<Abstract type="html">The progress of the snapshot, in percentage.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">AWS Access Key ID of the user who owns the snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/ownerId</TokenIdentifier>
+			<Abstract type="html">AWS Access Key ID of the user who owns the snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">Description of the snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/descriptionValue</TokenIdentifier>
+			<Abstract type="html">Description of the snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setVolumeSize:</TokenIdentifier>
+			<Abstract type="html">The size of the volume, in gigabytes.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *volumeSize</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/volumeSize</TokenIdentifier>
+			<Abstract type="html">The size of the volume, in gigabytes.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *volumeSize</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setOwnerAlias:</TokenIdentifier>
+			<Abstract type="html">The AWS account alias (e.g., &quot;amazon&quot;, &quot;redhat&quot;, &quot;self&quot;, etc.) or AWS
+account ID that owns the AMI.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerAlias</Declaration>
+			
+			
+			<Anchor>//api/name/ownerAlias</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/ownerAlias</TokenIdentifier>
+			<Abstract type="html">The AWS account alias (e.g., &quot;amazon&quot;, &quot;redhat&quot;, &quot;self&quot;, etc.) or AWS
+account ID that owns the AMI.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerAlias</Declaration>
+			
+			
+			<Anchor>//api/name/ownerAlias</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Snapshot/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Snapshot.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Snapshot/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Snapshot.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

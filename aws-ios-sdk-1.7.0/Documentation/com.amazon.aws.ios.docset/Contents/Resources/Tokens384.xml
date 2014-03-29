@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2Image.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2Image</TokenIdentifier>
+			<Abstract type="html">Image</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>
+			
+			<NodeRef refid="384"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setImageId:</TokenIdentifier>
+			<Abstract type="html">The unique ID of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/imageId</TokenIdentifier>
+			<Abstract type="html">The unique ID of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setImageLocation:</TokenIdentifier>
+			<Abstract type="html">The location of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/imageLocation</TokenIdentifier>
+			<Abstract type="html">The location of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setState:</TokenIdentifier>
+			<Abstract type="html">Current state of the AMI. If the operation returns available, the
+image is successfully registered and available for launching. If the
+operation returns deregistered, the image is deregistered and no
+longer available for launching.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available, deregistered</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/state</TokenIdentifier>
+			<Abstract type="html">Current state of the AMI. If the operation returns available, the
+image is successfully registered and available for launching. If the
+operation returns deregistered, the image is deregistered and no
+longer available for launching.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;available, deregistered</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">AWS Access Key ID of the image owner.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/ownerId</TokenIdentifier>
+			<Abstract type="html">AWS Access Key ID of the image owner.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setPublicValue:</TokenIdentifier>
+			<Abstract type="html">True if this image has public launch permissions. False if it only has
+implicit and explicit launch permissions.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL publicValue</Declaration>
+			
+			
+			<Anchor>//api/name/publicValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/publicValue</TokenIdentifier>
+			<Abstract type="html">True if this image has public launch permissions. False if it only has
+implicit and explicit launch permissions.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL publicValue</Declaration>
+			
+			
+			<Anchor>//api/name/publicValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">Product codes of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/productCodes</TokenIdentifier>
+			<Abstract type="html">Product codes of the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setArchitecture:</TokenIdentifier>
+			<Abstract type="html">The architecture of the image.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/architecture</TokenIdentifier>
+			<Abstract type="html">The architecture of the image.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;i386, x86_64</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setImageType:</TokenIdentifier>
+			<Abstract type="html">The type of image (machine, kernel, or ramdisk).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;machine, kernel, ramdisk</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/imageType</TokenIdentifier>
+			<Abstract type="html">The type of image (machine, kernel, or ramdisk).
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;machine, kernel, ramdisk</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageType</Declaration>
+			
+			
+			<Anchor>//api/name/imageType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setKernelId:</TokenIdentifier>
+			<Abstract type="html">The kernel associated with the image, if any. Only applicable for
+machine images.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/kernelId</TokenIdentifier>
+			<Abstract type="html">The kernel associated with the image, if any. Only applicable for
+machine images.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">The RAM disk associated with the image, if any. Only applicable for
+machine images.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/ramdiskId</TokenIdentifier>
+			<Abstract type="html">The RAM disk associated with the image, if any. Only applicable for
+machine images.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setPlatform:</TokenIdentifier>
+			<Abstract type="html">The operating platform of the AMI.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Windows</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/platform</TokenIdentifier>
+			<Abstract type="html">The operating platform of the AMI.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;Windows</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setStateReason:</TokenIdentifier>
+			<Abstract type="html">The reason for the state change.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2StateReason *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/stateReason</TokenIdentifier>
+			<Abstract type="html">The reason for the state change.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) EC2StateReason *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setImageOwnerAlias:</TokenIdentifier>
+			<Abstract type="html">The AWS account alias (e.g., &quot;amazon&quot;, &quot;redhat&quot;, &quot;self&quot;, etc.) or AWS
+account ID that owns the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageOwnerAlias</Declaration>
+			
+			
+			<Anchor>//api/name/imageOwnerAlias</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/imageOwnerAlias</TokenIdentifier>
+			<Abstract type="html">The AWS account alias (e.g., &quot;amazon&quot;, &quot;redhat&quot;, &quot;self&quot;, etc.) or AWS
+account ID that owns the AMI.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *imageOwnerAlias</Declaration>
+			
+			
+			<Anchor>//api/name/imageOwnerAlias</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the AMI that was provided during image creation.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/name</TokenIdentifier>
+			<Abstract type="html">The name of the AMI that was provided during image creation.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setDescriptionValue:</TokenIdentifier>
+			<Abstract type="html">The description of the AMI that was provided during image creation.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/descriptionValue</TokenIdentifier>
+			<Abstract type="html">The description of the AMI that was provided during image creation.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *descriptionValue</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setRootDeviceType:</TokenIdentifier>
+			<Abstract type="html">The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ebs, instance-store</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceType</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/rootDeviceType</TokenIdentifier>
+			<Abstract type="html">The root device type used by the AMI. The AMI can use an Amazon EBS or
+instance store root device.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ebs, instance-store</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceType</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">The root device name (e.g., &lt;code&gt;/dev/sda1&lt;/code&gt;).</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">Specifies how block devices are exposed to the instance.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">Specifies how block devices are exposed to the instance.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setVirtualizationType:</TokenIdentifier>
+			<Abstract type="html">The value of the VirtualizationType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;hvm, paravirtual</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/virtualizationType</TokenIdentifier>
+			<Abstract type="html">The value of the VirtualizationType property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;hvm, paravirtual</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setTags:</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Image.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/tags</TokenIdentifier>
+			<Abstract type="html">A list of tags for the Image.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/setHypervisor:</TokenIdentifier>
+			<Abstract type="html">The value of the Hypervisor property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ovm, xen</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *hypervisor</Declaration>
+			
+			
+			<Anchor>//api/name/hypervisor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2Image/hypervisor</TokenIdentifier>
+			<Abstract type="html">The value of the Hypervisor property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;ovm, xen</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *hypervisor</Declaration>
+			
+			
+			<Anchor>//api/name/hypervisor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/addProductCode:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to productCodes.
+This function will alloc and init productCodes if not already done.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>- (void)addProductCode:(EC2ProductCode *)productCodeObject</Declaration>
+			
+			
+			<Anchor>//api/name/addProductCode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/addBlockDeviceMapping:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to blockDeviceMappings.
+This function will alloc and init blockDeviceMappings if not already done.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBlockDeviceMapping:(EC2BlockDeviceMapping *)blockDeviceMappingObject</Declaration>
+			
+			
+			<Anchor>//api/name/addBlockDeviceMapping:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/addTag:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to tags.
+This function will alloc and init tags if not already done.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTag:(EC2Tag *)tagObject</Declaration>
+			
+			
+			<Anchor>//api/name/addTag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2Image/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2Image.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

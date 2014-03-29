@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3ListPartsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3ListPartsRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the listParts operation.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="669"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload to list</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">The uploadId of the multipart upload to list</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsRequest/setMaxParts:</TokenIdentifier>
+			<Abstract type="html">The maximum number of parts to return.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxParts</Declaration>
+			
+			
+			<Anchor>//api/name/maxParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsRequest/maxParts</TokenIdentifier>
+			<Abstract type="html">The maximum number of parts to return.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t maxParts</Declaration>
+			
+			
+			<Anchor>//api/name/maxParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsRequest/setPartNumberMarker:</TokenIdentifier>
+			<Abstract type="html">The part after which to start the listing.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3ListPartsRequest/partNumberMarker</TokenIdentifier>
+			<Abstract type="html">The part after which to start the listing.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3ListPartsRequest/initWithMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Initializes the instance with the bucket, key, and uploadId from an S3MultipartUpload instance returned in an S3MultipartUploadResponse.</Abstract>
+			<DeclaredIn>S3ListPartsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMultipartUpload:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

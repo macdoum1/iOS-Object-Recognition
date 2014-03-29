@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DynamoDBGetItemResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DynamoDBGetItemResponse</TokenIdentifier>
+			<Abstract type="html">Get Item Result</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>
+			
+			<NodeRef refid="188"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/setItem:</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects, as
+specified by &lt;i&gt;AttributesToGet&lt;/i&gt;.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemResponse/item</TokenIdentifier>
+			<Abstract type="html">A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects, as
+specified by &lt;i&gt;AttributesToGet&lt;/i&gt;.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">The table name that consumed provisioned throughput, and the number of
+capacity units consumed by it. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only
+returned if it was asked for in the request. For more information, see
+&lt;a
+odb/latest/developerguide/ProvisionedThroughputIntro.html&quot;&gt;Provisioned
+Throughput&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DynamoDBGetItemResponse/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">The table name that consumed provisioned throughput, and the number of
+capacity units consumed by it. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only
+returned if it was asked for in the request. For more information, see
+&lt;a
+odb/latest/developerguide/ProvisionedThroughputIntro.html&quot;&gt;Provisioned
+Throughput&lt;/a&gt; in the Amazon DynamoDB Developer Guide.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) DynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/itemValueForKey:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the item dictionary for the specified key.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>- (DynamoDBAttributeValue *)itemValueForKey:(NSString *)theKey</Declaration>
+			
+			
+			<Anchor>//api/name/itemValueForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DynamoDBGetItemResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>DynamoDBGetItemResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

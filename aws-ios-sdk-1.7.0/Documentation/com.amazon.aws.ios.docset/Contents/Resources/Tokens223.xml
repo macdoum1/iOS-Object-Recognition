@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ActivateLicenseResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ActivateLicenseResponse</TokenIdentifier>
+			<Abstract type="html">Activate License</Abstract>
+			<DeclaredIn>EC2ActivateLicenseResponse.h</DeclaredIn>
+			
+			<NodeRef refid="223"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

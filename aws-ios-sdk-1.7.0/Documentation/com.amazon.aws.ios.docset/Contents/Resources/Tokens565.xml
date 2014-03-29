@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingListenerDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingListenerDescription</TokenIdentifier>
+			<Abstract type="html">Listener Description</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>
+			
+			<NodeRef refid="565"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListenerDescription/setListener:</TokenIdentifier>
+			<Abstract type="html">The Listener data type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) ElasticLoadBalancingListener *listener</Declaration>
+			
+			
+			<Anchor>//api/name/listener</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListenerDescription/listener</TokenIdentifier>
+			<Abstract type="html">The Listener data type.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) ElasticLoadBalancingListener *listener</Declaration>
+			
+			
+			<Anchor>//api/name/listener</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListenerDescription/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html">A list of policies enabled for this listener. An empty list indicates
+that no policies are enabled.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingListenerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html">A list of policies enabled for this listener. An empty list indicates
+that no policies are enabled.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListenerDescription/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ListenerDescription object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListenerDescription/addPolicyName:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to policyNames.
+This function will alloc and init policyNames if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPolicyName:(NSString *)policyNameObject</Declaration>
+			
+			
+			<Anchor>//api/name/addPolicyName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingListenerDescription/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingListenerDescription.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

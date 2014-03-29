@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest</TokenIdentifier>
+			<Abstract type="html">Deregister Instances From Load Balancer Request</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>
+			
+			<NodeRef refid="536"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/loadBalancerName</TokenIdentifier>
+			<Abstract type="html">The name associated with the LoadBalancer. The name must be unique
+within the client AWS account.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/setInstances:</TokenIdentifier>
+			<Abstract type="html">A list of EC2 instance IDs consisting of all instances to be
+deregistered.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/instances</TokenIdentifier>
+			<Abstract type="html">A list of EC2 instance IDs consisting of all instances to be
+deregistered.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new DeregisterInstancesFromLoadBalancerRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/initWithLoadBalancerName:andInstances:</TokenIdentifier>
+			<Abstract type="html">Constructs a new DeregisterInstancesFromLoadBalancerRequest object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLoadBalancerName:(NSString *)theLoadBalancerName andInstances:(NSMutableArray *)theInstances</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theLoadBalancerName</Name>
+					<Abstract type="html">The name associated with the LoadBalancer.
+The name must be unique within the client AWS account.</Abstract>
+				</Parameter><Parameter>
+					<Name>theInstances</Name>
+					<Abstract type="html">A list of EC2 instance IDs consisting of all
+instances to be deregistered.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLoadBalancerName:andInstances:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/addInstance:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to instances.
+This function will alloc and init instances if not already done.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addInstance:(ElasticLoadBalancingInstance *)instanceObject</Declaration>
+			
+			
+			<Anchor>//api/name/addInstance:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingDeregisterInstancesFromLoadBalancerRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

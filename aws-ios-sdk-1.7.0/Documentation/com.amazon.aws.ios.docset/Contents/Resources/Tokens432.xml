@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2ModifyVolumeAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2ModifyVolumeAttributeRequest</TokenIdentifier>
+			<Abstract type="html">Modify Volume Attribute Request</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>
+			
+			<NodeRef refid="432"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyVolumeAttributeRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyVolumeAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyVolumeAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">The value of the DryRun property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyVolumeAttributeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeId property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">The value of the VolumeId property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyVolumeAttributeRequest/setAutoEnableIO:</TokenIdentifier>
+			<Abstract type="html">The value of the AutoEnableIO property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL autoEnableIO</Declaration>
+			
+			
+			<Anchor>//api/name/autoEnableIO</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
+			<Abstract type="html">The value of the AutoEnableIO property for this object.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL autoEnableIO</Declaration>
+			
+			
+			<Anchor>//api/name/autoEnableIO</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2ModifyVolumeAttributeRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2ModifyVolumeAttributeRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

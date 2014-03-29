@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3GetObjectMetadataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3GetObjectMetadataRequest</TokenIdentifier>
+			<Abstract type="html">Request parameters for GetObjectMetadata request.</Abstract>
+			<DeclaredIn>S3GetObjectMetadataRequest.h</DeclaredIn>
+			
+			<NodeRef refid="650"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

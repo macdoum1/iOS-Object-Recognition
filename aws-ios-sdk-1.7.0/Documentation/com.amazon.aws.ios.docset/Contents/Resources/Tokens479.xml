@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2S3Storage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2S3Storage</TokenIdentifier>
+			<Abstract type="html">S3 Storage</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>
+			
+			<NodeRef refid="479"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/setBucket:</TokenIdentifier>
+			<Abstract type="html">The bucket in which to store the AMI. You can specify a bucket that
+you already own or a new bucket that Amazon EC2 creates on your
+behalf. &lt;p&gt; If you specify a bucket that belongs to someone else,
+Amazon EC2 returns an error.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2S3Storage/bucket</TokenIdentifier>
+			<Abstract type="html">The bucket in which to store the AMI. You can specify a bucket that
+you already own or a new bucket that Amazon EC2 creates on your
+behalf. &lt;p&gt; If you specify a bucket that belongs to someone else,
+Amazon EC2 returns an error.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/setPrefix:</TokenIdentifier>
+			<Abstract type="html">The prefix to use when storing the AMI in S3.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2S3Storage/prefix</TokenIdentifier>
+			<Abstract type="html">The prefix to use when storing the AMI in S3.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/setAWSAccessKeyId:</TokenIdentifier>
+			<Abstract type="html">The Access Key ID of the owner of the Amazon S3 bucket.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *aWSAccessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccessKeyId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2S3Storage/aWSAccessKeyId</TokenIdentifier>
+			<Abstract type="html">The Access Key ID of the owner of the Amazon S3 bucket.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *aWSAccessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/aWSAccessKeyId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/setUploadPolicy:</TokenIdentifier>
+			<Abstract type="html">A Base64-encoded Amazon S3 upload policy that gives Amazon EC2
+permission to upload items into Amazon S3 on the user&apos;s behalf.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2S3Storage/uploadPolicy</TokenIdentifier>
+			<Abstract type="html">A Base64-encoded Amazon S3 upload policy that gives Amazon EC2
+permission to upload items into Amazon S3 on the user&apos;s behalf.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/setUploadPolicySignature:</TokenIdentifier>
+			<Abstract type="html">The signature of the Base64 encoded JSON document.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadPolicySignature</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicySignature</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2S3Storage/uploadPolicySignature</TokenIdentifier>
+			<Abstract type="html">The signature of the Base64 encoded JSON document.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadPolicySignature</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicySignature</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2S3Storage/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2S3Storage.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

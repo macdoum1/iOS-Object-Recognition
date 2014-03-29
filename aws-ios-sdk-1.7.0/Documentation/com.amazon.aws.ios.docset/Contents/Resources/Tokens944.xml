@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+AmazonSDKUtil.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(AmazonSDKUtil)</TokenIdentifier>
+			<Abstract type="html">This category adds some AWS specific date formatting and parsing to the NSDate class</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>
+			
+			<NodeRef refid="944"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/stringWithISO8061Format</TokenIdentifier>
+			<Abstract type="html">Return string representation in ISO-8061 format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)stringWithISO8061Format</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of this Date in ISO-8061 format</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithISO8061Format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/stringWithISO8601Format</TokenIdentifier>
+			<Abstract type="html">Return string representation in ISO-8601 format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)stringWithISO8601Format</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of this Date in ISO-8601 format</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithISO8601Format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/stringWithRFC822Format</TokenIdentifier>
+			<Abstract type="html">Return string representation in RFC822 format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)stringWithRFC822Format</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of this Date in RFC822 format</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithRFC822Format</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/dateWithISO8061Format:</TokenIdentifier>
+			<Abstract type="html">Parse a ISO-8061 date from a string</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)dateWithISO8061Format:(NSString *)dateString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">NSString containing ISO-8061 date</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDate parsed from the given string</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithISO8061Format:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/dateWithRFC822Format:</TokenIdentifier>
+			<Abstract type="html">Parse a RFC822 date from a string</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)dateWithRFC822Format:(NSString *)dateString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">NSString containing RFC822 date</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDate parsed from the given string</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithRFC822Format:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/ISO8061FormattedCurrentTimestamp</TokenIdentifier>
+			<Abstract type="html">Return string representation of current date in ISO-8061 format</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)ISO8061FormattedCurrentTimestamp</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of the current date in ISO-8061 format</Abstract></ReturnValue>
+			<Anchor>//api/name/ISO8061FormattedCurrentTimestamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/dateStamp</TokenIdentifier>
+			<Abstract type="html">Return string representation of current date</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)dateStamp</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of just date portion of the current date</Abstract></ReturnValue>
+			<Anchor>//api/name/dateStamp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(AmazonSDKUtil)/dateTime</TokenIdentifier>
+			<Abstract type="html">Return string representation of current date</Abstract>
+			<DeclaredIn>AmazonSDKUtil.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)dateTime</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representation of the current date</Abstract></ReturnValue>
+			<Anchor>//api/name/dateTime</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

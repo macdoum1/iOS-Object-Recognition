@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBListDomainsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBListDomainsRequest</TokenIdentifier>
+			<Abstract type="html">List Domains Request</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="921"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/setMaxNumberOfDomains:</TokenIdentifier>
+			<Abstract type="html">The maximum number of domain names you want returned. The range is 1
+to 100. The default setting is 100.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfDomains</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfDomains</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBListDomainsRequest/maxNumberOfDomains</TokenIdentifier>
+			<Abstract type="html">The maximum number of domain names you want returned. The range is 1
+to 100. The default setting is 100.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *maxNumberOfDomains</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfDomains</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string informing Amazon SimpleDB where to start the next list of
+domain names.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SimpleDBListDomainsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A string informing Amazon SimpleDB where to start the next list of
+domain names.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new ListDomainsRequest object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SimpleDBListDomainsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SimpleDBListDomainsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

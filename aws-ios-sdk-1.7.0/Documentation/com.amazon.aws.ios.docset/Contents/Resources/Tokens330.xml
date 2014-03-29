@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DescribeReservedInstancesModificationsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DescribeReservedInstancesModificationsRequest</TokenIdentifier>
+			<Abstract type="html">Describe Reserved Instances Modifications Request</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="330"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/setReservedInstancesModificationIds:</TokenIdentifier>
+			<Abstract type="html">An optional list of Reserved Instances modification IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesModificationIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesModificationsRequest/reservedInstancesModificationIds</TokenIdentifier>
+			<Abstract type="html">An optional list of Reserved Instances modification IDs to describe.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *reservedInstancesModificationIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationIds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesModificationsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A string specifying the next paginated set of results to return.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for
+ReservedInstancesModifications. For a complete reference to the
+available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2DescribeReservedInstancesModificationsRequest/filters</TokenIdentifier>
+			<Abstract type="html">A list of filters used to match properties for
+ReservedInstancesModifications. For a complete reference to the
+available filter keys for this operation, see the &lt;a
+&quot;http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/&quot;&gt;Amazon
+EC2 API reference&lt;/a&gt;.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/addReservedInstancesModificationId:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to reservedInstancesModificationIds.
+This function will alloc and init reservedInstancesModificationIds if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addReservedInstancesModificationId:(NSString *)reservedInstancesModificationIdObject</Declaration>
+			
+			
+			<Anchor>//api/name/addReservedInstancesModificationId:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/addFilter:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to filters.
+This function will alloc and init filters if not already done.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addFilter:(EC2Filter *)filterObject</Declaration>
+			
+			
+			<Anchor>//api/name/addFilter:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2DescribeReservedInstancesModificationsRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2DescribeReservedInstancesModificationsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

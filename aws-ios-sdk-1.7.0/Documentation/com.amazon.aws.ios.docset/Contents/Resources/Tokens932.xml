@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SimpleDBPutAttributesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SimpleDBPutAttributesResponse</TokenIdentifier>
+			<Abstract type="html">Put Attributes</Abstract>
+			<DeclaredIn>SimpleDBPutAttributesResponse.h</DeclaredIn>
+			
+			<NodeRef refid="932"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

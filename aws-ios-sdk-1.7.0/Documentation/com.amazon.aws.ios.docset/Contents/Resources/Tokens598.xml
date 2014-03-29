@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3BucketLifecycleConfigurationRule.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3BucketLifecycleConfigurationRule</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>
+			
+			<NodeRef refid="598"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setRuleId:</TokenIdentifier>
+			<Abstract type="html">The id for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
+			
+			
+			<Anchor>//api/name/ruleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/ruleId</TokenIdentifier>
+			<Abstract type="html">The id for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *ruleId</Declaration>
+			
+			
+			<Anchor>//api/name/ruleId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setStatus:</TokenIdentifier>
+			<Abstract type="html">The status for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/status</TokenIdentifier>
+			<Abstract type="html">The status for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setPrefix:</TokenIdentifier>
+			<Abstract type="html">The object key prefix for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/prefix</TokenIdentifier>
+			<Abstract type="html">The object key prefix for this rule *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setExpirationInDays:</TokenIdentifier>
+			<Abstract type="html">The expiration time for this rule in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t expirationInDays</Declaration>
+			
+			
+			<Anchor>//api/name/expirationInDays</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/expirationInDays</TokenIdentifier>
+			<Abstract type="html">The expiration time for this rule in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int32_t expirationInDays</Declaration>
+			
+			
+			<Anchor>//api/name/expirationInDays</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setExpirationDate:</TokenIdentifier>
+			<Abstract type="html">The expiration date for this rule as an absolute date.
+If expirationInDays is non-zero, this property will be
+ignored.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expirationDate</Declaration>
+			
+			
+			<Anchor>//api/name/expirationDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/expirationDate</TokenIdentifier>
+			<Abstract type="html">The expiration date for this rule as an absolute date.
+If expirationInDays is non-zero, this property will be
+ignored.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDate *expirationDate</Declaration>
+			
+			
+			<Anchor>//api/name/expirationDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/setTransitions:</TokenIdentifier>
+			<Abstract type="html">The list of storage class transitions.
+Currently only one transition is supported.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *transitions</Declaration>
+			
+			
+			<Anchor>//api/name/transitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3BucketLifecycleConfigurationRule/transitions</TokenIdentifier>
+			<Abstract type="html">The list of storage class transitions.
+Currently only one transition is supported.</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *transitions</Declaration>
+			
+			
+			<Anchor>//api/name/transitions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/initWithId:andPrefix:andStatus:</TokenIdentifier>
+			<Abstract type="html">initializer that creates a new rule with no expiration *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithId:(NSString *)theRuleId andPrefix:(NSString *)thePrefix andStatus:(NSString *)theStatus</Declaration>
+			
+			
+			<Anchor>//api/name/initWithId:andPrefix:andStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/initWithId:andPrefix:andExpirationInDays:andStatus:</TokenIdentifier>
+			<Abstract type="html">initializer that creates a new rule with an expiration in days *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithId:(NSString *)theRuleId andPrefix:(NSString *)thePrefix andExpirationInDays:(NSInteger)theExpiration andStatus:(NSString *)theStatus</Declaration>
+			
+			
+			<Anchor>//api/name/initWithId:andPrefix:andExpirationInDays:andStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/initWithId:andPrefix:andExpirationDate:andStatus:</TokenIdentifier>
+			<Abstract type="html">initializer that creates a new rule with an expiration date *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithId:(NSString *)theRuleId andPrefix:(NSString *)thePrefix andExpirationDate:(NSDate *)theExpirationDate andStatus:(NSString *)theStatus</Declaration>
+			
+			
+			<Anchor>//api/name/initWithId:andPrefix:andExpirationDate:andStatus:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3BucketLifecycleConfigurationRule/isEnabled</TokenIdentifier>
+			<Abstract type="html">Helper function to for boolean status *</Abstract>
+			<DeclaredIn>S3BucketLifecycleConfigurationRule.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isEnabled</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

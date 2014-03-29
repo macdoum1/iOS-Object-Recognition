@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AmazonRequestDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AmazonRequestDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didReceiveResponse:</TokenIdentifier>
+			<Abstract type="html">Sent when the response header has been received, but before the body has been received.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didReceiveResponse:(NSURLResponse *)response</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The AmazonServiceRequest sending the message.</Abstract>
+				</Parameter><Parameter>
+					<Name>response</Name>
+					<Abstract type="html">The HTTP response information.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didReceiveResponse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didCompleteWithResponse:</TokenIdentifier>
+			<Abstract type="html">Sent when the entire response has been read and processed.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didCompleteWithResponse:(AmazonServiceResponse *)response</Declaration>
+			
+			
+			<Anchor>//api/name/request:didCompleteWithResponse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didReceiveData:</TokenIdentifier>
+			<Abstract type="html">Sent when body data has been read. May be called multiple times.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didReceiveData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The AmazonServiceRequest sending the message.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The newly available data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didReceiveData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didSendData:totalBytesWritten:totalBytesExpectedToWrite:</TokenIdentifier>
+			<Abstract type="html">Sent when the request transmitted data.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didSendData:(long long)bytesWritten totalBytesWritten:(long long)totalBytesWritten totalBytesExpectedToWrite:(long long)totalBytesExpectedToWrite</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The AmazonServiceRequest sending the message.</Abstract>
+				</Parameter><Parameter>
+					<Name>bytesWritten</Name>
+					<Abstract type="html">The number of bytes written in the latest write.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesWritten</Name>
+					<Abstract type="html">The total number of bytes written for this connection.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesExpectedToWrite</Name>
+					<Abstract type="html">The number of bytes the connection expects to write.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didSendData:totalBytesWritten:totalBytesExpectedToWrite:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didFailWithError:</TokenIdentifier>
+			<Abstract type="html">Sent when there was a basic failure with the underlying connection.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The AmazonServiceRequest sending the message.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">An error object containing details of why the connection failed to load the request successfully.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didFailWithError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AmazonRequestDelegate/request:didFailWithServiceException:</TokenIdentifier>
+			<Abstract type="html">Sent when the service responded with an exception.</Abstract>
+			<DeclaredIn>AmazonRequestDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(AmazonServiceRequest *)request didFailWithServiceException:(NSException *)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The AmazonServiceRequest sending the message.</Abstract>
+				</Parameter><Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">The AmazonClientException that would have been thrown in the absence of a delegate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didFailWithServiceException:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

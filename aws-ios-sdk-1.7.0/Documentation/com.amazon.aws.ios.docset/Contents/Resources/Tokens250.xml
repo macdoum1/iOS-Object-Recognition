@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2CancelledSpotInstanceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2CancelledSpotInstanceRequest</TokenIdentifier>
+			<Abstract type="html">Cancelled Spot Instance Request</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>
+			
+			<NodeRef refid="250"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelledSpotInstanceRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelledSpotInstanceRequest/setSpotInstanceRequestId:</TokenIdentifier>
+			<Abstract type="html">The value of the SpotInstanceRequestId property for this object.</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CancelledSpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
+			<Abstract type="html">The value of the SpotInstanceRequestId property for this object.</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelledSpotInstanceRequest/setState:</TokenIdentifier>
+			<Abstract type="html">The value of the State property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;active, open, closed, cancelled, completed</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2CancelledSpotInstanceRequest/state</TokenIdentifier>
+			<Abstract type="html">The value of the State property for this object.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;active, open, closed, cancelled, completed</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2CancelledSpotInstanceRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2CancelledSpotInstanceRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse</TokenIdentifier>
+			<Abstract type="html">Register Instances With Load Balancer Result</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>
+			
+			<NodeRef refid="578"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/setException:</TokenIdentifier>
+			<Abstract type="html">If an exception was thrown, this will return the exception.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>- (void)setException:(AmazonServiceException *)theException</Declaration>
+			
+			
+			<Anchor>//api/name/setException:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/setInstances:</TokenIdentifier>
+			<Abstract type="html">An updated list of instances for the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/instances</TokenIdentifier>
+			<Abstract type="html">An updated list of instances for the LoadBalancer.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/instancesObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a value from the instances array for the specified index</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>- (ElasticLoadBalancingInstance *)instancesObjectAtIndex:(int)index</Declaration>
+			
+			
+			<Anchor>//api/name/instancesObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingRegisterInstancesWithLoadBalancerResponse.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

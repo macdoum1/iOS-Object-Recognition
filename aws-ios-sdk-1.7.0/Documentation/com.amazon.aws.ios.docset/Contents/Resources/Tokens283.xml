@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteKeyPairResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteKeyPairResponse</TokenIdentifier>
+			<Abstract type="html">Delete Key Pair</Abstract>
+			<DeclaredIn>EC2DeleteKeyPairResponse.h</DeclaredIn>
+			
+			<NodeRef refid="283"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

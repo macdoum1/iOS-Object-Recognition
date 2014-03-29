@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SESSendEmailRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SESSendEmailRequest</TokenIdentifier>
+			<Abstract type="html">Send Email Request</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>
+			
+			<NodeRef refid="739"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new  object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/setSource:</TokenIdentifier>
+			<Abstract type="html">The identity&apos;s email address.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSendEmailRequest/source</TokenIdentifier>
+			<Abstract type="html">The identity&apos;s email address.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/setDestination:</TokenIdentifier>
+			<Abstract type="html">The destination for this email, composed of To:, CC:, and BCC: fields.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESDestination *destination</Declaration>
+			
+			
+			<Anchor>//api/name/destination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSendEmailRequest/destination</TokenIdentifier>
+			<Abstract type="html">The destination for this email, composed of To:, CC:, and BCC: fields.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESDestination *destination</Declaration>
+			
+			
+			<Anchor>//api/name/destination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/setMessage:</TokenIdentifier>
+			<Abstract type="html">The message to be sent.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSendEmailRequest/message</TokenIdentifier>
+			<Abstract type="html">The message to be sent.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) SESMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/setReplyToAddresses:</TokenIdentifier>
+			<Abstract type="html">The reply-to email address(es) for the message. If the recipient
+replies to the message, each reply-to address will receive the reply.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *replyToAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/replyToAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSendEmailRequest/replyToAddresses</TokenIdentifier>
+			<Abstract type="html">The reply-to email address(es) for the message. If the recipient
+replies to the message, each reply-to address will receive the reply.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *replyToAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/replyToAddresses</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/setReturnPath:</TokenIdentifier>
+			<Abstract type="html">The email address to which bounce notifications are to be forwarded.
+If the message cannot be delivered to the recipient, then an error
+message will be returned from the recipient&apos;s ISP; this message will
+then be forwarded to the email address specified by the
+&lt;code&gt;ReturnPath&lt;/code&gt; parameter.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnPath</Declaration>
+			
+			
+			<Anchor>//api/name/returnPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SESSendEmailRequest/returnPath</TokenIdentifier>
+			<Abstract type="html">The email address to which bounce notifications are to be forwarded.
+If the message cannot be delivered to the recipient, then an error
+message will be returned from the recipient&apos;s ISP; this message will
+then be forwarded to the email address specified by the
+&lt;code&gt;ReturnPath&lt;/code&gt; parameter.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnPath</Declaration>
+			
+			
+			<Anchor>//api/name/returnPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/addReplyToAddresse:</TokenIdentifier>
+			<Abstract type="html">Adds a single object to replyToAddresses.
+This function will alloc and init replyToAddresses if not already done.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addReplyToAddresse:(NSString *)replyToAddresseObject</Declaration>
+			
+			
+			<Anchor>//api/name/addReplyToAddresse:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SESSendEmailRequest/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SESSendEmailRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2PlacementGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2PlacementGroup</TokenIdentifier>
+			<Abstract type="html">Placement Group</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>
+			
+			<NodeRef refid="438"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">The name of this &lt;code&gt;PlacementGroup&lt;/code&gt;.</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PlacementGroup/groupName</TokenIdentifier>
+			<Abstract type="html">The name of this &lt;code&gt;PlacementGroup&lt;/code&gt;.</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/setStrategy:</TokenIdentifier>
+			<Abstract type="html">The strategy to use when allocating Amazon EC2 instances for the
+&lt;code&gt;PlacementGroup&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;cluster</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PlacementGroup/strategy</TokenIdentifier>
+			<Abstract type="html">The strategy to use when allocating Amazon EC2 instances for the
+&lt;code&gt;PlacementGroup&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;cluster</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/setState:</TokenIdentifier>
+			<Abstract type="html">The state of this &lt;code&gt;PlacementGroup&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, available, deleting, deleted</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EC2PlacementGroup/state</TokenIdentifier>
+			<Abstract type="html">The state of this &lt;code&gt;PlacementGroup&lt;/code&gt;.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Allowed Values: &lt;/b&gt;pending, available, deleting, deleted</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new PlacementGroup object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/initWithGroupName:</TokenIdentifier>
+			<Abstract type="html">Constructs a new PlacementGroup object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithGroupName:(NSString *)theGroupName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theGroupName</Name>
+					<Abstract type="html">The name of this &lt;code&gt;PlacementGroup&lt;/code&gt;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithGroupName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EC2PlacementGroup/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>EC2PlacementGroup.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

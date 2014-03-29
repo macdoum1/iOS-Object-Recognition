@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3AbstractPutRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3AbstractPutRequest</TokenIdentifier>
+			<Abstract type="html">Class with code common to Put* requests. Do not instantiate directly</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>
+			
+			<NodeRef refid="593"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/setCannedACL:</TokenIdentifier>
+			<Abstract type="html">A canned access control list to apply to the object.
+Valid values are &apos;private&apos;, &apos;public-read&apos;, &apos;public-read-write&apos;,
+&apos;authenticated-read&apos;, &apos;log-delivery-write&apos;, &apos;bucket-owner-read&apos;,
+&apos;bucket-owner-full-control&apos;.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3CannedACL *cannedACL</Declaration>
+			
+			
+			<Anchor>//api/name/cannedACL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbstractPutRequest/cannedACL</TokenIdentifier>
+			<Abstract type="html">A canned access control list to apply to the object.
+Valid values are &apos;private&apos;, &apos;public-read&apos;, &apos;public-read-write&apos;,
+&apos;authenticated-read&apos;, &apos;log-delivery-write&apos;, &apos;bucket-owner-read&apos;,
+&apos;bucket-owner-full-control&apos;.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3CannedACL *cannedACL</Declaration>
+			
+			
+			<Anchor>//api/name/cannedACL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/setFullACL:</TokenIdentifier>
+			<Abstract type="html">A full access control list to apply to the bucket</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3AccessControlList *fullACL</Declaration>
+			
+			
+			<Anchor>//api/name/fullACL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbstractPutRequest/fullACL</TokenIdentifier>
+			<Abstract type="html">A full access control list to apply to the bucket</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) S3AccessControlList *fullACL</Declaration>
+			
+			
+			<Anchor>//api/name/fullACL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The storage class for the object.
+Valid values are &apos;STANDARD&apos;, &apos;REDUCED_REDUNDANCY&apos;</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbstractPutRequest/storageClass</TokenIdentifier>
+			<Abstract type="html">The storage class for the object.
+Valid values are &apos;STANDARD&apos;, &apos;REDUCED_REDUNDANCY&apos;</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/setServerSideEncryption:</TokenIdentifier>
+			<Abstract type="html">Optional server side encryption algorithm.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serverSideEncryption</Declaration>
+			
+			
+			<Anchor>//api/name/serverSideEncryption</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbstractPutRequest/serverSideEncryption</TokenIdentifier>
+			<Abstract type="html">Optional server side encryption algorithm.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *serverSideEncryption</Declaration>
+			
+			
+			<Anchor>//api/name/serverSideEncryption</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/setMetadata:</TokenIdentifier>
+			<Abstract type="html">The metadata dictionary of key-value pairs.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbstractPutRequest/metadata</TokenIdentifier>
+			<Abstract type="html">The metadata dictionary of key-value pairs.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbstractPutRequest/addMetadataWithValue:forKey:</TokenIdentifier>
+			<Abstract type="html">Add a key-value metadata pair to the request.
+These will be prefixed with x-amz-meta- and added to the request header.</Abstract>
+			<DeclaredIn>S3AbstractPutRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)addMetadataWithValue:(NSString *)value forKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/addMetadataWithValue:forKey:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

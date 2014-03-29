@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3AbortMultipartUploadRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3AbortMultipartUploadRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the abortMultipartUpload operation.</Abstract>
+			<DeclaredIn>S3AbortMultipartUploadRequest.h</DeclaredIn>
+			
+			<NodeRef refid="591"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbortMultipartUploadRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html">The id of the upload to abort.</Abstract>
+			<DeclaredIn>S3AbortMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3AbortMultipartUploadRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">The id of the upload to abort.</Abstract>
+			<DeclaredIn>S3AbortMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3AbortMultipartUploadRequest/initWithMultipartUpload:</TokenIdentifier>
+			<Abstract type="html">Initializes the instance with the bucket, key, and uploadId from an S3MultipartUpload instance returned in an S3MultipartUploadResponse.</Abstract>
+			<DeclaredIn>S3AbortMultipartUploadRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMultipartUpload:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

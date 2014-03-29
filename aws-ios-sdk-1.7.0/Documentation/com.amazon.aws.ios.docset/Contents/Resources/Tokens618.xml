@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteBucketCrossOriginRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteBucketCrossOriginRequest</TokenIdentifier>
+			<Abstract type="html">Contains the parameters used for the deleteBucketCrossOriginRequest operation.</Abstract>
+			<DeclaredIn>S3DeleteBucketCrossOriginRequest.h</DeclaredIn>
+			
+			<NodeRef refid="618"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

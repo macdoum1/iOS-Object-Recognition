@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SecurityTokenServiceIDPCommunicationErrorException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SecurityTokenServiceIDPCommunicationErrorException</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;
+The request could not be fulfilled because the non-AWS identity
+provider (IDP) that was asked to verify the incoming identity token
+could not be reached. This is often a transient error caused by
+network conditions. Retry the request a limited number of times so
+that you don&apos;t exceed the request rate. If the error persists, the
+non-AWS identity provider might be down or not responding.
+&lt;/p&gt;</Abstract>
+			<DeclaredIn>SecurityTokenServiceIDPCommunicationErrorException.h</DeclaredIn>
+			
+			<NodeRef refid="889"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceIDPCommunicationErrorException/initWithMessage:</TokenIdentifier>
+			<Abstract type="html">Initialize the exception with a message.</Abstract>
+			<DeclaredIn>SecurityTokenServiceIDPCommunicationErrorException.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SecurityTokenServiceIDPCommunicationErrorException/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>SecurityTokenServiceIDPCommunicationErrorException.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

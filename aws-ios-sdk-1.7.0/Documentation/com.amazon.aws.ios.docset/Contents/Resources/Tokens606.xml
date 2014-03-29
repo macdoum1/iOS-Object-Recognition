@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3CannedACL.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3CannedACL</TokenIdentifier>
+			<Abstract type="html">An Enumeration of all possible CannedACLs that can be used
+for S3 Buckets or S3 Objects.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>
+			
+			<NodeRef refid="606"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/private</TokenIdentifier>
+			<Abstract type="html">Owner gets FULL_CONTROL.
+No one else has access rights (default).</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)private</Declaration>
+			
+			
+			<Anchor>//api/name/private</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/publicRead</TokenIdentifier>
+			<Abstract type="html">Owner gets FULL_CONTROL and the anonymous principal is granted READ access.
+If this policy is used on an object, it can be read from a browser with no authentication.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)publicRead</Declaration>
+			
+			
+			<Anchor>//api/name/publicRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/publicReadWrite</TokenIdentifier>
+			<Abstract type="html">Owner gets FULL_CONTROL, the anonymous principal is granted READ and WRITE access.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)publicReadWrite</Declaration>
+			
+			
+			<Anchor>//api/name/publicReadWrite</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/authenticatedRead</TokenIdentifier>
+			<Abstract type="html">Owner gets FULL_CONTROL, and any principal authenticated as a registered Amazon
+S3 user is granted READ access.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)authenticatedRead</Declaration>
+			
+			
+			<Anchor>//api/name/authenticatedRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/bucketOwnerRead</TokenIdentifier>
+			<Abstract type="html">Object Owner gets FULL_CONTROL, Bucket Owner gets READ.
+This ACL applies only to objects and is equivalent to private when used with PUT Bucket.
+You use this ACL to let someone other than the bucket owner write content (get full control)
+in the bucket but still grant the bucket owner read access to the objects.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)bucketOwnerRead</Declaration>
+			
+			
+			<Anchor>//api/name/bucketOwnerRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/S3CannedACL/bucketOwnerFullControl</TokenIdentifier>
+			<Abstract type="html">Object Owner gets FULLCONTROL, Bucket Owner gets FULLCONTROL.
+This ACL applies only to objects and is equivalent to private when used with PUT Bucket.
+You use this ACL to let someone other than the bucket owner write content (get full control)
+in the bucket but still grant the bucket owner full rights over the objects.</Abstract>
+			<DeclaredIn>S3CannedACL.h</DeclaredIn>			
+			
+			<Declaration>+ (S3CannedACL *)bucketOwnerFullControl</Declaration>
+			
+			
+			<Anchor>//api/name/bucketOwnerFullControl</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

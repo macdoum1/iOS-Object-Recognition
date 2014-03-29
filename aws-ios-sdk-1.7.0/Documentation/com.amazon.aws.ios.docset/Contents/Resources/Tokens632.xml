@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/S3DeleteObjectsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/S3DeleteObjectsRequest</TokenIdentifier>
+			<Abstract type="html">Request object for DeleteObjects.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>
+			
+			<NodeRef refid="632"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsRequest/setMfaAuth:</TokenIdentifier>
+			<Abstract type="html">The concatenation of the multi-factor authentication device&apos;s serial number,
+a space, and the value displayed on your authentication device.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mfaAuth</Declaration>
+			
+			
+			<Anchor>//api/name/mfaAuth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsRequest/mfaAuth</TokenIdentifier>
+			<Abstract type="html">The concatenation of the multi-factor authentication device&apos;s serial number,
+a space, and the value displayed on your authentication device.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *mfaAuth</Declaration>
+			
+			
+			<Anchor>//api/name/mfaAuth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsRequest/setObjects:</TokenIdentifier>
+			<Abstract type="html">The list of objects to be deleted.
+All objects in the array must be an instance of S3KeyVersion.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsRequest/objects</TokenIdentifier>
+			<Abstract type="html">The list of objects to be deleted.
+All objects in the array must be an instance of S3KeyVersion.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsRequest/setQuiet:</TokenIdentifier>
+			<Abstract type="html">The list of objects to be deleted.
+All objects in the array must be an instance of S3KeyVersion.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL quiet</Declaration>
+			
+			
+			<Anchor>//api/name/quiet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/S3DeleteObjectsRequest/quiet</TokenIdentifier>
+			<Abstract type="html">The list of objects to be deleted.
+All objects in the array must be an instance of S3KeyVersion.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL quiet</Declaration>
+			
+			
+			<Anchor>//api/name/quiet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/S3DeleteObjectsRequest/toXml</TokenIdentifier>
+			<Abstract type="html">Returns the XML represenation of the delete request.</Abstract>
+			<DeclaredIn>S3DeleteObjectsRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)toXml</Declaration>
+			
+			<ReturnValue><Abstract type="html">A XML representation of the Delete.</Abstract></ReturnValue>
+			<Anchor>//api/name/toXml</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

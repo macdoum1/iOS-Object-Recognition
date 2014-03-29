@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EC2DeleteSecurityGroupResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EC2DeleteSecurityGroupResponse</TokenIdentifier>
+			<Abstract type="html">Delete Security Group</Abstract>
+			<DeclaredIn>EC2DeleteSecurityGroupResponse.h</DeclaredIn>
+			
+			<NodeRef refid="287"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

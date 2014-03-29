@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ElasticLoadBalancingHealthCheck.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ElasticLoadBalancingHealthCheck</TokenIdentifier>
+			<Abstract type="html">Health Check</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>
+			
+			<NodeRef refid="555"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/setTarget:</TokenIdentifier>
+			<Abstract type="html">Specifies the instance being checked. The protocol is either TCP,
+HTTP, HTTPS, or SSL. The range of valid ports is one (1) through
+65535. &lt;note&gt; &lt;p&gt; TCP is the default, specified as a TCP: port pair,
+for example &quot;TCP:5000&quot;. In this case a healthcheck simply attempts to
+open a TCP connection to the instance on the specified port. Failure
+to connect within the configured timeout is considered unhealthy.
+&lt;p&gt;SSL is also specified as SSL: port pair, for example, SSL:5000. &lt;p&gt;
+For HTTP or HTTPS protocol, the situation is different. You have to
+include a ping path in the string. HTTP is specified as a
+HTTP:port;/;PathToPing; grouping, for example
+&quot;HTTP:80/weather/us/wa/seattle&quot;. In this case, a HTTP GET request is
+issued to the instance on the given port and path. Any answer other
+than &quot;200 OK&quot; within the timeout period is considered unhealthy. &lt;p&gt;
+The total length of the HTTP ping target needs to be 1024 16-bit
+Unicode characters or less. &lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingHealthCheck/target</TokenIdentifier>
+			<Abstract type="html">Specifies the instance being checked. The protocol is either TCP,
+HTTP, HTTPS, or SSL. The range of valid ports is one (1) through
+65535. &lt;note&gt; &lt;p&gt; TCP is the default, specified as a TCP: port pair,
+for example &quot;TCP:5000&quot;. In this case a healthcheck simply attempts to
+open a TCP connection to the instance on the specified port. Failure
+to connect within the configured timeout is considered unhealthy.
+&lt;p&gt;SSL is also specified as SSL: port pair, for example, SSL:5000. &lt;p&gt;
+For HTTP or HTTPS protocol, the situation is different. You have to
+include a ping path in the string. HTTP is specified as a
+HTTP:port;/;PathToPing; grouping, for example
+&quot;HTTP:80/weather/us/wa/seattle&quot;. In this case, a HTTP GET request is
+issued to the instance on the given port and path. Any answer other
+than &quot;200 OK&quot; within the timeout period is considered unhealthy. &lt;p&gt;
+The total length of the HTTP ping target needs to be 1024 16-bit
+Unicode characters or less. &lt;/note&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/setInterval:</TokenIdentifier>
+			<Abstract type="html">Specifies the approximate interval, in seconds, between health checks
+of an individual instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 300&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingHealthCheck/interval</TokenIdentifier>
+			<Abstract type="html">Specifies the approximate interval, in seconds, between health checks
+of an individual instance.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 300&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/setTimeout:</TokenIdentifier>
+			<Abstract type="html">Specifies the amount of time, in seconds, during which no response
+means a failed health probe. &lt;note&gt; This value must be less than the
+&lt;i&gt;Interval&lt;/i&gt; value. &lt;/note&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 300&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingHealthCheck/timeout</TokenIdentifier>
+			<Abstract type="html">Specifies the amount of time, in seconds, during which no response
+means a failed health probe. &lt;note&gt; This value must be less than the
+&lt;i&gt;Interval&lt;/i&gt; value. &lt;/note&gt;
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;1 - 300&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/setUnhealthyThreshold:</TokenIdentifier>
+			<Abstract type="html">Specifies the number of consecutive health probe failures required
+before moving the instance to the &lt;i&gt;Unhealthy&lt;/i&gt; state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;2 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *unhealthyThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/unhealthyThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingHealthCheck/unhealthyThreshold</TokenIdentifier>
+			<Abstract type="html">Specifies the number of consecutive health probe failures required
+before moving the instance to the &lt;i&gt;Unhealthy&lt;/i&gt; state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;2 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *unhealthyThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/unhealthyThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/setHealthyThreshold:</TokenIdentifier>
+			<Abstract type="html">Specifies the number of consecutive health probe successes required
+before moving the instance to the &lt;i&gt;Healthy&lt;/i&gt; state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;2 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *healthyThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/healthyThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ElasticLoadBalancingHealthCheck/healthyThreshold</TokenIdentifier>
+			<Abstract type="html">Specifies the number of consecutive health probe successes required
+before moving the instance to the &lt;i&gt;Healthy&lt;/i&gt; state.
+&lt;p&gt;
+&lt;b&gt;Constraints:&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Range: &lt;/b&gt;2 - 10&lt;br/&gt;</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *healthyThreshold</Declaration>
+			
+			
+			<Anchor>//api/name/healthyThreshold</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/init</TokenIdentifier>
+			<Abstract type="html">Default constructor for a new HealthCheck object.  Callers should use the
+property methods to initialize this object after creating it.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/initWithTarget:andInterval:andTimeout:andUnhealthyThreshold:andHealthyThreshold:</TokenIdentifier>
+			<Abstract type="html">Constructs a new HealthCheck object.
+Callers should use properties to initialize any additional object members.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(NSString *)theTarget andInterval:(NSNumber *)theInterval andTimeout:(NSNumber *)theTimeout andUnhealthyThreshold:(NSNumber *)theUnhealthyThreshold andHealthyThreshold:(NSNumber *)theHealthyThreshold</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>theTarget</Name>
+					<Abstract type="html">Specifies the instance being checked. The protocol is
+either TCP, HTTP, HTTPS, or SSL. The range of valid ports is one (1)
+through 65535. &lt;note&gt; &lt;p&gt; TCP is the default, specified as a TCP: port
+pair, for example &quot;TCP:5000&quot;. In this case a healthcheck simply
+attempts to open a TCP connection to the instance on the specified
+port. Failure to connect within the configured timeout is considered
+unhealthy. &lt;p&gt;SSL is also specified as SSL: port pair, for example,
+SSL:5000. &lt;p&gt; For HTTP or HTTPS protocol, the situation is different.
+You have to include a ping path in the string. HTTP is specified as a
+HTTP:port;/;PathToPing; grouping, for example
+&quot;HTTP:80/weather/us/wa/seattle&quot;. In this case, a HTTP GET request is
+issued to the instance on the given port and path. Any answer other
+than &quot;200 OK&quot; within the timeout period is considered unhealthy. &lt;p&gt;
+The total length of the HTTP ping target needs to be 1024 16-bit
+Unicode characters or less. &lt;/note&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theInterval</Name>
+					<Abstract type="html">Specifies the approximate interval, in seconds,
+between health checks of an individual instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>theTimeout</Name>
+					<Abstract type="html">Specifies the amount of time, in seconds, during
+which no response means a failed health probe. &lt;note&gt; This value must
+be less than the &lt;i&gt;Interval&lt;/i&gt; value. &lt;/note&gt;</Abstract>
+				</Parameter><Parameter>
+					<Name>theUnhealthyThreshold</Name>
+					<Abstract type="html">Specifies the number of consecutive
+health probe failures required before moving the instance to the
+&lt;i&gt;Unhealthy&lt;/i&gt; state.</Abstract>
+				</Parameter><Parameter>
+					<Name>theHealthyThreshold</Name>
+					<Abstract type="html">Specifies the number of consecutive health
+probe successes required before moving the instance to the
+&lt;i&gt;Healthy&lt;/i&gt; state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTarget:andInterval:andTimeout:andUnhealthyThreshold:andHealthyThreshold:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ElasticLoadBalancingHealthCheck/description</TokenIdentifier>
+			<Abstract type="html">Returns a string representation of this object; useful for testing and
+debugging.</Abstract>
+			<DeclaredIn>ElasticLoadBalancingHealthCheck.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representation of this object.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
